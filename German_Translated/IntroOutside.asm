@@ -1,0 +1,194 @@
+IntroOutside_MapScriptHeader;trigger count
+	db 4
+	maptrigger .play_introduction
+	maptrigger GenericDummyScript
+	maptrigger GenericDummyScript
+	maptrigger GenericDummyScript
+;callback count
+	db 2
+	dbw MAPCALLBACK_NEWMAP, .init_events
+	dbw MAPCALLBACK_TILES, .landslide_tiles
+
+.landslide_tiles
+	checkevent EVENT_INTRO_LANDSLIDE
+	sif true, then
+		changeblock 8, 16, $3b
+		changeblock 10, 16, $8e
+		changeblock 12, 16, $28
+	sendif
+	return
+
+.init_events
+	checkevent EVENT_INITIALIZED_EVENTS
+	sif true
+		return
+	jumpstd initializeevents
+
+.play_introduction
+	priorityjump .play_music
+			  
+	end
+
+.play_music
+	playmusic MUSIC_NATIONAL_PARK
+	dotrigger 1
+	spriteface PLAYER, LEFT
+	spriteface 2, RIGHT
+	jumptext .mom_intro_text
+
+.mom_intro_text
+	ctxt "Hier ist es so"
+	line "schön, nicht wahr?"
+
+	para "Ich bin froh das"
+	line "wir gemeinsam Zeit"
+	cont "verbringen<...>"
+
+	para "Es tut mir leid"
+	line "das dein Vater uns"
+	cont "verlassen hat."
+
+	para "Kein Kind möchte"
+	line "das erleben<...>"
+
+	para "<PLAYER>, dein"
+	line "Vater war ein"
+	cont "großartiger Mann!"
+	para "Obwohl er viele"
+	line "Fans hatte, warst"
+	cont "du sein größter."
+
+	para "Ich weiß du willst"
+	line "in seine Fuß-"
+	cont "stapfen treten<...>"
+
+	para "Aber versprich mir"
+	line "egal wohin dich"
+	cont "dein Leben führt<...>"
+	para "vergiss niemals"
+	line "deine Mutter."
+
+	para "Danke für die sch-"
+	line "öne Zeit, <PLAYER>."
+	done
+
+StartingGameEarthquake:
+	playmusic MUSIC_NONE
+	playsound SFX_EMBER
+	earthquake 50
+	changeblock 08, 16, $3B
+	changeblock 10, 16, $8E
+	changeblock 12, 16, $28
+	spriteface PLAYER, UP
+	showemote EMOTE_SHOCK, 0, 16
+	waitsfx
+	dotrigger 3
+	setevent EVENT_INTRO_LANDSLIDE
+	end
+
+IntroCampsiteFire:
+	ctxt "Sieht heiß aus!"
+	line "Nicht berühren<...>"
+	done
+
+IntroCampsiteMom:
+	ctxt "Hier ist es so"
+	line "schön, nicht wahr?"
+
+	para "Ich habe die Ruhe"
+	line "der Wildnis so"
+	cont "vermisst<...>"
+
+	para "Danke für die sch-"
+	line "öne Zeit, <PLAYER>."
+	done
+
+IntroMomLeavingDialogue:
+	spriteface PLAYER, UP
+	spriteface 2, DOWN
+	playmusic MUSIC_MOM
+	showtext .leaving_text_1
+	checkcode VAR_XCOORD
+	sif =, 4, then
+		applymovement 2, .approach_far
+	selse
+		applymovement 2, .approach_near
+	sendif
+	showtext .leaving_text_2
+	playmusic MUSIC_NATIONAL_PARK
+	applymovement 2, .walk_back
+	dotrigger 2
+	end
+
+.leaving_text_1
+	text "<PLAYER>!"
+	sdone
+
+.leaving_text_2
+	ctxt "<...>Oh, gehst du"
+	line "etwa spazieren?"
+
+	para "kannst du uns"
+	line "etwas Feuerholz"
+	cont "mitbringen?"
+
+	para "Das Feuer soll uns"
+	line "schließlich die"
+	cont "Nacht lang warm"
+	cont "halten!"
+
+	para "<...>und, <PLAYER><...>"
+
+	para "<...>"
+
+	para "<...>Ich Liebe dich"
+	line "mein Kind<...>"
+	sdone
+
+.approach_far
+	step_down
+	step_down
+	rept 5
+		step_left
+	endr
+	turn_head_down
+	step_end
+
+.approach_near
+	step_down
+	step_down
+	rept 4
+		step_left
+	endr
+	turn_head_down
+	step_end
+
+.walk_back
+	rept 5
+		step_right
+	endr
+	step_up
+	step_up
+	turn_head_down
+	step_end
+
+IntroOutside_MapEventHeader:: db 0, 0
+
+.Warps
+	db 1
+	warp_def 31, 14, 1, INTRO_CAVE
+
+.CoordEvents
+	db 4
+	xy_trigger 1, 9, 4, IntroMomLeavingDialogue
+	xy_trigger 1, 9, 5, IntroMomLeavingDialogue
+	xy_trigger 2, 22, 10, StartingGameEarthquake
+	xy_trigger 2, 22, 11, StartingGameEarthquake
+
+.BGEvents
+	db 0
+
+.ObjectEvents
+	db 2
+	person_event SPRITE_MOM, 6, 9, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 3, -1, -1, PAL_OW_PLAYER + 8, PERSONTYPE_TEXTFP, 0, IntroCampsiteMom, -1
+	person_event SPRITE_FIRE, 6, 11, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_OW_RED, PERSONTYPE_TEXT, 0, IntroCampsiteFire, -1

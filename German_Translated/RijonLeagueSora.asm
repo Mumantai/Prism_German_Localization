@@ -1,0 +1,103 @@
+RijonLeagueSora_MapScriptHeader;trigger count
+	db 0
+ ;callback count
+	db 0
+
+RijonLeagueSora_Sora:
+	faceplayer
+	opentext
+	writetext .before_battle_text
+	winlosstext .battle_won_text, 0
+	setlasttalked 255
+	writecode VAR_BATTLETYPE, BATTLETYPE_NORMAL
+	checkcode VAR_BADGES
+	sif >, 19, then
+		loadtrainer SORA, 2
+	selse
+		loadtrainer SORA, 1
+	sendif
+	startbattle
+	reloadmapafterbattle
+	playmapmusic
+	showtext .after_battle_text
+	playsound SFX_WHIRLWIND
+	applymovement 2, .vanish
+	disappear 2
+	end
+
+.vanish
+	teleport_from
+	remove_person
+	step_end
+
+.before_battle_text
+	ctxt "Wie gehts dir"
+	line "Trainer?"
+
+	para "Oder sollte ich"
+	line "besser sagen:"
+	cont "Herausforderer!"
+
+	para "Ich bin Sora, die"
+	line "Flug #mon"
+	para "Meisterin der"
+	line "Rijon Liga!"
+
+	para "Du hast es zwar"
+	line "durch das 1. Tor"
+	para "geschafft, aber es"
+	line "wird nach jedem"
+	para "Tor schwieriger"
+	line "Trainer!"
+
+	para "Versuche nicht zu"
+	line "schnell von meiner"
+	para "Macht davongeweht"
+	line "zu werden!"
+	sdone
+
+.battle_won_text
+	ctxt "Ich bin Atemlos!"
+	done
+
+.after_battle_text
+	ctxt "Im Ernst, es gibt"
+	line "nicht viele"
+	para "Trainer, die mich"
+	line "besiegen konnten<...>"
+
+	para "Das heißt also,"
+	line "dass du und deine"
+	para "#mon die innere"
+	line "Ruhe und Kraft"
+	para "besitzen, der"
+	line "Rijon Liga etwas"
+	para "entgegensetzen zu"
+	line "können."
+
+	para "Glückwunsch,"
+	line "Herausforderer!"
+
+	para "Geh weiter zu"
+	line "deinem nächsten"
+	cont "Gegner."
+	sdone
+
+RijonLeagueSora_MapEventHeader ;filler
+	db 0, 0
+
+;warps
+	db 3
+	dummy_warp $10, $3
+	warp_def $5, $10, 1, RIJON_LEAGUE_DAICHI
+	warp_def $5, $11, 1, RIJON_LEAGUE_DAICHI
+
+	;xy triggers
+	db 0
+
+	;signposts
+	db 0
+
+	;people-events
+	db 1
+	person_event SPRITE_SORA, 5, 9, SPRITEMOVEDATA_00, 0, 0, -1, -1, PAL_OW_BROWN, PERSONTYPE_SCRIPT, 0, RijonLeagueSora_Sora, -1

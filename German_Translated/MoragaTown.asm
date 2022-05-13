@@ -16,8 +16,8 @@ MoragaTownGymSign:
 	ctxt "#mon Arena"
 	next "Leiter: Lois"
 	nl " "
-	next "Der harmonische "
-	next "Gras-Trainer!"
+	next "Die harmonische"
+	next "Pflanzen-Trainerin"
 
 	done
 
@@ -29,7 +29,7 @@ MoragaTownTownSign:
 	done
 
 MoragaTownClosedSign:
-	ctxt "Wegen Renovationen"
+	ctxt "Wegen Renovierung"
 	next "geschlossen."
 
 	done
@@ -49,12 +49,11 @@ MoragaTownNPC2:
 	ctxt "Ich habe gehört,"
 	line "dass in diesem"
 	para "großen Gebäude ein"
-	line "Museum"
-	para "eingerichtet"
-	line "werden soll."
+	line "Museum errichtet"
+	para "werden soll."
 
-	para "Wir könnten etwas"
-	line "Kultur gebrauchen."
+	line "Wir könnten etwas"
+	cont "Kultur gebrauchen."
 
 	done
 

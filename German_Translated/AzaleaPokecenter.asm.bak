@@ -4,27 +4,27 @@ AzaleaPokecenter_MapScriptHeader;trigger count
 	db 0
 
 AzaleaPokecenterNPC1:
-	ctxt "Mutter Natur"
+	ctxt "Die Mutternatur"
 	line "trifft immer gute"
 	cont "Entscheidungen."
 
 	para "Vieleicht öffnet"
-	line "sie den Pfad eines"
+	line "Sie den Pfad eines"
 	para "Tages durch einen"
-	line "zweiten Erdrutsch"
+	line "2. Erdrutsch"
 	cont "wieder."
 	done
 
 AzaleaPokecenterNPC2:
-	ctxt "Wenn man eine"
-	line "Aprikoko aufbricht"
-	para "kann man damit"
-	line "#mon fangen!"
+	ctxt "Wenn du eine"
+	line "Aprikoko auf"
+	para "brichst, kannst"
+	line "du #mon fangen!"
 
 	para "Bevor #bälle"
 	line "erfunden wurden,"
-	para "haben die Leute"
-	line "Aprikokos benutzt."
+	para "nutzte man immer"
+	line "Aprikokos."
 	done
 
 AzaleaPokecenterNPC3:

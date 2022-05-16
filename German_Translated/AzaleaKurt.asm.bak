@@ -14,23 +14,13 @@ AzaleaKurtBallMakingTools:
 	farjump BallMakingScript
 
 AzaleaKurtKurt:
-	ctxt "Ich bin Kurt."
+	ctxt "Ja, ich bin Kurt."
 
-	para "Früher habe ich"
-	line "Tag und Nacht nur"
-	cont "#bälle gebaut."
-
-	para "Heutzutage jedoch<...>"
-
-	para "Du kannst aber"
-	line "gerne selbst Hand"
-	cont "anlegen."
-
-	para "Werkzeuge findest"
-	line "du auf dem Tisch"
-	para "rechts. Du wirst"
-	line "schon rausfinden,"
-	cont "wie das geht."
+	para "Wenn du ein Ball,"
+	line "craften willst,"
+	para "geh zu der Theke"
+	line "rechts und nutze"
+	cont "die Werkzeuge."
 	done
 
 AzaleaKurtGranddaughter:
@@ -80,19 +70,19 @@ AzaleaKurtGranddaughter:
 .low_level_text
 	ctxt "Mein Opa baute vor"
 	line "seiner Krankheit"
-	para "die #bälle noch"
-	line "ganz alleine."
+	para "noch die #bälle"
+	line "selbst."
 
 	para "Jetzt bringt er"
-	line "Leuten bei, wie"
-	cont "sie selbst welche"
-	cont "herstellen können."
+	line "Ihnen bei wie"
+	cont "sie es selbst"
+	cont "craften können."
 	done
 
 .before_unlocking_basement_text
 	ctxt "Wow, du kannst"
 	line "Freundesbälle"
-	cont "herstellen?"
+	cont "craften?"
 
 	para "Ich sollte dir das"
 	line "nicht zeigen<...> aber"
@@ -104,22 +94,22 @@ AzaleaKurtGranddaughter:
 	line "gibt es Werkzeuge"
 	para "mit denen man"
 	line "seltene Bälle"
-	cont "herstellen kann."
+	cont "craften kann."
 
 	para "Sie sind schwierig"
-	line "herzustellen, also"
+	line "zu craften, also"
 	para "wird es nicht"
 	line "immer erfolgreich."
 
-	para "Aber je mehr"
-	line "Erfahrung du hast,"
-	para "umso einfacher ist"
-	line "die Herstellung."
+	para "Aber je höher dein"
+	line "Crafting-LV, umso"
+	para "einfacher die"
+	line "Herstellung."
 	done
 
 .already_unlocked_basement_text
 	ctxt "Vieleicht kannst"
-	line "du Opas Erbe"
+	line "du Opas Legende"
 	cont "fortführen."
 
 	para "Ich glaub an dich!"

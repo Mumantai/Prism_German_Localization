@@ -5,7 +5,7 @@ Apartments1B_MapScriptHeader;trigger count
 
 Apartments1BNPC:
 	ctxt "Die Spielhalle da"
-	line "draußen, ist sogar"
+	line "draußen ist sogar"
 	para "bei Nacht immer"
 	line "noch so laut<...>"
 

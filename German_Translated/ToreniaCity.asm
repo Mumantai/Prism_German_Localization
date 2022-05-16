@@ -19,7 +19,7 @@ ToreniaCityMagnetTrainSign:
 	done
 
 ToreniaCityCitySign:
-	ctxt "Die juengste Stadt"
+	ctxt "Die jüngste Stadt"
 	next "der Region"
 	done
 

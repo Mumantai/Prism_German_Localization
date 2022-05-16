@@ -40,7 +40,7 @@ Route71NPC1:
 
 Route71NPC2:
 	ctxt "War Kaper City"
-	line "zu Kalt für dich?"
+	line "zu kalt für dich?"
 
 	para "Du hast glück!"
 
@@ -49,7 +49,7 @@ Route71NPC2:
 	done
 
 Route71NPC3:
-	ctxt "Ich habe angst"
+	ctxt "Ich habe Angst"
 	line "hier zu stehen."
 
 	para "vieleicht könnte"

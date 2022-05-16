@@ -20,8 +20,8 @@ MysteryZoneAirportNPC:
 .want_to_go_back_text
 	ctxt "Hallo."
 
-	para "Möchtest du zur"
-	line "Südlichen Stadt "
+	para "Möchtest du zurück"
+	line "nach Süd-Stadt"
 	cont "fliegen?"
 
 	done

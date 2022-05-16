@@ -6,7 +6,7 @@ MoragaGym_MapScriptHeader;trigger count
 MoragaGymSign:
 	ctxt "Moragadorf"
 	next "#mon Arena"
-	next "Leiter: Lois"
+	next "Leiterin: Lois"
 	done
 
 MoragaGym_Trainer_1:
@@ -50,7 +50,7 @@ MoragaGym_Trainer_2:
 
 .before_battle_text
 	ctxt "Für Lois bist du"
-	line "nicht bereit, "
+	line "nicht bereit<...>"
 	done
 
 .battle_won_text
@@ -90,7 +90,7 @@ MoragaGym_Trainer_4:
 
 	ctxt "Ich möchte"
 	line "irgenwann auch"
-	para "Arena Leiter "
+	para "Arena Leiter"
 	line "werden!"
 
 	cont "Genau wie sie!"
@@ -188,7 +188,7 @@ MoragaGymLeader:
 	line "sich für die"
 	para "Hälfte des"
 	line "verursachten"
-	para "Schadens an einen "
+	para "Schadens an einen"
 	line "Gegner."
 
 	done

@@ -14,22 +14,22 @@ MoragaTown_GoldToken:
 
 MoragaTownGymSign:
 	ctxt "#mon Arena"
-	next "Leiter: Lois"
+	next "Leiterin: Lois"
 	nl " "
-	next "Die harmonische"
-	next "Pflanzen-Trainerin"
+	next "Die Pflanzen-"
+	next "Trainerin!"
 
 	done
 
 MoragaTownTownSign:
-	ctxt "Eigentlich gar"
+	ctxt "Eigentlich"
 	next "keine Stadt."
 
 
 	done
 
 MoragaTownClosedSign:
-	ctxt "Wegen Renovierung"
+	ctxt "Wegen Renovationen"
 	next "geschlossen."
 
 	done
@@ -49,11 +49,12 @@ MoragaTownNPC2:
 	ctxt "Ich habe gehört,"
 	line "dass in diesem"
 	para "großen Gebäude ein"
-	line "Museum errichtet"
-	para "werden soll."
+	line "Museum"
+	para "eingerichtet"
+	line "werden soll."
 
-	line "Wir könnten etwas"
-	cont "Kultur gebrauchen."
+	para "Wir könnten etwas"
+	line "Kultur gebrauchen."
 
 	done
 

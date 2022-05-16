@@ -5,7 +5,7 @@ SaffronGym_MapScriptHeader;trigger count
 
 SaffronGymSign:
 	ctxt "Saffronia Arena"
-	line "Leiter: Sabrina"
+	line "Leiterin: Sabrina"
 	done
 
 SaffronGymGuide:

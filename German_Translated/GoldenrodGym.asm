@@ -4,8 +4,8 @@ GoldenrodGym_MapScriptHeader;trigger count
 	db 0
 
 GoldenrodGymSign:
-	ctxt "Dukatia Gym"
-	para "Leiter: Bianka"
+	ctxt "Dukatia Arena"
+	para "Leiterin: Bianka"
 	done
 
 GoldenrodGymGuide:
@@ -150,10 +150,9 @@ GoldenrodGymLeader:
 	done
 
 .after_battle_text
-	ctxt "I'm all out of"
-	line "those TMs, but"
-	para "you can have"
-	line "this instead."
+	ctxt "Ich habe zwar"
+	line "keine weiteren TMs"
+	cont "aber dafür das<...>"
 	sdone
 
 .gave_magnet_pass_text

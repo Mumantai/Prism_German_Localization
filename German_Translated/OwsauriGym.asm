@@ -5,7 +5,7 @@ OwsauriGym_MapScriptHeader;trigger count
 
 OwsauriGymSign:
 	ctxt "Owsauri Arena"
-	line "Leiter: Lily"
+	line "Leiterin: Lily"
 	done
 
 OwsauriGymGuide:

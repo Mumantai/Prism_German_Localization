@@ -488,7 +488,7 @@ PrisonF1_Trainer_7:
 
 .before_battle_text
 	ctxt "Es ist viel zu"
-	line "Kalt hier drin<...>"
+	line "kalt hier drin<...>"
 	done
 
 .battle_won_text

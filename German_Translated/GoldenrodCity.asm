@@ -37,9 +37,9 @@ GoldenrodCity_QRCode:
 
 GoldenrodCity_GymSign:
 	ctxt "#mon Arena"
-	next "Leiter: Whitney"
+	next "Leiterin: Bianca"
 	nl " "
-	next "Das hübsche"
+	next "Das huebsche"
 	next "Mädchen!"
 
 	done

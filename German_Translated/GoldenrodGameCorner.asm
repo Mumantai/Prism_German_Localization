@@ -50,8 +50,8 @@ GoldenrodGameCornerMonExchange:
 .options
 	db $80
 	db $3
-	db "Eevee        1000@"
-	db "Bagon        3000@"
+	db "Evoli        1000@"
+	db "Kindwurm     3000@"
 	db "Porygon      5000@"
 
 GoldenrodGameCornerTMExchange:
@@ -111,60 +111,60 @@ GoldenrodGameCornerCardFlip:
 	farjump SpurgeGameCornerCardFlip
 
 GoldenrodGameCornerNPC1:
-	ctxt "Hallo, man nennt "
+	ctxt "Hallo, man nennt"
 	line "mich DJ Ben!"
 
-	para "Ich war früher "
-	line "Moderator einer "
-	para "rockigen "
-	line "#mon-Musikshow, "
-	para "bevor das Beben "
-	line "den Radioturm "
+	para "Ich war früher"
+	line "Moderator einer"
+	para "rockigen"
+	line "#mon-Musikshow,"
+	para "bevor das Beben"
+	line "den Radioturm"
 	cont "zerstörte."
 
-	para "Jetzt verbringe "
-	line "ich die meiste "
-	para "Zeit mit diesem "
+	para "Jetzt verbringe"
+	line "ich die meiste"
+	para "Zeit mit diesem"
 	line "Kartenspiel."
 
-	para "Das mach ich, bis "
+	para "Das mach ich, bis"
 	line "ich wieder DJ sein"
 	cont "kann!"
 
 	done
 
 GoldenrodGameCornerNPC2:
-	ctxt "Die TMs, die sie "
-	line "hier anbieten, "
+	ctxt "Die TMs, die sie"
+	line "hier anbieten,"
 	cont "sind hammer!"
 
-	para "Greif bei "
+	para "Greif bei"
 	line "Gelegenheit zu!"
 
 	done
 
 GoldenrodGameCornerNPC3:
-	ctxt "Ich habe endlich "
-	line "mein Spiel "
-	para "gefunden: "
+	ctxt "Ich habe endlich"
+	line "mein Spiel"
+	para "gefunden:"
 	line "Blackjack!"
 
-	para "Wenn du einen "
-	line "Münzkorb suchst, "
-	para "verkauft ihn eine "
-	line "Person in einer "
-	para "weit entfernten "
-	line "Stadt direkt in "
+	para "Wenn du einen"
+	line "Münzkorb suchst,"
+	para "verkauft ihn eine"
+	line "Person in einer"
+	para "weit entfernten"
+	line "Stadt direkt in"
 	cont "ihrer Spielhalle."
 
-	para "Aber das hast du "
+	para "Aber das hast du"
 	line "nicht von mir."
 
 	done
 
 GoldenrodGameCornerNPC4:
-	ctxt "Das einarmige "
-	line "Banditenspiel ist "
+	ctxt "Das einarmige"
+	line "Banditenspiel ist"
 	cont "unschlagbar<...> "
 	done
 

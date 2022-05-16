@@ -11,14 +11,14 @@ SaffronCityCitySign:
 
 SaffronCityGymSign:
 	ctxt "#mon Arena"
-	next "Leiter: Sabrina"
+	next "Leiterin: Sabrina"
 	done
 
 SaffronCityDojoSign:
 	ctxt "Kampf Dojo"
 	nl " "
 	next "Jeder ist"
-	next "wilkommen!"
+	next "willkommen!"
 
 	done
 
@@ -31,7 +31,7 @@ SaffronCitySilphSign:
 	done
 
 SaffronCityMrPsychicSign:
-	ctxt "Mr. Psychic's"
+	ctxt "Mr. Psychos"
 	next "Haus"
 	done
 
@@ -55,18 +55,16 @@ SaffronCityNPC2:
 
 	para "Er war früher der"
 	line "Leiter der"
-	para "Viridian City "
+	para "Vertania City"
 	line "Arena."
-
 	done
 
 SaffronCityNPC3:
-	ctxt "Silph Co. has"
-	line "grown on me ever"
-	para "since they star-"
-	line "ted being more"
-	para "environmentally"
-	line "friendly."
+	ctxt "Ich liebe die"
+	line "Silph Co. dafür."
+	para "dass sie Umwelt-"
+	line "freundlich "
+	cont "geworden sind."
 	done
 
 SaffronCityNPC4:

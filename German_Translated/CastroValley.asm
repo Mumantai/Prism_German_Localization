@@ -19,7 +19,7 @@ CastroValleyTownSign:
 	done
 
 CastroValleyForestSign:
-	ctxt "Castro Wald"
+	ctxt "Kastrowald"
 	line "Eingang "
 	done
 
@@ -44,7 +44,7 @@ CastroValleyNPC1:
 CastroValleyNPC2:
 	ctxt "Es sind ein paar"
 	line "Weise im"
-	cont "Castrowald."
+	cont "Kastrowald."
 
 	para "Ich frage mich,"
 	line "was sie vorhaben."

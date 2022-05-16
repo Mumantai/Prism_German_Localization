@@ -73,17 +73,17 @@ Route34GateNPC:
 	para "Du kommst nicht "
 	line "aus Johto?"
 
-	para "Hier nimm das als "
+	para "Hier nimm das als"
 	line "Willkommens- "
 	cont "geschenk."
 
 	sdone
 
 .after_giving_TM_text
-	ctxt "TM88 is Signal"
-	line "Beam, my"
-	para "Smettbo's"
-	line "favorite move!"
+	ctxt "TM88 ist"
+	line "Ampelleuchte, mein"
+	para "Smettbos liebste"
+	line "Attacke!"
 
 	done
 

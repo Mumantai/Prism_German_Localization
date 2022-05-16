@@ -83,7 +83,7 @@ Route85_Trainer_2:
 	done
 
 .after_battle_not_undercover_text
-	ctxt "Ich habe angst vor"
+	ctxt "Ich habe Angst vor"
 	line "diesen Paletten"
 	cont "Patrouillen."
 

@@ -531,7 +531,7 @@ LaurelForestPokemonOnlyFruitTree:
 
 	para "Danke fürs her-"
 	line "bringen, ich habe"
-	para "angst alleine los-"
+	para "Angst alleine los-"
 	line "zuziehen."
 	prompt
 

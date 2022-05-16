@@ -17,15 +17,15 @@ AzaleaMartNPC1:
 AzaleaMartNPC2:
 	ctxt "Die Prototypen"
 	line "von Kurts Bällen"
-	para "hatten ein paar"
-	line "Problemchen."
+	para "hatten Kinder-"
+	line "krankheiten."
 
 	para "Sympabälle"
 	line "fingen noch das"
 	para "gleiche Geschlecht"
 	line "oder der Turboball"
 	para "funktionierte nur"
-	line "bei drei #mon."
+	line "bei 3 Wesen."
 
 	para "Zum Glück geht"
 	line "jetzt alles!"

@@ -5,7 +5,7 @@ AzaleaGym_MapScriptHeader;trigger count
 
 AzaleaGymSign:
 	ctxt "Azalea City"
-	line "#mon-Arena"
+	line "#mon Arena"
 
 	para "Leiter: Kai"
 	done
@@ -32,7 +32,7 @@ AzaleaGym_Trainer_2:
 	done
 
 .before_battle_text
-	ctxt "Käfer-#mon"
+	ctxt "Käfer #mon"
 	line "entwickeln sich"
 	cont "früher als andere."
 
@@ -41,8 +41,8 @@ AzaleaGym_Trainer_2:
 	done
 
 .battle_won_text
-	ctxt "Wie du siehst, ist"
-	line "Entwickeln nicht"
+	ctxt "Wie du siehst ist"
+	line "entwickeln nicht"
 	cont "alles!"
 	done
 
@@ -50,12 +50,12 @@ AzaleaGym_Trainer_3:
 	trainer EVENT_AZALEA_GYM_TRAINER_3, BUG_CATCHER, 7, .before_battle_text, .battle_won_text
 
 	ctxt "Ich traf ein"
-	line "Mädchen die Käfer-"
+	line "Mädchen die Käfer"
 	cont "#mon liebt."
 	done
 
 .before_battle_text
-	ctxt "Käfer-#mon"
+	ctxt "Käfer #mon"
 	line "sind krass!"
 
 	para "Hier kommt der"
@@ -98,7 +98,7 @@ AzaleaGym_Trainer_5:
 	done
 
 .battle_won_text
-	ctxt "Aaaargggh!"
+	ctxt "Urrgggh!"
 	done
 
 AzaleaGymBugsy:
@@ -127,16 +127,16 @@ AzaleaGymBugsy:
 .before_battle_text
 	ctxt "Ich bin Kai."
 
-	para "Wenn es um Käfer-"
+	para "Wenn es um Käfer"
 	line "#mon geht, bin"
 	cont "ich der King!"
 
 	para "Ich bin sowas wie"
 	line "eine Autorität"
-	cont "bei Käfer-#mon!"
+	cont "bei Käfer #mon!"
 
 	para "Lass mich dir"
-	line "zeigen, was ich"
+	line "Zeigen was ich"
 	cont "damit meine!"
 	sdone
 
@@ -145,37 +145,37 @@ AzaleaGymBugsy:
 
 	para "Es gibt immer was"
 	line "zu lernen über"
-	cont "Käfer-#mon!"
+	cont "Käfer #mon!"
 
-	para "Hier, der"
+	para "Hier der"
 	line "Insektorden!"
 	done
 
 .received_badge_text
 	ctxt "<PLAYER> erhält"
-	line "den Insektorden."
+	line "Insektorden."
 	done
 
 .before_giving_TM_text
 	ctxt "Nimm bitte noch"
-	line "dieses Geschenk."
+	line "dieses Geschenk:"
 	sdone
 
 .after_giving_TM_text
 	ctxt "Diese TM enthält"
-	line "eine Käfer-Attacke"
-	para "die nur #mon"
-	line "mit Hörnern lernen"
-	cont "können."
+	line "eine Käfer Attacke"
+	para "die nur bei"
+	line "Käfer #mon mit"
+	cont "Hörnern funzt."
 	
 	para "Lass deine Gegner"
 	line "die Macht der"
-	para "Käfer-#mon"
+	para "Käfer #mon"
 	line "spüren!"
 	done
 
 .after_battle_text
-	ctxt "Käfer-#mon"
+	ctxt "Käfer #mon"
 	line "sind komplex."
 
 	para "Es gibt noch so"
@@ -185,18 +185,18 @@ AzaleaGymBugsy:
 AzaleaGymGuide:
 	ctxt "Hey, Trainer!"
 
-	para "Kais Erfahrung"
-	line "bei Käfer-#mon"
+	para "Kai's Erfahrung"
+	line "bei Käfer #mon"
 	cont "ist enorm!"
 
 	para "Nutz am besten"
-	line "Feuer- oder Flug-"
-	cont "#mon gegen ihn!"
+	line "Feuer oder Flug"
+	cont "#mon gegen Ihn!"
 	done
 
 AzaleaGym_OhMyGoodnessText:
 	; this is used by more than one trainer
-	ctxt "Du meine Güte<...>"
+	ctxt "Oh my goodness<...>"
 	done
 
 AzaleaGym_MapEventHeader:: db 0, 0

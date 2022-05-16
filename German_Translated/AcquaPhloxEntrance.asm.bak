@@ -15,10 +15,10 @@ AcquaPhloxEntrance_MapScriptHeader;trigger count
 	farjump AcquaWarpMod
 
 AcquaPhloxEntranceBlockingHiker:
-	ctxt "In dieser Höhle"
-	para "ändern sich die"
-	line "Gezeiten jeden Tag"
-	cont "ganze drei Mal."
+	ctxt "Ebbe und Flut<...>"
+	para "Der Zustand ändert"
+	line "sich hier Drei mal"
+	cont "am Tag."
 	done
 
 AcquaPhloxEntrance_MapEventHeader:: db 0, 0

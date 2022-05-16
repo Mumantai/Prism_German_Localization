@@ -51,17 +51,17 @@ AcquaStartLarvitar:
 	line "versperrt den Weg!"
 
 	para "<...> Es sieht"
-	line "einsam aus."
+	line "einsam aus<...>"
 
-	para "Vieleicht will es"
-	line "mitkommen."
+	para "Vieleicht will er"
+	line "mitkommen<...>"
 
 	para "Willst du es "
 	line "mitnehmen?"
 	done
 
 .holding_ball_text
-	ctxt "Komisch<...>"
+	ctxt "komisch<...>"
 
 	para "Das Larvitar"
 	line "hält einen"
@@ -78,8 +78,8 @@ AcquaStartLarvitar:
 	done
 
 .declined_text
-	ctxt "Dann bist du auf"
-	line "dich gestellt."
+	ctxt "Du kommst sonst"
+	line "nicht durch<...>"
 	done
 
 AcquaStart_MapEventHeader:: db 0, 0

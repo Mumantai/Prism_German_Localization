@@ -5,28 +5,29 @@ AzaleaCharcoal_MapScriptHeader;trigger count
 
 AzaleaCharcoalNPC1:
 	ctxt "Unsere Familie"
-	line "produziert schon"
-	cont "lange Holzkohle."
+	line "produziert die"
+	cont "Holzkohle am Markt"
 
-	para "Unser Porenta"
-	line "fällt Bäume vom"
-	para "Steineichenwald,"
+	para "Unsere Porenta's"
+	line "fällen Bäume vom"
+	para "Steineichenwald"
 	line "um uns zu helfen."
 
-	para "Würde es uns nur"
-	line "nicht immer wieder"
-	cont "davonlaufen<...>."
+	para "Es ist immer"
+	line "wieder hart wenn"
+	cont "uns das Holz knapp"
+	cont "wird."
 	done
 
 AzaleaCharcoalNPC2:
 	ctxt "Dieser Erdrutsch"
-	line "im Osten blockiert"
-	para "allen Reisenden"
+	line "im Osten von hier"
+	para "blockiert allen"
 	line "den Weg."
 
-	para "Ich hab damit aber"
-	line "kein Problem."
-	para "Ich klettere"
+	para "Für mich jedoch"
+	line "kein Problem!"
+	para "Ich Klettere"
 	line "einfach drüber!"
 	done
 

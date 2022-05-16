@@ -27,8 +27,8 @@ AcquaTutorialSmallCaveExit:
 	end
 
 .text
-	ctxt "Zurück zu"
-	line "deinem Trainer?"
+	ctxt "Zurück zum"
+	line "Trainer?"
 	done
 
 AcquaTutorialButton:
@@ -90,8 +90,8 @@ AcquaTutorialSmallCaveEntrance:
 	done
 
 AcquaTutorialBoulder:
-	ctxt "Der Felsen ist zu"
-	line "schwer für dich."
+	ctxt "Felsen zu schwer"
+	line "zum bewegen."
 	done
 
 AcquaTutorialFirstSoil:
@@ -157,11 +157,11 @@ AcquaTutorialLarvitarInCave:
 
 	para "Oh! Hallo!"
 
-	para "Sorry, dass ich"
+	para "Sry das ich vorhin"
 	line "weggelaufen bin<...>"
 
-	para "Ich bin nun mal"
-	line "etwas schüchtern<...>"
+	para "ich bin nunmal"
+	line "schüchtern<...>"
 
 	para "Wenn du deinen"
 	line "Trainer fern hälst"
@@ -178,10 +178,10 @@ AcquaTutorialLarvitarInCave:
 	ctxt "Oh, du trägst"
 	line "bereits ein Item."
 
-	para "Komm ohne Item"
-	line "wieder zu mir."
 	para "Ich warte hier"
-	line "solange auf dich."
+	line "solange auf dich,"
+	para "komm ohne Item"
+	line "nochmal zu mir."
 	done
 
 .other_larvitar_leaves_text
@@ -212,7 +212,7 @@ AcquaTutorialLarvitarOutsideCave:
 	step_end
 
 .found_other_larvitar_text
-	ctxt "Hmm<...> noch ein"
+	ctxt "Hmm… noch ein"
 	line "Larvitar."
 	sdone
 

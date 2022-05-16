@@ -5,8 +5,8 @@ AcaniaMart_MapScriptHeader;trigger count
 
 AcaniaMartNPC:
 	ctxt "Die Goldtaler sind"
-	line "viel zu gut ver-"
-	cont "steckt für mich!"
+	line "viel zu gut verst-"
+	cont "eckt für mich!"
 	done
 
 AcaniaMart_MapEventHeader:: db 0, 0

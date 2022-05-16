@@ -21,7 +21,8 @@ AcaniaDocksPokecenterSign:
 	jumpstd pokecentersign
 
 AcaniaDocksLighthouseSign:
-	ctxt "Feuer-Leuchtturm"
+	ctxt "Feuer"
+	next "Leuchtturm"
 	done
 
 AcaniaDocksGymSign:
@@ -33,9 +34,9 @@ AcaniaDocksGymSign:
 	done
 
 AcaniaDocksNPC1:
-	ctxt "Mein Evoli ent-"
+	ctxt "Mein Evoli Ent-"
 	line "wickelte sich beim"
-	para "harten Training im"
+	para "harten training im"
 	line "Klathrattunnel zu"
 	cont "Glaziola."
 
@@ -46,7 +47,7 @@ AcaniaDocksNPC1:
 
 	para "Ich bin mir nicht"
 	line "sicher, aber etwas"
-	para "sagt mir, dass es"
+	para "sagt mir das es"
 	line "an der unterschie-"
 	cont "dlichen Umgebung"
 	cont "lag."
@@ -89,8 +90,8 @@ AcaniaDocksNPC4:
 	jumptext .describeTM
 
 .giveTM
-    ctxt "Die stille See"
-    line "ist so beruhigend."
+    ctxt "Das Meer ist"
+    line "so beruhigend."
 
     para "Bei diesem An-"
     line "blick könnte ich"
@@ -103,7 +104,7 @@ AcaniaDocksNPC4:
 	sdone
 
 .describeTM
-	ctxt "TM44 enthält"
+	ctxt "TM44 ist"
 	line "Erholung."
 
     para "Dein #mon"

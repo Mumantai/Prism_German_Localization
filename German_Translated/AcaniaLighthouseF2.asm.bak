@@ -16,13 +16,14 @@ AcaniaLighthouseF2OldMan:
 
 .thanks_text
     ctxt "Danke, dass du dir"
-    line "dir Zeit nimmst,"
-    para "dich mit einem"
-    line "alten Mann zu"
-    para "unterhalten, der"
-    line "nichts mehr hat"
-    para "außer diesem"
-    line "Leuchtturm<...>"
+    line "dir Zeit dafür"
+    para "nimmst, dich mit"
+    line "einem alten Mann"
+    para "zu unterhalten"
+    line "der nichts mehr"
+    para "hat, außer"
+    line "diesen Leucht-"
+    cont "turm."
 	done
 
 .give_HM_text
@@ -33,33 +34,35 @@ AcaniaLighthouseF2OldMan:
 	
 	para "<...>"
 
-	para "Ob ich den Naljo-"
-    line "Wächter Varaneous"
-    cont "gesehen habe?"
+	para "Ob ich den"
+    line "Naljo Wächter,"
+    cont "Varaneous sah?"
  
-    para "Das habe ich!"
+    para "Habe ich!"
  
-    para "Ich bin für"
-    line "diesen Leuchtturm"
-    para "zuständig und"
+    para "Ich bin für den"
+    line "Leuchtturm zu-"
+    para "ständig und"
     line "sehe alles."
  
     para "Varaneous ist"
-    line "nach Südosten zur"
-    para "Gefängnisinsel"
-    line "Saxifragia Island"
+    line "nach Südosten"
+    para "zu der Gefängnis-"
+    line "insel Steinbruch"
     cont "gereist."
  
     para "Es scheint, als"
-    line "wolle es das seit"
-    para "Jahrhunderten"
-    line "schlafende Fambaco"
-    cont "wiedererwecken."
+    line "wolle er den,"
+    para "seit jahrhunderten"
+    line "schlafenden"
+    cont "Fambaco wieder-"
+    cont "erwecken."
  
-    para "Hmm<...> scheint als"
-    line "könntest du Hilfe"
-    para "gebrauchen dort"
-    line "hinzugelangen."
+    para "Hmm... scheint,"
+    line "also könntest du"
+    para "Hilfe gebrauchen,"
+    line "dort hin zu"
+    cont "gelangen."
  
     para "Diese VM wird"
     line "dir nützlich sein."
@@ -69,9 +72,9 @@ AcaniaLighthouseF2OldMan:
     ctxt "VM03 enthält"
     line "Surfer."
  
-    para "Damit kannst du"
-    line "auf jedem Ge-"
-    cont "wässer schwimmen."
+    para "Damit kann dein"
+    line "#mon auf Gewäs-"
+    cont "sern schwimmen-"
     sdone
 
 AcaniaLighthouseF2FireWithDisc:
@@ -91,8 +94,9 @@ AcaniaLighthouseF2FireWithDisc:
     ctxt "Das Feuer erhellt"
     line "den Leuchtturm."
  
-    para "Mach bloß keinen"
-    line "Blödsinn damit!"
+    para "Macht lieber"
+    line "keinen Blödsinn"
+    cont "damit!"
 
     para "Moment mal<...>"
  
@@ -101,7 +105,7 @@ AcaniaLighthouseF2FireWithDisc:
     cont "zu befinden."
  
     para "Das Feuer mit"
-    line "einem Wasser-#-"
+    line "einem Wasser #-"
     cont "mon löschen?"
     done
 
@@ -109,7 +113,7 @@ AcaniaLighthouseF2FireWithDisc:
 	jumptext .notWaterText
 .notWaterText
     ctxt "Das ist kein"
-    line "Wasser-#mon."
+    line "Wasser #mon."
 	done
 
 .foundWater
@@ -151,8 +155,8 @@ AcaniaLighthouseF2Fire:
     ctxt "Das Feuer erhellt"
     line "den Leuchtturm."
 
-	para "Mach bloß keinen"
-	line "Blödsinn damit!"
+	para "Mach kein Blödsinn"
+	line "damit!"
 	done
 
 AcaniaLighthouseF2_MapEventHeader:: db 0, 0

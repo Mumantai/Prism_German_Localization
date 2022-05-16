@@ -9,10 +9,10 @@ Apartments1BNPC:
 	para "bei Nacht immer"
 	line "noch so laut<...>"
 
-	para "Die haben wohl"
-	line "noch nie von"
-	para "schalldämpfenden"
-	line "Wänden gehört."
+	para "Haben wohl nichts"
+	line "über Schall-"
+	para "dämpfende Wände"
+	line "gehört."
 	done
 
 Apartments1B_MapEventHeader:: db 0, 0

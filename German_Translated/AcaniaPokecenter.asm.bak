@@ -19,7 +19,7 @@ AcaniaPokecenterNPC1:
 AcaniaPokecenterNPC2:
     ctxt "Meine #mon und"
     line "ich sind ganz "
-    para "wild darauf, die"
+    para "wild drauf, die"
     line "Pfeiler des Hafens"
 	cont "zu zersägen."
 
@@ -32,7 +32,7 @@ AcaniaPokecenterNPC3:
     line "ist noch immer"
     cont "im Bau, doch"
     para "sie brauchen ein"
-    line "Feuer-#mon,"
+    line "Feuer #mon,"
     para "um das Licht am"
     line "brennen zu halten."
 	done

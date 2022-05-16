@@ -16,7 +16,7 @@ CaperCityCitySign:
 	done
 
 CaperCityLabSign:
-	ctxt "Prof. Ilk's Labor"
+	ctxt "Prof. Ilks Labor"
 	done
 
 CaperCityNPC1:
@@ -28,7 +28,7 @@ CaperCityNPC1:
 
 	para "Er ist nicht nur"
 	line "ein geschätzter"
-	cont "#mon professor<...>"
+	cont "#mon Professor<...>"
 
 	para "<...>Er ist auch ein"
 	line "guter Historiker!"

@@ -54,7 +54,7 @@ MersonBirdHouseSwellow:
 	endtext
 
 .text
-	ctxt "Schwallbos: Kaw!"
+	ctxt "Schwalboss: Kaw!"
 
 	done
 

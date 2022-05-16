@@ -4,85 +4,84 @@ Route87_MapScriptHeader;trigger count
 	db 0
 
 Route87DirectionsSign:
-	ctxt "<UP>  Tunod Waterway"
-	next "<UP><UP>Southerly City"
+	ctxt "<UP>  Tunod Wasserpfad"
+	next "<UP><UP>Sued Stadt"
 	next "<DOWN>  Lauralia City"
 	done
 
 Route87_Trainer_1:
 	trainer EVENT_ROUTE_87_TRAINER_1, SWIMMERM, 9, .before_battle_text, .battle_won_text
 
-	ctxt "You should always"
-	line "stretch before"
-	para "swimming down"
-	line "long waterways."
+	ctxt "Vor dem schwimmen"
+	line "solltest du dich"
+	cont "immer dehnen."
 
-	para "I do it in front"
-	line "of the girls!"
+	para "Ich mache es immer"
+	line "vor den Mädels!"
 	done
 
 .before_battle_text
-	ctxt "This is a long"
-	line "waterway."
+	ctxt "Das ist ein langer"
+	line "Wasserpfad."
 
-	para "Your #mon had"
-	line "better be prepared"
-	para "for a major"
-	line "workout!"
+	para "Deine #mon sind"
+	line "hoffentlich gut"
+	cont "vorbereitet?"
 	done
 
 .battle_won_text
-	ctxt "That was too"
-	line "intense!"
+	ctxt "Das war sehr"
+	line "intensiv!"
 	done
 
 Route87_Trainer_2:
 	trainer EVENT_ROUTE_87_TRAINER_2, SWIMMERF, 7, .before_battle_text, .battle_won_text
 
-	ctxt "You unleashed 3"
-	line "years' worth of"
-	cont "repressed anger."
+	ctxt "Du hast ja deinen"
+	line "ganzen Zorn raus-"
+	cont "gelassen<...> Gut so!"
 	done
 
 .before_battle_text
-	ctxt "Time for a calm"
-	line "battle aided by"
-	para "the gentle lull"
-	line "of the ocean's"
-	cont "waves."
+	ctxt "Zeit für einen"
+	line "entspannten Kampf"
+	para "mit beruigenden"
+	line "Meeresrauschen im"
+	cont "Hintergrund."
 	done
 
 .battle_won_text
-	ctxt "You need to calm"
-	line "down."
+	ctxt "Du musst dich"
+	line "entspannen."
 	done
 
 Route87_Trainer_3:
 	trainer EVENT_ROUTE_87_TRAINER_3, SWIMMERM, 10, .before_battle_text, .battle_won_text
 
-	ctxt "It turns out my"
-	line "flight was"
-	cont "delayed 4 hours."
+	ctxt "Mein Flug wurde um"
+	line "4 Stunden"
+	cont "verschoben."
 
-	para "I woke up before"
-	line "sunrise for"
-	cont "nothing!"
+	para "Ich bin also"
+	line "umsonst so früh"
+	cont "aufgestanden!"
 	done
 
 .before_battle_text
-	ctxt "The closest"
-	line "airport to Naljo"
-	para "is the Southerly"
-	line "Airport, and you"
-	para "have to swim so"
-	line "far to get to"
-	cont "it!"
+	ctxt "Der naheste Flug-"
+	line "hafen nach Naljo"
+	para "befindet sich in"
+	line "der Süd-Stadt und"
+	para "da muss man sehr"
+	line "lange hin-"
+	cont "schwimmen!"
 	done
 
 .battle_won_text
-	ctxt "Well, I guess I'm"
-	line "swimming the rest"
-	cont "of the way there."
+	ctxt "Oh, ich kriege"
+	line "einen Anruf von"
+	para "der"
+	line "Fluggesellschaft<...>"
 	done
 
 Route87_MapEventHeader ;filler

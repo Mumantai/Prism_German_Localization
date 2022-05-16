@@ -17,8 +17,8 @@ OwsauriCityNameRaterSign:
 	done
 
 OwsauriCityGymSign:
-	ctxt "#mon Gym"
-	next "Leiter: Lily"
+	ctxt "#mon Arena"
+	next "Leiterin: Lily"
 	nl   ""
 	next "Die kalte und"
 	next "eisige Trainerin!"

@@ -83,10 +83,10 @@ Route56_Trainer_3:
 	done
 
 .battle_won_text
-	ctxt "That battle"
-	line "almost gave me"
-	para "the other kind"
-	line "of stroke!"
+	ctxt "Dieser Kampf war"
+	line "atemberaubend!"
+	para "Wie das Wasser"
+	line "beim ertrinken!"
 	done
 
 Route56_MapEventHeader ;filler

@@ -19,17 +19,20 @@ ToreniaCityMagnetTrainSign:
 	done
 
 ToreniaCityCitySign:
-	ctxt "Die jüngste Stadt"
-	next "der Region"
+	ctxt "Die jüngste "
+	next "Stadt der Region"
 	done
 
 ToreniaCityPachisiSign:
-	ctxt "Pachisi Halle"
+	ctxt "Mensch ärgere"
+	next "dich nicht"
+	next "(Pachisi)"
 	done
 
 ToreniaCityNPC1:
-	ctxt "Das Pachisi Spiel"
-	line "macht so Spaß!"
+	ctxt "Mensch ärgere dich"
+	line "nicht macht so"
+	cont "Spaß!"
 
 	para "Ich habe vor"
 	line "kurzem dort ein"

@@ -43,8 +43,8 @@ TunodWaterway_Trainer_2:
 	line "geheimer Ort"
 	para "wo ich für mich"
 	line "selbst sein konnte"
-	para "bevor Südsted den"
-	line "Pfad hier"
+	para "bevor Süd-Stadt"
+	line "den Pfad hier"
 	cont "eröffnete."
 	done
 

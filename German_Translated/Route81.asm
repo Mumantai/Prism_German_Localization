@@ -103,7 +103,7 @@ Route81_Trainer_4:
 	line "#mon Centers,"
 	cont "machte meinen"
 	para "#mon sehr viel"
-	line "angst."
+	line "Angst."
 	done
 
 .before_battle_text

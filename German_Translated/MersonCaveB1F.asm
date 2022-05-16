@@ -77,7 +77,7 @@ MersonCaveB1F_Trainer_3:
 	done
 
 .battle_won_text
-	ctxt "Man, das war "
+	ctxt "Manno, das war"
 	line "uncool."
 
 	done

@@ -71,8 +71,8 @@ PhloxMylesMyles:
 	line "Phloxia City"
 	cont "liegen."
 
-	para "Dort war es Nass"
-	line "und Kalt doch ich"
+	para "Dort war es nass"
+	line "und kalt doch ich"
 	para "drang furchtlos"
 	line "immer tiefer in"
 	para "die Dunkelheit"
@@ -112,7 +112,7 @@ PhloxMylesMyles:
 
 	para "Der Mann lag dort"
 	line "ruhig in einem"
-	cont "ball."
+	cont "Ball."
 
 	para "Er dachte wohl,"
 	line "dass es das Ende"

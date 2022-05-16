@@ -12,14 +12,14 @@ SeashoreCity_MapScriptHeader;trigger count
 SeashoreCityCitySign:
 	ctxt "Wo Wellen neuer"
 	next "Reisen ihren"
-	next "Langen Weg "
+	next "langen Weg "
 	next "aufnehmen."
 
 	done
 
 SeashoreCityGymSign:
 	ctxt "#mon Arena"
-	next "Leiter: Sheryl"
+	next "Leiterin: Sheryl"
 	done
 
 SeashoreCityNPC1:

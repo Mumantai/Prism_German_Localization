@@ -13,7 +13,7 @@ ClathriteB1FTrap:
 
 .text
 	ctxt "Wow, es ist viel"
-	line "zu Kalt hier."
+	line "zu kalt hier."
 
 	para "Ohne eine dicke"
 	line "Jacke werde ich"

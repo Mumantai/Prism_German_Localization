@@ -11,21 +11,21 @@ OxalisCity_MapScriptHeader;trigger count
 
 OxalisCitySalonSign:
 	ctxt "Klamotten wie"
-	next "Maßgeschneidert!"
+	next "Masgeschneidert!"
 	next "Sei auch du Cool!"
 	done
 
 OxalisCityCitySign:
-	ctxt "Die Stadt für"
+	ctxt "Die Stadt fuer"
 	next "junge, heran-"
-	next "wachsende Trainer!"
+	next "wachsene Trainer"
 	done
 
 OxalisCityGymSign:
 	ctxt "#mon Arena"
 	next "Leiter: Josiah"
 	next ""
-	next "Zu heiß zum"
+	next "Zu heiss zum"
 	next "anfassen!"
 	done
 
@@ -40,7 +40,7 @@ OxalisCityTrainerHallSign:
 	ctxt "Die Beginner"
 	next "Trainerhalle."
 	next "Der richtige Ort"
-	next "für Anfänger!"
+	next "fuer Anfänger!"
 	done
 
 OxalisCityQRCode:
@@ -66,7 +66,7 @@ OxalisCityNPC1:
 
 	para "Josiah ist unser"
 	line "Arenaleiter und"
-	para "man kan ihn nur"
+	para "man kan Ihn nur"
 	line "mit einem Wort"
 	cont "beschreiben."
 
@@ -81,9 +81,9 @@ OxalisCityNPC2:
 	
 	para "Ist es nicht irre?"
 
-	para "Ich habe es im"
-	line "Klamottenladen"
-	cont "gekauft."
+	para "Ich habe dies von"
+	line "dem Klamotten-"
+	cont "Laden erworben."
 	
 	para "Direkt hier in der"
 	line "Stadt!"
@@ -151,11 +151,11 @@ OxalisCityNPC7:
 
 	para "Weißt schon, sowat"
 	line "wie <'>Hallo!<'><...>"
-	para "<...>oder <'>Jut'n"
+	para "<...>oder <'>Jutn"
 	line "Morgen!<'><...>"
 	para "<...>und dir fliegt"
 	line "nur sowat um" 
-	cont "die Ohr'n:"
+	cont "die Ohrn:"
 
 	para "<'>Lass mich allein<'>"
 	line "<'>Verschwinde," 
@@ -164,18 +164,18 @@ OxalisCityNPC7:
 
 	para "Ick wees noch die"
 	line "Leute aus Johto"
-    	cont "und Rijon."
+    cont "und Rijon."
 
 	para "Warn jechillter."
 
 	para "Haste <'>Yo!<'>"
 	line "jesacht, kam nen"
-    	cont "<'>Ey!<'> zurüch."
+    cont "<'>Ey!<'> zurüch."
 
 	para "Warum sindse in"
 	line "Naljo die janze"
 	cont "Zeit so"
-    	cont "festjefahrn?"
+    cont "festjefahrn?"
 	done
 
 OxalisCity_MapEventHeader:: db 0, 0

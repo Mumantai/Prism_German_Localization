@@ -22,7 +22,7 @@ Route69GateGuard:
 	jumptextfaceplayer .before_beating_rival_text
 
 .before_beating_rival_text
-	ctxt "Sei Vorsichtig."
+	ctxt "Sei vorsichtig."
 
 	para "Die Naljo-Region"
 	line "ist momentan"
@@ -30,8 +30,8 @@ Route69GateGuard:
 	done
 
 .after_beating_rival_text
-	ctxt "Mach so weiter"
-	line "bis zum Ende!"
+	ctxt "Mach genau so"
+	line "weiter!"
 	done
 
 Route69Gate_FirstTimeThrough:

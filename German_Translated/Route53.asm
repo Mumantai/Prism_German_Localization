@@ -27,15 +27,13 @@ Route53ElixirGiveawayDude:
 	closetextend
 
 .before_giving_item_text
-	ctxt "Hi there!"
+	ctxt "Hi!"
 
-	para "Kiesdorf mart"
-	line "is giving out free"
-	cont "samples today!"
+	para "Der Kiesdorf Markt"
+	line "verschenkt heute"
+	cont "kostenlose Proben!"
 
-	para "Don't hesitate to"
-	line "enjoy your gift!"
-
+	para "Viel spaß damit!"
 	sdone
 
 .already_gave_item_text

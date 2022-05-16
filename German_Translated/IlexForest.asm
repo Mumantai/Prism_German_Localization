@@ -18,12 +18,11 @@ IlexForestShrine:
 IlexForestSign:
 	signpostheader 2
 
-	ctxt "Die riesigen Bäume"
-	next "im Steineichenwald"
-	next "blocken das Licht!"
-	nl   ""
-	next "Halte nach Items"
-	next "ausschau!"
+	ctxt "Die hohen Bäume"
+	next "im Steineichen-"
+	next "wald verdunkeln"
+	next "alles. Liegen "
+	next "hier ggf. Items?"
 	done
 
 IlexForest_MapEventHeader:: db 0, 0

@@ -102,7 +102,7 @@ PhloxLabF3CEO:
 	line "Unfall und durch"
 	para "den Klonungs-"
 	line "prozess entstand"
-	cont "Mewtwo."
+	cont "Mewtu."
 
 	para "Daraufhin wurde"
 	line "das Klonen von"
@@ -267,7 +267,7 @@ PhloxLabF3Trainer1:
 	line "meinen Kaminofen"
 	para "anzuzünden, wenn"
 	line "es draußen so"
-	cont "Kalt ist."
+	cont "kalt ist."
 	done
 
 .battle_won_text

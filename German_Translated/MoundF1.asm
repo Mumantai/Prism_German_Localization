@@ -68,7 +68,7 @@ MoundF1Rival:
 
 .engaged_player_text
 	ctxt "Ich sagte dir geh"
-	line "mir aus dem weg."
+	line "mir aus dem Weg."
 
 	para "Verstehst du"
 	line "einfachste"

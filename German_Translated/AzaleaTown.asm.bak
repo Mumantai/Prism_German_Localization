@@ -10,7 +10,7 @@ AzaleaTown_MapScriptHeader;trigger count
 	return
 
 AzaleaTownKurtSign:
-	ctxt "Kurts Hütte"
+	ctxt "Kurt's Hütte"
 	done
 
 AzaleaTownGymSign:
@@ -18,8 +18,8 @@ AzaleaTownGymSign:
 	next "Leiter: Kai"
 	nl   ""
 	next "Die lebende"
-	next "Käfer-#mon"
-	next "Enzyklopädie"
+	next "#mon Enzyklo-"
+	next "pädie"
 	done
 
 AzaleaTownTownSign:
@@ -29,14 +29,13 @@ AzaleaTownTownSign:
 	done
 
 AzaleaTownKilnSign:
-	ctxt "Holzkohleofen"
+	ctxt "Holzkohle-Ofen"
 	done
 
 AzaleaTownRoute33Sign:
 	ctxt "<RIGHT> Route 33"
-	next "  Wegen Erdrutsch"
-	next "  Geschlossen"
-	
+	next "  Geschlossen wg."
+	next "  Erdrutsch."
 	done
 
 AzaleaTownIlexForestSign:
@@ -44,32 +43,32 @@ AzaleaTownIlexForestSign:
 	done
 
 AzaleaTownNPC1:
-	ctxt "Die Flegmon"
+	ctxt "Die Flegmons"
 	line "faulenzen irgendwo"
-	cont "herum."
+	cont "rum."
 
 	para "Aber wo nur?"
 	done
 
 AzaleaTownNPC2:
-	ctxt "Es gab vor einigen"
-	line "Jahren einen Erd-"
-	cont "beben in der Nähe."
+	ctxt "Es gab vor einpaar"
+	line "Jahren einen Beben"
+	cont "in der Nähe."
 
 	para "Unsere Stadt hat"
 	line "es nur gestriffen,"
-	para "aber Dukatia City"
-	line "hat es wirklich"
+	para "aber Dukkatia"
+	line "City hat es"
 	cont "hart erwischt."
 
 	para "Wenigstens gab es"
-	line "keine Verletzten."
+	line "keine verletzten."
 	done
 
 AzaleaTownNPC3:
 	ctxt "Im Steineichenwald"
 	line "gibt es einen"
-	para "Schrein, der böse"
+	para "Schrein der böse"
 	line "Geister vertreibt"
 	cont "und Glück bringt."
 	done

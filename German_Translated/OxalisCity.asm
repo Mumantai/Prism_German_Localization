@@ -11,12 +11,12 @@ OxalisCity_MapScriptHeader;trigger count
 
 OxalisCitySalonSign:
 	ctxt "Klamotten wie"
-	next "Massgeschneidert!"
+	next "Maßgeschneidert!"
 	next "Sei auch du Cool!"
 	done
 
 OxalisCityCitySign:
-	ctxt "Die Stadt fuer"
+	ctxt "Die Stadt für"
 	next "junge, heran-"
 	next "wachsende Trainer!"
 	done
@@ -25,7 +25,7 @@ OxalisCityGymSign:
 	ctxt "#mon Arena"
 	next "Leiter: Josiah"
 	next ""
-	next "Zu heiss zum"
+	next "Zu heiß zum"
 	next "anfassen!"
 	done
 
@@ -40,7 +40,7 @@ OxalisCityTrainerHallSign:
 	ctxt "Die Beginner"
 	next "Trainerhalle."
 	next "Der richtige Ort"
-	next "fuer Anfaenger!"
+	next "für Anfänger!"
 	done
 
 OxalisCityQRCode:

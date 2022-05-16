@@ -28,13 +28,13 @@ AcquaExitChamberNPC:
 
 .opening_text
 	ctxt "Na was sehe ich"
-	line "denn da?"
+	line "den da?"
 
 	para "Ein frischer"
 	line "Trainer!"
 
 	para "Ich habe hier"
-	line "etwas ganz Tolles"
+	line "etwas ganz tolles"
 	cont "für dich!"
 	done
 
@@ -45,7 +45,7 @@ AcquaExitChamberNPC:
 	line "um genau zu sein!"
 
 	para "#mon lieben"
-	line "die Dinger!"
+	line "diese Beeren!"
 	prompt
 
 .after_giving_berry_text
@@ -54,13 +54,13 @@ AcquaExitChamberNPC:
 	cont "es ihm während des"
 	cont "Kampfes!"
 
-	para "Es setzt sie von"
+	para "Er setzt es von"
 	line "ganz alleine ein!"
 	done
 
 .declined_text
 	ctxt "Hä, dann behalt"
-	line "ich es eben<...>"
+	line "ich es ebend<...>"
 	done
 
 AcquaExitChamber_MapEventHeader:: db 0, 0

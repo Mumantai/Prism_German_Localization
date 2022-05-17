@@ -1,2 +1,43 @@
 # Prism_German_Translation
 German Translation of the popular ROM Hack.
+
+## How to
+### Übersetzen und Anpassen:
+`ctxt "WÄHLE EIN #MON"`
+
+ -> Kommt nur an oberster Zeile und beginnt den Textabschnitt und stellt den zwischen den Gänsefüßschen eingetragenen Text dar.
+
+`line ""`
+
+-> Setzt einen Zeilenumbruch im ersten Textfeld und stellt den zwischen den Gänsefüßchen eingetragenen Text dar.
+
+`cont ""`
+
+ -> Beim Drücken von (A) im Spiel: Scrollt das erste Textfeld eine Zeile runter und stellt den zwischen den Gänsefüßchen eingetragenen Text dar.
+
+`para ""`
+
+ -> Beim Drücken von (A) erscheint ein komplett neues Textfeld und stellt den zwischen den Gänsefüßchen eingetragenen Text dar. Zusätzlich kann man wieder mit line         einen zweizeiligen text schreiben 
+
+### Variablen
+Es gibt Variablen die Ihr nutzen könnt bzw. sollt und müsst! 😄 
+Diese Variablen sind zb:
+`<...>`
+
+--> Diese Variable stellt 3 normale Punkte dar, jedoch anstelle von 3 Character(da 3 Punkte) nur als 1 Character! Also Spart euch das ungemein Platz gerade bei der 18     Zeichen Begrenzung pro Zeile in der ja sogar Leerzeichen gezählt werden...
+
+Oder das:
+`#`
+
+--> Nur das Hashtag alleine also ohne links und rechts diese Pfeile.
+    Dieser Hashtag setzt im spiel statt dem Hashtag die Phrase
+    `Poké` dar.
+
+**Vorsicht! Als Code ist # zwar nur ein Zeichen, für die 18 Char begrenzung wird jedoch das was dargestellt wird gezählt!
+  Dementsprechend müsst Ihr # als 4 Character zählen!**
+  
+### Sonstige Begrenzungen
+- Pokemon Namen haben max. 10 Zeichen --> bei Variablen wie `<EMON>` und `<BMON>` also immer mit dazurechnen!
+- Item Namen haben max. 12 Zeichen --> Bei Variablen also immer mit dazurechnen!
+- Attacken-Namen haben ebenfalls max. 12 Zeichen --> Bei Variablen also immer mit dazurechnen!
+

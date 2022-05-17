@@ -18,6 +18,9 @@ German Translation of the popular ROM Hack.
 `para ""`
 
  -> Beim Drücken von (A) erscheint ein komplett neues Textfeld und stellt den zwischen den Gänsefüßchen eingetragenen Text dar. Zusätzlich kann man wieder mit line         einen zweizeiligen text schreiben 
+ 
+ ![image](https://user-images.githubusercontent.com/11394683/168790538-a63b0020-6965-4050-9c15-0e161028745e.png)
+
 
 ### Variablen
 Es gibt Variablen die Ihr nutzen könnt bzw. sollt und müsst! 😄 

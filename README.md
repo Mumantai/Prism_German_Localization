@@ -3,6 +3,9 @@ German Translation of the popular ROM Hack.
 
 ## How to
 ### Übersetzen und Anpassen:
+
+**Vorab wichtig: Innerhalb der Gänsefüßschen darf der Text __NIEMALS länger als 18 Zeichen__ lang sein! Punkte, Kommata und Leerzeichen werden mit gezählt!**
+
 `ctxt "WÄHLE EIN #MON"`
 
  -> Kommt nur an oberster Zeile und beginnt den Textabschnitt und stellt den zwischen den Gänsefüßschen eingetragenen Text dar.

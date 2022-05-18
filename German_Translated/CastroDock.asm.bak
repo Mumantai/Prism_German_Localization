@@ -5,9 +5,8 @@ CastroDock_MapScriptHeader;trigger count
 
 CastroDockNPC:
 	ctxt "Für die Fähre"
-	line "brauchst du ein"
-	cont "spezielles Ticket."
-	
+	line "brauchen Sie ein"
+	para "spezielles Ticket."
 	para "Gibt es die noch?"
 	done
 
@@ -45,17 +44,17 @@ CastroDockSailor:
 .want_to_go_text:
 	ctxt "Wunderbar!"
 
-	para "Möchstest du los"
-	line "in Richtung"
-	cont "Kampfarena?"
+	para "Wollen Sie an"
+	line "Bord bzw. in die"
+	para "Kampfarena?"
 	done
 
 BattleArcadeFerrySailor_Text_Welcome:
 	ctxt "Willkommen auf der"
-	line "Arkadenfähre!"
+	line "Arcade-Fähre!"
 
-	para "Hast du ein"
-	line "gültiges Ticket?"
+	para "Haben Sie eine"
+	line "Fahrkarte?"
 
 	sdone
 
@@ -67,8 +66,8 @@ BattleArcadeFerrySailor_Text_Departing:
 	sdone
 
 BattleArcadeFerrySailor_Text_NoTicket:
-	ctxt "Kein Zutritt ohne"
-	line "Ticket. Sorry."
+	ctxt "Sry. Kein Ticket,"
+	line "kein Zutritt!"
 
 	done
 

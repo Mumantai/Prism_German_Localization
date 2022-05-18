@@ -20,7 +20,7 @@ CastroGym_TripleSpinMovement:
 	step_end
 
 CastroGymHelperGuy:
-	ctxt "Was geht ab?"
+	ctxt "Was?!"
 
 	para "Die Trainer sehen"
 	line "alle gleich aus,"
@@ -68,7 +68,7 @@ CastroGymLeader:
 	done
 
 .got_badge_text
-	ctxt "<PLAYER> erhält"
+	ctxt "<PLAYER> gewinnt"
 	line "den Faustorden."
 	done
 
@@ -81,8 +81,8 @@ CastroGymLeader:
 .after_battle_text
 	ctxt "Hah!"
 
-	para "Das war mal ein"
-	line "gutes Sparring!"
+	para "Das war mal"
+	line "ein Sparring!"
 
 	done
 
@@ -106,9 +106,9 @@ CastroGymTrainer1:
 	end
 
 .before_battle_text
-	ctxt "Japanische Laut-"
-	line "malerei ist sowas"
-	cont "von kawaii!"
+	ctxt "Japanische"
+	line "Lautmalerei ist so"
+	cont "kawaii!"
 
 	sdone
 
@@ -148,7 +148,7 @@ CastroGymTrainer2:
 	done
 
 .after_battle_text
-	ctxt "Versuch's erneut."
+	ctxt "Versuchs erneut."
 	done
 
 CastroGymTrainer3:
@@ -173,8 +173,7 @@ CastroGymTrainer3:
 .before_battle_text
 	ctxt "Koji ist heiss."
 
-	para "Sich wie er zu"
-	line "verkleiden<...>"
+	para "Anziehen wie er<...>"
 	para "EIN TRAUM!"
 	sdone
 

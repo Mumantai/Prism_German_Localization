@@ -5,13 +5,13 @@ CastroPokecenter_MapScriptHeader;trigger count
 
 CastroPokecenterNPC1:
 	ctxt "Es gibt eine Fähre"
-	line "in der Stadt,"
-	para "die dich zu den"
+	line "in der Stadt, die"
+	para "dich zu den"
 	line "Kampfarkaden"
-	cont "bringen kann."
+	cont "bringt."
 
-	para "Ich weiß aber"
-	line "nicht, wo sie die"
+	para "Ich weiß"
+	line "aber nicht, wo sie"
 	cont "Tickets verkaufen."
 
 	done

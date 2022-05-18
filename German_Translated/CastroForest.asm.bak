@@ -15,18 +15,18 @@ CastroForest_Trainer_1:
 	trainer EVENT_CASTRO_FOREST_TRAINER_1, SAGE, 4, .before_battle_text, .defeated_text
 
 	ctxt "Viele von uns sind"
-	line "für ihre Sicher-"
-	para "heit aus Naljo"
-	line "geflohen!"
+	line "für ihre"
+	para "Sicherheit aus"
+	line "Naljo geflohen!"
 
 	done
 
 .before_battle_text
-	ctxt "Irgendein Narr hat"
+	ctxt "Ein Narr hat"
 	line "Varaneous geweckt!"
 
-	para "Was<...> du hast"
-	line "dabei zugesehen?"
+	para "Was<...> Sie haben die"
+	line "Erweckung gesehen?"
 
 	done
 
@@ -45,19 +45,19 @@ CastroForest_Trainer_2:
 	line "gut sind."
 
 	para "Wenn sie wirklich"
-	line "grausam sind, dann"
+	line "Wilde sind, dann"
 	para "möchte ich nicht"
 	line "nach Naljo zurück!"
 
 	done
 
 .before_battle_text
-	ctxt "Ich stamme aus"
+	ctxt "Ich stamme von"
 	line "Naljo. Ich fühlte"
 	para "mich sicher, bis"
 	line "ich erfuhr, dass"
 	para "Varaneous einen"
-	line "anderen aus Naljo"
+	line "anderen Naljo-aner"
 	cont "angegriffen hat."
 
 	done

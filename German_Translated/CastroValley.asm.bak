@@ -14,32 +14,31 @@ CastroValley_GoldToken:
 	db GOLD_TOKEN
 
 CastroValleyTownSign:
-	ctxt "Die vornehme"
+	ctxt "Die nette"
 	line "Hafenstadt."
 	done
 
 CastroValleyForestSign:
-	ctxt "Castro Wald"
+	ctxt "Kastrowald"
 	line "Eingang "
 	done
 
 CastroValleyGymSign:
 	ctxt "#mon Arena"
 	line "Leiter: Koji"
-	nl 	 ""
 	para "Der gnadenlose"
-	line "und harte Trainer!"
+	line "Trainer!"
 	done
 
 CastroValleyUnderConstructionSign:
-	ctxt "Noch im Bau"
+	ctxt "Im Bau "
 	done
 
 CastroValleyNPC1:
 	ctxt "Ich habe ein"
 	line "Relicanth"
-	cont "gefangen!"
-	para "Welch ein Glück!"
+	para "gefangen! "
+	line "HAMMER! "
 	done
 
 CastroValleyNPC2:
@@ -48,7 +47,7 @@ CastroValleyNPC2:
 	cont "Kastrowald."
 
 	para "Ich frage mich,"
-	line "was sie da machen."
+	line "was sie vorhaben."
 
 	done
 
@@ -66,7 +65,7 @@ CastroValleyNPC4:
 	done
 
 CastroValleyNPC5:
-	ctxt "Das ist doch nicht"
+	ctxt "Das ist nicht"
 	line "wirklich ein Tal."
 
 	done

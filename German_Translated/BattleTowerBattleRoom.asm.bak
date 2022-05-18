@@ -228,9 +228,9 @@ BattleTowerText_AskNextBattle:
 	cont "Siege!"
 
 	para "Mir wurde soeben"
-	line "gesagt, dass unser"
-	para "Kampfkoloss dich"
-	line "nun sehen möchte."
+	line "gesagt, das unsere"
+	para "Kampfkoryphäe"
+	line "dich sehen möchte."
 
 	para "Bist du bereit"
 	line "für diese"

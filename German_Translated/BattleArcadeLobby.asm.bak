@@ -140,23 +140,23 @@ BattleArcadeLobbyBattleNPC:
 	line "deiner #mon"
 	cont "geheilt."
 
-	para "Jede Runde wird es"
-	line "etwas schwerer!"
+	para "Je Runde wirds"
+	line "Schwerer!"
 
 	para "Am Ende jeder Run-"
 	line "de, erhälst du,"
 	para "basierend auf"
 	line "deiner Leistung,"
-	para "eine gewisse"
-	line "Anzahl an Tränken."
+	para "eine gewisse An-"
+	line "zahl an Tränken."
 
-	para "Deine Punktzahl"
+	para "Deine Punktzahl,"
 	line "wird mit der Run-"
 	para "dennummer multi-"
-	line "pliziert, versuche"
-	para "also so lange wie"
-	line "nur möglich"
-	cont "durchzuhalten!"
+	line "pliziert, also"
+	para "versuch möglichst"
+	line "lange durch-"
+	cont "zuhalten!"
 
 	para "Am Ende, wird dei-"
 	line "ne Gesamtpunktzahl"
@@ -216,13 +216,13 @@ BattleArcadeLobbyBattleNPC:
 
 .select_party_text
 	ctxt "Bitte wähle die"
-	line "#mon, die"
-	cont "teilnehmen sollen."
+	line "#mon, die teil-"
+	cont "nehmen sollen."
 	sdone
 
 .cancel_challenge_text
-	ctxt "Willst du wirklich"
-	line "jetzt schon gehen?"
+	ctxt "Möchtest du wirk-"
+	line "lich schon gehen?"
 	done
 
 .refund_text
@@ -230,8 +230,8 @@ BattleArcadeLobbyBattleNPC:
 	line "¥500 wieder."
 
 	para "Bitte kommen Sie"
-	line "bald wieder."
-	cont "Bis dahin!"
+	line "bald wieder. Viel"
+	cont "Erfolg!"
 	done
 
 

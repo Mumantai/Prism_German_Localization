@@ -36,16 +36,16 @@ BattleTowerEntrance_MapScriptHeader:
 .abort_text
 	ctxt "Es tut mir leid."
 
-	para "Du hast bei deinem"
-	line "letzten Besuch"
-	cont "nicht gespeichert."
+	para "Du hast nicht ge-"
+	line "sichert bei deinem"
+	cont "letzten mal."
 
 	para "Deshalb wurde dein"
 	line "Fortschritt"
 	cont "zurückgesetzt."
 
 	para "Das Spiel wird"
-	line "nun gespeichert."
+	line "nun gesichert."
 	done
 
 .resume_script
@@ -71,9 +71,9 @@ BattleTowerEntrance_MapScriptHeader:
 .reward_normal_text:
 	ctxt "Glückwunsch!"
 
-	para "Du hast alle 7"
-	line "Trainer besiegt."
-	cont "Dafür gibt es GP!"
+	para "Für das schlagen"
+	line "von 7 Trainern"
+	cont "erhälst du GP!"
 
 	para "<PLAYER> erhält"
 	line "3 GP!"
@@ -82,14 +82,14 @@ BattleTowerEntrance_MapScriptHeader:
 .reward_tycoon_text:
 	ctxt "Glückwunsch!"
 
-	para "Für das Besiegen"
-	line "von 7 Trainern<...>"
+	para "Für das schlagen"
+	line "von 7 Trainern"
 
-	para "Und für den hammer"
+	para "Und für den Hammer"
 	line "Kampf mit unserem"
-	cont "Kampfkoloss<...>"
+	cont "Tycoon<...>"
 
-	para "Belohnen wir dich"
+	para "belohnen wir dich"
 	line "mit reichlich GP!"
 
 	para "<PLAYER> erhält"
@@ -189,7 +189,7 @@ ENDC
 	db $a0 ; flags
 	db 3
 	db "Kampf@"
-	db "Erklärung@"
+	db "Erklärung  @"
 IF DEF(DEBUG_MODE)
 	db "DEBUG @" ;trailing space so there are no shifts between debug and release
 ELSE
@@ -315,7 +315,7 @@ BattleTower_LevelSetMenu:
 .options
 	db $a0 ; flags
 	db 3
-	db "LV 50@"
+	db "LV 50   @"
 	db "LV offen@"
 	db "Zurück@"
 
@@ -343,7 +343,7 @@ BattleTower_NotEnoughPokemonLevelText:
 
 	para "Du hast nicht"
 	line "genug #mon, die"
-	para "auf oder unter"
+	para "auf, oder unter"
 	line "dem gewählten"
 	cont "Level sind."
 
@@ -374,7 +374,7 @@ BattleTowerReceptionistScript_Cancel:
 	jumptext .text
 
 .text
-	ctxt "Beehren Sie uns"
+	ctxt "Kommen Sie bitte"
 	line "bald wieder!"
 	sdone
 
@@ -409,9 +409,9 @@ BattleTowerEntrance_Lass:
 	para "die Gegner nur so"
 	line "überrollen!"
 
-	para "Sein süßes Äußeres"
-	line "macht es wirklich"
-	cont "unaufhaltbar!"
+	para "Sein süßes Ausse-"
+	line "hen, macht es un-"
+	cont "aufhaltbar!"
 
 	para "<...> <...> <...> Was?"
 	line "Das hier ist keine"
@@ -420,7 +420,7 @@ BattleTowerEntrance_Lass:
 
 BattleTowerEntrance_CooltrainerM:
 	ctxt "Endlich gibt es"
-	line "hier einen PC."
+	line "einen PC hier."
 
 	para "Früher musste man"
 	line "den ganzen Weg bis"
@@ -440,8 +440,9 @@ BattleTowerEntrance_CooltrainerF:
 
 	para "Was für ein Witz!"
 	line "Wie soll man bitte"
-	para "ohne seine besten"
-	cont "#mon gewinnen?"
+	para "gewinnen, ohne"
+	line "seine besten"
+	cont "#mon?"
 	done
 
 BattleTowerEntrance_MapEventHeader:: db 0, 0

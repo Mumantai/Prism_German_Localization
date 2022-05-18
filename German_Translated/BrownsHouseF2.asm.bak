@@ -4,7 +4,7 @@ BrownsHouseF2_MapScriptHeader;trigger count
 	db 0
 
 BrownsHouseF2Nintendo64:
-	ctxt "Eine verstaubte"
+	ctxt "Eine alte"
 	line "Nintendo 64."
 	done
 

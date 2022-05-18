@@ -23,8 +23,8 @@ BrownsHouseF1Mom:
 	cont "Sohn Brown."
 
 	para "Wenn du Ihn siehst"
-	line "lass mich wissen,"
-	cont "dass er OK ist."
+	line "lass mich wissen"
+	cont "das Er OK ist."
 	done
 
 .give_TM_text
@@ -36,9 +36,9 @@ BrownsHouseF1Mom:
 	para "Er hätte auch"
 	line "anrufen können<...>"
 	para "Naja, wenigstens"
-	line "geht es ihm gut."
+	line "gehts ihm gut."
 
-	para "Nimm das, als"
+	para "Nimm das als"
 	line "Dankeschön."
 	sdone
 
@@ -50,13 +50,13 @@ BrownsHouseF1Mom:
 
 	para "Der Typ dieser"
 	line "Attacke ist vom"
-	cont "Zufall abhängig."
+	cont "zufall abhängig."
 	done
 
 .already_gave_TM_text
-	ctxt "Danke, dass du"
-	line "einer Witwe die"
-	cont "Sorgen nimmst."
+	ctxt "Danke nochmal das"
+	line "du meine Sorgen"
+	cont "genommen hast."
 	done
 
 BrownsHouseF1_MapEventHeader:: db 0, 0

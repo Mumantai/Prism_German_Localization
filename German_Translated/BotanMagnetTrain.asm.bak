@@ -8,9 +8,9 @@ BotanMagnetTrainEmployee:
 
 BotanMagnetTrainNPC:
 	ctxt "Hier war mal eine"
-	line "Höhle, aber sie"
+	line "Höhle, aber"
 
-	para "wurde abgerissen,"
+	para "Sie zerstörten es"
 	line "um Platz für den"
 
 	para "Magnetzug zu"

@@ -4,8 +4,8 @@ BotanPokecenter_MapScriptHeader;trigger count
 	db 0
 
 BotanPokecenterNPC1:
-	ctxt "Behalt das hier"
-	line "bloß für dich!"
+	ctxt "Es ist ein"
+	line "Geheimniss."
 	done
 
 BotanPokecenterNPC2:

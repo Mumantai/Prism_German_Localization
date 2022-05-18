@@ -19,8 +19,8 @@ BotanCityCitySign:
 	done
 
 BotanCityStationSign:
-	ctxt "Botania City"
-	next "Hauptbahnhof"
+	ctxt "Station:"
+	next "Botania City"
 	done
 
 BotanCityQRCode:
@@ -41,12 +41,12 @@ BotanCityQRCode:
 
 BotanCityNPC1:
 	ctxt "Die Geister etwas"
-	line "nördlich von hier,"
-	para "erschrecken immer"
-	line "wieder Menschen."
+	line "nördlich von hier"
+	para "erschrecken"
+	line "Menschen."
 
 	para "Denen fehlt es an"
-	line "Manieren!"
+	line "Mannieren!"
 	done
 
 BotanCityNPC2:
@@ -77,10 +77,11 @@ BotanCityNPC4:
 
 BotanCityNPC5:
 	ctxt "Ich war der"
-	line "Architekt, für"
-	cont "<'>dieses<'>Gebäude<...>"
+	line "Architekt für"
+	para "das Gebäude hier"
+	line "neben mir<...>"
 
-	para "Nun bereue ich es<...>"
+	para "Ich bereue es<...>"
 	done
 
 BotanCityNPC6:
@@ -97,12 +98,12 @@ BotanCityNPC7:
 
 BotanCityNPC8:
 	ctxt "Diese Stadt ist"
-	line "wohl Rijons"
+	line "wohl Rijon's"
 	cont "seltsamste Stadt."
 
 	para "Nirgendwo sonst"
 	line "erlebt man"
-	para "Überraschungen wie"
+	para "überaschungen wie"
 	line "hier."
 	done
 

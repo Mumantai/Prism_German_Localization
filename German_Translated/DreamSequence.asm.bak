@@ -20,14 +20,14 @@ DreamSequence_MapScriptHeader;trigger count
 	return
 
 DreamSequenceNPC1:
-	ctxt "Ich bin's, Mama."
+	ctxt "Es ist Mutter!"
 
 	para "Wo bist du?"
 
 	para "Ich vermisse dich!"
-	line "Bitte komm zurück!"
+	line "Komm bitte zurück!"
 
-	para "Du bist alles, was"
+	para "Du bist alles was"
 	line "ich habe!"
 	done
 
@@ -54,19 +54,20 @@ DreamSequenceNPC3:
 	ctxt "Du bist nun in"
 	line "Demenzia."
 
-	para "Dies ist die"
-	line "Traumdimension."
+	para "In der Traum"
+	line "Dimension."
 
-	para "Willst du aus"
-	line "deinem Schlummer"
+	para "Willst du von"
+	line "diesem Schlummer"
 	cont "erwachen?"
 
-	para "Dann musst du eine"
-	line "große Erleuchtung"
-	cont "erfahren."
+	para "Um das zu tun "
+	line "musst du eine"
+	para "starke Offenbarung"
+	line "erleben."
 
-	para "Ich weiß, wo deine"
-	line "Antworten warten."
+	para "Ich weis wo du"
+	line "das finden kannst."
 
 	para "Entspann dich und"
 	line "lass dich von"

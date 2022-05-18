@@ -18,18 +18,18 @@ DreamNewBarkNPC:
 	para "Was?"
 
 	para "Nein, ich bin kein"
-	line "Palette-Ranger."
+	line "Paletten Mitglied."
 
 	para "Ich existiere ja"
 	line "noch nicht einmal!"
 
 	para "Du bist in einem"
-	line "Wachtraum."
+	line "luziden Traum."
 
-	para "Du hast mich vor-"
-	line "hin selber unbe-"
-	cont "wusst erschaffen."
-
+	para "Du hast mich vor"
+	line "einpaar minuten"
+	para "unbewusst selbst"
+	line "erschaffen."
 
 	para "<...>"
 
@@ -39,36 +39,36 @@ DreamNewBarkNPC:
 
 	para "Naja<...> verstehst"
 	line "du die aktuellen"
-	para "Probleme mit denen"
-	line "Naljo sich plagt?"
+	para "haupt Probleme der"
+	line "Nalo-Region?"
 
 	para "Du und deine"
 	line "#mon haben die"
-	para "Kraft, dieser"
+	para "Kraft, diese"
 	line "Nation wieder zu"
-	para "ihrem früheren"
+	para "Ihrem früheren"
 	line "Glanz zu verhelfen"
 
 	para "<...>"
 
-	para "Wie ich das weiß?"
+	para "Wie ich das weis?"
 
 	para "Du hast mich"
-	line "erschaffen, also<...>"
+	line "geschaffen, also<...>"
 
 	para "Wusstest du das"
 	line "tief in dir nicht"
 	cont "schon immer?"
 
-	para "Die Region aus der"
-	line "du kommst<...>"
+	para "Die Region woher"
+	line "du herkommst<...>"
 
 	para "Hat keinerlei"
-	line "Probleme, richtig?"
+	line "probleme, richtig?"
 
-	para "Naljo war einst"
-	line "ganz ähnlich -"
-	cont "frei von Sorgen."
+	para "Naljo ging es mal"
+	line "genau so früher -"
+	cont "Ein Paradies."
 
 	para "<...>"
 
@@ -78,33 +78,33 @@ DreamNewBarkNPC:
 
 	para "Geiz."
 
-	para "Depression."
+	para "Depressionen."
 
 	para "<...>"
 
 	para "Noch genauer?"
 
-	para "Das ist alles,"
+	para "Das ist doch alles"
 	line "was du weisst, du"
-	para "hast es mir doch"
-	line "selbst erzählt<...>"
+	para "hast mir das doch"
+	line "erzählt<...>"
 
 	para "Deine Region wird"
-	line "die nächste sein."
-	para "Zusammen mit all"
-	line "den anderen um"
-	cont "sie herum<...>"
+	line "die nächste sein,"
+	para "gemeinsam mit all"
+	line "den anderen"
+	cont "Regionen im Umfeld"
 
 	para "<...>"
 
 	para "Was meinst du mit"
-	line "'Gier ruinierte"
+	line "'Geiz ruinierte"
 	cont "die Naljo Region?'"
 
 	para "<...>"
 
-	para "Gengar: Mmmmh!"
-	line "Lecker lecker!"
+	para "Gengar: Mmmm!"
+	line "Lecker Lecker!"
 
 	para "Viele schmackhafte"
 	line "Konflikte in"
@@ -118,7 +118,7 @@ DreamNewBarkNPC:
 	line "du Gengars"
 	cont "Mahlzeit bist<...>"
 
-	para "Vergiss nicht, was"
+	para "Vergiss nicht was"
 	line "ich dir sagte. "
 
 	para "Du kannst ein Held"
@@ -126,20 +126,19 @@ DreamNewBarkNPC:
 
 	para "Du wirst alles"
 	line "herausfinden und"
-	para "es auch bald schon"
-	line "alles verstehen."
+	cont "daran wachsen!"
 
 	para "Vertrau mir<...>"
 
 	para "Du musst nur<...>"
 
-	para "An dich glauben<...>"
+	para "In dich Vertauen<...>"
 	sdone
 
 .gengar_text
 	ctxt "-RÜLPS-"
 
-	para "Das war lecker!"
+	para "Das war LECKER!"
 
 	para "Ich muss auf mein"
 	line "Gewicht achten."
@@ -148,6 +147,11 @@ DreamNewBarkNPC:
 	line "für mich, für"
 	para "mindestens eine"
 	line "Woche!"
+	para "Als erstes höre"
+	line "ich auf die"
+	para "Träume von diesem"
+	line "Leiter Edison zu"
+	cont "fressen<...>"
 	done
 
 DreamNewBark_MapEventHeader:: db 0, 0

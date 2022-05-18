@@ -24,12 +24,12 @@ CaperMartAttendant:
 	done
 
 CaperMartNPC1:
-	ctxt "Ich wurde mal des"
+	ctxt "Mal wurde ich des"
 	line "Ladendiebstahls"
 	cont "beschuldigt<...>"
 
 	para "Dabei war ich nur"
-	line "am Überlegen, was"
+	line "am überlegen, was"
 	cont "ich alles brauche!"
 	done
 
@@ -37,7 +37,7 @@ CaperMartNPC2:
 	ctxt "Es ist viel zu"
 	line "kalt draußen!"
 
-	para "Ich bleibe drin,"
+	para "Ich bleibe drin"
 	line "bis das Wetter"
 	cont "wärmer wird!"
 	done

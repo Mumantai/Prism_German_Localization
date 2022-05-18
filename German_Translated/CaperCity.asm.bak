@@ -10,9 +10,9 @@ CaperCity_MapScriptHeader;trigger count
 	return
 
 CaperCityCitySign:
-	ctxt "Die Stadt unter"
-	next "einer ewigen"
-	next "Schneedecke"
+	ctxt "Die Stadt, die"
+	next "immer Weiss"
+	next "bedeckt ist"
 	done
 
 CaperCityLabSign:
@@ -30,16 +30,16 @@ CaperCityNPC1:
 	line "ein geschätzter"
 	cont "#mon Professor<...>"
 
-	para "<...>sondern auch ein"
+	para "<...>Er ist auch ein"
 	line "guter Historiker!"
 	done
 
 CaperCityNPC2:
-	ctxt "Dich hab ich hier"
-	line "noch nie gesehen<...>"
+	ctxt "Dich hab ich noch"
+	line "nie hier gesehen<...>"
 
-	para "Von wo bist du"
-	line "denn hergekommen?"
+	para "Von wo kommst"
+	line "du denn her?"
 
 	para "<...>"
 
@@ -71,12 +71,12 @@ CaperCityRoute70Block:
 	step_end
 
 .text
-	ctxt "Ich schaufel den"
+	ctxt "Ich schaufle den"
 	line "Schnee zur Seite."
 	
 	para "Wenn ich fertig"
 	line "bin, kannst du"
-	cont "gerne durch."
+	cont "gerne passieren."
 	sdone
 
 CaperCityRoute71Block:

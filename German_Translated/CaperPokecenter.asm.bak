@@ -4,7 +4,7 @@ CaperPokecenter_MapScriptHeader;trigger count
 	db 0
 
 CaperPokecenterNPC1:
-	ctxt "Ich wünschte, ich"
+	ctxt "Ich wünschte ich"
 	line "könnte Prof. Ilk"
 	cont "treffen."
 

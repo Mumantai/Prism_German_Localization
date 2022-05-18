@@ -15,10 +15,15 @@ ClathriteB1FTrap:
 	ctxt "Wow, es ist viel"
 	line "zu kalt hier."
 
-	para "Ich sollte lieber"
-	line "umkehren, wenn ich"
-	para "mich nicht"
-	line "erkälten möchte."
+	para "Ohne eine dicke"
+	line "Jacke werde ich"
+	para "mir sonst noch"
+	line "eine Erkältung"
+	para "einholen."
+	
+	para "Ohne eine Jacke"
+	line "kehre ich besser"
+	cont "erstmal zurück."
 	sdone
 
 .movement
@@ -29,43 +34,44 @@ ClathriteB1F_Trainer_1:
 	trainer EVENT_CLATHRITE_B1F_TRAINER_1, BOARDER, 1, .before_battle_text, .defeated_text
 
 	ctxt "Zumindest macht es"
-	line "Spaß, dieses"
+	line "Spaß dieses"
 	para "Labyrinth runter"
 	line "zu brettern."
 	done
 
 .before_battle_text:
 	ctxt "Ich habe mich"
-	line "verlaufen. Hilfst"
+	line "verlaufen, hilfst"
 	cont "du mir raus?"
 	done
 
 .defeated_text:
-	ctxt "Also keine Hilfe<...>"
+	ctxt "Also keine hilfe<...>"
 	done
 
 ClathriteB1F_Trainer_2:
 	trainer EVENT_CLATHRITE_B1F_TRAINER_2, BOARDER, 2, .before_battle_text, .defeated_text
 
-	ctxt "Angeblich lebt ein"
-	line "legendäres #mon"
-	cont "in dieser Höhle."
+	ctxt "Ich hörte eine"
+	line "Legende soll sich"
+	para "irgendwo in dieser"
+	line "Höhle aufhalten."
 
 	para "Warscheinlich ist"
-	line "das aber nur ein"
+	line "das nur ein"
 	cont "Gerücht."
 	done
 
 .before_battle_text:
-	ctxt "Ich bin hier her-"
-	line "gekommen um ein"
-	para "paar eisige"
+	ctxt "Bin gerade erst"
+	line "reingekommen um"
+	para "ein paar eisige"
 	line "#mon zu fangen!"
 	done
 
 .defeated_text:
-	ctxt "Jetzt siehst du"
-	line "auch warum<...>"
+	ctxt "Ich brauche mehr"
+	line "eisige #mon!"
 	done
 
 ClathriteB1F_MapEventHeader:: db 0, 0

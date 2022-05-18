@@ -20,22 +20,22 @@ ClathriteB2F_Trainer_1:
 	done
 
 .before_battle_text:
-	ctxt "Diese Rätsel sind"
-	line "echt aufregend,"
+	ctxt "Diese Puzzles sind"
+	line "sehr aufregend,"
 	cont "nicht wahr?"
 	done
 
 .defeated_text:
-	ctxt "Du findest sie"
+	ctxt "Findest du sie"
 	line "nicht aufregend?"
 	done
 
 ClathriteB2F_Trainer_2:
 	trainer EVENT_CLATHRITE_B2F_TRAINER_2, SKIER, 3, .before_battle_text, .defeated_text
 
-	ctxt "Was ist mit mir?"
-	line "Findest du, ich"
-	cont "bin wunderschön?"
+	ctxt "Und findest du"
+	line "mich eigentlich"
+	cont "auch Wunderschön?"
 
 	para "Komm schon!"
 	line "Rede mit mir!"
@@ -43,12 +43,12 @@ ClathriteB2F_Trainer_2:
 
 .before_battle_text:
 	ctxt "Diese Höhle ist"
-	line "wunderschön!"
+	line "Wunderschön!"
 	done
 
 .defeated_text:
 	ctxt "Meine #mon sind"
-	line "auch wunderschön!"
+	line "auch Wunderschön!"
 	done
 
 ClathriteB2F_MapEventHeader:: db 0, 0

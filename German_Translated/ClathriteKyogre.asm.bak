@@ -39,17 +39,17 @@ ClathriteKyogreSignpost1:
 	end
 
 .no_orb_text
-	ctxt "Es sieht so aus,"
-	line "als würde etwas"
-	para "Rundes hier rein-"
+	ctxt "Es sieht so aus"
+	line "als würde eine"
+	para "Kugel hier rein"
 	line "passen<...>"
 	done
 
 .ask_place_orb_text
-	ctxt "Es sieht so aus,"
+	ctxt "Es sieht so aus"
 	line "als würde deine"
 	para "Blaue Kugel hier"
-	line "reinpassen."
+	line "rein passen."
 
 	para "Willst du sie"
 	line "einsetzen?"

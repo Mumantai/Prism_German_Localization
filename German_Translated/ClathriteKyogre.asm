@@ -42,7 +42,7 @@ ClathriteKyogreSignpost1:
 	ctxt "Es sieht so aus,"
 	line "als würde etwas"
 	para "Rundes hier rein-"
-	line "passen<...>"
+	line "passen <...>"
 	done
 
 .ask_place_orb_text

@@ -23,12 +23,12 @@ Apartments2DNPC:
 	cont "endlos weiter."
 
 	para "Also muss ich die"
-	line "TM hier los werden"
+	line "TM hier loswerden"
 	para "und diesem Trend"
 	line "entgegenwirken!"
 
 	para "Ich brauche ja eh"
-	line "mehr Platz hier<...>"
+	line "mehr Platz hier <...>"
 	sdone
 
 .after_giving_TM_text

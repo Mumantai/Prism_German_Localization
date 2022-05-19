@@ -30,8 +30,8 @@ ClathriteB1F_Trainer_1:
 
 	ctxt "Zumindest macht es"
 	line "Spaß, dieses"
-	para "Labyrinth runter"
-	line "zu brettern."
+	para "Labyrinth runter-"
+	line "zubrettern."
 	done
 
 .before_battle_text:
@@ -41,7 +41,7 @@ ClathriteB1F_Trainer_1:
 	done
 
 .defeated_text:
-	ctxt "Also keine Hilfe<...>"
+	ctxt "Also keine Hilfe <...>"
 	done
 
 ClathriteB1F_Trainer_2:
@@ -58,14 +58,14 @@ ClathriteB1F_Trainer_2:
 
 .before_battle_text:
 	ctxt "Ich bin hier her-"
-	line "gekommen um ein"
+	line "gekommen, um ein"
 	para "paar eisige"
 	line "#mon zu fangen!"
 	done
 
 .defeated_text:
 	ctxt "Jetzt siehst du"
-	line "auch warum<...>"
+	line "auch, warum <...>"
 	done
 
 ClathriteB1F_MapEventHeader:: db 0, 0

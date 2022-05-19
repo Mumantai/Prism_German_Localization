@@ -35,12 +35,12 @@ DreamNewBarkNPC:
 
 	para "Was für eine Rolle"
 	line "ich in deinem"
-	cont "Traum spiele<...>?"
+	cont "Traum spiele <...>?"
 
-	para "Naja<...> verstehst"
+	para "Naja <...> verstehst"
 	line "du die aktuellen"
-	para "Probleme mit denen"
-	line "Naljo sich plagt?"
+	para "Probleme, die"
+	line "Naljo plagen?"
 
 	para "Du und deine"
 	line "#mon haben die"
@@ -54,16 +54,16 @@ DreamNewBarkNPC:
 	para "Wie ich das weiß?"
 
 	para "Du hast mich"
-	line "erschaffen, also<...>"
+	line "erschaffen, also <...>"
 
 	para "Wusstest du das"
 	line "tief in dir nicht"
 	cont "schon immer?"
 
-	para "Die Region aus der"
-	line "du kommst<...>"
+	para "Die Region, aus"
+	line "der du kommst <...>"
 
-	para "Hat keinerlei"
+	para "<...> hat keinerlei"
 	line "Probleme, richtig?"
 
 	para "Naljo war einst"
@@ -85,15 +85,15 @@ DreamNewBarkNPC:
 	para "Noch genauer?"
 
 	para "Das ist alles,"
-	line "was du weisst, du"
+	line "was du weißt. Du"
 	para "hast es mir doch"
-	line "selbst erzählt<...>"
+	line "selbst erzählt <...>"
 
 	para "Deine Region wird"
 	line "die nächste sein."
 	para "Zusammen mit all"
 	line "den anderen um"
-	cont "sie herum<...>"
+	cont "sie herum <...>"
 
 	para "<...>"
 
@@ -107,33 +107,33 @@ DreamNewBarkNPC:
 	line "Lecker lecker!"
 
 	para "Viele schmackhafte"
-	line "Konflikte in"
-	cont "dieser Hirnhälfte<...>"
+	line "Konflikte in die-"
+	cont "ser Hirnhälfte <...>"
 	
 	para "<...>"
 	
-	para "Schmatz<...> Schmatz<...>"
+	para "Schmatz <...> Schmatz <...>"
 
 	para "Es scheint, dass"
 	line "du Gengars"
-	cont "Mahlzeit bist<...>"
+	cont "Mahlzeit bist <...>"
 
 	para "Vergiss nicht, was"
-	line "ich dir sagte. "
+	line "ich dir sagte."
 
 	para "Du kannst ein Held"
-	line "werden<...>"
+	line "werden <...>"
 
 	para "Du wirst alles"
 	line "herausfinden und"
 	para "es auch bald schon"
-	line "alles verstehen."
+	line "verstehen."
 
-	para "Vertrau mir<...>"
+	para "Vertrau mir <...>"
 
-	para "Du musst nur<...>"
+	para "Du musst nur <...>"
 
-	para "An dich glauben<...>"
+	para "An dich glauben <...>"
 	sdone
 
 .gengar_text

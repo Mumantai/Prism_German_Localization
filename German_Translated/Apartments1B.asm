@@ -7,7 +7,7 @@ Apartments1BNPC:
 	ctxt "Die Spielhalle da"
 	line "draußen ist sogar"
 	para "bei Nacht immer"
-	line "noch so laut<...>"
+	line "noch so laut <...>"
 
 	para "Die haben wohl"
 	line "noch nie von"

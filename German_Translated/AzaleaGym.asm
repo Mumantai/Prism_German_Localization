@@ -34,7 +34,7 @@ AzaleaGym_Trainer_2:
 .before_battle_text
 	ctxt "Käfer-#mon"
 	line "entwickeln sich"
-	cont "früher als andere."
+	cont "eher als andere."
 
 	para "Sie sind somit"
 	line "früher stärker."
@@ -64,13 +64,13 @@ AzaleaGym_Trainer_3:
 
 .battle_won_text
 	ctxt "Du bist auch"
-	line "voll Krass."
+	line "voll krass."
 	done
 
 AzaleaGym_Trainer_4:
 	trainer EVENT_AZALEA_GYM_TRAINER_4, LASS, 5, .before_battle_text, AzaleaGym_OhMyGoodnessText
 
-	ctxt "Wie beschähmend<...>"
+	ctxt "Wie beschähmend <...>"
 	done
 
 .before_battle_text
@@ -141,7 +141,7 @@ AzaleaGymBugsy:
 	sdone
 
 .battle_won_text
-	ctxt "Du bist Stark!"
+	ctxt "Du bist stark!"
 
 	para "Es gibt immer was"
 	line "zu lernen über"
@@ -179,7 +179,7 @@ AzaleaGymBugsy:
 	line "sind komplex."
 
 	para "Es gibt noch so"
-	line "vieles zu lernen."
+	line "Vieles zu lernen."
 	done
 
 AzaleaGymGuide:
@@ -196,7 +196,7 @@ AzaleaGymGuide:
 
 AzaleaGym_OhMyGoodnessText:
 	; this is used by more than one trainer
-	ctxt "Du meine Güte<...>"
+	ctxt "Du meine Güte <...>"
 	done
 
 AzaleaGym_MapEventHeader:: db 0, 0

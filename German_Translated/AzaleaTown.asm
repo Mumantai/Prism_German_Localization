@@ -35,7 +35,7 @@ AzaleaTownKilnSign:
 AzaleaTownRoute33Sign:
 	ctxt "<RIGHT> Route 33"
 	next "  Wegen Erdrutsch"
-	next "  Geschlossen"
+	next "  geschlossen"
 	
 	done
 
@@ -53,7 +53,7 @@ AzaleaTownNPC1:
 
 AzaleaTownNPC2:
 	ctxt "Es gab vor einigen"
-	line "Jahren einen Erd-"
+	line "Jahren ein Erd-"
 	cont "beben in der Nähe."
 
 	para "Unsere Stadt hat"

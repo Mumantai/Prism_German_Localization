@@ -60,7 +60,7 @@ AcquaExitChamberNPC:
 
 .declined_text
 	ctxt "Hä, dann behalt"
-	line "ich es eben<...>"
+	line "ich es eben <...>"
 	done
 
 AcquaExitChamber_MapEventHeader:: db 0, 0

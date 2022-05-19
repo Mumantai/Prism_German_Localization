@@ -20,9 +20,9 @@ AcaniaLighthouseF2OldMan:
     para "dich mit einem"
     line "alten Mann zu"
     para "unterhalten, der"
-    line "nichts mehr hat"
+    line "nichts mehr hat,"
     para "außer diesem"
-    line "Leuchtturm<...>"
+    line "Leuchtturm <...>"
 	done
 
 .give_HM_text
@@ -56,9 +56,9 @@ AcaniaLighthouseF2OldMan:
     line "schlafende Fambaco"
     cont "wiedererwecken."
  
-    para "Hmm<...> scheint als"
+    para "Hmm <...> scheint als"
     line "könntest du Hilfe"
-    para "gebrauchen dort"
+    para "gebrauchen, dort"
     line "hinzugelangen."
  
     para "Diese VM wird"
@@ -94,7 +94,7 @@ AcaniaLighthouseF2FireWithDisc:
     para "Mach bloß keinen"
     line "Blödsinn damit!"
 
-    para "Moment mal<...>"
+    para "Moment mal <...>"
  
     para "Es scheint sich"
     line "etwas im Inneren"
@@ -124,7 +124,7 @@ AcaniaLighthouseF2FireWithDisc:
 
 .fullBagText
 	ctxt "Dein Beutel ist"
-	line "voll<...>"
+	line "voll <...>"
 	done
 
 .doused
@@ -136,14 +136,14 @@ AcaniaLighthouseF2FireWithDisc:
     line "Dubiosdisc!"
  
     para "Sie muss wirklich"
-    line "robust sein, dass"
+    line "robust sein, wenn"
  
     para "sie nicht ver-"
-    line "brannt ist<...>"
+    line "brannt ist <...>"
  
     para "Es muss einen"
     line "Grund geben, warum"
-    para "jemand versuchte"
+    para "jemand versuchte,"
     line "sie zu verbrennen."
 	done
 

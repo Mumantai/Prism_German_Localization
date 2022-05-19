@@ -5,30 +5,30 @@ EagulouParkGate_MapScriptHeader;trigger count
 
 EagulouParkGateAttendant:
 	ctxt "Willkommen im "
-	line "Aegolia-Park!"
+	line "Eagulou-Park!"
 
 	para "Die Regeln haben "
 	line "sich geändert."
 
-	para "Jeder darf den"
-	line "Park kostenlos"
-	para "betreten, aber du"
-	line "musst Parkbälle"
-	para "benutzen, um"
+	para "Jeder darf den "
+	line "Park kostenlos "
+	para "betreten, aber Sie"
+	line "müssen Parkbälle "
+	para "benutzen, um "
 	line "#mon zu fangen."
 
-	para "Die kannst du dir"
+	para "Diese können Sie "
 	line "im örtlichen Markt"
 	cont "kaufen."
 
-	para "Außerdem darfst du"
-	line "die #mon im"
-	para "Park nicht"
+	para "Es ist nicht "
+	line "erlaubt, die "
+	para "#mon zu "
 	line "verletzen, auch "
-	para "wenn sie dich"
-	line "zuerst angreifen."
+	para "wenn diese "
+	line "angreifen!"
 
-	para "Sei also besser"
+	para "Seien Sie also "
 	line "vorsichtig!"
 
 	done

@@ -20,15 +20,14 @@ EagulouGymB1FChangeBlockArrayEntrySizeEnd:
 EagulouGymB1FChangeBlockArrayEnd:
 
 EagulouGymB1FGuide:
-	ctxt "Das hier ist im"
-	line "Grunde bloß eine"
-	para "Erweiterung von"
+	ctxt "Dies ist eine "
+	line "Erweiterung von "
 	cont "Saxifragia Eiland."
 
-	para "Es wurde zu voll,"
+	para "Sie waren zu voll,"
 	line "weshalb sie einige"
 	para "ihrer Insassen in"
-	line "dieses Gefängnis"
+	line "diesen Knast"
 	para "verlegen mussten."
 	done
 
@@ -104,17 +103,17 @@ EagulouGymB1F_Trainer_1:
 .give_key_text
 	ctxt "Wenn du diese "
 	line "armselige Paletten"
-	para "Ranger nerven"
+	para "Patrouille nerven"
 	line "willst, dann nimm "
 	cont "diesen Schlüssel."
 	sdone
 
 .after_key_text
 	ctxt "Ich bin Giovanni"
-	line "für immer treu."
+	line "treu."
 
 	para "Eines Tages hat"
-	line "er sein Comeback!"
+	line "er sein Come-Back!"
 	done
 
 EagulouGymB1F_Trainer_2:
@@ -135,9 +134,9 @@ EagulouGymB1F_Trainer_2:
 	closetextend
 
 .before_battle_text
-	ctxt "Man kann es einem"
-	line "nicht einfach so"
-	para "verübeln, dass man"
+	ctxt "Man kann einem "
+	line "Mann nicht "
+	para "vorwerfen, dass er"
 	line "versucht hat, ein "
 	para "Schiff voller "
 	line "seltener #mon "
@@ -153,15 +152,15 @@ EagulouGymB1F_Trainer_2:
 
 .give_key_text
 	ctxt "Nun, hier ist der "
-	line "Schlüssel zur"
-	cont "Rocket-Zelle."
+	line "Schlüssel zum "
+	cont "Rocket-Gehege."
 
 	sdone
 
 .after_key_text
 	ctxt "Wenn ich mich aus "
 	line "dem Staub mache, "
-	para "kriege ich"
+	para "kriege ich "
 	line "Lebenslang!"
 
 	done
@@ -184,18 +183,18 @@ EagulouGymB1F_Trainer_3:
 
 .before_battle_text
 	ctxt "Dieser Knast"
-	line "ist ekelig!"
+	line "ist eklig!"
 
-	para "Ich hab's!"
+	para "Ich habs!"
 
-	para "Ich weigere mich zu"
-	line "essen, dann lassen"
-	cont "die mich gehen."
+	para "ich esse nichts, "
+	line "dann lassen sie "
+	cont "mich gehen!"
 	done
 
 .battle_won_text
-	ctxt "Warte ab! Mein"
-	line "Freund wird sauer"
+	ctxt "Warte ab, mein "
+	line "Freund wird sauer "
 	para "sein, wenn ich ihm"
 	line "das sage!"
 	done
@@ -203,14 +202,14 @@ EagulouGymB1F_Trainer_3:
 .give_key_text
 	ctxt "Keine Lust mehr."
 
-	para "Los, geh jetzt den"
+	para "Geh jetzt den "
 	line "Direktor nerven!"
 
 	sdone
 
 .after_key_text
 	ctxt "Kannst du mir "
-	line "bitte Cupcakes"
+	line "bitte Cupcakes "
 	cont "reinschmuggeln?"
 
 	done
@@ -239,7 +238,7 @@ EagulouGymB1FLeader:
 	jumptext .after_TM_text
 
 .already_battled_text
-	ctxt "Vergiss niemals"
+	ctxt "Vergiss niemals "
 	line "den Bund mit "
 	cont "deinen #mon!"
 	done
@@ -248,15 +247,15 @@ EagulouGymB1FLeader:
 	ctxt "<...>Mein Name ist "
 	line "Silber."
 
-	para "Ich bin der"
-	line "Direktor und"
-	para "Leiter der Arena"
-	line "von Aegolia City."
+	para "Ich bin der "
+	line "Direktor und "
+	para "Leiter der Arena "
+	line "von Eagulou."
 
-	para "Ich dachte immer,"
-	line "dass die Stärke"
-	para "bei #mon das"
-	line "Entscheidende ist!"
+	para "Ich dachte immer, "
+	line "dass die "
+	para "Kampfkraft "
+	line "entscheident ist!"
 
 	para "Aber Nein!"
 
@@ -264,15 +263,15 @@ EagulouGymB1FLeader:
 	line "#mon schwach "
 	para "ist, liegt sein "
 	line "wahres Potential "
-	para "in der Beziehung"
+	para "in der Bindung "
 	line "zwischen Ihm und "
-	cont "seinem Trainer!"
+	cont "dem Trainer!"
 
 	para "Sei geduldig und "
 	line "dein #mon wird "
-	para "dein treuester"
-	cont "Freund werden!"
-
+	para "dein bester"
+	line "Partner"
+	cont "werden!"
 
 	para "<PLAYER>!"
 
@@ -285,8 +284,8 @@ EagulouGymB1FLeader:
 
 	para "Du scheinst eine "
 	line "starke Bindung zu "
-	para "deinem Team aufge-"
-	line "baut zu haben."
+	para "deinem Team zu "
+	line "haben."
 
 	done
 
@@ -297,17 +296,17 @@ EagulouGymB1FLeader:
 	done
 
 .after_badge_text
-	ctxt "<...>Du bist dessen"
+	ctxt "<...>Du bist dessen "
 	line "Wert."
 
-	para "Das habe ich mir"
+	para "Ich habe mir das "
 	line "vor einigen Jahren"
 	para "vom Ältesten des "
 	line "Knofensa Turms "
 	cont "verdient."
 
 	para "Ich habe seinen "
-	line "Rat nach all den"
+	line "Rat nach einigen"
 	cont "Jahren verstanden:"
 	para "#mon sind keine"
 	line "Kriegswerkzeuge."
@@ -315,15 +314,15 @@ EagulouGymB1FLeader:
 	sdone
 
 .after_TM_text
-	ctxt "<...>Diese TM heißt"
+	ctxt "<...>Diese TM heißt "
 	line "Blitz."
 
 	para "Es ist keine "
 	line "beliebte TM, aber "
-	para "sie wird dunkle"
-	line "Stellen erhellen"
-	para "und die Genauig-"
-	line "keit des Gegners"
+	para "es wird dunkle "
+	line "Stellen erhellen &"
+	para "die Genauigkeit "
+	line "des Feindes "
 	para "während des Kampfes"
 	line "verringern."
 

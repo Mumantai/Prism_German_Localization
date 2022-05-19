@@ -14,12 +14,12 @@ EagulouCity_GoldToken:
 	db GOLD_TOKEN
 
 EagulouCityParkDirectionsSign:
-	ctxt "<UP> Aegolia-Park"
+	ctxt "<UP> Eagulou Park"
 	done
 
 EagulouCityCitySign:
-	ctxt "Angeblich äußerst"
-	next "unterbewertet!"
+	ctxt "Viel zu unter-"
+	next "bewertet!"
 	done
 
 EagulouCity_MapEventHeader:: db 0, 0

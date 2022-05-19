@@ -47,3 +47,9 @@ Oder das:
 - Item Namen haben max. 12 Zeichen --> Bei Variablen also immer mit dazurechnen!
 - Attacken-Namen haben ebenfalls max. 12 Zeichen --> Bei Variablen also immer mit dazurechnen!
 
+
+# Geänderte Ortsnamen
+		
+![image](https://user-images.githubusercontent.com/11394683/169287535-0ab60231-1b34-4c43-89fb-19c7b5d3e709.png)
+
+

@@ -28,7 +28,7 @@ AcaniaGymGuide:
  
     para "Atme also lieber"
     line "nicht zu viel"
-    cont "hier drin<...>"
+    cont "hier drin <...>"
 	done
 
 .after_badge_text
@@ -53,7 +53,7 @@ AcaniaGym_Trainer_1:
 	end
 
 .before_battle_text
-    ctxt "Ähhhm<...>"
+    ctxt "Ähhhm <...>"
  
     para "Ich -hust-"
  
@@ -65,25 +65,25 @@ AcaniaGym_Trainer_1:
 	done
 
 .battle_won_text
-	ctxt "Ughhhhhh<...>"
+	ctxt "Ughhhhhh <...>"
 	done
 
 .clearing_gas_text
     ctxt "Ich mach das"
     line "Gas weg, weil"
-    cont "ich muss<...>"
+    cont "ich muss <...>"
  
     para "<...> Äh, weil's"
     line "die Leiterin mir"
-    cont "so gesagt hat<...>"
+    cont "so gesagt hat <...>"
 	sdone
 
 .gas_cleared_text
 	ctxt "Äh, keine Ahnung"
 	line "was du noch will-<...>"
 
-	cont "<...>Ich bin so<...>"
-	cont "<...>schläfrig<...>"
+	cont "<...> Ich bin so <...>"
+	cont "<...> schläfrig <...>"
 	done
 
 AcaniaGym_Trainer_2:
@@ -99,9 +99,9 @@ AcaniaGym_Trainer_2:
 	end
 
 .before_battle_text
-	ctxt "Öhhh<...>"
+	ctxt "Öhhh <...>"
 
-	para "Lass und kämpfen,"
+	para "Lass uns kämpfen,"
 	line "okay?"
 	done
 
@@ -120,7 +120,7 @@ AcaniaGym_Trainer_2:
 
 .gas_cleared_text
 	ctxt "Ich werde"
-	line "-hust- weiter"
+	line "-hust- weiter-"
 	cont "trainieren -hust-."
 	done
 
@@ -148,22 +148,22 @@ AcaniaGymLeader:
 .intro_text
 	ctxt "Ist da jemand?"
  
-    para "Ah, okay<...>"
+    para "Ah, okay <...>"
  
     para "Ein Ritter mit"
     line "einer Schaufel?!"
  
-    para "Ach nee<...>, nur"
+    para "Ach nee <...>, nur"
     line "so ein Trainer,"
     para "der meinen Orden"
     line "haben will."
  
-    para "Wie öde<...>"
+    para "Wie öde <...>"
     line "-gähn-"
  
-    para "Nun. Nach meinem"
+    para "Nun, nach meinem"
     line "äußerst strengen"
-    para "Zeitplan, habe ich"
+    para "Zeitplan habe ich"
     line "tatsächlich Zeit"
     para "für einen Kampf."
     cont "Also los."
@@ -172,21 +172,21 @@ AcaniaGymLeader:
     line "und nutze"
     cont "Gas-#mon!"
  
-    para "Ok<...> bringen wir's"
-    line "hinter uns<...>."
+    para "Ok <...> bringen wir's"
+    line "hinter uns <...>."
 	sdone
 
 .battle_won_text
     ctxt "-hust-"
  
     para "Puh, das war"
-    line "ja mal was<...>!"
+    line "ja mal was <...>!"
  
-    para "Naja, was soll's<...>?"
+    para "Naja, was soll's <...>?"
  
-    para "Hier hast du den<...>"
+    para "Hier hast du den <...>"
  
-    para "Wie hies das"
+    para "Wie hieß das"
     line "Ding nochmal?"
  
     para "Nebelorden?"
@@ -207,27 +207,27 @@ AcaniaGymLeader:
 
 .giving_TM_text
 	ctxt "Nimm das hier"
-	line "auch noch<...>"
+	line "auch noch <...>"
 	sdone
 
 .got_TM_text
 	ctxt "Die TM heißt"
 	line "Senfgas."
 
-    para "Sie, ähh<...>"
+    para "Sie, ähh <...>"
  
-    para "Mein Hirn tut weh<...>"
+    para "Mein Hirn tut weh <...>"
     line "Ach, du findest es"
     cont "schon selbst raus."
 	done
 
 .already_battled_text
-    ctxt "Ich denk' ich"
+    ctxt "Ich denke, ich"
     line "werd' erstmal ein"
     para "kleines Nickerchen"
     line "machen, bis der"
     para "nächste Trainer"
-    line "hier antanzt<...>"
+    line "hier antanzt <...>"
  
     para "Wird wohl auch"
     line "noch etwas dauern."
@@ -235,8 +235,8 @@ AcaniaGymLeader:
     para "Ach, was soll's!"
  
     para "Geh' einfach"
-    line "mit anderen"
-    cont "Leuten kämpfen,ja?"
+    line "mit anderen Leu-"
+    cont "ten kämpfen, ja?"
 	done
 
 AcaniaGym_MapEventHeader:: db 0, 0

@@ -53,6 +53,8 @@ Farbliche Unterlegung:
  - Rot --> Ortsname muss noch geändert werden
  - Orange --> Ortsname sollte noch geändert werden
  - Gelb --> Ortsname könnte eventuell noch geändert werden
-![image](https://user-images.githubusercontent.com/11394683/169287535-0ab60231-1b34-4c43-89fb-19c7b5d3e709.png)
+
+![image](https://user-images.githubusercontent.com/11394683/169313304-5e7a622a-5aa0-49ee-a991-78e9ed0c9444.png)
+
 
 

@@ -4,7 +4,7 @@ GoldenrodUndergroundEntryA_MapScriptHeader;trigger count
 	db 0
 
 GoldenrodUndergroundEntryANPC:
-	ctxt "Pass da unten auf"
+	ctxt "Pass da unten auf "
 	line "dich auf."
 
 	done

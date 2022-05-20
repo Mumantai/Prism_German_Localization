@@ -10,41 +10,37 @@ GoldenrodMagnetTrainEmployee:
 	farjump MagnetTrainScript
 
 .no_pass_text
-	ctxt "Hallo."
+	ctxt "Hello."
 
-	para "Leider kannst du"
-	line "diese Station ohne"
-	para "einen Fahrschein"
-	line "nicht benutzen."
+	para "Unfortunately, you"
+	line "can't use this"
+	para "station without a"
+	line "Magnet Pass."
 
-	para "Komm wieder, wenn"
-	line "du einen hast."
-
+	para "Come back when you"
+	line "get one."
 	done
 
 GoldenrodMagnetTrainPresident:
-	ctxt "Ich bin der"
-	line "Präsident dieser"
-	cont "Bahngesellschaft."
+	ctxt "I'm the President"
+	line "of this railroad."
 
-	para "Dieser Zug ist"
-	line "schneller als"
-	para "jedes #mon, und"
-	line "bringt Sie"
-	para "blitzschnell nach"
-	line "Rijon oder Naljo!"
+	para "This train is"
+	line "faster than any"
+	para "#mon, and"
+	line "will take you to"
+	para "Rijon or Naljo"
+	line "in a flash!"
 
-	para "Wenn Sie einen"
-	line "Sonderausweis"
-	para "haben, kann er Sie"
-	line "auch nach Kanto"
-	cont "bringen."
+	para "If you have a"
+	line "special pass, it"
+	para "can also take you"
+	line "to Kanto."
 
-	para "Wir planen, in"
-	line "Zukunft auch in"
-	para "andere Regionen zu"
-	line "expandieren."
-
+	para "We have plans to"
+	line "expand to other"
+	para "regions in the"
+	line "future."
 	done
 
 GoldenrodMagnetTrain_MapEventHeader:: db 0, 0

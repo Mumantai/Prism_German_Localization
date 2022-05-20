@@ -109,7 +109,7 @@ FirelightPalletPath1FCutscene:
 
 .palette_text_1
 	ctxt "Blau: Ich bin ver-"
-	line "wirrt, Red. Warum"
+	line "wirrt Red. Warum"
 	cont "sind wir hier?"
 
 	para "Und warum tragen"
@@ -125,19 +125,19 @@ FirelightPalletPath1FCutscene:
 	line "Naljo-Gewänder."
 
 	para "Wie ich bereits"
-	line "sagte, Andy, sind"
+	line "sagte Andy, sind"
 	cont "wir endlich fertig"
 	cont "damit, Naljo nach"
 	cont "den Kugeln der"
-	cont "Wächter-#mon"
-	cont "zu durchkämmen."
+	cont "Wächter #mon"
+	cont "zu durchsuchen."
 
 	para "Sobald Varaneous"
 	line "erwacht, wird Nal-"
 	cont "jo wieder zu dem"
 	cont "Paradies, das un-"
 	cont "sere Vorfahren"
-	cont "einst kannten!"
+	cont "einst erlebten!"
 	sdone
 
 .palette_text_3
@@ -172,14 +172,14 @@ FirelightPalletPath1FCutscene:
 	sdone
 
 .palette_text_5
-	ctxt "Pink: Aber <...> sie"
+	ctxt "Pink: Aber<...> sie"
 	line "wollten doch nur"
 	para "Geld beschaffen,"
 	line "damit wir es noch"
 	cont "weiter bringen."
 
-	para "Nach all dem, ist"
-	line "es am Ende nu<...>"
+	para "Nach all dem ist"
+	line "es am Ende nur<...>"
 	sdone
 
 .palette_text_6
@@ -194,36 +194,35 @@ FirelightPalletPath1FCutscene:
 	sdone
 
 .palette_text_7
-	ctxt "Blau: Ich weiß ja"
+	ctxt "Blau: Äh<...> Ich weiß"
 	line "nicht, ob das eine"
-	cont "so gute Idee ist <...>"
+	cont "so gute Idee ist<...>"
 
 	para "Ich glaube bei der"
 	line "Sache halte ich"
-	cont "mich lieber raus <...>"
+	cont "mich lieber raus<...>"
 	sdone
 
 .palette_text_8
 	ctxt "Rot: Wenn du mich"
 	line "auch verrätst,"
-	cont "wirst du büßen!"
+	cont "wirst du Büßen!"
 
 	para "In meiner Welt"
 	line "gibt es keine"
-	cont "'Notausgänge' <...>"
+	cont "'Notausgänge'<...>"
 
 	para "<...> verstanden?"
 
 	para "Weißt du noch, was"
-	line "ich diesem Rüpel"
-	para "von Team Rocket"
-	line "angetan habe, der"
-	para "meine #mon"
+	line "ich diesem Rocket"
+	cont "angetan habe, der"
+	cont "meine #mon"
 	cont "stehlen wollte?"
 	sdone
 
 .palette_text_9
-	ctxt "Pink: <...> Bitte,"
+	ctxt "Pink: <...>Bitte,"
 	line "ich möchte nicht"
 	cont "daran denken."
 
@@ -268,7 +267,7 @@ FirelightPalletPath1FCutscene:
 
 	para "Die Verkörperung"
 	line "von Feuer, Krieg"
-	cont "und Zerstörung <...>"
+	cont "und Zerstörung<...>"
 
 	para "Gehört mir allein!"
 	sdone
@@ -310,13 +309,13 @@ FirelightPalletPath1FCutscene:
 	ctxt "Rot: Was?!"
 
 	para "Wieso solltest du"
-	line "mich angreifen <...>?"
+	line "mich angreifen<...>?"
 
-	para "Ich bin doch <...>!"
+	para "Ich bin doch<...>!"
 	prompt
 
 .varaneous_attacks_pink_text
-	ctxt "Pink: Mein Bein <...>"
+	ctxt "Pink: Mein Bein<...>"
 
 	para "Es ist gebrochen!"
 	sdone
@@ -373,7 +372,7 @@ FirelightPalletPath1FCutscene:
 	cont "die Gelbe hin?"
 
 	para "Egal, wir machen"
-	line "Fortschritte <...>"
+	line "Fortschritte<...>"
 
 	para "Hey, du! Gehörst"
 	line "du auch zu denen?"
@@ -385,7 +384,7 @@ FirelightPalletPath1FCutscene:
 	step_end
 
 .nobu_talks_to_player_text
-	ctxt "Nobu: Nein, Sir."
+	ctxt "Nobu: Ne Officer."
 
 	para "Der Wahnsinnige in"
 	line "rot plant schon"
@@ -393,22 +392,22 @@ FirelightPalletPath1FCutscene:
 	cont "Wächter zu wecken."
 
 	para "Officer: Etwa die"
-	line "aus diesen alten"
+	line "aus den alten"
 	cont "Geschichten?"
 
 	para "Nobu: Genau die."
 
-	para "Aber Moment!"
+	para "Aber wieso<...>"
 
 	para "<...> Wieso wurden sie"
 	line "angegriffen und"
-	cont "nicht du <...>?"
+	cont "nicht du<...>?"
 
-	para "Warte mal <...>"
+	para "Warte mal<...>"
 
 	para "Dich hab ich doch"
 	line "schon im Fernsehen"
-	cont "gesehen <...>"
+	cont "gesehen<...>"
 
 	para "Moment!"
 
@@ -472,12 +471,11 @@ FirelightPalletPath1F_PalettePink:
 	line "nicht verstehen."
 
 	para "Wir werden alles"
-	line "Nötige tun, um"
-	para "unsere Träume"
-	cont "zu verwirklichen!"
+	line "tun was nötig ist,"
+	cont "für unsere Ziele."
 
 	para "Der Zweck heiligt"
-	line "immer die Mittel!"
+	line "immer die Mittel."
 	sdone
 
 FirelightPalletPath1F_PaletteBlue:
@@ -509,7 +507,8 @@ FirelightPalletPath1F_PaletteBlue:
 	line "meines Lebens!"
 
 	para "Ich werde alles"
-	line "geben und siegen!"
+	line "geben und"
+	cont "gewinnen"
 	done
 
 .battle_won_text
@@ -562,11 +561,11 @@ FirelightPalletPath1F_PaletteRed:
 
 	para "Wir haben bereits"
 	line "alles, was wir"
-	cont "brauchen <...>!"
+	cont "brauchen<...>!"
 	done
 
 .battle_won_text
-	ctxt "Macht nichts <...>"
+	ctxt "Macht nichts<...>"
 	done
 
 .after_battle_text

@@ -4,8 +4,8 @@ GoldenrodUndergroundEntryB_MapScriptHeader;trigger count
 	db 0
 
 GoldenrodUndergroundEntryBNPC:
-	ctxt "Die Trainer da"
-	line "unten sind"
+	ctxt "Die Trainer da "
+	line "unten sind "
 	cont "unbelehrbar!"
 
 	done

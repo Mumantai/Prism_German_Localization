@@ -26,20 +26,20 @@ FirelightGroudonStatue:
 	line "die Statue eines"
 	cont "mächtigen #mon."
 
-	para "Merkwürdig <...>"
+	para "Merkwürdig<...>"
 	
 	para "Es streckt seine"
-	line "Arme nach vorne <...>"
+	line "Arme nach vorne<...>"
 
 	para "Als würde es etwas"
-	line "von uns erwarten <...>"
+	line "von uns erwarten<...>"
 
 	done
 
 .placed_orb_text
 	ctxt "Rote Kugel in die"
 	line "Hände der Statue"
-	cont "platziert <...>"
+	cont "platziert<...>"
 	sdone
 
 .groudon_wakes_up_text
@@ -50,7 +50,8 @@ FirelightGroudonStatue:
 	
 	para "Es ist ein echtes"
 	line "#mon und es"
-	cont "will angreifen!"
+	para "will scheinbar"
+	line "angreifen!"
 	sdone
 
 FirelightGroudon_MapEventHeader:: db 0, 0

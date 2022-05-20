@@ -5,14 +5,14 @@ GoldenrodBill_MapScriptHeader;trigger count
 
 GoldenrodBillBrother:
 	ctxt "Mein Bruder Bill "
-	line "hat das #mon-"
+	line "hat das #mon "
 	para "Lagerungssystem "
-	line "erfunden."
+	line "hergestellt."
 
 	done
 
 GoldenrodBillFather:
-	ctxt "Ich bin so stolz"
+	ctxt "Ich bin so stolz "
 	line "auf meinen Sohn."
 
 	done

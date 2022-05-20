@@ -4,24 +4,25 @@ GoldenrodMart_MapScriptHeader;trigger count
 	db 0
 
 GoldenrodMartNPC1:
-	ctxt "Der Laden hier hat"
-	line "eine gute Auswahl,"
-	para "für einen so"
-	line "kleinen Markt."
-
+	ctxt "This place has a"
+	line "decent selection"
+	para "for a single-floor"
+	line "mart."
 	done
 
 GoldenrodMartNPC2:
-	ctxt "Früher stand hier"
-	line "ein riesiges"
-	cont "Kaufhaus."
+	ctxt "A huge department"
+	line "store used to"
+	cont "stand here."
 
-	para "Das Erdbeben hat"
-	line "das Gebäude zer-"
-	para "stört <...> Eventuell"
-	line "wird dieser hier"
-	cont "ja ausgebaut?"
+	para "The quake"
+	line "destroyed the"
+	cont "building."
 
+	para "Goldenrod will"
+	line "have a basic mart"
+	para "until more floors"
+	line "are built."
 	done
 
 GoldenrodMart_MapEventHeader:: db 0, 0

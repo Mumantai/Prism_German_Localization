@@ -4,37 +4,37 @@ GoldenrodPokecenter_MapScriptHeader;trigger count
 	db 0
 
 GoldenrodPokecenterNPC1:
-	ctxt "Ich half beim"
-	line "Wiederaufbau von"
-	para "Dukatia City nach"
-	line "diesem schweren"
-	para "Erdbeben vor"
-	line "einigen Jahren."
+	ctxt "Ich half beim "
+	line "Wiederaufbau "
+	para "Dukatias nach dem "
+	line "schweren Erdbeben "
+	para "vor einigen "
+	line "Jahren."
 
-	para "Wir sind noch"
+	para "Wir sind noch "
 	line "nicht fertig, denn"
-	para "wir müssen noch"
-	line "den Radioturm"
+	para "wir müssen noch "
+	line "den Radioturm "
 	cont "wieder aufbauen."
 
 	done
 
 GoldenrodPokecenterNPC2:
-	ctxt "Vor dem Erdbeben,"
-	line "konntest du mit"
-	para "deinem Radio die"
-	line "Musik aus dem"
-	para "Radioturm hier"
+	ctxt "Vor dem Erdbeben, "
+	line "konntest du mit "
+	para "deinem Radio die "
+	line "Musik aus dem "
+	para "Radioturm "
 	line "empfangen!"
 
 	done
 
 GoldenrodPokecenterNPC3:
-	ctxt "Die Artenvielfalt"
-	line "unter den #mon"
-	para "wächst, denn es"
-	line "gibt immer neue"
-	para "#mon zu"
+	ctxt "Die Artenvielfalt "
+	line "unter den #mon "
+	para "wächst, denn es "
+	line "gibt immer neue "
+	para "#mon zu "
 	line "entdecken."
 
 	done

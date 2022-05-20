@@ -11,12 +11,12 @@ GoldenrodUnderground_NoEntrySign:
 GoldenrodUnderground_Trainer_1:
 	trainer EVENT_GOLDENROD_UNDERGROUND_TRAINER_1, SUPER_NERD, 6, .before_battle_text, .defeated_text
 
-	ctxt "Du versuchst, den"
-	line "Naljo-Dex zu"
+	ctxt "Du versuchst, den "
+	line "Naljo Dex zu "
 	cont "vervollständigen?"
 
-	para "Wow, das ist ein"
-	line "ehrgeiziges Ziel!"
+	para "Wow, das ist ein "
+	line "sehr cooles Ziel!"
 
 	done
 
@@ -28,7 +28,7 @@ GoldenrodUnderground_Trainer_1:
 	done
 
 .defeated_text
-	ctxt "Kein Grund, wütend"
+	ctxt "Kein Grund wütend "
 	line "zu werden!"
 
 	done
@@ -36,24 +36,24 @@ GoldenrodUnderground_Trainer_1:
 GoldenrodUnderground_Trainer_2:
 	trainer EVENT_GOLDENROD_UNDERGROUND_TRAINER_2, OFFICER, 2, .before_battle_text, .defeated_text
 
-	ctxt "Haltet die Kämpfe"
-	line "hier unten etwas"
-	para "ruhiger, sonst"
-	line "sperre ich diesen"
-	cont "Bereich ab."
+	ctxt "Halten Sie die "
+	line "Kämpfe "
+	para "zivilisiert, sonst"
+	line "riegele ich diesen"
+	cont "Ort ab."
 
-	para "Willst du das"
-	line "auf dem Gewissen"
+	para "Wollen Sie das auf"
+	line "Ihrem Gewissen "
 	cont "haben?"
 
 	done
 
 .before_battle_text
-	ctxt "Ich kenne dich"
+	ctxt "Ich kenne dich "
 	line "nicht."
 
-	para "Ich hoffe, du"
-	line "machst keine"
+	para "Ich hoffe, du "
+	line "machst keine "
 	cont "Probleme."
 
 	done
@@ -66,21 +66,21 @@ GoldenrodUnderground_Trainer_2:
 GoldenrodUnderground_Trainer_3:
 	trainer EVENT_GOLDENROD_UNDERGROUND_TRAINER_3, SUPER_NERD, 7, .before_battle_text, .defeated_text
 
-	ctxt "In der Spielhalle"
-	line "kann man fünf"
-	cont "Spiele spielen!"
+	ctxt "In der Spielhalle "
+	line "kann man 5 Spiele "
+	cont "spielen!"
 
 	done
 
 .before_battle_text
-	ctxt "Warst du schon in"
-	line "der neuen"
+	ctxt "Warst du schon in "
+	line "der neuen "
 	cont "Spielhalle?"
 
 	done
 
 .defeated_text
-	ctxt "Habe nur gefragt <...>"
+	ctxt "Habe nur gefragt<...> "
 	done
 
 GoldenrodUnderground_YoungerHaircutBrother:
@@ -121,17 +121,17 @@ GoldenrodUnderground_YoungerHaircutBrother:
 	db SUNDAY, WEDNESDAY, FRIDAY, -1
 
 .welcome_text
-	ctxt "Willkommen im"
+	ctxt "Willkommen im "
 	line "#mon-Salon!"
 
-	para "Ich bin der"
-	line "jüngere, und"
-	para "der günstigere,"
-	line "der beiden"
+	para "Ich bin der "
+	line "jüngere und "
+	para "weniger teure der "
+	line "beiden "
 	cont "Friseur-Brüder."
 
 	para "Für nur 300¥ mache"
-	line "ich dein #mon"
+	line "ich Ihr #mon "
 	cont "wieder flott."
 
 	para "Na?"
@@ -141,14 +141,14 @@ GoldenrodUnderground_YoungerHaircutBrother:
 	done
 
 .not_enough_money_text
-	ctxt "Sorry, du hast"
+	ctxt "Sorry, du hast "
 	line "nicht genug Geld."
 
 	done
 
 .select_mon_text
 	ctxt "OK, welches #mon"
-	line "soll's denn sein?"
+	line "solls denn sein?"
 
 	done
 
@@ -168,7 +168,7 @@ GoldenrodUnderground_YoungerHaircutBrother:
 .go_text
 	ctxt "OK!"
 
-	para "Ich lass es gut"
+	para "Ich lass es gut "
 	line "aussehen!"
 
 	sdone
@@ -225,21 +225,21 @@ GoldenrodUnderground_HaircutBrothers_Finish:
 
 .little_happier
 	text_from_ram wStringBuffer1
-	ctxt " sieht etwas"
+	ctxt "Sieht etwas "
 	line "zufriedener aus!"
 
 	done
 
 .happy
 	text_from_ram wStringBuffer1
-	ctxt " sieht zufrieden"
+	ctxt "Sieht zufrieden "
 	line "aus!"
 
 	done
 
 .delighted
 	text_from_ram wStringBuffer1
-	ctxt " sieht glücklich"
+	ctxt "Es sieht Glücklich"
 	line "aus!"
 
 	done
@@ -250,19 +250,19 @@ GoldenrodUnderground_OlderHaircutBrother_Workdays:
 GoldenrodUnderground_OlderHaircutBrother_WelcomeText:
 	ctxt "Willkommen!"
 
-	para "Ich leite den"
+	para "Ich leite den "
 	line "#monsalon!"
 
 	para "Ich bin der ältere"
-	line "und bessere"
-	para "der beiden"
+	line "und bessere der "
+	para "beiden "
 	line "Friseur-Brüder."
 
-	para "Ich kann deine"
-	line "#mon für nur"
+	para "Ich kann Ihr "
+	line "#mon für nur "
 	cont "500¥ schön machen."
 
-	para "Hättest du daran"
+	para "Hätten Sie "
 	line "Interesse?"
 
 	done
@@ -274,21 +274,21 @@ GoldenrodUnderground_OlderHaircutBrother_NeedMoreMoneyText:
 	done
 
 GoldenrodUnderground_OlderHaircutBrother_WhichMonText:
-	ctxt "Welches #mon"
-	line "soll es denn sein?"
+	ctxt "Which #mon"
+	line "should I work on?"
 	done
 
 GoldenrodUnderground_OlderHaircutBrother_ShiftOverText:
-	ctxt "Pro Tag gibt's nur"
-	line "einen Haarschnitt!"
+	ctxt "Pro Tag nur ein "
+	line "Haarschnitt!"
 
-	para "Komm morgen"
+	para "Komm morgen "
 	line "wieder!"
 
 	done
 
 GoldenrodUnderground_OlderHaircutBrother_DeclinedText:
-	ctxt "Ah so läuft das <...> "
+	ctxt "Ah so läuft das<...> "
 	para "Schande!"
 
 	done
@@ -314,7 +314,7 @@ GoldenrodUnderground_HaircutBrothers_NotTodayText:
 	done
 
 GoldenrodUndergroundNPC:
-	ctxt "Die Trainer dort"
+	ctxt "Die Trainer dort "
 	line "unten sind "
 	cont "unbelehrbar."
 

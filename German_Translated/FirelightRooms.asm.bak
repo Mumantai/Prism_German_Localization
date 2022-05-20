@@ -10,37 +10,36 @@ FirelightRooms_Trainer_1:
 	line "als verlierer<...>"
 
 	para "bezeichnet, dann"
-	line "glauben das alle!"
+	line "glauben alle das!"
 	done
 
 .before_battle_text
 	ctxt "Wenn man sich"
 	line "'cool' nennt, ist"
-	cont "das dann arrogant?"
+	cont "das also arrogant<...>"
 	done
 
 .battle_won_text
-	ctxt "Diese Ironie <...>"
+	ctxt "Diese Ironie<...>"
 	done
 
 FirelightRooms_Trainer_2:
 	trainer EVENT_FIRELIGHT_ROOMS_TRAINER_2, COOLTRAINERF, 2, .before_battle_text, .battle_won_text
 
-	ctxt "Ich schwitze <...>"
+	ctxt "Ich schwitze<...>"
 
-	para "wie ein Traumato"
-	line "in der Sauna!"
+	para "viel zu viel!"
 	done
 
 .before_battle_text
 	ctxt "Es ist so schwül"
-	line "hier, dass ich"
-	cont "schon schwitze!"
+	line "hier! Ich schwitze"
+	cont "so sehr!"
 	done
 
 .battle_won_text
-	ctxt "Jetzt bin ich"
-	line "durchnässt <...>."
+	ctxt "Uund<...> ich schwitze"
+	line "nun offiziell."
 	done
 
 FirelightRooms_Trainer_3:
@@ -55,13 +54,13 @@ FirelightRooms_Trainer_3:
 	done
 
 .before_battle_text
-	ctxt "Die Lava steigt"
-	line "immer bis zu der"
-	para "Stelle, an der"
+	ctxt "Der Lava-Spiegel"
+	line "steigt immer bis"
+	para "zu der höhe, wo"
 	line "wir gerade stehen!"
 
-	para "Das nenne ich"
-	line "leben am Limit!"
+	para "Wir stehen gerade"
+	line "auf der Spitze!"
 	done
 
 .battle_won_text
@@ -72,9 +71,10 @@ FirelightRooms_Trainer_4:
 	trainer EVENT_FIRELIGHT_ROOMS_TRAINER_4, FIREBREATHER, 2, .before_battle_text, .battle_won_text
 
 	ctxt "Mein Magmar und"
-	line "ich lieben es,"
-	cont "Feuer zu spucken!"
-	
+	line "ich lieben es"
+	para "feuer zu"
+	line "spucken!"
+
 	para "Ich habe Jahre"
 	line "gebraucht, um es"
 	para "so gut wie Magmar"
@@ -86,7 +86,7 @@ FirelightRooms_Trainer_4:
 	line "nichts verbrennen,"
 	para "weshalb das hier"
 	line "der beste Ort"
-	cont "zum Üben ist!"
+	cont "zum üben ist!"
 	done
 
 .battle_won_text
@@ -98,10 +98,10 @@ FirelightRooms_Trainer_4:
 FirelightRooms_Trainer_5:
 	trainer EVENT_FIRELIGHT_ROOMS_TRAINER_5, FIREBREATHER, 3, .before_battle_text, .battle_won_text
 
-	ctxt "Ganz ehrlich, wer"
-	line "baut denn bitte"
+	ctxt "Jetzt mal im ernst"
+	line "wer baut schon"
 	para "direkt neben einen"
-	line "aktiven Vulkan, so"
+	line "aktiven Vulkan so"
 	cont "einen Park hin?"
 	done
 
@@ -109,9 +109,10 @@ FirelightRooms_Trainer_5:
 	ctxt "Ich wurde aus dem"
 	line "Park geworfen."
 
-	para "Sie lassen mich"
-	line "da einfach nicht"
-	cont "Feuer spucken!"
+	para "Ich durfte dort"
+	line "nicht meinem"
+	para "feuerspuck Übungen"
+	line "nachgehen!"
 	done
 
 .battle_won_text
@@ -120,18 +121,18 @@ FirelightRooms_Trainer_5:
 
 FirelightRooms_Trainer_6:
 	trainer EVENT_FIRELIGHT_ROOMS_TRAINER_6, COOLTRAINERF, 3, .before_battle_text, .battle_won_text
-	ctxt "Ach, der heiße Ort"
-	line "im Süd-Westen <...>."
-	para "'Heiß' im Sinne"
-	line "von sehenswürdig."
-	para "Nicht wegen der"
+	ctxt "Ach der Heiße Ort"
+	line "im Süd-Westen<...>"
+	para "'Heiß' im sinne"
+	line "von sehenswürdig,"
+	para "nicht die"
 	line "Temperatur dort."
 	done
 
 .before_battle_text
 	ctxt "Im Süd-Westen von"
 	line "hier, ist ein sehr"
-	cont "heißer Ort."
+	cont "Heißer Ort."
 
 	para "Diese Region hat"
 	line "schon sehr"
@@ -142,7 +143,7 @@ FirelightRooms_Trainer_6:
 .battle_won_text
 	ctxt "Ich hörte, hier"
 	line "könne man sehr gut"
-	cont "trainieren <...>"
+	cont "trainieren<...>"
 	done
 
 FirelightRooms_MapEventHeader:: db 0, 0

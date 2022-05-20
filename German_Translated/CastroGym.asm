@@ -171,7 +171,7 @@ CastroGymTrainer3:
 	end
 
 .before_battle_text
-	ctxt "Koji ist heiss."
+	ctxt "Koji ist heiß."
 
 	para "Sich wie er zu"
 	line "verkleiden<...>"
@@ -217,8 +217,8 @@ CastroGymTrainer4:
 	done
 
 .after_battle_text
-	ctxt "Zeit Ninjutsu zu"
-	line "trainieren!"
+	ctxt "Zeit, Ninjutsu"
+	line "zu trainieren!"
 	done
 
 CastroGym_MapEventHeader:: db 0, 0

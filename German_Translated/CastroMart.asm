@@ -16,7 +16,7 @@ CastroMartNPC2:
 	para "deine #mon"
 	line "Schaden durch"
 	para "Wettereffekte"
-	line "erhalten."
+	line "nehmen."
 	done
 
 CastroMart_MapEventHeader:: db 0, 0

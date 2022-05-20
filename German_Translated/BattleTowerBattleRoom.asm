@@ -164,7 +164,7 @@ BattleTowerBattleRoom_Script:
 	done
 
 .saving_text
-	ctxt "Speichern<...>"
+	ctxt "Speichern <...>"
 	done
 
 BattleTowerBeforeMatchMenuHeader:
@@ -219,7 +219,7 @@ BattleTowerText_AskNextBattle:
 	ctxt ""
 	line "ist dran."
 
-	para "Bist du Bereit?"
+	para "Bist du bereit?"
 	done
 
 .tycoon_text

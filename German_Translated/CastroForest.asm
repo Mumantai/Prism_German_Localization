@@ -25,7 +25,7 @@ CastroForest_Trainer_1:
 	ctxt "Irgendein Narr hat"
 	line "Varaneous geweckt!"
 
-	para "Was<...> du hast"
+	para "Was <...> du hast"
 	line "dabei zugesehen?"
 
 	done

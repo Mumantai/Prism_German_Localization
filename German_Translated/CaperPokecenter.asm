@@ -9,15 +9,15 @@ CaperPokecenterNPC1:
 	cont "treffen."
 
 	para "Er ist immer so "
-	line "beschäftigt<...>"
+	line "beschäftigt <...>"
 	done
 
 CaperPokecenterNPC2:
 	ctxt "#mon Center"
-	line "sind der hammer!"
+	line "sind der Hammer!"
 
 	para "Sie heilen deine"
-	line "#mon im nu!"
+	line "#mon im Nu!"
 	done
 
 CaperPokecenter_MapEventHeader:: db 0, 0

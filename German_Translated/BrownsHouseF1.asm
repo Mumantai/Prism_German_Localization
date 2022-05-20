@@ -22,7 +22,7 @@ BrownsHouseF1Mom:
 	line "Sorgen um meinen"
 	cont "Sohn Brown."
 
-	para "Wenn du Ihn siehst"
+	para "Siehst du ihn,"
 	line "lass mich wissen,"
 	cont "dass er OK ist."
 	done
@@ -34,11 +34,11 @@ BrownsHouseF1Mom:
 	line "Mysteriösen Zone?"
 
 	para "Er hätte auch"
-	line "anrufen können<...>"
+	line "anrufen können <...>"
 	para "Naja, wenigstens"
 	line "geht es ihm gut."
 
-	para "Nimm das, als"
+	para "Nimm das als"
 	line "Dankeschön."
 	sdone
 

@@ -26,7 +26,7 @@ CaperMartAttendant:
 CaperMartNPC1:
 	ctxt "Ich wurde mal des"
 	line "Ladendiebstahls"
-	cont "beschuldigt<...>"
+	cont "beschuldigt <...>"
 
 	para "Dabei war ich nur"
 	line "am Überlegen, was"

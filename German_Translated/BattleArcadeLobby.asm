@@ -135,8 +135,8 @@ BattleArcadeLobbyBattleNPC:
 	cont "kampfunfähig ist."
 
 	para "Zwischen den Kämp-"
-	line "fen, wird alles"
-	para "auser den KP"
+	line "fen wird alles"
+	para "außer den KP"
 	line "deiner #mon"
 	cont "geheilt."
 
@@ -144,7 +144,7 @@ BattleArcadeLobbyBattleNPC:
 	line "etwas schwerer!"
 
 	para "Am Ende jeder Run-"
-	line "de, erhälst du,"
+	line "de erhälst du,"
 	para "basierend auf"
 	line "deiner Leistung,"
 	para "eine gewisse"
@@ -153,7 +153,7 @@ BattleArcadeLobbyBattleNPC:
 	para "Deine Punktzahl"
 	line "wird mit der Run-"
 	para "dennummer multi-"
-	line "pliziert, versuche"
+	line "pliziert. Versuche"
 	para "also so lange wie"
 	line "nur möglich"
 	cont "durchzuhalten!"
@@ -165,9 +165,9 @@ BattleArcadeLobbyBattleNPC:
 	para "denticket pro 300"
 	line "erreichter Punkte."
 
-	para "Diese Tickets,"
+	para "Diese Tickets"
 	line "können am Schalter"
-	para "auf der Rechten"
+	para "auf der rechten"
 	line "Seite gegen Preise"
 	cont "getauscht werden."
 	
@@ -185,10 +185,10 @@ BattleArcadeLobbyBattleNPC:
 
 
 .three_pokemon_text
-	ctxt "Du brauchst minde-"
-	line "stens drei #mon"
-	para "in deinem Team, um"
-	line "teilzunehmen."
+	ctxt "Du brauchst zumin-"
+	line "dest drei #mon"
+	para "in deinem Team,"
+	line "um teilzunehmen."
 
 	para "Du kannst den PC"
 	line "dort benutzen, um"
@@ -251,7 +251,7 @@ BattleArcadeLobbyBattleNPC:
 	done
 	
 BattleArcadeLobbyInstructionsNPC:
-	ctxt "Ab hier, sind die"
+	ctxt "Ab hier sind die"
 	line "Kämpfe komplett"
 	para "dem Zufall über-"
 	line "lassen!"

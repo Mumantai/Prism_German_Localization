@@ -6,25 +6,25 @@ AcaniaPokecenter_MapScriptHeader;trigger count
 AcaniaPokecenterNPC1:
     ctxt "Wenn du nach Osten"
     line "surfst, kommst du"
-    cont "zur Rijon Region."
+    cont "zur Rijon-Region."
 
     para "Jemand baute einen"
-    line "Teleporter der"
+    line "Teleporter, der"
     para "Trainer mit allen"
     line "Orden aus Naljo"
-    para "zur Rijon Liga"
+    para "zur Rijon-Liga"
     line "bringen kann!"
 	done
 
 AcaniaPokecenterNPC2:
     ctxt "Meine #mon und"
-    line "ich sind ganz "
+    line "ich sind ganz"
     para "wild darauf, die"
     line "Pfeiler des Hafens"
 	cont "zu zersägen."
 
     para "Das sollte Andre"
-    line "gefallen, oder<...>?"
+    line "gefallen oder <...>?"
 	done
 
 AcaniaPokecenterNPC3:
@@ -34,7 +34,7 @@ AcaniaPokecenterNPC3:
     para "sie brauchen ein"
     line "Feuer-#mon,"
     para "um das Licht am"
-    line "brennen zu halten."
+    line "Brennen zu halten."
 	done
 
 AcaniaPokecenter_MapEventHeader:: db 0, 0

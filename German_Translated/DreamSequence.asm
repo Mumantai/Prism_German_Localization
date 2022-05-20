@@ -36,7 +36,7 @@ DreamSequenceNPC2:
 	line "Verräter."
 
 	para "Dafür ist deine"
-	line "Familie bekannt<...>"
+	line "Familie bekannt <...>"
 	done
 
 DreamSequenceNPC3:
@@ -71,7 +71,7 @@ DreamSequenceNPC3:
 	para "Entspann dich und"
 	line "lass dich von"
 	para "deinen Gedanken"
-	line "treiben<...>"
+	line "treiben <...>"
 	sdone
 
 DreamSequence_MapEventHeader:: db 0, 0

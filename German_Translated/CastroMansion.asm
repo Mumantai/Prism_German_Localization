@@ -14,7 +14,7 @@ CastroMansionNPC:
 	line "wird renoviert."
 
 	para "Ich habe Pause,"
-	line "also stör nicht."
+	line "also stör' nicht."
 
 	done
 

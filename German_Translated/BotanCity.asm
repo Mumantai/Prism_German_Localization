@@ -41,7 +41,7 @@ BotanCityQRCode:
 
 BotanCityNPC1:
 	ctxt "Die Geister etwas"
-	line "nördlich von hier,"
+	line "nördlich von hier"
 	para "erschrecken immer"
 	line "wieder Menschen."
 
@@ -50,22 +50,22 @@ BotanCityNPC1:
 	done
 
 BotanCityNPC2:
-	ctxt "Ich hoffe du bist"
+	ctxt "Ich hoffe, du bist"
 	line "nicht aus Naljo."
 	done
 
 BotanCityNPC3:
 	ctxt "#mon Center"
 	line "dürfen hier nicht"
-	cont "existieren<...>"
+	cont "existieren <...>"
 
-	para "Man glaubt, dass<...>"
+	para "Man glaubt, dass <...>"
 
-	para "<...><'>Sie<'><...>"
+	para "<...> <'>Sie<'> <...>"
 
-	para "es nicht mögen"
+	para "es nicht mögen,"
 	line "wenn #mon auf"
-	cont "diese weise"
+	cont "diese Weise"
 	cont "geheilt werden."
 	done
 
@@ -77,17 +77,17 @@ BotanCityNPC4:
 
 BotanCityNPC5:
 	ctxt "Ich war der"
-	line "Architekt, für"
-	cont "<'>dieses<'>Gebäude<...>"
+	line "Architekt für"
+	cont "<'>dieses<'>Gebäude <...>"
 
-	para "Nun bereue ich es<...>"
+	para "Nun bereue ich es <...>"
 	done
 
 BotanCityNPC6:
 	ctxt "In Quarantäne,"
 	line "wieder einmal."
 
-	para "Seufz<...>"
+	para "Seufz <...>"
 	done
 
 BotanCityNPC7:

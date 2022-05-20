@@ -24,13 +24,13 @@ CaperCityNPC1:
 	line "in dieser Stadt!"
 
 	para "Er ist ein"
-	line "#mon Genie!"
+	line "#mon-Genie!"
 
 	para "Er ist nicht nur"
 	line "ein geschätzter"
-	cont "#mon Professor<...>"
+	cont "#mon-Professor,"
 
-	para "<...>sondern auch ein"
+	para "<...> sondern auch ein"
 	line "guter Historiker!"
 	done
 
@@ -43,10 +43,10 @@ CaperCityNPC2:
 
 	para "<...>"
 
-	para "Mmhmm<...>"
+	para "Mmhmm <...>"
 
-	para "Hab ich noch nie"
-	line "von gehört."
+	para "Davon hab ich noch"
+	line "nie gehört."
 	done
 
 CaperCityRoute70Block:

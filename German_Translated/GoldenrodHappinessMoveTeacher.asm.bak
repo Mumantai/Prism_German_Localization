@@ -4,16 +4,16 @@ GoldenrodHappinessMoveTeacher_MapScriptHeader;trigger count
 	db 0
 
 GoldenrodHappinessMoveTeacherNPC1:
-	ctxt "Die Anwendung von"
-	line "Nährstoffen auf"
-	para "#mon, macht sie"
-	line "glücklicher!"
+	ctxt "Die Anwendung von "
+	line "Nährstoffen bei "
+	para "#mon wird sie "
+	line "glücklich machen!"
 
 	done
 
 GoldenrodHappinessMoveTeacherNPC2:
-	ctxt "Dein #mon wird"
-	line "unglücklich, wenn"
+	ctxt "Dein #mon wird "
+	line "unglücklich, wenn "
 	cont "es verliert."
 
 	done

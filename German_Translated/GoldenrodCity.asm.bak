@@ -14,7 +14,8 @@ GoldenrodCity_GoldToken:
 	db GOLD_TOKEN
 
 GoldenrodCity_MagnetTrainSign:
-	ctxt "Magnetzug-Bahnhof"
+	ctxt "Magnet Bahn"
+	next "Station"
 	done
 
 GoldenrodCity_QRCode:
@@ -37,24 +38,24 @@ GoldenrodCity_QRCode:
 GoldenrodCity_GymSign:
 	ctxt "#mon Arena"
 	next "Leiterin: Bianca"
-	nl   ""
-	next "Das unfassbar"
-	next "hübsche Mädchen!"
+	nl " "
+	next "Das huebsche"
+	next "Mädchen!"
 
 	done
 
 GoldenrodCity_CitySign:
 	ctxt "Die festliche"
-	next "Stadt mit Charme"
+	next "Stadt mit Charme "
 	done
 
 GoldenrodCity_CapeSign:
-	ctxt "<LEFT> Dukatia-Kap"
+	ctxt "<LEFT> Dukatia Kap"
 	done
 
 GoldenrodCity_GameCornerSign:
-	ctxt "Dukatia-Spielhalle"
-	nl   ""
+	ctxt "Dukatia Spielhalle"
+	nl " "
 	next "Dein Spielplatz!"
 
 	done
@@ -65,108 +66,108 @@ GoldenrodCity_UndergroundSign:
 	done
 
 GoldenrodCityNPC1:
-	ctxt "Dieser Magnetzug"
+	ctxt "Dieser Magnetzug "
 	line "ist erstaunlich!"
 
-	para "Er kann über Berge"
-	line "fahren, unter dem"
-	para "Meer und auch"
-	line "ünerall sonst!"
+	para "Er fährt Berge "
+	line "hoch, unter dem "
+	para "Meer und überall "
+	line "dazwischen!"
 
 	done
 
 GoldenrodCityNPC2:
-	ctxt "Ich war traurig,"
-	line "als das Kaufhaus"
+	ctxt "Ich war traurig, "
+	line "als das Kaufhaus "
 	cont "zerstört wurde."
 
 	para "Aber sie bauen ein"
 	line "neues!"
 
-	para "Das Untergeschoss"
-	line "sollte in Ordnung"
-	para "sein, aber seit"
+	para "Das Untergeschoss "
+	line "sollte in Ordnung "
+	para "sein, aber seit "
 	line "Jahren ist niemand"
-	para "mehr dort unten"
+	para "mehr dort unten "
 	line "gewesen."
 
 	done
 
 GoldenrodCityNPC3:
-	ctxt "Wenn dein #mon"
-	line "sehr glücklich"
+	ctxt "Wenn dein #mon "
+	line "sehr glücklich "
 	para "ist, wird ihm eine"
-	line "Frau eine Spezial-"
-	cont "attacke lehren."
+	line "Frau eine spezial-"
+	cont "Attacke lehren."
 
 	done
 
 GoldenrodCityNPC4:
-	ctxt "Dort stand früher"
+	ctxt "Dort stand früher "
 	line "der Radioturm."
 
-	para "DJ Ben war der"
-	line "Coolste!"
+	para "DJ Ben war der "
+	line "coolste!"
 
-	para "Ich habe gehört,"
-	line "er wird eine neue"
+	para "Ich habe gehört, "
+	line "er wird eine neue "
 	para "Show starten, wenn"
-	line "sie den Radioturm"
+	line "sie den Radioturm "
 	cont "wieder aufbauen."
 
-	para "Ich kann's kaum"
+	para "Ich kann's kaum "
 	line "erwarten!"
 
 	done
 
 GoldenrodCityNPC5:
 	ctxt "Ich erinnere mich,"
-	line "als Team Rocket"
-	para "versuchte, die"
+	line "als Team Rocket "
+	para "versuchte, die "
 	line "Stadt einzunehmen."
 
-	para "Ein Kind namens"
+	para "Ein Kind namens "
 	line "Gold rettete alle."
 
 	done
 
 GoldenrodCityNPC6:
-	ctxt "Nicht einmal ein"
-	line "Erdbeben kann uns"
+	ctxt "Nicht einmal ein "
+	line "Erdbeben kann uns "
 	cont "aufhalten."
 
-	para "Ganz gleich, was"
-	line "passiert, wir"
-	para "werden immer"
+	para "Ganz gleich, was "
+	line "passiert, wir "
+	para "werden immer "
 	line "standaft bleiben."
 
 	done
 
 GoldenrodCityNPC7:
-	ctxt "Ich habe gehört,"
-	line "dass weit weg ein"
-	para "spezieller Ring"
+	ctxt "Ich habe gehört, "
+	line "dass weit weg ein "
+	para "spezieller Ring "
 	line "ein Portal in eine"
-	para "andere Dimension"
-	line "öffnen kann."
+	para "andere Dimension "
+	line "öffnen wird."
 
 	para "Da will ich hin!"
 
 	done
 
 GoldenrodCityGuard:
-	ctxt "Es tut mir leid,"
-	line "ich kann dich nur"
-	para "als Johto-Bürger"
+	ctxt "Es tut mir leid, "
+	line "ich kann Sie nur "
+	para "als Johto-Bürger "
 	line "passieren lassen."
 
-	para "Wir mussten harte"
-	line "Maßnahmen ergrei-"
-	para "fen, denn es geht"
-	line "das Gerücht um,"
-	para "dass sich hier"
-	line "ein Krimineller"
-	para "aus einer weit"
+	para "Wir mussten harte "
+	line "Maßnahmen "
+	para "ergreifen, denn es"
+	line "geht das Gerücht "
+	para "um, dass sich hier"
+	line "ein Krimineller "
+	para "aus einer weit "
 	line "entfernten Region "
 	cont "versteckt."
 

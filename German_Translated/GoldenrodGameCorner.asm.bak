@@ -115,12 +115,12 @@ GoldenrodGameCornerNPC1:
 	line "mich DJ Ben!"
 
 	para "Ich war früher"
-	line "der Moderator"
-	para "einer rockigen"
+	line "Moderator einer"
+	para "rockigen"
 	line "#mon-Musikshow,"
-	para "bevor das Erdbeben"
+	para "bevor das Beben"
 	line "den Radioturm"
-	cont "zerstört hat."
+	cont "zerstörte."
 
 	para "Jetzt verbringe"
 	line "ich die meiste"
@@ -149,13 +149,13 @@ GoldenrodGameCornerNPC3:
 	para "gefunden:"
 	line "Blackjack!"
 
-	para "Falls du einen"
+	para "Wenn du einen"
 	line "Münzkorb suchst,"
-	para "den verkauft eine"
+	para "verkauft ihn eine"
 	line "Person in einer"
 	para "weit entfernten"
 	line "Stadt direkt in"
-	cont "der Spielhalle."
+	cont "ihrer Spielhalle."
 
 	para "Aber das hast du"
 	line "nicht von mir."
@@ -163,8 +163,8 @@ GoldenrodGameCornerNPC3:
 	done
 
 GoldenrodGameCornerNPC4:
-	ctxt "Der einarmige"
-	line "Bandit ist einfach"
+	ctxt "Das einarmige"
+	line "Banditenspiel ist"
 	cont "unschlagbar<...> "
 	done
 

@@ -12,36 +12,37 @@ GoldenrodMagnetTrainEmployee:
 .no_pass_text
 	ctxt "Hallo."
 
-	para "Leider kannst du"
+	para "Leider können Sie "
 	line "diese Station ohne"
-	para "einen Fahrschein"
+	para "einen Fahrschein "
 	line "nicht benutzen."
 
-	para "Komm wieder, wenn"
-	line "du einen hast."
+	para "Kommen Sie wieder,"
+	line "wenn Sie einen "
+	cont "haben."
 
 	done
 
 GoldenrodMagnetTrainPresident:
-	ctxt "Ich bin der"
-	line "Präsident dieser"
-	cont "Bahngesellschaft."
+	ctxt "Ich bin der "
+	line "Präsident dieser "
+	cont "Eisenbahn."
 
-	para "Dieser Zug ist"
-	line "schneller als"
+	para "Dieser Zug ist "
+	line "schneller als "
 	para "jedes #mon, und"
-	line "bringt Sie"
-	para "blitzschnell nach"
+	line "bringt Sie "
+	para "blitzschnell nach "
 	line "Rijon oder Naljo!"
 
-	para "Wenn Sie einen"
-	line "Sonderausweis"
+	para "Wenn Sie einen "
+	line "Sonderausweis "
 	para "haben, kann er Sie"
-	line "auch nach Kanto"
+	line "auch nach Kanto "
 	cont "bringen."
 
-	para "Wir planen, in"
-	line "Zukunft auch in"
+	para "Wir planen, in "
+	line "Zukunft auch in "
 	para "andere Regionen zu"
 	line "expandieren."
 

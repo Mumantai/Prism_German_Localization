@@ -5,21 +5,21 @@ GoldenrodMart_MapScriptHeader;trigger count
 
 GoldenrodMartNPC1:
 	ctxt "Der Laden hier hat"
-	line "eine gute Auswahl,"
-	para "für einen so"
+	line "eine gute Auswahl "
+	para "für einen so "
 	line "kleinen Markt."
 
 	done
 
 GoldenrodMartNPC2:
-	ctxt "Früher stand hier"
-	line "ein riesiges"
+	ctxt "Früher stand hier "
+	line "ein riesiges "
 	cont "Kaufhaus."
 
-	para "Das Erdbeben hat"
-	line "das Gebäude zer-"
-	para "stört <...> Eventuell"
-	line "wird dieser hier"
+	para "Das Beben "
+	line "zerstörte das "
+	para "Gebäude<...> Eventuell"
+	line "wird dieser hier "
 	cont "ja ausgebaut?"
 
 	done

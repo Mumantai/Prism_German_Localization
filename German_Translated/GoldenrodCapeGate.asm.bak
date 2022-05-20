@@ -4,8 +4,8 @@ GoldenrodCapeGate_MapScriptHeader;trigger count
 	db 0
 
 GoldenrodCapeGateNPC:
-	ctxt "Ich hoffe, du"
-	line "genießt die"
+	ctxt "Ich hoffe du "
+	line "genießt die "
 	cont "Aussicht!"
 
 	done

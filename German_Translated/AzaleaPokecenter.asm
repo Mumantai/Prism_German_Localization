@@ -16,8 +16,8 @@ AzaleaPokecenterNPC1:
 	done
 
 AzaleaPokecenterNPC2:
-	ctxt "Wenn man eine"
-	line "Aprikoko aufbricht"
+	ctxt "Bricht man eine"
+	line "Aprikoko auf,"
 	para "kann man damit"
 	line "#mon fangen!"
 

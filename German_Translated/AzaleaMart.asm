@@ -11,7 +11,7 @@ AzaleaMartNPC1:
 
 	para "Sie hätten alle"
 	line "anderen Bälle vom"
-	cont "Markt verdrängt<...>"
+	cont "Markt verdrängt <...>"
 	done
 
 AzaleaMartNPC2:

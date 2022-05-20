@@ -5,13 +5,13 @@ Apartments1C_MapScriptHeader;trigger count
 
 Apartments1CNPC:
 	ctxt "Was, meine Tür war"
-	line "offen???"
+	line "offen?!"
 
 	para "Entschuldige, aber"
 	line "kannst du dich mal"
 	cont "vom Acker machen?"
 
-	para "Jetzt!?"
+	para "Jetzt?!"
 	done
 
 Apartments1C_MapEventHeader:: db 0, 0

@@ -56,12 +56,12 @@ AcquaStartLarvitar:
 	para "Vieleicht will es"
 	line "mitkommen."
 
-	para "Willst du es "
+	para "Willst du es"
 	line "mitnehmen?"
 	done
 
 .holding_ball_text
-	ctxt "Komisch<...>"
+	ctxt "Komisch <...>"
 
 	para "Das Larvitar"
 	line "hält einen"

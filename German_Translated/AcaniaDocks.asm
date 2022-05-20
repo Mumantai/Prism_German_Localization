@@ -42,14 +42,14 @@ AcaniaDocksNPC1:
 	para "Jedoch entwickelte"
 	line "sich das Evoli"
 	cont "meiner Frau in ein"
-	cont "Folipurba<...>"
+	cont "Folipurba <...>"
 
 	para "Ich bin mir nicht"
 	line "sicher, aber etwas"
 	para "sagt mir, dass es"
-	line "an der unterschie-"
-	cont "dlichen Umgebung"
-	cont "lag."
+	line "an der unter-"
+	cont "schiedlichen"
+	cont "Umgebung lag."
 	done
 
 AcaniaDocksNPC2:
@@ -60,10 +60,10 @@ AcaniaDocksNPC2:
 	line "die Wächter den"
 	cont "Bau des Turms."
 
-	para "Ich frage mich wo"
-	line "die Wächter sind,"
+	para "Ich frage mich, wo"
+	line "die Wächter sind"
 	para "oder ob sie über-"
-	line "haupt noch Leben<...>"
+	line "haupt noch leben <...>"
 	done
 
 AcaniaDocksNPC3:

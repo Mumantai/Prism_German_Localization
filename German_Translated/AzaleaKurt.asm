@@ -20,7 +20,7 @@ AzaleaKurtKurt:
 	line "Tag und Nacht nur"
 	cont "#bälle gebaut."
 
-	para "Heutzutage jedoch<...>"
+	para "Doch heutzutage <...>"
 
 	para "Du kannst aber"
 	line "gerne selbst Hand"
@@ -95,13 +95,13 @@ AzaleaKurtGranddaughter:
 	cont "herstellen?"
 
 	para "Ich sollte dir das"
-	line "nicht zeigen<...> aber"
-	cont "folge mir."
+	line "nicht zeigen <...>"
+	cont "aber folge mir."
 	sdone
 
 .unlocked_basement_text
 	ctxt "In meiner Hütte"
-	line "gibt es Werkzeuge"
+	line "gibt es Werkzeuge,"
 	para "mit denen man"
 	line "seltene Bälle"
 	cont "herstellen kann."
@@ -109,7 +109,8 @@ AzaleaKurtGranddaughter:
 	para "Sie sind schwierig"
 	line "herzustellen, also"
 	para "wird es nicht"
-	line "immer erfolgreich."
+	line "immer erfolgreich"
+	cont "sein."
 
 	para "Aber je mehr"
 	line "Erfahrung du hast,"

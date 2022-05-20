@@ -83,17 +83,17 @@ BattleTowerEntrance_MapScriptHeader:
 	ctxt "Glückwunsch!"
 
 	para "Für das Besiegen"
-	line "von 7 Trainern<...>"
+	line "von 7 Trainern <...>"
 
 	para "Und für den hammer"
 	line "Kampf mit unserem"
-	cont "Kampfkoloss<...>"
+	cont "Kampfkoloss <...>"
 
 	para "Belohnen wir dich"
 	line "mit reichlich GP!"
 
 	para "<PLAYER> erhält"
-	line "20 GP!!!"
+	line "20 GP!"
 	done
 
 .reward_script
@@ -323,7 +323,7 @@ BattleTower_NotEnoughPokemonText:
 	ctxt "Entschuldigung."
 
 	para "Du brauchst min-"
-	line "destens 3 #mon"
+	line "destens 3 #mon,"
 	para "um teilnehmen"
 	line "zu können."
 
@@ -333,7 +333,7 @@ BattleTower_NotEnoughPokemonText:
 	done
 
 BattleTower_ChooseStrengthText:
-	ctxt "Welcher Stufe,"
+	ctxt "Welcher Stufe"
 	line "möchtest du dich"
 	cont "stellen?"
 	done
@@ -348,7 +348,7 @@ BattleTower_NotEnoughPokemonLevelText:
 	cont "Level sind."
 
 	para "Du brauchst min-"
-	line "destens 3 #mon"
+	line "destens 3 #mon,"
 	para "um teilnehmen"
 	line "zu können."
 
@@ -363,7 +363,7 @@ BattleTower_SelectThreePokemonText:
 	sdone
 
 BattleTower_SaveBeforeText:
-	ctxt "Vor dem Start,"
+	ctxt "Vor dem Start"
 	line "speichern wir das"
 	cont "Spiel. Okay?"
 	done
@@ -405,7 +405,7 @@ BattleTower_LegalityCheck:
 
 BattleTowerEntrance_Lass:
 	ctxt "Mein Azumarill"
-	line "und ich, werden"
+	line "und ich werden"
 	para "die Gegner nur so"
 	line "überrollen!"
 

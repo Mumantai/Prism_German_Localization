@@ -15,7 +15,7 @@ AzaleaCharcoalNPC1:
 
 	para "Würde es uns nur"
 	line "nicht immer wieder"
-	cont "davonlaufen<...>."
+	cont "davonlaufen <...>."
 	done
 
 AzaleaCharcoalNPC2:

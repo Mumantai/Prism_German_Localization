@@ -40,7 +40,7 @@ CastroSuperRodNPC:
 
 .no_space_text
 	ctxt "Dein Beutel ist"
-	line "voll! "
+	line "voll!"
 	done
 
 CastroSuperRod_MapEventHeader:: db 0, 0

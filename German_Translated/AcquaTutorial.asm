@@ -49,12 +49,12 @@ AcquaTutorialButton:
 
 .pressed_button_text
 	ctxt "Irgendwas hat sich"
-	line "bewegt<...>"
+	line "bewegt <...>"
 	sdone
 
 .already_pressed_text
 	ctxt "Du hast den Knopf"
-	line "erneut gedrückt<...>"
+	line "erneut gedrückt <...>"
 	para "Nichts passiert."
 	sdone
 
@@ -76,12 +76,12 @@ AcquaTutorialSmallCaveEntrance:
 
 .send_larvitar_instead
 	ctxt "Der Spalt ist zu"
-	line "klein<...>"
+	line "klein <...>"
 
 	para "@"
 	text_from_ram wPartyMonNicknames
 	ctxt ""
-	line "los schicken?"
+	line "losschicken?"
 	done
 
 .room_collapsed_text
@@ -158,13 +158,13 @@ AcquaTutorialLarvitarInCave:
 	para "Oh! Hallo!"
 
 	para "Sorry, dass ich"
-	line "weggelaufen bin<...>"
+	line "weggelaufen bin <...>"
 
 	para "Ich bin nun mal"
-	line "etwas schüchtern<...>"
+	line "etwas schüchtern <...>"
 
 	para "Wenn du deinen"
-	line "Trainer fern hälst"
+	line "Trainer fernhälst,"
 	cont "kriegst du dafür"
 	cont "ein Geschenk!"
 	prompt
@@ -186,7 +186,7 @@ AcquaTutorialLarvitarInCave:
 
 .other_larvitar_leaves_text
 	ctxt "Ich sollte mich"
-	line "jetzt verstecken<...>"
+	line "jetzt verstecken <...>"
 	sdone
 
 AcquaTutorialLarvitarOutsideCave:

@@ -11,9 +11,9 @@ AcaniaHouseNPC:
 	line "hier aufkreuzte."
 
 	para "Sie nutzt Gas-"
-	line "#mon<...>"
+	line "#mon <...>"
 
-	para "<...>der Gestank ist"
+	para "<...> der Gestank ist"
 	line "einfach widerlich."
 	done
 

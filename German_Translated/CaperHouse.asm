@@ -8,10 +8,10 @@ CaperHouseNPC:
 	line "Gesicht."
 
 	para "Was bringt dich"
-	line "denn zu uns, nach"
+	line "denn zu uns nach"
 	cont "Capparia City?"
 
-	para "<...> Was!?"
+	para "<...> Was?!"
 
 	para "Du bist in der"
 	line "Mine durch das"
@@ -19,7 +19,7 @@ CaperHouseNPC:
 
 	para "Ich sollte da wohl"
 	line "mal eine Leiter"
-	cont "aufstellen<...>"
+	cont "aufstellen <...>"
 	done
 
 CaperHouse_MapEventHeader:: db 0, 0

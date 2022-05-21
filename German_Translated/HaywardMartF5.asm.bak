@@ -4,25 +4,25 @@ HaywardMartF5_MapScriptHeader;trigger count
 	db 0
 
 HaywardMartF5NPC1:
-	ctxt "Hast du Bargeld?"
+	ctxt "Haben Sie Bargeld?"
 
-	para "Meine #mon"
-	line "wollen Nährstoffe."
+	para "Meine #mon "
+	line "brauchen Vitamine."
 
 	done
 
 HaywardMartF5NPC2:
-	ctxt "Ich weiss zwar"
+	ctxt "Ich weiss zwar "
 	line "nicht wieso, aber "
-	para "meine #mon"
-	line "lieben diese"
+	para "meine #mon "
+	line "lieben diese "
 	cont "Nährstoffe."
 
 	done
 
 HaywardMartF5NPC3:
 	ctxt "X-Gen funktioniert"
-	line "gut mit Attacken,"
+	line "gut mit Attacken, "
 	para "die eine schlechte"
 	line "Genauigkeit haben."
 

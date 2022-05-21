@@ -4,19 +4,19 @@ HaywardEarthquakeLab_MapScriptHeader;trigger count
 	db 0
 
 HaywardEarthquakeLabNPC1:
-	ctxt "Wenn sich ein"
-	line "Erdbeben anbahnt,"
-	para "senden wir eine"
-	line "Warnung an alle,"
-	para "damit sie sich in"
+	ctxt "Wenn sich ein "
+	line "Erdbeben anbahnt, "
+	para "senden wir eine "
+	line "Warnung an alle, "
+	para "damit sie sich in "
 	line "Sicherheit bringen"
 	cont "können."
 
-	para "Leider können wir"
-	line "es nicht so früh"
-	para "erkennen wie"
-	line "andere Natur-"
-	cont "katastrophen."
+	para "Leider können wir "
+	line "es nicht so früh "
+	para "erkennen wie "
+	line "andere "
+	cont "Naturkatastrophen."
 
 	done
 
@@ -35,44 +35,45 @@ HaywardEarthquakeLabNPC2:
 	ret
 
 .kilometers_text
-	db "Kilometer@"
+	db "kilometers@"
 .miles_text
-	db "Meilen@"
+	db "miles@"
 
 .text
-	ctxt "In Naljo wurden"
-	line "einige seltsame"
+	ctxt "In Naljo wurden "
+	line "einige seltsame "
 	cont "Kugeln vergraben."
 
-	para "Unter der Erde"
+	para "Unter der Erde "
 	line "flossen die Kräfte"
 	para "der Kugeln mehrere"
-	line "<STRBF2> durch"		;Kilometer bzw. Meilen
-	cont "die Erdplatten."
+	line "<STRBF2> durch"
+	cont "die Erd-Platten."
 
-	para "Aber als sie aus-"
-	line "gegraben wurden,"
-	para "verloren die Erd-"
-	line "platten plötzlich"
-	cont "ihre Kräfte."
+	para "Aber als sie "
+	line "ausgegraben "
+	para "wurden, verloren "
+	line "die Platten "
+	para "plötzlich ihre "
+	line "Kräfte."
 
-	para "Dies führte zu"
+	para "Dies führte zu "
 	line "einer Verschiebung"
-	para "der Erdplatten,"
-	line "was sehr starke"
+	para "der Platten, was "
+	line "sehr grosse "
 	para "Erdbeben zur Folge"
 	line "hatte."
 
-	para "Die erste Kugel"
+	para "Die erste Kugel "
 	line "wurde vor 5 Jahren"
-	para "gefunden, was ein"
-	line "Erdbeben oben in"
+	para "gefunden, was ein "
+	line "Erdbeben oben in "
 	cont "Johto auslöste."
 
 	para "Dukatia City wurde"
 	line "zerstört, aber wie"
 	para "ich hörte, sind "
-	line "sie mit dem"
+	line "sie mit dem "
 	para "Wiederaufbau schon"
 	line "fast fertig."
 

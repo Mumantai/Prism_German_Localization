@@ -4,28 +4,28 @@ HaywardMartF3_MapScriptHeader;trigger count
 	db 0
 
 HaywardMartF3NPC1:
-	ctxt "Auf dieser Etage"
-	line "wurden früher"
-	para "Videospiele"
-	cont "verkauft."
+	ctxt "In diesem "
+	line "Stockwerk wurden "
+	para "früher Videospiele"
+	line "verkauft."
 
 	done
 
 HaywardMartF3NPC2:
-	text "MUSS"
-	para "VIDEOSPIELE"
-	para "SPIELEN!"
+	text "MUST PLAY "
+	line "VIDEOSPIELE!"
+
 	done
 
 HaywardMartF3NPC3:
-	ctxt "Geh weg, ich habe"
-	line "schon fast den"
+	ctxt "Geh weg, ich habe "
+	line "fast den "
 	cont "Highscore!"
 
 	done
 
 HaywardMartF3NPC4:
-	ctxt "Wo sind die"
+	ctxt "Wo sind die "
 	line "Videospiele hin?"
 
 	done

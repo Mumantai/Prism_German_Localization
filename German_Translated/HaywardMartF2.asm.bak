@@ -5,16 +5,16 @@ HaywardMartF2_MapScriptHeader;trigger count
 
 HaywardMartF2NPC1:
 	ctxt "Top Schutz ist die"
-	line "beste Erfindung"
+	line "größte Erfindung "
 	cont "der Menschheit!"
 
 	done
 
 HaywardMartF2NPC2:
-	ctxt "Einige haben sich"
-	line "hier mal um ein"
-	para "Paar Schuhe"
-	line "geprügelt <...> "
+	ctxt "Einige haben sich "
+	line "hier mal um ein "
+	para "Paar Schuhe "
+	line "geprügelt<...> "
 	done
 
 HaywardMartF2_MapEventHeader:: db 0, 0

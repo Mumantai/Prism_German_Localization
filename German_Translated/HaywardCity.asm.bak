@@ -18,38 +18,38 @@ HaywardCity_GoldEgg:
 	db GOLD_EGG
 
 HaywardCityLabSign:
-	ctxt "Labor für"
-	next "Paläoseismologie"
+	ctxt "Paläoseismologie"
+	next "Labor"
 
 	done
 
 HaywardCityIllegibleSign:
-	ctxt "Dieses Schild ist"
+	ctxt "Dieses Schild ist "
 	line "voller Graffiti."
 
-	para "Es ist nicht mehr"
+	para "Es ist nicht mehr "
 	line "lesbar."
 
 	done
 
 HaywardCityNPC1:
-	ctxt "Ich kann dieses"
+	ctxt "Ich kann dieses "
 	line "Schild nicht "
 	cont "lesen!"
 
-	para "Das macht mich"
+	para "Das macht mich "
 	line "wütend!"
 
 	done
 
 HaywardCityNPC2:
-	ctxt "Diese Stadt hat"
+	ctxt "Diese Stadt hat "
 	line "sich verändert."
 
-	para "Ich fühle mich"
+	para "Ich fühle mich "
 	line "nicht sicher, wenn"
-	para "ich ohne #mon"
-	line "durch die Stadt"
+	para "ich ohne #mon "
+	line "durch die Stadt "
 	cont "gehe."
 
 	done
@@ -86,54 +86,56 @@ HaywardCity_PaletteBlue:
 	jp ReplaceKrisSprite
 
 .before_battle_text
-	ctxt "Ach, du bist es."
+	ctxt "Ach, Sie sind's."
 
-	para "Ich denke gerade"
-	line "über unsere"
-	para "Geschichte des"
+	para "Ich denke gerade "
+	line "über unsere "
+	para "Geschichte des "
 	line "Scheiterns nach."
 
-	para "Wenn man bedenkt,"
-	line "dass alles hier"
-	para "begann <...>"
-	line "Bevor ich herkam,"
-	para "übernahm der rote"
-	line "Pallette-Ranger"
-	para "Team Rocket, bis"
-	line "ein Junge namens"
-	para "Brown dem ein Ende"
+	para "Wenn man bedenkt, "
+	line "dass alles hier "
+	para "begann, in dieser "
+	line "Stadt<...> Bevor ich "
+	para "kam, übernahm die "
+	line "mächtige Rote "
+	para "Patrouille das "
+	line "Team Rocket, bis "
+	para "ein Junge namens "
+	line "Brown dem ein Ende"
 	cont "setzte."
 
-	para "Im letzten halben"
-	line "Jahrzehnt, hat er"
-	para "versucht, die"
-	line "Scherben wieder"
+	para "Im letzten halben "
+	line "Jahrzehnt hat er "
+	para "versucht, die "
+	line "Scherben "
 	cont "aufzusammeln."
 
-	para "Aber jetzt will"
-	line "der Rest der"
-	para "Palette-Rangers "
-	line "nichts mehr mit"
-	para "unseren Ambitionen"
-	cont "zu tun haben."
+	para "Aber jetzt will "
+	line "der Rest der "
+	para "Paletten- "
+	line "Patrouille nichts "
+	para "mehr mit unseren "
+	line "Ambitionen zu tun "
+	cont "haben."
 
-	para "Es liegt alles an"
+	para "Es liegt alles an "
 	line "mir."
 
-	para "Lass mich sehen,"
-	line "ob du gut genug"
-	para "bist, um ein"
-	line "Ehrenmitglied der"
-	cont "Ranger zu werden."
+	para "Lass mich sehen, "
+	line "ob du gut genug "
+	para "bist, um "
+	line "Ehrenpatrouille zu"
+	cont "werden."
 
 	para "Mein Team ist seit"
-	line "dem letzten Mal"
-	cont "stärker geworden."
+	line "dem letzten Mal "
+	cont "gewachsen."
 
 	done
 
 .battle_won_text
-	ctxt "Hey, du hast"
+	ctxt "Hey, du hast "
 	line "meinen Respekt."
 
 	done
@@ -143,47 +145,47 @@ HaywardCity_PaletteBlue:
 
 	para "Der Anzug sitzt!"
 
-	line "Wenn du ihn aus-"
-	para "ziehen möchtest,"
+	line "Wenn du ihn "
+	para "ausziehen möchten,"
 	line "musst du den Salon"
-	para "in Oxalia City"
+	para "in Oxalia City "
 	line "besuchen."
 
-	para "Ich verstehe"
-	line "jedoch nicht,"
-	para "warum du das tun"
+	para "Ich verstehe "
+	line "jedoch nicht, "
+	para "warum du das tun "
 	line "solltest."
 
 	done
 
 .offer_suit_text
-	ctxt "Jetzt, wo du ein"
-	line "Ehrenmitglied der"
-	para "Palette-Rangers"
-	line "bist, hättest du"
-	para "Lust auch einen"
-	line "Anzug zu tragen?"
+	ctxt "Jetzt, wo du "
+	line "Ehrenmitglied der "
+	para "Paletten "
+	line "Patrouille bist<...> "
+	para "Willst du unsere "
+	line "Ausrüstung tragen?"
 
 	para "Du siehst sicher "
-	line "schick darin aus <...> "
+	line "schick aus darin<...> "
 	done
 
 .declined_text
 	ctxt "Kein Ding."
 
-	para "Ich habe ihn hier,"
-	line "falls du deine"
-	para "Meinung doch noch"
-	line "ändern solltest."
+	para "Ich habe es hier, "
+	line "falls du deine "
+	para "Meinung ändern "
+	line "solltest."
 
 	done
 
 .already_wearing_suit_text
 	ctxt "Sieht gut aus!"
 
-	para "Als würde ich"
-	line "direkt in einen"
-	cont "Spiegel schauen!"
+	para "Als würde ich in "
+	line "den Spiegel "
+	cont "schauen!"
 
 	done
 

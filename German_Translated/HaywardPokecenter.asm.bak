@@ -4,24 +4,24 @@ HaywardPokecenter_MapScriptHeader;trigger count
 	db 0
 
 HaywardPokecenterNPC1:
-	ctxt "Faenumia City"
-	line "liegt direkt an"
-	para "Gefahrenzone"
-	line "von Rijon."
+	ctxt "Heuhof liegt "
+	line "direkt an der "
+	para "Gefahrenzone von "
+	line "Rijon."
 
-	para "Wir können nur"
-	line "hoffen, dass das"
-	para "Erdbebenlabor"
+	para "Wir können nur "
+	line "hoffen, dass das "
+	para "Erdbebenlabor "
 	line "nicht zerstört"
 	cont "wird."
 
 	done
 
 HaywardPokecenterNPC2:
-	ctxt "Route 51 führt bis"
-	line "zur Route 47-B,"
-	para "die bereits in"
-	line "Johto liegt."
+	ctxt "Die Route 51 führt"
+	line "bis zur Route "
+	para "47-B, die in Johto"
+	line "liegt."
 
 	done
 

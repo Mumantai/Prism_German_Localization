@@ -90,28 +90,28 @@ HaywardMartVendingMachine:
 	jump .loop
 
 .vending_machine_text
-	ctxt "Es ist ein"
-	line "Getränkeautomat!"
+	ctxt "Ein "
+	line "Verkaufsautomat!"
 
 	cont "Hier ist das Menü."
 
 	done
 
 .no_money_text
-	ctxt "Upps, nicht genug"
-	line "Geld dabei <...>"
+	ctxt "Oops, nicht genug"
+	line "Geld dabei<...>"
 	sdone
 
 .no_room_text
-	ctxt "Da ist kein Platz"
-	line "mehr für Sachen <...> "
+	ctxt "Da ist kein Platz "
+	line "mehr für Sachen<...> "
 	sdone
 
 .got_item_text
-	ctxt "Rumms!"
+	ctxt "Pam!"
 
 	para "<STRBF1>"
-	line "fiel heraus."
+	line "viel raus."
 
 
 	done
@@ -188,40 +188,42 @@ HaywardMartF6OrbGirl:
 	ctxt "Oh, hallo."
 
 	para "Ich suche nach ein"
-	line "paar besonderen"
+	line "paar besonderen "
 	cont "Eiern."
 
-	para "Keine #moneier,"
-	line "sondern geheime"
-	cont "Eier." 
+	para "Keine "
+	line "#Mon-Eier, "
+	para "sondern geheime "
+	line "Eier."
 
 	para "Die sind schwer zu"
 	line "finden."
 
-	para "Solltest du eins"
-	line "finden, das ich"
-	para "suche, gebe ich"
-	line "dir eine glänzende"
-	para "Kugel, die ich vor"
-	line "fünf Jahren von"
-	para "einem Trainer"
-	cont "bekommen habe."
+	para "Wenn Sie eines "
+	line "finden, das ich "
+	para "suche, gebe ich "
+	line "Ihnen eine "
+	para "Schiller-Kugel, "
+	line "die ich vor fünf "
+	para "Jahren von einem "
+	line "Trainer erhalten "
+	cont "habe."
 
-	para "Der Trainer wurde"
-	line "später sogar der"
-	para "Champion in Rijon."
-	line "<...>aber er ist"
-	para "ein Jahr später"
-	line "verschwunden."
+	para "Der Trainer wurde "
+	line "später der "
+	para "Rijon-Champion<...> "
+	line "<...>aber er "
+	para "verschwand ein "
+	line "Jahr später."
 
 	sdone
 
 .have_ruby_egg_text
-	ctxt "Du hast ein"
+	ctxt "Sie haben ein "
 	line "Rubin-Ei!"
 
-	para "Ich tausche es"
-	line "gegen meine rote"
+	para "Ich tausche es "
+	line "gegen meine Rote "
 	cont "Kugel!"
 
 	para "Einverstanden?"
@@ -229,11 +231,11 @@ HaywardMartF6OrbGirl:
 	done
 
 .have_sapphire_egg_text
-	ctxt "Du hast ein"
+	ctxt "Sie haben ein "
 	line "Saphir-Ei!"
 
-	para "Ich tausche es"
-	line "gegen meine blaue"
+	para "Ich tausche es "
+	line "gegen meine Blaue "
 	cont "Kugel!"
 
 	para "Einverstanden?"
@@ -241,13 +243,13 @@ HaywardMartF6OrbGirl:
 	done
 
 .have_emerald_egg_text
-	ctxt "Du hast ein"
-	line "glänzendes"
+	ctxt "Sie haben ein "
+	line "glänzendes "
 	cont "Smaragd-Ei!"
 
 	para "Ich tausche es "
-	line "gegen meine"
-	cont "grüne Kugel!"
+	line "gegen meinen "
+	cont "grünen Kugel!"
 
 	para "Einverstanden?"
 
@@ -255,55 +257,56 @@ HaywardMartF6OrbGirl:
 
 .receive_red_orb_text
 	ctxt "Toll, hier ist "
-	line "deine rote Kugel!"
+	line "Ihre rote Kugel!"
 
 	sdone
 
 .receive_blue_orb_text
 	ctxt "Toll, hier ist "
-	line "deine blaue Kugel!"
+	line "Ihre blaue Kugel!"
 
 	sdone
 
 .receive_green_orb_text
 	ctxt "Toll, hier ist "
-	line "deine grüne Kugel!"
+	line "Ihre grüne Kugel!"
 
 	sdone
 
 .refused_to_give_egg_text
 	ctxt "Ach komm!"
 
-	para "Das Ei selbst"
+	para "Das Ei selbst "
 	line "nützt dir nichts!"
 
 	sdone
 
 .dont_have_eggs_text
-	ctxt "Du hast nicht"
-	line "die Eier, die ich"
+	ctxt "Sie haben nicht "
+	line "die Eier, die ich "
 	cont "will."
 
-	para "Komm wieder, wenn"
-	line "du eins hast."
+	para "Komm wieder, wenn "
+	line "du diese hast."
 
 	done
 
 .come_back_text
-	ctxt "Komm wieder, wenn"
-	line "du mehr spezielle"
-	cont "Eier findest."
+	ctxt "Kommen Sie gerne "
+	line "wieder, wenn Sie "
+	para "mehr spezielle "
+	line "Eier haben."
 
 	done
 
 .already_gave_all_eggs_text
 	ctxt "Was?"
 
-	para "Ich habe keine"
+	para "Ich habe keine "
 	line "Kugeln mehr."
 
-	para "Ich habe schon"
-	line "alle Eier, die es"
+	para "Ich habe schon "
+	line "alle Eier, die es "
 	cont "gibt."
 
 	done
@@ -311,7 +314,7 @@ HaywardMartF6OrbGirl:
 HaywardMartF6NPC:
 	ctxt "Das Mädchen dort "
 	line "versucht, ihre "
-	para "Kugeln"
+	para "Kugeln "
 	line "loszuwerden."
 
 	para "Wenn ich sie wäre,"

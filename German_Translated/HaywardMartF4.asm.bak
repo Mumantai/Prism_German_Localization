@@ -4,12 +4,12 @@ HaywardMartF4_MapScriptHeader;trigger count
 	db 0
 
 HaywardMartF4NPC:
-	ctxt "Ich bin ja so"
-	line "dankbar, dass sie"
-	para "hier Schutz"
+	ctxt "Ich bin so "
+	line "dankbar, dass sie "
+	para "hier Schutz "
 	line "verkaufen."
 
-	para "Ohne gehe ich"
+	para "Ohne gehe ich "
 	line "nicht in Höhlen!"
 
 	done

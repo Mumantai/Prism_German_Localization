@@ -54,7 +54,7 @@ HauntedMansionBasementDoor3:
 	dbbw 14, 12, EVENT_HAUNTED_MANSION_BASEMENT_DOOR_3
 
 .unlocked_text
-	ctxt "Die Tür wurde"
+	ctxt "Tür"
 	line "aufgeschlossen!"
 	sdone
 

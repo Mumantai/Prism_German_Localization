@@ -5,22 +5,22 @@ HauntedMansion_MapScriptHeader;trigger count
 
 HauntedMansionGranddaughter:
 	ctxt "Diese Villa"
-	line "gehörte früher"
+	line "gehörte einst"
 	cont "meiner Oma."
 
 	para "Sie sagte mir"
-	line "andauernd, dass"
-	para "die Farben des"
-	line "Regenbogens in"
-	cont "dieser Reihenfolge"
-	para "sind: Rot, Grau,"
-	line "Blau, Gelb, Braun"
-	cont "und Türkis."
+	line "jedes mal, dass   "
+	para "die FARBEN des"
+	line "Regenbogens eine"
+	cont "Reihenfolge hätten"
+	para "Rot, Grau, Blau,"
+	line "Gelb, Braun"
+	cont "und Grün"
 
-	para "Ich wüsste gerne,"
-	line "warum sie mir das"
-	para "nur immer wieder"
-	line "erklärt hat <...>"
+	para "Ich wüsste gerne"
+	line "warum Sie mir das"
+	para "so oft und immer"
+	line "wieder gesagt hat<...>"
 	done
 
 HauntedMansionBlockingBasementGranny:
@@ -53,7 +53,7 @@ HauntedMansion_Trainer_1:
 
 .battle_won_text
 	ctxt "Ach, mein Plapper-"
-	line "maul von Enkelin <...>"
+	line "Maul von Enkelin<...>"
 	done
 
 HauntedMansion_Trainer_2:
@@ -66,8 +66,8 @@ HauntedMansion_Trainer_2:
 HauntedMansion_Trainer_3:
 	trainer EVENT_HAUNTED_MANSION_TRAINER_3, SAGE, 3, .before_battle_text, .battle_won_text
 
-	ctxt "Die Geister, die"
-	line "hier weilen, sind"
+	ctxt "Die Geister die"
+	line "hier weilen sind"
 	para "zwar nervig, tun"
 	line "aber keinem was"
 	cont "zu Leibe."
@@ -75,13 +75,13 @@ HauntedMansion_Trainer_3:
 
 .before_battle_text
 	ctxt "Die Geister wollen"
-	line "ihr rechtmäßiges"
-	cont "Land <...>"
+	line "Ihr rechtmäßiges"
+	cont "Land<...>"
 	done
 
 .battle_won_text
 	ctxt "Diese Geister sind"
-	line "echt zu friedlich!"
+	line "zu friedlich!"
 	done
 
 HauntedMansionChestKey1:
@@ -104,7 +104,7 @@ HauntedMansionChestKey2:
 
 .opened_text
 	ctxt "<PLAYER> öffnet"
-	line "die Truhe <...>"
+	line "die Truhe<...>"
 	sdone
 
 .empty_text
@@ -122,16 +122,16 @@ HauntedMansionGengar:
 	end
 
 .text
-	ctxt "Hehehe! Kommt zu"
-	line "Papi, leckere"
+	ctxt "Hehehe, kommt zu"
+	line "Papi leckere"
 	cont "Träume!"
 
 	para "Ich bin am"
-	line "Verhungern!"
+	line "verhungern!"
 
 	para "Für dich heißt"
 	line "es jetzt"
-	cont "Schlafenszeit <...>"
+	cont "Schlafenszeit<...>"
 
 	para "Hehehe!"
 	sdone

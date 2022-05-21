@@ -4,9 +4,9 @@ GravelMart_MapScriptHeader;trigger count
 	db 0
 
 GravelMartNPC1:
-	ctxt "Ich mache mir"
-	line "Sorgen um"
-	cont "Prof. Tim."
+	ctxt "Ich mache mir "
+	line "Sorgen um Prof."
+	cont "Tim."
 
 	para "Er war noch nie so"
 	line "lange weg."
@@ -14,7 +14,7 @@ GravelMartNPC1:
 	done
 
 GravelMartNPC2:
-	ctxt "Elixiere sind"
+	ctxt "Elixiere sind "
 	line "toll, aber teuer!"
 
 	done

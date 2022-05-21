@@ -15,13 +15,13 @@ GravelTown_GoldToken:
 	db GOLD_TOKEN
 
 GravelTown_LabSign:
-	ctxt "Professor Tims"
+	ctxt "Professor Tim's"
 	next "Labor"
 	done
 
 GravelTown_TownSign:
-	ctxt "Eine ruhige stadt"
-	next "nn den Bergen."
+	ctxt "Eine ruhige "
+	next "entspannte Stadt ."
 
 	done
 
@@ -31,22 +31,23 @@ GravelTown_CaveSign:
 	done
 
 GravelTownNPC1:
-	ctxt "Die frische"
-	line "Bergluft macht"
+	ctxt "Die frische "
+	line "Bergluft macht "
 	cont "mich so lebendig!"
 
 	done
 
 GravelTownNPC2:
-	ctxt "Jemand hat diese"
-	line "Blumen mitten auf"
-	cont "den Weg gefplanzt."
+	ctxt "Jemand hat diese "
+	line "Blumen in der "
+	para "Mitte dieses Weges"
+	line "gepflanzt."
 
-	para "Auch wenn die"
-	line "Leute ständig auf"
-	para "ihnen rumtreten,"
-	line "gehen sie einfach"
-	cont "nicht ein."
+	para "Auch wenn die "
+	line "Leute ständig auf "
+	para "ihnen laufen, "
+	line "gehen sie nicht "
+	cont "ein."
 
 	done
 

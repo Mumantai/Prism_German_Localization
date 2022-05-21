@@ -70,52 +70,53 @@ HappinessRaterNPC:
 	prompt
 
 .S_tier_text
-	ctxt "Es sieht sehr"
-	para "glücklich aus!"
-	line "Es muss dich sehr"
-	cont "gern haben."
+	ctxt "Note: 1+!"
+
+	para "Es sieht sehr"
+	line "glücklich aus!"
 	sdone
 
 .A_tier_text
-	ctxt "Ich habe den"
-	para "Eindruck, dass es"
-	line "dir wirklich"
-	cont "vertraut."
+	ctxt "Note: 1"
+
+	para "Ich habe den"
+	line "Eindruck, dass es"
+	cont "dir mehr vertraut."
 	done
 
 .B_tier_text
-	ctxt "Es verhält sich"
-	para "dir gegenüber sehr"
-	line "freundlich."
-	para "Es muss glücklich"
-	cont "sein."
+	ctxt "Note: 2"
+
+	para "Es verhält sich"
+	line "dir gegenüber sehr"
+	cont "freundlich."
 	done
 
 .C_tier_text
-	ctxt "Es gewöhnt sich"
-	para "langsam an dich."
-	line "Es glaubt an dich."
+	ctxt "Note: 3"
+	
+	para "Es vertraut dir"
+	line "leicht."
 	done
 
 .D_tier_text
-	ctxt "Du solltest es"
-	para "besser behandeln."
-	line "Es hat sich noch"
-	para "nicht an dich"
-	cont "gewöhnt."
+	ctxt "Note: 4"
+
+	para "Es vertraut dir"
+	line "noch nicht."
 	done
 
 .give_return_text
-	ctxt "Hier, nimm bitte"
-	line "diese TM. Du hast"
-	cont "sie dir verdient!"
+	ctxt "Hier nimm bitte"
+	line "diese TM an!"
+	cont "Du verdienst es!"
 	sdone
 
 .give_frustration_text
 	ctxt "Wenn ich dir diese"
 	line "TM gebe, gehst du"
-	para "dann bitte schnell"
-	line "wieder weg?"
+	para "hier dann schnell"
+	line "weg bitte?"
 	sdone
 
 HappinessRater_MapEventHeader:: db 0, 0

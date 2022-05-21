@@ -11,7 +11,7 @@ EagulouMartNPC:
 	para "Die wollten wohl"
 	line "nicht in der Nähe"
 	para "von einem Gefäng-"
-	line "nis wohnen."
+	line "nis lebeen."
 	done
 
 EagulouMart_MapEventHeader:: db 0, 0

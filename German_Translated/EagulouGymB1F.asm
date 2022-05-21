@@ -90,22 +90,22 @@ EagulouGymB1F_Trainer_1:
 
 .before_battle_text
 	ctxt "Der Geist von Team"
-	line "Rocket soll "
+	line "Rocket soll"
 	cont "weiterleben!"
 
 	done
 
 .battle_won_text
-	ctxt "Autsch, gut, ich "
+	ctxt "Autsch! Gut, ich "
 	line "mache eine Pause."
 
 	done
 
 .give_key_text
-	ctxt "Wenn du diese "
-	line "armselige Paletten"
+	ctxt "Wenn du diese"
+	line "elenden Paletten-"
 	para "Ranger nerven"
-	line "willst, dann nimm "
+	line "willst, dann nimm"
 	cont "diesen Schlüssel."
 	sdone
 
@@ -138,29 +138,29 @@ EagulouGymB1F_Trainer_2:
 	ctxt "Man kann es einem"
 	line "nicht einfach so"
 	para "verübeln, dass man"
-	line "versucht hat, ein "
-	para "Schiff voller "
-	line "seltener #mon "
+	line "versucht hat, ein"
+	para "Schiff voller"
+	line "seltener #mon"
 	cont "zu stehlen."
 
 	done
 
 .battle_won_text
-	ctxt "Ich muss meine "
+	ctxt "Ich muss meine"
 	line "Zeit absitzen."
 
 	done
 
 .give_key_text
-	ctxt "Nun, hier ist der "
+	ctxt "Nun, hier ist der"
 	line "Schlüssel zur"
 	cont "Rocket-Zelle."
 
 	sdone
 
 .after_key_text
-	ctxt "Wenn ich mich aus "
-	line "dem Staub mache, "
+	ctxt "Wenn ich mich aus"
+	line "dem Staub mache,"
 	para "kriege ich"
 	line "Lebenslang!"
 
@@ -209,7 +209,7 @@ EagulouGymB1F_Trainer_3:
 	sdone
 
 .after_key_text
-	ctxt "Kannst du mir "
+	ctxt "Kannst du mir"
 	line "bitte Cupcakes"
 	cont "reinschmuggeln?"
 
@@ -240,12 +240,12 @@ EagulouGymB1FLeader:
 
 .already_battled_text
 	ctxt "Vergiss niemals"
-	line "den Bund mit "
+	line "den Bund mit"
 	cont "deinen #mon!"
 	done
 
 .before_battle_text
-	ctxt "<...>Mein Name ist "
+	ctxt "<...> Mein Name ist"
 	line "Silber."
 
 	para "Ich bin der"
@@ -258,17 +258,17 @@ EagulouGymB1FLeader:
 	para "bei #mon das"
 	line "Entscheidende ist!"
 
-	para "Aber Nein!"
+	para "Aber nein!"
 
-	para "Auch wenn ein "
-	line "#mon schwach "
-	para "ist, liegt sein "
-	line "wahres Potential "
+	para "Auch wenn ein"
+	line "#mon schwach"
+	para "ist, liegt sein"
+	line "wahres Potential"
 	para "in der Beziehung"
-	line "zwischen Ihm und "
+	line "zwischen ihm und"
 	cont "seinem Trainer!"
 
-	para "Sei geduldig und "
+	para "Sei geduldig und"
 	line "dein #mon wird "
 	para "dein treuester"
 	cont "Freund werden!"
@@ -280,10 +280,10 @@ EagulouGymB1FLeader:
 	sdone
 
 .battle_won_text
-	ctxt "<...>Das ist "
+	ctxt "<...> Das ist"
 	line "beeindruckend."
 
-	para "Du scheinst eine "
+	para "Du scheinst eine"
 	line "starke Bindung zu "
 	para "deinem Team aufge-"
 	line "baut zu haben."
@@ -297,16 +297,16 @@ EagulouGymB1FLeader:
 	done
 
 .after_badge_text
-	ctxt "<...>Du bist dessen"
+	ctxt "<...> Du bist dessen"
 	line "Wert."
 
 	para "Das habe ich mir"
 	line "vor einigen Jahren"
-	para "vom Ältesten des "
-	line "Knofensa Turms "
+	para "vom Ältesten des"
+	line "Knofensa-Turms"
 	cont "verdient."
 
-	para "Ich habe seinen "
+	para "Ich habe seinen"
 	line "Rat nach all den"
 	cont "Jahren verstanden:"
 	para "#mon sind keine"
@@ -315,13 +315,13 @@ EagulouGymB1FLeader:
 	sdone
 
 .after_TM_text
-	ctxt "<...>Diese TM heißt"
+	ctxt "<...> Diese TM heißt"
 	line "Blitz."
 
-	para "Es ist keine "
-	line "beliebte TM, aber "
+	para "Es ist keine"
+	line "beliebte TM, aber"
 	para "sie wird dunkle"
-	line "Stellen erhellen"
+	line "Orte erhellen"
 	para "und die Genauig-"
 	line "keit des Gegners"
 	para "während des Kampfes"

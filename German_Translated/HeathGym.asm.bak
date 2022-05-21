@@ -14,17 +14,16 @@ HeathGymGuide:
 	jumptextfaceplayer .after_badge_text
 
 .before_badge_text
-	ctxt "Herausforderer!"
+	ctxt "Jo Herausforderer!"
 
-	para "Rinji nimmt sein"
-	line "Amt als Arena-"
-	cont "leiter sehr ernst."
+	para "Rinji nimmt seine"
+	line "Arena-Leitung sehr"
+	cont "sehr ernst."
 
 	para "Er ist von Natur"
 	line "aus sehr motiviert"
-	para "und wird durch die"
-	line "natürliche Umge-"
-	cont "bung nur stärker!"
+	cont "wenn die Natur ihn"
+	cont "umgibt."
 	done
 
 .after_badge_text
@@ -32,29 +31,29 @@ HeathGymGuide:
 
 	para "Rinji ist der"
 	line "Meister des Fokus,"
-	cont "doch du hast ihn"
-	cont "geschlagen!"
+	cont "doch du schlugst"
+	cont "Ihn!"
 	done
 
 HeathGym_Trainer_1:
 	trainer EVENT_HEATH_GYM_TRAINER_1, BEAUTY, 1, .before_battle_text, .battle_won_text
 
 	ctxt "Mein Leben lief"
-	line "eigentlich super <...>"
+	line "eigentlich super<...>"
 
 	para "Zumindest bis"
-	line "gerade eben <...>"
+	line "gerade ebend<...>"
 	done
 
 .before_battle_text
 	ctxt "Hehe!"
 
-	para "Pflanzen-#mon"
+	para "Pflanzen #mon"
 	line "sind unschlagbar!"
 	done
 
 .battle_won_text
-	ctxt "Ich bin Verlieren"
+	ctxt "Ich bin verlieren"
 	line "nicht gewohnt!"
 	done
 
@@ -62,22 +61,22 @@ HeathGym_Trainer_2:
 	trainer EVENT_HEATH_GYM_TRAINER_2, YOUNGSTER, 3, .before_battle_text, .battle_won_text
 
 	ctxt "Das bleibt jetzt"
-	line "aber unter uns <...>"
+	line "aber unter uns<...>"
 
-	para "Ich bin nur wegen"
-	line "der Mädchen hier!"
+	para "Ich bin hier nur"
+	line "wegen den Mädchen!"
 	done
 
 .before_battle_text
-	ctxt "Pflanzen-#mon"
+	ctxt "Pflanzen #mon"
 	line "sind unterschätzt."
 
-	para "Ich beweise es dir!"
+	para "Ich beweises dir!"
 	done
 
 .battle_won_text
 	ctxt "Du hast deine"
-	line "Stärke bewiesen <...>"
+	line "stärke bewiesen<...>"
 	done
 
 HeathGym_Trainer_3:
@@ -99,8 +98,8 @@ HeathGym_Trainer_3:
 HeathGym_Trainer_4:
 	trainer EVENT_HEATH_GYM_TRAINER_4, TWINS, 1, .before_battle_text, .battle_won_text
 
-	ctxt "Amy: Du bist sehr"
-	line "gut! Gib Acht."
+	ctxt "Amy: du bist sehr"
+	line "gut! Geb acht."
 	done
 
 .before_battle_text
@@ -112,13 +111,13 @@ HeathGym_Trainer_4:
 
 .battle_won_text
 	ctxt "Amy & May:"
-	line "Zwei gegen einen <...>"
+	line "2 gegen 1<...>"
 
-	para "Klingt das fair?"
+	para "Fair?"
 	done
 
 HeathGym_Trainer_4_OutOfRangeTwin:
-	ctxt "May: Wir sollten"
+	ctxt "May: wir sollten"
 	line "Rinji um Hilfe"
 	cont "bitten."
 	done
@@ -149,7 +148,7 @@ HeathGymLeader:
 	ctxt "Ich bin Rinji."
 
 	para "Ich bin eins mit"
-	line "der Natur <...>"
+	line "der Natur<...>"
 
 	para "Und du?"
 
@@ -157,16 +156,16 @@ HeathGymLeader:
 	line "Natur um dich"
 	cont "herum?"
 
-	para "Du musst lernen,"
-	line "mit ihr zu leben,"
-	cont "nicht nur in ihr."
+	para "Du musst lernen"
+	line "MIT Ihr zu leben,"
+	cont "nicht nur IN Ihr."
 	sdone
 
 .battle_won_text
-	ctxt "Hmm <...>"
+	ctxt "Hmm<...>"
 
 	para "Ich hoffe du hast"
-	line "gelernt, die Welt"
+	line "gelernt die Welt"
 	cont "zu lieben."
 
 	para "Nimm diesen Orden"
@@ -175,16 +174,16 @@ HeathGymLeader:
 
 .got_badge_text
 	ctxt "<PLAYER> erhält"
-	line "den Naturorden."
+	line "den Natur Orden."
 	done
 
 .after_badge_text
 	ctxt "Der Naturorden"
-	line "erlaubt dir, die"
-	cont "Natur bis Level 40"
-	cont "zu bändigen."
+	line "macht es möglich"
+	cont "die Natur bis LV"
+	cont "40 zu zähmen."
 
-	para "Ach und das noch."
+	para "Ah, und nimm das:"
 	done
 
 .got_TM_text
@@ -195,18 +194,18 @@ HeathGymLeader:
 	line "Natur steckt in"
 	cont "dieser Attacke."
 	
-	para "Zudem hat sie eine"
-	line "hohe Quote für"
-	cont "Volltreffer!"
+	para "Zudem hat es eine"
+	line "erhöhte Voll-"
+	cont "treffer quote!"
 	done
 
 .already_defeated_text
 	ctxt "Früher war hier"
-	line "alles Natur <...>"
+	line "alles Natur<...>"
 	para "Davon sieht man"
 	line "nicht mehr viel."
 
-	para "Inakzeptabel!"
+	para "Unakzeptabel!"
 	done
 
 HeathGym_MapEventHeader:: db 0, 0

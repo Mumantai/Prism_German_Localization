@@ -16,11 +16,11 @@ HeathHouseTM30NPC:
 
 .give_TM_text
 	ctxt "Ich hab hier was"
-	line "Tolles für dich."
+	line "dolles für dich."
 
 	para "Ich habe dieses"
-	line "Item bereits bei"
-	para "all meinen Geist-"
+	line "Item bereits bei  "
+	para "all meinen Geist"
 	line "#mon benutzt."
 	para "Jetzt kannst du"
 	line "es nutzen!"
@@ -32,10 +32,10 @@ HeathHouseTM30NPC:
 
 	para "Es ist eine"
 	line "mächtige Geist-"
-	para "Attacke, die die"
-	line "Spezial-Verteidi-"
-	para "gung deiner Gegner"
-	line "senken kann."
+	para "Attacke welches"
+	line "die gegnerische"
+	para "spezial Vert."
+	line "senken könnte."
 	done
 
 HeathHouseTM30_MapEventHeader:: db 0, 0

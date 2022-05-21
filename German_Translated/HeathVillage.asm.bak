@@ -10,7 +10,7 @@ HeathVillage_MapScriptHeader;trigger count
 	return
 
 HeathVillageForestSign:
-	ctxt "Rinjis Wald"
+	ctxt "Rinji's Wald"
 	done
 
 HeathVillageRestHouseSign:
@@ -29,48 +29,49 @@ HeathVillageNPC1:
 
 	para "Vieleicht werde"
 	line "ich noch andere"
-	para "berühmte Berge"
+	para "namenhafte Berge"
 	line "besteigen."
 	done
 
 HeathVillageNPC2:
 	ctxt "Innen befindet"
-	line "sich ein Schrein,"
-	para "der den Wärchtern"
-	line "von Naljo gewidmet"
+	line "sich ein Schrein"
+	para "welches den Naljo"
+	line "Wächtern gewidmet"
 	cont "ist."
 
 	para "Einwohner kommen"
 	line "täglich her mit"
-	para "der Hoffnung, dass"
+	para "der Hoffnung das"
 	line "sie eines Tages"
 	cont "wieder erwachen."
 	done
 
 HeathVillageNPC3:
 	ctxt "Ich werde ein"
-	line "Pflanzen-#mon"
+	line "Pflanzen-Typ"
 	para "Trainer, genau wie"
-	line "Rinji auch!"
+	line "Rinji es ist!"
 
 	para "Rinji liebt die"
 	line "Natur und er ist"
-	para "es leid, mit anzu-"
-	line "sehen, was mit"
+	para "es leid mit an-"
+	line "zusehen, was mit"
 	para "unserer Region"
 	line "passiert."
 	done
 
 HeathVillageNPC4:
-	ctxt "Ich mag die"
-	line "Dorftraditionen."
+	ctxt "Ich genieße das"
+	line "traditionelle"
+	cont "Dorfklima."
 
-	para "Das ist eine nette"
-	line "Abwechslung zu der"
-	para "Modernisierung,"
-	line "die die unsere"
-	para "Gesellschaft bloß"
-	line "vergiftet."
+	para "Zumindest wird man"
+	line "hier nicht"
+	para "gesellschaftlich"
+	line "vergiftet, wie in"
+	para "den modernen"
+	line "Städten<...>"
 	done
 
 HeathVillageBicycleNPC:
@@ -116,25 +117,26 @@ HeathVillageBicycleNPC:
 	prompt
 
 .not_enough_steps_text
-	ctxt "Hmm <...> deine Schuhe"
+	ctxt "Hmm<...> deine Schuhe"
 	line "sind ja gar nicht"
 	cont "eingelaufen."
 
 	para "Komm wieder sobald"
 	line "du das Laufen"
+
 	para "wertschätzen"
 	line "gelernt hast."
 	done
 
 .give_bicycle_text
 	ctxt "Ich sehe an deinen"
-	line "Schuhen, dass du"
-	cont "viele Schritte"
-	cont "gelaufen bist."
+	line "Schuhen das du"
+	cont "viele schritte"
+	cont "gegangen bist."
 
-	para "Gut zu wissen,"
-	line "dass es noch Leute"
-	para "gibt, die Ihre"
+	para "Gut zu wissen das"
+	line "es noch Menschen"
+	para "gibt die Ihre"
 	line "Gesundheit zu"
 	cont "schätzen wissen."
 
@@ -146,7 +148,7 @@ HeathVillageBicycleNPC:
 	ctxt "Hast du Spaß an"
 	line "deinem Fahrrad?"
   
-	para "Schon wunderlich,"
+	para "Schon wunderlich"
 	line "zu was Beine alles"
 	cont "im Stande sind!"
 	done

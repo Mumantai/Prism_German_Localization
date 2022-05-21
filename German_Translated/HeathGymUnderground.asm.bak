@@ -6,21 +6,21 @@ HeathGymUnderground_MapScriptHeader;trigger count
 HeathGymUndergroundInstructionsGuy:
 	ctxt "Hah!"
 
-	para "Für die Meisten,"
-	line "ist Lava nutzlos,"
-	para "aber für mich ist"
-	line "sie bares Geld!"
+	para "Viele denken Lava"
+	line "wäre nutzlos, aber"
+	para "für mich ist es"
+	line "die Geschäftsidee!"
 
 	para "Interagiere mit"
-	line "der Lava um Erze"
+	line "der lava um Erze"
 	cont "zu schmelzen."
 
-	para "Oder mach' Kohle"
+	para "Oder mach Kohle"
 	line "zu Asche."
 
-	para "Beachte jedoch,"
-	line "dass du für Asche"
-	para "eine Aschetasche"
+	para "Beachte jedoch das"
+	line "du für die Asche"
+	para "einen Aschensack"
 	line "benötigst!"
 
 
@@ -31,7 +31,7 @@ HeathGymUndergroundInstructionsGuy:
 
 	para "Mein Händler dort"
 	line "drüben sollte noch"
-	cont "eine haben."
+	cont "eins haben."
 	done
 
 HeathGymUndergroundOreBuyer:
@@ -75,7 +75,7 @@ HeathGymUndergroundOreBuyer:
 	ctxt "Hehehe..."
 
 	para "Für gutes Geld"
-	line "kauf' ich deine"
+	line "kauf ich deine"
 	cont "Erze ab."
 
 	para "Nimm diese"
@@ -121,8 +121,8 @@ HeathGymUndergroundOreBuyer:
 	line "Erze in deiner"
 	cont "Erztasche."
 
-	para "Schmelz erst ein"
-	line "paar Erze, bevor"
+	para "Schmelz erst mal"
+	line "paar Erze bevor"
 	para "du mir was ver-"
 	line "kaufen möchtest."
 	done

@@ -17,26 +17,26 @@ HeathHouseTM35NPC:
 	jumptext .after_giving_TM
 
 .before_giving_TM
-	ctxt "Zzz <...>"
+	ctxt "zzz<...>"
 
 	para "Wa?"
 
 	para "Oh, ich bin schon"
 	line "viel zu lange"
-	cont "am Pennen!"
+	cont "am pennen!"
 
 	para "Nimm diese TM hier"
-	line "als Entschädigung."
+	line "als entschädigung."
 	done
 
 .after_giving_TM
-	ctxt "Diese TM enthält"
+	ctxt "Diese TM hier ist"
 	line "Schlafrede."
 
-	para "Dein #mon wird"
-	line "im Schlaf eine"
-	para "zufällige Attacke"
-	line "einsetzen!"
+	para "Deine #mon"
+	line "setzen während SLF"
+	para "eine zufällige"
+	line "Attacke ein!"
 	done
 
 HeathHouseTM35_MapEventHeader:: db 0, 0

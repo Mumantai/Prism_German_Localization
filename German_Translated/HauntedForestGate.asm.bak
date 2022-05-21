@@ -8,11 +8,11 @@ HauntedForestGate_RubyEgg:
 	db RUBY_EGG
 
 HauntedForestGateGuard:
-	ctxt "Die Geister können"
-	line "ihre Umgebung nach"
-	para "Lust und Lane ver-"
-	line "ändern. Pass also"
-	cont "gut auf dich auf!"
+	ctxt "Geist-#mon"
+	line "können Ihr"
+	para "Erscheinungsbild"
+	line "ändern. Betreten"
+	cont "auf eigene Gefahr!"
 	done
 
 HauntedForestGate_MapEventHeader:: db 0, 0

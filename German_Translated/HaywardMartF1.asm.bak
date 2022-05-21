@@ -4,8 +4,8 @@ HaywardMartF1_MapScriptHeader;trigger count
 	db 0
 
 HaywardMartF1Receptionist:
-	ctxt "Willkommen im"
-	line "Faenumia-Center."
+	ctxt "Willkommen in der "
+	line "Southland Mall."
 
 	done
 

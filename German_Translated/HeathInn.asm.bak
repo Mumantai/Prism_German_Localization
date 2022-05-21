@@ -10,24 +10,24 @@ HeathInn_MapScriptHeader;trigger count
 	return
 
 HeathInnNPC:
-	ctxt "Es gibt nur eine"
-	line "Familie hier in"
-	cont "unserem Heidenau."
+	ctxt "Dorfheide wird nur"
+	line "von einer Familie"
+	cont "bevölkert."
 
-	para "Meine Familie lebt"
+	para "Diese Familie lebt"
 	line "hier schon seit"
 	cont "Jahrhunderten so."
 
 	para "Mein Cousin Rinji"
-	line "übt mit unseren"
-	para "Kinder oft im Wald"
-	line "#mon-Kämpfe."
+	line "trainiert unsere"
+	para "Kinder im Wald um"
+	line "sie zu stärken."
 
-	para "Meine Oma kümmert"
-	line "sich um die Räume"
-	cont "in diesem Gasthaus"
-	para "und meinem Bruder"
-	line "gehört der Markt."
+	para "Meine Oma managed"
+	line "die Räume hier im"
+	cont "Gasthaus und mein"
+	para "Bruder betreibt"
+	line "den Laden."
 	done
 
 HeathInnAttendant:
@@ -63,7 +63,7 @@ HeathInnAttendant:
 	done
 
 .declined_text
-	ctxt "Oh, na gut. Ihr"
+	ctxt "Oh, Na gut. Ihr"
 	line "seid hier immer"
 	cont "willkommen."
 	done
@@ -75,9 +75,8 @@ HeathInnAttendant:
 
 .after_healing_text
 	ctxt "Willkommen zurück!"
-	line "Ich hoffe, du hast"
-	para "deinen Aufenthalt"
-	cont "bei uns genossen."
+	line "Hoffentlich wart"
+	cont "Ihr zufrieden."
 	done
 
 .not_enough_money_text

@@ -5,15 +5,13 @@ HeathGate_MapScriptHeader;trigger count
 
 HeathGateGuard:
 	ctxt "Für die Sicherheit"
-	line "aller Reisenden,"
-	para "haben wir mehrere"
-	line "Durchgangshäuser"
-	cont "aufgebaut."
+	line "haben wir mehrere"
+	cont "Mauten installiert"
 
-	para "Ein paar Idioten"
-	line "laufen hier rum"
-	para "und machen nichts"
-	line "als Randale."
+	para "Einpaar Idioten"
+	line "kamen vorbei und"
+	para "vandalisierten"
+	line "hier rum."
 	done
 	
 HeathGateTrigger:
@@ -43,41 +41,41 @@ HeathGateTrigger:
 	sdone
 
 .before_HM_text
-	ctxt "Bitte sag keinem,"
-	line "dass ich nur"
-	cont "zugesehen habe <...>"
+	ctxt "Bitte erzähle es"
+	line "niemanden, dass"
+	cont "ich nur zusah<...>"
 
-	para "Huh? Warum ich den"
+	para "Huh? Warum ich Mr."
 	line "Gummianzug nicht"
 	cont "aufgehalten habe?"
 
-	para "Er hat mich belei-"
-	line "digt, als ich ihn"
+	para "Er schrie mich an"
+	line "als ich sein Anzug"
 	cont "Gummianzug nannte."
 
-	para "Das hat mich so"
-	line "verletzt, dass ich"
-	cont "erstmal 'ne Pause"
+	para "Meine Gefühle"
+	line "wurden so verletzt"
+	cont "dass ich ne pause"
 	cont "gebraucht habe."
 	
-	para "Hier, für deine"
-	line "Verschwiegenheit."
+	para "Sags keinem und"
+	line "gebe dir diese VM."
 	sdone
 	
 .after_HM_text
 	ctxt "VM01 ist"
 	line "Zerschneider!"
 
-	para "Damit kannst du"
+	para "Hiermit kannst du"
 	line "Bäume fällen, die"
-	cont "vorher deinen Weg"
+	cont "zuvor deinen Weg"
 	cont "blockiert haben."
 	
-	para "Wie den Baum im"
+	para "Wie der Baum im"
 	line "Osten von hier."
 	
 	para "Dafür brauchst du"
-	line "den Naturorden."
+	line "den Natur Orden."
 
 	done
 
@@ -96,21 +94,20 @@ HeathGate_PatrollerRed:
 	done	
 
 .before_battle_text
-	ctxt "Oh gut, du bist's."
+	ctxt "Oh gut, du bists."
 
-	para "Dieser <...> nervige <....>"
-	line "Rosa Ranger hat"
-	para "mir alles erzählt,"
-	line "was du bisher so"
-	cont "angestellt hast <...>"
+	para "Ich habe gehört"
+	line "was du aus dem<...>"
+	para "nervigen<...>"
+	line "Pink Patroller"
+	cont "gemacht hast<...>"
 
 	para "Wer gibt dir das"
 	line "Recht, so mit"
-	cont "uns umzugehen?!"
+	cont "Ihnen umzugehen?"
 
-	para "Ich muss dir wohl"
-	line "mal eine Lehre"
-	cont "erteilen."
+	para "Ich muss dir mal"
+	line "ne Lehre erteilen!"
 	done
 
 .battle_won_text
@@ -123,14 +120,14 @@ HeathGate_PatrollerRed:
 	line "besiegt von einem"
 	cont "Kind!"
 
-	para "Egal, ich habe"
-	line "große Pläne, um"
-	para "Naljo wieder zum"
-	line "Glanz zu bringen."
+	para "Egal, Ich habe"
+	line "große Pläne um in"
+	para "Naljo alles wieder"
+	line "zu korrigieren."
 
 	para "Diesmal hattest du"
-	line "Glück! Doch beim"
-	cont "nächsten Mal <...>!"
+	line "Glück! Bis zum"
+	cont "nächstenmal!"
 	done
 
 HeathGate_MapEventHeader:: db 0, 0

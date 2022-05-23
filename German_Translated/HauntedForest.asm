@@ -18,7 +18,7 @@ HauntedForest_Trainer_1:
 
 .before_battle_text
 	ctxt "Ein unaufrichtiger"
-	line "und böser Freund,"
+	line "und böser Freund"
 	para "ist schlimmer als"
 	line "jede wilde Bestie!"
 	
@@ -31,9 +31,9 @@ HauntedForest_Trainer_1:
 
 .battle_won_text
 	ctxt "Ehrgeiz ist wie"
-	line "Liebe: intollerant"
-	para "gegenüber Verspät-"
-	line "ungen und Rivalen."
+	line "Liebe: intolerant"
+	para "gegenüber Verspä-"
+	line "tung und Rivalen."
 	done
 
 HauntedForest_Trainer_2:
@@ -41,7 +41,7 @@ HauntedForest_Trainer_2:
 
 	ctxt "Hass hört nicht"
 	line "durch Hass auf!"
-	para "Nur durch Liebe"
+	para "Nur die Liebe"
 	line "kann Hass beenden!"
 	done
 
@@ -63,7 +63,7 @@ HauntedForest_Trainer_3:
 	trainer EVENT_HAUNTED_FOREST_TRAINER_3, MEDIUM, 1, .before_battle_text, .battle_won_text
 
 	ctxt "Unter all den"
-	line "Worten, ist das"
+	line "Worten ist das"
 	para "beste Wort jenes,"
 	line "das den Frieden"
 	cont "bringt."

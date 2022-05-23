@@ -62,9 +62,9 @@ GoldenrodMartB1F_Rival:
 
 	para "Dieser Ort ist"
 	line "perfekt, um sich"
-	para "vor den Bullen zu"
-	line "Naljo-Bullen zu"
-	para "verstecken."
+	para "vor den Naljo-"
+	line "Bullen zu ver-"
+	para "stecken."
 	line "Ich glaube nicht,"
 	para "dass jemand in"
 	line "Johto jemals von"
@@ -83,8 +83,8 @@ GoldenrodMartB1F_Rival:
 
 .defeated_text
 	ctxt "Ich muss nur die"
-	line "Scherben"
-	cont "aufsammeln <...>"
+	line "Scherben auf-"
+	cont "sammeln <...>"
 	done
 
 .give_TM_text
@@ -93,7 +93,7 @@ GoldenrodMartB1F_Rival:
 	cont "mehr für diese TM."
 
 	para "Vielleicht kannst"
-	line "du sie brauchen."
+	line "du sie gebrauchen."
 
 	done
 

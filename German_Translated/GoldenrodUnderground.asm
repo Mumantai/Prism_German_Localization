@@ -21,14 +21,14 @@ GoldenrodUnderground_Trainer_1:
 	done
 
 .before_battle_text
-	ctxt "Ich will deine "
+	ctxt "Ich will deine"
 	line "seltenen #mon "
 	cont "sehen!"
 
 	done
 
 .defeated_text
-	ctxt "Kein Grund, wütend"
+	ctxt "Kein Grund wütend"
 	line "zu werden!"
 
 	done
@@ -80,7 +80,7 @@ GoldenrodUnderground_Trainer_3:
 	done
 
 .defeated_text
-	ctxt "Habe nur gefragt <...>"
+	ctxt "Hab nur gefragt <...>"
 	done
 
 GoldenrodUnderground_YoungerHaircutBrother:
@@ -125,8 +125,8 @@ GoldenrodUnderground_YoungerHaircutBrother:
 	line "#mon-Salon!"
 
 	para "Ich bin der"
-	line "jüngere, und"
-	para "der günstigere,"
+	line "jüngere und"
+	para "der günstigere"
 	line "der beiden"
 	cont "Friseur-Brüder."
 
@@ -153,7 +153,7 @@ GoldenrodUnderground_YoungerHaircutBrother:
 	done
 
 .already_cut_hair_text
-	ctxt "Meine Schicht ist "
+	ctxt "Meine Schicht ist"
 	line "für heute zu Ende."
 
 	done
@@ -288,7 +288,7 @@ GoldenrodUnderground_OlderHaircutBrother_ShiftOverText:
 	done
 
 GoldenrodUnderground_OlderHaircutBrother_DeclinedText:
-	ctxt "Ah so läuft das <...> "
+	ctxt "Ah, so läuft das <...>"
 	para "Schande!"
 
 	done
@@ -296,8 +296,8 @@ GoldenrodUnderground_OlderHaircutBrother_DeclinedText:
 GoldenrodUnderground_OlderHaircutBrother_LetsGoText:
 	ctxt "OK!"
 
-	para "Schau wie schön es"
-	line "wird!"
+	para "Schau, wie schön"
+	line "es wird!"
 
 	sdone
 
@@ -315,7 +315,7 @@ GoldenrodUnderground_HaircutBrothers_NotTodayText:
 
 GoldenrodUndergroundNPC:
 	ctxt "Die Trainer dort"
-	line "unten sind "
+	line "unten sind"
 	cont "unbelehrbar."
 
 	done

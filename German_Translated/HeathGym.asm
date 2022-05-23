@@ -165,7 +165,7 @@ HeathGymLeader:
 .battle_won_text
 	ctxt "Hmm <...>"
 
-	para "Ich hoffe du hast"
+	para "Ich hoffe, du hast"
 	line "gelernt, die Welt"
 	cont "zu lieben."
 

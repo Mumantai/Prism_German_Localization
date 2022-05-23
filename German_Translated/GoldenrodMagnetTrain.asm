@@ -29,7 +29,7 @@ GoldenrodMagnetTrainPresident:
 
 	para "Dieser Zug ist"
 	line "schneller als"
-	para "jedes #mon, und"
+	para "jedes #mon und"
 	line "bringt Sie"
 	para "blitzschnell nach"
 	line "Rijon oder Naljo!"

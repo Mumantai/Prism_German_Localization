@@ -26,7 +26,7 @@ HauntedMansionGranddaughter:
 HauntedMansionBlockingBasementGranny:
 	ctxt "Du bist noch nicht"
 	line "bereit für den"
-	cont "Keller<...>"
+	cont "Keller <...>"
 
 	para "Die #mon da"
 	line "unten sind zu"
@@ -39,7 +39,7 @@ HauntedMansion_Trainer_1:
 	trainer EVENT_HAUNTED_MANSION_TRAINER_1, MEDIUM, 2, .before_battle_text, .battle_won_text
 
 	ctxt "Wir gehen hier"
-	line "nicht weg, egal"
+	line "nicht weg. Egal,"
 	para "ob die Geister uns"
 	line "plagen."
 	done
@@ -70,7 +70,7 @@ HauntedMansion_Trainer_3:
 	line "hier weilen, sind"
 	para "zwar nervig, tun"
 	line "aber keinem was"
-	cont "zu Leibe."
+	cont "zu Leide."
 	done
 
 .before_battle_text

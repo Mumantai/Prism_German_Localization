@@ -6,7 +6,7 @@ GoldenrodHappinessMoveTeacher_MapScriptHeader;trigger count
 GoldenrodHappinessMoveTeacherNPC1:
 	ctxt "Die Anwendung von"
 	line "Nährstoffen auf"
-	para "#mon, macht sie"
+	para "#mon macht sie"
 	line "glücklicher!"
 
 	done

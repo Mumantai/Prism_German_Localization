@@ -42,7 +42,7 @@ GoldenrodGym_Trainer_1:
 	para "süßen #mon zu"
 	line "sehen!"
 
-	para "Wir zeigen keine "
+	para "Wir zeigen keine"
 	line "Gnade!"
 
 	done
@@ -116,19 +116,19 @@ GoldenrodGymLeader:
 	para "Ich bin Bianka!"
 
 	line "Ich wurde Trainer,"
-	para "weil es angesagt "
+	para "weil es angesagt"
 	line "war!"
 
 	para "Ich schätze, es"
-	line "mehr als nur ein"
-	cont "Hype für mich!"
+	line "ist mehr als nur"
+	cont "ein Hype für mich!"
 
 	para "Ich bin über die"
 	line "Jahre süßer und"
 	para "stärker geworden,"
 	line "also wenn du"
 	para "meinen Orden haben"
-	line "willst, musst du "
+	line "willst, musst du"
 	cont "mich besiegen!"
 
 	sdone
@@ -150,8 +150,8 @@ GoldenrodGymLeader:
 
 .after_battle_text
 	ctxt "Ich habe zwar"
-	line "keine weiteren TMs"
-	cont "aber dafür das <...>"
+	line "keine TMs, aber"
+	cont "dafür das <...>"
 	sdone
 
 .gave_magnet_pass_text
@@ -191,7 +191,7 @@ GoldenrodGymLeader:
 	line "glücklich, dass"
 	para "ich die Chance"
 	line "habe, gegen starke"
-	para "Trainer, wie dich,"
+	para "Trainer wie dich"
 	line "zu kämpfen!"
 
 	done

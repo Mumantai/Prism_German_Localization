@@ -5,7 +5,7 @@ HeathGate_MapScriptHeader;trigger count
 
 HeathGateGuard:
 	ctxt "Für die Sicherheit"
-	line "aller Reisenden,"
+	line "aller Reisenden"
 	para "haben wir mehrere"
 	line "Durchgangshäuser"
 	cont "aufgebaut."

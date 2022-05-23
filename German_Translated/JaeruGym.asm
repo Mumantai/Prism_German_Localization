@@ -4,7 +4,7 @@ JaeruGym_MapScriptHeader;trigger count
 	db 0
 
 JaeruGymTrash:
-	ctxt "Nichts außer Müll<...>"
+	ctxt "Nichts außer Müll <...>"
 	done
 
 JaeruGymStatue:
@@ -27,7 +27,7 @@ JaeruGymGuide:
 	line "Laufe der Jahre"
 	para "erwachsen geworden"
 	line "und hat seine"
-	para "Arena in ein Büro "
+	para "Arena in ein Büro"
 	line "umgewandelt."
 
 	para "Ich bin mir nicht"
@@ -35,7 +35,7 @@ JaeruGymGuide:
 	para "eigenes"
 	line "Unternehmen macht"
 	para "und ich will's"
-	line "auch gar nich "
+	line "auch gar nicht"
 	cont "wissen."
 
 	done
@@ -44,10 +44,10 @@ JaeruGymGuide:
 	ctxt "Puh!"
 
 	para "Das war ein"
-	line "elektrisierender "
+	line "elektrisierender"
 	cont "Kampf!"
 
-	para "Ich war wirklich "
+	para "Ich war wirklich"
 	line "nervös."
 
 	done
@@ -56,22 +56,22 @@ JaeruGym_Trainer_1:
 	trainer EVENT_JAERU_GYM_TRAINER_1, GENTLEMAN, 2, .before_battle_text, .battle_won_text
 
 	ctxt "Ich werde besser"
-	line "bezahlt als du, "
-	cont "hahaha!"
+	line "bezahlt als du."
+	cont "Hahaha!"
 
 	done
 
 .before_battle_text
-	ctxt "Ich mach grad "
+	ctxt "Ich mach grad"
 	line "Pause."
 
-	para "Geh ruhig weiter "
+	para "Geh ruhig weiter,"
 	line "Kindchen!"
 
 	done
 
 .battle_won_text
-	ctxt "Ich hoffe diese"
+	ctxt "Ich hoffe, diese"
 	line "Überstunden werden"
 	cont "bezahlt!"
 
@@ -89,7 +89,7 @@ JaeruGym_Trainer_2:
 .before_battle_text
 	ctxt "Der Chef"
 	line "akzeptiert im"
-	para "Moment keine "
+	para "Moment keine"
 	line "Termine."
 
 	cont "Verschwinde!"
@@ -108,16 +108,16 @@ JaeruGym_Trainer_3:
 	line "ist jetzt "
 	cont "optional."
 
-	para "Vorschriften der "
+	para "Vorschriften der"
 	line "Gemeinde."
 
 	done
 
 .before_battle_text
-	ctxt "Du arbeitest hier "
+	ctxt "Du arbeitest hier"
 	line "nicht!"
 
-	cont "Zieh leine!"
+	cont "Zieh Leine!"
 
 	done
 
@@ -150,7 +150,7 @@ JaeruGymLeader:
 	line "du?"
 
 	para "Ich arbeite an der"
-	line "Verlegung meiner "
+	line "Verlegung meiner"
 	cont "Mitarbeiter."
 
 	para "Bitte sag ihnen"
@@ -164,9 +164,9 @@ JaeruGymLeader:
 
 .battle_won_text
 	ctxt "Gut, hier hast du"
-	line "den Funken Orden;"
-	para "und jetzt lass"
-	line "mich wieder "
+	line "den Funken Orden."
+	para "Und jetzt lass"
+	line "mich wieder"
 	cont "Arbeiten."
 
 	done
@@ -183,8 +183,8 @@ JaeruGymLeader:
 	para "Geschwindigkeit"
 	line "deiner #mon."
 
-	para "Nutze es um hier"
-	line "schnell zu "
+	para "Nutze es, um hier"
+	line "schnell zu"
 	cont "verschwinden."
 
 	done

@@ -40,16 +40,16 @@ IntroOutside_MapScriptHeader;trigger count
 	ctxt "Hier ist es so"
 	line "schön, nicht wahr?"
 
-	para "Ich bin froh das"
+	para "Ich bin froh, dass"
 	line "wir gemeinsam Zeit"
-	cont "verbringen<...>"
+	cont "verbringen <...>"
 
-	para "Es tut mir leid"
-	line "das dein Vater uns"
-	cont "verlassen hat."
+	para "Es tut mir leid,"
+	line "dass uns dein Va-"
+	cont "ter verlassen hat."
 
 	para "Kein Kind möchte"
-	line "das erleben<...>"
+	line "das erleben <...>"
 
 	para "<PLAYER>, dein"
 	line "Vater war ein"
@@ -60,16 +60,17 @@ IntroOutside_MapScriptHeader;trigger count
 
 	para "Ich weiß du willst"
 	line "in seine Fuß-"
-	cont "stapfen treten<...>"
+	cont "stapfen treten <...>"
 
 	para "Aber versprich mir"
 	line "egal wohin dich"
-	cont "dein Leben führt<...>"
+	cont "dein Leben führt <...>"
 	para "vergiss niemals"
 	line "deine Mutter."
 
-	para "Danke für die sch-"
-	line "öne Zeit, <PLAYER>."
+	para "Danke für die"
+	line "schöne Zeit,"
+	cont "<PLAYER>."
 	done
 
 StartingGameEarthquake:
@@ -88,7 +89,7 @@ StartingGameEarthquake:
 
 IntroCampsiteFire:
 	ctxt "Sieht heiß aus!"
-	line "Nicht berühren<...>"
+	line "Nicht berühren <...>"
 	done
 
 IntroCampsiteMom:
@@ -97,10 +98,11 @@ IntroCampsiteMom:
 
 	para "Ich habe die Ruhe"
 	line "der Wildnis so"
-	cont "vermisst<...>"
+	cont "vermisst <...>"
 
-	para "Danke für die sch-"
-	line "öne Zeit, <PLAYER>."
+	para "Danke für die"
+	line "schöne Zeit,"
+	cont "<PLAYER>."
 	done
 
 IntroMomLeavingDialogue:
@@ -125,7 +127,7 @@ IntroMomLeavingDialogue:
 	sdone
 
 .leaving_text_2
-	ctxt "<...>Oh, gehst du"
+	ctxt "<...> Oh, gehst du"
 	line "etwa spazieren?"
 
 	para "kannst du uns"
@@ -137,12 +139,12 @@ IntroMomLeavingDialogue:
 	cont "Nacht lang warm"
 	cont "halten!"
 
-	para "<...>und, <PLAYER><...>"
+	para "<...> und <PLAYER> <...>"
 
 	para "<...>"
 
-	para "<...>Ich Liebe dich"
-	line "mein Kind<...>"
+	para "<...> Ich liebe dich,"
+	line "mein Kind <...>"
 	sdone
 
 .approach_far

@@ -5,10 +5,10 @@ JaeruPokecenter_MapScriptHeader;trigger count
 
 JaeruPokecenterNPC1:
 	ctxt "Früher hat Sparky"
-	line "Autos, in einer"
+	line "Autos in einer"
 	para "weit entfernten"
 	line "Stadt namens"
-	para "Meeresblick, "
+	para "Meeresblick"
 	line "repariert."
 
 	para "Jetzt hat er sein"

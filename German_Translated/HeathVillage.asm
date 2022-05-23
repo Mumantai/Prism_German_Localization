@@ -14,7 +14,7 @@ HeathVillageForestSign:
 	done
 
 HeathVillageRestHouseSign:
-	ctxt "Gaststädte"
+	ctxt "Gaststätte"
 	done
 
 HeathVillageVillageSign:
@@ -68,8 +68,8 @@ HeathVillageNPC4:
 	para "Das ist eine nette"
 	line "Abwechslung zu der"
 	para "Modernisierung,"
-	line "die die unsere"
-	para "Gesellschaft bloß"
+	line "die unsere Gesell-"
+	para "schaft bloß"
 	line "vergiftet."
 	done
 
@@ -111,7 +111,7 @@ HeathVillageBicycleNPC:
 
 .introduction_text
 	ctxt "Die Leute heut-"
-	line "zutage, schätzen"
+	line "zutage schätzen"
 	cont "ihre Beine nicht."
 	prompt
 
@@ -120,8 +120,8 @@ HeathVillageBicycleNPC:
 	line "sind ja gar nicht"
 	cont "eingelaufen."
 
-	para "Komm wieder sobald"
-	line "du das Laufen"
+	para "Komm wieder, so-d"
+	line "bald du das Laufen"
 	para "wertschätzen"
 	line "gelernt hast."
 	done

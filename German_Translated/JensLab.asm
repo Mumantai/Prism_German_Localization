@@ -24,17 +24,17 @@ JensLabJen:
 
 .introduction_text
 	ctxt "Hallo, man nennt"
-	line "mich Jen der "
+	line "mich Jen, den"
 	cont "Professor."
 
-	para "Tim's "
+	para "Tim's"
 	line "Assistenzpraktiker."
 
-	para "Prof Tim ist schon"
-	line "eine Zeitlang"
+	para "Prof. Tim ist schon"
+	line "eine zeitlang"
 	para "fort, daher habe"
-	line "ich seine"
-	para "Forschungen weiter"
+	line "ich seine For-"
+	para "schungen weiter-"
 	line "geführt."
 
 	para "Oh, du bist der"
@@ -43,14 +43,14 @@ JensLabJen:
 
 	para "Ich kenne da einen"
 	line "geheimen"
-	para "Kampfplatz namens "
+	para "Kampfplatz namens"
 	line "Kampfarkaden."
 
 	para "Wenn du alle 8"
 	line "Orden der Rijon"
 	para "Region sammelst,"
 	line "geben wir dir ein"
-	cont "Ticket dort hin."
+	cont "Ticket dorthin."
 
 	para "Viel Glück!"
 
@@ -73,7 +73,7 @@ JensLabJen:
 
 	para "Du hast es"
 	line "geschafft, alle"
-	para "Rijon Orden zu "
+	para "Rijon Orden zu"
 	line "sammeln!"
 
 	para "Nimm dieses"
@@ -97,7 +97,7 @@ JensLabJen:
 	para "ein"
 	line "#Mon-Professor"
 	para "werde, genauso"
-	line "schlau wie mein "
+	line "schlau wie mein"
 	cont "Großvater!"
 
 	done
@@ -106,14 +106,14 @@ JensLabJen:
 	ctxt "Ich überlasse dir"
 	line "auch einen dieser"
 	para "frisch"
-	line "geschlüpften "
+	line "geschlüpften"
 	cont "#mon."
 
 	para "Ein Trainer, der"
 	line "so begabt ist wie"
 	para "du, sollte in der"
 	line "Lage sein, es"
-	para "richtig "
+	para "richtig"
 	line "großzuziehen!"
 
 	done
@@ -172,7 +172,7 @@ JensLabBlueBall:
 
 .mon_text
 	ctxt "<PLAYER> erhält"
-	line "Shiggy!"
+	line "Schiggy!"
 
 	done
 
@@ -244,7 +244,7 @@ JensLab_ConfirmMon:
 
 .no_space_text
 	ctxt "Bitte mach in"
-	line "Deiner Gruppe oder"
+	line "deiner Gruppe oder"
 	cont "Box Platz frei!"
 
 	done
@@ -288,7 +288,7 @@ JensLabGoldTokenCollector:
 	para "Vielleicht habe"
 	line "ich ein Angebot"
 	para "für dich, falls du"
-	line "Jen dort drüben "
+	line "Jen dort drüben"
 	cont "beeindruckst."
 
 	done
@@ -301,13 +301,13 @@ JensLabGoldTokenCollector:
 
 .already_exchanged_text
 	ctxt "Danke für die"
-	line "Münzen, mein "
+	line "Münzen, mein"
 	cont "Bester!"
 
 	done
 
 .offer_text
-	ctxt "Ich bin"
+	ctxt "Ich bin die"
 	line "Assistentin von"
 	para "Prof. Tim und"
 	line "sammle Goldmünzen."
@@ -330,8 +330,8 @@ JensLabGoldTokenCollector:
 	done
 
 .not_enough_tokens_text
-	ctxt "Das reicht nicht,"
-	line "komm später "
+	ctxt "Das reicht nicht."
+	line "Komm später"
 	cont "wieder."
 
 	done

@@ -6,7 +6,7 @@ IlksLab_MapScriptHeader;trigger count
 IlksLabBookshelfFortran:
 	ctxt "<PLAYER> liest"
 	line "das Buch vom"
-	cont "obersten Regal<...>"
+	cont "obersten Regal <...>"
 
 	para "'Visual-Basic für"
 	line "Dummies'"
@@ -14,9 +14,9 @@ IlksLabBookshelfFortran:
 
 IlksLabBookshelfKalos:
 	ctxt "<PLAYER> liest ein"
-	line "zufälliges Buch<...>"
+	line "zufälliges Buch <...>"
 
-	para "'Auslandstudium"
+	para "'Auslandsstudium"
 	line "gefällig?'"
 	done
 
@@ -31,12 +31,12 @@ IlksLabBookshelfFairyTales:
 
 IlksLabBookshelfSpeakNormally:
 	ctxt "<PLAYER> liest ein"
-	line "Buch welches"
-	cont "benutzt wirkt<...>"
+	line "Buch, welches"
+	cont "benutzt wirkt <...>"
 
 	para "'Wie redet man"
-	line "normal ohne andere"
-	cont "zu nerven?'"
+	line "normal, ohne an-"
+	cont "dere zu nerven?'"
 	done
 
 IlksLabProfIlk:
@@ -82,14 +82,14 @@ IlksLabProfIlk:
 .initial_self_speech
 	ctxt "<...>"
 
-	para "<...>Hm, Ja<...>"
+	para "<...> Hm, ja <...>"
 
-	para "<...>Ja, das"
-	line "macht Sinn<...>"
+	para "<...> Ja, das"
+	line "macht Sinn <...>"
 
 	para "Es sollte hier ein"
 	line "Buch über Naljo"
-	cont "rumliegen<...>"
+	cont "rumliegen <...>"
 	sdone
 
 .first_encounter_text
@@ -99,13 +99,13 @@ IlksLabProfIlk:
 
 	para "Wer bist du?"
 
-	para "Wer ICH BIN???"
+	para "Wer ICH BIN?"
 
 	para "Professor Ilk"
-	line "natürlich!!!"
+	line "natürlich!"
 
-	para "Ich bin der führ-"
-	line "ende #mon"
+	para "Ich bin der füh-"
+	line "rende #mon-"
 	cont "Forscher!"
 
 	para "<...>"
@@ -122,17 +122,17 @@ IlksLabProfIlk:
 
 	para "<...>"
 
-	para "<...>Ich frage"
-	line "ungerne, aber<...>"
+	para "<...> Ich frage"
+	line "ungerne, aber <...>"
 
-	para "<...>tust du mir"
-	line "einen gefallen?"
+	para "<...> tust du mir"
+	line "einen Gefallen?"
 
 	para "Schaust du nach"
 	line "meinem Bruder?"
 
 	para "Er geht nicht an"
-	line "sein Telefon<...>"
+	line "sein Telefon <...>"
 
 	para "Er lebt nördlich"
 	line "von hier auf"
@@ -154,9 +154,9 @@ IlksLabProfIlk:
 .after_saving_brother_text
 	ctxt "<PLAYER>!"
 
-	para "Danke das du mein"
-	line "Bruder gerettet"
-	cont "hast!"
+	para "Danke, dass du"
+	line "meinen Bruder ge-"
+	cont "rettet hast!"
 
 	para "Er hat mich ange-"
 	line "rufen und mir von"
@@ -167,7 +167,7 @@ IlksLabProfIlk:
 
 	para "Weißt du was?"
 
-	para "Behalt Larvitar."
+	para "Behalte Larvitar."
 
 	para "Du solltest sogar"
 	line "meine neue Erfin-"
@@ -184,13 +184,13 @@ IlksLabProfIlk:
 	line "#dex."
 
 	para "Es verzeichnet"
-	line "alle #mon die"
+	line "alle #mon, die"
 	cont "du gesehen oder"
 	cont "gefangen hast."
 
 	para "Stell dir ein Team"
 	line "zusammen und führe"
-	para "dein Vaters Ver-"
+	para "deines Vaters Ver-"
 	line "mächtnis fort!"
 	done
 
@@ -208,20 +208,20 @@ IlksLabProfIlk:
 
 	para "Wie ich sagte,"
 	line "#mon Trainer zu"
-	para "sein liegt in"
+	para "sein, liegt in"
 	line "deinen Genen!"
 
 	para "Wenn du nach"
 	line "weiteren Heraus-"
 	para "forderungen suchst"            
-	line "besuch Rijon!"
+	line "besuche Rijon!"
 
-	para "Es gibt ein Tunnel"
+	para "Da ist ein Tunnel"
 	line "nach Rijon nörd-"
 	cont "lich von hier."
 
-	para "Viel Glück mein"
-	line "freund!"
+	para "Viel Glück,"
+	line "mein Freund!"
 	done
 
 .earthquake_explanation_text
@@ -229,9 +229,9 @@ IlksLabProfIlk:
 
 	para "Etwas her seit"
 	line "unserem ersten"
-	cont "treffen, oder?"
+	cont "Treffen oder?"
 
-	para "Da gibt es etwas"
+	para "Da gibt es etwas,"
 	line "worüber ich mit"
 	cont "dir reden muss."
 
@@ -241,19 +241,19 @@ IlksLabProfIlk:
 	para "Laut dem 'Hayward"
 	line "Labor für"
 	cont "Paläoseismologie'"
-	cont "sind diese beben"
+	cont "sind diese Beben"
 	cont "nicht natürlich."
 
 	para "Das erste komische"
-	line "beben traf Dukatia"
-	cont "City in Johto<...>"
+	line "Beben traf Dukatia"
+	cont "City in Johto <...>"
 	para "War das nicht vor"
 	line "fünf Jahren?"
 
-	para "Es ist das selbe"
-	line "beben, das du"
+	para "Es ist dasselbe"
+	line "Beben, das du"
 	cont "in Naljo erlebt"
-	cont "hast<...>"
+	cont "hast <...>"
 
 	para "Mein Anhaltspunkt"
 	line "ist Untergrund-"
@@ -262,8 +262,8 @@ IlksLabProfIlk:
 	cont "Geologen."
 
 	para "Vieleicht hat es"
-	line "was mit den beben"
-	cont "zu tun..."
+	line "was mit den Beben"
+	cont "zu tun ..."
 
 	para "Untergrund City"
 	line "findest du im"
@@ -271,15 +271,15 @@ IlksLabProfIlk:
 	cont "City."
 
 	para "Ich brauche dich"
-	line "zum untersuchen"
+	line "zum Untersuchen"
 	cont "dieser künstlichen"
 	cont "Erdbeben."
 
 	para "<...>"
 
-	para "Oh, du warst in"
-	line "Torenia City"
-	cont "vor kurzem?"
+	para "Oh, du warst"
+	line "vor Kurzem in"
+	cont "Torenia City?"
 
 	para "<...>"
 
@@ -300,7 +300,7 @@ IlksLab_HowsMyLarvitarText:
 	ctxt "Wie geht es meinem"
 	line "Larvitar denn so?"
 
-	para "Hoffe alles gut!"
+	para "Hoffe, alles gut!"
 	done
 
 IlksLab_MapEventHeader:: db 0, 0

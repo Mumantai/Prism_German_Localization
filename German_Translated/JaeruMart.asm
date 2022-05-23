@@ -5,7 +5,7 @@ JaeruMart_MapScriptHeader;trigger count
 
 JaeruMartNPC1:
 	ctxt "Trink nicht zu"
-	line "viel von diesem "
+	line "viel von diesem"
 	cont "Bier."
 
 	para "Merkwürdig, dass"
@@ -20,7 +20,7 @@ JaeruMartNPC2:
 	ctxt "Donnersteine sind"
 	line "so schön!"
 
-	para "Ich sammle sie "
+	para "Ich sammele sie"
 	line "gerne."
 
 	done

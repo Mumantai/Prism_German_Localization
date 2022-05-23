@@ -132,7 +132,7 @@ EggAppraiserScript:
 	done
 
 .no_more_eggs_text
-	ctxt "Ich glaube es gibt"
+	ctxt "Ich glaub, es gibt"
 	line "keine weiteren"
 	para "speziellen Eier"
 	line "mehr <...>"

@@ -8,11 +8,11 @@ IlexForest_GoldToken:
 	db GOLD_TOKEN
 
 IlexForestShrine:
-	ctxt "Der Schrein im "
-	line "Steineichenwald<...> "
-	para "Es ist zu Ehren "
-	line "des Schutzpatrons "
-	cont "des Waldes<...> "
+	ctxt "Der Schrein im"
+	line "Steineichenwald <...>"
+	para "Es ist zu Ehren"
+	line "des Schutzpatrons"
+	cont "des Waldes <...>"
 	done
 
 IlexForestSign:
@@ -21,8 +21,8 @@ IlexForestSign:
 	ctxt "Die hohen Bäume"
 	next "im Steineichen-"
 	next "wald verdunkeln"
-	next "alles. Liegen "
-	next "hier ggf. Items?"
+	next "alles. Liegen"
+	next "hier etwa Items?"
 	done
 
 IlexForest_MapEventHeader:: db 0, 0

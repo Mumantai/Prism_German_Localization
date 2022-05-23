@@ -24,22 +24,22 @@ JaeruCityGymSign:
 	ctxt "#mon Arena"
 	next "Leiter: Sparky"
 	nl " "
-	next "Der Trainer der"
+	next "Der Trainer, der"
 	next "alle schockt!"
 
 	done
 
 JaeruCityNPC1:
 	ctxt "Sparky hat seinen"
-	line "Schneid verloren;"
-	para "überzeuge dich "
+	line "Schneid verloren."
+	para "Überzeuge dich"
 	line "selbst."
 
 	done
 
 JaeruCityNPC2:
 	ctxt "Hier bekommst du"
-	line "eins der besten "
+	line "eins der besten"
 	cont "Biere!"
 
 	done

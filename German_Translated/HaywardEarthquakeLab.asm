@@ -71,7 +71,7 @@ HaywardEarthquakeLabNPC2:
 
 	para "Dukatia City wurde"
 	line "zerstört, aber wie"
-	para "ich hörte, sind "
+	para "ich hörte, sind"
 	line "sie mit dem"
 	para "Wiederaufbau schon"
 	line "fast fertig."

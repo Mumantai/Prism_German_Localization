@@ -5,7 +5,7 @@ JaeruGoldTokenVendor_MapScriptHeader;trigger count
 
 JaeruGoldTokenVendorNPC:
 	ctxt "Mein Vater"
-	line "sammelte "
+	line "sammelte"
 	cont "Goldmünzen."
 
 	para "Es wurde aber nur"

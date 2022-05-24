@@ -6,7 +6,7 @@ HaywardPokecenter_MapScriptHeader;trigger count
 HaywardPokecenterNPC1:
 	ctxt "Faenumia City"
 	line "liegt direkt an"
-	para "Gefahrenzone"
+	para "der Gefahrenzone"
 	line "von Rijon."
 
 	para "Wir können nur"

@@ -7,7 +7,7 @@ FirelightRooms_Trainer_1:
 	trainer EVENT_FIRELIGHT_ROOMS_TRAINER_1, COOLTRAINERM, 4, .before_battle_text, .battle_won_text
 
 	ctxt "Aber wenn man sich"
-	line "als verlierer<...>"
+	line "als Verlierer <...>"
 
 	para "bezeichnet, dann"
 	line "glauben das alle!"
@@ -49,7 +49,7 @@ FirelightRooms_Trainer_3:
 	ctxt "Wenn es doch nur"
 	line "Schuhe gäbe, mit"
 	para "denen du über Lava"
-	line "gehen könntest<...>"
+	line "gehen könntest <...>"
 	
 	para "Das wäre was!"
 	done
@@ -101,7 +101,7 @@ FirelightRooms_Trainer_5:
 	ctxt "Ganz ehrlich, wer"
 	line "baut denn bitte"
 	para "direkt neben einen"
-	line "aktiven Vulkan, so"
+	line "aktiven Vulkan so"
 	cont "einen Park hin?"
 	done
 
@@ -121,7 +121,7 @@ FirelightRooms_Trainer_5:
 FirelightRooms_Trainer_6:
 	trainer EVENT_FIRELIGHT_ROOMS_TRAINER_6, COOLTRAINERF, 3, .before_battle_text, .battle_won_text
 	ctxt "Ach, der heiße Ort"
-	line "im Süd-Westen <...>."
+	line "im Süd-Westen <...>"
 	para "'Heiß' im Sinne"
 	line "von sehenswürdig."
 	para "Nicht wegen der"
@@ -130,7 +130,7 @@ FirelightRooms_Trainer_6:
 
 .before_battle_text
 	ctxt "Im Süd-Westen von"
-	line "hier, ist ein sehr"
+	line "hier ist ein sehr"
 	cont "heißer Ort."
 
 	para "Diese Region hat"

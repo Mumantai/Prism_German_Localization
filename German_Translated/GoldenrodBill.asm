@@ -4,7 +4,7 @@ GoldenrodBill_MapScriptHeader;trigger count
 	db 0
 
 GoldenrodBillBrother:
-	ctxt "Mein Bruder Bill "
+	ctxt "Mein Bruder Bill"
 	line "hat das #mon-"
 	para "Lagerungssystem "
 	line "erfunden."

@@ -51,12 +51,12 @@ IntroCaveNPC:
 	line "dahin wurde"
 	cont "versperrt?"
 
-	para "Du hast glück im"
-	line "im unglück!"
+	para "Du hast Glück im"
+	line "im Unglück!"
 
 	para "Diese Lore sollte"
 	line "dich dorthin"
-	cont "zurück führen."
+	cont "zurückführen."
 	sdone
 
 IntroCave_MapEventHeader:: db 0, 0

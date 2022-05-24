@@ -4,7 +4,7 @@ JaeruGate_MapScriptHeader;trigger count
 	db 0
 
 JaeruGateGuard:
-	ctxt "Wenn du hier her"
+	ctxt "Wenn du hierher"
 	line "über das Portal"
 	para "gekommen bist,"
 	line "können wir dich"

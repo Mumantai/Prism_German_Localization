@@ -210,7 +210,7 @@ HaywardMartF6OrbGirl:
 	para "Der Trainer wurde"
 	line "später sogar der"
 	para "Champion in Rijon."
-	line "<...>aber er ist"
+	line "<...> aber er ist"
 	para "ein Jahr später"
 	line "verschwunden."
 
@@ -245,7 +245,7 @@ HaywardMartF6OrbGirl:
 	line "glänzendes"
 	cont "Smaragd-Ei!"
 
-	para "Ich tausche es "
+	para "Ich tausche es"
 	line "gegen meine"
 	cont "grüne Kugel!"
 
@@ -254,19 +254,19 @@ HaywardMartF6OrbGirl:
 	done
 
 .receive_red_orb_text
-	ctxt "Toll, hier ist "
+	ctxt "Toll, hier ist"
 	line "deine rote Kugel!"
 
 	sdone
 
 .receive_blue_orb_text
-	ctxt "Toll, hier ist "
+	ctxt "Toll, hier ist"
 	line "deine blaue Kugel!"
 
 	sdone
 
 .receive_green_orb_text
-	ctxt "Toll, hier ist "
+	ctxt "Toll, hier ist"
 	line "deine grüne Kugel!"
 
 	sdone
@@ -282,7 +282,7 @@ HaywardMartF6OrbGirl:
 .dont_have_eggs_text
 	ctxt "Du hast nicht"
 	line "die Eier, die ich"
-	cont "will."
+	cont "suche."
 
 	para "Komm wieder, wenn"
 	line "du eins hast."
@@ -309,13 +309,13 @@ HaywardMartF6OrbGirl:
 	done
 
 HaywardMartF6NPC:
-	ctxt "Das Mädchen dort "
-	line "versucht, ihre "
+	ctxt "Das Mädchen dort"
+	line "versucht ihre"
 	para "Kugeln"
 	line "loszuwerden."
 
 	para "Wenn ich sie wäre,"
-	line "würde ich sie "
+	line "würde ich sie"
 	cont "behalten."
 
 	done

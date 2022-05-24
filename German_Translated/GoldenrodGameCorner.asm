@@ -165,7 +165,7 @@ GoldenrodGameCornerNPC3:
 GoldenrodGameCornerNPC4:
 	ctxt "Der einarmige"
 	line "Bandit ist einfach"
-	cont "unschlagbar<...> "
+	cont "unschlagbar <...> "
 	done
 
 GoldenrodGameCorner_MapEventHeader:: db 0, 0

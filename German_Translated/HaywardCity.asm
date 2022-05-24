@@ -34,7 +34,7 @@ HaywardCityIllegibleSign:
 
 HaywardCityNPC1:
 	ctxt "Ich kann dieses"
-	line "Schild nicht "
+	line "Schild nicht"
 	cont "lesen!"
 
 	para "Das macht mich"
@@ -105,14 +105,14 @@ HaywardCity_PaletteBlue:
 	cont "setzte."
 
 	para "Im letzten halben"
-	line "Jahrzehnt, hat er"
+	line "Jahrzehnt hat er"
 	para "versucht, die"
 	line "Scherben wieder"
 	cont "aufzusammeln."
 
 	para "Aber jetzt will"
 	line "der Rest der"
-	para "Palette-Rangers "
+	para "Palette-Rangers"
 	line "nichts mehr mit"
 	para "unseren Ambitionen"
 	cont "zu tun haben."
@@ -164,7 +164,7 @@ HaywardCity_PaletteBlue:
 	para "Lust auch einen"
 	line "Anzug zu tragen?"
 
-	para "Du siehst sicher "
+	para "Du siehst sicher"
 	line "schick darin aus <...> "
 	done
 

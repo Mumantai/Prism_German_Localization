@@ -28,9 +28,9 @@ GoldenrodCity_QRCode:
 	jumptext .text
 
 .text:
-	ctxt "Smaragd Ei -"
+	ctxt "Smaragd-Ei -"
 	line "Felsen in kleinem"
-	cont "teich."
+	cont "Teich."
 
 	done
 
@@ -71,7 +71,7 @@ GoldenrodCityNPC1:
 	para "Er kann über Berge"
 	line "fahren, unter dem"
 	para "Meer und auch"
-	line "ünerall sonst!"
+	line "überall sonst!"
 
 	done
 
@@ -138,7 +138,7 @@ GoldenrodCityNPC6:
 	para "Ganz gleich, was"
 	line "passiert, wir"
 	para "werden immer"
-	line "standaft bleiben."
+	line "standhaft bleiben."
 
 	done
 
@@ -167,7 +167,7 @@ GoldenrodCityGuard:
 	para "dass sich hier"
 	line "ein Krimineller"
 	para "aus einer weit"
-	line "entfernten Region "
+	line "entfernten Region"
 	cont "versteckt."
 
 	done

@@ -38,7 +38,7 @@ FirelightPalletPathB1FNobu:
 	line "zu mir führen?"
 
 	para "Er ist gerade"
-	line "Zuhause, auf der"
+	line "zuhause, auf der"
 	cont "Route 80 <...>"
 
 	para "Beeil dich bitte!"
@@ -123,7 +123,7 @@ FirelightPalletPathB1FNobu:
 	cont "dich."
 
 	para "Am Ende dieses"
-	line "Tunnels, findet"
+	line "Tunnels findet"
 	para "man die Grabstädte"
 	line "eines mächtigen"
 	cont "Naljo-Wächters."

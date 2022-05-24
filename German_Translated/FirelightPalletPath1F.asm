@@ -109,7 +109,7 @@ FirelightPalletPath1FCutscene:
 
 .palette_text_1
 	ctxt "Blau: Ich bin ver-"
-	line "wirrt, Red. Warum"
+	line "wirrt, Rot. Warum"
 	cont "sind wir hier?"
 
 	para "Und warum tragen"
@@ -146,7 +146,7 @@ FirelightPalletPath1FCutscene:
 	cont "wir drei hier?"
 
 	para "Einer von den"
-	line "Anderen wurde"
+	line "anderen wurde"
 	cont "verhaftet, aber"
 	cont "was ist mit den"
 	cont "anderen beiden?"
@@ -176,7 +176,7 @@ FirelightPalletPath1FCutscene:
 	line "wollten doch nur"
 	para "Geld beschaffen,"
 	line "damit wir es noch"
-	cont "weiter bringen."
+	cont "weiterbringen."
 
 	para "Nach all dem, ist"
 	line "es am Ende nu<...>"
@@ -198,7 +198,7 @@ FirelightPalletPath1FCutscene:
 	line "nicht, ob das eine"
 	cont "so gute Idee ist <...>"
 
-	para "Ich glaube bei der"
+	para "Ich glaub, bei der"
 	line "Sache halte ich"
 	cont "mich lieber raus <...>"
 	sdone
@@ -257,7 +257,7 @@ FirelightPalletPath1FCutscene:
 	
 	para "Endlich ist die"
 	line "Macht, Naljo zu"
-	cont "beschützen in"
+	cont "beschützen, in"
 	cont "greifbarer Nähe!"
 
 	para "So lange es noch"
@@ -412,8 +412,8 @@ FirelightPalletPath1FCutscene:
 
 	para "Moment!"
 
-	para "Siegfried ist wirk"
-	line "-lich dein Vater?"
+	para "Siegfried ist echt"
+	line "dein Vater?"
 
 	para "Der legendäre"
 	line "Drachen-Trainer?"
@@ -524,7 +524,7 @@ FirelightPalletPath1F_PaletteBlue:
 	para "aber er hat alle"
 	line "hierher gerufen."
 
-	para "Alles was er"
+	para "Alles, was er"
 	line "tat, führte zu"
 	para "diesem einem"
 	line "Moment hin."

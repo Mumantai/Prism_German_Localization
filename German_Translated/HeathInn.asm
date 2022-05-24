@@ -58,7 +58,7 @@ HeathInnAttendant:
 	line "#mon sehen müde"
 	cont "aus."
 
-	para "Für ¥100 könnt Ihr"
+	para "Für ¥100 könnt ihr"
 	line "euch hier erholen."
 	done
 

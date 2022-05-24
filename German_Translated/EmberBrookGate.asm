@@ -4,7 +4,7 @@ EmberBrookGate_MapScriptHeader;trigger count
 	db 0
 
 EmberBrookGateNPC:
-	ctxt "Weiter Östlich"
+	ctxt "Weiter östlich"
 	line "findest du den"
 	cont "Glutberg."
 

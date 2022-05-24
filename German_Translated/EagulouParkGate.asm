@@ -7,7 +7,7 @@ EagulouParkGateAttendant:
 	ctxt "Willkommen im "
 	line "Aegolia-Park!"
 
-	para "Die Regeln haben "
+	para "Die Regeln haben"
 	line "sich geändert."
 
 	para "Jeder darf den"
@@ -24,7 +24,7 @@ EagulouParkGateAttendant:
 	para "Außerdem darfst du"
 	line "die #mon im"
 	para "Park nicht"
-	line "verletzen, auch "
+	line "verletzen, auch,"
 	para "wenn sie dich"
 	line "zuerst angreifen."
 

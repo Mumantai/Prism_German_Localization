@@ -4,13 +4,13 @@ HeathGymGate_MapScriptHeader;trigger count
 	db 0
 
 HeathGymGateNPC:
-	ctxt "Vor langer Zeit,"
+	ctxt "Vor langer Zeit"
 	line "wurde diese Region"
 	para "von den Wächtern"
 	line "beschützt."
 
 	para "Nur die Nachfahrn"
-	line "des Boten, können"
+	line "des Boten können"
 	cont "sie zähmen."
 
 	para "Der einzig"

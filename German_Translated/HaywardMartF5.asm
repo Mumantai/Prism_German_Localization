@@ -13,7 +13,7 @@ HaywardMartF5NPC1:
 
 HaywardMartF5NPC2:
 	ctxt "Ich weiss zwar"
-	line "nicht wieso, aber "
+	line "nicht wieso, aber"
 	para "meine #mon"
 	line "lieben diese"
 	cont "Nährstoffe."

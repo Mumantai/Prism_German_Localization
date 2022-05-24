@@ -19,7 +19,7 @@ HeathHouseTM35NPC:
 .before_giving_TM
 	ctxt "Zzz <...>"
 
-	para "Wa?"
+	para "Wa-?"
 
 	para "Oh, ich bin schon"
 	line "viel zu lange"

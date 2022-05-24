@@ -61,7 +61,7 @@ HappinessRaterNPC:
 	line "dein <STRBF3>"
 	cont "sehen."
 
-	para "Hmm<...>"
+	para "Hmm <...>"
 
 	para "Dein <STRBF3>"
 	line "erreicht @"

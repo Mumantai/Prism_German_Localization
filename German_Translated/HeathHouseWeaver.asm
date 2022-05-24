@@ -44,7 +44,7 @@ HeathShrinePodium:
 	cont "als ein Ozean."
 
 	para "Während des großen"
-	line "Krieges, schufen"
+	line "Krieges schufen"
 	para "die Legenden neue"
 	line "Inseln, welche von"
 	para "den Kriegen"
@@ -55,7 +55,7 @@ HeathShrinePodium:
 	
 	para "Varaneous und die"
 	line "Anderen kamen von"
-	para "überall her um"
+	para "überall her, um"
 	line "unsere Heimat"
 	cont "aufzubauen"
 
@@ -70,7 +70,7 @@ HeathShrinePodium:
 	line "die Kraftquelle"
 	cont "der Wächter."
 
-	para "Ohne diese, fallen"
+	para "Ohne diese fallen"
 	line "die Wächter in"
 	para "einen tiefen"
 	line "Schlaf."

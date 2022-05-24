@@ -21,7 +21,7 @@ GravelTown_LabSign:
 
 GravelTown_TownSign:
 	ctxt "Eine ruhige stadt"
-	next "nn den Bergen."
+	next "in den Bergen."
 
 	done
 
@@ -42,7 +42,7 @@ GravelTownNPC2:
 	line "Blumen mitten auf"
 	cont "den Weg gefplanzt."
 
-	para "Auch wenn die"
+	para "Auch, wenn die"
 	line "Leute ständig auf"
 	para "ihnen rumtreten,"
 	line "gehen sie einfach"

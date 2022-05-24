@@ -5,7 +5,7 @@ GoldenrodMart_MapScriptHeader;trigger count
 
 GoldenrodMartNPC1:
 	ctxt "Der Laden hier hat"
-	line "eine gute Auswahl,"
+	line "eine gute Auswahl"
 	para "für einen so"
 	line "kleinen Markt."
 

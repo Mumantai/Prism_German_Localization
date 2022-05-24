@@ -49,14 +49,14 @@ LaurelForestBeachSurskit:
 	jumptext .text
 
 .text
-	ctxt "Ich komm von weit"
-	line "her<...>"
+	ctxt "Ich komme von"
+	line "weit her <...>"
 
 	para "Ich wurde hier ans"
-	line "Ufer gespühlt und"
+	line "Ufer gespült und"
 	para "die Wellen sind zu"
-	line "stark um zurück zu"
-	cont "schwimmen."
+	line "stark, um zurück-"
+	cont "zuschwimmen."
 
 	para "Ich frage mich,"
 	line "was der Grund für"
@@ -70,14 +70,14 @@ LaurelForestBeachXatu:
 
 .text
 	ctxt "Es gab eine Ader"
-	line "voller Gedanken-"
+	line "voller gedanken-"
 	cont "lösender Splitter."
 	
 	para "Wir nennen sie"
 	line "'Curo-Scherben'."
 
 	para "Unsere Gemeinde"
-	line "nutze sie, um in"
+	line "nutzt sie, um in"
 	para "harten Zeiten klar"
 	line "denken zu können."
 
@@ -86,16 +86,16 @@ LaurelForestBeachXatu:
 	cont "Splitter."
 
 	para "Jedenfalls wurde"
-	line "die Ader blockiert"
-	para "weil die Forscher"
-	line "dort sind."
+	line "die Ader blo-"
+	para "ckiert, weil die"
+	line "Forscher da sind."
 
 	para "Sie wollen die"
 	line "letzten Splitter"
 	cont "abbauen."
 
 	para "Die Gemeinde hat"
-	line "noch einpaar in"
+	line "noch ein paar in"
 	cont "Reserve."
 
 	para "Wenn du welche"
@@ -124,13 +124,13 @@ LaurelForestBeachWartortle:
 
 	para "Jemand hat diese"
 	line "komische Maschiene"
-	cont "hier platziert<...>"
+	cont "hier platziert <...>"
 	
 	para "Seitdem ist mein"
 	line "Strand voller"
 	cont "Eindringlinge!"
 
-	para "Im ernst, was"
+	para "Im Ernst, was"
 	line "machst du hier?"
 
 	para "Verschwinde von"
@@ -148,7 +148,7 @@ LaurelForestBeachWartortle:
 	done
 
 .already_beaten_text
-	ctxt "Ich sagte bleib"
+	ctxt "Ich sagte, bleib"
 	line "mir fern!"
 	done
 
@@ -181,15 +181,15 @@ LaurelForestBeachFruitTree:
 .dead_tree_text
 	ctxt "Diesem Baum werden"
 	line "keine Beeren mehr"
-	cont "nachwachsen<...>"
+	cont "nachwachsen <...>"
 	done
 
 .last_berry_text
 	ctxt "Dieser Baum ist"
-	line "beschädigt<...>"
+	line "beschädigt <...>"
 
 	para "Da hängt noch eine"
-	line "Sinnelbeere."
+	line "Sinelbeere."
 	prompt
 
 .picked_berry_text
@@ -203,7 +203,7 @@ LaurelForestBeachFruitTree:
 	para "Aber es geht noch"
 	line "besser."
 
-	para "Lass weiter"
+	para "Lass weiter-"
 	line "suchen!"
 	sdone
 

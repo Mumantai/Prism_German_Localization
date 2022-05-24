@@ -14,18 +14,18 @@ LaurelPokecenterNPC1:
 LaurelPokecenterNPC2:
 	ctxt "Dem Mann hier"
 	line "missfällt es, dass"
-	cont "die Stadt wächst<...>"
+	cont "die Stadt wächst <...>"
 
-	para "gerade das ist"
+	para "Gerade das ist"
 	line "doch cool daran!"
 	done
 
 LaurelPokecenterNPC3:
 	ctxt "Wieder eine große"
-	line "Stadt ohne glück"
-	para "und freude<...>"
+	line "Stadt ohne Glück"
+	para "und Freude <...>"
 	line "Sie soll nicht"
-	cont "weiter wachsen!"
+	cont "weiterwachsen!"
 
 	done
 

@@ -59,7 +59,7 @@ LaurelForestPokemonOnlyMotherButterfree:
 	done
 
 .lets_look_for_it_text
-	ctxt "Oh, vielen dank."
+	ctxt "Oh, vielen Dank."
 
 	para "Lass uns mein Baby"
 	line "finden!"
@@ -191,8 +191,8 @@ LaurelForestPokemonOnlyCaterpie:
 .cant_find_mommy_text
 	ctxt "Hilfe!"
 
-	para "Ich kann meine Mom"
-	line "nirgends finden!"
+	para "Ich kann meine Ma-"
+	line "mi nicht finden!"
 	done
 	
 .asking_for_help_text
@@ -217,7 +217,7 @@ LaurelForestPokemonOnlyCaterpie:
 .joined_party_text
 	ctxt "Oh, dankeschön!"
 
-	para "Bitte find meine"
+	para "Bitte, find meine"
 	line "Mami für mich!"
 	
 	para "Raupy ist dem Team"
@@ -364,7 +364,7 @@ LaurelForestPokemonOnlyRescuedCaterpie:
 .text
 	ctxt "Irgendwann will"
 	line "ich mal so stark"
-	cont "stark sein wie du!"
+	cont "sein wie du!"
 	done
 
 LaurelForestPokemonOnlyRescuedMetapod:

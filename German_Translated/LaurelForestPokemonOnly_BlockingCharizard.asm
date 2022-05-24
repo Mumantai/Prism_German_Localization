@@ -32,10 +32,10 @@ LaurelForestPokemonOnlyBrainwashedCharizard:
 .not_in_its_right_mind_text
 	ctxt "<...>"
 
-	para "Knurr<...>"
+	para "Knurr <...>"
 
 	para "Es sieht verwirrt"
-	line "aus<...>"
+	line "aus <...>"
 
 	para "Was wohl mit ihm"
 	line "passiert ist?"
@@ -46,7 +46,7 @@ LaurelForestPokemonOnlyBrainwashedCharizard:
 	line "Curo-Scherben auf"
 	cont "Gluraks Kopf."
 
-	para "Grr<...> Was?"
+	para "Grr <...> Was?"
 
 	para "Wo bin ich?"
 

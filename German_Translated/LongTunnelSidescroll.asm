@@ -38,7 +38,7 @@ LongTunnelSidescrollGuard:
 	line "Pass kannst du"
 	cont "nicht passieren."
 
-	para "Komm wieder wenn"
+	para "Komm wieder, wenn"
 	line "du einen hast."
 	done
 
@@ -54,12 +54,12 @@ LongTunnelSidescrollGuard:
 
 .before_leaving_text
 	ctxt "Lass mich das kurz"
-	line "überprüfen<...>"
+	line "überprüfen <...>"
 
 	para "Sieht alles gut"
 	line "aus soweit!"
 
-	para "Viel Spass in"
+	para "Viel Spaß in"
 	line "der Rijon-Region!"
 	sdone
 

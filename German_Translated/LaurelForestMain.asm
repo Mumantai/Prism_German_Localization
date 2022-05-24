@@ -12,7 +12,7 @@ LaurelForestMain_Trainer_1:
 	cont "Hause nehmen."
 
 	para "Deswegen verstecke"
-	line "ich Sie hier im"
+	line "ich sie hier im"
 	para "Wald, wo sie sich"
 	line "eh wohler fühlen."
 	done
@@ -30,8 +30,8 @@ LaurelForestMain_Trainer_1:
 LaurelForestMain_Trainer_2:
 	trainer EVENT_LAUREL_FOREST_MAIN_TRAINER_2, BUG_CATCHER, 4, .before_battle_text, .battle_won_text
 
-	ctxt "Hmm<...> ob manche"
-	line "arten den Wald"
+	ctxt "Hmm <...> ob manche"
+	line "Arten den Wald"
 	cont "verlassen haben?"
 
 	para "Ich möchte ganz"
@@ -42,28 +42,28 @@ LaurelForestMain_Trainer_2:
 .before_battle_text
 	ctxt "Dieser Wald wuchs"
 	line "und wuchs, bis"
-	para "Sie angefangen"
-	line "haben die Stadt"
+	para "sie angefangen"
+	line "haben, die Stadt"
 	cont "auszubauen!"
 	done
 
 .battle_won_text
 	ctxt "Die vielen Gebäude"
-	line "verscheuchten die"
+	line "scheuchten die"
 	para "meisten Käfer von"
-	line "hier weg<...>"
+	line "hier weg <...>"
 	done
 
 LaurelForestMainMagikarpWorshipper:
 	ctxt "Nur diejenigen,"
 	line "welche das wahre"
-	para "Potenzial des"
+	para "Potential des"
 	line "antiken Fisches"
 	para "erkennen, mögen"
 	line "passieren."
 
 	para "Du bist wie der"
-	line "Rest auch<...>"
+	line "Rest auch <...>"
 	para "Du verstehst"
 	line "es nicht."
 
@@ -106,7 +106,7 @@ LaurelForestMainClefairy:
 
 .text
 	ctxt "Pipi lässt dich"
-	line "nicht passieren<...>"
+	line "nicht passieren <...>"
 
 	para "@"
 	text_from_ram wPartyMonNicknames

@@ -18,18 +18,18 @@ LaurelStickGrandma:
 	jumptext .after_giving_stick_text
 
 .before_giving_stick_text
-	ctxt "Hehehe<...>"
+	ctxt "Hehehe <...>"
 
-	para "Ihr jungen leute"
+	para "Ihr jungen Leute"
 	line "und euer Fastfood!"
 
 	para "<...>"
 
-	para "Hier was gesundes"
+	para "Hier was Gesundes"
 	line "für dich!"
 
-	para "setzte es weise"
-	line "ein<...>"
+	para "Setzte es weise"
+	line "ein <...>"
 
 	prompt
 
@@ -40,7 +40,7 @@ LaurelStickGrandma:
 	done
 
 LaurelStickNPC:
-	ctxt "Oh, Oma<...>"
+	ctxt "Oh, Oma <...>"
 
 	para "Erinnerst du dich"
 	line "an nichts mehr?"

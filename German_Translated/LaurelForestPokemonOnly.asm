@@ -123,7 +123,7 @@ LaurelForestPokemonOnly_NotEnoughRoomInParty:
 	jumptext .text
 
 .text
-	ctxt "Nicht genug platz"
+	ctxt "Nicht genug Platz"
 	line "im Team!"
 	done
 

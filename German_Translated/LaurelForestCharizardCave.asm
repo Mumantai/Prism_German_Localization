@@ -58,13 +58,13 @@ LaurelForestCharizardCaveMom:
 	jumptext .text
 
 .text
-	ctxt "Ich frage mich"
+	ctxt "Ich frage mich,"
 	line "wie mein Partner"
 	para "unser Kind groß-"
-	line "ziehen will<...>"
+	line "ziehen will <...>"
 	para "aber du musst"
 	line "verstehen, das ist"
-	cont "seine tradition."
+	cont "seine Tradition."
 	done
 
 LaurelForestCharizardCaveDad:
@@ -115,16 +115,16 @@ LaurelForestCharizardCaveDad:
 	step_end
 
 .first_interaction_text
-	ctxt "Ich bin entäuscht"
-	line "von meinem Sohn<...>"
+	ctxt "Ich bin enttäuscht"
+	line "von meinem Sohn <...>"
 
 	para "Er hat es nicht"
-	line "ohne fremde hilfe"
-	para "geschafft, nach"
+	line "ohne fremde Hilfe"
+	para "geschafft nach"
 	line "Hause zu kommen."
 
 	para "Vieleicht kann er"
-	line "nicht schwimmen<...>"
+	line "nicht schwimmen <...>"
 
 	para "<...>"
 
@@ -134,21 +134,21 @@ LaurelForestCharizardCaveDad:
 	para "Wissenschaftler"
 	line "hatten uns fest-"
 	para "gekettet, nur um"
-	line "einen tunnel zu"
+	line "einen Tunnel zu"
 	cont "graben."
 
 	para "Ich brach durch"
 	line "die Ketten und"
 	cont "konnte fliehen."
 
-	para "Ich habe gehofft"
+	para "Ich habe gehofft,"
 	line "mein Kind wäre"
 	para "genau so stark und"
 	line "könnte die Ketten"
-	cont "brechen, aber<...>"
+	cont "brechen, aber <...>"
 
-	para "Naja, zurück zum "
-	line "Thema<...>"
+	para "Naja, zurück zum"
+	line "Thema <...>"
 
 	para "Ich erinnere mich,"
 	line "dass einer dieser"
@@ -159,12 +159,12 @@ LaurelForestCharizardCaveDad:
 	para "Ich hatte es"
 	line "blockiert, damit"
 	para "mein Sohn dort"
-	line "kein unfug treibt."
+	line "kein Unfug treibt."
 
 	para "Wenn du da runter"
-	line "willst, und dir"
+	line "willst und dir"
 	para "den Mist anschauen"
-	line "willst, was diese"
+	line "willst, den diese"
 	para "dreckigen Menschen"
 	line "angerichtet haben,"
 	cont "nur zu!"
@@ -176,7 +176,7 @@ LaurelForestCharizardCaveDad:
 .already_moved_boulder_text
 	ctxt "Diese Menschen"
 	line "sind zwar"
-	cont "erbärmlich, aber<...>"
+	cont "erbärmlich, aber <...>"
 
 	para "Sie treiben meinen"
 	line "Nachwuchs an sein"

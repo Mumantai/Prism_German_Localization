@@ -19,7 +19,7 @@ CastroValleyTownSign:
 	done
 
 CastroValleyForestSign:
-	ctxt "Kastro-Wald"
+	ctxt "Castro-Wald"
 	line "Eingang"
 	done
 

@@ -98,7 +98,7 @@ HeathGate_PatrollerRed:
 .before_battle_text
 	ctxt "Oh gut, du bist's."
 
-	para "Dieser <...> nervige <....>"
+	para "Dieser <...> nervige <...>"
 	line "Rosa Ranger hat"
 	para "mir alles erzählt,"
 	line "was du bisher so"

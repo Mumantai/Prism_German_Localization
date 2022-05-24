@@ -120,7 +120,7 @@ HeathVillageBicycleNPC:
 	line "sind ja gar nicht"
 	cont "eingelaufen."
 
-	para "Komm wieder, so-d"
+	para "Komm wieder, so-"
 	line "bald du das Laufen"
 	para "wertschätzen"
 	line "gelernt hast."

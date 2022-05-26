@@ -278,9 +278,9 @@ PhloxBingoGranny_Text_NoCard:
 	line "eine Runde Bingo"
 	cont "spielen würdest!"
 
-	para "Markiere einen"
+	para "Markiere eines"
 	line "der Felder, wenn"
-	para "du eine über-"
+	para "du eine Über-"
 	line "einstimmung hast."
 	para "Versuch aber nicht"
 	line "zu betrügen!"
@@ -289,11 +289,11 @@ PhloxBingoGranny_Text_NoCard:
 	line "Mutter und sogar"
 	para "eine Oma."
 	line "Eine ziemlich"
-	cont "liebe Oma hehe<...>"
+	cont "liebe Oma, hehe <...>"
 
-	para "<...>Also weiß ich"
-	line "sehr gut, wenn Ihr"
-	para "Kinder anfängt zu"
+	para "<...> Also weiß ich"
+	line "sehr gut, wenn ihr"
+	para "Kinder anfangt zu"
 	line "lügen!"
 
 	para "Also willst du"
@@ -309,8 +309,8 @@ PhloxBingoGranny_Text_GiveCard:
 PhloxBingoGranny_Text_Instructions:
 	ctxt "Wenn du eine"
 	line "Linie hast, rede"
-	para "mit dem Mann"
-	line "hinter dem Tresen"
+	para "mit dem Mann hin-"
+	line "ter dem Tresen,"
 	para "um deinen Preis"
 	line "zu erhalten."
 	done
@@ -319,61 +319,61 @@ PhloxBingoGranny_Text_WontPlay:
 	ctxt "Willst du nicht"
 	line "mit mir spielen?"
 	para "Ich hab doch sonst"
-	line "nichts zu tun<...>"
+	line "nichts zu tun <...>"
 	done
 
 PhloxBingoGranny_Text_PrizeWaiting:
-	ctxt "Du hast eine Linie"
-	line "Glückwunsch!"
+	ctxt "Du hast eine Li-"
+	line "nie! Glückwunsch!"
 
 	para "Geh zum Tresen da"
-	line "drüben um deinen"
+	line "drüben, um deinen"
 	cont "Preis abzuholen!"
 	done
 
 PhloxBingoGranny_Text_CompletedCard:
 	ctxt "Wow! Du hast den"
-	line "ganzen Zettel"
-	para "ausgefüllt & alle"
+	line "ganzen Zettel aus-"
+	para "gefüllt und alle"
 	line "Preise abgeholt!"
 	cont "Alle Achtung!"
 
 	para "Lass mich den"
 	line "Zettel kurz"
-	cont "weg legen."
+	cont "weglegen."
 	prompt
 
 PhloxBingoGranny_Text_WantAnotherCard:
 	ctxt "Ich kann dir einen"
 	line "anderen Zettel"
 	para "mit mehr Feldern"
-	line "zum ausfüllen"
+	line "zum Ausfüllen"
 	para "geben, wenn du"
-	line "möchtest?"
+	line "möchtest."
 	done
 
 PhloxBingoGranny_Text_NoMoreCards:
 	ctxt "Ich habe keine"
 	line "Zettel mehr!"
 
-	para "Danke das du mit"
+	para "Danke, dass du mit"
 	line "mir gespielt hast!"
 	done
 
 PhloxBingoAttendant_Text_NoCard:
 	ctxt "Willkommen in der"
-	line "Bingo Halle!"
+	line "Bingo-Halle!"
 
 	para "Nimm dir einen"
-	line "Bingo Zettel, und"
+	line "Bingo-Zettel und"
 	para "gewinne tolle"
 	line "Preise!"
 
 	para "Die Dame dort"
 	line "drüben hat unseren"
-	para "letzten Zettel<...>"
-	line "Vieleicht gibt sie"
-	cont "ihn dir."
+	para "letzten Zettel <...>"
+	line "Vielleicht gibt"
+	cont "sie ihn dir."
 	done
 
 PhloxBingoAttendant_Text_GotPrize:
@@ -418,7 +418,7 @@ PhloxBingoAttendant_Text_GotPrize:
 	ctxt "Glückwunsch!"
 
 	para "<STRBF1> <STRBF2>"
-	line "sind Vollständig!"
+	line "sind vollständig!"
 	sdone
 
 .full_card_text
@@ -484,13 +484,13 @@ PhloxBingoAttendant_Text_EndPrize:
 	done
 
 PhloxBingoAttendant_Text_NoRoomForPrize:
-	ctxt "Du hast kein platz"
-	line "für diesen Preis<...>"
+	ctxt "Du hast kein Platz"
+	line "für diesen Preis <...>"
 
-	para "Ich bewahre es auf"
-	line "bis du platz genug"
-	para "hast. Aber beeil"
-	line "dich."
+	para "Ich bewahre es"
+	line "auf, bis du Platz"
+	para "genug hast. Aber"
+	line "beeile dich."
 	done
 
 PhloxBingoAttendant_Text_GotTM:

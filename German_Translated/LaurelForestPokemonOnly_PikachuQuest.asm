@@ -96,23 +96,23 @@ LaurelForestPokemonOnlyPikachu:
 	done
 
 .heres_my_light_ball_text
-	ctxt "Oh, willst du mein"
+	ctxt "Oh, willst du den"
 	line "Kugelblitz haben?"
 
 	para "OK! Nimm es!"
 	prompt
 
 .what_are_you_doing_here_text
-	ctxt "<...>Uhm, was machst"
+	ctxt "<...> Uhm, was machst"
 	line "du hier noch?"
 	done
 
 .heres_the_junk_you_wanted_text
 	ctxt "Willst du echt den"
-	line "Müll den ich auf-"
+	line "Müll, den ich auf-"
 	cont "gesammelt habe?"
 
-	para "OK, aber nur weil"
+	para "OK, aber nur, weil"
 	line "ich so ein netter"
 	cont "Kerl bin."
 	prompt
@@ -126,15 +126,15 @@ LaurelForestPokemonOnlyPikachu:
 	done
 
 .asking_for_burnt_berries_text
-	ctxt "Oh, Hallöschen!"
+	ctxt "Oh, Hallöchen!"
 
-	para "Uh<...>"
+	para "Uh <...>"
 
 	para "Ich habe richtig"
 	line "Kohldampf!"
 
 	para "Gehst du für mich"
-	line "etwas zum mampfen"
+	line "etwas zum Mampfen"
 	cont "besorgen?"
 
 	para "Übrigens, ich esse"
@@ -161,7 +161,7 @@ LaurelForestPokemonOnlyPikachu:
 
 	para "Du brauchst mir"
 	line "nichts mehr zu"
-	cont "besorgen<...>"
+	cont "besorgen <...>"
 
 	para "Hier hast du eine"
 	line "Curo-Scherbe."
@@ -175,14 +175,14 @@ LaurelForestPokemonOnlyPikachu:
 	para "willst, besorg mir"
 	line "2 Brandbeeren."
 
-	para "<...>sonst!"
+	para "<...> sonst <...>!"
 	done
 
 .cant_give_curo_shard_nice_text
 	ctxt "Hey, wie soll ich"
 	line "dir irgendwas"
 	para "geben, wenn du"
-	line "kein platz hast."
+	line "keinen Platz hast?"
 	sdone
 
 .pikachuAsksForAdventure
@@ -217,8 +217,8 @@ LaurelForestPokemonOnlyPikachu:
 	done
 
 .no_adventure_text
-	ctxt "Aw, Ich hatte mich"
-	line "schon so gefreut<...>"
+	ctxt "Aw, ich hatte mich"
+	line "schon so gefreut <...>"
 	done
 
 .pikachu_name
@@ -243,10 +243,10 @@ LaurelForestPokemonOnlyPikachu:
 	closetextend
 
 .where_is_burnt_berry_text
-	ctxt "Wo ist die "
+	ctxt "Wo ist die"
 	line "Brandbeere?"
 
-	para "Ich sehe es nicht."
+	para "Ich seh sie nicht."
 	done
 
 .delivered_burnt_berry_text
@@ -254,15 +254,15 @@ LaurelForestPokemonOnlyPikachu:
 	line "Brandbeere!"
 
 	para "Nimm diese Curo-"
-	line "Scherbe als dank."
+	line "Scherbe als Dank."
 	done
 
 .happy_pikachu_full_bag_text
 	ctxt "Deine Tasche ist"
 	line "voll."
 
-	para "Ich warte hier,"
-	line "leere du erstmal"
+	para "Ich warte hier."
+	line "Leere du erstmal"
 	cont "deine Tasche."
 	sdone
 
@@ -290,8 +290,8 @@ LaurelForestPokemonOnlyPikachu:
 
 	para "Ich lasse dich nun"
 	line "gehen. Nimm diesen"
-	para "Müll was ich zuvor"
-	line "gefunden hatte."
+	para "Müll, den ich zu-"
+	line "vor gefunden habe."
 	prompt
 
 .handed_over_text
@@ -309,8 +309,8 @@ LaurelForestPokemonOnlyPikachu:
 .angry_pikachu_cant_deliver_curo_shard_text
 	ctxt "Ich kann dir den"
 	line "Müll nicht geben,"
-	para "wenn du kein Platz"
-	line "dafür hast!"
+	para "wenn du keinen"
+	line "Platz dafür hast!"
 	sdone
 
 .CheckIfMainMonIsInPikachuLine
@@ -382,10 +382,10 @@ LaurelForestPokemonOnly_PikachuTryGiveLightBallToPlayer:
 	ctxt "Oh, du hälst"
 	line "bereits ein Item."
 	
-	para "Ich warte auf dich"
-	line "bis du platz für"
-	para "den Kugelblitz"
-	line "gemacht hast."
+	para "Ich warte auf"
+	line "dich, bis du Platz"
+	para "für den Kugel-"
+	line "blitz machst."
 	done
 
 .gave_light_ball_text
@@ -415,13 +415,13 @@ LaurelForestPokemonOnlyFruitTree:
 
 .picked_berry_text
 	ctxt "Der Baum sieht"
-	line "beschädigt aus<...>"
+	line "beschädigt aus <...>"
 
 	para "Es hängt noch eine"
-	line "Sinnelbeere dran<...>"
+	line "Sinelbeere dran <...>"
 
 	para "Du pflückst die"
-	line "Sinnelbeere."
+	line "Sinelbeere."
 	done
 	
 .pikachuGnawsOnRoot
@@ -507,42 +507,42 @@ LaurelForestPokemonOnlyFruitTree:
 	line "sehen gut aus!"
 	
 	para "Lass mich das mal"
-	line "überprüfen<...>"
+	line "überprüfen <...>"
 	sdone
 
 .look_at_root_text
-	ctxt "Obwohl<...> vergiss"
-	line "die Beeren, wir"
+	ctxt "Obwohl <...> vergiss"
+	line "die Beeren. Wir"
 	para "nehmen die ganze"
 	line "Wurzel!"
 
-	para "Lass mich kurz "
-	line "dran nagen<...>"
+	para "Lass mich kurz"
+	line "dran nagen <...>"
 
-	para "<...>knabber<...>"
+	para "<...> knabber <...>"
 
-	para "<...>knabber<...>"
+	para "<...> knabber <...>"
 
-	para "<...>knabber<...>"
+	para "<...> knabber <...>"
 	sdone
 
 .satisfied_from_root_text
-	ctxt "OK<...> bin satt."
+	ctxt "OK <...> bin satt."
 
-	para "Danke fürs her-"
+	para "Danke fürs Her-"
 	line "bringen, ich habe"
-	para "Angst alleine los-"
-	line "zuziehen."
+	para "Angst, alleine"
+	line "loszuziehen."
 	prompt
 
 .heres_a_curo_shard_text
-	ctxt "Hier eine Curo-"
+	ctxt "Hier, eine Curo-"
 	line "Scherbe für dich."
 	sdone
 
 .something_extra_text
 	ctxt "Oh, als Bonus"
-	line "kriegst du mein"
+	line "kriegst du meinen"
 	cont "Kugelblitz!"
 	prompt
 
@@ -550,19 +550,19 @@ LaurelForestPokemonOnlyFruitTree:
 	ctxt "Hmm, ich würde dir"
 	line "eine Curo-Scherbe"
 	para "schenken, aber"
-	line "leider gab ich den"
-	para "letzten bereits"
+	line "leider gab ich die"
+	para "letzte bereits"
 	line "einem anderen"
 	cont "#mon."
 	
-	para "Ah, Stimmt!"
+	para "Ah, stimmt!"
 	
 	para "Ich hab ja noch"
-	line "ein Kugelblitz!"
+	line "einen Kugelblitz!"
 	prompt
 
 .dont_worry_text
-	ctxt "Keine sorge, ich"
+	ctxt "Keine Sorge, ich"
 	line "brauchs nicht."
 
 	para "So viele Kämpfe"

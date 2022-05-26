@@ -227,24 +227,24 @@ PhloxLabF2ElectricPanel:
 
 	para "Sehr kompliziert."
 
-	para "Vieleicht öffnets"
-	line "diese Tür?"
+	para "Vieleicht öffnet"
+	line "es diese Tür?"
 	done
 
 PhloxLabF2Trainer1:
 	trainer EVENT_PHLOX_LAB_F2_TRAINER_1, SCIENTIST, 8, .before_battle_text, .battle_won_text
 
 	ctxt "#mon besser zu"
-	line "verstehen macht"
-	cont "spaß, glaub mir!"
+	line "verstehen, macht"
+	cont "Spaß. Glaub mir!"
 	done
 
 .before_battle_text
 	ctxt "Ist zwar nicht"
 	line "meine Welt, aber"
-	cont "egal<...>"
+	cont "egal <...>"
 
-	para "Hauptsache ich"
+	para "Hauptsache, ich"
 	line "kann hier an den"
 	para "#mon herum-"
 	line "doktern."
@@ -252,19 +252,19 @@ PhloxLabF2Trainer1:
 
 .battle_won_text
 	ctxt "Ich muss wohl an"
-	line "dir herumdoktern<...>"
+	line "dir herumdoktern <...>"
 	done
 
 PhloxLabF2Trainer2:
 	trainer EVENT_PHLOX_LAB_F2_TRAINER_2, SCIENTIST, 9, .before_battle_text, .battle_won_text
 
 	ctxt "Es braucht so"
-	line "lang um einen"
+	line "lang, um einen"
 	para "guten Ruf aufzu-"
 	line "bauen."
 
-	para "Aber sekunden um"
-	line "um es zu nehmen."
+	para "Aber Sekunden, um"
+	line "es zu nehmen."
 	done
 
 .before_battle_text
@@ -274,7 +274,7 @@ PhloxLabF2Trainer2:
 	done
 
 .battle_won_text
-	ctxt "All meine Träume<...>"
+	ctxt "All meine Träume <...>"
 	line "Futsch!"
 	done
 
@@ -293,10 +293,10 @@ PhloxLabF2PaletteGreen:
 	para "Sag mir."
 
 	para "Was ist dein Ziel"
-	line "im leben, hmm?"
+	line "im Leben, hmm?"
 
-	para "Meiner ist es die"
-	line "finanzielle"
+	para "Meiner ist es,"
+	line "die finanzielle"
 	para "Freiheit zu"
 	line "erreichen."
 
@@ -306,7 +306,7 @@ PhloxLabF2PaletteGreen:
 
 	para "Es juckt mich"
 	line "nicht, dass es"
-	cont "Unethisch ist."
+	cont "unethisch ist."
 
 	para "Überall auf der"
 	line "Welt gibt es Un-"
@@ -330,12 +330,12 @@ PhloxLabF2PaletteGreen:
 	line "gar nichts!"
 
 	para "Schau dir den"
-	line "rest der Welt"
+	line "Rest der Welt"
 	cont "an!"
 
 	para "Es herrscht so"
-	line "viel"
-	para "ungerechtigkeit &"
+	line "viel Ungerech-"
+	para "tigkeit und"
 	line "es interessiert"
 	para "einfach keinen!"
 

@@ -5,24 +5,24 @@ MersonMart_MapScriptHeader:
 	db 0
 
 MersonMartNPC1:
-	ctxt "Mit dem Mist der"
+	ctxt "Mit dem Mist, der"
 	line "hier verkauft"
 	para "wird, kann ich"
-	line "Karpman niemals "
+	line "Karpman niemals"
 	cont "besiegen!"
 
 	done
 
 MersonMartNPC2:
 	ctxt "In der Stadt, in"
-	line "der eine Wasser"
+	line "der eine Wasser-"
 	para "Arena steht,"
 	line "werden auch"
-	para "Wassersteine "
+	para "Wassersteine"
 	line "verkauft."
 
 	para "Ganz schön"
-	line "praktisch, oder "
+	line "praktisch oder"
 	cont "nicht?"
 
 	done

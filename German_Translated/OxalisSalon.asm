@@ -38,17 +38,17 @@ OxalisSalonStylistScript:
 	jumptext .no_change_text
 
 .introduction_text
-	ctxt "Hi Schatzi!"
+	ctxt "Hi, Schatzi!"
 
 	para "Unzufrieden mit"
 	line "deinem Aussehen?"
 
-	para "Deine Bedenken we-"
-	line "rden sich legen,"
+	para "Deine Bedenken"
+	line "werden sich legen,"
 	para "wenn ich dich neu"
 	line "einkleide!"
 
-	para "für nur ¥1000!" 
+	para "Für nur ¥1000!" 
 	done
 
 .said_yes_text
@@ -66,17 +66,17 @@ OxalisSalonStylistScript:
 	done
 
 .no_money_text
-	ctxt "Wenigstens hast du"
-	line "Staub im Geldbeutl"
+	ctxt "Du kannst nicht"
+	line "mit Staub zahlen."
 
-	para "Komm wieder wenn"
-	line "genug Geld hast!"
+	para "Komm wieder, wenn"
+	line "du Geld hast!"
 	done
 
 .done_text
-	ctxt "Los gehts!"
+	ctxt "Los geht's!"
 
-	para "Du siehst nun viel"
+	para "Du siehst nun"
 	line "viel besser aus!"
 
 	para "Beehre uns wieder!"
@@ -92,15 +92,15 @@ OxalisSalonStylistScript:
     cont "Rückerstattung."
 
 	para "Komm wieder, wenn"
-	line "dein Aussehen"
+	line "du dein Aussehen"
 	cont "ändern möchtest."
 	done
 
 OxalisSalonNPC1:
-	ctxt "Dieses Dame ist w-"
-	line "irklich ein Genie!"
+	ctxt "Dieses Dame ist"
+	line "echt ein Genie!"
 
-	para "Unglaublich wie"
+	para "Unglaublich, wie"
 	line "ich vorher aussah!"
 	done
 
@@ -108,16 +108,16 @@ OxalisSalonNPC2:
 	ctxt "Versuch dich nicht"
 	line "zu sehr zu ändern"
 
-	para "Nach mein Image-"
-	line "wechsel, erkannten"
+	para "Nach meinem Image-"
+	line "wechsel erkannten"
 	para "mich meine #mon"
 	line "nicht mehr!"
 	done
 
 OxalisSalonNPC3:
-	ctxt "Haare wie diese,"
+	ctxt "Haare wie diese"
 	line "brauchen einige"
-	cont "Zeit & Pflege."
+	cont "Zeit und Pflege."
 
 	para "Deshalb komme ich"
 	line "immer hier her!"

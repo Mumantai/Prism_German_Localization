@@ -24,7 +24,7 @@ LaurelForestLab_Trainer_1:
 .battle_won_text
 	ctxt "Wie kann das sein?"
 
-	para "Diese Stärke<...>"
+	para "Diese Stärke <...>"
 	done
 
 LaurelForestLab_Trainer_2:
@@ -84,7 +84,7 @@ LaurelForestLab_Totodile:
 
 .brooklyn_gets_totodile_text
 	ctxt "Oh, ich habe dich"
-	line "so sehr vermisst"
+	line "so sehr vermisst,"
 	cont "mein Karnimani!"
 
 	para "Vielen Dank!"

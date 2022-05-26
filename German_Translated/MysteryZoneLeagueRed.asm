@@ -101,24 +101,24 @@ MysteryZoneRedBattle:
 	ret
 
 .text
-	text "<...><...><...>"
+	text "<...> <...> <...>"
 	done
 
 .text_waitbutton
-	text "<...><...><...>"
+	text "<...> <...> <...>"
 	sdone
 
 .victory_text
 	ctxt "Braun: Wow!"
 
-	para "Das war "
+	para "Das war"
 	line "unglaublich!"
 
 	cont "Es ist offiziell."
 
 	para "Heißen wir alle"
 	line "<PLAYER> in der"
-	para "Mystik Liga "
+	para "Mystik-Liga"
 	line "willkommen!"
 
 	sdone

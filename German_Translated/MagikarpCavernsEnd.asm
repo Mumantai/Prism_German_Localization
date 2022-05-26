@@ -17,7 +17,7 @@ MagikarpCavernsEndNPC:
 .text
 	ctxt "Ich sehe"
 	line "eine Veränderung"
-	cont "in dir<...>"
+	cont "in dir <...>"
 
 	para "Du scheinst nun"
 	line "die Bürde der"
@@ -27,7 +27,7 @@ MagikarpCavernsEndNPC:
 	line "Ureinwohner Naljos"
 	cont "es tun."
 
-	para "Menschen die von"
+	para "Menschen, die von"
 	line "außen kamen,"
 	para "nutzen #mon nur"
 	line "als Werkzeug!"
@@ -41,7 +41,7 @@ MagikarpCavernsEndNPC:
 
 	para "Ihr beide teilt"
 	line "die gleiche Vision"
-	cont "des zusammenlebens"
+	cont "des Zusammenlebens"
 	cont "mit #mon."
 
 	para "Gut gemacht!"

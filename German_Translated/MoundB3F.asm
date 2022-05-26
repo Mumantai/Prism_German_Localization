@@ -12,31 +12,31 @@ MoundB3F_PaletteGreen:
 	trainer EVENT_MOUND_B3F_PALETTE_GREEN, PATROLLER, 12, .before_battle_text, .battle_won_text
 
 	ctxt "So, du hast dir"
-	line "einen Dynamiten"
+	line "dein Dynamit"
 	cont "verdient, also"
-	cont "lass mich in ruhe."
+	cont "lass mich in Ruhe."
 
 	para "Wenn die Zeit reif"
 	line "ist, werden wir"
 	para "wieder auf dich"
-	line "zu kommen<...>"
+	line "zukommen <...>"
 	done
 
 .before_battle_text
 	ctxt "Du hast es so weit"
-	line "geschafft<...>"
+	line "geschafft <...>"
 
-	para "<...><PLAYER>!"
+	para "<...> <PLAYER>!"
 
-	para "Ja, ich kenne dein"
-	line "Namen<...> und"
+	para "Ich kenn deinen"
+	line "Namen <...> und"
 	cont "noch viel mehr."
 
 	para "Du entkommst uns"
-	line "nicht, wir sehen"
+	line "nicht. Wir sehen"
 	cont "uns wieder!"
 
-	para "Also du pimpf,"
+	para "Also, du Pimpf,"
 	line "lass uns kämpfen!"
 	done
 
@@ -44,13 +44,13 @@ MoundB3F_PaletteGreen:
 	ctxt "Verdammt seist du!"
 
 	para "Diesmal hast du"
-	line "gewonnen<...>"
-	para "<...>aber deine"
+	line "gewonnen <...>"
+	para "<...> aber deine"
 	line "#mon werden dir"
 	cont "nicht immer helfen"
 	cont "können!"
 
-	para "Immerhin gilt Ihre"
+	para "Immerhin gilt ihre"
 	line "Loyalität ja nur"
 	cont "einem Kind."
 
@@ -74,13 +74,13 @@ MoundB3F_PaletteBlue:
 	ctxt "Ach, du bist es."
 
 	para "Du bist das Kind,"
-	line "dass wir suchen."
+	line "das wir suchen."
 
 	para "Naja, Patroller"
-	line "Rot ist, egal<...>"
+	line "Rot tut das <...>"
 
 	para "Ich wollte nur"
-	line "eine Chance, und"
+	line "eine Chance und"
 	cont "die habe ich nun."
 
 	para "Hoffentlich schaff"
@@ -89,7 +89,7 @@ MoundB3F_PaletteBlue:
 
 .battle_won_text
 	ctxt "Ich kann nichts"
-	line "für! Ist mein"
+	line "dafür! Ist mein"
 	cont "erster Tag."
 	done
 
@@ -103,8 +103,8 @@ MoundB3F_PalettePink:
 	cont "eigenständig"
 	cont "handeln."
 
-	para "Wenn du Ihn siehst"
-	line "sag Ihm, Pink will"
+	para "Wenn du ihn siehst"
+	line "sag ihm, Pink will"
 	para "ein echtes Pink-"
 	line "-zu-Rot Gespräch!"
 	done

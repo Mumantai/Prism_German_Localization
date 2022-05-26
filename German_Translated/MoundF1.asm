@@ -49,12 +49,12 @@ MoundF1Rival:
 
 .during_phone_call_text
 	ctxt "Die Verbindung"
-	line "bricht ab<...>"
+	line "bricht ab <...>"
 
 	para "Hallo?"
 	para "Noch da?"
 	
-	para "OK, jetzt gehts."
+	para "OK, jetzt geht's."
 
 	para "Nun, wo soll ich"
 	line "jetzt nochmal hin?"
@@ -67,7 +67,7 @@ MoundF1Rival:
 	done
 
 .engaged_player_text
-	ctxt "Ich sagte dir geh"
+	ctxt "Ich sagte dir, geh"
 	line "mir aus dem Weg."
 
 	para "Verstehst du"
@@ -76,7 +76,7 @@ MoundF1Rival:
 
 	para "<...>"
 
-	para "Es ist Zeit meine"
+	para "Es ist Zeit, meine"
 	line "neuen #mon an"
 	cont "dir auszutesten!"
 	sdone
@@ -98,7 +98,7 @@ MoundF1Rival:
 
 	para "Welche das sind?"
 
-	para "Hah! geht dich"
+	para "Hah! Geht dich"
 	line "nichts an."
 	sdone
 
@@ -211,23 +211,23 @@ MoundF1DynamiteGuy:
 	ctxt "Ah, Hallo!"
 
 	para "Ich würde hier"
-	line "gerne auch vorbei<...>"
+	line "gern auch vorbei <...>"
 
-	para "Jedoch<...>"
+	para "Jedoch <...>"
 
 	para "blockieren diese"
 	line "Felsen den Weg."
 
 	para "Ich bräuchte 5x"
-	line "Dynamit um diese"
+	line "Dynamit, um diese"
 	para "Felsen aus dem"
-	line "Weg zu räumen<...>"
+	line "Weg zu räumen <...>"
 
 	para "Ein für alle Mal!"
 	sdone
 
 .theres_dynamite_left_text
-	ctxt "Hmm. soweit ich"
+	ctxt "Hmm, soweit ich"
 	line "weiß, liegt in"
 	para "den unteren Etagen"
 	line "noch genügend"
@@ -238,9 +238,9 @@ MoundF1DynamiteGuy:
 	para "farbiger Freaks"
 	line "rumlungern sehen."
 
-	para "Es wäre sehr will-"
-	line "kommen, wenn du d-"
-	cont "ich um diese Typen"
+	para "Es wäre super,"
+	line "wenn du dich"
+	cont "um diese Typen"
 	cont "kümmern könntest."
 	sdone
 
@@ -248,7 +248,7 @@ MoundF1DynamiteGuy:
 	ctxt "Ich warte hier auf"
 	line "das Dynamit."
 
-	para "Bring 5 stück und"
+	para "Bring 5 Stück und"
 	line "wir sind durch."
 	done
 
@@ -256,16 +256,16 @@ MoundF1DynamiteGuy:
 	ctxt "Du hast keine"
 	line "#bälle?"
 
-	para "Naja<...>"
+	para "Naja <...>"
 
-	para "Um hier durch zu"
+	para "Um hier durchzu-"
 	line "kommen, brauchst"
 	para "du ein Elektro und"
 	line "Feuer-Typ #mon."
 
 	para "Hier."
 
-	para "Einpaar #bälle"
+	para "Ein paar #bälle"
 	line "für dich!"
 	sdone
 
@@ -274,12 +274,12 @@ MoundF1DynamiteGuy:
 	line "genug Dynamit da!"
 
 	para "Leider brauchen"
-	line "wir echtes Feuer"
+	line "wir echtes Feuer,"
 	cont "um sie anzuzünden."
 
 	para "Du brauchst ein"
-	line "Feuer #mom oder"
-	cont "Feuer-Attacke<...>"
+	line "Feuer-#mom oder"
+	cont "Feuer-Attacke <...>"
 	done
 
 .try_mon_text
@@ -289,8 +289,8 @@ MoundF1DynamiteGuy:
 
 .lit_the_fuse_text
 	ctxt "Achtung, die Lunte"
-	line "brennt. halt etwas"
-	cont "abstand!"
+	line "brennt. Halte et-"
+	cont "was Abstand!"
 	sdone
 
 .after_blowing_up_text
@@ -298,7 +298,7 @@ MoundF1DynamiteGuy:
 
 	para "Ich bin frei!"
 
-	para "Danke Kind."
+	para "Danke, Kind."
 	sdone
 
 MoundF1_BlownUp_BlockData: INCBIN "./maps/blk/MoundF1_BlownUp_BlockData.blk.lz"

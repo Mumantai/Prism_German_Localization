@@ -38,7 +38,7 @@ LaurelGymLeader:
 .totodile_missing_text
 	ctxt "HEY!"
 
-	para "Wer sagt das du"
+	para "Wer sagt, dass du"
 	line "hier einfach so"
 	cont "rein kannst?"
 
@@ -49,16 +49,16 @@ LaurelGymLeader:
 	para "'Sei nett?'"
 
 	para "Mein BABY wird"
-	line "VERMISST, du<...>"
+	line "VERMISST, du <...>"
 
 	para "<...>"
 
-	para "Naja<...> mit Baby"
+	para "Naja <...> mit Baby"
 	line "meine ich mein"
 	cont "Karnimani."
 
 	para "Ich Kämpfe gegen"
-	line "niemanden bis mein"
+	line "keinen, bis mein"
 	cont "Baby zurück ist!"
 
 	para "Du willst also"
@@ -87,25 +87,25 @@ LaurelGymLeader:
 	ctxt "Nun kann ich mein"
 	line "süßes Karnimani"
 	para "in hübsche Kleider"
-	line "stecken<...>"
+	line "stecken <...>"
 	cont "Er sieht dabei so"
-	cont "süüüüß auuuusss<...>"
+	cont "süüüüß auuusss <...>"
 	done
 
 .before_battle_text
-	ctxt "Danke das du mein"
-	line "süßes kleines"
-	cont "Karnimani gefunden"
-	cont "hast!"
+	ctxt "Danke, dass du"
+	line "mein süßes"
+	cont "kleines Karnimani"
+	cont "gefunden hast!"
 
 	para "Später werde ich"
 	line "es schminken und"
-	para "hübsch anziehen"
+	para "hübsch anziehen,"
 	line "damit es wieder"
-	para "so schnukelig "
+	para "so schnuckelig"
 	line "aussieht!"
 
-	para "Ach Stimmt, du"
+	para "Ach stimmt, du"
 	line "willst den Orden?"
 
 	para "Dann gehen wir es"
@@ -125,8 +125,8 @@ LaurelGymLeader:
 	ctxt "Na gut, du hast"
 	line "gewonnen."
 
-	para "nimm das stück"
-	line "Metal an dich."
+	para "Nimm das Stück"
+	line "Metall an dich."
 	done
 
 .got_badge_text
@@ -139,7 +139,7 @@ LaurelGymLeader:
 	line "lässt dich"
 	para "'Stärke' auch"
 	line "außerhalb von"
-	cont "kämpfen einsetzen."
+	cont "Kämpfen einsetzen."
 
 	para "Und weil ich ein"
 	line "süßer Engel bin,"
@@ -149,8 +149,8 @@ LaurelGymLeader:
 LaurelGym_Trainer_1:
 	trainer EVENT_LAUREL_GYM_TRAINER_1, CHEERLEADER, 2, .before_battle_text, .battle_won_text
 
-	ctxt "Ich hoffe du bist"
-	line "Ihr gewachsen!"
+	ctxt "Ich hoffe, du bist"
+	line "ihr gewachsen!"
 	done
 
 .before_battle_text
@@ -167,15 +167,15 @@ LaurelGym_Trainer_1:
 LaurelGym_Trainer_2:
 	trainer EVENT_LAUREL_GYM_TRAINER_2, CHEERLEADER, 1, .before_battle_text, .battle_won_text
 
-	ctxt "OK,<...>"
+	ctxt "OK, <...>"
 
 	para "Ist mir WURSCHT!"
 	done
 
 .before_battle_text
-	ctxt "Es ist unhöflich"
+	ctxt "Es ist unhöflich,"
 	line "unangemeldet hier"
-	cont "rein zu platzen."
+	cont "reinzuplatzen."
 	done
 
 .battle_won_text
@@ -195,13 +195,13 @@ LaurelGymGuide:
 	jumptext .after_saving_totodile_text
 
 .after_saving_totodile_text
-	ctxt "Danke das du Ihr"
+	ctxt "Danke, dass du ihr"
 	line "Karnimani gerettet"
 	cont "hast."
 
-	para "Von Ihrem geheule"
+	para "Von ihrem Geheule"
 	line "bekam ich schon"
-	para "Kopfschmerzen<...>"
+	para "Kopfschmerzen <...>"
 	done
 
 .initial_intro_text
@@ -211,30 +211,30 @@ LaurelGymGuide:
 	line "hier ist Brooklyn."
 
 	para "Sie wird laut und"
-	line "nervig, wenn Sie"
-	para "nicht das kriegt"
-	line "was Sie will."
+	line "nervig, wenn sie"
+	para "nicht das kriegt,"
+	line "was sie will."
 
 	para "<...>"
 
 	para "Oh, du willst also"
-	line "Brooklyn's Orden?"
-	cont "nunja<...>"
+	line "Brooklyns Orden?"
+	cont "nun ja <...>"
 
 	para "Sie hat gerade"
-	line "persönliche prob-"
+	line "persönliche Prob-"
 	cont "leme und ich weiß"
 	cont "nichts drüber."
 
-	para "Alles woran ich"
-	line "mich erinnere, ist"
-	para "das zuletzt viele"
-	line "entführungen"
-	para "in dieser stadt"
-	line "passieren."
+	para "Alles, woran ich"
+	line "mich erinnere,"
+	para "ist, dass zuletzt"
+	line "viele Entführung-"
+	para "en in dieser"
+	line "Stadt passieren."
 
 	para "Jemand sagte mal,"
-	line "das einer der"
+	line "dass einer der"
 	para "Entführer wie ein"
 	line "Wissenschaftler"
 	cont "aussah."
@@ -247,12 +247,12 @@ LaurelGymGuide:
 	line "Stadt, entführt."
 
 	para "Du solltest es dir"
-	line "mal anschauen<...>"
+	line "mal anschauen <...>"
 	done
 
 .player_got_totodile_text
 	ctxt "Oh nein, nicht"
-	line "schon wieder<...>"
+	line "schon wieder <...>"
 	done
 
 LaurelGym_MapEventHeader:: db 0, 0

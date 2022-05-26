@@ -4,8 +4,8 @@ PhaceliaPokecenter_MapScriptHeader;trigger count
 	db 0
 
 PhaceliaPokecenterNPC1:
-	ctxt "Dieses #mon"
-	line "Center wurde grad"
+	ctxt "Dieses #mon-"
+	line "Center wurde grade"
 	cont "erst gebaut."
 
 	para "Es riecht hier"
@@ -26,8 +26,8 @@ PhaceliaPokecenterNPC2:
 	para "die ganzen Erd-"
 	line "beben hier."
 
-	para "Ich denke es ist"
-	line "ETWAS anderes<...>"
+	para "Ich denke, es ist"
+	line "ETWAS anderes <...>"
 	done
 
 PhaceliaPokecenter_MapEventHeader ;filler

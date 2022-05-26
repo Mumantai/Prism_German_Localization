@@ -179,21 +179,21 @@ MilosB2FbJumpingShoes:
 	jumptext .all_switches_flipped_text
 
 .found_item_text
-	ctxt "Du hast die Sprung"
+	ctxt "Du hast Sprung-"
 	line "Schuhe gefunden!"
 	done
 
 .description_text
 	ctxt "Du kannst nun über"
-	line "kurze Lücken hin-"
-	para "über springen wenn"
-	line "du A Drückst!"
+	line "kurze Lücken hinü-"
+	para "ber springen, wenn"
+	line "du A drückst!"
 	sdone
 
 .all_switches_flipped_text
 	ctxt "Uh oh!"
 
-	para "Das aufheben der"
+	para "Das Aufheben der"
 	line "Schuhe setzte alle"
 	cont "Schalter zurück!"
 	done
@@ -202,7 +202,7 @@ MilosB2Fb_GreenPatroller:
 	trainer EVENT_MILOS_B2FB_TRAINER_1, PATROLLER, 13, .before_battle_text, .battle_won_text
 
 	ctxt "Sei nicht so"
-	line "Optimistisch!"
+	line "optimistisch!"
 
 	para "Ohne deine #mon"
 	line "wärst du nichts!"
@@ -217,7 +217,7 @@ MilosB2Fb_GreenPatroller:
 	para "Wir alle!"
 
 	para "Denk nicht, dass"
-	line "du an mir vorbei"
+	line "du an mir vorbei-"
 	cont "kommst!"
 	done
 
@@ -230,23 +230,23 @@ MilosB2Fb_GreenPatroller:
 MilosB2Fb_BlackPatroller:
 	trainer EVENT_MILOS_B2FB_TRAINER_2, PATROLLER, 2, .before_battle_text, .battle_won_text
 
-	ctxt "Ich bin Krass aber"
-	line "keiner will das"
-	cont "wahr haben<...>"
+	ctxt "Ich bin krass,"
+	line "aber keiner will"
+	cont "das wahrhaben <...>"
 	done
 
 .before_battle_text
 	ctxt "Schenkst du mir"
 	line "deine Aufmerksam-"
 	para "keit, während ich"
-	line "so tuhe, als ob es"
+	line "so tue, als ob es"
 	para "mich nicht"
 	line "interessiert?"
 	done
 
 .battle_won_text
 	ctxt "Das ist echt"
-	line "unfair<...>"
+	line "unfair <...>"
 	done
 
 MilosB2Fb_MapEventHeader:: db 0, 0

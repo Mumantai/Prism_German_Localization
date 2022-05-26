@@ -8,24 +8,24 @@ PhaceliaMartNPC1:
 	line "all diese Städte?"
 
 	para "Ich genieße das"
-	line "ländliche so sehr."
+	line "Ländliche so sehr."
 
 	para "Ein alter Mann wie"
-	line "ich, braucht in"
+	line "ich braucht in"
 	para "seinem Leben nicht"
 	line "noch mehr Stress."
 	para "Die Bauarbeiten"
-	line "hier sind jedoch"
-	cont "schon sehr nervig."
+	line "hier sind schon"
+	cont "sehr nervig."
 	done
 
 PhaceliaMartNPC2:
 	ctxt "Andre ist ein"
-	line "Beast!"
+	line "Biest!"
 
-	para "Die Arena baute er"
-	line "bevor es hier ein"
-	cont "Dorf gab!"
+	para "Die Arena baute"
+	line "er, bevor es hier"
+	cont "ein Dorf gab!"
 
 	para "Stell dir vor,"
 	line "eine Arena in"

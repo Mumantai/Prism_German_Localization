@@ -7,10 +7,10 @@ OxalisGym_Trainer_1:
 	trainer EVENT_OXALIS_GYM_TRAINER_1, COOLTRAINERM, 2, .before_battle_text, .battle_won_text
 
 	ctxt "Du scheinst mit"
-	line "der Hitze klar"
-	cont "zu kommen."
+	line "der Hitze klar-"
+	cont "zukommen."
 
-	para "Aber<...> auch"
+	para "Aber <...> auch"
 	line "mit Josiah?"
 	done
 
@@ -43,18 +43,18 @@ OxalisGym_Trainer_1:
 OxalisGym_Trainer_2:
 	trainer EVENT_OXALIS_GYM_TRAINER_2, COOLTRAINERM, 1, .before_battle_text, .battle_won_text
 
-	ctxt "Ich kann die Sch-"
-	line "ande nur mit einem"
+	ctxt "Diese Schande kann"
+	line "ich nur mit einem"
 	cont "Lavabad abspülen."
 	done
 
 .before_battle_text
-	ctxt "<...>ein Kind?"
+	ctxt "<...> ein Kind?"
 
 	para "Ist das ein Witz?"
 
 	para "Das sollte nicht"
-	line "schwer werden<...>"
+	line "schwer werden <...>"
 	done
 
 .battle_won_text
@@ -70,26 +70,26 @@ OxalisGymGuide:
 .before_badge_text
 	ctxt "Hey, du da!"
 	line "Ich habe auf deine"
-	cont "Ankuft gewartet."
+	cont "Ankunft gewartet."
 
 	para "Prof. Ilk bat mich"
 	line "darum, dich zu"
 	cont "unterstützten."
 
 	para "Ich gebe dir alle"
-	line "internen Infos"
+	line "internen Infos,"
 	cont "die du benötigst!"
 
 	para "Also, Josiah hat"
-	line "Feuer #mon aber"
+	line "Feuer-#mon aber"
 	para "das siehst du ja"
 	line "an der Arena hier."
 
-	para "Wasser #mon"
+	para "Wasser-#mon"
 	line "wären eine gute"
-	cont "Wahl gegen Ihn."
+	cont "Wahl gegen ihn."
 
-	para "Gestein #mon"
+	para "Gestein-#mon"
 	line "wären ebenso"
 	cont "effektiv!"
 
@@ -128,53 +128,53 @@ OxalisGymLeader:
 	jumptext .after_giving_TM_text
 
 .before_battle_text
-	ctxt "Was geht ab Bro."
+	ctxt "Was geht ab, Bro?"
 
 	para "Ich bin Josiah."
 
 	para "Jo Brudi, ich"
-	line "werds dir nicht"
+	line "werd's dir nicht"
 	cont "leicht machen."
 
-	para "Lasset diesen"
+	para "Lass ma diesen"
 	line "Kampf beginnen!"
 	sdone
 
 .battle_won_text
-	ctxt "<...>Uff!"
+	ctxt "<...> Uff!"
 
 	para "Du bist ne Bombe!"
 
-	para "Du hast dir mein"
+	para "Du hast dir den"
 	line "Orden verdient."
 	done
 
 .got_badge_text
 	ctxt "<PLAYER> erhält"
-	line "Fackel Orden!"
+	line "Fackel-Orden!"
 	done
 
 .before_giving_TM_text
-	ctxt "Der Fackel Orden"
+	ctxt "Der Fackel-Orden"
 	line "pumpt den Angriff"
-	cont "deiner #mon bro"
+	cont "deiner #mon, Bro"
 
 	para "Digga, du kannst"
 	line "jetzt sogar Blitz"
 	cont "außerhalb des"
 	cont "Kampfes nutzen!"
 
-	para "Ist das nicht "
+	para "Ist das nicht"
 	line "KRASS???"
 
-	para "Hier nimm auch das"
-	line "hier an dich<...>"
+	para "Hier, nimm auch"
+	line " das an dich <...>"
 	sdone
 
 .after_giving_TM_text
 	ctxt "Yo, das ist eine"
 	line "TM, was so viel"
-	cont "bedeutet wie<...> uhm,"
+	cont "bedeutet wie <...> uhm,"
 	para "Technische Maschi-"
 	line "ne? Ja, das passt."
 
@@ -192,9 +192,9 @@ OxalisGymLeader:
 	done
 
 .already_battled_text
-	ctxt "Yo, die Rijon"
+	ctxt "Yo, die Rijon-"
 	line "Liga benötigt 8"
-	cont "Orden, von daher<...>"
+	cont "Orden, von daher <...>"
 
 	para "Schnapp sie dir"
 	line "alle, Brudi!"

@@ -15,17 +15,17 @@ MilosF1_Rival:
 
 .before_battle_text
 	ctxt "Oh schau, es ist"
-	line "das Kind das nie"
+	line "das Kind, das nie"
 	cont "aufhören will."
 
-	para "Die hartnäckigkeit"
-	line "in dir, ist nichts"
+	para "Die Hartnäckigkeit"
+	line "in dir ist nichts"
 	para "als eine Plage für"
-	line "Naljo Bewohner."
+	line "Naljo-Bewohner."
 
 	para "Ich hab kein Bock"
 	line "mehr auf dein"
-	para "Gutmenschen"
+	para "Gutmenschen-"
 	line "verhalten, das"
 	para "sich mir in den"
 	line "Weg stellt!"
@@ -38,15 +38,15 @@ MilosF1_Rival:
 	done
 
 .after_battle_text
-	ctxt "Ich tue was ich"
+	ctxt "Ich tue, was ich"
 	line "tun muss, OK?"
 
-	para "Jemand wie ich,"
+	para "Jemand wie ich"
 	line "braucht sich nicht"
 	cont "zu rechtfertigen."
 
 	para "Lass mich einfach"
-	line "all<...> alleine<...>"
+	line "all<...> alleine <...>"
 	done
 
 MilosF1Officer:
@@ -90,7 +90,7 @@ MilosF1Officer:
 	ctxt "Ich bewache den"
 	line "Ort hier."
 
-	para "Hm<...> warte,"
+	para "Hm <...> warte,"
 	line "wer bist du?"
 
 	para "<...>"
@@ -98,22 +98,22 @@ MilosF1Officer:
 	para "Ich sehe."
 
 	para "Hast du einen"
-	line "Ausweis<...>?"
+	line "Ausweis <...>?"
 
 	para "Ein Visum?"
 
-	para "Ein Reisepass?"
+	para "Einen Reisepass?"
 	sdone
 
 .before_battle_text
-	ctxt "Warte, du"
-	line "entsprichst der"
-	para "Fahndung! Nach dem"
-	line "wir die ganze "
-	cont "zeit suchen."
+	ctxt "Warte, du ent-"
+	line "sprichst der"
+	para "Fahndung! Du bist"
+	line "der, den wir die"
+	cont "ganze Zeit suchen!"
 
-	para "Ein Kind mit "
-	line "Spitzen Haaren,"
+	para "Ein Kind mit"
+	line "spitzen Haaren"
 	para "aus einer fremden"
 	line "Region und der"
 	para "seine #mon"
@@ -127,59 +127,59 @@ MilosF1Officer:
 	line "#mon gut"
 	cont "behandelst?"
 
-	para "Zeigs mir, in"
+	para "Zeig's mir in"
 	line "einem Kampf."
 	sdone
 
 .battle_won_text
 	ctxt "Du hattest"
-	line "recht!"
+	line "Recht!"
 	done
 
 .after_battle_text
 	ctxt "Du hast bewiesen,"
-	line "dass du nicht der-"
+	line "dass du nicht Der-"
 	cont "jenige bist."
 
 	para "Du darfst hier"
 	line "aber dennoch nicht"
 	cont "sein."
 
-	para "Folg mir."
+	para "Folge mir."
 	sdone
 
 .mission_text
 	ctxt "Wenn du für mich"
-	line "auf eine under-"
-	para "cover Mission"
+	line "auf eine Under-"
+	para "cover-Mission"
 	line "gehen könntest und"
-	para "einen kriminellen"
+	para "einen Kriminellen"
 	line "ausfindig machst,"
 	cont "kannst du bleiben!"
 
-	para "Paletten"
+	para "Paletten-"
 	line "Patrouillen"
-	para "sind in der gegend"
+	para "sind in der Gegend"
 	line "und ich brauche"
-	para "dich um einen zu"
-	line "fangen."
+	para "dich, um einen"
+	line "zu fangen."
 
-	para "Nimm diesen Anzug"
+	para "Nimm diesen Anzug,"
 	line "um deren Vertrauen"
 	para "zu gewinnen und"
-	line "Sie zu mir"
+	line "sie zu mir"
 	cont "zu führen."
 	sdone
 
 .after_getting_changed_text
-	ctxt "Du siehst<...>"
+	ctxt "Du siehst <...>"
 
-	para "naja<...>"
+	para "Naja <...>"
 
-	para "Interesannt aus."
+	para "Interessant aus."
 
 	para "Bring mir jetzt"
-	line "einen kriminellen."
+	line "einen Kriminellen."
 	done
 
 MilosF1_MapEventHeader:: db 0, 0

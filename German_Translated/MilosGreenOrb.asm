@@ -44,7 +44,7 @@ MilosGreenOrbRayquazaServant:
 
 .describe_rayquaza_text
 	ctxt "Da gibt es ein"
-	line "#mon das den"
+	line "#mon, das den"
 	para "Krieg zwischen"
 	line "Groudon & Kyogre"
 	cont "beenden konnte."
@@ -72,7 +72,7 @@ MilosGreenOrbRayquazaServant:
 
 .met_requirements_text
 	ctxt "Das Kind erfüllt"
-	line "alle bedingungen."
+	line "alle Bedingungen."
 	sdone
 
 .already_battled_text

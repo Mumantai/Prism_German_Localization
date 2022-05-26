@@ -19,7 +19,7 @@ LaurelGateGuard:
 LaurelGateNPC1:
 	ctxt "Sie bauen überall"
 	line "diese Grenz-"
-	cont "übergänge auf<...>"
+	cont "übergänge auf <...>"
 	done
 
 LaurelGateNPC2:

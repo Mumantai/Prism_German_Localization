@@ -164,7 +164,7 @@ GameCorner_Text_ExchangeGameCoins::
 
 	para "Wir tauschen deine"
 	line "Münzen gegen groß-"
-	cont "artige Preise um!"
+	cont "artige Preise ein!"
 	sdone
 
 GameCornerSlots::
@@ -204,7 +204,7 @@ OwsauriGameCornerNPC1:
 
 	para "Sie würden mich"
 	line "rausschmeißen,"
-	para "wenn Sie wüssten,"
+	para "wenn sie wüssten,"
 	line "dass ich genau das"
     cont "gemacht habe."
 	done
@@ -215,10 +215,10 @@ OwsauriGameCornerNPC2:
 	cont "Münzen einbringen."
 
 	para "Wenn du denkst, du"
-	line "bekommst ein Royal"
-	para "Flush, dann spiel"
-	line "drauf, egal was"
-	cont "passiert."
+	line "bekommst einen"
+	para "Royal Flush, dann"
+	line "spiel drauf, egal,"
+	cont "was passiert."
 	done
 
 OwsauriGameCornerNPC3:
@@ -237,8 +237,8 @@ OwsauriGameCornerNPC3:
 OwsauriGameCornerNPC4:
 	ctxt "Wenn du die Walzen"
 	line "nah genug beobach-"
-	para "test, hilft es dir"
-	line "dein Ziel"
+	para "test, hilft es"
+	line "dir, dein Ziel"
     cont "zu erreichen."
 	done
 
@@ -247,7 +247,7 @@ OwsauriGameCornerNPC5:
 	line "spiel macht so"
 	cont "süchtig!"
 
-	para "Dies ist absolut"
+	para "Das ist absolut"
 	line "verrückt!"
 	done
 

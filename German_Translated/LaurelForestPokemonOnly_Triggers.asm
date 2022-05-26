@@ -73,14 +73,14 @@ PURGE entry
 	step_end
 
 .pikachu_not_outside_forest_text
-	ctxt "Hey, müssen nicht"
-	line "außerhalb des"
-	para "Waldes nach Beern"
-	line "suchen."
+	ctxt "Hey, wir müssen"
+	line "nicht außerhalb"
+	para "des Waldes nach"
+	line "Beeren suchen."
 
-	para "Ich bin mir sicher"
+	para "Ich bin sicher,"
 	line "es gibt leckere"
-	para "Beeren hier die"
+	para "Beeren hier, die"
 	line "nur gefunden"
 	cont "werden wollen!"
 	sdone
@@ -92,13 +92,13 @@ PURGE entry
 	para "Ich kenne mein"
 	line "Baby gut und ich"
 	para "weiß, er würde nie"
-	line "versuchen den Wald"
-	cont "zu verlassen."
+	line "versuchen, den"
+	cont "Wald zu verlassen."
 	sdone
 
 .caterpie_not_outside_forest_text
 	ctxt "Mammi kann hier"
-	line "nicht vorbei sein!"
+	line "nicht sein!"
 
 	para "Wir haben immer in"
 	line "diesem Wald gelebt"
@@ -120,29 +120,29 @@ PURGE entry
 
 .butterfree_not_in_lab_text
 	ctxt "Du glaubst doch"
-	line "nicht er wäre hier"
-	cont "drin...?"
+	line "nicht, er wäre"
+	cont "hier drin ...?"
 
-	para "Nein, Ich habe"
+	para "Nein, ich habe"
 	line "meinem Baby immer"
-	para "gesagt nicht zu"
+	para "gesagt, nicht zu"
 	line "Plätzen mit"
 	para "Menschen zu"
 	line "wandern."
 
-	para "Lass uns hier weg"
-	line "gehen."
+	para "Lass uns hier"
+	line "weggehen."
 	sdone
 
 .caterpie_not_in_lab_text
-	ctxt "Mammi kann hier"
+	ctxt "Mami kann hier"
 	line "nicht sein!"
 
 	para "Sie hat mir immer"
-	line "gesagt vom"
-	para "Menschenplatz weg"
-	line "zu bleiben!"
+	line "gesagt, ich soll"
+	para "vom Menschenplatz"
+	line "wegbleiben!"
 
 	para "Lass uns woanders"
-	line "weiter suchen!"
+	line "weitersuchen!"
 	sdone

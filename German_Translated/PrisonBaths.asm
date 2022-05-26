@@ -11,7 +11,7 @@ PrisonBathsNPC:
 	ctxt "Wusstest du?"
 
 	para "Die Leute hier"
-	line "lassen oft Ihre"
+	line "lassen oft ihre"
 	para "Wertsachen im"
 	line "Bad liegen."
 

@@ -5,13 +5,13 @@ PhaceliaGym_MapScriptHeader;trigger count
 
 PhaceliaGymGuide:
 	ctxt "Andre ist der Typ"
-	line "Arenaleiter der"
+	line "Arenaleiter, der"
 	para "seine Fäuste"
 	line "sprechen lässt."
 
 	para "Er ist sehr"
-	line "hitzig also geb"
-	para "acht auf deine"
+	line "hitzig, also gib"
+	para "Acht auf deine"
 	line "Worte."
 	done
 
@@ -24,7 +24,7 @@ PhaceliaGym_Trainer_1:
 
 .before_battle_text
 	ctxt "Du brauchst jahre-"
-	line "langes training"
+	line "langes Training,"
 	para "bevor Andre dich"
 	line "überhaupt als"
 	cont "Schüler aufnimmt!"
@@ -49,10 +49,10 @@ PhaceliaGym_Trainer_2:
 	done
 
 .before_battle_text
-	ctxt "Um 04:00 Morgens"
-	line "aufstehen, 16std"
-	para "training mit nur"
-	line "3x a 10min Pausen."
+	ctxt "Um 03:00 Morgens"
+	line "aufstehen, 16 Std"
+	para "Training mit nur"
+	line "3x 10 Min Pause."
 
 	para "Tag für Tag."
 
@@ -77,7 +77,7 @@ PhaceliaGym_Trainer_3:
 .before_battle_text
 	ctxt "Ich bin zwar nur"
 	line "der Stellvertreter"
-	para "hier<...> Aber"
+	para "hier <...> Aber"
 	line "das ist egal!"
 
 	para "An mir kommst du"
@@ -145,23 +145,23 @@ PhaceliaGymLeader:
 	line "gegraben!"
 
 	para "Die Minenarbeiter"
-	line "hier, sind so"
+	line "hier sind so"
 	para "schwächlich, weil"
-	line "Sie ohne"
+	line "sie ohne"
 	para "Technologie nichts"
 	line "mehr erledigen"
 	cont "könnten."
 	
-	para "Statt einfach Ihre"
+	para "Statt einfach ihre"
 	line "Körper zu einer"
 	para "Maschiene zu"
-	line "transofrmieren<...>"
+	line "transofrmieren <...>"
 
-	para "Naja egal<...>"
+	para "Naja, egal <...>"
 
 	para "Jetzt zeige ich"
 	line "dir meine Brutale"
-	para "Berge-Zerfetzende"
+	para "Berge-zerfetzende"
 	line "MACHT!"
 	sdone
 
@@ -171,12 +171,12 @@ PhaceliaGymLeader:
 	para "Jetzt bist du noch"
 	line "stark, aber wenn"
 	para "die Gesellschaft"
-	line "auseinander bricht"
-	para "und deinen Beutel"
-	line "nicht mehr füllen"
-	para "kannst, sieht es"
-	line "schlecht für dich"
-	cont "aus!"
+	line "auseinanderbricht"
+	para "und du deinen Beu-"
+	line "tel nicht mehr"
+	para "füllen kannst,"
+	line "sieht es schlecht"
+	cont "für dich aus!"
 
 	para "Hier hast du zwar"
 	line "den Orden, aber"
@@ -188,15 +188,15 @@ PhaceliaGymLeader:
 
 .received_badge_text
 	ctxt "<PLAYER> erhält"
-	line "den Muskelorden!"
+	line "den Muskel-Orden!"
 	done
 
 .before_giving_TM_text
 	ctxt "Ich muss mich von"
 	line "den weichmachenden"
-	para "vorteilen der"
+	para "Vorteilen der"
 	line "Technologie lösen"
-	para "um Hart und flei-"
+	para "um hart und flei-"
 	line "ßig zu bleiben."
 
 	para "Nimm schon."
@@ -207,17 +207,17 @@ PhaceliaGymLeader:
 	line "Wuchtschlag."
 
 	para "Sie ist Ungenau,"
-	line "aber wenn Sie"
+	line "aber wenn sie"
 	para "trifft, wird der"
-	line "Gegn. Verwirrt!"
+	line "Gegner verwirrt!"
 
-	para "Das ist mein Weg"
-	line "mit meinen Fäusten"
-	para "mir die vorteile"
-	line "zu verschaffen!"
-	para "Meine Schläge sind"
-	line "daher immer"
-	cont "wuchtig!"
+	para "Das ist mein Weg,"
+	line "mir mit meinen"
+	para "Fäusten die Vor-"
+	line "teile zu verschaf-"
+	para "fen! Meine Schläge"
+	line "sind daher"
+	cont "immer wuchtig!"
 	done
 
 PhaceliaGym_MapEventHeader ;filler

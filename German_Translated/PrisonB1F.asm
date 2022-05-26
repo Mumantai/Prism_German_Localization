@@ -42,9 +42,9 @@ PrisonB1FPasswordDoor:
 	ctxt "Die Tür ist"
 	line "verschlossen."
 
-	para "Es braucht einen"
+	para "Es braucht ein"
 	line "Passwort zum"
-	cont "öffnen."
+	cont "Öffnen."
 	done
 
 .door_password_text
@@ -78,21 +78,21 @@ PrisonB1FRival:
 	para "Dieses Gefängnis"
 	line "wird von einem"
 	para "faulen Geschäfts-"
-	line "mann geleitet &"
-	para "von fetten Wärtern"
-	line "bewacht."
+	line "mann geleitet"
+	para "und von fetten"
+	line "Wärtern bewacht."
 
-	para "Ich wurde für"
-	line "meine sehr harten"
-	para "Kampf & Trainings-"
-	line "Methoden"
-	cont "eingesperrt, aber<...>"
+	para "Ich wurde für mei-"
+	line "ne sehr harten"
+	para "Kampf- und Trai-"
+	line "nings-Methoden"
+	cont "eingesperrt, aber"
 
-	para "Glücklicherweise"
+	para "glücklicherweise"
 	line "bin ich in einer"
 	para "Welt voller"
-	line "schwächlinge viel"
-	para "zu Stark um von"
+	line "Schwächlinge viel"
+	para "zu stark, um von"
 	line "Wänden aus ödem"
 	para "Zement aufgehalten"
 	line "zu werden!"
@@ -102,14 +102,14 @@ PrisonB1FRival:
 	para "von Gott gewollt"
 	line "ist."
 
-	para "Denkst du etwa"
+	para "Denkst du etwa,"
 	line "diese Kreaturen"
 	para "können Feuer"
-	line "speihen, Felsen"
-	para "werfen & Ihre"
-	line "Gegn. aufschlitzen"
-	para "nur wegen Spaß"
-	line "am Sport?"
+	line "speien, Felsen"
+	para "werfen und ihre"
+	line "Gegner aufschlit-"
+	para "zen, nur wegen"
+	line "Spaß am Sport?"
 
 	para "Natürlich nicht!"
 
@@ -121,13 +121,13 @@ PrisonB1FRival:
 	para "Du erlangst die"
 	line "absolute Macht,"
 	para "wenn du die"
-	line "schwäche deiner"
-	para "Gegner kennst &"
+	line "Schwäche deiner"
+	para "Gegner kennst und"
 	line "die Kontrolle über"
 	para "das Kampffeld"
-	line "aufrecht erhälst!"
+	line "aufrechterhälst!"
 
-	para "Komm her, und"
+	para "Komm her und"
 	line "spüre die Gewallt"
 	cont "der Natur! Muhahah"
 	done
@@ -139,12 +139,12 @@ PrisonB1FRival:
 
 .after_winning_text
 	ctxt "Du tust mir schon"
-	line "etwas leid."
+	line "etwas Leid."
 
 	para "Du wirst niemals"
 	line "wissen wie es ist,"
-	para "hier drinn kämpfen"
-	line "zu müssen wie ich<...>"
+	para "hier drin kämpfen"
+	line "zu müssen wie ich."
 
 	para "Daher nimm diese"
 	line "VM an dich!"
@@ -152,10 +152,10 @@ PrisonB1FRival:
 
 .got_HM_text
 	ctxt "Das werde ich zum"
-	line "flüchten nutzen."
+	line "Flüchten nutzen."
 
 	para "Ich werde dir"
-	line "nicht zeigen wie"
+	line "nicht zeigen, wie"
 	para "man es nutzt, das"
 	line "wirst du selbst"
 	para "herausfinden"
@@ -164,12 +164,12 @@ PrisonB1FRival:
 
 .after_giving_HM_text
 	ctxt "Ich verspreche dir"
-	line "das nächstemal"
-	para "wenn wir uns sehen"
+	line "das nächste Mal,"
+	para "wenn wir uns"
 
-	para "wird der Kampf so"
-	line "enden wie ich es"
-	cont "WILL!"
+	para "sehen, wird der"
+	line "Kampf so enden,"
+	cont "wie ich es WILL!"
 	done
 
 PrisonB1FMetagross:

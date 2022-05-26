@@ -5,7 +5,7 @@ LaurelMart_MapScriptHeader;trigger count
 
 LaurelMartNPC:
 	ctxt "Goldtaler findest"
-	line "du in jedem areal."
+	line "du in jedem Areal."
 
 	para "Eine in Euphorbia"
 	line "City, eine in der"

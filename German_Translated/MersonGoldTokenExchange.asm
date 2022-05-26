@@ -101,22 +101,22 @@ MersonGoldTokenExchange_AfterFillingDex:
 
 MersonGoldTokenExchange_Text_Intro:
 	ctxt "Hallo, ich bin ein"
-	line "großer Fan von "
+	line "großer Fan von"
 	cont "#mon!"
 
 	para "Für je 30 #mon,"
 	line "die du besitzt,"
-	para "gebe ich dir 4 "
+	para "gebe ich dir 4"
 	line "Goldtaler."
 
-	para "Tolles Geschäft, "
+	para "Tolles Geschäft,"
 	line "oder?"
 
 	sdone
 
 MersonGoldTokenExchange_Text_NeedMoreSpace:
 	ctxt "Du hast keinen"
-	line "Platz für dein "
+	line "Platz für dein"
 	cont "Geschenk!"
 
 	done
@@ -128,7 +128,7 @@ MersonGoldTokenExchange_Text_PassedMilestone:
 	ret
 .text
 	ctxt "Du hast den"
-	line "<STRBF1> Meilen-"
+	line "<STRBF1>-Meilen-"
 	cont "stein erreicht"
 	done
 
@@ -148,7 +148,7 @@ MersonGoldTokenExchange_Text_RequirementsForMilestone:
 	ctxt "Fange"
 	line "@"
 	deciram hTemp, 1, 3
-	ctxt " #mon um"
+	ctxt " #mon, um"
 	para "den Meilenstein"
 	line "<STRBF1> zu"
 	cont "erreichen!"
@@ -184,12 +184,12 @@ MersonGoldTokenExchange_Text_OrdinalNumbers:
 MersonGoldTokenExchange_Text_FinishedDex:
 	ctxt "Beachtlich!"
 
-	para "Du hast den Naljo"
+	para "Du hast den Naljo-"
 	line "#dex vollendet!"
 
-	para "Wie versprochen,"
+	para "Wie versprochen:"
 	line "hier ist mein ganz"
-	para "besonderes "
+	para "besonderes"
 	line "Geschenk."
 
 	sdone
@@ -198,7 +198,7 @@ MersonGoldTokenExchange_Text_TicketGrantsAccessToShop:
 	ctxt "Mit diesem Ticket"
 	line "hast du Zugang zu"
 	para "einem speziellen"
-	line "Laden irgendwo in "
+	line "Laden irgendwo in"
 	cont "Rijon."
 
 	para "Oh, ich erinnere"
@@ -232,7 +232,7 @@ MersonGoldTokenExchange_Text_RequirementsForSpecialGift:
 	line "besonderes"
 	para "Geschenk für"
 	line "diejenigen, die"
-	para "ihren Naljo"
+	para "ihren Naljo-"
 	line "#dex "
 	cont "vervollständigen!"
 
@@ -241,17 +241,17 @@ MersonGoldTokenExchange_Text_RequirementsForSpecialGift:
 	para "abgeschlossen"
 	line "hast, um ein ganz"
 	para "besonderes"
-	line "Geschenk zu "
+	line "Geschenk zu"
 	cont "erhalten."
 
 	done
 
 MersonGoldTokenExchange_Text_AllICanRememberAboutSecretShop:
-	ctxt "Hmm..."
+	ctxt "Hmm ..."
 
-	para "irgendwo in der"
-	line "Nähe der "
-	cont "Magnetbahn..."
+	para "Irgendwo in der"
+	line "Nähe der"
+	cont "Magnetbahn ..."
 
 	para "Wie auch immer,"
 	line "herzlichen"
@@ -268,13 +268,13 @@ MersonGoldTokenExchange_Text_WhatSecretShopInSilphWarehouse:
 	ctxt "Was?"
 
 	para "Der Laden befindet"
-	line "sich im "
+	line "sich im"
 	cont "Silph-Lagerhaus?"
 
 	para "Oh, jetzt erinnere"
 	line "ich mich daran!"
 
-	para "Nun, geniesse, was"
+	para "Nun, genieße, was"
 	line "sie zu bieten hat!"
 
 	done

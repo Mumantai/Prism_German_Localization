@@ -13,7 +13,7 @@ MoragaTown_GoldToken:
 	db GOLD_TOKEN
 
 MoragaTownGymSign:
-	ctxt "#mon Arena"
+	ctxt "#mon-Arena"
 	next "Leiterin: Lois"
 	nl " "
 	next "Die Pflanzen-"
@@ -40,7 +40,7 @@ MoragaTownNPC1:
 	para "im Eingangsbereich"
 	line "pflanzen?"
 
-	para "Die werden immer "
+	para "Die werden immer"
 	line "zertrampelt!"
 
 	done
@@ -62,13 +62,13 @@ MoragaTownNPC3:
 	ctxt "In diesen schmalen"
 	line "Pfaden bilden sich"
 	para "ständig lästige"
-	line "Menschen "
-	cont "Ansammlungen."
+	line "Menschen-"
+	cont "ansammlungen."
 
 	para "Sie in Bewegung zu"
-	line "bringen ist"
+	line "bringen, ist"
 	para "schwieriger als"
-	line "ein Relaxo "
+	line "ein Relaxo"
 	cont "aufzuwecken."
 
 	done

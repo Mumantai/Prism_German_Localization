@@ -4,7 +4,7 @@ OwsauriGym_MapScriptHeader;trigger count
 	db 0
 
 OwsauriGymSign:
-	ctxt "Owsauri Arena"
+	ctxt "Owsauri-Arena"
 	line "Leiterin: Lily"
 	done
 
@@ -12,11 +12,11 @@ OwsauriGymGuide:
 	ctxt "Ist es für dich"
 	line "kalt genug?"
 
-	para "Lily liebt Ihre"
+	para "Lily liebt ihre"
 	line "Eis-#mon, also"
 	para "brauchst du etwas"
-	line "heißes, um Ihr"
-	para "Team zum schmelzen"
+	line "Heißes, um ihr"
+	para "Team zum Schmelzen"
     line "zu bringen!"
 	done
 
@@ -57,7 +57,7 @@ OwsauriGym_Trainer_2:
 .before_battle_text
 	ctxt "Die Abhänge von"
 	line "Klathrit sind so"
-	cont "heftig Alter!"
+	cont "heftig, Alter!"
 	done
 
 .battle_won_text
@@ -67,22 +67,22 @@ OwsauriGym_Trainer_2:
 OwsauriGym_Trainer_3:
 	trainer EVENT_OWSAURI_GYM_TRAINER_3, BOARDER, 5, .before_battle_text, .battle_won_text
 
-	ctxt "Digga, wusstest du"
-	line "das Lily ein DJ"
-	para "war, als Sie noch"
+	ctxt "Bro, wusstest du,"
+	line "dass Lily ein DJ"
+	para "war, als sie noch"
 	line "in Lavandia lebte?"
 	done
 
 .before_battle_text
-	ctxt "Lily ist so Heiß!"
-	line "Ich möchte Ihr"
+	ctxt "Lily ist so heiß!"
+	line "Ich möchte ihr"
 	cont "Herz gewinnen!"
 	done
 
 .battle_won_text
 	ctxt "Sie mag gute Trai-"
 	line "ner, also bleibe"
-	cont "ich drann!"
+	cont "ich dran!"
 	done
 
 OwsauriGymLeader:
@@ -130,7 +130,7 @@ OwsauriGymLeader:
 
 	para "Läuft bei dir!"
 
-	para "Ich habe immer Eis"
+	para "Ich hab immer Eis-"
 	line "#mon geliebt,"
 	para "natürlich auch in"
 	line "den Wintermonaten!"
@@ -145,8 +145,8 @@ OwsauriGymLeader:
 	sdone
 
 .battle_won_text
-	ctxt "Ich bin traurig,"
-	line "zur gleichen Zeit"
+	ctxt "Ich bin traurig"
+	line "und gleichzeitig"
 	cont "auch fröhlich."
 
 	para "Vielen Dank für"
@@ -154,12 +154,12 @@ OwsauriGymLeader:
 	para "als Arenaleiter"
 	line "zu verbessern!"
 
-	para "Hier der Orden!"
+	para "Hier, der Orden!"
 	done
 
 .got_badge_text
 	ctxt "<PLAYER> erhält"
-	line "den Hagel Orden."
+	line "den Hagel-Orden."
 	done
 
 .before_giving_TM_text
@@ -171,13 +171,13 @@ OwsauriGymLeader:
 .after_giving_TM_text
 	ctxt "Dieser spezielle"
 	line "Angriff heißt"
-	cont "Freeze Burn!"
+	cont "Gefrierbrand!"
 
-	para "Dies ist ein eis-"
-	line "iger Angriff, der"
-	para "den Gegner verbr-"
-	line "ennen, oder ein-"
-	cont "frieren kann!"
+	para "Dies ist ein"
+	line "eisiger Angriff,"
+	para "der den Gegner"
+	line "verbrennen oder"
+	cont "einfrieren kann!"
 	done
 
 OwsauriGym_MapEventHeader ;filler

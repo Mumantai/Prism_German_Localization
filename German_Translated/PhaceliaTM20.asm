@@ -15,20 +15,20 @@ PhaceliaTM20NPC:
 	closetextend
 
 .before_giving_TM_text
-	ctxt "Andre ist krass"
+	ctxt "Andre ist krass,"
 	line "ne?"
 
 	para "Mit dieser Attacke"
 	line "halten deine "
 	para "#mon länger"
-	line "gegen Ihn aus."
+	line "gegen ihn aus."
 	sdone
 
 .already_gave_TM_text
 	ctxt "TM20 ist Ausdauer!"
 
 	para "Deine #mon"
-	line "halten hiermit den"
+	line "halten hiermit dem"
 	para "nächsten Angriff"
 	line "auf jeden Fall"
 	cont "stand!"

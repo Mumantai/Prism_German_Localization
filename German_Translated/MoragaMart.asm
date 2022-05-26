@@ -5,7 +5,7 @@ MoragaMart_MapScriptHeader;trigger count
 
 MoragaMartNPC:
 	ctxt "Die verkaufen hier"
-	line "Blatt Steine."
+	line "Blatt-Steine."
 
 	para "Und das auch"
 	line "wirklich günstig!"

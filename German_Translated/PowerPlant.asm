@@ -51,21 +51,21 @@ PowerPlantNPC1:
 	done
 
 PowerPlantNPC2:
-	ctxt "Gut das die Aus-"
+	ctxt "Gut, dass die Aus-"
 	line "rüstung hier noch"
 	cont "funktioniert."
 
 	done
 
 PowerPlantNPC3:
-	ctxt "Es gibt eine Eis"
-	line "Arena, das viel zu"
+	ctxt "Es gibt eine Eis-"
+	line "Arena, die viel zu"
 	para "viele Klimageräte"
 	line "einsetzt."
 
 	para "Der hohe Strom-"
 	line "bedarf ist der"
-	para "Grund warum das"
+	para "Grund, warum das"
 	line "hier wieder In-"
 	para "standgehalten"
 	line "wird."

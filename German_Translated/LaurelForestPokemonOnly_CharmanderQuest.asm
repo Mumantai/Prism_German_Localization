@@ -116,7 +116,7 @@ LaurelForestPokemonOnlyCharmander:
 	para "Es muss einen Weg"
 	line "geben, das Wasser"
 	para "sicher überqueren"
-	line "zu können<...>?"
+	line "zu können <...>?"
 	done
 
 .first_rock_text
@@ -131,7 +131,7 @@ LaurelForestPokemonOnlyCharmander:
 	ctxt "Noch ein Stein!"
 
 	para "Lass uns sehen,"
-	line "ob das klappt<...>"
+	line "ob das klappt <...>"
 	sdone
 
 .both_rocks_text
@@ -144,13 +144,13 @@ LaurelForestPokemonOnlyCharmander:
 	sdone
 
 .need_another_rock_text
-	ctxt "Hmm<...>, ein Stein"
+	ctxt "Hmm <...>, ein Stein"
 	line "ist nicht genug um"
 	para "das Wasser aufzu-"
 	line "halten."
 
 	para "Vielleicht noch"
-	line "ein Stein<...>"
+	line "ein Stein <...>"
 	done
 
 .water_vanished_text
@@ -159,7 +159,7 @@ LaurelForestPokemonOnlyCharmander:
 	para "schnell ver-"
 	line "schwunden?"
 
-	para "Egal, Ich komme"
+	para "Egal, ich komme"
 	line "nach Hause,"
 	cont "Mama und Papa!"
 	sdone

@@ -20,8 +20,8 @@ MersonCaveB1F_Trainer_1:
 	done
 
 .before_battle_text
-	ctxt "Ich habe den"
-	line "Ausgang fast!"
+	ctxt "Ich hab fast den"
+	line "Ausgang gefunden!"
 
 	done
 
@@ -38,7 +38,7 @@ MersonCaveB1F_Trainer_2:
 	ctxt "Es ist bekannt,"
 	line "dass sich"
 	para "Höhlenstrukturen"
-	line "von Zeit zu Zeit "
+	line "von Zeit zu Zeit"
 	cont "ändern."
 
 	para "Man weiß nie, was"
@@ -48,7 +48,7 @@ MersonCaveB1F_Trainer_2:
 
 .before_battle_text
 	ctxt "Immer eine gute"
-	line "Tour durch diese "
+	line "Tour durch diese"
 	cont "Höhle."
 
 	done
@@ -72,7 +72,7 @@ MersonCaveB1F_Trainer_3:
 .before_battle_text
 	ctxt "Diese Höhle ist"
 	line "ein wirres "
-	cont "Labyrint."
+	cont "Labyrinth."
 
 	done
 

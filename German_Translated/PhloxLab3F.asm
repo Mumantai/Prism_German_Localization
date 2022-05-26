@@ -86,17 +86,17 @@ PhloxLabF3CEO:
 	cont "nicht begreifen!"
 
 	para "Als ich noch jung"
-	line "war glaubte ich an"
-	para "die verbesserung"
-	line "von #mon durch"
-	para "das Verständnis"
-	line "Ihrer Stärken und"
-	cont "Schwächen."
+	line "war, glaubte ich"
+	para "an die Verbesser-"
+	line "ung von #mon"
+	para "durch das Versteh-"
+	line "en ihrer Stärken"
+	cont "und Schwächen."
 	
 	para "Daraufhin klonte"
-	line "ich ein #mon um"
-	para "meine Theorie zu"
-	line "beweisen."
+	line "ich ein #mon,"
+	para "um meine Theorie"
+	line "zu beweisen."
 
 	para "Es kam zu einem"
 	line "Unfall und durch"
@@ -109,7 +109,7 @@ PhloxLabF3CEO:
 	para "#mon endgültig"
 	line "verboten und meine"
 	para "Ergebnisse wurden"
-	line "mir weggenommen<...>"
+	line "mir weggenommen <...>"
 
 	para "Ich wollte nur die"
 	line "Stärke in der"
@@ -124,28 +124,28 @@ PhloxLabF3CEO:
 	para "mir alles im"
 	line "Leben nahm."
 
-	para "Seit dem, widmete"
+	para "Seitdem widmete"
 	line "ich mein Leben"
 	para "der Gründung eines"
-	line "Medizinischen"
-	para "Forschungsinstitut"
-	line "das den Ziel hat,"
+	line "medizinischen For-"
+	para "schungsinstitutes,"
+	line "das das Ziel hat,"
 	para "die DNA aller"
 	line "#mon in einer"
 	para "Datenbank aufzu-"
 	line "listen und dadurch"
 	para "viel genauer an"
 	line "#mon"
-	para "experimente"
+	para "Experimente"
 	line "ausüben zu können."
 
 	para "Dir gefällt es"
 	line "sicher nicht, was"
-	para "ich hier tuhe,"
+	para "ich hier tue,"
 	line "aber es sind"
 	para "Menschen wie ich,"
 	line "die diese Welt"
-	para "weiter voran"
+	para "weiter voran-"
 	line "schreiten lassen."
 
 	para "#mon sind nur"
@@ -165,23 +165,23 @@ PhloxLabF3CEO:
 
 .officer_appears_text
 	ctxt "Jut Jut."
-	para "Freut mich dich"
-	line "wieder zu treffen."
+	para "Freut mich, dich"
+	line "wiederzutreffen."
 
 	para "Du hast der"
 	line "Polizei wieder"
 	cont "Arbeit abgenommen."
 
-	para "Ich bin mir sicher"
-	line "das du einpaar"
-	para "Insider"
+	para "Ich bin sicher,"
+	line "dass du ein paar"
+	para "Insider-"
 	line "Informationen"
 	para "bekommen haben"
-	line "musst<...>"
+	line "musst <...>"
 	sdone
 
 .officer_talks_to_black_text
-	ctxt "Wie dem auch sei<...>"
+	ctxt "Wie dem auch sei <...>"
 	line "Gute Arbeit"
 	cont "geleistet, Kind."
 
@@ -191,19 +191,19 @@ PhloxLabF3CEO:
 	line "diese Firma hohe"
 	para "Strafzahlungen"
 	line "tätigen müssen und"
-	para "alle die daran"
-	line "beteiligt waren"
+	para "alle, die daran"
+	line "beteiligt waren,"
 	para "können mit einem"
 	line "Aufenthalt in"
-	para "Saxifragia Eiland"
+	para "Saxifragia-Eiland"
 	line "rechnen!"
 	sdone
 
 .black_talks_text
 	ctxt "Schwarz: Und die"
 	line "#mon werden"
-	para "Rehabilitiert und"
-	line "zurück zu Ihren"
+	para "rehabilitiert und"
+	line "zurück zu ihren"
 	para "echten Trainern"
 	line "geschickt."
 	sdone
@@ -211,9 +211,9 @@ PhloxLabF3CEO:
 .officer_talks_to_player_text
 	ctxt "Polizist: Übrigens"
 	line "Kind, du bist aus"
-	para "dem Saxifragia"
+	para "dem Saxifragia-"
 	line "Gefängnis aus-"
-	cont "gebrochen<...>"
+	cont "gebrochen <...>"
 
 	para "Wenn du uns nicht"
 	line "geholfen hättest,"
@@ -227,21 +227,21 @@ PhloxLabF3CEO:
 
 	para "Da nun dieser Fall"
 	line "geschlossen ist,"
-	para "ist es Zeit"
+	para "ist es Zeit,"
 	line "nach Hause zu"
-	para "gehen und zu tun"
+	para "gehen und zu tun,"
 	line "was mir Spaß"
-	cont "macht<...>"
+	cont "macht <...>"
 
-	para "<...>Undzwar der"
-	line "Einzigwahre Arena"
-	para "Leiter von"
-	line "Euphorbia City"
-	cont "zu sein!"
+	para "<...> Und zwar, der"
+	line "einzig wahre"
+	para "Arena-Leiter"
+	line "vom Euphorbia"
+	cont "City zu sein!"
 
 	para "Ich bin mir"
 	line "ziemlich sicher,"
-	para "das wir uns dort"
+	para "dass wir uns dort"
 	line "bald sehen werden."
 
 	para "Bis dahin."
@@ -255,14 +255,14 @@ PhloxLabF3Trainer1:
 	cont "gebiet."
 
 	para "Aber für die da"
-	line "oben schon<...>"
+	line "oben schon <...>"
 	done
 
 .before_battle_text
 	ctxt "Seit dem ich so"
-	line "viel Geld verdiene"
-	para "habe ich"
-	line "angefangen mit"
+	line "viel Geld ver-"
+	para "diene, habe ich"
+	line "angefangen, mit"
 	para "dem Papier-Geld"
 	line "meinen Kaminofen"
 	para "anzuzünden, wenn"
@@ -280,23 +280,23 @@ PhloxLabF3Trainer2:
 	trainer EVENT_PHLOX_LAB_F3_TRAINER_2, SCIENTIST, 11, .before_battle_text, .battle_won_text
 
 	ctxt "Das wollte ich nie"
-	line "werden, im ernst<...>"
+	line "werden, im Ernst <...>"
 	done
 
 .before_battle_text
 	ctxt "Dafür habe ich"
 	line "jetzt echt keine"
-	cont "Zeit Kind!"
+	cont "Zeit, Kind!"
 
 	para "Ich muss meine"
 	line "Arbeitsstunden"
-	cont "eintragen<...>"
+	cont "eintragen <...>"
 	done
 
 .battle_won_text
 	ctxt "Ich trage einfach"
 	line "2 Wochen im"
-	cont "vorraus ein."
+	cont "Voraus ein."
 	done
 
 PhloxLabF3Trainer3:
@@ -305,11 +305,11 @@ PhloxLabF3Trainer3:
 	ctxt "Ich hätte warten"
 	line "sollen, bis du den"
 	para "CEO zuerst"
-	line "besiegst<...>"
+	line "besiegst <...>"
 	done
 
 .before_battle_text
-	ctxt "Ich bin Froh, dass"
+	ctxt "Ich bin froh, dass"
 	line "du fast alle in"
 	para "dieser Firma"
 	line "besiegt hast."
@@ -324,7 +324,7 @@ PhloxLabF3Trainer3:
 	done
 
 .battle_won_text
-	ctxt "Na toll<...>"
+	ctxt "Na toll <...>"
 	done
 
 PhloxLab3F_MapEventHeader:: db 0, 0

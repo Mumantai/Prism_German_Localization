@@ -14,7 +14,7 @@ PhaceliaCityTownSign:
 	done
 
 PhaceliaCityMoveDeleterSign:
-	ctxt "Attacken"
+	ctxt "Attacken-"
 	next "verlerner."
 	done
 
@@ -26,7 +26,7 @@ PhaceliaCityMachoke:
 	endtext
 
 .text
-	ctxt "Maschock: Rhahhh!"
+	ctxt "Maschock: Mahhh!"
 	done
 
 PhaceliaCityBlockingGuard:
@@ -37,10 +37,10 @@ PhaceliaCityBlockingGuard:
 
 	para "<...>"
 
-	para "WARTE<...>"
+	para "WARTE <...>"
 	
 	para "Bist du eine"
-	line "Paletten"
+	line "Paletten-"
 	cont "Patrouille?"
 
 	para "Wir suchen nach"
@@ -51,24 +51,24 @@ PhaceliaCityBlockingGuard:
 	para "Oh, warte, du bist"
 	line "nur undercover?"
 
-	para "Oh, Ich sehe."
+	para "Oh, ich sehe."
 
 	para "OK, solange du zu"
-	line "den guten gehörst"
-	para "lass ich dich"
+	line "den Guten gehörst,"
+	para "lasse ich dich"
 	line "natürlich rein."
 	done
 
 PhaceliaCityNPC1:
 	ctxt "Dank unserer"
-	line "Gewerkschaft, darf"
+	line "Gewerkschaft habe"
 	para "ich jeden Tag"
-	line "15m Pause machen."
+	line "15 Minuten Pause."
 	done
 
 PhaceliaCityNPC2:
 	ctxt "Ich will zu Andres"
-	line "Crew gehören eines"
+	line "Crew gehören, eines"
 	cont "schönen Tages!"
 
 	para "Er wurde durch die"
@@ -78,7 +78,7 @@ PhaceliaCityNPC2:
 	cont "Familie nicht."
 
 	para "Er ist halb Mensch"
-	line "& Halb Machomei!"
+	line "und halb Machomei!"
 	done
 
 PhaceliaCity_MapEventHeader:: db 0, 0

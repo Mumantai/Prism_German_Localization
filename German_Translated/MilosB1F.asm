@@ -31,12 +31,12 @@ MilosB1FFluteDude:
 	cont "faszinierend."
 
 	para "Ich habe es in"
-	line "der unteren ebene"
+	line "der unteren Ebene"
 	cont "gesehen."
 
-	para "Die Gerüchte sagen"
-	line "es stamme aus"
-	para "einer Antiken"
+	para "Die Gerüchte be-"
+	line "sagen, es stamme"
+	para "aus einer antiken"
 	line "Zivilisation."
 	done
 
@@ -47,16 +47,16 @@ MilosB1FFluteDude:
 	para "Wenn du mir ein"
 	line "Glas Limonade"
 	para "bringst, gebe ich"
-	line "dir etwas tolles!"
+	line "dir etwas Tolles!"
 
-	para "Wie schauts aus?"
+	para "Wie schaut's aus?"
 	line "Besorgst du mir"
-	cont "welchen?<...>"
+	cont "welche? <...>"
 	done
 
 .said_no_text
 	ctxt "Das ist aber nicht"
-	line "nett<...>"
+	line "nett <...>"
 	done
 
 .no_lemonade_text
@@ -65,11 +65,11 @@ MilosB1FFluteDude:
 	done
 
 .gave_lemonade_text
-	ctxt "Perfekt! kann es"
-	line "kaum abwarten es"
-	cont "zu trinken!"
+	ctxt "Perfekt! Kann es"
+	line "kaum abwarten,"
+	cont "sie zu trinken!"
 
-	para "Warte mal<...>"
+	para "Warte mal <...>"
 
 	para "Hast du noch nie"
 	line "was von Kühlung"
@@ -86,14 +86,14 @@ MilosB1FFluteDude:
 	para "Ich nehme die Limo"
 	line "nicht an, solange"
 	para "du nichts von mir"
-	line "annehmen kannst<...>"
+	line "annehmen kannst <...>"
 	done
 
 MilosB1F_YellowPatroller:
 	trainer EVENT_MILOS_B1F_TRAINER_1, PATROLLER, 4, .before_battle_text, .battle_won_text
 
 	ctxt "Schau mal, mir"
-	line "gehts heute nicht"
+	line "geht's heute echt"
 	cont "nicht so gut."
 
 	para "Lass mich in Ruh!"
@@ -101,7 +101,7 @@ MilosB1F_YellowPatroller:
 	done
 
 .before_battle_text
-	ctxt "Dein ernst?"
+	ctxt "Dein Ernst?"
 	done
 
 .battle_won_text
@@ -181,7 +181,7 @@ MilosB1FCutscene:
 	step_end
 
 .text_1
-	ctxt "Schwarz: Nun Boss<...>"
+	ctxt "Schwarz: Boss <...>"
 
 	para "Wann kriegen wir"
 	line "eigentlich unsere"
@@ -203,13 +203,13 @@ MilosB1FCutscene:
 .text_4
 	ctxt "Nr. 08: Ah echt?"
 	line "Dann erkläre mir"
-	para "mal folgendes"
-	line "FRÄULEIN!:"
+	para "mal Folgendes,"
+	line "Fräulein:"
 
 	para "Warum haben die"
 	line "Bullen dann einen"
 	para "Verdacht, dass in"
-	line "Untergrund City"
+	line "Untergrund-City"
 	cont "etwas faul ist?"
 	sdone
 
@@ -217,14 +217,14 @@ MilosB1FCutscene:
 	ctxt "Schwarz: Es hat"
 	line "vermutlich etwas"
 	para "mit den Natur-"
-	line "Katastrophen"
-	cont "neuerdings zu tun<...>"
+	line "Katastrophen neu-"
+	cont "erdings zu tun <...>"
 	sdone
 
 .text_6
 	ctxt "Grün: 'Fräulein'?"
 
-	para "Warte<...> DIGGA<...>"
+	para "Warte <...> DIGGA <...>"
 
 	para "Du bist ne Frau?"
 	sdone
@@ -241,7 +241,7 @@ MilosB1FCutscene:
 	line "ich mich an alle"
 	para "Mädchen aus der"
 	line "Schule erinnern"
-	cont "würde<...>"
+	cont "würde <...>"
 	sdone
 
 .text_9
@@ -253,8 +253,8 @@ MilosB1FCutscene:
 
 .text_10
 	ctxt "Nr. 13: Ist das"
-	line "etwa, was Ihr als"
-	para "<'>Job erledigen'"
+	line "etwa, was ihr als"
+	para "'Job erledigen'"
 	line "bezeichnet?"
 	
 	sdone
@@ -270,7 +270,7 @@ MilosB1FCutscene:
 	ctxt "Nr. 13: Seid jetzt"
 	line "alle mal LEISE und"
 	para "macht euren"
-	line "scheiss job!"
+	line "scheiß Job!"
 
 	para "Ich will keine"
 	line "Bullen, kapische?"
@@ -280,43 +280,43 @@ MilosB1FCutscene:
 	ctxt "Gelb: Kapiert, die"
 	line "Bullen sind aber"
 	para "unser geringstes"
-	line "Problem<...>"
+	line "Problem <...>"
 	sdone
 
 .text_14
 	ctxt "Grün: Da ist so"
 	line "ein Kind aus einer"
 	para "weit entfernten"
-	line "Region, der uns"
-	para "immer in die quere"
+	line "Region, das uns"
+	para "immer in die Quere"
 	line "kommt!"
 	sdone
 
 .text_15
 	ctxt "Schwarz: Egal was"
 	line "wir auch tun,"
-	para "werden wir auf"
+	para "wir werden auf"
 	line "dieses 'Problem'"
-	cont "stossen."
+	cont "stoßen."
 	sdone
 
 .text_16
 	ctxt "Gelb: Es ist sowas"
 	line "wie unser"
-	cont "Schicksal<...>"
+	cont "Schicksal <...>"
 	sdone
 
 .text_17
-	ctxt "Green: Genau!"
+	ctxt "Grün: Genau!"
 	sdone
 
 .text_18
 	ctxt "Nr. 13: Wenn dem"
-	line "so ist<...>"
+	line "so ist <...>"
 
 	para "Dann gebe ich dem"
 	line "Boss lieber mal"
-	cont "bescheid."
+	cont "Bescheid."
 	sdone
 
 .text_19
@@ -325,15 +325,15 @@ MilosB1FCutscene:
 	sdone
 
 .text_20
-	ctxt "Nr. 13: macht euch"
+	ctxt "Nr. 13: Macht euch"
 	line "keine Sorgen."
 	sdone
 
 .text_21
 	ctxt "Nr. 08: Nunja,"
-	line "haltet uns "
-	para "weiterhin am"
-	line "laufenden<...>"
+	line "haltet uns"
+	para "weiterhin auf"
+	line "dem Laufenden <...>"
 
 	para "Wir sind kurz"
 	line "davor, das Projekt"
@@ -343,7 +343,7 @@ MilosB1FCutscene:
 .text_22
 	ctxt "Grün: Das war"
 	line "aber mal ein"
-	cont "geplänkel<...>"
+	cont "Geplänkel <...>"
 	sdone
 
 .text_23
@@ -356,7 +356,7 @@ MilosB1FCutscene:
 
 .text_24
 	ctxt "Grün: WAS sind"
-	line "wir?<...> WIE"
+	line "wir? <...> WIE"
 	cont "kommst du darauf?"
 	sdone
 

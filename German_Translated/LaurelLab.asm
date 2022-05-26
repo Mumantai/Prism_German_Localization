@@ -48,11 +48,11 @@ LaurelLabFossilCaseNPC:
 	cont "fossil."
 
 	para "Fossile findest"
-	line "du durch mining,"
-	cont "also viel glück!"
+	line "du durch Mining,"
+	cont "also viel Glück!"
 
 	para "Oh, du brauchst"
-	line "aber etwas um sie"
+	line "aber etwas, um sie"
 	cont "tragen zu können."
 
 	para "Hier, nimm das."
@@ -67,11 +67,11 @@ LaurelLabFossilCaseNPC:
 	done
 
 .have_one_fossil_text
-	ctxt "Du hast einen"
+	ctxt "Du hast ein"
 	line "Fossil dabei!"
 
-	para "Willst du es"
-	line "beleben dann bring"
+	para "Willst du es be-"
+	line "leben? Dann bring"
 	cont "zu meinem Partner."
 
 	para "Oder willst du es"
@@ -83,7 +83,7 @@ LaurelLabFossilCaseNPC:
 	ctxt "Du hast @"
 	deciram wFossilCaseCount, 1, 2
 	ctxt ""
-	line "fossile in deiner"
+	line "Fossile in deiner"
 	cont "Fossiltasche!"
 
 	para "Wenn du welche"
@@ -97,7 +97,7 @@ LaurelLabFossilCaseNPC:
 	prompt
 
 .refused_text
-	ctxt "OK, komm zurück"
+	ctxt "OK, komm zurück,"
 	line "wenn du deine"
 	cont "Meinung änderst."
 	done
@@ -237,7 +237,7 @@ LaurelLabRevivalScientist:
 .help_me_text
 	ctxt "Komm, für den"
 	line "Prozess brauch ich"
-	cont "deine hilfe."
+	cont "deine Hilfe."
 	prompt
 
 .introduction_text
@@ -249,7 +249,7 @@ LaurelLabRevivalScientist:
 
 	para "Meine Maschiene"
 	line "holt Fossile zu-"
-	cont "rück ins leben!"
+	cont "rück ins Leben!"
 
 	para "Wollen wir es an"
 	line "deinen mal testen?"
@@ -257,7 +257,7 @@ LaurelLabRevivalScientist:
 
 .rejected_text
 	ctxt "Was? Du traust"
-	line "nicht einem<...>"
+	line "nicht einem <...>"
 
 	para "WISSENSCHAFTLER?!"
 	done
@@ -273,10 +273,10 @@ LaurelLabRevivalScientist:
 	ctxt "WAS? Du willst"
 	line "aufhören?"
 
-	para "OK, komm wieder"
+	para "OK, komm wieder,"
 	line "wenn du Fossile"
 	para "wiederbeleben"
-	line "möchstest."
+	line "möchtest."
 	done
 
 .here_is_your_mon_text
@@ -287,7 +287,7 @@ LaurelLabRevivalScientist:
 	done
 
 .no_room_text
-	ctxt "Du hast kein platz"
+	ctxt "Du hast kein Platz"
 	line "in deinem Team!"
 	
 	para "Bist du von einem"

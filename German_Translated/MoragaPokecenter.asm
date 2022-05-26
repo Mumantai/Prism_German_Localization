@@ -5,7 +5,7 @@ MoragaPokecenter_MapScriptHeader;trigger count
 
 MoragaPokecenterNPC1:
 	ctxt "Das Kraftwerk in"
-	line "der Nähe wurde "
+	line "der Nähe wurde"
 	cont "renoviert."
 
 	para "Sie ließen sogar"
@@ -19,11 +19,11 @@ MoragaPokecenterNPC1:
 
 MoragaPokecenterNPC2:
 	ctxt "Du willst die"
-	line "Orden von Rijon "
+	line "Orden von Rijon"
 	cont "sammeln?"
 
 	para "Da hast du aber"
-	line "einen Harten Weg"
+	line "einen harten Weg"
 	cont "vor dir."
 
 	done
@@ -34,7 +34,7 @@ MoragaPokecenterNPC3:
 	para "eröffne, dann nur"
 	line "für Jungs."
 
-	para "Das wird alle "
+	para "Das wird alle"
 	line "umhauen."
 
 	done

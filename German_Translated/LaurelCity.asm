@@ -14,7 +14,7 @@ LaurelCity_GoldToken:
 	db GOLD_TOKEN
 
 LaurelCityMagikarpCavernsSign:
-	ctxt "Karpador"
+	ctxt "Karpador-"
 	next "Bucht"
 	done
 
@@ -29,14 +29,14 @@ LaurelCityNameRaterSign:
 	done
 
 LaurelCityCitySign:
-	ctxt "Die Koenigliche"
+	ctxt "Die königliche"
 	next "Stadt"
 	done
 
 LaurelCityNPC1:
 	ctxt "Es gibt hier ein"
-	line "Labor in der"
-	para "Fossile wieder zu"
+	line "Labor, in dem"
+	para "Fossile wieder zum"
 	line "Leben erwachen."
 	done
 
@@ -46,11 +46,11 @@ LaurelCityNPC2:
 	cont "zu hohe Ansprüche."
 
 	para "Ich sorge mich um"
-	line "diese Generation<...>"
+	line "diese Generation <...>"
 	done
 
 LaurelCityNPC3:
-	ctxt "Vor kurzem öffnete"
+	ctxt "Vor Kurzem öffnete"
 	line "hier ein Laden."
 	done
 
@@ -58,8 +58,8 @@ LaurelCityNPC4:
 	ctxt "So erbärmlich!"
 
 	para "Die Arenaleiterin"
-	line "denkt sie wäre"
-	cont "eine Königin<...>"
+	line "denkt, sie wäre"
+	cont "eine Königin <...>"
 
 	para "Ich kann sie nicht"
 	line "leiden!"
@@ -67,7 +67,7 @@ LaurelCityNPC4:
 
 LaurelCityMagikarpCavernsGuard:
 	ctxt "Du brauchst den"
-	line "lokalen Orden um"
+	line "lokalen Orden, um"
 	cont "zu passieren."
 	done
 
@@ -129,7 +129,7 @@ LaurelCityTeleportation:
 	end
 
 .nothing_registered_text
-	ctxt "KEINE STAEDTE"
+	ctxt "KEINE STÄDTE"
 	line "REGISTRIERT!"
 	done
 

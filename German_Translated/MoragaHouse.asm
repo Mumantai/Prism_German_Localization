@@ -5,19 +5,18 @@ MoragaHouse_MapScriptHeader;trigger count
 
 MoragaHouseNPC1:
 	ctxt "Papa verhält sich"
-	line "immer sehr "
+	line "immer sehr"
 	cont "nostalgisch."
 
 	done
 
 MoragaHouseNPC2:
-	ctxt "Die"
-	line "Kriminalitätsrate"
-	para "dieser Stadt ist"
-	line "gestiegen, seit"
-	para "sie den Botan"
-	line "Bahnhof gebaut "
-	cont "haben."
+	ctxt "Die Kriminali-"
+	line "tätsrate dieser"
+	para "Stadt ist gestie-"
+	line "gen, seit sie den"
+	para "Botan-Bahnhof"
+	line "gebaut haben."
 
 	done
 

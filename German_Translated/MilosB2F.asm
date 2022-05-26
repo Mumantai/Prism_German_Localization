@@ -123,7 +123,7 @@ MilosB2FColorSwitchExplanationSign:
 
 .text
 	ctxt "Farbige Schalter"
-	line "entscheiden ob"
+	line "entscheiden, ob"
 	para "die Blöcke in der"
 	line "jeweiligen Farbe"
 	para "sichtbar sind oder"
@@ -236,7 +236,7 @@ MilosB2FJump:
 MilosB2F_PurplePatroller:
 	trainer EVENT_MILOS_B2F_PURPLE_PATROLLER, PATROLLER, 7, .before_battle_text, .battle_won_text
 
-	ctxt "Rot versucht die"
+	ctxt "Rot versucht, die"
 	line "komischen Kugel-"
 	para "splitter alle"
 	line "aufzusammeln."
@@ -247,31 +247,31 @@ MilosB2F_PurplePatroller:
 	line "seltenes Item"
 	cont "irgendwo!"
 
-	para "Wenn wir es finden"
-	line "wird Rot sehr"
-	para "zufrieden mit uns"
-	line "sein!"
+	para "Wenn wir es fin-"
+	line "den, wird Rot"
+	para "sehr zurieden mit"
+	line "uns sein!"
 	done
 
 .battle_won_text
 	ctxt "Wir sind keine"
-	line "Gegner für dich<...>"
+	line "Gegner für dich <...>"
 	done
 
 MilosB2F_BluePatroller:
 	trainer EVENT_MILOS_B2F_BLUE_PATROLLER, PATROLLER, 10, .before_battle_text, .battle_won_text
 
-	ctxt "Ich verliere mein"
-	line "Respekt wenn ich"
-	para "gegen ein Kind"
-	line "verliere!"
+	ctxt "Ich verliere mei-"
+	line "nen Respekt, wenn"
+	para "ich gegen ein"
+	line "Kind verliere!"
 	done
 
 .before_battle_text
 	ctxt "Diesmal bin ich"
 	line "vorbereitet!"
 
-	para "Rot braucht ruhe"
+	para "Rot braucht Ruhe"
 	line "für seinen Plan!"
 	done
 

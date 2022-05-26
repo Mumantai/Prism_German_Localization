@@ -42,7 +42,7 @@ MagikarpCavernsMainTrialNPC:
 .introduction_text
 	ctxt "Willkommen!"
 
-	para "Wie ich sehe hast"
+	para "Wie ich sehe, hast"
 	line "einen Weg um den"
 	para "heiligen Fisch"
 	line "gefunden?"
@@ -57,22 +57,22 @@ MagikarpCavernsMainTrialNPC:
 	para "Die Felsen hier"     
 	line "habe ich nach dem"
 	para "Ebenbild unseres"
-	line "Idol #mons"
+	line "Idols #mon"
 	cont "aufgestellt."
 
-	para "Ja, das Heilige"
-	line "Fisch #mon"
+	para "Ja, das heilige"
+	line "Fisch-#mon"
 	cont "Karpador!"
 
 	para "Alte Geschichten"
-	line "sagen uns, das"
+	line "sagen uns, dass"
 	para "es früher viel"
 	line "mächtiger war als"
 	cont "heute."
 
 	para "Mein Stamm betet"
 	line "seit Generationen"
-	para "dafür, das es"
+	para "dafür, dass es"
 	line "wieder so mächtig"
 	cont "wird wie damals."
 
@@ -88,9 +88,9 @@ MagikarpCavernsMainTrialNPC:
 	para "ursprünglichen"
 	line "Form!"
 
-	para "OK, weist du was?"
+	para "OK, weißt du was?"
 	line "Ich rede nicht mit"
-	cont "ungläubigen."
+	cont "Ungläubigen."
 
 	para "<...>"
 
@@ -99,46 +99,46 @@ MagikarpCavernsMainTrialNPC:
 	para "Der Pfad im Wald"
 	line "wird versperrt?"
 
-	para "Hmmm<...>"
+	para "Hmmm <...>"
 
-	para "<...>Weist du was?"
+	para "<...> Weißt du was?"
 
 	para "Mein Kollege wird"
-	line "dich vorbei lassen"
-	para "wenn du dich "
+	line "dich vorbeilassen,"
+	para "wenn du dich"
 	line "meiner Prüfung"
 	cont "stellst."
 
 	para "In dieser Prüfung"
 	line "verwandele ich"
-	para "dich in einen"
+	para "dich in ein"
 	line "Karpador!"
 
 	para "In dieser heiligen"
-	line "Form, wirst du es"
+	line "Form wirst du"
 	para "verstehen, was es"
 	line "bedeutet, ein"
 	cont "Karpador zu sein!"
 
-	para "Wie Karpador die"
+	para "Wie Karpador der"
 	line "Härte der Natur"
 	cont "trotzen!"
 
 	para "Dann erkennst du"
-	line "vieleicht, die"
-	para "wahre stärke"
+	line "vielleicht die"
+	para "wahre Stärke"
 	line "dieser #mon!"
 
 	para "Sei dir aber"
 	line "bewusst, dass du"
-	para "erst zurück "
+	para "erst zurück-"
 	line "verwandelt wirst,"
 	para "wenn du die"
 	line "Prüfung bestehst."
 	
 	para "Sonst bleibst du"
 	line "für immer ein"
-	cont "Karpador<...>"
+	cont "Karpador <...>"
 	
 	para "<...>"
 
@@ -146,9 +146,9 @@ MagikarpCavernsMainTrialNPC:
 	done
 
 .accepted_text
-	ctxt "Gut<...>"
+	ctxt "Gut <...>"
 
-	para "Viel erfolg!"
+	para "Viel Erfolg!"
 	sdone
 
 .already_completed_text
@@ -161,33 +161,33 @@ MagikarpCavernsMainTrialNPC:
 	para "Mein Kollege im"
 	line "Wald wird dich"
 	para "niemals ohne meine"
-	line "Erlaubnis vorbei"
-	cont "lassen."
+	line "Erlaubnis vor-"
+	cont "beilassen."
 	done
 
 .big_bag
 	ctxt "Du hast zu viele"
 	line "Items dabei,"
-	para "die du als "
+	para "die du als"
 	line "Karpador nicht"
 	cont "tragen kannst!"
 	
-	para "Verstaue einige "
+	para "Verstaue einige"
 	line "deiner Items im PC"
 	cont "und komm wieder."
 	done
 
 MagikarpCavernsMainTunodBlock:
-	ctxt "Ein Moment."
+	ctxt "Einen Moment."
 
 	para "Nördlich dieser"
 	line "Höhle liegt die"
 	cont "Tunod-Region."
 
 	para "Du bist noch nicht"
-	line "stark genug um mit"
-	para "den Trainern dort"
-	line "mitzuhalten."
+	line "stark genug, um"
+	para "mit den Trainern"
+	line "dort mitzuhalten."
 
 	para "Komm zurück, wenn"
 	line "du dich als"

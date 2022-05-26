@@ -4,9 +4,9 @@ MtEmberRoom1_MapScriptHeader;trigger count
 	db 0
 	
 MtEmberRoom1NPC:
-	ctxt "Oh<...> Hallo!"
+	ctxt "Oh <...> Hallo!"
 	
-	para "Ich versuche den"
+	para "Ich versuche, den"
 	line "Glühweg zu"
 	cont "erreichen."
 	

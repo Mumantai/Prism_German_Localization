@@ -5,9 +5,9 @@ MersonPokecenter_MapScriptHeader;trigger count
 
 MersonPokecenterNPC1:
 	ctxt "Der Weg zur"
-	line "Süd-Rijon Region"
+	line "Süd-Rijon-Region"
 	para "hätte schon längst"
-	line "wieder frei sein "
+	line "wieder frei sein"
 	cont "müssen!"
 
 	done

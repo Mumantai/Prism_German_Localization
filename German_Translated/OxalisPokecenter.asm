@@ -8,7 +8,7 @@ OxalisPokecenterNPC1:
 
 	para "<...>"
 
-	para "Ich schlage mein"
+	para "Ich schlage meinen"
 	line "alten Rekord!"
 	done
 
@@ -19,22 +19,22 @@ OxalisPokecenterNPC2:
 	line "sind ganz anders."
 
 	para "Einige erkenne ich"
-	line "wieder, aber die "
+	line "wieder, aber die"
 	para "meisten sind völ-"
 	line "lig verschieden."
 	done
 
 OxalisPokecenterNPC3:
 	ctxt "Ein Trainer lachte"
-	line "mein #mon aus<...>"
+	line "mein #mon aus <...>"
 
 	para "Aber ich denke,"
 	line "Pummeluff ist die"
-	cont "süsseste!"
+	cont "Süßeste!"
 
-	para "Vieleicht weil sie"
-	line "in Rijon nicht in"
-	cont "der Wildnis leben?"
+	para "Vielleicht, weil"
+	line "sie in Rijon nicht"
+	cont "wild vorkommen?"
 	done
 
 OxalisPokecenter_MapEventHeader ;filler

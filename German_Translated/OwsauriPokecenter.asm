@@ -8,20 +8,20 @@ OwsauriPokecenterNPC1:
 	line "City ist die Liga"
 	cont "dieser Region."
 
-	para "Aber das Wusstest"
+	para "Aber das wusstest"
 	line "du bestimmt schon,"
-	cont "stimmts?"
+	cont "richtig?"
 	done
 
 OwsauriPokecenterNPC2:
 	ctxt "Geh nicht in die"
-	line "Arena ohne ein"
+	line "Arena ohne einen"
 	cont "Pulli anzuhaben!"
 	done
 
 OwsauriPokecenterNPC3:
-	ctxt "Sie haben ein Ort"
-	line "geschaffen, wo"
+	ctxt "Sie einen einen"
+	line "Ort geschaffen, wo"
 	para "Geologen in Hay-"
 	line "ward City Erdbeben"
 	para "erforschen können,"

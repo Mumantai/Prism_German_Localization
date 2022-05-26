@@ -12,21 +12,21 @@ PrisonWorkoutNPC1:
 	ctxt "Ich hörte, dass"
 	line "diese Insel der"
 	para "Ruheort der"
-	line "Legendären Naljo"
+	line "legendären Naljo-"
 	cont "Wächter war."
 
 	para "Menschen und"
 	line "andere #mon"
-	para "war es verboten"
+	para "war es verboten,"
 	line "diese Insel zu"
 	cont "betreten."
 
-	para "Die von ausen"
+	para "Die von außen"
 	line "gerufene Bau-"
 	cont "Firma hat das"
 	para "nicht interessiert"
 	line "und haben wie"
-	para "befohlen, das"
+	para "befohlen das"
 	line "Gefängnis auf"
 	para "dieses historische"
 	line "Denkmal gebaut."
@@ -34,27 +34,27 @@ PrisonWorkoutNPC1:
 
 PrisonWorkoutNPC2:
 	ctxt "Muskeln aufbauen"
-	line "ist das einzige,"
+	line "ist das Einzige,"
 	para "was ich zur"
 	line "Abwechslung noch"
-	cont "tun kann<...>"
+	cont "tun kann <...>"
 
 	para "Es füllt dennoch"
 	line "nicht die Leere"
-	cont "in mir<...>"
+	cont "in mir <...>"
 
 	para "Als sie mich hier"
 	line "einsperrten,"
-	para "trennten Sie mich"
+	para "trennten sie mich"
 	line "von meinen"
-	cont "#mon<...>"
+	cont "#mon <...>"
 
 	para "Die Freundschaft"
 	line "zwischen uns war"
 	para "so stark, wie es"
 	line "meine Muskeln"
 	para "niemals werden"
-	line "könnten<...>"
+	line "könnten <...>"
 	done
 
 PrisonWorkoutKeyGuy:
@@ -74,13 +74,13 @@ PrisonWorkoutKeyGuy:
 .give_key_text
 	ctxt "Hah!"
 
-	para "Was willst du"
+	para "Was willst du,"
 	line "kleiner Wurm?"
 
 	para "Suchst du nach"
 	line "Zellenschlüsseln?"
 
-	para "Jup, ich hab noch"
+	para "Jupp, ich hab noch"
 	line "einen zweiten."
 
 	para "Ich brauchs nicht,"
@@ -99,7 +99,7 @@ PrisonWorkoutKeyGuy:
 	done
 
 .no_space_text
-	ctxt "Du hast kein platz"
+	ctxt "Du hast kein Platz"
 	line "im Beutel."
 	done
 
@@ -126,36 +126,36 @@ PrisonWorkoutGuard:
 	jumptext .password_text
 
 .already_beaten_text
-	ctxt "Hey Kiddie."
+	ctxt "Hey, Kiddie."
 
 	para "Du solltest mit"
 	line "den leichtesten"
 	cont "Gewichten starten."
 
 	para "Du brauchst noch"
-	line "sehr viel training"
+	line "sehr viel Training"
 	para "bevor du solche"
 	line "Muskeln wie wir"
 	cont "kriegst."
 	done
 
 .before_battle_text
-	ctxt "Ohaa Cüüsch!"
+	ctxt "Meine Güte!"
 
-	para "Du pisser hast"
+	para "Du Pisser hast"
 	line "mich voll"
-	para "erschreckt jaaa,"
+	para "erschreckt,"
 	line "ich schwör."
 
 	para "Hier geht so"
-	line "viel krasses ab"
-	cont "und so<...>"
+	line "viel Krasses ab"
+	cont "und so <...>"
 
-	para "Lass uns zur be-"
+	para "Lass uns zur Be-"
 	line "ruhigung kämpfen!"
 
-	para "Aber ohne treten"
-	line "tamam?"
+	para "Aber ohne Treten"
+	line "klaro?"
 	sdone
 
 .battle_won_text
@@ -168,14 +168,14 @@ PrisonWorkoutGuard:
 	line "auf dich auf."
 	
 	para "Diese #mon sind"
-	line "Unvorhersehbar."
+	line "unvorhersehbar."
 	done
 
 .password_text
 	ctxt "Was ist das?"
 
-	para "Johnny-boy sagte"
-	line "es ist OK dir den"
+	para "Johnny-Boy sagte,"
+	line "es ist OK, dir das"
 	cont "Passwort zu geben?"
 
 	para "Ah, OK. Bitte"
@@ -191,7 +191,7 @@ PrisonWorkoutGuard:
 	cont "den USA!"
 
 	para "Oder war es:"
-	line "Jigglydoughnut<...>?"
+	line "Jigglydoughnut <...>?"
 
 	para "Ne, ne, ne! ich"
 	line "bin sicher es war:"
@@ -209,7 +209,7 @@ PrisonWorkoutNurse:
 	jumptext .after_healing_text
 
 .before_healing_text
-	ctxt "Du siehst Müde aus"
+	ctxt "Du siehst müde aus"
 
 	para "Ruh dich hier"
 	line "ruhig etwas aus."

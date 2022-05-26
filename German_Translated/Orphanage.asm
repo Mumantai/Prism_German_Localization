@@ -110,7 +110,7 @@ OrphanageDonationLady:
 .which_mon_text
 	ctxt "Willkommen im"
 	line "#mon-"
-	cont "Weisenhaus."
+	cont "Waisenhaus."
 
 	para "Welches #mon"
 	line "möchtest du"
@@ -135,7 +135,7 @@ OrphanageDonationLady:
 
 .egg_text
 	ctxt "Wir nehmen keine"
-	line "Eier an<...>"
+	line "Eier an <...>"
 	done
 
 .confirmation_text
@@ -150,13 +150,13 @@ OrphanageDonationLady:
 	para "Ich schreibe dir"
 	line "@"
 	deciram wTempNumber, 2, 0
-	ctxt " Weisenpunkte"
+	ctxt " Waisenpunkte"
 	cont "auf die Karte gut."
 
 
 	para "Desweiteren heilen"
-	line "wir, als Zusatz-"
-	para "leistung, dein"
+	line "wir als Zusatz-"
+	para "leistung dein"
 	line "Team."
 	sdone
 
@@ -168,7 +168,7 @@ OrphanageDonationLady:
 .first_welcome_text
 	ctxt "Willkommen beim"
 	line "#mon-"
-	cont "Weisenhaus."
+	cont "Waisenhaus."
 
 	para "Einige Leute fang-"
 	line "en #mon und"
@@ -184,22 +184,22 @@ OrphanageDonationLady:
 	line "lich darum kümmern"
 
 	para "Da du zum ersten"
-	line "mal hier bist,"
+	line "Mal hier bist,"
 	para "kriegst du"
 	line "deine eigene"
-	cont "Weisenkarte."
+	cont "Waisenkarte."
 	sdone
 
 .received_orphan_card_text
 	ctxt "Jedesmal, wenn du"
 	line "uns ein #mon,"
 	para "überlässt, erhälst"
-	line "du Weisenpunkte."
+	line "du Waisenpunkte."
 
 	para "Die Menge der"
 	line "Punkte hängt von"
 	para "vielen Faktoren"
-	line "des #mon's ab."
+	line "des #mon ab."
 
 	para "Wenn du genügend"
 	line "Punkte hast,"
@@ -383,7 +383,7 @@ OrphanageAdoptionLady:
 
 .introduction_text
 	ctxt "Hallo, du kannst"
-	line "mit Weisenpunkten"
+	line "mit Waisenpunkten"
 	para "ein #mon"
 	line "adoptieren."
 	sdone
@@ -395,8 +395,8 @@ OrphanageAdoptionLady:
 
 .come_again_text
 	ctxt "Komm wieder, wenn"
-	line "du ein #mon ad-"
-	cont "optieren möchtest."
+	line "du ein #mon"
+	cont "adoptieren willst."
 	done
 
 .already_received_text
@@ -414,7 +414,7 @@ OrphanageAdoptionLady:
 .no_room_text
 	ctxt "Tut mir leid, aber"
 	line "dein Team und dei-"
-	cont "ne Box i voll."
+	cont "ne Box sind voll."
 	done
 
 .confirmation_text

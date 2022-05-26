@@ -29,7 +29,7 @@ OwsauriStatEXPNPC:
 
 .introduction_text
 	ctxt "Für ¥500 verrate"
-	line "ich dir die Fleiß"
+	line "ich dir die Fleiß-"
 	para "Punkte von einem"
 	line "#mon von dir."
 

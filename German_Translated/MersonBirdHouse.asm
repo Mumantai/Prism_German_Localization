@@ -18,7 +18,7 @@ MersonBirdHouseDude:
 	ctxt "Ha!"
 
 	para "Die Geschwindig-"
-	line "keit eines Vogel"
+	line "keit eines Vogel-"
 	para "#mon ist nicht"
 	line "zu übertreffen!"
 
@@ -27,14 +27,14 @@ MersonBirdHouseDude:
 	para "zu sein, der vor"
 	line "Mut platzt!"
 
-	para "Ich denke du wirst"
-	line "diese TM lieben,"
-	cont "wie ich!"
+	para "Ich denke, du"
+	line "wirst diese TM"
+	cont "lieben wie ich!"
 
 	sdone
 
 .after_TM_text
-	ctxt "TM62 enthält "
+	ctxt "TM62 enthält"
 	line "Himmelsfeger!"
 
 	para "Zwar benötigt es"
@@ -66,7 +66,7 @@ MersonBirdHouseXatu:
 	endtext
 
 .text
-	ctxt "Xatu: tu!!!"
+	ctxt "Xatu: Tu!"
 
 	done
 
@@ -78,7 +78,7 @@ MersonBirdHousePidgeot:
 	endtext
 
 .text
-	ctxt "Tauboss: Ott ot!"
+	ctxt "Tauboss: Oss oss!"
 
 	done
 

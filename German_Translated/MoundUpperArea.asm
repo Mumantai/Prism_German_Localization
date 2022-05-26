@@ -18,7 +18,7 @@ MoundUpperAreaNPC:
 
 .before_item_text
 	ctxt "Du hast kein"
-	line "#mon um übers"
+	line "#mon, um über's"
 	cont "Wasser zu kommen?"
 
 	para "Kannst du nicht"
@@ -29,12 +29,12 @@ MoundUpperAreaNPC:
 
 	para "Ich fand sie unter"
 	line "Wasser. Hier, nimm"
-	cont "es ruig."
+	cont "sie ruhig."
 	done
 
 .after_item_text
 	ctxt "Du musst das"
-	line "schwimmen lernen!"
+	line "Schwimmen lernen!"
 	done
 
 MoundUpperArea_MapEventHeader:: db 0, 0

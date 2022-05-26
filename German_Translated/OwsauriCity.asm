@@ -9,7 +9,7 @@ OwsauriCity_MapScriptHeader;trigger count
 	return
 
 OwsauriCityStatExpAnalyzerSign:
-	ctxt "#mon Einblicke"
+	ctxt "#mon-Einblicke"
 	done
 
 OwsauriCityNameRaterSign:
@@ -17,7 +17,7 @@ OwsauriCityNameRaterSign:
 	done
 
 OwsauriCityGymSign:
-	ctxt "#mon Arena"
+	ctxt "#mon-Arena"
 	next "Leiterin: Lily"
 	nl   ""
 	next "Die kalte und"
@@ -27,10 +27,10 @@ OwsauriCityGymSign:
 OwsauriCityNPC1:
 	ctxt "Wegen den Klima-"
 	line "anlagen in der"
-	para "Arena, mussten"
+	para "Arena mussten"
 	line "einige Leute das"
 	para "Kraftwerk dringend"
-	line "Sanieren."
+	line "sanieren."
 
 	para "Ich denke, die Eis"
 	line "#mon fühlen"
@@ -40,7 +40,7 @@ OwsauriCityNPC1:
 
 OwsauriCityNPC2:
 	ctxt "Ich pflege nur den"
-	line "Garten<...>"
+	line "Garten <...>"
 
 	para "Ich habe diese"
 	line "Pflanzen in"
@@ -48,20 +48,20 @@ OwsauriCityNPC2:
 	done
 
 OwsauriCityNPC3:
-	ctxt "Sie haben ne menge"
+	ctxt "Sie haben ne Menge"
 	line "neue Spiele in der"
 	cont "Spiele-Ecke" 
 	cont "hinzugefügt."
 
 	para "Ich hatte schon"
-	line "keine lust mehr"
+	line "keine Lust mehr"
 	cont "auf diese"
 	cont "Spielautomaten."
 	done
 
 OwsauriCityNPC4:
 	ctxt "Nach dem großen"
-	line "Erdbeben damals,"
+	line "Erdbeben damals"
 	para "sind viele Bewohn-"
 	line "er aus Dukatia"
 	para "City hier her"

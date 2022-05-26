@@ -5,21 +5,21 @@ MersonGym_MapScriptHeader;trigger count
 
 MersonGymSign:
 	ctxt "Merson City"
-	line "#mon Arena"
+	line "#mon-Arena"
 	done
 
 MersonGymGuide:
 	ctxt "Karpman ist ein"
 	line "großer Fan von"
-	cont "Wasser #mon."
+	cont "Wasser-#mon."
 
 	para "Du hast in Naljo"
 	line "gegen eine"
 	para "nervige Leiterin"
-	line "einer Wasser Arena"
+	line "einer Wasser-Arena"
 	cont "gekämpft?"
 
-	para "Oh, wow, ich will"
+	para "Oh wow, ich will"
 	line "nicht abfällig"
 	para "sein, aber ihr Ruf"
 	line "ist schrecklich."
@@ -31,7 +31,7 @@ MersonGymTrainer:
 
 	ctxt "Ich dachte, ich"
 	line "hätte eine Chance"
-	cont "gegen sich!"
+	cont "gegen dich!"
 
 	para "Vielleicht sollte"
 	line "ich nicht so"
@@ -40,13 +40,13 @@ MersonGymTrainer:
 	done
 
 .before_battle_text
-	ctxt "Halt stop!"
+	ctxt "Halt, stop!"
 
 	done
 
 .battle_won_text
 	ctxt "Ich muss diese"
-	line "Kämpfe gewinnen<...> "
+	line "Kämpfe gewinnen <...>"
 	done
 
 MersonGymLeader:
@@ -73,7 +73,7 @@ MersonGymLeader:
 	jumptext .after_TM_text
 
 .already_won_text
-	ctxt "Du hast mir "
+	ctxt "Du hast mir"
 	line "imponiert."
 
 	para "Sammle weiterhin"
@@ -90,13 +90,13 @@ MersonGymLeader:
 
 	para "Feuer ist nutzlos"
 	line "gegen meine"
-	para "mächtigen "
+	para "mächtigen"
 	line "Wasserangriffe!"
 
 	para "Du siehst nicht"
 	line "eingeschüchtert"
-	para "aus<...> Was ist los"
-	line "mit dir?"
+	para "aus <...> Was ist"
+	line "los mit dir?"
 
 	para "Wie auch immer,"
 	line "lass uns den Kampf"
@@ -107,28 +107,28 @@ MersonGymLeader:
 .battle_won_text
 	ctxt "Sieht so aus, als"
 	line "müsste ich deine"
-	para "Autorität "
+	para "Autorität"
 	line "respektieren!"
 
 	para "Mach weiter und"
-	line "nimm den Marine "
+	line "nimm den Marine-"
 	cont "Orden."
 
 	done
 
 .received_badge_text
 	ctxt "<PLAYER> erhält den"
-	line "Marine Orden."
+	line "Marine-Orden."
 
 	done
 
 .before_TM_text
-	ctxt "Der Marine Orden"
+	ctxt "Der Marine-Orden"
 	line "macht deine"
 	para "#mon noch "
 	line "stärker!"
 
-	para "Hier nimm noch"
+	para "Hier, nimm noch"
 	line "dieses Geschenk."
 
 	sdone
@@ -137,11 +137,11 @@ MersonGymLeader:
 	ctxt "Sturmfront"
 	line "beschwört einen"
 	para "Regensturm und"
-	line "verursacht "
+	line "verursacht"
 	cont "Schaden."
 
-	para "Perfekt für Wasser"
-	line "#mon."
+	para "Perfekt für"
+	line "Wasser-#mon."
 
 	done
 

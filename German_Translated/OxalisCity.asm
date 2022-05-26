@@ -11,22 +11,22 @@ OxalisCity_MapScriptHeader;trigger count
 
 OxalisCitySalonSign:
 	ctxt "Klamotten wie"
-	next "Masgeschneidert!"
-	next "Sei auch du Cool!"
+	next "maßgeschneidert!"
+	next "Sei auch du cool!"
 	done
 
 OxalisCityCitySign:
-	ctxt "Die Stadt fuer"
+	ctxt "Die Stadt für"
 	next "junge, heran-"
-	next "wachsene Trainer"
+	next "wachsende Trainer"
 	done
 
 OxalisCityGymSign:
-	ctxt "#mon Arena"
+	ctxt "#mon-Arena"
 	next "Leiter: Josiah"
 	next ""
-	next "Zu heiss zum"
-	next "anfassen!"
+	next "Zu heiß zum"
+	next "Anfassen!"
 	done
 
 OxalisCityHappinessRaterSign:
@@ -37,10 +37,10 @@ OxalisCityHappinessRaterSign:
 	done
 
 OxalisCityTrainerHallSign:
-	ctxt "Die Beginner"
+	ctxt "Die Beginner-"
 	next "Trainerhalle."
 	next "Der richtige Ort"
-	next "fuer Anfänger!"
+	next "für Anfänger!"
 	done
 
 OxalisCityQRCode:
@@ -55,7 +55,7 @@ OxalisCityQRCode:
 
 .text
 	ctxt "Saphir-Ei -"
-	line "Route 75 kleine"
+	line "Route 75, kleine"
 	cont "Grasfläche"
 	done
 
@@ -66,7 +66,7 @@ OxalisCityNPC1:
 
 	para "Josiah ist unser"
 	line "Arenaleiter und"
-	para "man kan Ihn nur"
+	para "man kan ihn nur"
 	line "mit einem Wort"
 	cont "beschreiben."
 
@@ -88,10 +88,10 @@ OxalisCityNPC2:
 	para "Direkt hier in der"
 	line "Stadt!"
 
-	para "Es ist der modi-"
-	line "schste Klamotten-"
-	cont "Laden in ganz"
-	cont "Naljo!"
+	para "Es ist der"
+	line "modischste"
+	cont "Klamottenladen"
+	cont "in ganz Naljo!"
 
 	para "Sogar Schminke"
 	line "machen sie dir!"
@@ -110,17 +110,17 @@ OxalisCityNPC3:
 	done
 
 OxalisCityNPC4:
-	ctxt "Hmm<...>"
+	ctxt "Hmm <...>"
 
-	para "Man ist diese"
-	line "Stadt gewachsen<...>"
+	para "Mann, ist diese"
+	line "Stadt gewachsen <...>"
 	done
 
 OxalisCityNPC5:
 	ctxt "Da draußen muss es"
-	line "mehr geben, als"
-	para "das was uns"
-	line "erzählt wird<...>"
+	line "mehr geben als"
+	para "das, was uns"
+	line "erzählt wird <...>"
 	done
 
 OxalisCityNPC6:
@@ -129,7 +129,7 @@ OxalisCityNPC6:
 
 	para "Dies wurde gebaut,"
 	line "um Oxalis mit den"
-	para "Bergen auf Route-"
+	para "Bergen auf Route"
 	line "73 zu verbinden."
 
 	para "Später wurde dies"
@@ -142,34 +142,34 @@ OxalisCityNPC6:
 	done
 
 OxalisCityNPC7:
-	ctxt "Ick sags dir bro,"
-	line "dieser Ort<...>"
+	ctxt "Ick sags dir, Bro,"
+	line "dieser Ort <...>"
 
-	para "Is wie, wennde"
-	line "versuchst ne nette"
-	cont "Person zu sein<...>"
+	para "Is wie, wenn de"
+	line "versuchst, ne nette"
+	cont "Person zu sein <...>"
 
 	para "Weißt schon, sowat"
-	line "wie <'>Hallo!<'><...>"
-	para "<...>oder <'>Jutn"
-	line "Morgen!<'><...>"
-	para "<...>und dir fliegt"
+	line "wie <'>Hallo!<'> <...>"
+	para "<...> oder <'>Jutn"
+	line "Morgen!<'> <...>"
+	para "<...> und dir fliegt"
 	line "nur sowat um" 
 	cont "die Ohrn:"
 
 	para "<'>Lass mich allein<'>"
 	line "<'>Verschwinde," 
-	cont "abschaum!<'>"
-	cont "<'>Nicht Anfassen!<'>"
+	cont "Abschaum!<'>"
+	cont "<'>Nicht anfassen!<'>"
 
-	para "Ick wees noch die"
+	para "Ick weeß noch, die"
 	line "Leute aus Johto"
-    cont "und Rijon."
+    cont "und Rijon <...>"
 
-	para "Warn jechillter."
+	para "<...> warn jechillter."
 
 	para "Haste <'>Yo!<'>"
-	line "jesacht, kam nen"
+	line "jesacht, kam n"
     cont "<'>Ey!<'> zurüch."
 
 	para "Warum sindse in"

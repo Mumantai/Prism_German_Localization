@@ -14,13 +14,13 @@ MersonCity_GoldToken:
 	db GOLD_TOKEN
 
 MersonCityGymSign:
-	ctxt "#mon Arena"
+	ctxt "#mon-Arena"
 	next "Leiter: Karpman"
 	done
 
 MersonCityCitySign:
 	ctxt "Die kleine"
-	next "Felsspalte "
+	next "Felsspalte."
 	done
 
 MersonCityNPC1:
@@ -32,8 +32,8 @@ MersonCityNPC1:
 
 MersonCityNPC2:
 	ctxt "Ich habe vor dem"
-	line "#mon Center"
-	para "einen Baum "
+	line "#mon-Center"
+	para "einen Baum"
 	line "gepflanzt."
 
 	para "Ich bin sicher,"
@@ -45,7 +45,7 @@ MersonCityNPC2:
 MersonCityNPC3:
 	ctxt "Diese Stadt wird"
 	line "als das Tor zu"
-	para "South Rijon"
+	para "Süd-Rijon"
 	line "bekannt sein,"
 	para "sobald der Südweg"
 	line "frei ist."

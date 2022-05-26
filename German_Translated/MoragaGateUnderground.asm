@@ -4,7 +4,7 @@ MoragaGateUnderground_MapScriptHeader;trigger count
 	db 0
 
 MoragaGateNPC:
-	ctxt "Entschuldige "
+	ctxt "Entschuldige"
 	line "bitte."
 
 	para "Der unterirdische"
@@ -13,7 +13,7 @@ MoragaGateNPC:
 
 	para "Sobald alles"
 	line "geräumt wurde,"
-	para "lasse ich dich "
+	para "lasse ich dich"
 	line "durch."
 
 	done

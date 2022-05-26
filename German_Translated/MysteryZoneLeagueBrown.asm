@@ -44,9 +44,9 @@ MysteryZoneBrownBattle:
 
 	para "Bist du irritiert?"
 
-	line "<...><PLAYER>, richtig?"
+	line "<...> <PLAYER>, richtig?"
 
-	para "Nun, dies ist die "
+	para "Nun, dies ist die"
 	line "Mystik-Liga."
 
 	para "Zusammen mit der"
@@ -57,9 +57,9 @@ MysteryZoneBrownBattle:
 	line "gegründet."
 
 	para "Mein Name ist"
-	line "Brown, und es ist"
+	line "Braun und es ist"
 	para "mir ein Vergnügen,"
-	line "dich kennen zu "
+	line "dich kennenzu-"
 	cont "lernen."
 
 	para "Wenn du unserer"
@@ -67,10 +67,10 @@ MysteryZoneBrownBattle:
 	para "willst, musst du"
 	line "uns alle drei in"
 	para "einem"
-	line "#Mon-kampf "
+	line "#Mon-kampf"
 	cont "besiegen."
 
-	para "Lasst uns "
+	para "Lasst uns"
 	line "beginnen!"
 
 	sdone
@@ -81,13 +81,13 @@ MysteryZoneBrownBattle:
 	done
 
 .defeated_text
-	ctxt "Das war "
+	ctxt "Das war"
 	line "erstaunlich!"
 
-	para "Mal sehen ob du"
-	line "die anderen"
+	para "Mal sehen, ob"
+	line "du die anderen"
 	para "Herrausforderungen"
-	line "auch bewältigen "
+	line "auch bewältigen"
 	cont "kannst!"
 
 	done

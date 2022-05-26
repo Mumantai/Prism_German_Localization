@@ -92,7 +92,7 @@ PhloxLabB1FGuard:
 	endtext
 
 .before_battle_text
-	ctxt "zzz<...>"
+	ctxt "zzz <...>"
 
 	para "Ah, uh, was?"
 
@@ -123,8 +123,8 @@ PhloxLabB1FGuard:
 
 	para "Ich lasse mit mir"
 	line "keine Psycho-"
-	para "spielchen treiben"
-	line "hörst du!"
+	para "spielchen treiben,"
+	line "hörst du?"
 	sdone
 
 .battle_won_text
@@ -136,14 +136,14 @@ PhloxLabB1FGuard:
 	line "ehrlich zu dir"
 	cont "sein."
 
-	para "Ich habe nichts"
+	para "Ich habe nichts,"
 	line "womit ich mich"
 	para "noch verteidigen"
 	line "könnte."
 
-	para "Aber etwas was du"
+	para "Aber etwas, was du"
 	line "vieleicht"
-	cont "möchtest<...>"
+	cont "möchtest <...>"
 
 	para "Ich gebe es dir,"
 	line "wenn du danach"
@@ -153,16 +153,16 @@ PhloxLabB1FGuard:
 	line "Problemen kommt,"
 	para "dann ist das nie"
 	line "die Schuld eines"
-	cont "einzelnen<...>"
+	cont "Einzelnen <...>"
 	sdone
 
 .gave_lab_card_text
 	ctxt "Das sollte dir den"
-	line "zutritt zum Labor"
+	line "Zutritt zum Labor"
 	cont "ermöglichen."
 	para "Ab da bist du"
 	line "nicht mehr mein"
-	cont "Problem<...>"
+	cont "Problem <...>"
 	sdone
 
 .already_battled_text

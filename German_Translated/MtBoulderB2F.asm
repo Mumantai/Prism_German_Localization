@@ -5,7 +5,7 @@ MtBoulderB2F_MapScriptHeader;trigger count
 
 MtBoulderB2FUnreadableSign:
 	ctxt "Das Schild ist zu"
-	line "beschädigt<...> es"
+	line "beschädigt <...> es"
 	para "ist nicht mehr"
 	line "lesbar."
 	done

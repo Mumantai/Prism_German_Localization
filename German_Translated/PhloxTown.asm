@@ -17,7 +17,7 @@ PhloxTown_MapScriptHeader;trigger count
 	return
 
 PhloxTownBingoSign:
-	ctxt "Bingo Halle"
+	ctxt "Bingo-Halle"
 	done
 
 PhloxTownAcquaMinesSign:
@@ -30,8 +30,8 @@ PhloxTownLabSign:
 	done
 
 PhloxTownTownSign:
-	ctxt "Der Ruhige"
-	next "Gebirgsruecken!"
+	ctxt "Der ruhige"
+	next "Gebirgsrücken!"
 	done
 
 PhloxTownNPC1:
@@ -44,7 +44,7 @@ PhloxTownNPC1:
 	done
 
 PhloxTownNPC2:
-	ctxt "Uns gefällt es"
+	ctxt "Uns gefällt es,"
 	line "abgeschottet von"
 	para "allen anderen zu"
 	line "sein."
@@ -52,7 +52,7 @@ PhloxTownNPC2:
 	para "Es muss ja nicht"
 	line "alles und jeder"
 	para "mit jedem"
-	line "verbunden sein<...>"
+	line "verbunden sein <...>"
 	
 	para "Ruhe ist auch"
 	line "etwas Wunder-"
@@ -61,22 +61,22 @@ PhloxTownNPC2:
 
 PhloxTownNPC3:
 	ctxt "Das Gebäude wurde"
-	line "auf mein liebstes"
+	line "auf meinen"
 	cont "Angelplatz gebaut."
 
 	para "Sie hatten eine"
-	line "erlaubnis, daher"
+	line "Erlaubnis, daher"
 	para "konnte ich nichts"
-	line "tun<...>"
+	line "tun <...>"
 	done
 
 PhloxTownNPC4:
 	ctxt "Es gibt hier eine"
 	line "abgeschottete"
-	cont "untergrund Höhle."
+	cont "Untergrund-Höhle."
 
 	para "Am Tag is es"
-	line "hin & wieder"
+	line "hin und wieder"
 	para "komplett mit"
 	line "Wasser geflutet!"
 	done

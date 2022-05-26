@@ -303,36 +303,36 @@ PokeCenter2F_Movement_Spin_LookDown:
 
 Text_BattleReceptionistIntro:
 	ctxt "Willkommen im"
-	line "Kabel Club "
+	line "Kabel-Club-"
 	cont "Kolosseum."
 
 	para "Hier kannst du"
 	line "gegen einen Freund"
 	cont "kämpfen."
 
-	para "Möchtest du "
+	para "Möchtest du"
 	line "kämpfen?"
 
 	done
 
 Text_TradeReceptionistIntro:
 	ctxt "Willkommen im"
-	line "Kabel Club "
+	line "Kabel-Club-"
 	cont "Kolosseum."
 
 	para "Hier kannst du"
 	line "dein #mon mit"
-	para "einem Freund "
+	para "einem Freund"
 	line "tauschen."
 
-	para "Möchtest du "
+	para "Möchtest du"
 	line "tauschen?"
 
 	done
 
 Text_TimeCapsuleReceptionistIntro:
 	ctxt "Willkommen bei der"
-	line "Kabel Club "
+	line "Kabel-Club-"
 	cont "Zeitkapsel."
 
 	para "Hier kannst du in"
@@ -340,7 +340,7 @@ Text_TimeCapsuleReceptionistIntro:
 	para "reisen und dein"
 	line "#mon tauschen."
 
-	para "Möchtest du "
+	para "Möchtest du"
 	line "tauschen?"
 
 	done
@@ -367,7 +367,7 @@ Text_PleaseWait:
 Text_LinkTimedOut:
 	ctxt "Die Verbindung"
 	line "wurde auf Grund"
-	para "von Inaktivität "
+	para "von Inaktivität"
 	line "getrennt."
 
 	prompt
@@ -391,7 +391,7 @@ Text_TemporaryStagingInLinkRoom:
 Text_CantLinkToThePast:
 	ctxt "Du kannst hier"
 	line "nicht in die"
-	para "Vergangenheit "
+	para "Vergangenheit"
 	line "reisen."
 
 	prompt
@@ -416,13 +416,13 @@ Text_RejectNewMon:
 
 Text_RejectMonWithNewMove:
 	ctxt "Du kannst <STRBF1>"
-	line " nicht nehmen, da"
-	cont " es <STRBF2> hat."
+	line "nicht nehmen, da"
+	cont "es <STRBF2> hat."
 
 	done
 
 Text_TimeCapsuleClosed:
-	ctxt "Es tut mir leid -"
+	ctxt "Es tut mir leid,"
 	line "die Zeitkapsel"
 	para "wird gerade "
 	line "eingestellt."
@@ -430,7 +430,7 @@ Text_TimeCapsuleClosed:
 	done
 
 Text_TradeRoomClosed:
-	ctxt "Es tut mir leid -"
+	ctxt "Es tut mir leid,"
 	line "die Tauschmaschine"
 	para "wird gerade "
 	line "eingestellt."
@@ -438,7 +438,7 @@ Text_TradeRoomClosed:
 	done
 
 Text_BattleRoomClosed:
-	ctxt "Es tut mir leid -"
+	ctxt "Es tut mir leid,"
 	line "die Kampfmaschine"
 	para "wird gerade "
 	line "eingestellt."
@@ -453,7 +453,7 @@ Text_OhPleaseWait:
 Text_ChangeTheLook:
 	ctxt "Wir müssen hier"
 	line "das Aussehen"
-	cont "ändern<...> "
+	cont "ändern <...> "
 	done
 
 Text_LikeTheLook:

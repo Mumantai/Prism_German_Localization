@@ -5,8 +5,8 @@ PhloxMyles_MapScriptHeader;trigger count
 
 PhloxMylesNewspaperArticle:
 	ctxt "Mann findet einen"
-	line "Mann in einer"
-	cont "Höhle:"
+	line "Mann anderen in"
+	cont "einer Höhle:"
 
 	para "Heute, in der"
 	line "abgelegenen Stadt"
@@ -18,11 +18,11 @@ PhloxMylesNewspaperArticle:
 	line "an Amnesie."
 
 	para "Der andere Mann"
-	line "wollte, das wir"
+	line "wollte, dass wir"
 	para "diesen Artikel"
 	line "schreiben."
 
-	para "Allen gehts gut."
+	para "Allen geht's gut."
 
 	para "Ende."
 	done
@@ -44,20 +44,20 @@ PhloxMylesMyles:
 	cont "fantastischen"
 	para "Geschichten gehört"
 	line "hat, welche durch"
-	para "die Naljo Region"
+	para "die Naljo-Region"
 	line "wandern?"
 
 	para "Du hast mich"
 	line "endlich gefunden!"
 
-	para "Myles der Große!"
+	para "Myles, der Große!"
 
 	para "Lass mich deine"
-	line "ermüdung mit dem"
+	line "Ermüdung mit dem"
 	para "Klang meiner"
 	line "Geschichte über"
 	para "meine große"
-	line "Heldentat, nehmen."
+	line "Heldentat nehmen."
 	done
 
 .tale
@@ -65,32 +65,32 @@ PhloxMylesMyles:
 
 	para "Da war ich nun."
 
-	para "Kämpfe mich durch"
+	para "Kämpfte mich durch"
 	line "die Wasserminen,"
 	para "die im Norden von"
 	line "Phloxia City"
 	cont "liegen."
 
 	para "Dort war es nass"
-	line "und kalt doch ich"
+	line "und kalt, doch ich"
 	para "drang furchtlos"
 	line "immer tiefer in"
 	para "die Dunkelheit"
 	line "vor."
 
-	para "Andere wagen sich"
+	para "Andere wagten sich"
 	line "erst gar nicht"
-	para "rein, wegen den"
+	para "rein wegen den"
 	line "Gerüchten von"
 	para "Geistern, Mördern"
-	line "& anderen Flüchen."
+	line "und Flüchen."
 
 	para "IDIOTEN!"
 
 	para "Tief in der"
 	line "dunklen Höhle"
 	para "hörte ich die"
-	line "schreie eines"
+	line "Schreie eines"
 	para "Lammes, das von"
 	line "seinem Hirten"
 	cont "getrennt wurde."
@@ -99,7 +99,7 @@ PhloxMylesMyles:
 	line "der Große, wie ein"
 	cont "Zubat durch die"
 	para "dunkle Höhle und"
-	line "fand das arme"
+	line "fand das arme,"
 	cont "schwache Lamm!"
 
 	para "Es war ein junger"
@@ -116,12 +116,12 @@ PhloxMylesMyles:
 
 	para "Er dachte wohl,"
 	line "dass es das Ende"
-	cont "für Ihn ist<...>"
+	cont "für ihn ist <...>"
 
-	para "Ich schrieh:"
+	para "Ich schrie:"
 
 	para "NEIN!, und trug"
-	line "Ihn aus der Höhle!"
+	line "ihn aus der Höhle!"
 
 	para "Sie haben sogar"
 	line "einen Artikel über"
@@ -132,7 +132,7 @@ PhloxMylesMyles:
 	cont "Geschichte!"
 
 	para "Dieser junge Mann"
-	line "tut mir echt leid"
+	line "tut mir echt leid,"
 	para "weil durch seine"
 	line "Amnesie nichts"
 	cont "mehr wusste."
@@ -146,14 +146,14 @@ PhloxMylesMyles:
 	line "heute von Zeit"
 	para "zu Zeit in dieser"
 	line "Höhle rum, um sich"
-	para "zu erinnern wieso"
+	para "zu erinnern, wieso"
 	line "er dort war."
 
-	para "Selbst ich als"
+	para "Selbst ich, als"
 	line "großer Held, kann"
-	para "Ihm seine "
+	para "ihm seine"
 	line "Erinnerungen nicht"
-	para "zurück bringen<...>"
+	para "zurückbringen <...>"
 
 	para "Versuch du es"
 	line "ruhig nochmal."
@@ -166,7 +166,7 @@ PhloxMylesMyles:
 	line "eingerahmt hinter"
 	para "mir an der Wand."
 
-	para "LIES ES OK?"
+	para "LIES ES, OK?"
 	line "BITTE!"
 	done
 

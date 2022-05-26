@@ -5,7 +5,7 @@ MysteryZone_MapScriptHeader;trigger count
 
 MysteryZoneSignpost:
 	text "Mystery Zone"
-	line "Airport"
+	line "Flughafen"
 	done
 
 MysteryZone_MapEventHeader:: db 0, 0

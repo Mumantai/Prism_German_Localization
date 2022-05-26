@@ -28,7 +28,7 @@ PrisonF1ChangeBlockArrayEntrySizeEnd:
 PrisonF1ChangeBlockArrayEnd:
 
 PrisonF1CellSignpost:
-	ctxt "Versuch nicht"
+	ctxt "Versuch nicht,"
 	line "über diese Grube"
 	para "zu springen!"
 
@@ -76,14 +76,14 @@ PrisonF1BlackPatroller:
 	ctxt "Ich kenne dich."
 
 	para "Du hast mich"
-	line "undercover hoch"
+	line "undercover hoch-"
 	cont "genommen!"
 
 	para "Ich könnte dich"
-	line "dafür beschuldigen"
+	line "dafür hassen,"
 	para "dass ich hier"
-	line "gelandet bin<...> Aber"
-	para "Ich habe hier über"
+	line "gelandet bin <...> Aber"
+	para "ich habe hier über"
 	line "mein Leben gut"
 	cont "nachdenken können."
 
@@ -98,27 +98,27 @@ PrisonF1BlackPatroller:
 
 	para "Ich hatte die"
 	line "Entscheidung"
-	para "getroffen einer"
-	line "Gruppe beizutreten"
-	para "die mit Gewalt"
-	line "Ihren Weg gehen"
-	cont "wollten."
+	para "getroffen, einer"
+	line "Gruppe beizutre-"
+	para "ten, die mit"
+	line "Gewalt ihren Weg"
+	cont "gehen wollten."
 
-	para "Ich dachte ich"
-	line "tuhe gutes<...>"
-	para "<...>das ich auf"
-	line "diesem Weg, den"
+	para "Ich dachte, ich"
+	line "tue Gutes <...>"
+	para "<...> dass ich auf"
+	line "diesem Weg den"
 	para "Wachstum von"
 	line "#mon erhöhen"
 	para "und so der Welt"
-	line "was gutes tun"
-	cont "würde<...>"
+	line "was Gutes tun"
+	cont "würde <...>"
 
 	para "Ich glaubte, dass"
-	line "das was ich tuhe"
-	para "gut war<...> Bis wir"
+	line "das, was ich tue"
+	para "gut war <...> Bis wir"
 	line "auf dich trafen:"
-	para "Du<...> freundlich,"
+	para "Du <...> freundlich,"
 	line "nett zu #mon &"
 	para "übetriffst selbst" ;gender selected above
 	line "unsere besten"
@@ -129,7 +129,7 @@ PrisonF1BlackPatroller:
 	para "großen Respekt &"
 	line "hast so eine enge"
 	para "positive Bindung"
-	line "zu Ihnen aufgebaut"
+	line "zu ihnen aufgebaut"
 
 	para "Die Welt braucht"
 	line "mehr solcher"
@@ -143,10 +143,10 @@ PrisonF1BlackPatroller:
 
 .after_give_card_text
 	ctxt "Diese Karte fand"
-	line "ich auf den Boden."
+	line "ich auf dem Boden."
 
 	para "Es gewährt dir"
-	line "zutritt zum Dach."
+	line "Zutritt zum Dach."
 
 	para "Das Tor zum Keller"
 	line "ist durch einen"
@@ -175,29 +175,29 @@ PrisonF1_Trainer_1:
 	para "Person zu sein."
 
 	para "Du strebst nach"
-	line "dem Leben das du"
+	line "dem Leben, das du"
 	para "dir wünschst,"
 	line "statt so zu leben"
-	para "wie du musst, &"
+	para "wie du musst und"
 	line "genau deshalb"
 	para "werden dir und"
 	line "deinem Umfeld nur"
-	para "gutes"
+	para "Gutes"
 	line "wiederfahren."
 
-	para "Hier eine Info"
+	para "Hier eine Info,"
 	line "die dich ebenfalls"
-	para "weiter bringen"
+	para "weiterbringen"
 	line "wird:"
 	cont "RAUF ZUM DACH!"
 
-	para "Einpaar Wärter"
-	line "gingen da rauf um"
+	para "Ein paar Wärter"
+	line "gingen da rauf um,"
 	para "etwas zu trinken &"
 	line "zu rauchen während"
-	cont "Ihrer Pausen."
+	cont "ihrer Pausen."
 
-	para "Manche von Ihnen"
+	para "Manche von ihnen"
 	line "sind vieleicht so"
 	para "betrunken, dass"
 	line "sie dir den"
@@ -216,7 +216,7 @@ PrisonF1_Trainer_1:
 	done
 
 .battle_won_text
-	ctxt "Ohne moos nix"
+	ctxt "Ohne Moos nix"
 	line "los."
 	done
 
@@ -247,7 +247,7 @@ PrisonF1_Trainer_2:
 	end
 
 .before_battle_text
-	ctxt "<...> Ich hoffe meine"
+	ctxt "<...> Ich hoffe, meine"
 	line "Freundin Jasmine"
 	para "wartet da draußen"
 	line "noch auf mich."
@@ -259,7 +259,7 @@ PrisonF1_Trainer_2:
 
 .after_battle_text
 	ctxt "Sorry, ich habe"
-	line "keine Infos die"
+	line "keine Infos, die"
 	para "ich mit dir teilen"
 	line "würde."
 	sdone
@@ -269,12 +269,12 @@ PrisonF1_Trainer_3:
 
 .before_battle_text
 	ctxt "Sie lassen"
-	line "mitlerweile auch"
+	line "mittlerweile auch"
 	cont "Kinder hier rein?"
 
 	para "Das Gefängnis ist"
 	line "nun offiziell"
-	cont "Uncool<...>"
+	cont "uncool <...>"
 	done
 
 .battle_won_text
@@ -284,8 +284,8 @@ PrisonF1_Trainer_3:
 	para "Das Gefängnis ist"
 	line "nun ein Ort für"
 	para "Hipster geworden,"
-	line "die sich"
-	para "einsperren lassen"
+	line "die sich ein-"
+	para "sperren lassen,"
 	line "um auch hier drin"
 	para "den Leuten auf"
 	line "den Sack gehen zu"
@@ -293,8 +293,8 @@ PrisonF1_Trainer_3:
 	done
 
 .give_key_text
-	ctxt "Der einzige Grund"
-	line "warum ich mich "
+	ctxt "Der einzige Grund,"
+	line "warum ich mich"
 	para "hier einsperren"
 	line "lies, war Respekt"
 	cont "zu erlangen."
@@ -306,8 +306,8 @@ PrisonF1_Trainer_3:
 	sdone
 
 .after_key_text
-	ctxt "Der einzige Grund"
-	line "warum ich mich "
+	ctxt "Der einzige Grund,"
+	line "warum ich mich"
 	para "hier einsperren"
 	line "lies, war den"
 	para "Respekt meiner"
@@ -361,8 +361,8 @@ PrisonF1_Trainer_4:
 .give_key_text
 	ctxt "Wenn du mir diesen"
 	line "Schlüssel nimmst,"
-	para "werde ich dir"
-	line "Sauer sein."
+	para "werde ich sauer"
+	line "auf dich sein."
 	sdone
 
 .after_give_key_text
@@ -390,7 +390,7 @@ PrisonF1_Trainer_5:
 	done
 
 .battle_won_text
-	ctxt "Uff, du bist Gut!"
+	ctxt "Uff, du bist gut!"
 	done
 
 .give_key_text
@@ -399,7 +399,7 @@ PrisonF1_Trainer_5:
 	para "mich ein Kampf"
 	line "so gereizt hat."
 
-	para "Aber Sorry, leider"
+	para "Aber sorry, leider"
 	line "habe ich keine"
 	para "Informationen"
 	line "für dich."
@@ -435,15 +435,15 @@ PrisonF1_Trainer_6:
 	done
 
 .give_key_text
-	ctxt "Ich glaubs nicht"
-	line "das du das tun"
+	ctxt "Ich glaub's nicht,"
+	line "dass du das tun"
 	para "konntest, nach"
-	line "alldem was wir"
+	line "all dem, was wir"
 	para "gemeinsam durch-"
 	line "gemacht haben!"	
 
 	para "Nimm einfach den"
-	line "Schlüssel & geh!"
+	line "Schlüssel und geh!"
 	sdone
 
 .after_give_key_text
@@ -488,7 +488,7 @@ PrisonF1_Trainer_7:
 
 .before_battle_text
 	ctxt "Es ist viel zu"
-	line "kalt hier drin<...>"
+	line "kalt hier drin <...>"
 	done
 
 .battle_won_text

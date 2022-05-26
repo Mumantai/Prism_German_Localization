@@ -16,7 +16,7 @@ OwsauriMartNPC2:
 
 	para "mon entwickeln und"
 	line "zur Ringherstell-"
-	cont "ung ben. werden"
+	cont "ung ben. werden."
 	done
 
 OwsauriMart_MapEventHeader:: db 0, 0

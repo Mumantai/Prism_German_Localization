@@ -4,7 +4,7 @@ PhaceliaPoliceF2_MapScriptHeader;trigger count
 	db 0
 
 PhaceliaPoliceF2Sign:
-	ctxt "Naljo Polizei"
+	ctxt "Naljo-Polizei"
 
 	para "Zum Schutz und"
 	line "Wohle des Volkes!"
@@ -20,7 +20,7 @@ PhaceliaPoliceF2Officer:
 
 .before_arresting_black_text
 	ctxt "Bitte finde eine"
-	line "Paletten"
+	line "Paletten-"
 	cont "Patrouille!"
 	done
 

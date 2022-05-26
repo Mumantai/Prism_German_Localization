@@ -69,8 +69,8 @@ MoundLightSwitch:
 .description_text
 	ctxt "Dieser Generator"
 	line "könnte von einem"
-	cont "Elektro- #mon"
-	cont "oder Angriff"
+	cont "Elektro-#mon"
+	cont "oder -Angriff"
 	cont "betrieben werden."
 	sdone
 
@@ -89,7 +89,7 @@ MoundLightSwitch:
 	ret
 
 .text
-	ctxt "<STRBF2> nutzen"
+	ctxt "<STRBF2> nutzen,"
 	line "um den Generator"
 	cont "zu betreiben?"
 	done
@@ -97,17 +97,17 @@ MoundLightSwitch:
 MoundB2F_PaletteBlack:
 	trainer EVENT_MOUND_B2F_PALETTE_BLACK, PATROLLER, 1, .before_battle_text, .battle_won_text
 
-	ctxt "Keine Ahnung was  "
+	ctxt "Keine Ahnung, was"
 	line "wir hier machen."
 	para "Mich interessiert"
 	line "nur das Geld."
 	done
 
 .before_battle_text
-	ctxt "Ich tuh nur das"
+	ctxt "Ich tue nur das,"
 	line "was man mir sagt."
 
-	para "Hauptsache ich"
+	para "Hauptsache, ich"
 	line "kriege mein Geld."
 	done
 

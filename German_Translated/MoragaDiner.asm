@@ -4,8 +4,8 @@ MoragaDiner_MapScriptHeader;trigger count
 	db 0
 
 MoragaDinerNPC1:
-	ctxt "Stör mich nicht"
-	line "wärend ich esse!"
+	ctxt "Stör mich nicht,"
+	line "während ich esse!"
 
 	done
 
@@ -17,7 +17,7 @@ MoragaDinerNPC2:
 
 MoragaDinerNPC3:
 	ctxt "Meine #mon"
-	line "lieben auch "
+	line "lieben auch"
 	cont "Burger!"
 
 	done

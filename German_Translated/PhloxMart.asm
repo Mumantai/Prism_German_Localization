@@ -4,16 +4,16 @@ PhloxMart_MapScriptHeader;trigger count
 	db 0
 
 PhloxMartNPC1:
-	ctxt "Weist du wo sie"
-	line "die Austüstungen"
+	ctxt "Weißt du, wo sie"
+	line "die Ausrüstungen"
 	para "für Skifahrer"
 	line "verkaufen?"
 
-	para "Ich dachte alle"
+	para "Ich dachte, alle"
 	line "Städte in den"
 	para "Bergen würden"
 	line "Sportausrüstung"
-	cont "verkaufen<...>"
+	cont "verkaufen <...>"
 	done
 
 PhloxMartNPC2:
@@ -25,7 +25,7 @@ PhloxMartNPC2:
 	line "lang."
 	
 	para "Sie verbesserten"
-	line "vor kurzem die"
+	line "vor Kurzem die"
 	para "Rezeptur und es"
 	line "hält jetzt sage"
 	para "und schreibe"

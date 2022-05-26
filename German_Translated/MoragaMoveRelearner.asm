@@ -18,20 +18,20 @@ MoragaMoveRelearnerScript:
 	ctxt "Hallo!"
 
 	para "Ich bin der"
-	line "Attacken "
+	line "Attacken-"
 	cont "Erinnerer!"
 
 	para "Ich kann deinen"
 	line "#mon helfen,"
 	para "sich an Attacken"
 	line "zu erinnern, die"
-	para "sie verlernt "
+	para "sie verlernt"
 	line "haben."
 
 	para "Ich kann das für"
 	line "dich im Austausch"
 	para "gegen eine"
-	line "Herzschuppe "
+	line "Herzschuppe"
 	cont "machen."
 
 	para "Ich sammle die,"

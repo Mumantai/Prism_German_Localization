@@ -14,8 +14,8 @@ OxalisMartNPC2:
 	line "die Ziegelsteine?"
 
 	para "Ich möchte eine"
-	line "Palette und nicht"
-	cont "nur einen<...>"
+	line "Palette voll und"
+	cont "nicht nur einen <...>"
 	done
 
 OxalisMart_MapEventHeader ;filler

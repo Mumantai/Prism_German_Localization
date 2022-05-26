@@ -21,7 +21,7 @@ PrisonRoof_Trainer_1:
 	done
 
 .battle_won_text
-	text "Uh<...>"
+	text "Uh <...>"
 	done
 
 .after_battle_text
@@ -42,9 +42,9 @@ PrisonRoof_Trainer_2:
 	line "Grady, bleib"
 	cont "fokussiert."
 
-	para "Ich hasse es auf"
+	para "Ich hasse es, auf"
 	line "diesen Typen auf-"
-	cont "zupassen<...>"
+	cont "zupassen <...>"
 	done
 
 .battle_won_text
@@ -53,7 +53,7 @@ PrisonRoof_Trainer_2:
 	done
 
 .after_battle_text_1
-	ctxt "Im ernst, das ist"
+	ctxt "Im Ernst, das ist"
 	line "eins der"
 	para "schlimmsten"
 	line "Gefängnisse der"
@@ -62,15 +62,15 @@ PrisonRoof_Trainer_2:
 	para "Die Insassen hier"
 	line "könnten jederzeit"
 	para "ausbrechen, wenn"
-	line "Sie wollen"
+	line "sie wollen"
 	cont "würden."
 
-	para "Grady und Ich"
+	para "Grady und ich"
 	line "führen alleine die"
 	para "ganze Sicherheits-"
 	line "abteilung."
 
-	para "Stimms Grady?"
+	para "Stimm's, Grady?"
 	sdone
 
 .after_battle_text_2
@@ -78,15 +78,15 @@ PrisonRoof_Trainer_2:
 	sdone
 
 .after_battle_text_3
-	ctxt "Egal du bist nur"
-	line "ein Kind."
+	ctxt "Egal, du bist"
+	line "nur ein Kind."
 
 	para "Die hätten dich"
-	line "besser zu juvie"
+	line "besser zu Juvie"
 	cont "schicken sollen."
 
 	para "Geh runter zum"
-	line "Fitness Raum und"
+	line "Fitness-Raum und"
 	para "frag Paulie nach"
 	line "dem neuen Passwort"
 	cont "zum Keller."
@@ -95,7 +95,7 @@ PrisonRoof_Trainer_2:
 	line "Inkompetenz hier"
 	para "müssen wir ständig"
 	line "das beknackte"
-	cont "Passwort ändern<...>"
+	cont "Passwort ändern <...>"
 	done
 
 PrisonRoof_MapEventHeader ;filler

@@ -159,13 +159,13 @@ PhloxLabF1_YellowPalette:
 	line "Ort!"
 
 	para "Vieleicht gehe ich"
-	line "in die Kalos"
+	line "in die Kalos-"
 	cont "Region."
 
-	para "Ich bin mir sicher"
-	line "dort werden die"
-	para "mein Style und"
-	line "FLARE zu schätzen"
+	para "Dort werden sie"
+	line "sicherlich meinen"
+	para "Style und FLAIR"
+	line "zu schätzen"
 	cont "wissen!"
 	done
 
@@ -173,42 +173,42 @@ PhloxLabF1_YellowPalette:
 	ctxt "Palette Rot war"
 	line "ein schlechter"
 	para "Anführer und"
-	line "schätzte mein"
+	line "schätzte meinen"
 	para "Fashion Style"
 	line "nicht wert!"
 	
 	para "Deshalb wurde er"
 	line "auch so einfach"
 	para "von einem Kind wie"
-	line "dir hoch genommen."
+	line "dir hochgenommen."
 	done
 
 .battle_won_text
-	ctxt "Nein! Das"
-	line "schlechte Licht"
-	cont "ruinierte das Foto"
+	ctxt "Nein! Das schlech-"
+	line "te Licht ruinier-"
+	cont "te das Foto."
 	done
 
 PhloxLabF1_Trainer_1:
 	trainer EVENT_PHLOX_LAB_F1_TRAINER_1, SCIENTIST, 4, .before_battle_text, .battle_won_text
 
-	ctxt "So wie du kämpfst"
-	line "musst du ein sehr"
-	para "talentierter"
-	line "#mon Trainer"
-	cont "sein."
+	ctxt "So, wie du"
+	line "kämpfst, musst du"
+	para "ein sehr talen-"
+	line "tierter #mon"
+	cont "Trainer sein."
 	done
 
 .before_battle_text
-	ctxt "6 Jahre Medizin"
-	line "& #mon Anatomie"
+	ctxt "6 Jahre Medizin &"
+	line "#mon-Anatomie-"
 	para "Studium werden mir"
 	line "den Sieg in diesem"
 	cont "Kampf bringen!"
 	done
 
 .battle_won_text
-	ctxt "<...>6 Jahre umsonst<...>"
+	ctxt "6 Jahre umsonst <...>"
 	done
 
 PhloxLabF1_Trainer_2:
@@ -219,12 +219,12 @@ PhloxLabF1_Trainer_2:
 	done
 
 .before_battle_text
-	text "<...>Ja?"
+	text "<...> Ja?"
 	done
 
 .battle_won_text
 	ctxt "Sie zahlen nicht"
-	line "genug also störts"
+	line "genug, also störts"
 	para "mich nicht, dass"
 	line "ich gegen dich"
 	cont "verloren habe."
@@ -234,7 +234,7 @@ PhloxLabF1_Trainer_3:
 	trainer EVENT_PHLOX_LAB_F1_TRAINER_3, SCIENTIST, 6, .before_battle_text, .battle_won_text
 
 	ctxt "Wenn du nur etwas"
-	line "Mitfühlend wärst,"
+	line "mitfühlend wärst,"
 	para "wurdest du nicht"
 	line "so unseren"
 	para "Arbeitsplatz"
@@ -243,7 +243,7 @@ PhloxLabF1_Trainer_3:
 
 .before_battle_text
 	ctxt "Wir haben vor"
-	line "kurzem alle eine"
+	line "Kurzem alle eine"
 	para "betriebliche"
 	line "Gesundheits-"
 	para "versicherung"
@@ -257,15 +257,15 @@ PhloxLabF1_Trainer_3:
 
 .battle_won_text
 	ctxt "Ich such schonmal"
-	line "ne neue Stelle<...>"
+	line "ne neue Stelle <...>"
 	done
 
 PhloxLabF1_Trainer_4:
 	trainer EVENT_PHLOX_LAB_F1_TRAINER_4, SCIENTIST, 7, .before_battle_text, .battle_won_text
 
 	ctxt "Ich werde dieser"
-	line "Firma eines tages"
-	para "Millionen "
+	line "Firma eines Tages"
+	para "Millionen"
 	line "einbringen."
 
 	para "Dann werden die"
@@ -285,7 +285,7 @@ PhloxLabF1_Trainer_4:
 
 .battle_won_text
 	ctxt "Zumindest haben"
-	line "einen Archiv."
+	line "sie ein Archiv."
 	done
 
 PhloxLabSwitchText:
@@ -300,7 +300,7 @@ PhloxLabSwitchText:
 	ret
 
 .text
-	ctxt "Du drückst den "
+	ctxt "Du drückst den"
 	line "<STRBF2> Knopf."
 	done
 

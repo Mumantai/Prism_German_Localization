@@ -5,7 +5,7 @@ MoragaGym_MapScriptHeader;trigger count
 
 MoragaGymSign:
 	ctxt "Moragadorf"
-	next "#mon Arena"
+	next "#mon-Arena"
 	next "Leiterin: Lois"
 	done
 
@@ -14,13 +14,13 @@ MoragaGym_Trainer_1:
 
 	ctxt "Lois hat eine"
 	line "Zwillingsschwester"
-	para "die auch Arena"
+	para "die auch Arena-"
 	line "Leiterin ist, aber"
 	cont "sie lebt in Kanto."
 
 	para "Ich kann mich"
 	line "nicht an ihren"
-	para "Namen erinnern<...>"
+	para "Namen erinnern <...>"
 	line "War es Erin?"
 
 	done
@@ -43,19 +43,19 @@ MoragaGym_Trainer_2:
 
 	ctxt "Ich bin wirklich"
 	line "schüchtern"
-	para "gegenüber "
+	para "gegenüber"
 	line "Neulingen."
 
 	done
 
 .before_battle_text
 	ctxt "Für Lois bist du"
-	line "nicht bereit<...>"
+	line "nicht bereit <...>"
 	done
 
 .battle_won_text
-	ctxt "Oder vielleicht "
-	line "doch."
+	ctxt "Oder vielleicht"
+	line "doch?"
 
 	done
 
@@ -66,7 +66,7 @@ MoragaGym_Trainer_3:
 	line "nicht jeden rein."
 
 	para "Nur die Besten"
-	line "dürfen sich hier "
+	line "dürfen sich hier"
 	cont "aufhalten."
 
 	done
@@ -74,13 +74,13 @@ MoragaGym_Trainer_3:
 .before_battle_text
 	ctxt "Ich bin ein cooler"
 	line "Typ, der es liebt,"
-	para "mit den Mädels "
+	para "mit den Mädels"
 	line "abzuhängen!"
 
 	done
 
 .battle_won_text
-	ctxt "Josiah, verzei"
+	ctxt "Josiah, verzeih"
 	line "mir!"
 
 	done
@@ -90,7 +90,7 @@ MoragaGym_Trainer_4:
 
 	ctxt "Ich möchte"
 	line "irgenwann auch"
-	para "Arena Leiter"
+	para "Arena-Leiter"
 	line "werden!"
 
 	cont "Genau wie sie!"
@@ -133,21 +133,21 @@ MoragaGymLeader:
 	jumptext .after_TM_text
 
 .after_getting_badge_text
-	ctxt "Viel Glück, beim"
-	line "sammeln der "
+	ctxt "Viel Glück beim"
+	line "Sammeln der"
 	cont "Rijon-Orden."
 
 	done
 
 .before_battle_text
-	ctxt "Ahhh<...>Hallo."
+	ctxt "Ahhh <...> Hallo."
 
 	para "Ich bin einfach so"
-	line "glücklich<...> Mein"
-	para "Garten duftet "
+	line "glücklich <...> Mein"
+	para "Garten duftet"
 	line "wunderbar."
 
-	cont "Oh, ja, Sorry."
+	cont "Oh, ja, sorry."
 
 	para "Ich bin Lois, die"
 	line "Leiterin der Arena"
@@ -161,24 +161,24 @@ MoragaGymLeader:
 	sdone
 
 .battle_won_text
-	ctxt "Der Kampf war "
-	line "Entzückend!"
+	ctxt "Der Kampf war"
+	line "entzückend!"
 
 	para "Diesen Orden hast"
-	line "du dir wirklich "
+	line "du dir wirklich"
 	cont "verdient!"
 
 	done
 
 .received_badge_text
 	ctxt "<PLAYER> erhält den"
-	line "Sprossen Orden."
+	line "Sprossen-Orden."
 
 	done
 
 .before_TM_text
 	ctxt "Ich möchte dir"
-	line "noch diese TM "
+	line "noch diese TM"
 	cont "geben."
 
 	sdone
@@ -188,7 +188,7 @@ MoragaGymLeader:
 	line "sich für die"
 	para "Hälfte des"
 	line "verursachten"
-	para "Schadens an einen"
+	para "Schadens an einem"
 	line "Gegner."
 
 	done

@@ -41,22 +41,22 @@ IntroCaveNPC:
 	step_end
 
 .initial_text
-	ctxt "Hey, hast du"
+	ctxt "Hi, hast du"
 	line "dich verlaufen?"
 
-	para "Dein Lager ist"
-	line "nördlich von hier?"
+	para "Du warst am Campen"
+	line "etwas nördlich?"
 
-	para "DEin Erdrutsch hat"
-	line "den Weg zurück"
+	para "Der direkte Weg"
+	line "dahin wurde"
 	cont "versperrt?"
 
 	para "Du hast Glück im"
 	line "im Unglück!"
 
-	para "Diese Lore kann"
-	line "dich im Nu wieder"
-	cont "zurückbringen."
+	para "Diese Lore sollte"
+	line "dich dorthin"
+	cont "zurückführen."
 	sdone
 
 IntroCave_MapEventHeader:: db 0, 0

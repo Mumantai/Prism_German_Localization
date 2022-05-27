@@ -136,8 +136,8 @@ IntroMomLeavingDialogue:
 
 	para "Das Feuer soll uns"
 	line "schließlich die"
-	para "ganze Nacht lang"
-	line "warmhalten!"
+	cont "ganze Nacht lang"
+	cont "warmhalten!"
 
 	para "<...> und <PLAYER> <...>"
 

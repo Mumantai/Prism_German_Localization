@@ -4,9 +4,9 @@ IlksLab_MapScriptHeader;trigger count
 	db 0
 
 IlksLabBookshelfFortran:
-	ctxt "<PLAYER> öffnet ein"
-	line "Buch aus dem Regal"
-	cont "ganz oben <...>"
+	ctxt "<PLAYER> liest"
+	line "das Buch vom"
+	cont "obersten Regal <...>"
 
 	para "'Visual-Basic für"
 	line "Dummies'"
@@ -16,27 +16,27 @@ IlksLabBookshelfKalos:
 	ctxt "<PLAYER> liest ein"
 	line "zufälliges Buch <...>"
 
-	para "'Tipps für dein"
-	line "Studium in Kalos'"
+	para "'Auslandsstudium"
+	line "gefällig?'"
 	done
 
 IlksLabBookshelfFairyTales:
-	ctxt "<PLAYER> findet"
-	line "ein altes, stark"
-	cont "verstaubtes Buch <...>"
+	ctxt "<PLAYER> fand ein"
+	line "altes Buch, stark"
+	cont "verstaubt<...>"
 
-	para "'Varaneous - Die"
-	line "Legende von Naljo'"
+	para "'Naljo Märchen"
+	line "von Varaneous'"
 	done
 
 IlksLabBookshelfSpeakNormally:
 	ctxt "<PLAYER> liest ein"
-	line "Buch mit starken"
-	cont "Gebrauchsspuren <...>"
+	line "Buch, welches"
+	cont "benutzt wirkt <...>"
 
-	para "'Wie man normal"
-	line "redet und Andere"
-	cont "dabei nicht nervt'"
+	para "'Wie redet man"
+	line "normal, ohne an-"
+	cont "dere zu nerven?'"
 	done
 
 IlksLabProfIlk:
@@ -87,7 +87,7 @@ IlksLabProfIlk:
 	para "<...> Ja, das"
 	line "macht Sinn <...>"
 
-	para "Hier sollte ein"
+	para "Es sollte hier ein"
 	line "Buch über Naljo"
 	cont "rumliegen <...>"
 	sdone
@@ -99,14 +99,14 @@ IlksLabProfIlk:
 
 	para "Wer bist du?"
 
-	para "Wer bin ich?"
+	para "Wer ICH BIN?"
 
-	para "Professor Ilk,"
+	para "Professor Ilk"
 	line "natürlich!"
 
-	para "Ich bin Naljos"
-	line "führender"
-	cont "#mon-Forscher!"
+	para "Ich bin der füh-"
+	line "rende #mon-"
+	cont "Forscher!"
 
 	para "<...>"
 
@@ -135,7 +135,7 @@ IlksLabProfIlk:
 	line "sein Telefon <...>"
 
 	para "Er lebt nördlich"
-	line "der Stadt, auf"
+	line "von hier auf"
 	cont "Route 69."
 
 	para "Nimm mein Larvitar"
@@ -147,21 +147,21 @@ IlksLabProfIlk:
 	ctxt "Bitte schau nach"
 	line "meinem Bruder."
 
-	para "Du findest ihn auf"
-	line "Route 69."
+	para "Er ist in Route 69"
+	line "nördlich von hier."
 	done
 
 .after_saving_brother_text
 	ctxt "<PLAYER>!"
 
 	para "Danke, dass du"
-	line "meinen Bruder"
-	cont "gerettet hast!"
+	line "meinen Bruder ge-"
+	cont "rettet hast!"
 
 	para "Er hat mich ange-"
-	line "rufen und mir"
-	para "erzählt, wie du"
-	line "und mein Larvitar"
+	line "rufen und mir von"
+	para "dir und Larvitar"
+	line "erzählt, wie ihr"
 	para "das verückte Kind"
 	line "besiegt habt!"
 
@@ -170,8 +170,8 @@ IlksLabProfIlk:
 	para "Behalte Larvitar."
 
 	para "Du solltest sogar"
-	line "meine neueste Er-"
-	cont "findung erhalten."
+	line "meine neue Erfin-"
+	cont "dung erhalten."
 	prompt
 
 .got_pokedex_text
@@ -189,9 +189,9 @@ IlksLabProfIlk:
 	cont "gefangen hast."
 
 	para "Stell dir ein Team"
-	line "zusammen und mach"
-	para "deinem Vater"
-	line "alle Ehre!"
+	line "zusammen und führe"
+	para "deines Vaters Ver-"
+	line "mächtnis fort!"
 	done
 
 .became_champion_text
@@ -201,24 +201,24 @@ IlksLabProfIlk:
 	line "Nachricht gehört!"
 
 	para "Du bist der Champ"
-	line "der Rijon-Liga!"
+	line "der Rijon Liga!"
 
 	para "Ich bin nicht"
 	line "überascht."
 
 	para "Wie ich sagte,"
-	line "#mon-Trainer zu"
-	para "sein, liegt dir"
-	line "im Blut!"
+	line "#mon Trainer zu"
+	para "sein, liegt in"
+	line "deinen Genen!"
 
-	para "Wenn du nach neuen"
-	line "Herausforderungen"
-	para "suchst, solltest"            
-	line "du nach Rijon!"
+	para "Wenn du nach"
+	line "weiteren Heraus-"
+	para "forderungen suchst"            
+	line "besuche Rijon!"
 
-	para "Es gibt, nördlich"
-	line "von hier, einen"
-	cont "Tunnel nach Rijon."
+	para "Da ist ein Tunnel"
+	line "nach Rijon nörd-"
+	cont "lich von hier."
 
 	para "Viel Glück,"
 	line "mein Freund!"
@@ -227,54 +227,53 @@ IlksLabProfIlk:
 .earthquake_explanation_text
 	ctxt "Oh, <PLAYER>!"
 
-	para "Wir haben und 'ne"
-	line "ganze Weile nicht"
-	cont "gesehen oder?"
+	para "Etwas her seit"
+	line "unserem ersten"
+	cont "Treffen oder?"
 
 	para "Da gibt es etwas,"
 	line "worüber ich mit"
 	cont "dir reden muss."
 
-	para "Es treten vermehrt"
-	line "Erdbeben auf."
+	para "Erdbeben treten"
+	line "vermehrt auf."
 
-	para "Laut dem 'Faenumia"
-	line "Labor für Paläo-"
-	para "seismologie', sind"
-	line "diese Erdbeben"
+	para "Laut dem 'Hayward"
+	line "Labor für"
+	cont "Paläoseismologie'"
+	cont "sind diese Beben"
 	cont "nicht natürlich."
 
-	para "Das erste seiner"
-	line "Art, traf Dukatia"
+	para "Das erste komische"
+	line "Beben traf Dukatia"
 	cont "City in Johto <...>"
-	para "Das war vor etwa"
-	line "fünf Jahren."
+	para "War das nicht vor"
+	line "fünf Jahren?"
 
 	para "Es ist dasselbe"
 	line "Beben, das du"
-	para "in Naljo gespürt"
-	line "hast <...>"
+	cont "in Naljo erlebt"
+	cont "hast <...>"
 
-	para "Mein einziger"
-	line "Anhaltspunkt, ist"
-	para "eine unterirdische"
-	line "Stadt voller"
-	para "Geologen und"
-	line "Minenarbeitern."
+	para "Mein Anhaltspunkt"
+	line "ist Untergrund-"
+	cont "City wegen den"
+	cont "vielen Minen und"
+	cont "Geologen."
 
-	para "Vieleicht findest"
-	line "du dort etwas, das"
-	cont "uns weiterhilft <...>"
+	para "Vieleicht hat es"
+	line "was mit den Beben"
+	cont "zu tun ..."
 
-	para "Die unterirdische"
-	line "Stadt, findest du"
-	para "im Süden von"
-	line "Torenia City."
+	para "Untergrund City"
+	line "findest du im"
+	cont "Süden von Torenia"
+	cont "City."
 
-	para "Ich möchte, dass"
-	line "du da runtergehst"
-	para "und der Sache auf"
-	line "den Grund gehst."
+	para "Ich brauche dich"
+	line "zum Untersuchen"
+	cont "dieser künstlichen"
+	cont "Erdbeben."
 
 	para "<...>"
 
@@ -284,25 +283,24 @@ IlksLabProfIlk:
 
 	para "<...>"
 
-	para "Ich verstehe."
+	para "Ich sehe."
 
-	para "Ich sage dem Wär-"
+	para "Ich sage dem Wäch-"
 	line "ter bescheid, dann"
 	cont "kommst du durch!"
 	done
 
 .already_explained_earthquakes_text
-	ctxt "Untersuch bitte,"
-	line "was es mit dieser"
-	para "seltsamen Stadt"
-	line "auf sich hat."
+	ctxt "Überprüfe bitte"
+	line "die Störungen in"
+	cont "Untergrund City."
 	done
 
 IlksLab_HowsMyLarvitarText:
 	ctxt "Wie geht es meinem"
 	line "Larvitar denn so?"
 
-	para "Mach weiter so!"
+	para "Hoffe, alles gut!"
 	done
 
 IlksLab_MapEventHeader:: db 0, 0

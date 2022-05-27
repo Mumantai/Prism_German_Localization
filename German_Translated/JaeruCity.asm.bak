@@ -15,15 +15,15 @@ JaeruCity_GoldToken:
 
 JaeruCityCitySign:
 	ctxt "Die unmöglich"
-	next "auszusprechende"
+	next "auszusprechende "
 	next "Stadt."
 
 	done
 
 JaeruCityGymSign:
-	ctxt "#mon-Arena"
+	ctxt "#mon Arena"
 	next "Leiter: Sparky"
-	nl   ""
+	nl " "
 	next "Der Trainer, der"
 	next "alle schockt!"
 
@@ -32,7 +32,7 @@ JaeruCityGymSign:
 JaeruCityNPC1:
 	ctxt "Sparky hat seinen"
 	line "Schneid verloren."
-	para "Überzeug dich"
+	para "Überzeuge dich"
 	line "selbst."
 
 	done
@@ -47,8 +47,8 @@ JaeruCityNPC2:
 JaeruCityNPC3:
 	ctxt "Wenn du Richtung"
 	line "Norden gehst,"
-	para "kommst du zur"
-	line "Rijon-Liga."
+	para "kommst du zur Liga"
+	line "von Rijon."
 
 	done
 

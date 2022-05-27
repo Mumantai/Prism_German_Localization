@@ -8,8 +8,9 @@ JaeruMartNPC1:
 	line "viel von diesem"
 	cont "Bier."
 
-	para "Komisch, dass auch"
-	line "#mon das mögen."
+	para "Merkwürdig, dass"
+	line "auch #mon das "
+	cont "mögen."
 
 	para "Ha!"
 

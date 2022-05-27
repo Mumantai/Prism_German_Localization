@@ -24,37 +24,40 @@ JensLabJen:
 
 .introduction_text
 	ctxt "Hallo, man nennt"
-	line "mich Jen. Ich bin"
-	para "die Assistentin"
-	line "von Prof. Tim."
-	
-	para "Prof. Tim ist eine"
-	line "ganze Weile weg,"
-	para "deshalb habe ich"
-	line "seine Forschungen"
-	cont "weitergeführt."
+	line "mich Jen, den"
+	cont "Professor."
+
+	para "Tim's"
+	line "Assistenzpraktiker."
+
+	para "Prof. Tim ist schon"
+	line "eine zeitlang"
+	para "fort, daher habe"
+	line "ich seine For-"
+	para "schungen weiter-"
+	line "geführt."
 
 	para "Oh, du bist der"
 	line "neue Champion der"
-	cont "Rijon-Liga?"
+	cont "Rijon Liga?"
 
-	para "Es gibt da diesen"
-	line "geheimen Ort zum"
-	para "Kämpfen. Man nennt"
-	line "ihn Kampfarkaden."
+	para "Ich kenne da einen"
+	line "geheimen"
+	para "Kampfplatz namens"
+	line "Kampfarkaden."
 
 	para "Wenn du alle 8"
-	line "Orden in Rijon ge-"
-	para "sammelt hast, gebe"
-	line "ich dir ein Ticket"
-	cont "für die Fähre."
-	
+	line "Orden der Rijon"
+	para "Region sammelst,"
+	line "geben wir dir ein"
+	cont "Ticket dorthin."
+
 	para "Viel Glück!"
 
 	done
 
 .not_enough_badges_text
-	ctxt "Hallöchen!"
+	ctxt "Tag auch!"
 
 	para "Du hast immer noch"
 	line "nicht alle Orden"
@@ -70,14 +73,15 @@ JensLabJen:
 
 	para "Du hast es"
 	line "geschafft, alle"
-	cont "Orden zu sammeln!"
+	para "Rijon Orden zu"
+	line "sammeln!"
 
 	para "Nimm dieses"
 	line "Ticket, geh zum"
-	para "Hafen im Castrotal"
+	para "Hafen in Castrotal"
 	line "und nimm das"
-	para "Schiff in Richtung"
-	cont "Kampfarkaden."
+	para "Schiff zu den "
+	line "Kampfarkaden."
 
 	sdone
 
@@ -85,30 +89,32 @@ JensLabJen:
 	ctxt "Es gibt immer neue"
 	line "und erstaunliche"
 	para "Entdeckungen über"
-	line "#mon zu"
+	line "#mon zu "
 	cont "berichten!"
 
 	para "Ich hoffe, dass"
 	line "ich eines Tages"
-	para "ein genialer"
-	line "#mon-Professor"
-	para "werde, wie mein"
-	cont "Großvater vor mir!"
+	para "ein"
+	line "#Mon-Professor"
+	para "werde, genauso"
+	line "schlau wie mein"
+	cont "Großvater!"
 
 	done
 
 .free_mon_text
 	ctxt "Ich überlasse dir"
-	line "auch eines dieser"
-	para "frisch geschlüpf-"
-	cont "ten #mon."
+	line "auch einen dieser"
+	para "frisch"
+	line "geschlüpften"
+	cont "#mon."
 
 	para "Ein Trainer, der"
 	line "so begabt ist wie"
 	para "du, sollte in der"
 	line "Lage sein, es"
-	para "vernünftig zu"
-	line "erziehen!"
+	para "richtig"
+	line "großzuziehen!"
 
 	done
 
@@ -308,8 +314,8 @@ JensLabGoldTokenCollector:
 
 	para "Wenn du mir acht"
 	line "gibst, dann gebe"
-	para "ich dir eins von"
-	line "diesen #mon"
+	para "ich dir eine von"
+	line "diesen #mons"
 	cont "auf dem Tisch."
 
 	para "Interesse?"
@@ -318,14 +324,14 @@ JensLabGoldTokenCollector:
 
 .refused_text
 	ctxt "Wer kann zu neuen"
-	line "#mon schon"
+	line "#mons schon"
 	cont "nein sagen?"
 
 	done
 
 .not_enough_tokens_text
 	ctxt "Das reicht nicht."
-	line "Komm etwas später"
+	line "Komm später"
 	cont "wieder."
 
 	done

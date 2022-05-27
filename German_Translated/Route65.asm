@@ -9,7 +9,7 @@ Route65HiddenItem:
 
 Route65Sign:
 	ctxt "Der Pfad zur"
-	next "Rijon Liga!"
+	next "Rijon-Liga!"
 	done
 
 Route65QRCode:
@@ -23,9 +23,9 @@ Route65QRCode:
 	jumptext .text
 
 .text
-	ctxt "Prisma Schluessel"
-	line "Im Umfeld der"
-	cont "Kuestenstadt"
+	ctxt "Prisma-Schlüssel"
+	line "im Umfeld der"
+	cont "Küstenstadt-"
 	cont "Arena."
 	done
 
@@ -39,10 +39,10 @@ Route65_Rival:
 	ctxt "Bleib stehen!"
 
 	para "Seit ich aus dem"
-	line "Gefängnis raus bin"
-	para "sehe ich diese"
-	line "Welt mit anderen"
-	cont "Augen!"
+	line "Gefängnis raus"
+	para "bin, sehe ich"
+	line "diese Welt mit"
+	cont "anderen Augen!"
 
 	para "Das Leben als"
 	line "Flüchtling ist"
@@ -50,18 +50,18 @@ Route65_Rival:
 
 	para "Wenn ich nachts"
 	line "mit meinen #mon"
-	para "liege merke ich,"
+	para "liege, merke ich,"
 	line "dass ich sehr"
-	para "froh darum bin,"
-	line "das sie gerade"
+	para "froh darüber bin,"
+	line "dass sie gerade"
 	cont "da sind."
 
-	para "Mein Band zu Ihnen"
+	para "Mein Band zu ihnen"
 	line "ist gewachsen und"
 	para "damit auch meine"
 	line "Kraft."
 
-	para "Es ist Zeit diese"
+	para "Es ist Zeit, diese"
 	line "Kraft in einem"
 	cont "Kampf auszutesten!"
 	done
@@ -72,31 +72,31 @@ Route65_Rival:
 	done
 
 .after_battle_text
-	ctxt "Ich weiss ich habe"
-	line "viel schaden"
-	para "angerichtet aber"
-	line "dank dir weiß ich" 
+	ctxt "Ich weiß, ich habe"
+	line "viel Schaden"
+	para "angerichtet, aber"
+	line "dank dir weiß ich," 
 	para "dass ich ein guter"
 	line "Trainer sein"
-	para "möchte<...>"
-	line "Ein Besserer"
+	para "möchte <...>"
+	line "Ein besserer"
 	cont "Trainer!"
 
-	para "Die art wie du" 
+	para "Die Art, wie du" 
 	line "kämpfst, spiegelt"
 	para "deine innere"
-	line "stärke und ruhe"
+	line "Stärke und Ruhe"
 	cont "wieder."
 
 	para "Ein Trainer wie du"
 	line "ist wie dafür"
-	para "geschaffen Champ"
-	line "der Rijon Liga"
+	para "geschaffen, Champ"
+	line "der Rijon-Liga"
 	cont "zu werden!"	
 
-	para "Ich hoffe wir"
-	line "sehen uns wieder"
-	cont "Trainer<...>"
+	para "Ich hoffe, wir"
+	line "sehen uns wieder,"
+	cont "Trainer <...>"
 	done
 
 Route65_MapEventHeader ;filler

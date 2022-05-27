@@ -9,13 +9,13 @@ Route54HiddenItem:
 
 Route54Signpost:
 	ctxt "<UP> Mersonhöhle"
-	next "  Eingang"
+	next "Eingang"
 	done
 
 Route54_Trainer_1:
 	trainer EVENT_ROUTE_54_TRAINER_1, LASS, 3, .before_battle_text, .battle_won_text
 
-	ctxt "Immer lieber "
+	ctxt "Immer lieber"
 	line "niedlich!"
 
 	done
@@ -26,7 +26,7 @@ Route54_Trainer_1:
 	done
 
 .battle_won_text
-	ctxt "Ach ja, gutes "
+	ctxt "Ach ja, gutes"
 	line "Spiel!"
 
 	done
@@ -34,23 +34,23 @@ Route54_Trainer_1:
 Route54_Trainer_2:
 	trainer EVENT_ROUTE_54_TRAINER_2, SAGE, 5, .before_battle_text, .battle_won_text
 
-	ctxt "Wichtiger als die "
+	ctxt "Wichtiger als die"
 	line "Situationen selbst"
-	para "ist, wie du auf "
-	line "unerwartete "
-	para "Situationen "
+	para "ist, wie du auf"
+	line "unerwartete"
+	para "Situationen"
 	line "reagierst."
 
 	done
 
 .before_battle_text
-	ctxt "Ich habe inneren "
+	ctxt "Ich habe inneren"
 	line "Frieden gefunden."
 
 	done
 
 .battle_won_text
-	ctxt "Ich bleibe "
+	ctxt "Ich bleibe"
 	line "emotionslos."
 
 	done

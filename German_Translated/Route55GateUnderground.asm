@@ -7,7 +7,7 @@ Route55GateUndergroundNPC:
 	ctxt "Dieser Tunnel"
 	line "führt zur Route"
 	para "52, auch bekannt"
-	line "als die Hayward "
+	line "als die Hayward-"
 	cont "Häfen."
 
 	done

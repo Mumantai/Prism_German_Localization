@@ -17,11 +17,11 @@ Route49GateNoBikeLeave:
 	step_end
 
 Route49NoBikeText:
-	ctxt "Dies ist eine "
+	ctxt "Dies ist eine"
 	line "steile Straße."
 
-	para "Ohne Fahrrad kann "
-	line "ich Sie nicht "
+	para "Ohne Fahrrad kann"
+	line "ich dich nicht"
 	cont "durchlassen."
 
 	sdone

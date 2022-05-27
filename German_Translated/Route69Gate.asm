@@ -26,7 +26,7 @@ Route69GateGuard:
 
 	para "Die Naljo-Region"
 	line "ist momentan"
-	cont "unberechenbar<...>"
+	cont "unberechenbar <...>"
 	done
 
 .after_beating_rival_text
@@ -75,46 +75,46 @@ Route69Gate_FirstTimeThrough:
 	cont "auf dem Hügel."
 
 	para "Ich habe bereits"
-	line "jemanden gerufen"
+	line "jemanden gerufen,"
 	cont "der sich darum"
 	cont "kümmern sollte."
 
 	para "<...>"
 
-	para "<...>warte. Prof. Ilk"
+	para "<...> warte. Prof. Ilk"
 	line "hat dich gesandt?"
 
-	para "Ich hoffe er weiß"
-	line "was er tut<...>"
+	para "Ich hoffe, er weiß"
+	line "was er tut <...>"
 
-	para "<...>schau, Ich muss"
+	para "<...> schau, ich muss"
 	line "hier 24/7 lang"
-	cont "stehen seit dem"
+	cont "stehen, seitdem"
 	cont "die Kriminalität"
 	cont "gestiegen ist."
 
 	para "Das zieht einen"
-	line "schon runter<...>"
+	line "schon runter <...>"
 
-	para "Entschuldige"
-	line "das ich motze."
+	para "Entschuldige,"
+	line "dass ich motze."
 	
-	para "Naja, Ich sehe du"
+	para "Naja, ich sehe du"
 	line "hast keine Karte."
 	
-	para "<...>Nimm das bitte"
+	para "<...> Nimm das bitte"
 	line "an dich, damit du"
 	cont "dich nicht noch"
-	cont "verläufst<...>"
+	cont "verläufst <...>"
 
 	para "<PLAYER> erhält"
 	line "eine Karte!"
 	done
 
 .after_map_text
-	ctxt "Der Vorfall eignet"
-	line "sich im Haus, auf"
-	cont "dem Hügel wieder."
+	ctxt "In dem Haus auf"
+	line "dem Hügel ist ein"
+	cont "ziemlicher Tumult."
 
 	para "Das kriegst du"
 	line "locker hin!"

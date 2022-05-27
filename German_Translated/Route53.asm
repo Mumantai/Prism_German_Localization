@@ -29,23 +29,23 @@ Route53ElixirGiveawayDude:
 .before_giving_item_text
 	ctxt "Hi!"
 
-	para "Der Kiesdorf Markt"
+	para "Der Kiesdorf-Markt"
 	line "verschenkt heute"
 	cont "kostenlose Proben!"
 
-	para "Viel spaß damit!"
+	para "Viel Spaß damit!"
 	sdone
 
 .already_gave_item_text
-	ctxt "Tut mir leid, "
+	ctxt "Tut mir leid,"
 	line "keine Gratisproben"
 	cont "mehr!"
 
 	done
 
 .no_room_for_item_text
-	ctxt "Komm einfach "
-	line "wieder, wenn du "
+	ctxt "Komm einfach"
+	line "wieder, wenn du"
 	cont "mehr Platz hast."
 
 	done

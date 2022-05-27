@@ -6,7 +6,7 @@ Route69_MapScriptHeader;trigger count
 Route69DirectionsSign:
 	signpostheader 3
 	ctxt "Lasst bitte die"
-	next "Schilder in ruh."
+	next "Schilder in Ruh."
 	nl   ""
 	next "<UP> Dorfheide"
 	next "<DOWN> Kaper City"
@@ -38,7 +38,7 @@ Route69_Trainer_2:
 	done
 
 .before_battle_text
-	ctxt "Du denkst bei dir"
+	ctxt "Du denkst, bei dir"
 	line "läuft, nicht wahr?"
 
 	para "Nein! Bei dir"
@@ -47,7 +47,7 @@ Route69_Trainer_2:
 
 .battle_won_text
 	ctxt "Bei mir läufts"
-	line "nicht mehr<...>"
+	line "nicht mehr <...>"
 	done
 
 Route69_Trainer_3:
@@ -55,12 +55,12 @@ Route69_Trainer_3:
 
 	ctxt "Auf Wanderschaft"
 	line "mit seinen #mon"
-	cont "zu sein, ist Toll!"
+	cont "zu sein, ist toll!"
 	done
 
 .before_battle_text
 	ctxt "Meine #mon"
-	line "lieben es, Wandern"
+	line "lieben es, wandern"
 	cont "zu gehen."
 	done
 
@@ -90,9 +90,9 @@ Route69_Trainer_4:
 Route69_Trainer_5:
 	trainer EVENT_ROUTE_69_TRAINER_5, COOLTRAINERM, 3, .before_battle_text, .battle_won_text
 
-	ctxt "Es ist wichtig"
+	ctxt "Es ist wichtig,"
 	line "seine Schwächen zu"
-	para "kennen um besser"
+	para "kennen, um besser"
 	line "zu werden."
 
 	para "Selbstdisziplin."
@@ -112,7 +112,7 @@ Route69_Trainer_6:
 
 	ctxt "Eventuell kannst"
 	line "du mir ja was"
-	cont "beibringen<...>"
+	cont "beibringen <...>"
 
 	para "Nicht?"
 
@@ -125,7 +125,7 @@ Route69_Trainer_6:
 	done
 
 .battle_won_text
-	ctxt "<...>Echt?"
+	ctxt "<...> Echt?"
 	done
 
 IlkBrotherHouseBlockLeaving:
@@ -147,7 +147,7 @@ IlkBrotherHouseBlockLeaving:
 	step_end
 
 .text
-	ctxt "Wohin mit dein"
+	ctxt "Wohin mit deinem"
 	line "Leben?"
 
 	para "Komm wieder rein"

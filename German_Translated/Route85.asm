@@ -10,7 +10,7 @@ Route85DirectionsSign:
 	done
 
 Route85EntranceSign:
-	ctxt "Feuerlichthoehlen"
+	ctxt "Feuerlichthöhlen"
 	next "Eingang"
 	done
 
@@ -27,28 +27,28 @@ Route85_Trainer_1:
 
 .before_battle_text
 	ctxt "Bist du auch eine"
-	line "Paletten"
+	line "Paletten-"
 	cont "Patrouille?"
 	done
 
 .battle_won_text
 	ctxt "Ich glaub nicht,"
 	line "dass ich gegen"
-	para "eine Paletten"
+	para "eine Paletten-"
 	line "Patrouille"
 	cont "verloren habe!"
 	done
 
 .after_battle_not_undercover_text
-	ctxt "Ich bin erschöpft"
+	ctxt "Ich bin erschöpft,"
 	line "seitdem ich gegen"
-	para "eine Paletten"
+	para "eine Paletten-"
 	line "Patrouille"
 	cont "verloren habe."
 	done
 
 .after_battle_undercover_text
-	ctxt "Es sieht so aus"
+	ctxt "Es sieht so aus,"
 	line "als ob eure Truppe"
 	para "nur Zeit schinden"
 	line "will."
@@ -84,19 +84,19 @@ Route85_Trainer_2:
 
 .after_battle_not_undercover_text
 	ctxt "Ich habe Angst vor"
-	line "diesen Paletten"
+	line "diesen Paletten-"
 	cont "Patrouillen."
 
-	para "Ich hörte, Sie"
+	para "Ich hörte, sie"
 	line "fürchten keine"
-	cont "Konsequenzen<...>"
+	cont "Konsequenzen <...>"
 	done
 
 .after_battle_undercover_text
 	ctxt "Solange es mich"
 	line "nicht betrifft,"
 	para "werde ich keinem"
-	line "von euren machen-"
+	line "von euren Machen-"
 	cont "schaften erzählen."
 	done
 
@@ -130,9 +130,9 @@ Route85Officer:
 
 .officer_text
 	ctxt "Polizist: Gute"
-	line "Arbeit, Ich wusste"
-	para "auf dich ist"
-	line "verlass."
+	line "Arbeit, ich"
+	para "wusste, auf dich"
+	line "ist Verlass."
 	sdone
 
 .black_text
@@ -161,7 +161,7 @@ Route85Officer:
 	line "Zertrümmerer."
 	
 	para "Damit kannst du"
-	line "felsen aus dem"
+	line "Felsen aus dem"
 	cont "Weg räumen."
 	
 	para "Jedoch brauchst du"
@@ -188,7 +188,7 @@ Route85PaletteBlack:
 
 	para "<...>"
 
-	para "Oh, Was?"
+	para "Oh, was?"
 
 	para "Du hast den Boss"
 	line "gefunden?"
@@ -197,7 +197,7 @@ Route85PaletteBlack:
 	done
 
 .already_following_text
-	ctxt "Gehen wir nun,"
+	ctxt "Gehen wir nun"
 	line "oder watt?"
 	done
 

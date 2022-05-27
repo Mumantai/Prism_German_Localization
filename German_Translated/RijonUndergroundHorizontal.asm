@@ -16,7 +16,7 @@ RijonUndergroundHorizontal_Trainer_1:
 	done
 
 .before_battle_text
-	ctxt "Wo sind die "
+	ctxt "Wo sind die"
 	line "Lichtschalter?"
 
 	done
@@ -47,7 +47,7 @@ RijonUndergroundHorizontal_Trainer_2:
 	done
 
 .battle_won_text
-	ctxt "Das ist zu viel "
+	ctxt "Das ist zu viel"
 	line "Druck!"
 
 	done

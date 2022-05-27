@@ -5,7 +5,7 @@ Route82Gate_MapScriptHeader;trigger count
 
 Route82GateGuard:
 	ctxt "Wenn du nicht"
-	line "Schwimmen oder"
+	line "schwimmen oder"
 	para "Surfer einsetzen"
 	line "kannst, geh besser"
 	cont "zurück zur Stadt."

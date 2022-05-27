@@ -12,7 +12,7 @@ Route87DirectionsSign:
 Route87_Trainer_1:
 	trainer EVENT_ROUTE_87_TRAINER_1, SWIMMERM, 9, .before_battle_text, .battle_won_text
 
-	ctxt "Vor dem schwimmen"
+	ctxt "Vor dem Schwimmen"
 	line "solltest du dich"
 	cont "immer dehnen."
 
@@ -26,7 +26,7 @@ Route87_Trainer_1:
 
 	para "Deine #mon sind"
 	line "hoffentlich gut"
-	cont "vorbereitet?"
+	cont "vorbereitet."
 	done
 
 .battle_won_text
@@ -39,13 +39,13 @@ Route87_Trainer_2:
 
 	ctxt "Du hast ja deinen"
 	line "ganzen Zorn raus-"
-	cont "gelassen<...> Gut so!"
+	cont "gelassen <...> Gut so!"
 	done
 
 .before_battle_text
 	ctxt "Zeit für einen"
 	line "entspannten Kampf"
-	para "mit beruigenden"
+	para "mit beruhigendem"
 	line "Meeresrauschen im"
 	cont "Hintergrund."
 	done
@@ -68,8 +68,8 @@ Route87_Trainer_3:
 	done
 
 .before_battle_text
-	ctxt "Der naheste Flug-"
-	line "hafen nach Naljo"
+	ctxt "Der näheste Flug-"
+	line "hafen in Naljo"
 	para "befindet sich in"
 	line "der Süd-Stadt und"
 	para "da muss man sehr"
@@ -80,8 +80,8 @@ Route87_Trainer_3:
 .battle_won_text
 	ctxt "Oh, ich kriege"
 	line "einen Anruf von"
-	para "der"
-	line "Fluggesellschaft<...>"
+	para "der Flug-"
+	line "gesellschaft <...>"
 	done
 
 Route87_MapEventHeader ;filler

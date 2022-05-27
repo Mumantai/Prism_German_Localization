@@ -15,10 +15,10 @@ Route66_Trainer_1:
 	trainer EVENT_ROUTE_66_TRAINER_1, SWIMMERF, 5, .before_battle_text, .battle_won_text
 
 	ctxt "Wir brauchen eine"
-	line "#mon "
+	line "#mon-"
 	cont "Kampf-Olympiade."
 
-	para "War nur ein "
+	para "War nur ein"
 	line "Vorschlag!"
 
 	done
@@ -50,7 +50,7 @@ Route66_Trainer_2:
 .before_battle_text
 	ctxt "Dieser See ist ein"
 	line "toller Ort, um"
-	para "meine Runden zu "
+	para "meine Runden zu"
 	line "trainieren."
 
 	done
@@ -58,9 +58,9 @@ Route66_Trainer_2:
 .battle_won_text
 	ctxt "Zu schade, dass"
 	line "die meisten"
-	para "Menschen #mon"
+	para "Menschen #mon-"
 	line "Training auf dem"
-	para "Wasser nicht "
+	para "Wasser nicht"
 	line "mögen."
 
 	done
@@ -70,11 +70,11 @@ Route66_Trainer_3:
 
 	ctxt "Trainer genießen"
 	line "es, die gleichen"
-	para "#mon Typen wie"
+	para "#mon-Typen wie"
 	line "ihre Interessen zu"
 	cont "haben."
 
-	para "Das macht auch "
+	para "Das macht auch"
 	line "Sinn."
 
 	done
@@ -82,20 +82,20 @@ Route66_Trainer_3:
 .before_battle_text
 	ctxt "Ich bin ein"
 	line "Schwimmer, ich"
-	para "muss Wasser"
-	line "#mon benutzen, "
+	para "muss Wasser-"
+	line "#mon benutzen,"
 	cont "richtig?"
 
 	done
 
 .battle_won_text
-	ctxt "Hahahaha, "
+	ctxt "Hahahaha,"
 	line "verarscht!"
 
 	para "Was?!"
 
 	para "Du hast meinen"
-	line "Sarkasmus "
+	line "Sarkasmus"
 	cont "durchschaut?"
 
 	done

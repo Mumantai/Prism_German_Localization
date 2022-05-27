@@ -32,7 +32,7 @@ RijonLeagueDaichi_Daichi:
 
 .before_battle_text
 	ctxt "Auf diesem Boden"
-	line "standen so viele"
+	line "standen so viele,"
 	para "die einst vor uns"
 	line "gelebt haben."
 
@@ -45,11 +45,11 @@ RijonLeagueDaichi_Daichi:
 
 	para "Unsere Existenz"
 	line "wirkt unbedeutend"
-	para "im vergleich zu"
-	line "der unendlichkeit"
-	para "und der "
+	para "im Vergleich zu"
+	line "der Unendlichkeit"
+	para "und der"
 	line "Menschheits-"
-	cont "geschischte."
+	cont "geschichte."
 
 	para "Um wie der Boden"
 	line "unter unseren"
@@ -59,37 +59,37 @@ RijonLeagueDaichi_Daichi:
 	line "sein."
 
 	para "Ewig lebt, wer"
-	line "Hart wie der"
+	line "hart wie der"
 	para "Boden bleibt und"
 	line "sein Leben in"
-	para "vollen zügen"
+	para "vollen Zügen"
 	line "genießt, ohne sich"
-	para "von seinen "
+	para "von seinen"
 	line "Problemen in die"
-	para "kniehe zwingen"
+	para "Knie zwingen"
 	line "zu lassen!"
 
-	para "Deshalb bleib"
+	para "Deshalb bleibe"
 	line "jetzt standhaft"
 	para "wie ein Stein"
 	line "und stell dich"
-	cont "meiner macht!"
+	cont "meiner Macht!"
 	sdone
 
 .battle_won_text
 	ctxt "Bodenständig zu"
-	line "bleiben heißt"
+	line "bleiben, heißt"
 	para "balanciert zu"
-	line "bleiben & das"
+	line "bleiben und das"
 	para "heißt zu"
 	line "verstehen, dass"
 	para "du diszipliniert"
-	line "allen problemen"
-	para "entgegen treten"
+	line "allen Problemen"
+	para "entgegentreten"
 	line "musst und dein"
 	para "Leben so nehmen"
-	line "musst wie es"
-	cont "nunmal ist."
+	line "musst, wie es"
+	cont "nun mal ist."
 	done
 
 .after_battle_text
@@ -97,11 +97,11 @@ RijonLeagueDaichi_Daichi:
 	line "weiteren Gegner"
 	para "vor dir, bevor"
 	line "du um den Titel"
-	para "des #mon"
+	para "des #mon-"
 	line "Meisters Kämpfen"
 	cont "darfst."
 
-	para "Viel Glück"
+	para "Viel Glück,"
 	line "Trainer."
 	sdone
 

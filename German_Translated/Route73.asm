@@ -19,7 +19,7 @@ Route73BlockingDude:
 	line "nicht passieren."
 
 	para "Die #mon vor"
-	line "dir, sind zu"
+	line "dir sind zu"
 	cont "stark für dich."
 
 	para "Wenn du Josiah"
@@ -34,8 +34,8 @@ Route73BlockingDude:
 Route73_Trainer_1:
 	trainer EVENT_ROUTE_73_TRAINER_1, PICNICKER, 2, .before_battle_text, .battle_won_text
 
-	ctxt "Josiah's Kampfstil"
-	line "ist Heiß!"
+	ctxt "Josiahs Kampfstil"
+	line "ist heiß!"
 
 	para "Wortwörtlich!"
 	done
@@ -46,7 +46,7 @@ Route73_Trainer_1:
 	done
 
 .battle_won_text
-	ctxt "Nun weiss ich es<...>"
+	ctxt "Nun weiß ich es <...>"
 	done
 
 Route73_Trainer_2:
@@ -68,8 +68,8 @@ Route73_Trainer_2:
 Route73_Trainer_3:
 	trainer EVENT_ROUTE_73_TRAINER_3, BUG_CATCHER, 2, .before_battle_text, .battle_won_text
 
-	ctxt "Was ist der Sch-"
-	line "lüssel zum Sieg?"
+	ctxt "Der Schlüssel"
+	line "zum Sieg?"
 
 	para "Motivation!"
 	done
@@ -81,23 +81,23 @@ Route73_Trainer_3:
 
 .battle_won_text
 	ctxt "Zu viele Fehl-"
-	line "entscheidungen<...>"
+	line "entscheidungen <...>"
 	done
 
 Route73_Trainer_4:
 	trainer EVENT_ROUTE_73_TRAINER_4, JUGGLER, 1, .before_battle_text, .battle_won_text
 
-	ctxt "Fang ein Elektro"
-	line "und ein Feuer-typ"
-	para "#mon bevor du"
+	ctxt "Fang ein Elektro-"
+	line "und ein Feuer-typ-"
+	para "#mon, bevor du"
 	line "zur Höhle gehst."
 
 	para "Vertrau mir!"
 	done
 
 .before_battle_text
-	ctxt "Fang ein Elektro"
-	line "und Feuer #mon!"
+	ctxt "Fang ein Elektro-"
+	line "und Feuer-#mon!"
 	done
 
 .battle_won_text

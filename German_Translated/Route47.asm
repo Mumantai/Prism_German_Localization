@@ -26,8 +26,8 @@ Route47_Trainer_1:
 	done
 
 .before_battle_text
-	ctxt "Sie können dieses "
-	line "Tor nicht "
+	ctxt "Sie können dieses"
+	line "Tor nicht"
 	cont "passieren."
 
 	done
@@ -40,7 +40,7 @@ Route47_Trainer_1:
 Route47_Trainer_2:
 	trainer EVENT_ROUTE_47_TRAINER_2, BIKER, 7, .before_battle_text, .battle_won_text
 
-	ctxt "Ich werde einfach "
+	ctxt "Ich werde einfach"
 	line "chillen."
 
 	done

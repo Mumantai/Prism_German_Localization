@@ -15,11 +15,11 @@ RijonLeagueInside_MapScriptHeader;trigger count
 	return
 
 RijonLeagueInsideNPC1:
-	ctxt "Pack dich gut ein"
-	line "bevor du rein"
-	cont "gehst."
+	ctxt "Pack dich gut"
+	line "ein, bevor du"
+	cont "rein gehst."
 
-	para "Du wirst sie"
+	para "Du wirst es"
 	line "brauchen!"
 	done
 
@@ -44,12 +44,12 @@ RijonLeagueInsideNPC2:
 	done
 
 RijonLeagueInsideGuard:
-	ctxt "Die Rijon Liga"
+	ctxt "Die Rijon-Liga"
 	line "ist vorübergehend"
 	cont "geschlossen."
 
 	para "Die Top-4 nehmen"
-	line "sich eine wohl"
+	line "sich eine wohl-"
 	
 	para "verdiente Auszeit"
 	line "und werden dabei"

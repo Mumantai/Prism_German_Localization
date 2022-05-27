@@ -16,12 +16,12 @@ Route59DirectionsSign:
 Route59_Trainer_1:
 	trainer EVENT_ROUTE_59_TRAINER_1, JUGGLER, 2, .before_battle_text, .battle_won_text
 
-	ctxt "Jetzt wo die Lage"
+	ctxt "Jetzt, wo die Lage"
 	line "in Botania City"
 	para "nicht mehr so"
 	line "angespannt ist,"
 	para "kann jeder ohne"
-	line "probleme vorbei."
+	line "Probleme vorbei."
 	done
 
 .before_battle_text
@@ -31,17 +31,17 @@ Route59_Trainer_1:
 	done
 
 .battle_won_text
-	ctxt "Schade, das die"
-	line "hier kein #mon"
+	ctxt "Schade, dass die"
+	line "hier kein #mon-"
 	cont "Center haben, denn"
 	para "ich könnte jetzt"
-	line "einen brauchen."
+	line "eines brauchen."
 	done
 
 Route59_Trainer_2:
 	trainer EVENT_ROUTE_59_TRAINER_2, FIREBREATHER, 4, .before_battle_text, .battle_won_text
 
-	ctxt "Zeit etwas mehr"
+	ctxt "Zeit, etwas mehr"
 	line "Maisstärke zu"
 	cont "nehmen."
 	done
@@ -49,7 +49,7 @@ Route59_Trainer_2:
 .before_battle_text
 	ctxt "Die Mitte dieses"
 	line "Grasfeldes ist"
-	para "der beste Ort um"
+	para "der beste Ort, um"
 	line "meine Feuer-Spuck-"
 	cont "Künste zu zeigen!"
 	done
@@ -58,11 +58,11 @@ Route59_Trainer_2:
 	ctxt "Komm runter, du"
 	line "hast nur gewonnen."
 
-	para "Ist ja nicht so"
-	line "das du jetzt Champ"
-	cont "geworden bist<...>"
+	para "Ist ja nicht so,"
+	line "dass du jetzt"
+	cont "Champ wurdest <...>"
 
-	para "Moment mal<...>"
+	para "Moment mal <...>"
 	line "Du bist der CHAMP!"
 	done
 

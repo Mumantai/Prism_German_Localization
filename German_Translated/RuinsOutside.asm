@@ -24,10 +24,10 @@ RuinsOasis:
 	done
 
 .party_healed_text
-	ctxt "Das war beruigend!"
+	ctxt "Wie entspannend!"
 
 	para "Deine #mon sind"
-	line "nun Topfit!"
+	line "nun topfit!"
 	done
 
 RuinsOutsideNPC:
@@ -36,14 +36,14 @@ RuinsOutsideNPC:
 
 	para "Du kannst über"
 	line "diese Gruben hin-"
-	para "weg springen um an"
-	line "die andere Seite"
-	para "zu gelangen. Das"
-	line "gilt auch für noch"
-	para "nicht entdeckte"
-	line "Gruben!"
+	para "weg springen, um"
+	line "an die andere"
+	para "Seite zu gelangen."
+	line "Das gilt auch "
+	para "für noch nicht"
+	line "entdeckte Gruben!"
 
-	para "Halte das im"
+	para "Behalte das im"
 	line "Hinterkopf!"
 	done
 
@@ -78,17 +78,17 @@ RuinsOutsideArchaeologist:
 	jumptext .introduction_text
 
 .introduction_text
-	ctxt "Hallo, Hallo,"
-	line "Haaallooo!"
+	ctxt "Hallo, hallo,"
+	line "haaallooo!"
 
-	para "Ich bin ein Ruhm-"
+	para "Ich bin ein ruhm-"
 	line "voller Archeologe."
 
-	para "Naljo hat eine "
+	para "Naljo hat eine"
 	line "sehr anziehende"
 	cont "Geschichte!"
 
-	para "Wusstest du,<...>"
+	para "Wusstest du, <...>"
 
 	para "dass diese Ruinen"
 	line "eigentlich ein"
@@ -100,30 +100,30 @@ RuinsOutsideArchaeologist:
 	para "her und betete die"
 	line "4 Wächter an."
 	para "Nun zerfällt der"
-	line "Tempel almählich,"
+	line "Tempel allmählich,"
 	para "da sich niemand"
 	line "mehr darum kümmert"
 	cont "<...>"
 
 	para "Wenn du im Tempel"
 	line "etwas sehr"
-	para "interesanntes "
+	para "Interesanntes"
 	line "findest, bring es"
 	para "zu mir und du"
-	line "kriegst was tolles"
+	line "kriegst was Tolles"
 	cont "von mir."
 	done
 
 .wrong_jewel_text
 	ctxt "Nunja Juwelen sind"
-	line "schon besonders<...>"
+	line "schon besonders <...>"
 	para "Sind aber nicht"
 	line "jene, nach denen"
-	cont "ich suche<...>"
+	cont "ich suche <...>"
 
 	para "Wenn du ein sehr"
 	line "interesanntes"
-	para "Juwel findest<...>"
+	para "Juwel findest <...>"
 	line "Dann sags mir!"
 	done
 
@@ -131,17 +131,17 @@ RuinsOutsideArchaeologist:
 	ctxt "DAS IST ES!"
 
 	para "Ich habe noch nie"
-	line "sowas schönes in"
-	para "meinem leben"
+	line "sowas Schönes in"
+	para "meinem Leben"
 	line "gesehen!"
 
-	para "Bitte<...> nimm das."
+	para "Bitte <...> nimm das."
 
 	para "Damit brauche ich"
 	line "das nicht mehr."
 
 	para "Du erhälst einen"
-	line "Fake Ausweis!"
+	line "Fake-Ausweis!"
 	done
 
 .received_fake_ID_text
@@ -149,12 +149,12 @@ RuinsOutsideArchaeologist:
 	line "ein echter Naljo-"
 	cont "Bürger!"
 
-	para "Ich brauchte es um"
-	line "in dieser Region"
-	para "unbemerkt leben zu"
-	line "können."
+	para "Ich brauchte es,"
+	line "um in dieser Regi-"
+	para "on unbemerkt leben"
+	line "zu können."
 
-	para "Aber nun wo ich"
+	para "Aber nun, wo ich"
 	line "das Prismajuwel in"
 	cont "meinen Händen"
 	para "halte, kann ich"

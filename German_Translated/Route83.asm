@@ -18,7 +18,7 @@ Route83BlockingDude:
 
 	para "Sry, aber ich muss"
 	line "hier meine Schnür-"
-	cont "senkel binden<...>"
+	cont "senkel binden <...>"
 	done
 
 Route83_Trainer:

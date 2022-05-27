@@ -73,15 +73,15 @@ Route55StudiosSign:
 Route55_Trainer_1:
 	trainer EVENT_ROUTE_55_TRAINER_1, HIKER, 5, .before_battle_text, Route55_Trainers_1_2_BattleWon_Text
 
-	ctxt "Warum mit deinem "
-	line "#mon fliegen, "
-	para "wenn du mit ihnen "
+	ctxt "Warum mit deinem"
+	line "#mon fliegen,"
+	para "wenn du mit ihnen"
 	line "laufen kannst?"
 	done
 
 .before_battle_text
-	ctxt "Den langen Weg zu "
-	line "gehen ist immer "
+	ctxt "Den langen Weg zu"
+	line "gehen, ist immer"
 	cont "erfrischend!"
 
 	done
@@ -89,19 +89,19 @@ Route55_Trainer_1:
 Route55_Trainer_2:
 	trainer EVENT_ROUTE_55_TRAINER_2, HIKER, 6, .before_battle_text, Route55_Trainers_1_2_BattleWon_Text
 
-	ctxt "Die verrückten "
-	line "Typen im Norden "
-	para "wollen wohl, dass "
-	line "ihre Studios "
+	ctxt "Die verrückten"
+	line "Typen im Norden"
+	para "wollen wohl, dass"
+	line "ihre Studios"
 	cont "abgelegen sind."
 
 	done
 
 .before_battle_text
-	ctxt "Warum hat sich "
-	line "niemand die Mühe "
-	para "gemacht, diesen "
-	line "Weg frei zu "
+	ctxt "Warum hat sich"
+	line "niemand die Mühe"
+	para "gemacht, diesen"
+	line "Weg freizu-"
 	cont "machen?"
 
 	done
@@ -109,26 +109,26 @@ Route55_Trainer_2:
 Route55_Trainer_3:
 	trainer EVENT_ROUTE_55_TRAINER_3, GENTLEMAN, 1, .before_battle_text, .battle_won_text
 
-	ctxt "Diese Leute "
-	line "glauben, dass "
-	para "unsere Welt nicht "
-	line "mehr ist als ein "
-	para "Spiel, das sie "
+	ctxt "Diese Leute"
+	line "glauben, dass"
+	para "unsere Welt nicht"
+	line "mehr ist als ein"
+	para "Spiel, das sie"
 	line "geschaffen haben."
 
-	para "Ich kann Egomanen "
-	line "nicht ausstehen<...> "
+	para "Ich kann Egomanen"
+	line "nicht ausstehen <...>"
 	done
 
 .before_battle_text
-	ctxt "Betritt dieses "
+	ctxt "Betritt dieses"
 	line "Gebäude auf eigene"
 	cont "Gefahr!"
 
 	done
 
 .battle_won_text
-	ctxt "Hört nicht auf "
+	ctxt "Hört nicht auf"
 	line "falsche Propheten."
 
 	done

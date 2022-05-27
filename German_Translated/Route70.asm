@@ -21,7 +21,7 @@ Route70NPC1:
 	line "ist wirklich tief!"
 
 	para "Wenn du beim"
-	line "laufen den" 
+	line "Laufen den" 
 	para "B-Knopf drückst,"
 	line "rennst du"
 	cont "schneller!"
@@ -35,7 +35,7 @@ Route70NPC2:
 	line "Rijon-Region!"
 
 	para "Du brauchst einen"
-	line "Rijon-Pass damit"
+	line "Rijon-Pass, damit"
 	para "dich der Wächter"
 	line "passieren lässt."
 	done

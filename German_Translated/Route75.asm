@@ -15,7 +15,7 @@ Route75_Trainer_1:
 	trainer EVENT_ROUTE_75_TRAINER_1, SCHOOLBOY, 2, .before_battle_text, .battle_won_text
 
 	ctxt "Die Schule stiehlt"
-	line "mir die Zeit<...>"
+	line "mir die Zeit <...>"
 	done
 
 .before_battle_text
@@ -26,7 +26,7 @@ Route75_Trainer_1:
 
 .battle_won_text
 	ctxt "Jaa, Ich hab nicht"
-	line "nicht aufgepasst."
+	line "aufgepasst."
 	done
 
 Route75_Trainer_2:
@@ -38,7 +38,7 @@ Route75_Trainer_2:
 
 .before_battle_text
 	ctxt "Du siehst gut aus,"
-	line "Aber<...> nicht gut"
+	line "aber <...> nicht gut"
 	cont "genug für mich!"
 	done
 
@@ -50,20 +50,20 @@ Route75_Trainer_2:
 Route75_Trainer_3:
 	trainer EVENT_ROUTE_75_TRAINER_3, BIRD_KEEPER, 2, .before_battle_text, .battle_won_text
 
-	ctxt "Ich hoffe eines"
-	line "tages so gut wie"
+	ctxt "Ich hoffe, eines"
+	line "Tages so gut wie"
 	cont "Falkner zu werden!"
 	done
 
 .before_battle_text
-	ctxt "#mon Attacken"
+	ctxt "#mon-Attacken"
 	line "sind so"
 	cont "furchteregend!"
 	done
 
 .battle_won_text
 	ctxt "Dennoch mag ich"
-	line "sie<...>"
+	line "sie <...>"
 	done
 
 Route75_Trainer_4:

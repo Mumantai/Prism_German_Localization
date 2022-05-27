@@ -20,14 +20,14 @@ Route52_Trainer:
 	done
 
 .before_battle_text
-	ctxt "Sieh dir meinen "
+	ctxt "Sieh dir meinen"
 	line "tollen Fang an!"
 
 	done
 
 .battle_won_text
-	ctxt "Ich glaube, ich "
-	line "kann es besser "
+	ctxt "Ich glaube, ich"
+	line "kann es besser"
 	cont "machen."
 
 	done

@@ -30,37 +30,37 @@ RijonLeagueYuki_Yuki:
 	step_end
 
 .before_battle_text
-	ctxt "Willkommen"
+	ctxt "Willkommen,"
 	line "Trainer!"
 
 	para "Was du auf deiner"
-	line "Reise erlebt hast"
+	line "Reise erlebt hast,"
 	cont "ist einzigartig!"
 
 	para "Jeder könnte sich"
-	line "die Orden"
-	para "verdienen und die"
-	line "Seneza Höhlen"
-	para "durchqueren, aber"
-	line "keine könnte es so"
+	line "die Orden verdie-"
+	para "nen und die Sene-"
+	line "za-Höhlen durch-"
+	para "queren, aber kei-"
+	line "ner könnte es so,"
 	cont "wie du es hast."
 
 	para "Deine Art ist wie"
 	line "die einer Schnee-"
-	para "flocke<...> Keine"
+	para "flocke <...> Keine"
 	line "Schneeflocke in"
 	para "diesem Universum"
-	line "gleicht einem"
-	cont "anderen<...>"
-	para "Krass oder?"
-	para "So wie du auch!"
+	line "gleicht einer"
+	cont "anderen <...>"
+	para "Krass, oder?"
+	para "So, wie du auch!"
 
 	para "Ich bin Yuki, die"
 	line "Meisterin aller"
-	para "Eis #mon"
-	line "Trainer und auch"
+	para "Eis-#mon,"
+	line "Trainer, und auch"
 	para "dein 1. Gegner"
-	line "der Rijon Liga."
+	line "der Rijon-Liga."
 
 	para "Gib dein Bestes!"
 	sdone
@@ -72,11 +72,11 @@ RijonLeagueYuki_Yuki:
 
 .after_battle_text
 	ctxt "Dadurch, dass du"
-	line "meinem eisigen"
+	line "meinen eisigen"
 	para "Sturm überstanden"
 	line "hast, hast du"
 	para "bewiesen, dass du"
-	line "Standfest bist."
+	line "standfest bist."
 
 	para "Deshalb, schreite"
 	line "voran in den"

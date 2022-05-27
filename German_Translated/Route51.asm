@@ -15,32 +15,32 @@ Route51DirectionsSign:
 Route51_Trainer:
 	trainer EVENT_ROUTE_51_TRAINER_1, SUPER_NERD, 4, .before_battle_text, .battle_won_text
 
-	ctxt "Ich schätze, ich "
+	ctxt "Ich schätze, ich"
 	line "hätte diese tollen"
-	para "#mon nicht, "
-	line "wenn es diesen "
+	para "#mon nicht,"
+	line "wenn es diesen"
 	para "grasigen Weg nicht"
 	line "gegeben hätte."
 
 	done
 
 .before_battle_text
-	ctxt "Jemand sollte "
-	line "diesen Weg frei "
+	ctxt "Jemand sollte"
+	line "diesen Weg frei-"
 	cont "machen."
 
-	para "Menschen dazu zu "
-	line "zwingen, durch so "
-	para "viel Gras zu "
+	para "Menschen dazu zu"
+	line "zwingen, durch so"
+	para "viel Gras zu"
 	line "gehen, ist einfach"
-	para "schlechte "
+	para "schlechte"
 	line "Straßengestaltung."
 
 	done
 
 .battle_won_text
-	ctxt "Nun, das "
-	line "relativiert die "
+	ctxt "Nun, das"
+	line "relativiert die"
 	cont "Dinge."
 
 	done

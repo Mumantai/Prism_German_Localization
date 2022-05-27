@@ -4,11 +4,12 @@ JaeruGate_MapScriptHeader;trigger count
 	db 0
 
 JaeruGateGuard:
-	ctxt "Wenn du durch das"
-	line "Portal hergekommen"
-	para "bist, können wir"
-	line "dich leider nicht"
-	cont "durchlassen."
+	ctxt "Wenn du hierher"
+	line "über das Portal"
+	para "gekommen bist,"
+	line "können wir dich"
+	para "leider nicht"
+	line "passieren lassen."
 
 	para "Sorry."
 	done

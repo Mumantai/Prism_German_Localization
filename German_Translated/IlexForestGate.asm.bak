@@ -4,19 +4,22 @@ IlexForestGate_MapScriptHeader;trigger count
 	db 0
 
 IlexForestGateNPC:
-	ctxt "Der Steineichen-"
-	line "wald ist groß."
-	cont "Sei vorsichtig."
+	ctxt "Der Stein-"
+	line "eichenwald"
+	cont "ist groß."
 
-	para "Du hast in Naljo"
-	line "größere Wälder"
-	cont "gesehen?"
+	para "Pass gut auf."
+
+	line "Du hast"
+	para "Schlimmeres"
+	line "gesehen?"
 
 	para "Jetzt hast du mich"
 	line "neugierig gemacht."
 
-	para "Ich muss unbedingt"
-	line "einmal nach Naljo."
+	para "Jetzt muss ich"
+	line "nach Naljo."
+
 	done
 
 IlexForestGate_MapEventHeader:: db 0, 0

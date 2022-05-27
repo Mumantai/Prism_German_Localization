@@ -8,22 +8,21 @@ IlexForest_GoldToken:
 	db GOLD_TOKEN
 
 IlexForestShrine:
-	ctxt "Dieser Schrein"
-	line "wurde zu Ehren des"
-	para "Schutzpatrons des"
-	line "Waldes errichtet <...>"
+	ctxt "Der Schrein im"
+	line "Steineichenwald <...>"
+	para "Es ist zu Ehren"
+	line "des Schutzpatrons"
+	cont "des Waldes <...>"
 	done
 
 IlexForestSign:
 	signpostheader 2
 
 	ctxt "Die hohen Bäume"
-	next "des Waldes, lassen"
-	next "kein Licht durch."
-	nl	 ""
-	next "Achten Sie auf"
-	next "heruntergefallene"
-	next "Gegenstände!"
+	next "im Steineichen-"
+	next "wald verdunkeln"
+	next "alles. Liegen"
+	next "hier etwa Items?"
 	done
 
 IlexForest_MapEventHeader:: db 0, 0

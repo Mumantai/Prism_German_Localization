@@ -55,8 +55,8 @@ SpurgeGymB2FButton:
 .pushed_text
 	ctxt "Schalter betätigt."
 
-	para "Keine Ahnung was"
-	line "das gebracht hat<...>"
+	para "Keine Ahnung, was"
+	line "das gebracht hat <...>"
 	done
 
 .already_pushed_text
@@ -97,29 +97,29 @@ SpurgeGymB2FLeader:
 
 .did_not_find_all_mons_text
 	ctxt "Du hast ja Jahre"
-	line "gebraucht um mich"
+	line "gebraucht, um mich"
 	cont "zu finden!"
 
 	para "Du hast aber noch"
 	line "nicht all deine"
 	cont "#mon zurück!"
 
-	para "Komm wieder wenn"
+	para "Komm wieder, wenn"
 	line "es so weit ist."
 	done
 
 .introduction_text
-	ctxt "Hallo Trainer!"
+	ctxt "Hallo, Trainer!"
 
-	para "Aufgrund deinem"
-	line "Mut, welches du"
+	para "Aufgrund deines"
+	line "Mutes, welchen du"
 	cont "in diesem Puzzle"
 	para "beweisen konntest,"
 	line "akzeptiere ich"
 	cont "den Kampf!"
 
 	para "Ich bin Bruce, der"
-	line "Stahl Arenaleiter"
+	line "Stahl-Arenaleiter"
 	cont "von Naljo!"
 
 	para "Die Verteidigungs-"
@@ -131,21 +131,21 @@ SpurgeGymB2FLeader:
 	sdone
 
 .battle_won_text
-	ctxt "W<...>Wie?"
+	ctxt "W<...> Wie?"
 
 	para "Naja, egal."
 
 	para "Du hast dir den"
 	line "Orden verdient und"
 	para "dadurch auch die"
-	line "möglichkeit, die"
-	para "Rijon Liga zu"
+	line "Möglichkeit, die"
+	para "Rijon-Liga zu"
 	line "bestreiten!"
 	done
 
 .received_badge_text
 	ctxt "<PLAYER> erhält"
-	line "den Naljo Orden!"
+	line "den Naljo-Orden!"
 	done
 
 .before_giving_TM_text
@@ -166,11 +166,11 @@ SpurgeGymB2FLeader:
 
 .parting_text
 	ctxt "Es ist Zeit für"
-	line "uns zu gehen."
+	line "uns, zu gehen."
 
 	para "Wenn du nicht"
-	line "weißt wie du zur"
-	para "Rijon Liga"
+	line "weißt, wie du"
+	para "zur Rijon-Liga"
 	line "gelangst, sprich"
 	para "mich oben nochmal"
 	line "an, dann erkläre"

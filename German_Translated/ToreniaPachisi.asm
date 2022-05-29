@@ -8,7 +8,7 @@ ToreniaPachisiGameOperator:
 
 ToreniaPachisiNPC:
 	ctxt "Diese Spiel ist"
-	line "pures Glück<...>"
+	line "pures Glück <...>"
 
 	para "Deshalb verliere"
 	line "ich natürlich auch"
@@ -16,7 +16,7 @@ ToreniaPachisiNPC:
 
 	para "Nein, kein Mitleid"
 	line "mit einem alten"
-	cont "Mann<...>"
+	cont "Mann <...>"
 	done
 
 ToreniaPachisi_MapEventHeader ;filler

@@ -8,8 +8,8 @@ SaffronMagnetTrainEmployee:
 
 SaffronMagnetTrainNPC:
 	ctxt "Einfach mal Zug"
-	line "fahren um die"
-	para "Seele baumeln zu "
+	line "fahren, um die"
+	para "Seele baumeln zu"
 	line "lassen."
 
 	done

@@ -4,20 +4,20 @@ SoutherlyAirport_MapScriptHeader;trigger count
 	db 0
 
 SoutherlyAirportNPC1:
-	ctxt "Es gibt so viele "
-	line "#mon auf der "
+	ctxt "Es gibt so viele"
+	line "#mon auf der"
 	cont "Welt."
 
-	para "Ich will so viele "
+	para "Ich will so viele"
 	line "wie möglich sehen!"
 
 	done
 
 SoutherlyAirportNPC2:
-	ctxt "Ich war schon "
+	ctxt "Ich war schon"
 	line "überall!"
 
-	para "Nenne mir eine "
+	para "Nenne mir eine"
 	line "Region und ich war"
 	cont "schon dort!"
 
@@ -25,9 +25,9 @@ SoutherlyAirportNPC2:
 
 SoutherlyAirportNPC3:
 	ctxt "Wenn der Flughafen"
-	line "in Dukatia City "
-	para "wieder steht, "
-	line "können wir nach "
+	line "in Dukatia City"
+	para "wieder steht,"
+	line "können wir nach"
 	cont "Johto fliegen!"
 
 	done
@@ -57,13 +57,13 @@ SoutherlyAirportPilot:
 .introduction_text
 	ctxt "Hallo hallo!"
 
-	para "Falls du jemals "
-	line "irgendwo hin "
-	para "fliegen möchtest, "
-	line "komm mit einem "
+	para "Falls du jemals"
+	line "irgendwo hin-"
+	para "fliegen möchtest,"
+	line "komm mit einem"
 	cont "Ticket wieder."
 
-	para "Wir bringen dich "
+	para "Wir bringen dich"
 	line "dann überall hin!"
 
 	done
@@ -72,27 +72,27 @@ SoutherlyAirportPilot:
 	ctxt "Moment mal!"
 
 	para "<...>"
-	line "Lese ich das "
+	line "Lese ich das"
 	cont "wirklich?"
 
 	para "<...>"
 	line "Ja, tatsächlich!"
 
-	para "Das ist wirklich "
-	line "ein Ticket zur "
+	para "Das ist wirklich"
+	line "ein Ticket zur"
 	cont "Geheimniszone!"
 
-	para "In der "
-	line "Geheimniszone "
-	para "warten die besten "
-	line "Trainer der Welt "
+	para "In der"
+	line "Geheimniszone"
+	para "warten die besten"
+	line "Trainer der Welt"
 	cont "auf dich!"
 
-	para "Du musst ja echt "
+	para "Du musst ja echt"
 	line "was drauf haben!"
 
-	para "Ich kann dich "
-	line "sofort dort hin "
+	para "Ich kann dich"
+	line "sofort dorthin"
 	cont "bringen."
 
 	para "Willst du los?"
@@ -100,7 +100,7 @@ SoutherlyAirportPilot:
 	done
 
 .want_to_go_text
-	ctxt "Willst du zur "
+	ctxt "Willst du zur"
 	line "Geheimniszone?"
 
 	done
@@ -115,8 +115,8 @@ SoutherlyAirportPilot:
 .declined_text
 	ctxt "Schade."
 
-	para "Ich bring selten "
-	line "jemanden in die "
+	para "Ich bring selten"
+	line "jemanden in die"
 	cont "Geheimniszone."
 
 	done 

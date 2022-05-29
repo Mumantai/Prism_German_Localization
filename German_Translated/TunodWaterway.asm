@@ -13,7 +13,7 @@ TunodWaterway_Trainer_1:
 	ctxt "Du solltest dank-"
 	line "bar sein, dass wir"
 	para "eine Technologie"
-	line "haben um #mon"
+	line "haben, um #mon"
 	cont "zu zähmen."
 	done
 
@@ -26,7 +26,7 @@ TunodWaterway_Trainer_1:
 	ctxt "Wenigstens müssen"
 	line "meine #mon mich"
 	para "nicht beim"
-	line "Schwimmen tragen<...>"
+	line "Schwimmen tragen <...>"
 	done
 
 TunodWaterway_Trainer_2:
@@ -40,12 +40,12 @@ TunodWaterway_Trainer_2:
 
 .before_battle_text
 	ctxt "Das war mal mein"
-	line "geheimer Ort"
+	line "geheimer Ort,"
 	para "wo ich für mich"
-	line "selbst sein konnte"
-	para "bevor Süd-Stadt"
-	line "den Pfad hier"
-	cont "eröffnete."
+	line "selbst sein"
+	para "konnte, bevor Süd-"
+	line "Stadt den Pfad"
+	cont "hier eröffnete."
 	done
 
 .battle_won_text

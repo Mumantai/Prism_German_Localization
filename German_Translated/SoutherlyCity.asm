@@ -10,7 +10,7 @@ SoutherlyCity_MapScriptHeader;trigger count
 	return
 
 SoutherlyCityGymSign:
-	ctxt "#mon Arena"
+	ctxt "#mon-Arena"
 	next "Leiter: Ernest"
 	next "Der Trainer mit"
 	next "großer Feuerkraft!"
@@ -48,13 +48,13 @@ SoutherlyCityEspoForestGuard:
 	jumptextfaceplayer .text
 
 .text
-	ctxt "Merkwürdige Dinge "
-	line "gehen drüben im "
-	para "Psion-Wald vor "
+	ctxt "Merkwürdige Dinge"
+	line "gehen drüben im"
+	para "Psion-Wald vor"
 	line "sich."
 
-	para "Ich soll die "
-	line "Gegend fürs Erste "
+	para "Ich soll die"
+	line "Gegend fürs Erste"
 	cont "bewachen."
 
 	done
@@ -85,7 +85,7 @@ SoutherlyCityRunwayGuard:
 
 	para "Ich kann dich hier"
 	line "nicht durchlassen,"
-	para "außer du checkst "
+	para "außer, du checkst"
 	line "am Terminal ein."
 
 	done
@@ -112,43 +112,43 @@ SoutherlyCityTeleporter:
 	sdone
 
 .want_to_teleport_text
-	ctxt "Möchtest du dich "
+	ctxt "Möchtest du dich"
 	line "nach Lauralia City"
 	cont "teleportieren?"
 
 	done
 
 SoutherlyCityNPC1:
-	ctxt "Der Flughafen hat "
-	line "ein neues "
+	ctxt "Der Flughafen hat"
+	line "ein neues"
 	cont "Flugzeug!"
 
-	para "Es ist komplett "
+	para "Es ist komplett"
 	line "mit #mon "
 	cont "verziert!"
 
 	done
 
 SoutherlyCityNPC2:
-	ctxt "Jedes Mal, wenn "
+	ctxt "Jedes Mal, wenn"
 	line "man denkt, man hat"
-	para "den Dreh bei der "
-	line "Ausdauerübung "
-	para "raus, wird man "
+	para "den Dreh bei der"
+	line "Ausdauerübung"
+	para "raus, wird man"
 	line "erneut überrascht!"
 
-	para "Ich versuche es "
+	para "Ich versuche es"
 	line "schon seit Jahren!"
 
 	done
 
 SoutherlyCityNPC3:
-	ctxt "Es ist verdammt "
-	line "schwer rüber nach "
+	ctxt "Es ist verdammt"
+	line "schwer, rüber nach"
 	cont "Naljo zu kommen."
 
-	para "Hoffentlich bauen "
-	line "sie bald eine "
+	para "Hoffentlich bauen"
+	line "sie bald eine"
 	cont "Brücke."
 
 	done
@@ -166,13 +166,13 @@ SoutherlyCityTyphlosion:
 	done
 
 SoutherlyCityTyphlosionTrainer:
-	ctxt "Mein Tornupto ist "
-	line "mein bester "
+	ctxt "Mein Tornupto ist"
+	line "mein bester"
 	cont "Freund!"
 
 	para "Ich weiß noch, als"
-	line "es ein kleines "
-	cont "Feurigel war<...> "
+	line "es ein kleines"
+	cont "Feurigel war <...> "
 	done
 
 SoutherlyCity_MapEventHeader:: db 0, 0

@@ -125,16 +125,16 @@ SoutherlyBattleHouseNPC:
 	ctxt "Willkommen bei der"
 	line "Ausdauerübung!"
 
-	para "Du wirst dich 7 "
-	line "starken Trainern "
+	para "Du wirst dich 7"
+	line "starken Trainern"
 	cont "stellen."
 
-	para "Schaffst du sie "
-	line "alle, bekommst du "
-	para "einen besonderen "
+	para "Schaffst du sie"
+	line "alle, bekommst du"
+	para "einen besonderen"
 	line "Preis!"
 
-	para "Willst du es "
+	para "Willst du es"
 	line "ausprobieren?"
 
 	done
@@ -152,9 +152,9 @@ SoutherlyBattleHouseNPC:
 	done
 
 .challenge_won_text
-	ctxt "Du hast Gewonnen!"
+	ctxt "Du hast gewonnen!"
 
-	para "Hier ist dein "
+	para "Hier ist dein"
 	line "Preis!"
 
 	prompt
@@ -162,25 +162,25 @@ SoutherlyBattleHouseNPC:
 .challenge_lost_text
 	ctxt "Wie schade."
 
-	para "Versuch es wann "
+	para "Versuch es wann"
 	line "anders wieder."
 
 	done
 
 .come_back_later_text
-	ctxt "Solange du keinen "
-	line "Platz für deinen "
-	para "Preis hast, werde "
-	line "ich ihn vorerst "
+	ctxt "Solange du keinen"
+	line "Platz für deinen"
+	para "Preis hast, werde"
+	line "ich ihn vorerst"
 	cont "behalten."
 
-	para "Komm wieder, um "
+	para "Komm wieder, um"
 	line "ihn mitzunehmen."
 
 	done
 
 .holding_prize_text
-	ctxt "Du wilst deinen "
+	ctxt "Du wilst deinen"
 	line "Preis abholen?"
 
 	para "Hier ist er!"
@@ -224,41 +224,41 @@ SoutherlyBattleHouse_TrainerDataEnd:
 	battlehousetrainer COOLTRAINER_M, RED,   COOLTRAINERM, 14, StaminaTrainer7EncounterText, StaminaTrainer7DefeatedText, StaminaTrainer7AfterText
 
 StaminaTrainer1EncounterText:
-	ctxt "Ich versuch mein "
-	line "#mon eine neue "
-	para "Attacke einsetzen "
+	ctxt "Ich versuch mein"
+	line "#mon eine neue"
+	para "Attacke einsetzen"
 	line "zu lassen!"
 
 	done
 
 StaminaTrainer1DefeatedText:
-	ctxt "Stahlbiss ist "
-	line "super, aber du "
+	ctxt "Stahlbiss ist"
+	line "super, aber du"
 	cont "bist noch besser!"
 
 	done
 
 StaminaTrainer1AfterText:
-	ctxt "Eines Tages "
-	line "entdecke ich noch "
+	ctxt "Eines Tages"
+	line "entdecke ich noch"
 	cont "mehr Attacken!"
 
 	done
 
 StaminaTrainer2EncounterText:
-	ctxt "Snibunna ist der "
+	ctxt "Snibunna ist der"
 	line "Star meines Teams!"
 
 	done
 
 StaminaTrainer2DefeatedText:
-	ctxt "Es konnte mich "
+	ctxt "Es konnte mich"
 	line "nicht retten!"
 
 	done
 
 StaminaTrainer2AfterText:
-	ctxt "Nächstes Mal zeig "
+	ctxt "Nächstes Mal zeig"
 	line "ich's dir!"
 
 	done
@@ -276,25 +276,25 @@ StaminaTrainer3DefeatedText:
 	done
 
 StaminaTrainer3AfterText:
-	ctxt "Du bist wirklich "
+	ctxt "Du bist wirklich"
 	line "Siegfrieds Kind?"
 
 	done
 
 StaminaTrainer4EncounterText:
-	ctxt "Darauf habe ich "
+	ctxt "Darauf habe ich"
 	line "gewartet!"
 
 	done
 
 StaminaTrainer4DefeatedText:
-	ctxt "Das Warten hat "
+	ctxt "Das Warten hat"
 	line "sich gelohnt!"
 
 	done
 
 StaminaTrainer4AfterText:
-	ctxt "Danke fürs "
+	ctxt "Danke für's"
 	line "Durchhalten!"
 
 	done
@@ -302,12 +302,12 @@ StaminaTrainer4AfterText:
 StaminaTrainer5EncounterText:
 	ctxt "Oh, hallo."
 
-	para "Lass uns kurz "
+	para "Lass uns kurz"
 	line "kämpfen."
 
-	para "Ist ja nicht so, "
-	line "also hättest du "
-	para "was Besseres zu "
+	para "Ist ja nicht so,"
+	line "also hättest du"
+	para "was Besseres zu"
 	line "tun."
 
 	done
@@ -323,7 +323,7 @@ StaminaTrainer5AfterText:
 	line "Freizeit haben, um"
 	cont "hier herzukommen."
 
-	para "Geh und rette die "
+	para "Geh und rette die"
 	line "Welt oder so."
 
 	done
@@ -331,8 +331,8 @@ StaminaTrainer5AfterText:
 StaminaTrainer6EncounterText:
 	ctxt "BURN, BABY, BURN!"
 
-	para "<...> <...> <...> "
-	line "<...> <...> <...> "
+	para "<...> <...> <...>"
+	line "<...> <...> <...>"
 	para "Wenn ich mehr"
 	line "sage, habe ich die"
 	cont "GEMA am Hals."
@@ -341,7 +341,7 @@ StaminaTrainer6EncounterText:
 
 StaminaTrainer6DefeatedText:
 	ctxt "Au! Disko und"
-	line "Feuer vertragen "
+	line "Feuer vertragen"
 	cont "sich nicht!"
 
 	done
@@ -353,7 +353,7 @@ StaminaTrainer6AfterText:
 	done
 
 StaminaTrainer7EncounterText:
-	ctxt "Mir ist "
+	ctxt "Mir ist"
 	line "langweilig."
 
 	cont "Lass kämpfen!"
@@ -361,13 +361,13 @@ StaminaTrainer7EncounterText:
 	done
 
 StaminaTrainer7DefeatedText:
-	ctxt "<...>jetzt ist mir "
+	ctxt "<...> jetzt ist mir"
 	line "wieder langweilig."
 
 	done
 
 StaminaTrainer7AfterText:
-	ctxt "<...>so langweilig."
+	ctxt "<...> sso langweilig."
 
 	done
 

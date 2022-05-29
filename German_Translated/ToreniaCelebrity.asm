@@ -29,7 +29,7 @@ ToreniaCelebrityNPC:
 
 .already_gave_item_text
 	ctxt "Wieso denken die"
-	line "Leute es wäre OK"
+	line "Leute, es wäre OK"
 	para "einfach ohne"
 	line "Erlaubnis in mein"
 	cont "Haus zu kommen?"

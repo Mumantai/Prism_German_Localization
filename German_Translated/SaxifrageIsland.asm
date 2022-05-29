@@ -14,7 +14,7 @@ SaxifrageIslandHiddenItem:
 	db REVIVE
 
 SaxifrageIslandDescriptionSign:
-	ctxt "Die Insel in der"
+	ctxt "Die Insel, auf der"
 	next "Kriminelle vom"
 	next "Rest der Welt"
 	next "isoliert werden."
@@ -35,12 +35,12 @@ SaxifrageIslandNPC1:
 
 SaxifrageIslandNPC2:
 	ctxt "Ich warte auf"
-	line "meinen Freund bis"
+	line "meinen Freund, bis"
 	para "er freigelassen"
 	line "wird."
 
 	para "Ich würde sogar"
-	line "für immer auf Ihn"
+	line "für immer auf ihn"
 	cont "warten!"
 	done
 
@@ -93,10 +93,10 @@ SaxifrageIslandArrest:
 	para "<...>"
 
 	para "Haha, du denkst"
-	line "auch ich bin blöd"
-	cont "was?"
+	line "auch, ich bin"
+	cont "blöd, was?"
 
-	para "Mit einem Fake"
+	para "Mit einem Fake-"
 	line "Ausweis kannst du"
 	para "deine Oma täuschen"
 	line "aber nicht mich!"
@@ -121,11 +121,11 @@ SaxifrageIslandArrest:
 	line "viele Kinder nach"
 	cont "Saxifragia."
 
-	para "Normalerweise<...>"
+	para "Normalerweise <...>"
 
 	para "Es kommen sonst"
 	line "Kerle her, die"
-	para "sagen sie würden"
+	para "sagen, sie würden"
 	line "Cadence heraus-"
 	para "fordern wollen,"
 	line "aber versuchen"
@@ -133,13 +133,13 @@ SaxifrageIslandArrest:
 	line "aus den Gefängnis"
 	para "zu befreien."
 
-	para "Deshalb weis ich"
-	line "nicht warum du nun"
-	para "genau hier bist"
-	line "und was du vor"
-	para "hast, aber wir"
-	line "finden das morgen"
-	cont "heraus."
+	para "Deshalb weiß ich"
+	line "nicht, warum du"
+	para "nun genau hier"
+	line "bist und was du"
+	para "vorhast, aber"
+	line "wir finden das"
+	cont "morgen heraus."
 	sdone
 
 SaxifrageIslandPaletteBlue:
@@ -156,13 +156,13 @@ SaxifrageIslandPaletteBlue:
 	endtext
 
 .introduction_text
-	ctxt "Haben Sie dich"
+	ctxt "Haben sie dich"
 	line "auch geschnappt?"
 
-	para "Ich wurde hier her"
+	para "Ich wurde hierher"
 	line "gebracht, Pink"
 	para "nach Eagulou City"
-	line "und Rot<...> schaffte"
+	line "und Rot <...> schaffte"
 	cont "es zu entkommen."
 
 	para "<...>"
@@ -170,23 +170,23 @@ SaxifrageIslandPaletteBlue:
 	para "Wie ich hier nur"
 	line "gelandet bin?"
 
-	para "Nunja<...>"
+	para "Nunja <...>"
 
 	para "Nachdem ich hier"
 	line "gelandet bin, kam"
 	para "Varaneous, der von"
-	line "Rot erweckt wurde,"
+	line "Rot erweckt wurde"
 	para "und erschuf diesen"
 	line "Pfad da hinten."
 
 	para "Rot sagte, dass"
-	line "Varaneous weis, wo"
+	line "Varaneous weiß, wo"
 	para "die anderen"
 	line "Wächter sind."
 
 	para "Es will bestimmt"
 	line "den anderen"
-	para "Wächtern Ihre"
+	para "Wächtern ihre"
 	line "Kugeln zurück-"
 	cont "bringen."
 
@@ -199,13 +199,13 @@ SaxifrageIslandPaletteBlue:
 	line "habe ich in der"
 	para "Kabine des"
 	line "Aufsehers"
-	cont "gefunden<...>"
+	cont "gefunden <...>"
 	
-	para "Nimms ruig."
+	para "Nimm's ruig."
 
 	para "Varaneous ist"
-	line "vieleicht noch"
-	cont "in der nähe."
+	line "vielleicht noch"
+	cont "in der Nähe."
 
 	para "Ich habe das"
 	line "Gefühl, dass du es"
@@ -218,9 +218,8 @@ SaxifrageIslandPaletteBlue:
 	done
 
 .no_space_text
-	ctxt "Mach etwas platz"
-	line "in deinem Beutel"
-	cont "frei!"
+	ctxt "Mach etwas Platz"
+	line "in deinem Beutel!"
 	done
 
 SaxifrageIsland_MapEventHeader:: db 0, 0

@@ -14,7 +14,7 @@ SeashoreGymHiddenItem_2:
 SeashoreGymGuide:
 	ctxt "He!"
 
-	para "Das ist Sheryl's "
+	para "Das ist Sheryls "
 	line "Arena."
 
 	para "Lass dich nicht"
@@ -23,7 +23,7 @@ SeashoreGymGuide:
 	line "in der Arena!"
 
 	para "Sie benutzt Psycho"
-	line "#mon, also sei "
+	line "#mon, also sei"
 	cont "vorsichtig."
 
 	done
@@ -31,46 +31,46 @@ SeashoreGymGuide:
 SeashoreGym_Trainer_1:
 	trainer EVENT_SEASHORE_GYM_TRAINER_1, MEDIUM, 4, .before_battle_text, .battle_won_text
 
-	ctxt "Wirk einmal einen "
+	ctxt "Wirk einmal einen"
 	line "Zauber!"
 
 	done
 
 .before_battle_text
-	ctxt "Psst<...>"
+	ctxt "Psst <...>"
 	para "Sei ruhig,"
-	line "Kindchen<...>"
+	line "Kindchen <...>"
 	done
 
 .battle_won_text
-	ctxt "Stark<...>"
-	line "Viel zu stark<...>"
+	ctxt "Stark <...>"
+	line "Viel zu stark <...>"
 	done
 
 SeashoreGym_Trainer_2:
 	trainer EVENT_SEASHORE_GYM_TRAINER_2, PSYCHIC_T, 5, .before_battle_text, .battle_won_text
 
-	ctxt "Stress schwächt "
+	ctxt "Stress schwächt"
 	line "Menschen."
 
 	done
 
 .before_battle_text
-	ctxt "Komm mal klar, "
+	ctxt "Komm mal klar,"
 	line "Kollege!"
 
 	done
 
 .battle_won_text
-	ctxt "Vielleicht sollte ich<...>!"
+	ctxt "Sollte ich <...>!"
 
 	done
 
 SeashoreGym_Trainer_3:
 	trainer EVENT_SEASHORE_GYM_TRAINER_3, MEDIUM, 7, .before_battle_text, .battle_won_text
 
-	ctxt "Lass mich bitte in"
-	line "Ruhe!"
+	ctxt "Lass mich bitte"
+	line "in Ruhe!"
 
 	done
 
@@ -80,7 +80,7 @@ SeashoreGym_Trainer_3:
 	done
 
 .battle_won_text
-	ctxt "Die Dämonen haben "
+	ctxt "Die Dämonen haben"
 	line "gewonnen!"
 
 	done
@@ -103,7 +103,7 @@ SeashoreGym_Trainer_4:
 
 .battle_won_text
 	ctxt "Ich hatte keine"
-	line "Chance<...>"
+	line "Chance <...>"
 	done
 
 SeashoreGymLeader:
@@ -129,7 +129,7 @@ SeashoreGymLeader:
 	ctxt "Sheryl: Wieder"
 	line "einmal ein"
 	para "weiterer Trainer,"
-	line "der mein Psi-Orden"
+	line "der den Psi-Orden"
 	cont "begehrt."
 
 	para "Ich habe das"
@@ -139,12 +139,12 @@ SeashoreGymLeader:
 	cont "Trainers hast."
 
 	para "Eine Seele wie die"
-	line "von Brown, gegen"
+	line "von Braun, gegen"
 	para "die ich vor vielen"
 	line "Jahren gekämpft"
-	para "habe<...> Das wird in"
+	para "habe <...> Das wird in"
 	line "der Tat Spaß"
-	cont "machen<...> "
+	cont "machen <...>"
 	sdone
 
 .battle_won_text
@@ -152,26 +152,26 @@ SeashoreGymLeader:
 	line "ich dachte!"
 
 	para "Danke für den"
-	line "Kampf; nur zu,"
-	para "nimm den "
+	line "Kampf! Nur zu,"
+	para "nimm den"
 	line "Psi-Orden!"
 
 	done
 
 .received_badge_text
 	ctxt "<PLAYER> erhält den"
-	line "Psi Orden."
+	line "Psi-Orden."
 
 	done
 
 .after_badge_text
 	ctxt "Sheryl: Ich habe"
 	line "das Gefühl, dass"
-	para "Deine Jagt auf"
+	para "deine Jagd auf"
 	line "Orden niemals"
 	cont "enden wird."
 
-	para "Ich möchte Dich"
+	para "Ich möchte dich"
 	line "bei deinem"
 	para "Abenteuer "
 	line "unterstützen."
@@ -183,7 +183,7 @@ SeashoreGymLeader:
 .already_battled_text
 	ctxt "Niemals aufgeben!"
 
-	para "Beweis der Welt,"
+	para "Beweise der Welt,"
 	line "wie gut du bist!"
 
 	done

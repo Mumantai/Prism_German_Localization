@@ -10,7 +10,7 @@ SoutherlyPokecenterNPC1:
 	para "Dort hat er"
 	line "gelernt, seine"
 	para "Feuer-#mon zu"
-	line "beschützen! "
+	line "beschützen!"
 	done
 
 SoutherlyPokecenterNPC2:
@@ -18,7 +18,7 @@ SoutherlyPokecenterNPC2:
 	line "viel über Naljo."
 
 	para "Ich wusste ja"
-	line "nichtmals, dass es"
+	line "nicht mal, dass es"
 	para "existiert, bis sie"
 	line "den Pfad öffneten."
 
@@ -26,7 +26,7 @@ SoutherlyPokecenterNPC2:
 
 SoutherlyPokecenterNPC3:
 	ctxt "Du bist den langen"
-	line "weg geschwommen?"
+	line "Weg geschwommen?"
 
 	para "Deine #mon"
 	line "müssen müde sein!"

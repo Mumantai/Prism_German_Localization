@@ -38,18 +38,18 @@ SpurgeGym1F_MapScriptHeader;trigger count
 	step_end
 
 .forfeit_text
-	ctxt "Nicht Bereit für"
+	ctxt "Nicht bereit für"
 	line "die Challenge?"
 
 	para "Hier hast du deine"
 	line "#mon zurück."
 
-	para "Komm wieder wenn"
+	para "Komm wieder, wenn"
 	line "du stärker bist."
 	sdone
 	
 SpurgeGymSign:
-	ctxt "Euphorbia Arena"
+	ctxt "Euphorbia-Arena"
 	
 	para "Leiter: Bruce"
 	done
@@ -128,7 +128,7 @@ SpurgeGym1FLeader:
 
 	para "Ach, und bitte"
 	line "keine Eier mit-"
-	cont "nehmen<...>"
+	cont "nehmen <...>"
 
 	para "Wäre sowieso zu"
 	line "deinem Nachteil."
@@ -139,7 +139,7 @@ SpurgeGym1FLeader:
 	line "sind hier keine"
 	cont "Eier erlaubt."
 
-	para "Wenn du die Arena"
+	para "Wenn du die Arena-"
 	line "Challenge antreten"
 	para "möchtest, komm mit"
 	line "einem vollen Team."
@@ -149,7 +149,7 @@ SpurgeGym1FLeader:
 	ctxt "Hallo, Trainer!"
 
 	para "Bist du bereit,"
-	line "um den Naljo Orden"
+	line "um den Naljo-Orden"
 	cont "zu kämpfen?"
 
 	para "<...>"
@@ -167,24 +167,24 @@ SpurgeGym1FLeader:
 	para "Wenn du alle"
 	line "findest, komm zu"
 	para "mir und wir werden"
-	line "sehen ob du meiner"
-	cont "würdig bist."
+	line "sehen, ob du mei-"
+	cont "ner würdig bist."
 	done
 
 .already_defeated_text
-	ctxt "Jetzt wo du den"
-	line "Naljo Orden hast,"
+	ctxt "Jetzt, wo du den"
+	line "Naljo-Orden hast,"
 	para "kannst du dich der"
 	line "Rijon-Liga stellen"
 
-	para "Um dahin zu kommen"
-	line "gehst du zu den"
+	para "Um dahin zu komm-"
+	line "men, gehst du zum"
 	para "Akania Hafen und"
 	line "von da aus nach"
 	cont "Osten."
 
 	para "Du erreichst dann"
-	line "die Naljo Grenze,"
+	line "die Naljo-Grenze,"
 	para "wo du den Eingang"
 	line "in die Seneza-"
 	cont "Höhlen findest."

@@ -18,8 +18,8 @@ ToreniaMagnetTrainNPC:
 
 	para "Botania City ist"
 	line "unter Quarantäne"
-	para "und Ich habe"
-	line "keinen Pass um"
+	para "und ich habe"
+	line "keinen Pass, um"
 	cont "nach Johto oder"
 	cont "Kanto zu kommen."
 	done
@@ -30,8 +30,8 @@ ToreniaMagnetTrainNPC:
 	cont "Quarantäne."
 
 	para "Ich sollte zurück"
-	line "gehen, aber<...> Ich"
-	para "glaube Ich gewöhne"
+	line "gehen, aber ich"
+	para "glaube ich gewöhne"
 	line "mich an diesen"
 	cont "Ort."
 	done

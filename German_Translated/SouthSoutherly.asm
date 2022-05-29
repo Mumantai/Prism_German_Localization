@@ -12,15 +12,15 @@ SouthSoutherly_Trainer_1:
 	done
 
 .before_battle_text
-	ctxt "Das hier, ist mein"
+	ctxt "Das hier ist mein"
 	line "besonderer Angel-"
-	para "platz und du "
+	para "platz und du"
 	line "stehst mir im Weg!"
 	done
 
 .battle_won_text
-	ctxt "Gut! Angel ich"
-	line "halt wo anders<...>"
+	ctxt "Gut! Angele ich "
+	line "halt woanders <...>"
 	done
 
 SouthSoutherly_Trainer_2:
@@ -33,13 +33,13 @@ SouthSoutherly_Trainer_2:
 
 .before_battle_text
 	ctxt "Du hast es fast"
-	line "geschafft! "
+	line "geschafft!"
 	para "Ein Kampf noch!"
 	done
 
 .battle_won_text
 	ctxt "Nun, du hast dich"
-	line "bewährt. "
+	line "bewährt."
 	done
 
 SouthSoutherly_Trainer_3:
@@ -77,7 +77,7 @@ SouthSoutherly_Trainer_4:
 .before_battle_text
 	ctxt "Tentacha sind so"
 	line "nervig! Und ihre"
-	cont "Tentakel erst<...> "
+	cont "Tentakel erst <...> "
 	done
 
 .battle_won_text

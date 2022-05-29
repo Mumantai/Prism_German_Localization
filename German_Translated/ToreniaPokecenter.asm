@@ -5,8 +5,8 @@ ToreniaPokecenter_MapScriptHeader;trigger count
 
 ToreniaPokecenterNPC1:
 	ctxt "Warum bekommt die"
-	line "neueste Stadt,"
-	para "sowas altes wie"
+	line "neueste Stadt"
+	para "sowas Altes wie"
 	line "den Magnetzug?"
 	
 	para "Etwas neues wäre"
@@ -18,7 +18,7 @@ ToreniaPokecenterNPC2:
 	line "mit Brettspielen."
 
 	para "Wie das aus der"
-	line "Pachisi Halle."
+	line "Pachisi-Halle."
 
 	para "Ich sterbe"
 	line "<'>immer'."

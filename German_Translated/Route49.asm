@@ -20,20 +20,20 @@ Route49DirectionsSign:
 Route49_Trainer_1:
 	trainer EVENT_ROUTE_49_TRAINER_1, BIRD_KEEPER, 5, .before_battle_text, .battle_won_text
 
-	ctxt "Mein Ibitak wird "
+	ctxt "Mein Ibitak wird"
 	line "mal stärker!"
 
 	done
 
 .before_battle_text
-	ctxt "Fürchte meine "
-	line "Ibitak Armee!"
+	ctxt "Fürchte meine"
+	line "Ibitak-Armee!"
 
 	done
 
 .battle_won_text
-	ctxt "Versuch das 5x "
-	line "hintereinander zu "
+	ctxt "Versuch das 5x"
+	line "hintereinander zu"
 	cont "sagen!"
 
 	done
@@ -41,22 +41,22 @@ Route49_Trainer_1:
 Route49_Trainer_2:
 	trainer EVENT_ROUTE_49_TRAINER_2, BIKER, 1, .before_battle_text, .battle_won_text
 
-	ctxt "Hol dir paar "
+	ctxt "Hol dir ein paar"
 	line "Räder!"
 
 	done
 
 .before_battle_text
-	ctxt "Du hast nicht die "
-	line "Beine, um es nach "
+	ctxt "Du hast nicht die"
+	line "Beine, um es nach"
 	cont "Johto zu schaffen!"
 
 	done
 
 .battle_won_text
-	ctxt "Wenigstens habe "
+	ctxt "Wenigstens habe"
 	line "ich mein Motorrad,"
-	para "mit dem ich mich "
+	para "mit dem ich mich"
 	line "fortbewegen kann."
 
 	done

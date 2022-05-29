@@ -31,7 +31,7 @@ RijonLeagueSora_Sora:
 	step_end
 
 .before_battle_text
-	ctxt "Wie gehts dir"
+	ctxt "Wie geht's dir,"
 	line "Trainer?"
 
 	para "Oder sollte ich"
@@ -39,39 +39,39 @@ RijonLeagueSora_Sora:
 	cont "Herausforderer!"
 
 	para "Ich bin Sora, die"
-	line "Flug #mon"
+	line "Flug-#mon-"
 	para "Meisterin der"
-	line "Rijon Liga!"
+	line "Rijon-Liga!"
 
 	para "Du hast es zwar"
 	line "durch das 1. Tor"
 	para "geschafft, aber es"
 	line "wird nach jedem"
-	para "Tor schwieriger"
+	para "Tor schwieriger,"
 	line "Trainer!"
 
-	para "Versuche nicht zu"
+	para "Versuche, nicht zu"
 	line "schnell von meiner"
 	para "Macht davongeweht"
 	line "zu werden!"
 	sdone
 
 .battle_won_text
-	ctxt "Ich bin Atemlos!"
+	ctxt "Ich bin atemlos!"
 	done
 
 .after_battle_text
 	ctxt "Im Ernst, es gibt"
 	line "nicht viele"
 	para "Trainer, die mich"
-	line "besiegen konnten<...>"
+	line "besiegen konnten <...>"
 
 	para "Das heißt also,"
 	line "dass du und deine"
 	para "#mon die innere"
 	line "Ruhe und Kraft"
 	para "besitzen, der"
-	line "Rijon Liga etwas"
+	line "Rijon-Liga etwas"
 	para "entgegensetzen zu"
 	line "können."
 

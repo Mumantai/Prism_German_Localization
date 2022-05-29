@@ -27,7 +27,7 @@ Route80Nobu_Nobu:
 	ctxt "Geh schon!"
 
 	para "Geh zurück an den"
-	line "Pfad wo du mich"
+	line "Pfad, wo du mich"
 	para "gefunden hattest"
 	line "und verhindere die"
 	cont "Wiederauferstehung"
@@ -39,7 +39,7 @@ Route80Nobu_Nobu:
 .explanation_text_1
 	ctxt "Wir sind in einer"
 	line "schlechten"
-	cont "Situation<...>"
+	cont "Situation <...>"
 
 	para "Siegfried ist die"
 	line "Reinkarnation des"
@@ -47,14 +47,14 @@ Route80Nobu_Nobu:
 	sdone
 
 .explanation_text_2
-	ctxt "<...>Hmm, wer der"
+	ctxt "<...> Hmm, wer der"
 	line "Gesandte war?"
 
-	para "Nunja<...> beginnen"
-	line "wir von vorne<...>"
+	para "Nunja <...> beginnen"
+	line "wir von vorne <...>"
 
 	para "Vor Tausenden von"
-	line "Jahren, war Naljo"
+	line "Jahren war Naljo"
 	para "eine isolierte"
 	line "Region, was der"
 	para "Wunsch der Wächter"
@@ -77,7 +77,7 @@ Route80Nobu_Nobu:
 
 	para "Jeder Wächter"
 	line "bekam eine Insel"
-	cont "zum herrschen."
+	cont "zum Herrschen."
 
 	para "Obwohl jeder"
 	line "anders regierte,"
@@ -87,13 +87,13 @@ Route80Nobu_Nobu:
 	line "deren Bewohnern"
 	cont "fernzuhalten."
 
-	para "Wo im gegensatz an"
+	para "Wo im Gegensatz an"
 	line "einer gemeinsamen"
 	cont "Lösung gearbeitet"
 	para "wurde, statt wie"
 	line "der Rest der Welt"
 	para "Probleme bekämpft"
-	line "wurden<...>"
+	line "wurden <...>"
 	sdone
 
 .explanation_text_3
@@ -104,13 +104,13 @@ Route80Nobu_Nobu:
 
 	para "Raiwato,"
 
-	para "Libabeel,"
+	para "Libabeel"
 
 	para "und Fambaco."
 
 	para "Jeder Wächter hat"
 	line "seine eigene Kugel"
-	para "welches all Ihre"
+	para "welches all ihre"
 	line "Kräfte enthält."
 
 	para "Raiwato schützte"
@@ -120,39 +120,39 @@ Route80Nobu_Nobu:
 	sdone
 
 .explanation_text_4
-	ctxt "Fambaco, der Natur"
+	ctxt "Fambaco der Natur-"
 	line "Wächter, schützte"
 	para "die Natur vor"
 	line "allen Gefahren."
 
 	para "Er wollte, dass"
 	line "die Natur sich"
-	cont "ohne eingriffe von"
-	para "aussen entwickeln"
+	cont "ohne Eingriffe von"
+	para "außen entwickeln"
 	line "konnte, auch wenn"
-	para "es verstanden hat"
-	line "das Mensch und"
+	para "es verstanden hat,"
+	line "dass Mensch und"
 	para "#mon"
-	line "Koexistieren"
+	line "koexistieren."
 	sdone
 
 .explanation_text_5
 	ctxt "Libabeel, der"
 	line "Feindseeligste"
 	cont "unter ihnen,"
-	para "Konntrollierte die"
+	para "kontrollierte die"
 	line "Meere um Naljo."
 
 	para "Entdecker, die"
 	line "Naljo zu nah kamen"
 	para "wurden nie mehr"
-	line "wieder gesehen<...>"
+	line "wiedergesehen <...>"
 	sdone
 
 .explanation_text_6
 	ctxt "Und dann haben"
 	line "wir Varaneous,"
-	para "welchen du zuletzt"
+	para "welchem du zuletzt"
 	line "begegnet bist."
 
 	para "Damals verbrannte"
@@ -161,64 +161,64 @@ Route80Nobu_Nobu:
 	para "dumm genug war das"
 	line "Land zu betreten."
 
-	para "Jene die es"
+	para "Jene, die es"
 	line "schafften zu"
 	cont "fliehen, waren für"
-	para "Ihr leben lang"
-	line "entstellt<...>"
+	para "ihr Leben lang"
+	line "entstellt <...>"
 
 	para "Sogar #mon"
-	line "waren vor Ihm"
+	line "waren vor ihm"
 	cont "nicht sicher."
 	sdone
 
 .explanation_text_7
 	ctxt "Der Gesandte hatte"
-	line "die Verantwortung"
+	line "die Verantwortung,"
 	para "die Botschaften"
 	line "der Wächter an das"
 	cont "Volk zu bringen."
 
 	para "Er war der einzige"
-	line "Mensch dem diese"
+	line "Mensch, dem diese"
 	cont "Legenden trauten,"
-	para "aber<...> die Wächter"
-	line "erzählten Ihm nie"
+	para "aber <...> die Wächter"
+	line "erzählten ihm nie,"
 	para "wie sie jeden ab-"
 	line "schlachteten, der"
-	para "versuchte, die"
-	line "Region zu betreten"
+	para "versuchte, die Re-"
+	line "gion zu betreten."
 
-	para "Nunja<...>"
+	para "Nunja <...>"
 
-	para "Als Er das"
+	para "Als er das"
 	line "rausfand, stahl er"
-	para "den Wächtern Ihre"
+	para "den Wächtern ihre"
 	line "Kugeln und"
 	para "verteilte sie"
 	line "in der Region."
 
-	para "Ohne diese Kugeln,"
+	para "Ohne diese Kugeln"
 	line "verfielen die"
 	para "Wächter in einen"
 	line "langen Schlaf."
 
 	para "Aber sobald sich"
 	line "eine Kugel dem"
-	para "Wächter nähert"
-	line "wacht es auf."
+	para "Wächter nähert,"
+	line "wacht er auf."
 
 	para "Varaneous ist nun"
-	line "wach, und wird"
+	line "wach und wird"
 	para "alle anderen"
 	line "Wächter ebenso"
-	cont "aufwachen."
+	cont "aufwecken."
 	sdone
 
 .explanation_text_8
 	ctxt "Der Mann in Rot"
 	line "dachte, nur weil"
-	para "er ein nachfahre"
+	para "er ein Nachfahre"
 	line "ist, würde er es"
 	cont "Zähmen können."
 
@@ -233,9 +233,9 @@ Route80Nobu_Nobu:
 
 	para "Dein Vater hätte"
 	line "uns ebenfalls"
-	cont "retten können<...>"
+	cont "retten können <...>"
 
-	para "Aber<...>"
+	para "Aber <...>"
 
 	para "Dein Vater"
 	line "versteht nicht,"
@@ -248,12 +248,12 @@ Route80Nobu_Nobu:
 
 	para "Er ist eher an"
 	line "Ruhm und Reichtum"
-	cont "interesiert<...>"
+	cont "interesiert <...>"
 
 	para "Du als sein"
-	line "einsames Kind,"
+	line "einsames Kind"
 	para "bist die einzige"
-	line "hoffnung, Naljo"
+	line "Hoffnung, Naljo"
 	cont "zu retten!"
 	sdone
 
@@ -265,10 +265,10 @@ Route80Nobu_Nobu:
 	cont "mir finden."
 
 	para "Er könnte von da"
-	line "oben gesehen haben"
-	para "wo Varaneous"
-	line "hingegangen sein"
-	cont "könnte."
+	line "oben gesehen ha-"
+	para "ben, wo Varane-"
+	line "ous hingegangen"
+	cont "sin könnte."
 
 	para "Finde einen Weg"
 	line "nach Norden!"
@@ -312,7 +312,7 @@ Route80Nobu_Aggron:
 	para "Es scheint dich"
 	line "für eine kurze"
 	para "Zeit begleiten zu"
-	line "wollen<...>"
+	line "wollen <...>"
 	sdone
 
 .joined_party_text

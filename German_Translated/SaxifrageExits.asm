@@ -7,11 +7,11 @@ SaxifrageExitsNPC1:
 	ctxt "Endlich konnte ich"
 	line "von diesem"
 	para "elendigen Ort"
-	line "fliehen<...>"
+	line "fliehen <...>"
 
 	para "Wenn ich doch nur"
-	line "ein #mon das"
-	para "Surfer beherrscht"
+	line "ein #mon, das"
+	para "Surfer beherrscht,"
 	line "bei mir hätte!"
 	done
 

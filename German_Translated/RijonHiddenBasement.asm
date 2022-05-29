@@ -9,7 +9,7 @@ RijonHiddenBasementHiddenItem:
 
 RijonHiddenBasementNPC:
 	ctxt "Eine Gruppe von"
-	line "Digda guckten"
+	line "Digda guckte"
 	para "kurz aus dem"
 	line "Boden! Das war"
 	cont "ein Schock!"

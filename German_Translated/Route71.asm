@@ -29,7 +29,7 @@ Route71NPC1:
 	line "Aufmerksamkeit für"
 	cont "nichts!"
 	
-	para "Ich meine sogar"
+	para "Ich meine, sogar"
 	line "der Champ der"
 	para "Rijon Liga hat"
 	line "seine eigene"
@@ -42,18 +42,18 @@ Route71NPC2:
 	ctxt "War Kaper City"
 	line "zu kalt für dich?"
 
-	para "Du hast glück!"
+	para "Du hast Glück!"
 
-	para "von hier an wird"
+	para "Von hier an wird"
 	line "es immer wärmer!"
 	done
 
 Route71NPC3:
-	ctxt "Ich habe Angst"
+	ctxt "Ich habe Angst,"
 	line "hier zu stehen."
 
-	para "vieleicht könnte"
-	line "ich runter fallen."
+	para "Vieleicht könnte"
+	line "ich runterfallen."
 
 	para "Wenn ich nach"
 	line "unten krieche, wär"
@@ -85,12 +85,12 @@ Route71_Trainer_1:
 
 	ctxt "Unterschätz nicht"
 	line "die Kraft von"
-	cont "Käfer #mon!"
+	cont "Käfer-#mon!"
 	done
 
 .before_battle_text
 	ctxt "Meine Käfer werden"
-	line "immer Stärker!"
+	line "immer stärker!"
 	done
 
 .battle_won_text

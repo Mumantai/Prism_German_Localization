@@ -8,7 +8,7 @@ Route62HiddenItem:
 	db GOLD_TOKEN
 
 Route62Sign:
-	ctxt "Der Weg zu vielen "
+	ctxt "Der Weg zu vielen"
 	next "Städten!"
 
 	done
@@ -17,7 +17,7 @@ Route62_Trainer_1:
 	trainer EVENT_ROUTE_62_TRAINER_1, GENTLEMAN, 3, .before_battle_text, .battle_won_text
 
 	ctxt "Ich muss ihre"
-	line "Ansichten "
+	line "Ansichten"
 	cont "respektieren."
 
 	para "Alternativ kann"
@@ -25,12 +25,12 @@ Route62_Trainer_1:
 	para "einen"
 	line "unterirdischen Weg"
 	para "erreicht werden,"
-	line "der nach Moraga "
+	line "der nach Moraga"
 	cont "führt."
 
 	para "Ich hoffe, dass"
 	line "dieser Weg nicht"
-	para "auch versperrt "
+	para "auch versperrt"
 	line "ist!"
 
 	done
@@ -46,7 +46,7 @@ Route62_Trainer_1:
 	ctxt "Ich denke, sie"
 	line "haben einen guten"
 	para "Grund, den"
-	line "Eagulou-Pfad zu "
+	line "Eagulou-Pfad zu"
 	cont "blockieren."
 
 	done
@@ -65,14 +65,14 @@ Route62_Trainer_2:
 	ctxt "Mit den Fäusten"
 	line "allein komme ich"
 	para "offenbar nicht zu"
-	line "Joe's Arena."
+	line "Joes Arena."
 
 	done
 
 .battle_won_text
 	ctxt "Wenn der Weg frei"
 	line "wäre, würde dieses"
-	para "Team diese Arena "
+	para "Team diese Arena"
 	line "besitzen!"
 
 
@@ -82,18 +82,18 @@ Route62_Trainer_3:
 	trainer EVENT_ROUTE_62_TRAINER_3, SAGE, 6, .before_battle_text, .battle_won_text
 
 	ctxt "Ich muss bei"
-	line "meinen Freunden "
+	line "meinen Freunden"
 	cont "bleiben."
 
 	para "Sie haben alle"
-	line "Angst vor "
+	line "Angst vor"
 	cont "Varaneous."
 
 	done
 
 .before_battle_text
-	ctxt "Ah, Du hast also"
-	line "meine Freunde "
+	ctxt "Ah, du hast also"
+	line "meine Freunde"
 	cont "kennengelernt?"
 
 	done

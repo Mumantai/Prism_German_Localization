@@ -10,13 +10,13 @@ SpurgeCity_MapScriptHeader;trigger count
 	return
 
 SpurgeCityCitySign:
-	ctxt "Die Stadt in"
+	ctxt "Die Stadt, in"
 	next "der nichts"
-	next "unmoeglich ist!"
+	next "unmöglich ist!"
 	done
 
 SpurgeCityOrphanageSign:
-	ctxt "Weisenhaus"
+	ctxt "Waisenhaus"
 	done
 
 SpurgeCityQRCode:
@@ -37,40 +37,40 @@ SpurgeCityQRCode:
 
 SpurgeCityCasinoSign:
 	ctxt "Euphorbia Casino"
-	next "Mach das grosse"
+	next "Mach das große"
 	next "Geld!"
 	done
 
 SpurgeCityGymGuard:
 	ctxt "Ich bewache diese"
-	line "Arena bis der"
+	line "Arena, bis der"
 	cont "Leiter zurück ist."
 
 
 	para "Meine Beine sind"
-	line "eingeschlafen<...>"
+	line "eingeschlafen <...>"
 	done
 
 SpurgeCityNPC1:
 	ctxt "Vorhin adoptierte"
 	line "ich ein #mon"
-	cont "vom Weisenhaus."
+	cont "vom Waisenhaus."
 
 	para "Das arme Ding"
-	line "hatte prellungen"
+	line "hatte Prellungen"
 	cont "am ganzen Körper."
 	done
 
 SpurgeCityNPC2:
 	ctxt "Vor einer weile"
 	line "hörte ich eine"
-	cont "laute explosion."
-	para "was das wohl war?"
+	cont "laute Explosion."
+	para "Was das wohl war?"
 	
 	done
 
 SpurgeCityNPC3:
-	ctxt "zzz<...>"
+	ctxt "Zzz <...>"
 
 	para "Oh, uh, was?"
 
@@ -97,7 +97,7 @@ SpurgeCityNPC4:
 	line "jetzt an!"
 
 	para "Was wird wohl in"
-	line "20 Jahren sein!"
+	line "20 Jahren sein?"
 	done
 
 SpurgeCityNPC5:
@@ -106,7 +106,7 @@ SpurgeCityNPC5:
 
 	para "Die Stadt wächst"
 	line "und verdrängt die"
-	cont "die Natur<...>"
+	cont "die Natur <...>"
 
 	para "Den Garten bau ich"
 	line "einfach mit aus."
@@ -139,7 +139,7 @@ SpurgeCitySwiftTMPerson:
 
 	para "Diese Attacke"
 	line "trifft immer!"
-	para "Außer wenn der"
+	para "Außer, wenn der"
 	line "Gegner Fliegen,"
 	cont "Schaufler oder"
 	cont "Schutz einsetzt."

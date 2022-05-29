@@ -17,28 +17,28 @@ Route50GateNoBikeLeave:
 	step_end
 
 Route50NoBikeText:
-	ctxt "Dies ist eine "
+	ctxt "Dies ist eine"
 	line "steile Straße."
 
-	para "Ohne Fahrrad kann "
-	line "ich Sie nicht "
+	para "Ohne Fahrrad kann"
+	line "ich dich nicht"
 	cont "durchlassen."
 
 	sdone
 
 Route50GateGuardText:
-	ctxt "Wir hatten "
-	line "Probleme mit "
-	para "Vandalismus auf "
-	line "der Aussichts- "
+	ctxt "Wir hatten"
+	line "Probleme mit"
+	para "Vandalismus auf"
+	line "der Aussichts-"
 	cont "plattform."
 
 	para "Also haben wir sie"
 	line "abgeschottet."
 
-	para "Jetzt besprühen "
+	para "Jetzt besprühen"
 	line "Leute die Wand mit"
-	cont "Farbe<...> "
+	cont "Farbe <...>"
 	done
 
 Route50Gate_MapEventHeader ;filler

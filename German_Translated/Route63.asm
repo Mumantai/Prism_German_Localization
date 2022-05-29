@@ -15,10 +15,10 @@ Route63DirectionsSign:
 Route63_Trainer_1:
 	trainer EVENT_ROUTE_63_TRAINER_1, BUG_CATCHER, 10, .before_battle_text, .battle_won_text
 
-	ctxt "Käfer #mon sind"
+	ctxt "Käfer-#mon sind"
 	line "super effektiv"
-	para "gegen Psycho und"
-	line "Schatten #mon."
+	para "gegen Psycho- und"
+	line "Schatten-#mon."
 
 	para "Cool, was?"
 
@@ -26,7 +26,7 @@ Route63_Trainer_1:
 
 .before_battle_text
 	ctxt "Zeit für meinen"
-	line "Käferschwarm "
+	line "Käferschwarm"
 	cont "anzugreifen!"
 
 	done
@@ -34,7 +34,7 @@ Route63_Trainer_1:
 .battle_won_text
 	ctxt "Du hast nicht"
 	line "einmal"
-	para "Insektenspray "
+	para "Insektenspray"
 	line "verwendet!"
 
 	done
@@ -46,16 +46,16 @@ Route63_Trainer_2:
 	line "Seidenpass"
 	para "genannt, weil er"
 	line "früher die größte"
-	para "Raupy Wildnis-"
+	para "Raupy-Wildnis-"
 	line "quelle war."
 
 	para "Alle enthlielten"
 	line "Seide, aus der"
-	para "Menschen Kleider "
+	para "Menschen Kleider"
 	line "herstellten."
 
 	para "Hat dir deine"
-	line "Geschichtsstunde "
+	line "Geschichtsstunde"
 	cont "gefallen?"
 
 	done

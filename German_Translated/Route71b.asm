@@ -32,10 +32,10 @@ Route71b_Trainer_2:
 	trainer EVENT_ROUTE_71B_TRAINER_2, FIREBREATHER, 8, .before_battle_text, .battle_won_text
 
 	ctxt "Es gibt diverse"
-	line "Items die du durch"
-	para "Bergbau an anderen"
-	line "Orten ausgraben"
-	cont "kannst!"
+	line "Items, die du"
+	para "durch Bergbau an"
+	line "anderen Orten"
+	cont "ausgraben kannst!"
 
 	para "Wenn du z.B. nach"
 	line "Feuerstein suchst,"
@@ -45,12 +45,12 @@ Route71b_Trainer_2:
 	done
 
 .before_battle_text
-	ctxt "Ich kenne ein "
-	line "Geheimniss über"
+	ctxt "Ich kenne ein"
+	line "Geheimnis über"
 	cont "den Bergbau."
 
 	para "Schlag mich und"
-	line "ich sags dir!"
+	line "ich sag's dir!"
 	done
 
 .battle_won_text
@@ -72,7 +72,7 @@ Route71b_Trainer_3:
 
 .before_battle_text
 	ctxt "Zeit zum"
-	line "schmelzen!"
+	line "Schmelzen!"
 	done
 
 .battle_won_text

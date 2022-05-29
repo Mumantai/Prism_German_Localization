@@ -9,8 +9,8 @@ SilphWarehouseF2NPC:
 	pokemart MART_STANDARD, SILPH_WAREHOUSE_STANDARD_MART
 
 .SecretShopIntroText:
-	ctxt "Ah, ein Besucher "
-	line "des Geheimen "
+	ctxt "Ah, ein Besucher"
+	line "des geheimen"
 	cont "Ladens!"
 
 	prompt

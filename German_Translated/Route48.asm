@@ -14,7 +14,7 @@ Route48HiddenItem:
 	db GOLD_TOKEN
 
 Route48BorderSign:
-	ctxt "Johto - Rijon"
+	ctxt "Johto-Rijon"
 	next "Grenze"
 	done
 
@@ -24,18 +24,18 @@ Route48IlexForestSign:
 	done
 
 Route48UphillSign:
-	ctxt "Gehe Hinauffff!"
+	ctxt "Gehe hinauffff!"
 
 	done
 
 Route48_Trainer_1:
 	trainer EVENT_ROUTE_48_TRAINER_1, BIKER, 3, .before_battle_text, .battle_won_text
 
-	ctxt "Warum die Medien "
-	line "dich "
+	ctxt "Warum die Medien"
+	line "dich"
 	cont "kontrollieren?"
 
-	para "Na weil Sie Geld "
+	para "Na weil sie Geld"
 	line "machen wollen!"
 
 	done
@@ -52,20 +52,20 @@ Route48_Trainer_1:
 Route48_Trainer_2:
 	trainer EVENT_ROUTE_48_TRAINER_2, BIKER, 5, .before_battle_text, .battle_won_text
 
-	ctxt "Zu ängstlich zum "
+	ctxt "Zu ängstlich zum"
 	line "Radfahren, was?"
 
 	done
 
 .before_battle_text
-	ctxt "Radfahren auf dem "
-	line "Hafengelände, "
+	ctxt "Radfahren auf dem"
+	line "Hafengelände,"
 	cont "sicher, ne?"
 
 	done
 
 .battle_won_text
-	ctxt "Du bist ein "
+	ctxt "Du bist ein"
 	line "Weichei!"
 
 	done
@@ -73,24 +73,24 @@ Route48_Trainer_2:
 Route48_Trainer_3:
 	trainer EVENT_ROUTE_48_TRAINER_3, BIKER, 4, .before_battle_text, .battle_won_text
 
-	ctxt "Einmal ist mein "
-	line "Fahrrad in die "
+	ctxt "Einmal ist mein"
+	line "Fahrrad in die"
 	cont "Bucht gerollt."
 
-	para "Man war ich Sauer!"
+	para "War ich sauer, ey!"
 
 	done
 
 .before_battle_text
-	ctxt "Ich werde auf "
-	line "diesem Hafen ein "
-	para "paar Donuts "
+	ctxt "Ich werde an"
+	line "diesem Hafen ein"
+	para "paar Donuts"
 	line "machen!"
 
 	done
 
 .battle_won_text
-	ctxt "Das hat mich "
+	ctxt "Das hat mich"
 	line "ausgebrannt."
 
 	done
@@ -98,22 +98,22 @@ Route48_Trainer_3:
 Route48_Trainer_4:
 	trainer EVENT_ROUTE_48_TRAINER_4, BIKER, 6, .before_battle_text, .battle_won_text
 
-	ctxt "Die langweiligen "
-	line "Leute in Azalea "
-	para "City lieben meine "
-	line "wilde art."
+	ctxt "Die langweiligen"
+	line "Leute in Azalea"
+	para "City lieben meine"
+	line "wilde Art."
 
 	done
 
 .before_battle_text
-	ctxt "Ich darf nicht "
-	line "durch das Johto- "
+	ctxt "Ich darf nicht"
+	line "durch das Johto-"
 	cont "Tor gehen."
 
 	done
 
 .battle_won_text
-	ctxt "Es ist, weil ich "
+	ctxt "Es ist, weil ich"
 	line "feindselig bin!"
 
 	done
@@ -121,22 +121,22 @@ Route48_Trainer_4:
 Route48_Trainer_5:
 	trainer EVENT_ROUTE_48_TRAINER_5, BIKER, 2, .before_battle_text, .battle_won_text
 
-	ctxt "Ich kann dich "
-	line "immer noch nicht "
+	ctxt "Ich kann dich"
+	line "immer noch nicht"
 	cont "leiden!"
 
 	done
 
 .before_battle_text
-	ctxt "Ich mag dich zwar "
-	line "nicht, aber lass "
+	ctxt "Ich mag dich zwar"
+	line "nicht, aber lass"
 	cont "uns kämpfen!"
 
 	done
 
 .battle_won_text
 	ctxt "Jetzt mag ich dich"
-	line "aber wirklich "
+	line "aber wirklich"
 	cont "nicht!"
 
 	done

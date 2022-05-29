@@ -15,10 +15,10 @@ Route50DirectionsSign:
 Route50_Trainer_1:
 	trainer EVENT_ROUTE_50_TRAINER_1, BUG_CATCHER, 6, .before_battle_text, .battle_won_text
 
-	ctxt "Ich werde einfach "
-	line "hier sitzen und "
-	para "darauf warten, "
-	line "dass ein anderer "
+	ctxt "Ich werde einfach"
+	line "hier sitzen und"
+	para "darauf warten,"
+	line "dass ein anderer"
 	cont "Trainer kommt."
 
 	done
@@ -30,7 +30,7 @@ Route50_Trainer_1:
 	done
 
 .battle_won_text
-	ctxt "Weniger Verstecken"
+	ctxt "Weniger verstecken"
 	line "und mehr Training."
 
 	done
@@ -38,23 +38,23 @@ Route50_Trainer_1:
 Route50_Trainer_2:
 	trainer EVENT_ROUTE_50_TRAINER_2, BURGLAR, 1, .before_battle_text, .battle_won_text
 
-	ctxt "du gelangst nach "
-	line "Azalea City, wenn "
-	para "du weiter nach "
+	ctxt "Du gelangst nach"
+	line "Azalea City, wenn"
+	para "du weiter nach"
 	line "Norden fährst!"
 
 	done
 
 .before_battle_text
-	ctxt "Ich komme aus "
+	ctxt "Ich komme aus"
 	line "Johto!"
 
 	done
 
 .battle_won_text
-	ctxt "Wo kommen Sie her?"
+	ctxt "Wo kommst du her?"
 
-	para "Noch nie davon "
+	para "Noch nie davon"
 	line "gehört."
 
 	done
@@ -62,7 +62,7 @@ Route50_Trainer_2:
 Route50_Trainer_3:
 	trainer EVENT_ROUTE_50_TRAINER_3, SUPER_NERD, 5, .before_battle_text, .battle_won_text
 
-	ctxt "Ich brauche deine "
+	ctxt "Ich brauche deine"
 	line "Hilfe nicht."
 
 	done

@@ -18,7 +18,7 @@ SeashoreCityCitySign:
 	done
 
 SeashoreCityGymSign:
-	ctxt "#mon Arena"
+	ctxt "#mon-Arena"
 	next "Leiterin: Sheryl"
 	done
 
@@ -26,7 +26,7 @@ SeashoreCityNPC1:
 	ctxt "Wusstest du, dass"
 	line "hier einst der"
 	para "legendäre Trainer"
-	line "Brown lebte?"
+	line "Braun lebte?"
 
 	para "Ich kenne ihn"
 	line "schon, seit dem er"
@@ -36,7 +36,7 @@ SeashoreCityNPC1:
 	done
 
 SeashoreCityNPC2:
-	ctxt "Es ist wichtig"
+	ctxt "Es ist wichtig,"
 	line "immer auf der Hut"
 	cont "zu sein!"
 
@@ -45,7 +45,7 @@ SeashoreCityNPC2:
 SeashoreCityNPC3:
 	ctxt "Setze dir positive"
 	line "Ziele und"
-	para "verwirkliche sie ,"
+	para "verwirkliche sie,"
 	line "auch wenn sie nur"
 	para "für dich von"
 	line "Bedeutung sind."

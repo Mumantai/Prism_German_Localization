@@ -70,18 +70,18 @@ Route34GateNPC:
 .give_TM_text
 	ctxt "Oh, Schatz."
 
-	para "Du kommst nicht "
+	para "Du kommst nicht"
 	line "aus Johto?"
 
-	para "Hier nimm das als"
-	line "Willkommens- "
+	para "Hier, nimm das als"
+	line "Willkommens-"
 	cont "geschenk."
 
 	sdone
 
 .after_giving_TM_text
-	ctxt "TM88 ist"
-	line "Ampelleuchte, mein"
+	ctxt "TM88 ist Ampel-"
+	line "leuchte, meines"
 	para "Smettbos liebste"
 	line "Attacke!"
 

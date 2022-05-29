@@ -5,13 +5,13 @@ Route81Pokecenter_MapScriptHeader;trigger count
 
 Route81PokecenterNPC1:
 	ctxt "Mein Handy hat"
-	line "eine GPS Funktion."
+	line "eine GPS-Funktion."
 
 	para "Wir sind bei:"
 	line "32.206359,"
 	cont "134.341771."
 
-	para "Cool was?"
+	para "Cool, was?"
 	done
 
 Route81PokecenterNPC2:
@@ -20,11 +20,11 @@ Route81PokecenterNPC2:
 	cont "an."
 
 	para "Ich trage es für"
-	line "die nostalgie."
+	line "die Nostalgie."
 
 	para "Schließlich war es"
-	line "der höhepunkt"
-	cont "meines Lebens<...>"
+	line "der Höhepunkt"
+	cont "meines Lebens <...>"
 	done
 
 Route81Pokecenter_MapEventHeader ;filler

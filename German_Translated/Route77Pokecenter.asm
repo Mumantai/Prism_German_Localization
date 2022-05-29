@@ -4,7 +4,7 @@ Route77Pokecenter_MapScriptHeader;trigger count
 	db 0
 
 Route77PokecenterNPC1:
-	ctxt "Ein #mon Center"
+	ctxt "Ein #mon-Center"
 	line "neben einer Höhle?"
 	
 	para "Sehr gute Idee!"
@@ -12,11 +12,11 @@ Route77PokecenterNPC1:
 
 Route77PokecenterNPC2:
 	ctxt "Unterhalb der"
-	line "Höhle, gab es mal"
+	line "Höhle gab es mal"
 	cont "eine Stadt."
 
-	para "Daher auch dieser"
-	line "#mon Center."
+	para "Daher auch dieses"
+	line "#mon-Center."
 	done
 
 Route77Pokecenter_MapEventHeader ;filler

@@ -10,14 +10,14 @@ SilphCoWorker:
 	done
 
 SilphCoSecurityOfficer:
-	ctxt "Entschuldigung, "
+	ctxt "Entschuldigung,"
 	line "ich kann dich hier"
 	cont "nicht hochlassen."
 
 	done
 
 SilphCoBasementGuard:
-	ctxt "Du darfst hier "
+	ctxt "Du darfst hier"
 	line "nicht runter."
 
 	done
@@ -70,19 +70,19 @@ SilphCoReceptionist:
 	step_end
 
 .generic_welcome_text
-	ctxt "Willkommen bei "
+	ctxt "Willkommen bei"
 	line "Silph Co."
 	done
 
 .first_welcome_text
-	ctxt "Willkommen bei "
+	ctxt "Willkommen bei"
 	line "Silph Co."
 
 
 	para "Heute ist leider"
-	line "kein Tag der "
+	line "kein Tag der"
 	para "offenen Tür, gehen"
-	line "Sie also<...>"
+	line "Sie also <...>"
 
 	para "???: Warte, geh"
 	line "noch nicht!"
@@ -102,97 +102,97 @@ SilphCoReceptionist:
 	para "Siegfried ist dein"
 	line "Vater, oder?"
 
-	para "Nachdem ich gegen "
-	line "ihn gekämpft "
-	para "hatte, wurde ich "
+	para "Nachdem ich gegen"
+	line "ihn gekämpft"
+	para "hatte, wurde ich"
 	line "für kurze Zeit der"
-	para "Champion, bis mir "
-	line "dieser Rot in die "
+	para "Champion, bis mir"
+	line "dieser Rot in die"
 	cont "Quere kam."
 
-	para "Während ich immer "
-	line "noch nebenbei "
-	para "kämpfe, "
-	line "interessiere ich "
-	para "mich mehr für die "
-	line "Entwicklung "
-	para "umweltfreundlicher "
+	para "Während ich immer"
+	line "noch nebenbei"
+	para "kämpfe,"
+	line "interessiere ich"
+	para "mich mehr für die"
+	line "Entwicklung"
+	para "umweltfreundlicher"
 	line "Projekte."
 
-	para "Ich habe in Kalos "
-	line "im Ausland "
-	para "studiert und als "
-	line "ich zurückkam, "
-	para "wurde mir diese "
+	para "Ich habe in Kalos"
+	line "im Ausland"
+	para "studiert und als"
+	line "ich zurückkam,"
+	para "wurde mir diese"
 	line "Stelle angeboten."
 
-	para "Gramps hatte "
-	line "einige ziemlich "
-	para "starke "
+	para "Gramps hatte"
+	line "einige ziemlich"
+	para "starke"
 	line "Beziehungen!"
 
-	para "Komm, lass mich "
+	para "Komm, lass mich"
 	line "dir mein aktuelles"
 	cont "Projekt zeigen."
 
 	sdone
 
 .master_ball_project_explanation_text
-	ctxt "Wir haben mehrere "
-	line "Prototypen "
-	para "durchlaufen, "
-	line "während wir "
-	para "versucht haben, "
-	line "den perfekten "
-	para "#ball zu "
+	ctxt "Wir haben mehrere"
+	line "Prototypen"
+	para "durchlaufen,"
+	line "während wir"
+	para "versucht haben,"
+	line "den perfekten"
+	para "#ball zu"
 	line "entwickeln."
 
-	para "Als ich übernahm, "
-	line "machte ich das "
-	para "Unternehmen "
+	para "Als ich übernahm,"
+	line "machte ich das"
+	para "Unternehmen"
 	line "umweltfreundlich."
 
-	para "Es verzögerte die "
-	line "Verkaufsversion "
+	para "Es verzögerte die"
+	line "Verkaufsversion"
 	cont "des Meisterballs."
 
-	para "Ich denke jedoch, "
-	line "dass wir endlich "
+	para "Ich denke jedoch,"
+	line "dass wir endlich"
 	cont "fertig sind!"
 
-	para "Wir haben die "
-	line "erste "
-	para "Verkaufsversion "
-	line "dieses Balls "
+	para "Wir haben die"
+	line "erste"
+	para "Verkaufsversion"
+	line "dieses Balls"
 	para "fertiggestellt und"
-	line "<...> "
+	line "<...>"
 	sdone
 
 .after_employee_runs_away_text
-	ctxt "Warte, <...> das ist "
+	ctxt "Warte, <...> das ist"
 	line "nicht richtig."
 
-	para "Es fehlt ein Chip "
-	line "<...> der "
-	para "Verantwortliche "
-	line "sagte, er hätte "
+	para "Es fehlt ein Chip"
+	line "<...> der"
+	para "Verantwortliche"
+	line "sagte, er hätte"
 	cont "das schon getan!"
 	
 	para "<PLAYER>, oder?"
 
-	line "Es tut mir leid, "
+	line "Es tut mir leid,"
 	para "aber kannst du ihn"
 	line "bitte suchen?"
 
-	para "Er ist "
-	line "wahrscheinlich "
-	para "irgendwo in "
+	para "Er ist"
+	line "wahrscheinlich"
+	para "irgendwo in"
 	line "Saffronia City."
 
 	para "Danke dir."
 
-	line "Wenn Du ihn finden"
-	para "kannst, lohnt es "
+	line "Wenn du ihn finden"
+	para "kannst, lohnt es"
 	line "sich vielleicht."
 
 	done
@@ -223,36 +223,36 @@ SilphCoBlue:
 	jumptext .after_battle_text
 
 .already_battled_text
-	ctxt "Nochmals vielen "
-	line "Dank für diesen "
+	ctxt "Nochmals vielen"
+	line "Dank für diesen"
 	cont "tollen Kampf!"
 
-	para "Ich muss meine "
+	para "Ich muss meine"
 	line "Fähigkeiten "
 	cont "verfeinern."
 
-	para "Ich wollte schon "
-	line "immer Alolas "
-	para "Kampfturm "
+	para "Ich wollte schon"
+	line "immer Alolas"
+	para "Kampfturm"
 	line "besuchen."
 
-	para "Ich könnte dort "
-	line "gegen alle "
-	para "möglichen Trainer "
-	line "trainieren!"
+	para "Ich könnte dort"
+	line "gegen alle"
+	para "möglichen Trainer"
+	line "kämpfen!"
 
 	done
 
 .want_to_battle_text
-	ctxt "Oh, hey, bist du "
-	line "bereit für einen "
+	ctxt "Oh, hey, bist du"
+	line "bereit für einen"
 	cont "Kampf?"
 
 	done
 
 .please_find_guy_text
 	ctxt "Bitte finde diesen"
-	line "Kerl; es muss "
+	line "Kerl! Es muss"
 	cont "fertig werden!"
 
 	done
@@ -264,44 +264,44 @@ SilphCoBlue:
 	sdone
 
 .battle_won_text
-	ctxt "Wow, du bist "
-	line "wirklich etwas "
-	cont "anderes!"
+	ctxt "Wow, du bist"
+	line "wirklich etwas"
+	cont "Anderes!"
 
 	done
 
 .after_battle_text
-	ctxt "Du bist wirklich "
-	line "stark; Es ist sehr"
-	para "edel, wie du dein "
+	ctxt "Du bist wirklich"
+	line "stark. Es ist sehr"
+	para "edel, wie du deine"
 	line "#mon "
 	cont "behandelst."
 
-	para "Wenn Du möchtest, "
-	line "werde ich Dir den "
-	para "Zugang zum Keller "
+	para "Wenn du möchtest,"
+	line "werde ich dir den"
+	para "Zugang zum Keller"
 	line "gewähren."
 
 	para "Dort bauen wir die"
-	line "Aprikosen an, um "
-	para "die Meisterbälle "
+	line "Aprikokos an, um"
+	para "die Meisterbälle"
 	line "herzustellen."
 
-	para "Nur die "
-	line "erfahrensten "
-	para "Ballmacher können "
-	line "überhaupt die "
-	para "Chance haben, "
-	line "Meisterbälle "
+	para "Nur die"
+	line "erfahrensten"
+	para "Ballmacher können"
+	line "überhaupt die"
+	para "Chance haben,"
+	line "Meisterbälle"
 	cont "herzustellen."
 
-	para "Der Obstbaum ist "
+	para "Der Obstbaum ist"
 	line "fast ausgestorben,"
-	para "daher müssen wir "
-	line "sicherstellen, "
-	para "dass nur "
-	line "vertrauenswürdige "
-	para "Personen damit "
+	para "daher müssen wir"
+	line "sicherstellen,"
+	para "dass nur"
+	line "vertrauenswürdige"
+	para "Personen damit"
 	line "umgehen."
 
 	done

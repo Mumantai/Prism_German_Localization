@@ -4,15 +4,15 @@ SoutherlyGym_MapScriptHeader;trigger count
 	db 0
 
 SoutherlyGymSign:
-	ctxt "Suntia Arena "
-	line "Leiter: Ernest "
+	ctxt "Suntia-Arena"
+	line "Leiter: Ernest"
 	done
 
 SoutherlyGymFlame:
-	ctxt "Die Flamme ist "
+	ctxt "Die Flamme ist"
 	line "echt heiß."
 
-	para "Es wär unklug da "
+	para "Es wär unklug da"
 	line "durch zu gehen."
 
 	done
@@ -27,8 +27,8 @@ SoutherlyGymGuide:
 	ctxt "Du kommst also aus"
 	line "Naljo, ja?"
 
-	para "Herrscht dort "
-	line "wirklich so eine "
+	para "Herrscht dort"
+	line "wirklich so eine"
 	cont "Unruhe?"
 
 	done
@@ -38,14 +38,14 @@ SoutherlyGymGuide:
 
 	line "Ist das heiß hier!"
 
-	para "Das liegt daran, "
-	line "dass Ernest "
-	para "Feuer-#mon "
+	para "Das liegt daran,"
+	line "dass Ernest"
+	para "Feuer-#mon"
 	line "benutzt!"
 
-	para "Pflanzen- oder "
+	para "Pflanzen- oder"
 	line "Käfer-#mon haben"
-	para "es hier nicht "
+	para "es hier nicht"
 	line "leicht."
 
 	done
@@ -64,13 +64,13 @@ SoutherlyGym_Trainer_1:
 	jumptext .removed_flame_text
 
 .before_battle_text
-	ctxt "Kannst du der "
+	ctxt "Kannst du der"
 	line "Hitze standhalten?"
 
 	done
 
 .battle_won_text
-	ctxt "Du bist taffer, "
+	ctxt "Du bist taffer"
 	line "als du aussiehst."
 
 	done
@@ -84,8 +84,8 @@ SoutherlyGym_Trainer_1:
 	sdone
 
 .removed_flame_text
-	ctxt "Das sollte dir "
-	line "helfen, einfacher "
+	ctxt "Das sollte dir"
+	line "helfen, einfacher"
 	cont "zurückzukommen."
 
 	done
@@ -104,11 +104,11 @@ SoutherlyGym_Trainer_2:
 	jumptext .removed_flame_text
 
 .before_battle_text
-	ctxt "Ich bin Ernest "
+	ctxt "Ich bin Ernests"
 	line "stärkster Gehilfe!"
 
-	para "Besieg mich und "
-	line "ich lass dich "
+	para "Besieg mich und"
+	line "ich lass dich"
 	cont "gegen ihn kämpfen."
 
 	done
@@ -119,7 +119,7 @@ SoutherlyGym_Trainer_2:
 	done
 
 .before_removing_flame_text
-	ctxt "Ich schaff das "
+	ctxt "Ich schaff das"
 	line "Feuer aus dem Weg."
 
 	sdone
@@ -133,24 +133,24 @@ SoutherlyGym_Trainer_2:
 SoutherlyGym_Trainer_3:
 	trainer EVENT_SOUTHERLY_GYM_TRAINER_3, CAMPER, 7, .before_battle_text, .battle_won_text
 
-	ctxt "Die Leute in "
+	ctxt "Die Leute in"
 	line "dieser Gegend sind"
-	para "freundlicher als "
-	line "dort, wo du "
+	para "freundlicher als"
+	line "dort, wo du"
 	cont "herkommst."
 
 	done
 
 .before_battle_text
-	ctxt "Bist du bereit, "
-	line "Verbrennungen "
-	para "dritten Grades zu "
+	ctxt "Bist du bereit,"
+	line "Verbrennungen"
+	para "dritten Grades zu"
 	line "erleiden?"
 
 	done
 
 .battle_won_text
-	ctxt "Hey, kein Grund "
+	ctxt "Hey, kein Grund"
 	line "für Aggressivität!"
 
 	done
@@ -169,28 +169,28 @@ SoutherlyGym_Trainer_4:
 	jumptext .removed_flame_text
 
 .before_battle_text
-	ctxt "Ich helfe dir zu "
-	line "Ernest zu kommen, "
-	para "wenn du mich "
+	ctxt "Ich helfe dir zu"
+	line "Ernest zu kommen,"
+	para "wenn du mich"
 	line "besiegst."
 
 	done
 
 .battle_won_text
-	ctxt "Das war ein echt "
+	ctxt "Das war ein echt"
 	line "heißer Kampf!"
 
 	done
 
 .before_removing_flame_text
-	ctxt "Ich lösche das "
+	ctxt "Ich lösche das"
 	line "Feuer dort."
 
 	sdone
 
 .removed_flame_text
-	ctxt "Viel Glück bei "
-	line "deinen nächsten "
+	ctxt "Viel Glück bei"
+	line "deinen nächsten"
 	cont "Kämpfen!"
 
 	done
@@ -216,27 +216,27 @@ SoutherlyGymLeader:
 	jumptext .after_TM_text
 
 .already_defeated_text
-	ctxt "Wenn du eine "
+	ctxt "Wenn du eine"
 	line "größere Herausfor-"
 	para "derung suchst,"
 	line "könnte der Flugha-"
 	para "fen dich an einen"
-	line "Ort mit stärkeren "
+	line "Ort mit stärkeren"
 	cont "Trainern bringen."
 
-	para "Du brauchst aber "
-	line "ein spezielles "
+	para "Du brauchst aber"
+	line "ein spezielles"
 	cont "Ticket dafür."
 
-	para "Die Gegend ist so "
-	line "exklusiv, selbst "
-	para "ich weiß nicht wo "
+	para "Die Gegend ist so"
+	line "exklusiv, selbst"
+	para "ich weiß nicht, wo"
 	line "das sein soll."
 
 	done
 
 .introduction_text
-	ctxt "Hallo Jungchen!"
+	ctxt "Hallo, Jungchen!"
 
 	para "Ich habe schon von"
 	line "dir gehört."
@@ -244,11 +244,11 @@ SoutherlyGymLeader:
 	para "Siegfried ist dein"
 	line "Vater, oder?"
 
-	para "Nun, ich bin der "
+	para "Nun, ich bin der"
 	line "Arenaleiter hier."
 
-	para "Wenn du mich "
-	line "besiegst, gehört "
+	para "Wenn du mich"
+	line "besiegst, gehört"
 	cont "der Loheorden dir."
 
 	para "Los geht's!"
@@ -256,19 +256,19 @@ SoutherlyGymLeader:
 	sdone
 
 .battle_won_text
-	ctxt "Der brennende "
-	line "Kampfesgeist "
-	para "meiner #mon, "
-	line "ist bloß noch ein "
+	ctxt "Der brennende"
+	line "Kampfesgeist"
+	para "meiner #mon,"
+	line "ist bloß noch ein"
 	cont "schwaches Glimmen."
 
-	para "Du bist dieses "
-	line "Ordens wirklich "
-	cont "würdig, "
+	para "Du bist dieses"
+	line "Ordens wirklich"
+	cont "würdig."
 	done
 
 .got_badge_text
-	ctxt "Loheorden "
+	ctxt "Loheorden"
 	line "erhalten."
 
 	done
@@ -281,15 +281,15 @@ SoutherlyGymLeader:
 	sdone
 
 .after_TM_text
-	ctxt "TM38 enthält "
-	line "Feuersturm, eine "
-	para "Attacke enormer "
-	line "Feuerkraft, die "
-	para "den gegner "
+	ctxt "TM38 enthält"
+	line "Feuersturm, eine"
+	para "Attacke enormer"
+	line "Feuerkraft, die"
+	para "den Gegner"
 	line "verbrennen kann."
 
-	para "Sie ist genauso "
-	line "stark, wie du und "
+	para "Sie ist genauso"
+	line "stark wie du und"
 	cont "dein Vater."
 
 	done

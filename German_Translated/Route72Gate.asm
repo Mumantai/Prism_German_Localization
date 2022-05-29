@@ -11,23 +11,23 @@ Route72GateNPC1:
 	line "warten dort auf"
 	cont "dich."
 
-	para "Ehrlich<...>"
+	para "Ehrlich <...>"
 
-	para "Was für Looser."
+	para "Was für Loser."
 	done
 
 Route72GateNPC2:
 	ctxt "Ich muss"
-	line "nachdenken<...>"
+	line "nachdenken <...>"
 
 	para "Mein #mon hasst"
-	line "mich und Ich weiss"
-	cont "nicht wieso<...>"
+	line "mich und ich weiß"
+	cont "nicht wieso <...>"
 	done
 
 Route72GateNPC3:
 	ctxt "Die Treppen führen"
-	line "runter in eine,"
+	line "runter in eine"
 	cont "Höhle."
 	done
 
@@ -61,7 +61,7 @@ Route72GateOldMan:
 
 	para "Es hat einen kom-"
 	line "ischen Nebeneffekt"
-	cont "bei manchen arten."
+	cont "bei manchen Arten."
 
 	para "Mir ist das aber"
 	line "noch nie passiert."
@@ -71,10 +71,10 @@ Route72GateOldMan:
 	done
 
 .before_giving_pokeballs_text
-	ctxt "Na du."
+	ctxt "Na du?"
 
 	para "Du bist interess-"
-	line "iert daran den"
+	line "iert daran, den"
 	cont "#dex zu füllen?"
 
 	para "In dem Fall kann"
@@ -90,7 +90,7 @@ Route72GateOldMan:
 	line "einen vollen Naljo"
 	cont "#dex sehen."
 
-	para "Komm zurück wenn"
+	para "Komm zurück, wenn"
 	line "es soweit ist!"
 	done
 
@@ -101,11 +101,11 @@ Route72GateOldMan:
 
 	para "WUNDERSCHÖN!"
 
-	para "So eine beachtl-"
-	line "iche Leistung muss"
+	para "Eine beachtliche"
+	line "Leistung muss"
 	cont "belohnt werden!"
 
-	para "Oh, ich weis wie!"
+	para "Oh, ich weiß wie!"
 
 	para "Pass gut auf die"
 	line "auf."
@@ -116,8 +116,8 @@ Route72GateOldMan:
 	line "sein auf das, was"
 	cont "du erreicht hast."
 
-	para "Den Naljo Dex zu"
-	line "füllen ist nicht"
+	para "Den Naljo-Dex zu"
+	line "füllen, ist nicht"
 	cont "so einfach!"
 	done
 

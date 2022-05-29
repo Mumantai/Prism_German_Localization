@@ -48,9 +48,9 @@ IlkBrothersInTrouble:
 	para "Die Polizei ist"
 	line "da!"
 
-	para "Warte<...>"
+	para "Warte <...>"
 
-	para "Du bist nurn Kind<...>"
+	para "Du bist ein Kind <...>"
 
 	para "<...>"
 
@@ -63,7 +63,7 @@ IlkBrothersInTrouble:
 	para "Oh? Prof. Ilk"
 	line "sandte dich?"
 
-	para "Naja dann<...>"
+	para "Naja dann <...>"
 
 	para "Siehst du den"
 	line "Jungen da?"
@@ -143,9 +143,9 @@ IlkBrothersTalkToRival:
 .talk_to_bagon_text
 	ctxt "Haha!"
 
-	para "Du gehörst mir<...>"
+	para "Du gehörst mir <...>"
 
-	para "<...>oder willst du"
+	para "<...> oder willst du"
 	line "verletzt werden?"
 	sdone
 
@@ -160,7 +160,7 @@ IlkBrothersTalkToRival:
 .battle_won_text
 	ctxt "Dieses Werkzeug"
 	line "muss noch"
-	cont "trainiert werden<...>"
+	cont "trainiert werden <...>"
 
 	para "Ich mache es"
 	line "stärker, egal was"
@@ -177,11 +177,11 @@ IlkBrothersTalkToRival:
 .after_battle_text
 	ctxt "Das war nur Glück."
 
-	para "Zeit zu gehen."
+	para "Zeit, zu gehen."
 
 	para "Ich habe von dem"
 	line "alten Sack bereits"
-	cont "was ich brauch."
+	cont "was ich brauche."
 
 	para "Ciao!"
 
@@ -203,7 +203,7 @@ IlkBrothersTalkToRival:
 .after_naming_rival_text
 	ctxt "<RIVAL>, also?"
 
-	para "Dein Larvitar<...>"
+	para "Dein Larvitar <...>"
 
 	para "Ist es das von"
 	line "meinem Bruder?"
@@ -215,17 +215,17 @@ IlkBrothersTalkToRival:
 	line "nach mir sehen?"
 
 	para "So ist mein Bruder"
-	line "nunmal<...>"
+	line "nunmal <...>"
 	
 	para "Bring ihm bitte"
 	line "auch sein Larvitar"
 	para "zurück, die beiden"
 	line "haben gemeinsam"
-	para "viel durch"
-	line "gemacht<...>"
+	para "viel durch-"
+	line "gemacht <...>"
 	
 	para "Er liebt dieses"
-	line "#mon sehr<...>"
+	line "#mon sehr <...>"
 	done
 
 Route69IlkBrotherHouseIlkBrother:
@@ -239,12 +239,12 @@ Route69IlkBrotherHouseIlkBrother:
 	done
 
 .after_battling_rival
-	ctxt "Vielen Dank das"
-	line "du versucht hast"
+	ctxt "Vielen Dank, dass"
+	line "du versucht hast,"
 	cont "ihn zu stoppen."
 
-	para "Ich hoffe Kindwurm"
-	line "geht es gut<...>"
+	para "Ich hoff, Kindwurm"
+	line "geht es gut <...>"
 	done
 
 Route69IlkBrotherHouse_MapEventHeader ;filler

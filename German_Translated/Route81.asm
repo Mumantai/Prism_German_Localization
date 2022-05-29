@@ -27,16 +27,16 @@ Route81_Trainer_1:
 	ctxt "Die Bauarbeiten"
 	line "auf der Brücke"
 	para "sind noch nicht"
-	line "fertiggestellt<...>"
+	line "fertiggestellt <...>"
 
-	para "Zum Glück, helfen"
+	para "Zum Glück helfen"
 	line "mir meine #mon"
-	cont "beim überqueren."
+	cont "beim Überqueren."
 	done
 
 .before_battle_text
-	ctxt "Meine Flug #mon"
-	line "Fliegen mich"
+	ctxt "Meine Flug-#mon"
+	line "fliegen mich"
 	cont "einfach rüber!"
 	done
 
@@ -65,9 +65,9 @@ Route81_Trainer_2:
 
 	para "<...>"
 
-	para "Ich trainiere um"
-	line "eines tages Andres"
-	cont "jünger zu werden!"
+	para "Ich trainiere, um"
+	line "eines Tages Andres"
+	cont "Jünger zu werden!"
 	done
 
 .battle_won_text
@@ -87,9 +87,9 @@ Route81_Trainer_3:
 
 .before_battle_text
 	ctxt "Weiter nördlich"
-	line "liegt der Akania"
+	line "liegt der Akania-"
 	para "Hafen. Was ist nur"
-	line "mit der Brücke<...>"
+	line "mit der Brücke <...>"
 	done
 
 .battle_won_text
@@ -100,7 +100,7 @@ Route81_Trainer_4:
 	trainer EVENT_ROUTE_81_TRAINER_4, PICNICKER, 8, .before_battle_text, .battle_won_text
 
 	ctxt "Der Bau dieses"
-	line "#mon Centers,"
+	line "#mon-Centers,"
 	cont "machte meinen"
 	para "#mon sehr viel"
 	line "Angst."
@@ -108,23 +108,23 @@ Route81_Trainer_4:
 
 .before_battle_text
 	ctxt "Das war hier mein"
-	line "lieblings Ort zum"
+	line "Lieblingsort zum"
 	para "Picknicken, bis"
-	line "sie den dummen"
-	para "#mon Center"
-	line "hier bauten<...>"
+	line "sie das dumme"
+	para "#mon-Center"
+	line "hier bauten <...>"
 	done
 
 .battle_won_text
 	ctxt "Nun ab zum dummen"
-	line "#mon Center."
+	line "#mon-Center."
 	done
 
 Route81_Trainer_5:
 	trainer EVENT_ROUTE_81_TRAINER_5, SUPER_NERD, 3, .before_battle_text, .battle_won_text
 
 	ctxt "Ich könnte seine"
-	line "dienste gut"
+	line "Dienste gut"
 	cont "gebrauchen."
 	done
 
@@ -155,7 +155,7 @@ Route81DoubleTeamTMDude:
 	closetextend
 
 .give_TM_text
-	ctxt "Ich dachte meine"
+	ctxt "Ich dachte, meine"
 	line "#mon würden"
 	para "hiermit ein gutes"
 	line "Team werden, aber"
@@ -169,9 +169,9 @@ Route81DoubleTeamTMDude:
 	line "Doppelteam."
 
 	para "Lass dich nicht"
-	line "vom Namen täuschen"
-	para "es erhöht nur den"
-	line "Fluchtwert."
+	line "vom Namen täu-"
+	para "schen, es hebt nur"
+	line "den Fluchtwert."
 	done
 
 Route81BridgeBuilder:
@@ -208,35 +208,35 @@ Route81BridgeBuilder:
 	jumptext .after_building_bridge_text
 
 .introduction_text
-	ctxt "OK, nun<...> du bist"
+	ctxt "OK, nun <...> du bist"
 	line "der Sohn von"
 	para "Siegfried und"
-	line "musst da hoch um"
+	line "musst da hoch, um"
 	para "das #mon"
-	line "aufzuhalten, dass"
+	line "aufzuhalten, das"
 	para "Naljo zerstören"
 	line "könnte?"
 
 	para "Hört sich realisch"
-	line "an, glaube ich<...>"
+	line "an, glaube ich <...>"
 
 	para "Ich brauche 20"
-	line "Ziegelsteine um"
+	line "Ziegelsteine, um"
 	para "den Hafen von"
 	line "unten zu stützen."
 
 	para "Es gibt einen"
 	line "Markt, der sie"
-	cont "Verkauft<...>"
+	cont "verkauft <...>"
 
-	para "Wo genau, weiss"
-	line "ich leider nicht<...>"
+	para "Wo genau weiß"
+	line "ich leider nicht <...>"
 	done
 
 .before_nobu_text
 	ctxt "Ich sollte diese"
 	line "Brücke eigentlich"
-	cont "fertig bauen<...>"
+	cont "fertig bauen <...>"
 
 	para "Ich bin aber viel"
 	line "zu müde."
@@ -261,7 +261,7 @@ Route81BridgeBuilder:
 	ctxt "Hast du paar"
 	line "Ziegelsteine?"
 
-	para "Gibst du sie mir"
+	para "Gibst du sie mir,"
 	line "damit ich die"
 	cont "Brücke bauen kann?"
 	done
@@ -272,14 +272,14 @@ Route81BridgeBuilder:
 	prompt
 
 .after_building_bridge_text
-	ctxt "Wie Belebend!"
+	ctxt "Wie belebend!"
 
 	para "Das war mein"
-	line "workout für die"
+	line "Workout für die"
 	cont "Woche."
 
 	para "Ich bin durch,"
-	line "Ciau."
+	line "Ciao."
 	done
 
 .refused_text
@@ -300,9 +300,9 @@ Route81BridgeBuilder:
 	para "A<...>"
 
 	para "Hör mit dem"
-	line "facepalm auf"
+	line "Facepalm auf,"
 	para "währendich mit"
-	line "dir rede"
+	line "dir rede!"
 	done
 
 Route81_MapEventHeader:: db 0, 0

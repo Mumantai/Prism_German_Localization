@@ -14,7 +14,7 @@ RijonLeagueOutsideHiddenItem:
 	db GOLD_TOKEN
 
 RijonLeagueOutsideSign:
-	ctxt "Rijon Liga"
+	ctxt "Rijon-Liga"
 	done
 
 RijonLeagueOutside_MapEventHeader ;filler

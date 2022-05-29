@@ -15,7 +15,7 @@ SpurgeMartNPC1:
 
 	para "Wenn dir was"
 	line "gefällt, sag mir"
-	cont "bescheid!"
+	cont "Bescheid!"
 	done
 
 SpurgeMartNPC2:
@@ -28,24 +28,24 @@ SpurgeMartNPC2:
 SpurgeMartNPC3:
 	ctxt "Ein eigenartiger"
 	line "Typ, komplett in"
-	para "Rot, war hier um"
+	para "Rot, war hier, um"
 	line "etwas zu essen."
 
 	para "Mit Rot meine ich"
 	line "RICHTIG ROT!"
 
-	para "Helm, jumpsuit."
+	para "Helm, Jumpsuit."
 	line "ALLES war ROT."
 
-	para "Er weigerte sich"
+	para "Er weigerte sich,"
 	line "den Helm abzulegen"
 	para "also hat er das"
 	line "Essen mitgenommen."
 	done
 
 SpurgeMartNPC4:
-	ctxt "Diese Essensmeile"
-	line "schafft es mein"
+	ctxt "Diese Futtermeile"
+	line "schafft es mein,"
 	para "dickes Bäuchlein"
 	line "zu füllen."
 	done
@@ -59,8 +59,8 @@ SpurgeMartNPC5:
 	done
 
 SpurgeMartNPC6:
-	ctxt "Ich hörte diese"
-	line "Milch die hier"
+	ctxt "Ich hörte, diese"
+	line "Milch, die hier"
 	para "verkauft wird,"
 	line "stammt aus Johto."
 	done
@@ -75,14 +75,14 @@ SpurgeMartNPC7:
 
 	para "Und #mon Quartz"
 	line "hatte zu viel"
-	cont "profanes in sich!"
+	cont "Profanes in sich!"
 
 	para "Pegi 7 Freigabe?"
 	line "Ja klar!"
 	done
 
 SpurgeMartNPC8:
-	ctxt "Keine Ahnung was"
+	ctxt "Keine Ahnung, was"
 	line "ich kaufen soll!"
 	done
 

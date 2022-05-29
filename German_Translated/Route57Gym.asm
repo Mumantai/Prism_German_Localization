@@ -4,7 +4,7 @@ Route57Gym_MapScriptHeader;trigger count
 	db 0
 
 Route57GymInsideSign:
-	ctxt "Normalo Arena"
+	ctxt "Normalo-Arena"
 	para "Leiter: Joe"
 	done
 
@@ -61,14 +61,14 @@ Route57GymLeader:
 	cont "Schwingungen!"
 
 	para "Bitte, nimm diesen"
-	line "Orden und "
+	line "Orden und"
 	cont "verschwinde!"
 
 	done
 
 .received_badge_text
 	ctxt "<PLAYER> erhält den"
-	line "Normalo Orden."
+	line "Normalo-Orden."
 
 	done
 
@@ -80,8 +80,8 @@ Route57GymLeader:
 	sdone
 
 .after_TM_text
-	ctxt "TM15 ist Hyper"
-	line "Strahl!"
+	ctxt "TM15 ist"
+	line "Hyperstrahl!"
 
 	para "Ein starker"
 	line "normalo Angriff!"

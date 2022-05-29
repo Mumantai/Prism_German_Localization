@@ -8,9 +8,9 @@ Route59GateGuard:
 	line "aktuell unter"
 	cont "Quarantäne."
 	
-	para "KEIN PASSIEREN BIS"
-	line "DER BOSS SEIN OK"
-	cont "GIBT!!!"
+	para "KEIN PASSIEREN,"
+	line "BIS DER BOSS SEIN"
+	cont "OK GIBT!!!"
 	done
 
 Route59Gate_MapEventHeader ;filler

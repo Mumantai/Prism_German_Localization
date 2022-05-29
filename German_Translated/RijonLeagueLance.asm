@@ -98,7 +98,7 @@ RijonLeagueLance_Lance:
 
 	para "Als ich hörte, was"
 	line "damals in der"
-	para "Höhle passiert ist"
+	para "Höhle passierte,"
 	line "kam ich so schnell"
 	para "ich konnte und"
 	line "suchte unter jedem"
@@ -114,18 +114,18 @@ RijonLeagueLance_Lance:
 	para "Er beschrieb mir"
 	line "einen jungen"
 	para "Trainer, welcher"
-	line "auf der Naljo"
+	line "auf der Naljo-"
 	para "Seite des Berges"
 	line "festsitzt und sich"
 	para "mit einem Larvitar"
-	line "befreundet hat um"
+	line "befreundet hat, um"
 	para "ein Abenteuer zu"
 	line "erleben!"
 
-	para "Ich wusste gleich"
-	line "das du gemeint"
-	para "warst & war so"
-	line "Stolz auf dich!" 
+	para "Ich wusste gleich,"
+	line "dass du gemeint"
+	para "warst und war so"
+	line "stolz auf dich!" 
 
 	para "Ich wusste, dass"
 	line "du das alleine"
@@ -136,7 +136,7 @@ RijonLeagueLance_Lance:
 
 	para "Ich musste darauf"
 	line "setzten, dass du"
-	para "weiße"
+	para "weise"
 	line "Entscheidungen,"
 	para "treffen kannst"
 	line "ohne, dass ich"
@@ -153,9 +153,9 @@ RijonLeagueLance_Lance:
 .battle_won_text
 	ctxt "Großartig!"
 
-	para "Es gibt niemanden"
+	para "Es gibt niemanden,"
 	line "bei dem ich mich"
-	para "so freuen würde"
+	para "so freuen würde,"
 	line "den Titel an ihn"
 	cont "abzutreten!"
 	done
@@ -164,8 +164,8 @@ RijonLeagueLance_Lance:
 	ctxt "Deine #mon"
 	line "kämpfen an deiner"
 	para "Seite mit einer"
-	line "Zuneigung wie ich"
-	para "Sie schon lange"
+	line "Zuneigung, wie ich"
+	para "sie schon lange"
 	line "nicht gesehen"
 	cont "habe."
 
@@ -185,17 +185,17 @@ RijonLeagueLance_Lance:
 
 	para "<...>"
 
-	para "Gibt es noch etwas"
-	line "was du vorher"
+	para "Gibt es noch was,"
+	line "das du vorher"
 	cont "machen möchtest?"
 
-	para "<...><...><...>"
+	para "<...> <...> <...>"
 
-	para "Nunja<...>"
+	para "Nunja <...>"
 	line "OK."
 
-	para "Alles was du dir"
-	line "Wünschst."
+	para "Alles, was du dir"
+	line "wünschst."
 	sdone
 
 .family_gathering_text_1
@@ -203,14 +203,14 @@ RijonLeagueLance_Lance:
 	line "Was für ein Weg!"
 
 	para "Ich habe Tag und"
-	line "nacht gebetet,"
+	line "Nacht gebetet,"
 	para "dass du gesund"
 	line "wieder nach Hause"
 	cont "kommst!"
 
 	para "Und eines Tages"
-	line "Rijon Champion"
-	cont "wirst<...>"
+	line "Rijon-Champion"
+	cont "wirst <...>"
 
 	para "Du bist genau wie"
 	line "dein Vater!"
@@ -228,10 +228,10 @@ RijonLeagueLance_Lance:
 	line "gehabt."
 
 	para "Ich war einfach zu"
-	line "beschäftigt<...>"
-	para "<...>Aber ich muss"
+	line "beschäftigt <...>"
+	para "<...> Aber ich muss"
 	line "alles dafür tun,"
-	para "um Naljo in "
+	para "um Naljo in"
 	line "Sicherheit zu"
 	cont "bringen."
 
@@ -240,11 +240,11 @@ RijonLeagueLance_Lance:
 	cont "heute noch nicht."
 
 	para "Ich will nicht,"
-	line "dass Sie jemandem"
+	line "dass sie jemandem"
 	cont "schaden."
 
-	para "Ich kenne einpaar"
-	line "in Rijon die uns"
+	para "Ich kenne ein paar"
+	line "in Rijon, die uns"
 	para "hierbei helfen"
 	line "könnten."
 	sdone
@@ -253,16 +253,16 @@ RijonLeagueLance_Lance:
 	ctxt "Mom: Das ist sehr"
 	line "anständig von dir."
 
-	para "Vieleicht hast du"
+	para "Vielleicht hast du"
 	line "dich ja echt"
-	cont "verändert<...>"
+	cont "verändert <...>"
 	sdone
 
 .give_pass_text
-	ctxt "Siegfried: Lass"
-	line "uns in der Rijon"
-	para "Region treffen,"
-	line "bei Gelegenheit."
+	ctxt "Siegfried: Treffen"
+	line "wir uns bei Ge-"
+	para "legenheit in der"
+	line "Rijon-Region."
 
 	para "Ich werde beim"
 	line "Kraftwerk sein."
@@ -282,24 +282,24 @@ RijonLeagueLance_Lance:
 	para "Ruhmeshalle"
 	line "betreten möchtest."
 
-	para "Aber<...>"
+	para "Aber <...>"
 
-	para "<...>keine Eile."
+	para "<...> keine Eile."
 
 	para "Wir haben genug"
-	line "Zeit<...>"
+	line "Zeit <...>"
 	sdone
 
 .hall_of_fame_text
 	ctxt "Alle Trainer, die"
 	line "die Ehre haben,"
 	para "sich Champion der"
-	line "Rijon Liga nennen"
+	line "Rijon-Liga nennen"
 	para "zu dürfen, sind in"
 	line "diesem Computer"
 	cont "gespeichert."
 
-	para "Du und deine "
+	para "Du und deine"
 	line "#mon werden"
 	para "jetzt in die"
 	line "Geschichte"

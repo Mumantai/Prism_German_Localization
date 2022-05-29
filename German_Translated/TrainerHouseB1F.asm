@@ -5,7 +5,7 @@ TrainerHouseB1F_MapScriptHeader;trigger count
 
 TrainerHouseB1FNPC:
 	ctxt "Ein Ratschlag für"
-	line "dich mein Kind:"
+	line "dich, mein Kind:"
 
 	para "Es ist besser,"
 	line "verschiedene"

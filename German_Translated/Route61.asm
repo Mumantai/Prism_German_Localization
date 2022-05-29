@@ -37,7 +37,7 @@ Route61_Trainer_2:
 	para "bevor ich mich"
 	line "entscheide, dass"
 	para "sie mit mir in die"
-	line "Stadt mitkommen "
+	line "Stadt mitkommen"
 	cont "sollen."
 
 	done
@@ -66,7 +66,7 @@ Route61_Trainer_3:
 	done
 
 .before_battle_text
-	ctxt "Haken, Schnur und "
+	ctxt "Haken, Schnur und"
 	line "Senker!"
 
 	done

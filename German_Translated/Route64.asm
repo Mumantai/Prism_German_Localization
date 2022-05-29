@@ -13,7 +13,7 @@ Route64SilphWarehouseSign:
 
 Route64NaljoBorderSign:
 	ctxt "Naljo"
-	next "Grenzübergang "
+	next "Grenzübergang"
 	done
 
 Route64NaljoBorderInfoSign:

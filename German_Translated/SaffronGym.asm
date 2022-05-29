@@ -4,7 +4,7 @@ SaffronGym_MapScriptHeader;trigger count
 	db 0
 
 SaffronGymSign:
-	ctxt "Saffronia Arena"
+	ctxt "Saffronia-Arena"
 	line "Leiterin: Sabrina"
 	done
 
@@ -13,19 +13,19 @@ SaffronGymGuide:
 
 	para "Sabrina hat vor"
 	line "Kurzem ihr"
-	para "Teleportations"
+	para "Teleportations-"
 	line "System verändert."
 
 	para "Pass also auf,"
 	line "dass du dich nicht"
-	cont "verirst!"
+	cont "verirrst!"
 
 	done
 
 SaffronGym_Trainer_1:
 	trainer EVENT_SAFFRON_GYM_TRAINER_1, PSYCHIC_T, 6, .before_battle_text, .battle_won_text
 
-	ctxt "Deine Seele wird "
+	ctxt "Deine Seele wird"
 	line "stäker."
 
 	done
@@ -37,7 +37,7 @@ SaffronGym_Trainer_1:
 	done
 
 .battle_won_text
-	ctxt "So eine starke "
+	ctxt "So eine starke"
 	line "Seele!"
 
 	done
@@ -46,7 +46,7 @@ SaffronGym_Trainer_2:
 	trainer EVENT_SAFFRON_GYM_TRAINER_2, MEDIUM, 6, .before_battle_text, .battle_won_text
 
 	ctxt "Nerv mich nicht"
-	line "weiter, böser "
+	line "weiter, böser"
 	cont "Geist!"
 
 	done
@@ -116,7 +116,7 @@ SaffronGymSabrina:
 	para "Die Kraft der"
 	line "Liebe könnte auch"
 	para "eine Art von"
-	line "Psychischer Kraft "
+	line "psychischer Kraft"
 	cont "sein."
 
 	done
@@ -128,14 +128,14 @@ SaffronGymSabrina:
 	para "Ich hatte vor"
 	line "einigen Jahren"
 	para "eine Vision von"
-	line "Deiner Ankunft."
+	line "deiner Ankunft."
 
 	para "Es ist meine"
-	line "Pflicht als Arena"
+	line "Pflicht als Arena-"
 	para "Leiterin, jedem,"
 	line "der sich als"
 	para "würdig erwiesen"
-	line "hat, den Orden zu "
+	line "hat, den Orden zu"
 	cont "geben."
 
 	para "Da du kämpfen"
@@ -150,18 +150,18 @@ SaffronGymSabrina:
 	ctxt "Ich war nicht in"
 	line "der Lage, dieses"
 	para "Ausmaß an Macht"
-	line "voraussehen zu "
+	line "voraussehen zu"
 	cont "können."
 
 	para "Du hast dir den"
-	line "Sumpforden "
+	line "Sumpforden"
 	cont "verdient."
 
 	done
 
 .received_badge_text
 	ctxt "<PLAYER> erhält den"
-	line "Sumpf Orden."
+	line "Sumpforden."
 
 	done
 
@@ -172,14 +172,14 @@ SaffronGymSabrina:
 	sdone
 
 .after_giving_TM_text
-	ctxt "Diese TM enthält "
+	ctxt "Diese TM enthält"
 	line "Bodyguard."
 
 	para "Dieser Angriff"
 	line "negiert 5 Runden"
 	para "lang jeden"
-	line "negativen Status"
-	para "Effekt deines"
+	line "negativen Status-"
+	para "effekt deines"
 	line "ganzen Teams!"
 
 	done

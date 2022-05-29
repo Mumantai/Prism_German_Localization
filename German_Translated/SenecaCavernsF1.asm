@@ -7,8 +7,8 @@ SenecaCavernsF1_Trainer_1:
 	trainer EVENT_SENECACAVERNSF1_TRAINER_1, BURGLAR, 2, .before_battle_text, .battle_won_text
 
 	ctxt "Jetzt muss ich bis"
-	line "zum #mon Center"
-	cont "laufen<...>"
+	line "zum #mon-Center"
+	cont "laufen <...>"
 	done
 
 .before_battle_text
@@ -19,7 +19,7 @@ SenecaCavernsF1_Trainer_1:
 
 .battle_won_text
 	ctxt "Ich wurde"
-	line "geschlagen<...>"
+	line "geschlagen <...>"
 	done
 
 SenecaCavernsF1_Trainer_2:
@@ -27,7 +27,7 @@ SenecaCavernsF1_Trainer_2:
 
 	ctxt "Nachdem ich sie"
 	line "geheilt habe,"
-	para "werden Sie dich"
+	para "werden sie dich"
 	line "besiegen."
 	done
 
@@ -45,7 +45,7 @@ SenecaCavernsF1_Trainer_3:
 
 	ctxt "Ich werde"
 	line "weiterhin die"
-	cont "Bühne Rocken!"
+	cont "Bühne rocken!"
 	done
 
 .before_battle_text
@@ -60,10 +60,10 @@ SenecaCavernsF1_Trainer_3:
 SenecaCavernsF1_Trainer_4:
 	trainer EVENT_SENECACAVERNSF1_TRAINER_4, FIREBREATHER, 9, .before_battle_text, .battle_won_text
 
-	ctxt "Paar Leute denken"
-	line "der östliche teil"
+	ctxt "Paar Leute denken,"
+	line "der östliche Teil"
 	para "dieser Höhle würde"
-	line "die Rijon Liga"
+	line "die Rijon-Liga"
 	cont "beinhalten."
 
 	para "Sehr lustig."

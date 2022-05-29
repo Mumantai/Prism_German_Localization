@@ -33,11 +33,11 @@ SpurgeGymB1FExplodingRock:
 	step_end
 
 .placed_dynamite_text
-	ctxt "Du hast den"
-	line "Dynamiten plaziert"
+	ctxt "Du hast das"
+	line "Dynamit plaziert"
 	cont "und gezündet!"
 
-	para "Halte abstand!"
+	para "Halte Abstand!"
 	sdone
 
 SpurgeGymB1FThirdMon:
@@ -106,15 +106,15 @@ SpurgeGymB1FCadence:
 .before_battle_text
 	ctxt "DUUU!"
 
-	para "Jedesmal wenn ein"
-	line "Arena Leiter"
+	para "Jedes Mal, wenn"
+	line "ein Arena-Leiter"
 	para "verliert, verliert"
 	line "er auch etwas von"
 	cont "seinem Ruf." 
 
 	para "Diesesmal werde"
-	line "ich mein Stolz"
-	cont "zurück erhalten!"
+	line "ich meinen Stolz"
+	cont "zurückerhalten!"
 	sdone
 
 .battle_won_text
@@ -157,11 +157,11 @@ SpurgeGymB1FJosiah:
 	done
 
 .before_battle_text
-	ctxt "Wie geht es dir"
-	line "Kollege!"
+	ctxt "Wie geht es dir,"
+	line "Kollege?"
 
 	para "Du hast mich zwar"
-	line "beim letzten mal"
+	line "beim letzten Mal"
 	para "in die Pfanne"
 	line "gehauen, aber das"
 	para "war nur Anfänger-"
@@ -172,13 +172,13 @@ SpurgeGymB1FJosiah:
 	sdone
 
 .battle_won_text
-	ctxt "Du bist echt Hot"
+	ctxt "Du bist echt Hot,"
 	line "Bruder! Läuft"
 	cont "bei dir!"
 	done
 
 .after_battle_text
-	ctxt "Wieder Verbrannt<...>"
+	ctxt "Wieder verbrannt <...>"
 	sdone
 
 SpurgeGymB1FEdison:
@@ -227,7 +227,7 @@ SpurgeGymB1FEdison:
 	line "so daneben liegen!"
 
 	para "Wo war wohl mein"
-	line "schwachpunkt<...>"
+	line "Schwachpunkt <...>"
 	sdone
 
 SpurgeGymB1FRinji:
@@ -257,24 +257,24 @@ SpurgeGymB1FRinji:
 	para "Ist schon etwas" 
 	line "her."
 
-	para "Allein wie die"
+	para "Allein, wie die"
 	line "Luft um dich herum"
-	para "vibriert zeigt die"
+	para "vibriert, zeigt die"
 	line "Stärke und Bindung"
-	cont "deiner #mon<...>"
+	cont "deiner #mon <...>"
 
-	para "Mal schauen wie"
+	para "Mal schauen, wie"
 	line "stark die Bindung"
 	cont "wirklich ist!"
 	sdone
 
 .battle_won_text
-	ctxt "Es ist Großartig"
-	line "zu sehen wie stark" 
-	para "die Bindung"
+	ctxt "Es ist großartig"
+	line "zu sehen, wie" 
+	para "stark die Bindung"
 	line "zwischen Trainer"
-	para "und #mon sein"
-	line "kann!"
+	para "und #mon"
+	line "sein kann!"
 	done
 
 .after_battle_text

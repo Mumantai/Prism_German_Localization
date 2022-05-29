@@ -36,7 +36,7 @@ ToreniaGymLeader:
 .not_accepting_challenges_text
 	ctxt "AHHH!"
 
-	para "Wer bist du<...>?"
+	para "Wer bist du <...>?"
 
 	para "<...>"
 
@@ -47,18 +47,18 @@ ToreniaGymLeader:
 	cont "dies ist eine"
 	cont "Arena."
 
-	para "Ich schätze du"
+	para "Ich schätze, du"
 	line "bist hier für"
 	cont "meinen Orden."
 
-	para "Die Wahrheit ist<...>"
+	para "Die Wahrheit ist <...>"
 
 	para "Ich habe seit 3"
 	line "Jahren keine"
 	cont "Herausforderungen"
 	cont "akzeptiert."
 
-	para "Ich hatte Träume<...>"
+	para "Ich hatte Träume <...>"
 
 	para "Aber jetzt nicht"
 	line "mehr und das"
@@ -69,24 +69,24 @@ ToreniaGymLeader:
 	cont "mit meinem #mon."
 
 	para "Die großen grünen"
-	line "Felder, die Ich"
+	line "Felder, die ich"
 	para "als Junge genossen"
-	line "habe verschwinden"
+	line "habe, verschwinden"
 	cont "langsam aus meinem"
-	para "Gedächtnis<...>"
+	para "Gedächtnis <...>"
 
 	para "Diese Träume waren"
-	line "das was mich"
+	line "das, was mich"
 	cont "angetrieben hat."
 
-	para "Aber jetzt<...>"
+	para "Aber jetzt <...>"
 
-	para "Keine Motivation"
-	line "etwas zu tun<...>"
+	para "Keine Motivation,"
+	line "etwas zu tun <...>"
 
 	para "Bis ich einen Weg"
-	line "finde wieder zu"
-	para "Träumen bekommst"
+	line "finde, wieder zu"
+	para "Träumen, bekommst"
 	line "du meinen Orden"
 	cont "nicht."
 	done
@@ -120,7 +120,7 @@ ToreniaGymLeader:
 
 	para "Du musst trotzdem"
 	line "beweisen, dass du"
-	cont "es Wert bist."
+	cont "es wert bist."
 	sdone
 
 .battle_won_text
@@ -144,15 +144,15 @@ ToreniaGymLeader:
 	line "Finsteraura!"
 
 	para "Es ist eine starke"
-	line "dunkle Attacke die"
-	para "einen Feind"
+	line "dunkle Attacke,"
+	para "die einen Feind"
 	line "zurückschrecken"
 	cont "lässt!"
 	done
 
 .already_defeated_text
 	ctxt "Danke, dass du mir"
-	line "ermöglicht hast"
+	line "ermöglicht hast,"
 	cont "wieder zu träumen."
 	done
 

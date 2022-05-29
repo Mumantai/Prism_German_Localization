@@ -19,7 +19,7 @@ SeashoreMuraSister:
 	line "zusätzlichen Druck"
 	para "auf mich aus, um"
 	line "sicherzustellen,"
-	para "dass ich mich gut "
+	para "dass ich mich gut"
 	line "entwickle."
 
 	done
@@ -30,7 +30,7 @@ SeashoreMuraDad:
 	cont "es gut."
 
 	para "Er ist jetzt Teil"
-	line "der Liga von "
+	line "der Liga von"
 	cont "Rijon."
 
 	done

@@ -14,7 +14,7 @@ Route34EmptyHouseSign:
 
 	para "Sieht so aus, als "
 	line "würde hier niemand"
-	cont "leben<...> "
+	cont "leben <...> "
 	done
 
 Route34ApricornAdSign:
@@ -25,33 +25,33 @@ Route34ApricornAdSign:
 
 	next "Suche in"
 	nl "Rijon nach "
-	nl "Aprikoko Bäumen."
+	nl "Aprikoko-Bäumen."
 
 	done
 
 Route34_Trainer_1:
 	trainer EVENT_ROUTE_34_TRAINER_1, PICNICKER, 6, .before_battle_text, .battle_won_text
 
-	ctxt "Ich werde nicht "
+	ctxt "Ich werde nicht"
 	line "aufgeben, nur weil"
-	para "ein starker "
-	line "Trainer mich "
+	para "ein starker"
+	line "Trainer mich"
 	cont "besiegt hat!"
 
 	done
 
 .before_battle_text
-	ctxt "Bist du der "
-	line "Champion von "
+	ctxt "Bist du der"
+	line "Champion von"
 	cont "Rijon?"
 
-	para "Darf ich sehen, "
+	para "Darf ich sehen,"
 	line "wie stark du bist?"
 
 	done
 
 .battle_won_text
-	ctxt "Ich kann nicht "
+	ctxt "Ich kann nicht"
 	line "gewinnen!"
 
 	done
@@ -62,27 +62,27 @@ Route34_Trainer_2:
 	ctxt "Ich muss es weiter"
 	line "versuchen."
 
-	para "Schließlich ist "
-	line "ein Leben ohne "
-	para "Scheitern ein "
-	line "Leben ohne "
+	para "Schließlich ist"
+	line "ein Leben ohne"
+	para "Scheitern ein"
+	line "Leben ohne"
 	cont "Erfahrung."
 
 	done
 
 .before_battle_text
-	ctxt "Ich war "
+	ctxt "Ich war"
 	line "Klassenbester!"
 
-	para "Die Klasse war "
+	para "Die Klasse war"
 	line "#mon!"
 
 	done
 
 .battle_won_text
 	ctxt "Ich bin vielleicht"
-	line "nicht der Beste, "
-	para "aber ich genieße "
+	line "nicht der Beste,"
+	para "aber ich genieße"
 	line "den Sport!"
 
 	done
@@ -90,7 +90,7 @@ Route34_Trainer_2:
 Route34_Trainer_3:
 	trainer EVENT_ROUTE_34_TRAINER_3, POKEFANM, 3, .before_battle_text, .battle_won_text
 
-	ctxt "Niemals aufgeben, "
+	ctxt "Niemals aufgeben,"
 	line "ja, ja, ja!"
 
 	done
@@ -102,7 +102,7 @@ Route34_Trainer_3:
 	done
 
 .battle_won_text
-	ctxt "Weiter versuchen, "
+	ctxt "Weiter versuchen,"
 	line "ja, ja, ja!"
 
 	done

@@ -99,18 +99,18 @@ LaurelForestPokemonOnlyPikachu:
 	ctxt "Oh, willst du den"
 	line "Kugelblitz haben?"
 
-	para "OK! Nimm ihn!"
+	para "OK! Nimm es!"
 	prompt
 
 .what_are_you_doing_here_text
-	ctxt "<...> Ähm, was machst"
+	ctxt "<...> Uhm, was machst"
 	line "du hier noch?"
 	done
 
 .heres_the_junk_you_wanted_text
 	ctxt "Willst du echt den"
-	line "Müll, den ich"
-	cont "aufgesammelt habe?"
+	line "Müll, den ich auf-"
+	cont "gesammelt habe?"
 
 	para "OK, aber nur, weil"
 	line "ich so ein netter"
@@ -118,7 +118,7 @@ LaurelForestPokemonOnlyPikachu:
 	prompt
 
 .full_for_now_text
-	ctxt "Ich bin pappsatt!"
+	ctxt "Bin erstmal voll!"
 	done
 
 .after_defeated_text
@@ -126,7 +126,7 @@ LaurelForestPokemonOnlyPikachu:
 	done
 
 .asking_for_burnt_berries_text
-	ctxt "Oh, hallöchen!"
+	ctxt "Oh, Hallöchen!"
 
 	para "Uh <...>"
 
@@ -138,14 +138,14 @@ LaurelForestPokemonOnlyPikachu:
 	cont "besorgen?"
 
 	para "Übrigens, ich esse"
-	line "nur Röstbeeren."
+	line "nur Brandbeeren."
 	done
 
 .cant_wait_to_eat_text
 	ctxt "Wunderbar!"
 
-	para "Bald gibt's was zu"
-	line "futtern, futtern!"
+	para "Ich freue mich auf"
+	line "das ESSEN, ESSEN!"
 	done
 
 .wanna_fight_text
@@ -173,7 +173,7 @@ LaurelForestPokemonOnlyPikachu:
 	para "Wenn du nicht"
 	line "verletzt werden"
 	para "willst, besorg mir"
-	line "2 Röstbeeren."
+	line "2 Brandbeeren."
 
 	para "<...> sonst <...>!"
 	done
@@ -244,14 +244,14 @@ LaurelForestPokemonOnlyPikachu:
 
 .where_is_burnt_berry_text
 	ctxt "Wo ist die"
-	line "Röstbeere?"
+	line "Brandbeere?"
 
 	para "Ich seh sie nicht."
 	done
 
 .delivered_burnt_berry_text
 	ctxt "Danke für die"
-	line "Röstbeere!"
+	line "Brandbeere!"
 
 	para "Nimm diese Curo-"
 	line "Scherbe als Dank."
@@ -290,8 +290,8 @@ LaurelForestPokemonOnlyPikachu:
 
 	para "Ich lasse dich nun"
 	line "gehen. Nimm diesen"
-	para "Müll, den ich vor-"
-	line "hin gefunden habe."
+	para "Müll, den ich zu-"
+	line "vor gefunden habe."
 	prompt
 
 .handed_over_text
@@ -302,7 +302,7 @@ LaurelForestPokemonOnlyPikachu:
 
 .dont_come_back_without_burnt_berries_text
 	ctxt "Komm nicht ohne"
-	line "die 2 Röstbeeren"
+	line "die 2 Brandbeeren"
 	cont "zurück!"
 	done
 
@@ -409,9 +409,8 @@ LaurelForestPokemonOnlyFruitTree:
 	closetextend
 
 .out_of_berries_text
-	ctxt "Dieser Baum wird"
-	line "keine Beeren mehr"
-	cont "tragen."
+	ctxt "Dieser Baum wächst"
+	line "nicht mehr nach."
 	done
 
 .picked_berry_text
@@ -551,20 +550,20 @@ LaurelForestPokemonOnlyFruitTree:
 	ctxt "Hmm, ich würde dir"
 	line "eine Curo-Scherbe"
 	para "schenken, aber"
-	line "leider habe ich"
-	para "die letzte schon"
+	line "leider gab ich die"
+	para "letzte bereits"
 	line "einem anderen"
-	cont "#mon gegeben."
+	cont "#mon."
 	
 	para "Ah, stimmt!"
 	
-	para "Ich habe ja noch"
+	para "Ich hab ja noch"
 	line "einen Kugelblitz!"
 	prompt
 
 .dont_worry_text
 	ctxt "Keine Sorge, ich"
-	line "brauch ihn nicht."
+	line "brauchs nicht."
 
 	para "So viele Kämpfe"
 	line "habe ich hier im"
@@ -635,5 +634,5 @@ LaurelForestPokemonOnlyFire:
 
 .burnt_berry_text
 	ctxt "Die Sinelbeere"
-	line "wurde geröstet!"
+	line "wurde gebraten!"
 	prompt

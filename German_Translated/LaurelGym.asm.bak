@@ -48,12 +48,12 @@ LaurelGymLeader:
 
 	para "'Sei nett?'"
 
-	para "Mein Baby wird"
+	para "Mein BABY wird"
 	line "VERMISST, du <...>"
 
 	para "<...>"
 
-	para "Naja <...> mit 'Baby'"
+	para "Naja <...> mit Baby"
 	line "meine ich mein"
 	cont "Karnimani."
 
@@ -72,23 +72,24 @@ LaurelGymLeader:
 	done
 
 .player_got_totodile_text
-	ctxt "MEIN KARNIMANI IST"
-	line "WIEDER WEG!!!"
+	ctxt "Mein Karnimani ist"
+	line "Wieder weg!!!"
 
 	para "<...>"
 
 	para "Wie, du hilfst mir"
 	line "nicht?"
 
-	para "DANN VERSCHWINDE!"
+	para "Dann VERSCHWINDE!"
 	done
 
 .after_badge_text
-	ctxt "Wenn du mich ent-"
-	line "schuldigst. Ich"
-	para "muss mich für mein"
+	ctxt "Nun kann ich mein"
 	line "süßes Karnimani"
-	cont "hübsch machen."
+	para "in hübsche Kleider"
+	line "stecken <...>"
+	cont "Er sieht dabei so"
+	cont "süüüüß auuusss <...>"
 	done
 
 .before_battle_text
@@ -99,9 +100,10 @@ LaurelGymLeader:
 
 	para "Später werde ich"
 	line "es schminken und"
-	para "hübsch anziehen"
-	line "und es den ganzen"
-	cont "Tag lang knuddeln!"
+	para "hübsch anziehen,"
+	line "damit es wieder"
+	para "so schnuckelig"
+	line "aussieht!"
 
 	para "Ach stimmt, du"
 	line "willst den Orden?"
@@ -114,48 +116,46 @@ LaurelGymLeader:
 	cont "Feen-#mon."
 
 	para "Sie sind einfach"
-	line "so zuckersüß. Ich"
-	para "kann ihnen einfach"
-	line "nicht widerstehen!"
+	line "zuckersüß, ich"
+	para "kann ihnen nicht"
+	line "widerstehen!"
 	prompt
 
 .battle_won_text
-	ctxt "Na gut, na gut."
-	line "Du hast gewonnen."
+	ctxt "Na gut, du hast"
+	line "gewonnen."
 
 	para "Nimm das Stück"
-	line "Metall und geh."
+	line "Metall an dich."
 	done
 
 .got_badge_text
 	ctxt "<PLAYER> erhält"
-	line "den Charmeorden!"
+	line "den Charm-Orden!"
 	done
 
 .after_battle_text
-	ctxt "Der Charmeorden"
+	ctxt "Der Charm-Orden"
 	line "lässt dich"
 	para "'Stärke' auch"
 	line "außerhalb von"
 	cont "Kämpfen einsetzen."
 
-	para "Und weil ich so"
-	line "ein süßer Engel"
-	para "bin, gebe ich dir"
-	line "noch das hier."
+	para "Und weil ich ein"
+	line "süßer Engel bin,"
+	cont "gebe ich es dir."
 	sdone
 
 LaurelGym_Trainer_1:
 	trainer EVENT_LAUREL_GYM_TRAINER_1, CHEERLEADER, 2, .before_battle_text, .battle_won_text
 
-	ctxt "Dein guter Ruf ist"
-	line "jetzt im Eimer!"
+	ctxt "Ich hoffe, du bist"
+	line "ihr gewachsen!"
 	done
 
 .before_battle_text
-	ctxt "Ein Kampf mit mir?"
-	
-	para "Du Glückspilz!"
+	ctxt "Eine Ehre für dich"
+	line "vor mir zu stehen!"
 
 	done
 
@@ -169,7 +169,7 @@ LaurelGym_Trainer_2:
 
 	ctxt "OK, <...>"
 
-	para "Was auch immer."
+	para "Ist mir WURSCHT!"
 	done
 
 .before_battle_text
@@ -223,15 +223,15 @@ LaurelGymGuide:
 
 	para "Sie hat gerade"
 	line "persönliche Prob-"
-	cont "leme. Mehr weiß"
-	cont "ich leider nicht."
+	cont "leme und ich weiß"
+	cont "nichts drüber."
 
 	para "Alles, woran ich"
 	line "mich erinnere,"
-	para "ist, dass es in"
-	line "letzter Zeit viele"
-	para "Entführungen in"
-	line "der Stadt gab."
+	para "ist, dass zuletzt"
+	line "viele Entführung-"
+	para "en in dieser"
+	line "Stadt passieren."
 
 	para "Jemand sagte mal,"
 	line "dass einer der"
@@ -242,7 +242,7 @@ LaurelGymGuide:
 	para "Ein anderer sagte,"
 	line "es wäre eine"
 	para "dunkle Gestalt,"
-	line "die #mon in den"
+	line "der #mon in den"
 	para "Wald, im Süden der"
 	line "Stadt, entführt."
 

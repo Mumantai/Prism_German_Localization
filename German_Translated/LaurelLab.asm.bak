@@ -32,7 +32,7 @@ LaurelLabFossilCaseNPC:
 
 .give_fossil_case_text
 	ctxt "Ich kenne vier"
-	line "#mon Fossilien."
+	line "#mon Fossile."
 
 	para "Anorith kommt aus"
 	line "dem Klauenfossil."
@@ -47,8 +47,8 @@ LaurelLabFossilCaseNPC:
 	line "aus dem Panzer-"
 	cont "fossil."
 
-	para "Fossilien erhälst"
-	line "du beim Bergbau,"
+	para "Fossile erhälst du"
+	line "beim Bergbau,"
 	cont "also viel Glück!"
 
 	para "Oh, du brauchst"
@@ -83,7 +83,7 @@ LaurelLabFossilCaseNPC:
 	ctxt "Du hast @"
 	deciram wFossilCaseCount, 1, 2
 	ctxt ""
-	line "Fossilien in der"
+	line "Fossile in deiner"
 	cont "Fossiltasche!"
 
 	para "Wenn du welche"
@@ -248,8 +248,8 @@ LaurelLabRevivalScientist:
 	line "WISSENSCHAFTLER!"
 
 	para "Meine Maschiene"
-	line "holt Fossilien"
-	cont "zurück ins Leben!"
+	line "holt Fossile zu-"
+	cont "rück ins Leben!"
 
 	para "Wollen wir es an"
 	line "deinem testen?"
@@ -266,7 +266,7 @@ LaurelLabRevivalScientist:
 	ctxt "Wissenschaftler"
 	line "kann man nicht"
 	para "reinlegen, du hast"
-	line "keine Fossilien!"
+	line "keine Fossile!"
 	done
 
 .aborted_puzzle_text
@@ -274,7 +274,7 @@ LaurelLabRevivalScientist:
 	line "aufhören?"
 
 	para "OK, komm wieder,"
-	line "wenn du Fossilien"
+	line "wenn du Fossile"
 	para "wiederbeleben"
 	line "möchtest."
 	done

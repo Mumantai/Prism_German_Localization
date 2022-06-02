@@ -12,10 +12,10 @@ LaurelForestLab_Trainer_1:
 
 .before_battle_text
 	ctxt "Wer hat dieses"
-	line "niedere #mon"
-	cont "reingelassen?!"
+	line "schwache #mon"
+	cont "reingelassen?"
 
-	para "Egal. Es ist das"
+	para "Egal. Es ist"
 	line "das perfekte"
 	para "Testobjekt für"
 	line "meine Experimente!"

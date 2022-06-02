@@ -12,21 +12,20 @@ LaurelPokecenterNPC1:
 	done
 
 LaurelPokecenterNPC2:
-	ctxt "Warum ärgert sich"
-	line "der Kerl, dass"
-	cont "die Stadt wächst?"
+	ctxt "Dem Mann hier"
+	line "missfällt es, dass"
+	cont "die Stadt wächst <...>"
 
-	para "Ich finde das"
-	line "jedenfalls super!"
+	para "Gerade das ist"
+	line "doch cool daran!"
 	done
 
 LaurelPokecenterNPC3:
-	ctxt "Bald ist das hier"
-	line "nur eine weitere"
-	cont "lieblose Stadt."
-	
-	para "Ich finde, das"
-	line "ist einfach krank!"
+	ctxt "Wieder eine große"
+	line "Stadt ohne Glück"
+	para "und Freude <...>"
+	line "Sie soll nicht"
+	cont "weiterwachsen!"
 
 	done
 

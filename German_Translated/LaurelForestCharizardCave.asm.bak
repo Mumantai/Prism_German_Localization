@@ -62,10 +62,9 @@ LaurelForestCharizardCaveMom:
 	line "wie mein Partner"
 	para "unser Kind groß-"
 	line "ziehen will <...>"
-	para "aber du musst ver-"
-	line "stehen, dass das"
-	para "Tradition in sei-"
-	cont "ner Familie ist."
+	para "aber du musst"
+	line "verstehen, das ist"
+	cont "seine Tradition."
 	done
 
 LaurelForestCharizardCaveDad:
@@ -129,25 +128,24 @@ LaurelForestCharizardCaveDad:
 
 	para "<...>"
 
-	para "Was? Du suchst"
+	para "Wie du suchst nach"
 	line "Curo-Scherben?"
 
-	para "Ein paar Wissen-"
-	line "schaftler haben"
-	para "uns vor Kurzem"
-	line "angekettet. Nur"
-	para "um einen Tunnel"
-	line "graben zu können."
+	para "Wissenschaftler"
+	line "hatten uns fest-"
+	para "gekettet, nur um"
+	line "einen Tunnel zu"
+	cont "graben."
 
-	para "Ich habe die"
-	line "Ketten zebrochen"
-	cont "und bin entkommen."
+	para "Ich brach durch"
+	line "die Ketten und"
+	cont "konnte fliehen."
 
 	para "Ich habe gehofft,"
 	line "mein Kind wäre"
 	para "genau so stark und"
 	line "könnte die Ketten"
-	cont "zerbrechen, aber <...>"
+	cont "brechen, aber <...>"
 
 	para "Naja, zurück zum"
 	line "Thema <...>"
@@ -158,20 +156,21 @@ LaurelForestCharizardCaveDad:
 	line "nach Scherben"
 	para "gesucht hat."
 
-	para "Ich habe ihn aber"
+	para "Ich hatte es"
 	line "blockiert, damit"
 	para "mein Sohn dort"
 	line "kein Unfug treibt."
 
 	para "Wenn du da runter"
 	line "willst und dir"
-	para "anschauen möchtest"
-	line "was diesr Abschaum"
-	para "angerichtet hat,"
-	line "dann nur zu!"
+	para "den Mist anschauen"
+	line "willst, den diese"
+	para "dreckigen Menschen"
+	line "angerichtet haben,"
+	cont "nur zu!"
 
 	para "Ich mache dir mal"
-	line "den Weg frei."
+	line "easy den Weg frei."
 	sdone
 
 .already_moved_boulder_text
@@ -180,17 +179,17 @@ LaurelForestCharizardCaveDad:
 	cont "erbärmlich, aber <...>"
 
 	para "Sie treiben meinen"
-	line "Kleinen an sein"
-	para "Limit. Noch viel"
-	line "weiter ,als mich"
-	para "mein Vater damals"
-	line "getrieben hat."
+	line "Nachwuchs an sein"
+	para "Limit und das mehr"
+	line "als mich mein"
+	para "Vater damals zu"
+	line "meiner Jugend."
 
-	para "Wir werden die"
-	line "ehrenvolle"
-	para "Blutlinie unserer"
-	line "Familie für"
-	cont "immer erhalten!"
+	para "Wir sind ein"
+	line "gedrillter und"
+	para "ehrenhafter Stamm"
+	line "und das bleibt"
+	cont "auch so!"
 	done
 
 LaurelForestCharizardCaveBoulder:

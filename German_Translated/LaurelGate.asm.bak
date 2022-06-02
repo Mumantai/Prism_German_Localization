@@ -4,22 +4,22 @@ LaurelGate_MapScriptHeader;trigger count
 	db 0
 
 LaurelGateGuard:
-	ctxt "Als Grenzwart"
-	line "verdient man gut."
+	ctxt "Ein Grenzwart"
+	line "verdient sehr gut."
 
-	para "Was wir dafür tun?"
+	para "Was tun wir dafür?"
 
 	para "Den ganzen Tag nur"
 	line "rumstehen!"
 
-	para "Ein Hoch auf den"
+	para "Ein Hurra für den"
 	line "Kapitalismus!"
 	done
 
 LaurelGateNPC1:
 	ctxt "Sie bauen überall"
-	line "diese Durchgangs-"
-	cont "häuser auf <...>"
+	line "diese Grenz-"
+	cont "übergänge auf <...>"
 	done
 
 LaurelGateNPC2:
@@ -27,7 +27,7 @@ LaurelGateNPC2:
 	line "in Naljo keine"
 	cont "Menschen."
 
-	para "Die 'Wächter'"
+	para "Die 'Bewahrer'"
 	line "brachten nur jene"
 	para "her, die ein"
 	line "reines Herz"

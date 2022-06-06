@@ -15,7 +15,7 @@ LaurelCity_GoldToken:
 
 LaurelCityMagikarpCavernsSign:
 	ctxt "Karpador-"
-	next "grotte"
+	next "Bucht"
 	done
 
 LaurelCityLabSign:
@@ -41,8 +41,8 @@ LaurelCityNPC1:
 	done
 
 LaurelCityNPC2:
-	ctxt "Die Arenaleiterin,"
-	line "Brooklyn, hat viel"
+	ctxt "Die Arenaleiterin"
+	line "Brooklyn hat viel"
 	cont "zu hohe Ansprüche."
 
 	para "Ich sorge mich um"
@@ -66,9 +66,9 @@ LaurelCityNPC4:
 	done
 
 LaurelCityMagikarpCavernsGuard:
-	ctxt "Du darfst ohne den"
-	line "Charmeorden nicht"
-	cont "in diese Höhle."
+	ctxt "Du brauchst den"
+	line "lokalen Orden, um"
+	cont "zu passieren."
 	done
 
 LaurelCityTotodileRunsFromGym:
@@ -129,13 +129,13 @@ LaurelCityTeleportation:
 	end
 
 .nothing_registered_text
-	ctxt "Keine Städte"
-	line "registriert!"
+	ctxt "KEINE STÄDTE"
+	line "REGISTRIERT!"
 	done
 
 .go_to_southerly_text
-	ctxt "Nach Suntia City"
-	line "teleportieren?"
+	ctxt "NACH SUNTIA CITY"
+	line "TELEPORTIEREN?"
 	done
 
 LaurelCity_MapEventHeader:: db 0, 0

@@ -43,25 +43,25 @@ MagikarpCavernsMainTrialNPC:
 	ctxt "Willkommen!"
 
 	para "Wie ich sehe, hast"
-	line "du es um den"
+	line "einen Weg um den"
 	para "heiligen Fisch"
-	line "geschafft."
+	line "gefunden?"
 
 	para "<...>"
 
-	para "Oh, dir ist nicht"
-	line "aufgefallen, wie"
-	para "diese Höhle"
-	line "aufgebaut ist?"
+	para "Was, du hast nicht"
+	line "bemerkt, wie diese"
+	para "Höhle aufgebaut"
+	line "ist?"
 
-	para "Die Felsen hier"
+	para "Die Felsen hier"     
 	line "habe ich nach dem"
-	para "Ebenbild des #-"
-	line "mons, das ich an-"
-	cont "bete, aufgestellt."
+	para "Ebenbild unseres"
+	line "Idols #mon"
+	cont "aufgestellt."
 
 	para "Ja, das heilige"
-	line "Fisch-#mon:"
+	line "Fisch-#mon"
 	cont "Karpador!"
 
 	para "Alte Geschichten"
@@ -84,8 +84,9 @@ MagikarpCavernsMainTrialNPC:
 	para "BLASPHEMIE!"
 
 	para "Ich rede von"
-	line "seiner ursprüng-"
-	cont "lichen Form!"
+	line "Karpadors"
+	para "ursprünglichen"
+	line "Form!"
 
 	para "OK, weißt du was?"
 	line "Ich rede nicht mit"
@@ -98,7 +99,7 @@ MagikarpCavernsMainTrialNPC:
 	para "Der Pfad im Wald"
 	line "wird versperrt?"
 
-	para "HAHA!"
+	para "Hmmm <...>"
 
 	para "<...> Weißt du was?"
 
@@ -114,7 +115,7 @@ MagikarpCavernsMainTrialNPC:
 	line "Karpador!"
 
 	para "In dieser heiligen"
-	line "Form, wirst du"
+	line "Form wirst du"
 	para "verstehen, was es"
 	line "bedeutet, ein"
 	cont "Karpador zu sein!"

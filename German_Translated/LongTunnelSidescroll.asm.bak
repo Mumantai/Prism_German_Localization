@@ -59,8 +59,8 @@ LongTunnelSidescrollGuard:
 	para "Sieht alles gut"
 	line "aus soweit!"
 
-	para "Hab eine gute Zeit"
-	line "in Rijon!"
+	para "Viel Spaß in"
+	line "der Rijon-Region!"
 	sdone
 
 LongTunnelSidescroll_MapEventHeader:: db 0, 0

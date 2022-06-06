@@ -26,8 +26,8 @@ MersonCaveB1F_Trainer_1:
 	done
 
 .battle_won_text
-	ctxt "Naja, meine Käfer"
-	line "werden immernoch"
+	ctxt "Ach ja, meine"
+	line "Käfer werden immer"
 	cont "stärker!"
 
 	done
@@ -47,9 +47,9 @@ MersonCaveB1F_Trainer_2:
 	done
 
 .before_battle_text
-	ctxt "Immer wieder gut,"
-	line "durch diese Höhle"
-	cont "zu wandern."
+	ctxt "Immer eine gute"
+	line "Tour durch diese"
+	cont "Höhle."
 
 	done
 

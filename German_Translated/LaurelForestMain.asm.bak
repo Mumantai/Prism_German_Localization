@@ -7,9 +7,9 @@ LaurelForestMain_Trainer_1:
 	trainer EVENT_LAUREL_FOREST_MAIN_TRAINER_1, BUG_CATCHER, 3, .before_battle_text, .battle_won_text
 
 	ctxt "Meine Mutter lässt"
-	line "mich meine Käfer-"
-	cont "#mon nicht mit"
-	cont "nach Hause nehmen."
+	line "mich meine Käfer"
+	cont "#mon nicht nach"
+	cont "Hause nehmen."
 
 	para "Deswegen verstecke"
 	line "ich sie hier im"
@@ -35,14 +35,14 @@ LaurelForestMain_Trainer_2:
 	cont "verlassen haben?"
 
 	para "Ich möchte ganz"
-	line "seltene Käfer-"
+	line "seltene Käfer"
 	cont "#mon fangen."
 	done
 
 .before_battle_text
-	ctxt "Dieser Wald ging"
-	line "noch viel weiter,"
-	para "bis sie angefangen"
+	ctxt "Dieser Wald wuchs"
+	line "und wuchs, bis"
+	para "sie angefangen"
 	line "haben, die Stadt"
 	cont "auszubauen!"
 	done

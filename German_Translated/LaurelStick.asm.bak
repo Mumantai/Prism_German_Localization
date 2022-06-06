@@ -20,24 +20,23 @@ LaurelStickGrandma:
 .before_giving_stick_text
 	ctxt "Hehehe <...>"
 
-	para "Ich sammel Stöcke."
+	para "Ihr jungen Leute"
+	line "und euer Fastfood!"
 
 	para "<...>"
 
-	para "Was? Stöcke,"
-	line "nicht Röcke!"
+	para "Hier was Gesundes"
+	line "für dich!"
 
-	para "Ach, die Jugend"
-	line "von heute <...>"
-	
-	para "Hier, du kannst"
-	line "einen haben."
+	para "Setzte es weise"
+	line "ein <...>"
+
 	prompt
 
 .after_giving_stick_text
-	ctxt "Am richtigen Ort,"
-	line "kann ein Stock"
-	cont "nützlich sein."
+	ctxt "Eine Lauchstange"
+	line "kann man taktisch"
+	cont "im Kampf nutzen."
 	done
 
 LaurelStickNPC:

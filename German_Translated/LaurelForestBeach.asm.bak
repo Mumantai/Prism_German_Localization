@@ -54,13 +54,13 @@ LaurelForestBeachSurskit:
 
 	para "Ich wurde hier ans"
 	line "Ufer gespült und"
-	para "die Wellen sind"
-	line "zu stark, um"
-	cont "zurückzuschwimmen."
+	para "die Wellen sind zu"
+	line "stark, um zurück-"
+	cont "zuschwimmen."
 
 	para "Ich frage mich,"
-	line "was diese Wellen"
-	cont "nur verursacht?"
+	line "was der Grund für"
+	cont "diese Wellen ist?"
 	done
 
 LaurelForestBeachXatu:
@@ -71,7 +71,7 @@ LaurelForestBeachXatu:
 .text
 	ctxt "Es gab eine Ader"
 	line "voller gedanken-"
-	cont "lösender Scherben."
+	cont "lösender Splitter."
 	
 	para "Wir nennen sie"
 	line "'Curo-Scherben'."
@@ -82,16 +82,16 @@ LaurelForestBeachXatu:
 	line "denken zu können."
 
 	para "Für diesen Effekt"
-	line "braucht man"
-	cont "3 Scherben."
+	line "braucht man 3"
+	cont "Splitter."
 
-	para "Jedoch wurde die"
-	line "Ader durch die"
-	para "Wissenschaftler"
-	line "blockiert."
+	para "Jedenfalls wurde"
+	line "die Ader blo-"
+	para "ckiert, weil die"
+	line "Forscher da sind."
 
-	para "Sie wollen jede"
-	line "einzelne Scherbe"
+	para "Sie wollen die"
+	line "letzten Splitter"
 	cont "abbauen."
 
 	para "Die Gemeinde hat"
@@ -130,17 +130,17 @@ LaurelForestBeachWartortle:
 	line "Strand voller"
 	cont "Eindringlinge!"
 
-	para "Was machst du"
-	line "überhaupt hier!?"
+	para "Im Ernst, was"
+	line "machst du hier?"
 
-	para "Runter von meinem"
-	line "Strand oder spür"
-	cont "die Konsequenzen!"
+	para "Verschwinde von"
+	line "meinem Strand oder"
+	cont "du wirst sehen!"
 	sdone
 
 .after_battle_text
-	ctxt "Schon gut, du"
-	line "kannst bleiben."
+	ctxt "Schon gut, kannst"
+	line "bleiben."
 
 	para "Lauf mir einfach"
 	line "nicht mehr über"
@@ -148,8 +148,8 @@ LaurelForestBeachWartortle:
 	done
 
 .already_beaten_text
-	ctxt "Du sollst mir doch"
-	line "aus dem Weg gehen!"
+	ctxt "Ich sagte, bleib"
+	line "mir fern!"
 	done
 
 LaurelForestBeachFruitTree:
@@ -179,9 +179,9 @@ LaurelForestBeachFruitTree:
 	end
 
 .dead_tree_text
-	ctxt "Dieser Baum wird"
+	ctxt "Diesem Baum werden"
 	line "keine Beeren mehr"
-	cont "tragen <...>"
+	cont "nachwachsen <...>"
 	done
 
 .last_berry_text
@@ -189,7 +189,7 @@ LaurelForestBeachFruitTree:
 	line "beschädigt <...>"
 
 	para "Da hängt noch eine"
-	line "letzte Sinelbeere."
+	line "Sinelbeere."
 	prompt
 
 .picked_berry_text
@@ -198,13 +198,13 @@ LaurelForestBeachFruitTree:
 
 .pikachu_comments_text
 	ctxt "Diese Beere sieht"
-	line "lecker aus!"
+	line "saftig aus!"
 
-	para "Aber das geht doch"
-	line "noch besser."
+	para "Aber es geht noch"
+	line "besser."
 
-	para "Lass uns"
-	line "weitersuchen!"
+	para "Lass weiter-"
+	line "suchen!"
 	sdone
 
 LaurelForestBeach_MapEventHeader:: db 0, 0

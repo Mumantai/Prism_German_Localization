@@ -30,12 +30,12 @@ MilosB1FFluteDude:
 	line "ist sehr"
 	cont "faszinierend."
 
-	para "Ich habe ihn in"
+	para "Ich habe es in"
 	line "der unteren Ebene"
 	cont "gesehen."
 
 	para "Die Gerüchte be-"
-	line "sagen, er stamme"
+	line "sagen, es stamme"
 	para "aus einer antiken"
 	line "Zivilisation."
 	done
@@ -51,7 +51,7 @@ MilosB1FFluteDude:
 
 	para "Wie schaut's aus?"
 	line "Besorgst du mir"
-	cont "welche?"
+	cont "welche? <...>"
 	done
 
 .said_no_text
@@ -81,7 +81,7 @@ MilosB1FFluteDude:
 
 .no_room_text
 	ctxt "Du hast kein Platz"
-	line "für das Artefakt!"
+	line "für das Artifakt!"
 	
 	para "Ich nehme die Limo"
 	line "nicht an, solange"
@@ -196,12 +196,12 @@ MilosB1FCutscene:
 
 .text_3
 	ctxt "Gelb: Aber wir"
-	line "haben den Job"
-	cont "doch erledigt!"
+	line "machen den Job"
+	cont "doch bereits!"
 	sdone
 
 .text_4
-	ctxt "Nr. 08: Ach echt?"
+	ctxt "Nr. 08: Ah echt?"
 	line "Dann erkläre mir"
 	para "mal Folgendes,"
 	line "Fräulein:"
@@ -209,25 +209,24 @@ MilosB1FCutscene:
 	para "Warum haben die"
 	line "Bullen dann einen"
 	para "Verdacht, dass in"
-	line "der Stadt im"
-	para "Untergrund etwas"
-	line "vor sich geht?"
+	line "Untergrund-City"
+	cont "etwas faul ist?"
 	sdone
 
 .text_5
 	ctxt "Schwarz: Es hat"
 	line "vermutlich etwas"
-	para "mit den ganzen"
-	line "seltsamen Erdbeben"
-	cont "zu tun <...>"
+	para "mit den Natur-"
+	line "Katastrophen neu-"
+	cont "erdings zu tun <...>"
 	sdone
 
 .text_6
 	ctxt "Grün: 'Fräulein'?"
 
-	para "Warte <...> Alter <...>"
+	para "Warte <...> DIGGA <...>"
 
-	para "Du bist 'ne Frau?"
+	para "Du bist ne Frau?"
 	sdone
 
 .text_7
@@ -238,19 +237,18 @@ MilosB1FCutscene:
 	sdone
 
 .text_8
-	ctxt "Grün: <...> Unsere"
-	line "Schule war doch"
-	para "eine reine Jungen-"
-	line "schule <...>"
+	ctxt "Grün: <...> Als ob"
+	line "ich mich an alle"
+	para "Mädchen aus der"
+	line "Schule erinnern"
+	cont "würde <...>"
 	sdone
 
 .text_9
-	ctxt "Gelb: Mich haben"
-	line "sie aber trotzdem"
-	cont "aufgenommen!"
-	
-	para "Hast du damit etwa"
-	line "ein Problem?"
+	ctxt "Gelb: Aber zu-"
+	line "mindest an deine"
+	cont "Freunde, du Idiot."
+
 	sdone
 
 .text_10
@@ -272,14 +270,14 @@ MilosB1FCutscene:
 	ctxt "Nr. 13: Seid jetzt"
 	line "alle mal LEISE und"
 	para "macht euren"
-	line "verdammten Job!"
+	line "scheiß Job!"
 
 	para "Ich will keine"
-	line "Bullen, kapiert?"
+	line "Bullen, kapische?"
 	sdone
 
 .text_13
-	ctxt "Gelb: Kapiert. Die"
+	ctxt "Gelb: Kapiert, die"
 	line "Bullen sind aber"
 	para "unser geringstes"
 	line "Problem <...>"
@@ -303,8 +301,9 @@ MilosB1FCutscene:
 	sdone
 
 .text_16
-	ctxt "Gelb: Es ist wohl"
-	line "unser Schicksal <...>"
+	ctxt "Gelb: Es ist sowas"
+	line "wie unser"
+	cont "Schicksal <...>"
 	sdone
 
 .text_17

@@ -107,7 +107,7 @@ MersonGoldTokenExchange_Text_Intro:
 	para "Für je 30 #mon,"
 	line "die du besitzt,"
 	para "gebe ich dir 4"
-	line "Goldmünzen."
+	line "Goldtaler."
 
 	para "Tolles Geschäft,"
 	line "oder?"
@@ -187,26 +187,26 @@ MersonGoldTokenExchange_Text_FinishedDex:
 	para "Du hast den Naljo-"
 	line "#dex vollendet!"
 
-	para "Wie versprochen,"
-	line "gebe ich dir ein"
-	para "ganz besonderes"
+	para "Wie versprochen:"
+	line "hier ist mein ganz"
+	para "besonderes"
 	line "Geschenk."
 
 	sdone
 
 MersonGoldTokenExchange_Text_TicketGrantsAccessToShop:
-	ctxt "Mit diesem Ticket,"
+	ctxt "Mit diesem Ticket"
 	line "hast du Zugang zu"
 	para "einem speziellen"
 	line "Laden irgendwo in"
 	cont "Rijon."
 
-	para "Ich erinnere mich"
-	line "noch, wie ich"
+	para "Oh, ich erinnere"
+	line "mich noch, wie ich"
 	para "damit die seltenen"
-	line "Items gekauft"
-	para "habe, die sie dort"
-	line "anbieten."
+	line "Gegenstände"
+	para "kaufte, die dort"
+	line "angeboten wurden."
 
 	para "Jedoch habe ich"
 	line "keine Verwendung"
@@ -237,8 +237,8 @@ MersonGoldTokenExchange_Text_RequirementsForSpecialGift:
 	cont "vervollständigen!"
 
 	para "Komm wieder, wenn"
-	line "du alle #mon in"
-	para "Naljo gefangen"
+	line "du ihn"
+	para "abgeschlossen"
 	line "hast, um ein ganz"
 	para "besonderes"
 	line "Geschenk zu"
@@ -247,9 +247,11 @@ MersonGoldTokenExchange_Text_RequirementsForSpecialGift:
 	done
 
 MersonGoldTokenExchange_Text_AllICanRememberAboutSecretShop:
-	ctxt "Hmm <...> Irgendwo"
-	para "in der Nähe des"
-	line "Magnetzugs <...>"
+	ctxt "Hmm ..."
+
+	para "Irgendwo in der"
+	line "Nähe der"
+	cont "Magnetbahn ..."
 
 	para "Wie auch immer,"
 	line "herzlichen"
@@ -267,13 +269,13 @@ MersonGoldTokenExchange_Text_WhatSecretShopInSilphWarehouse:
 
 	para "Der Laden befindet"
 	line "sich im"
-	cont "Silph Co. Lager?"
+	cont "Silph-Lagerhaus?"
 
 	para "Oh, jetzt erinnere"
 	line "ich mich daran!"
 
 	para "Nun, genieße, was"
-	line "er zu bieten hat!"
+	line "sie zu bieten hat!"
 
 	done
 

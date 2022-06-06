@@ -44,11 +44,11 @@ MersonCityNPC2:
 
 MersonCityNPC3:
 	ctxt "Diese Stadt wird"
-	line "als das Tor nach"
-	para "Süd-Rijon bekannt"
-	line "sein, sobald der"
-	para "Weg im Süden"
-	line "wieder frei ist."
+	line "als das Tor zu"
+	para "Süd-Rijon"
+	line "bekannt sein,"
+	para "sobald der Südweg"
+	line "frei ist."
 
 	done
 

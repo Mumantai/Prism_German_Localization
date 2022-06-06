@@ -185,17 +185,17 @@ MilosB2FbJumpingShoes:
 
 .description_text
 	ctxt "Du kannst nun über"
-	line "kleine Spalten"
-	para "springen, wenn"
+	line "kurze Lücken hinü-"
+	para "ber springen, wenn"
 	line "du A drückst!"
 	sdone
 
 .all_switches_flipped_text
-	ctxt "Oh-oh!"
+	ctxt "Uh oh!"
 
-	para "Dadurch wurden"
-	line "alle Schalter"
-	cont "zurückgesetzt!"
+	para "Das Aufheben der"
+	line "Schuhe setzte alle"
+	cont "Schalter zurück!"
 	done
 
 MilosB2Fb_GreenPatroller:
@@ -211,10 +211,10 @@ MilosB2Fb_GreenPatroller:
 .before_battle_text
 	ctxt "Oh, du bist es."
 
-	para "Ich wusste, das"
-	line "würde passieren."
+	para "Ich sah dich"
+	line "kommen."
 
-	para "Alle wussten es!"
+	para "Wir alle!"
 
 	para "Denk nicht, dass"
 	line "du an mir vorbei-"

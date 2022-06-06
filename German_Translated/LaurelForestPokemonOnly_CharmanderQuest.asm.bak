@@ -109,14 +109,14 @@ LaurelForestPokemonOnlyCharmander:
 	line "Wissenschaftler"
 	cont "haben hier nach"
 	para "Fossilien gegraben"
-	line "und dadurch wurde"
-	para "ich aus meinem"
-	line "Haus ausgesperrt!"
+	line "und das hat mich"
+	para "aus meinem Haus"
+	line "ausgesperrt!"
 
 	para "Es muss einen Weg"
 	line "geben, das Wasser"
-	para "aus dem Weg zu"
-	line "bekommen <...>?"
+	para "sicher überqueren"
+	line "zu können <...>?"
 	done
 
 .first_rock_text
@@ -124,7 +124,7 @@ LaurelForestPokemonOnlyCharmander:
 
 	para "Könnte klappen!"
 
-	para "Schieb ihn rüber!"
+	para "Schieb es rüber!"
 	sdone
 
 .second_rock_text
@@ -154,10 +154,10 @@ LaurelForestPokemonOnlyCharmander:
 	done
 
 .water_vanished_text
-	ctxt "Oh wow. Wie ist"
-	line "das Wasser denn"
-	para "so schnell "
-	line "verschwunden?"
+	ctxt "Uh, wow, wie ist"
+	line "das Wasser so"
+	para "schnell ver-"
+	line "schwunden?"
 
 	para "Egal, ich komme"
 	line "nach Hause,"

@@ -43,7 +43,7 @@ MilosGreenOrbRayquazaServant:
 	step_end
 
 .describe_rayquaza_text
-	ctxt "Es gibt ein"
+	ctxt "Da gibt es ein"
 	line "#mon, das den"
 	para "Krieg zwischen"
 	line "Groudon & Kyogre"
@@ -76,8 +76,8 @@ MilosGreenOrbRayquazaServant:
 	sdone
 
 .already_battled_text
-	ctxt "Die Prüfung"
-	line "ist beendet."
+	ctxt "Die Challenge"
+	line "ist vorbei."
 	done
 
 MilosGreenOrb_MapEventHeader:: db 0, 0

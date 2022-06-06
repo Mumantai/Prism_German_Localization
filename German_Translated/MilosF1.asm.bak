@@ -14,25 +14,21 @@ MilosF1_Rival:
 	jumptext .after_battle_text
 
 .before_battle_text
-	ctxt "Oh, schau, es ist"
+	ctxt "Oh schau, es ist"
 	line "das Kind, das nie"
 	cont "aufhören will."
 
 	para "Die Hartnäckigkeit"
 	line "in dir ist nichts"
 	para "als eine Plage für"
-	line "alle in Naljo."
+	line "Naljo-Bewohner."
 
 	para "Ich hab kein Bock"
 	line "mehr auf dein"
-	para "Gutmenschver-"
-	line "halten, das sich"
-	para "mir immer wieder"
-	line "in den Weg stellt!"
-	
-	para "Ich hoffe, deine"
-	line "#mon wissen wie"
-	cont "man kämpft!"
+	para "Gutmenschen-"
+	line "verhalten, das"
+	para "sich mir in den"
+	line "Weg stellt!"
 
 	done
 
@@ -45,12 +41,12 @@ MilosF1_Rival:
 	ctxt "Ich tue, was ich"
 	line "tun muss, OK?"
 
-	para "Jemand wie ich,"
+	para "Jemand wie ich"
 	line "braucht sich nicht"
 	cont "zu rechtfertigen."
 
-	para "Lass <...> Lass mich"
-	line "einfach alleine <...>"
+	para "Lass mich einfach"
+	line "all<...> alleine <...>"
 	done
 
 MilosF1Officer:
@@ -99,7 +95,7 @@ MilosF1Officer:
 
 	para "<...>"
 
-	para "Ich verstehe."
+	para "Ich sehe."
 
 	para "Hast du einen"
 	line "Ausweis <...>?"
@@ -111,21 +107,21 @@ MilosF1Officer:
 
 .before_battle_text
 	ctxt "Warte, du ent-"
-	line "sprichst dem Fahn-"
-	para "dungsprofil! Du"
-	line "bist der gesuchte"
-	cont "Verbrecher!"
+	line "sprichst der"
+	para "Fahndung! Du bist"
+	line "der, den wir die"
+	cont "ganze Zeit suchen!"
 
 	para "Ein Kind mit"
 	line "spitzen Haaren"
 	para "aus einer fremden"
-	line "Region, der seine"
-	para "#mon schlecht"
-	line "behandelt"
+	line "Region und der"
+	para "seine #mon"
+	line "schlecht behandelt"
 
 	para "<...>"
 
-	para "Was? Du sagst, du"
+	para "Was? Du sagst du"
 	line "kannst beweisen,"
 	para "dass du deine"
 	line "#mon gut"
@@ -161,17 +157,18 @@ MilosF1Officer:
 	line "ausfindig machst,"
 	cont "kannst du bleiben!"
 
-	para "Palett-Ranger sind"
-	line "in der Gegend und"
-	para "ich brauche dich,"
-	line "um einen von ihnen"
-	para "zu verhaften!"
+	para "Paletten-"
+	line "Patrouillen"
+	para "sind in der Gegend"
+	line "und ich brauche"
+	para "dich, um einen"
+	line "zu fangen."
 
-
-	para "Hier. Nimm diesen"
-	line "Anzug, gewinn ihr"
-	para "Vertrauen und"
-	line "bring sie zu mir!"
+	para "Nimm diesen Anzug,"
+	line "um deren Vertrauen"
+	para "zu gewinnen und"
+	line "sie zu mir"
+	cont "zu führen."
 	sdone
 
 .after_getting_changed_text

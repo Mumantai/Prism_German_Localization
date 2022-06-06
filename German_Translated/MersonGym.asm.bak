@@ -73,11 +73,11 @@ MersonGymLeader:
 	jumptext .after_TM_text
 
 .already_won_text
-	ctxt "Du hast mich"
-	line "beeindruckt."
+	ctxt "Du hast mir"
+	line "imponiert."
 
-	para "Sammle alle Orden"
-	line "hier in Rijon."
+	para "Sammle weiterhin"
+	line "die Rijon-Orden."
 
 	done
 
@@ -85,7 +85,8 @@ MersonGymLeader:
 	ctxt "Ich bin Karpman."
 
 	para "Ich trainiere nur"
-	line "Wasser-#mon!"
+	line "Wasser-Typ "
+	cont "#mon!"
 
 	para "Feuer ist nutzlos"
 	line "gegen meine"

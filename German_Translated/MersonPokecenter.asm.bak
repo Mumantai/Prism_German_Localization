@@ -4,19 +4,21 @@ MersonPokecenter_MapScriptHeader;trigger count
 	db 0
 
 MersonPokecenterNPC1:
-	ctxt "Der Weg nach Süd-"
-	line "Rijon hätte schon"
-	para "längst wieder frei"
-	line "sein müssen!"
+	ctxt "Der Weg zur"
+	line "Süd-Rijon-Region"
+	para "hätte schon längst"
+	line "wieder frei sein"
+	cont "müssen!"
 
 	done
 
 MersonPokecenterNPC2:
 	ctxt "Es gibt da einen"
-	line "Mann, der großes"
-	para "Interesse an einem"
+	line "Mann, der sehr an"
+	para "einem"
 	line "vollständigen"
-	para "#dex hat."
+	para "#dex"
+	line "interessiert ist."
 
 	para "Er hat mir vier"
 	line "Goldmünzen"

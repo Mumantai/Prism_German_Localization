@@ -22,7 +22,8 @@ MersonMartNPC2:
 	line "verkauft."
 
 	para "Ganz schön"
-	line "praktisch, oder?"
+	line "praktisch oder"
+	cont "nicht?"
 
 	done
 

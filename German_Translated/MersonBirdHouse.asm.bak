@@ -17,18 +17,18 @@ MersonBirdHouseDude:
 .before_TM_text
 	ctxt "Ha!"
 
-	para "Die Flinkheit"
-	line "eines Vogel-"
+	para "Die Geschwindig-"
+	line "keit eines Vogel-"
 	para "#mon ist nicht"
 	line "zu übertreffen!"
 
 	para "Du scheinst ein"
 	line "Reisender wie ich"
 	para "zu sein, der vor"
-	line "Mut nur strotzt!"
+	line "Mut platzt!"
 
 	para "Ich denke, du"
-	line "wirst diese TM so"
+	line "wirst diese TM"
 	cont "lieben wie ich!"
 
 	sdone
@@ -37,7 +37,7 @@ MersonBirdHouseDude:
 	ctxt "TM62 enthält"
 	line "Himmelsfeger!"
 
-	para "Es benötigt zwar"
+	para "Zwar benötigt es"
 	line "eine Runde um"
 	para "aufzuladen, doch"
 	line "danach verursacht"
@@ -54,7 +54,7 @@ MersonBirdHouseSwellow:
 	endtext
 
 .text
-	ctxt "Schwalboss: Schwa!"
+	ctxt "Schwalboss: Kaw!"
 
 	done
 
@@ -78,7 +78,7 @@ MersonBirdHousePidgeot:
 	endtext
 
 .text
-	ctxt "Tauboss: Boss oss!"
+	ctxt "Tauboss: Oss oss!"
 
 	done
 

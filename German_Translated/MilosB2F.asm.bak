@@ -236,9 +236,9 @@ MilosB2FJump:
 MilosB2F_PurplePatroller:
 	trainer EVENT_MILOS_B2F_PURPLE_PATROLLER, PATROLLER, 7, .before_battle_text, .battle_won_text
 
-	ctxt "Rot versucht all"
-	line "die komischen"
-	para "Kugelsplitter"
+	ctxt "Rot versucht, die"
+	line "komischen Kugel-"
+	para "splitter alle"
 	line "aufzusammeln."
 	done
 

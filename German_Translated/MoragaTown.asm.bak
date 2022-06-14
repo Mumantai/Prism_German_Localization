@@ -15,48 +15,54 @@ MoragaTown_GoldToken:
 MoragaTownGymSign:
 	ctxt "#mon-Arena"
 	next "Leiterin: Lois"
-	nl   ""
+	nl " "
 	next "Die Pflanzen-"
 	next "Trainerin!"
+
 	done
 
 MoragaTownTownSign:
-	ctxt "Nicht wirklich"
-	next "eine Stadt."
+	ctxt "Eigentlich"
+	next "keine Stadt."
+
+
 	done
 
 MoragaTownClosedSign:
-	ctxt "Wegen Renovierung"
+	ctxt "Wegen Renovationen"
 	next "geschlossen."
 
 	done
 
 MoragaTownNPC1:
-	ctxt "Warum hat man die"
-	line "Blumen genau im"
-	para "Eingangsbereich"
-	line "gepflanzt?"
+	ctxt "Warum sollte"
+	line "jemand die Blumen"
+	para "im Eingangsbereich"
+	line "pflanzen?"
 
-	para "Die werden doch"
-	line "immer zertrampelt!"
+	para "Die werden immer"
+	line "zertrampelt!"
+
 	done
 
 MoragaTownNPC2:
 	ctxt "Ich habe gehört,"
 	line "dass in diesem"
 	para "großen Gebäude ein"
-	line "Museum gebaut"
-	para "werden soll."
+	line "Museum"
+	para "eingerichtet"
+	line "werden soll."
 
 	para "Wir könnten etwas"
 	line "Kultur gebrauchen."
+
 	done
 
 MoragaTownNPC3:
-	ctxt "Auf diesen engen"
+	ctxt "In diesen schmalen"
 	line "Pfaden bilden sich"
-	para "immer wieder "
-	line "nervige Menschen-"
+	para "ständig lästige"
+	line "Menschen-"
 	cont "ansammlungen."
 
 	para "Sie in Bewegung zu"
@@ -64,6 +70,7 @@ MoragaTownNPC3:
 	para "schwieriger als"
 	line "ein Relaxo"
 	cont "aufzuwecken."
+
 	done
 
 MoragaTownNPC4:
@@ -72,6 +79,7 @@ MoragaTownNPC4:
 	para "in die Arena"
 	line "lassen, ist mir"
 	cont "ein Rätsel!"
+
 	done
 
 MoragaTown_MapEventHeader:: db 0, 0

@@ -9,7 +9,7 @@ MoragaPokecenterNPC1:
 	cont "renoviert."
 
 	para "Sie ließen sogar"
-	line "die #mon, die"
+	line "die #Mon, die"
 	cont "da waren, bleiben!"
 
 	para "Ich habe da ein"

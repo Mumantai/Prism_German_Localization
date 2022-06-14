@@ -118,14 +118,14 @@ MoundB2F_PaletteBlack:
 MoundB2F_PaletteYellow:
 	trainer EVENT_MOUND_B2F_PALETTE_YELLOW, PATROLLER, 3, .before_battle_text, .battle_won_text
 
-	ctxt "Mein Freund, der"
-	line "grüne Ranger, wird"
+	ctxt "Mein Freund"
+	line "Palette Grün wird"
 	para "hierüber nicht"
 	line "erfreut sein!"
 	done
 
 .before_battle_text
-	ctxt "Ich bin ein Held!"
+	ctxt "Ich bin Superman!"
 	done
 
 .battle_won_text

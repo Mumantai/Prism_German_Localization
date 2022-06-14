@@ -7,7 +7,7 @@ MoragaMartNPC:
 	ctxt "Die verkaufen hier"
 	line "Blatt-Steine."
 
-	para "Und das auch noch"
+	para "Und das auch"
 	line "wirklich günstig!"
 
 	done

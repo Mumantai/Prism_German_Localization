@@ -15,8 +15,11 @@ MoragaMoveRelearnerScript:
 	endtext
 
 .intro_text
-	ctxt "Hallo! Ich bin der"
-	para "Attacken-Maniac!"
+	ctxt "Hallo!"
+
+	para "Ich bin der"
+	line "Attacken-"
+	cont "Erinnerer!"
 
 	para "Ich kann deinen"
 	line "#mon helfen,"
@@ -25,12 +28,15 @@ MoragaMoveRelearnerScript:
 	para "sie verlernt"
 	line "haben."
 
-	para "Als Gegenleistung"
-	line "hätte ich gerne"
-	cont "eine Herzschuppe."
+	para "Ich kann das für"
+	line "dich im Austausch"
+	para "gegen eine"
+	line "Herzschuppe"
+	cont "machen."
 
-	para "Die sammle ich"
-	line "nämlich."
+	para "Ich sammle die,"
+	line "wenn du verstehst."
+
 	prompt
 
 MoragaMoveRelearner_MapEventHeader:: db 0, 0

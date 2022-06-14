@@ -4,14 +4,15 @@ MoragaGateUnderground_MapScriptHeader;trigger count
 	db 0
 
 MoragaGateNPC:
-	ctxt "Es tut mir Leid."
+	ctxt "Entschuldige"
+	line "bitte."
 
 	para "Der unterirdische"
 	line "Weg wurde kürzlich"
 	cont "verwüstet."
 
 	para "Sobald alles"
-	line "aufgeräumt wurde,"
+	line "geräumt wurde,"
 	para "lasse ich dich"
 	line "durch."
 

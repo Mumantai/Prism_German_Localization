@@ -17,12 +17,12 @@ MoundUpperAreaNPC:
 	closetextend
 
 .before_item_text
-	ctxt "Du brauchst ein"
-	line "#mon, um übers"
+	ctxt "Du hast kein"
+	line "#mon, um über's"
 	cont "Wasser zu kommen?"
 
 	para "Kannst du nicht"
-	line "selbser schwimmen?"
+	line "selbst schwimmen?"
 
 	para "Dir gefällt meine"
 	line "blaue Kette?"
@@ -33,7 +33,7 @@ MoundUpperAreaNPC:
 	done
 
 .after_item_text
-	ctxt "Du musst unbedingt"
+	ctxt "Du musst das"
 	line "Schwimmen lernen!"
 	done
 

@@ -123,7 +123,7 @@ MoundB3F_PalettePink:
 	done
 
 .battle_won_text
-	ctxt "Gah! Du bist genau"
+	ctxt "Gah, du bist genau"
 	line "wie Rot!"
 	done
 

@@ -17,8 +17,8 @@ MoragaDinerNPC2:
 
 MoragaDinerNPC3:
 	ctxt "Meine #mon"
-	line "lieben diese"
-	cont "Burger auch!"
+	line "lieben auch"
+	cont "Burger!"
 
 	done
 

@@ -16,7 +16,7 @@ MtEmberRoom1NPC:
 	line "ler mir helfen,"
 	para "kannst du den"
 	line "Glühweg und andere"
-	cont "Orte erreichen!"
+	cont "Orte erreichen."
 	done
 
 MtEmberRoom1_MapEventHeader:: db 0, 0

@@ -48,7 +48,7 @@ OwsauriStatEXPNPC:
 	sdone
 
 .which_stat_text
-	ctxt "Welche Eigenschaft"
+	ctxt "Welchen Status"
 	line "soll ich prüfen?"
 	done
 

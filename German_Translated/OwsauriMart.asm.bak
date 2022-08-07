@@ -11,11 +11,12 @@ OwsauriMartNPC1:
 	done
 
 OwsauriMartNPC2:
-	ctxt "Ein Leuchtstein"
+	ctxt "Der Leuchtstein"
 	line "kann einige #-"
+
 	para "mon entwickeln und"
-	line "in Ringe einge-"
-	cont "setzt werden."
+	line "zur Ringherstell-"
+	cont "ung ben. werden."
 	done
 
 OwsauriMart_MapEventHeader:: db 0, 0

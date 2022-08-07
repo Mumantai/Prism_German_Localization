@@ -42,7 +42,7 @@ MysteryZoneBrownBattle:
 	para "Wir bekommen nicht"
 	line "viele Besucher."
 
-	para "Bist du verwirrt?"
+	para "Bist du irritiert?"
 
 	line "<...> <PLAYER>, richtig?"
 
@@ -52,7 +52,7 @@ MysteryZoneBrownBattle:
 	para "Zusammen mit der"
 	line "Hilfe von zwei"
 	para "anderen berühmten"
-	line "Trainern, habe ich"
+	line "Trainern habe ich"
 	para "diese geheime Liga"
 	line "gegründet."
 
@@ -65,8 +65,9 @@ MysteryZoneBrownBattle:
 	para "Wenn du unserer"
 	line "Liga beitreten"
 	para "willst, musst du"
-	line "uns drei in einem"
-	para "#mon-kampf"
+	line "uns alle drei in"
+	para "einem"
+	line "#Mon-kampf"
 	cont "besiegen."
 
 	para "Lasst uns"
@@ -84,8 +85,9 @@ MysteryZoneBrownBattle:
 	line "erstaunlich!"
 
 	para "Mal sehen, ob"
-	line "du mit den Anderen"
-	para "auch so mithalten"
+	line "du die anderen"
+	para "Herrausforderungen"
+	line "auch bewältigen"
 	cont "kannst!"
 
 	done

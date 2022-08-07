@@ -17,7 +17,7 @@ OxalisCitySalonSign:
 
 OxalisCityCitySign:
 	ctxt "Die Stadt für"
-	next "junge heran-"
+	next "junge, heran-"
 	next "wachsende Trainer"
 	done
 
@@ -81,17 +81,20 @@ OxalisCityNPC2:
 	
 	para "Ist es nicht irre?"
 
-	para "Es wurde extra für"
-	line "mich im Salon"
-	cont "angefertigt"
-
+	para "Ich habe dies von"
+	line "dem Klamotten-"
+	cont "Laden erworben."
+	
+	para "Direkt hier in der"
+	line "Stadt!"
 
 	para "Es ist der"
-	line "stylischste Salon"
+	line "modischste"
+	cont "Klamottenladen"
 	cont "in ganz Naljo!"
 
-	para "Sie machen dir da"
-	line "auch Makeup!"
+	para "Sogar Schminke"
+	line "machen sie dir!"
 
 	para "Versuch es mal!"
 	done
@@ -100,7 +103,7 @@ OxalisCityNPC3:
 	ctxt "Hier lebt"
 	line "eine Frau."
 
-	para "Sie kann sehen,"
+	para "Sie überprüft,"
 	line "wie glücklich"
 	cont "deine #mon"
 	cont "wirklich sind."
@@ -121,18 +124,16 @@ OxalisCityNPC5:
 	done
 
 OxalisCityNPC6:
-	ctxt "In diesem Haus"
-	line "gibt es zwei un-"
-	cont "terirdische Gänge."
+	ctxt "Dieses Haus hat"
+	line "2 Untergrundgänge."
 
-	para "Es wurde gebaut,"
-	line "um Oxalia City mit"
-	para "den Bergen auf"
-	line "Route 73 zu"
-	cont "verbinden."
+	para "Dies wurde gebaut,"
+	line "um Oxalis mit den"
+	para "Bergen auf Route"
+	line "73 zu verbinden."
 
-	para "Seit neuestem, ist"
-	line "es ein Treffpunkt"
+	para "Später wurde dies"
+	line "zum Treffpunkt"
 	cont "unter Trainern."
 
 	para "Einer dieser Typen"
@@ -141,36 +142,40 @@ OxalisCityNPC6:
 	done
 
 OxalisCityNPC7:
-	ctxt "Ick sag's dir,"
-	line "man, diese Stadt <...>"
+	ctxt "Ick sags dir, Bro,"
+	line "dieser Ort <...>"
 
-	para "Da versucht man"
-	line "ma nett zu sein <...>"
+	para "Is wie, wenn de"
+	line "versuchst, ne nette"
+	cont "Person zu sein <...>"
 
 	para "Weißt schon, sowat"
-	line "wie 'Hallo!' <...>"
-	para "<...> oder 'Jut'n"
-	line "Morgen!' <...>"
+	line "wie <'>Hallo!<'> <...>"
+	para "<...> oder <'>Jutn"
+	line "Morgen!<'> <...>"
 	para "<...> und dir fliegt"
 	line "nur sowat um" 
-	cont "die Ohr'n:"
+	cont "die Ohrn:"
 
-	para "'Lass mich!'"
-	line "'Hau ab!'" 
-	cont "'Nicht anfassen!'"
+	para "<'>Lass mich allein<'>"
+	line "<'>Verschwinde," 
+	cont "Abschaum!<'>"
+	cont "<'>Nicht anfassen!<'>"
 
-	para "Ick kenn Leute aus"
-	line "Johto und Rijon."
+	para "Ick weeß noch, die"
+	line "Leute aus Johto"
+    cont "und Rijon <...>"
 
-	para "Viel jechillter."
+	para "<...> warn jechillter."
 
-	para "Haste 'Yo!'"
-	line "jesacht, kam 'n"
-    cont "'Ey!' zurück."
+	para "Haste <'>Yo!<'>"
+	line "jesacht, kam n"
+    cont "<'>Ey!<'> zurüch."
 
-	para "Warum sind se in"
-	line "Naljo alle nur"
-	cont "so etepetete?"
+	para "Warum sindse in"
+	line "Naljo die janze"
+	cont "Zeit so"
+    cont "festjefahrn?"
 	done
 
 OxalisCity_MapEventHeader:: db 0, 0

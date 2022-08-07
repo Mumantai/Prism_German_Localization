@@ -109,7 +109,8 @@ OrphanageDonationLady:
 
 .which_mon_text
 	ctxt "Willkommen im"
-	line "#-Waisenhaus."
+	line "#mon-"
+	cont "Waisenhaus."
 
 	para "Welches #mon"
 	line "möchtest du"
@@ -117,7 +118,9 @@ OrphanageDonationLady:
 	sdone
 
 .cancelled_text
-	ctxt "Wenn du es dir"
+	ctxt "Doch nicht mehr?"
+
+	para "Wenn du es dir"
 	line "anders überlegst,"
 
 	para "komm jederzeit auf"
@@ -125,14 +128,14 @@ OrphanageDonationLady:
 	done
 
 .invalid_mon_text
-	ctxt "Wir können dieses"
-	line "#mon leider nicht"
-	cont "annehmen."
+	ctxt "Sorry, aber dieses"
+	line "#mon können wir"
+	cont "nicht annehmen."
 	done
 
 .egg_text
 	ctxt "Wir nehmen keine"
-	line "Eier an."
+	line "Eier an <...>"
 	done
 
 .confirmation_text
@@ -151,9 +154,10 @@ OrphanageDonationLady:
 	cont "auf die Karte gut."
 
 
-	para "Als zusätzliche"
-	line "Leistung, heilen"
-	cont "wir deine #mon."
+	para "Desweiteren heilen"
+	line "wir als Zusatz-"
+	para "leistung dein"
+	line "Team."
 	sdone
 
 .parting_text
@@ -162,21 +166,22 @@ OrphanageDonationLady:
 	done
 
 .first_welcome_text
-	ctxt "Willkommen im"
-	line "#-Waisenhaus."
+	ctxt "Willkommen beim"
+	line "#mon-"
+	cont "Waisenhaus."
 
-	para "Viele Trainer"
-	line "fangen #mon und"
+	para "Einige Leute fang-"
+	line "en #mon und"
 	para "lassen die armen"
-	line "Dinger in ihren"
-	cont "PCs versauern."
+	line "Dinger in der PC-"
+	cont "Box versauern."
 
 	para "Wir sind hier, um"
-	line "das zu verhindern"
+	line "dies zu verhindern"
 	para "und geben diese"
-	line "#mon an Leute,"
-	para "die sich wirklich"
-	line "um sie kümmern."
+	line "#mon zu Mensch-"
+	para "en, die sich wirk-"
+	line "lich darum kümmern"
 
 	para "Da du zum ersten"
 	line "Mal hier bist,"
@@ -186,8 +191,8 @@ OrphanageDonationLady:
 	sdone
 
 .received_orphan_card_text
-	ctxt "Jedes Mal, wenn du"
-	line "uns ein #mon"
+	ctxt "Jedesmal, wenn du"
+	line "uns ein #mon,"
 	para "überlässt, erhälst"
 	line "du Waisenpunkte."
 
@@ -199,15 +204,15 @@ OrphanageDonationLady:
 	para "Wenn du genügend"
 	line "Punkte hast,"
 	para "kannst du damit,"
-	line "im Gegenzug ein"
-	para "seltenes #mon"
+	line "im Gegenzug,"
+	para "ein #mon"
 	line "adoptieren."
 
 	para "Solltest du wirk-"
 	line "lich interessiert"
 	para "sein, uns eins zu"
 	line "überlassen, sprich"
-	cont "mich einfach an."
+	cont "mich nochmals an."
 	done
 
 IsThisPokemonPlayerLarvitar:

@@ -21,7 +21,7 @@ MysteryZoneAirportNPC:
 	ctxt "Hallo."
 
 	para "Möchtest du zurück"
-	line "nach Suntia City"
+	line "nach Süd-Stadt"
 	cont "fliegen?"
 
 	done
@@ -30,7 +30,7 @@ MysteryZoneAirportNPC:
 	ctxt "Großartig!"
 
 	para "Wir werden in"
-	line "Kürze abheben."
+	line "Kürze abreisen."
 
 	sdone
 

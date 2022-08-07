@@ -4,7 +4,7 @@ OxalisPokecenter_MapScriptHeader;trigger count
 	db 0
 
 OxalisPokecenterNPC1:
-	ctxt "Pssst!"
+	ctxt "Shh!"
 
 	para "<...>"
 
@@ -28,9 +28,9 @@ OxalisPokecenterNPC3:
 	ctxt "Ein Trainer lachte"
 	line "mein #mon aus <...>"
 
-	para "Aber ich finde,"
-	line "mein Pummeluff ist"
-	cont "das Süßeste!"
+	para "Aber ich denke,"
+	line "Pummeluff ist die"
+	cont "Süßeste!"
 
 	para "Vielleicht, weil"
 	line "sie in Rijon nicht"

@@ -146,7 +146,7 @@ OwsauriGameCorner_TMExchange_DoExchange::
 	line "<STRBF1>!"
 
 	para "Möchtest du"
-	line "sie haben?"
+	line "diese haben?"
 	done
 
 .already_have_TM_text
@@ -206,13 +206,13 @@ OwsauriGameCornerNPC1:
 	line "rausschmeißen,"
 	para "wenn sie wüssten,"
 	line "dass ich genau das"
-    cont "getan habe."
+    cont "gemacht habe."
 	done
 
 OwsauriGameCornerNPC2:
 	ctxt "Ein Royal Flush"
-	line "bringt dir 2500"
-	cont "Münzen ein."
+	line "wird dir 2500"
+	cont "Münzen einbringen."
 
 	para "Wenn du denkst, du"
 	line "bekommst einen"
@@ -222,11 +222,12 @@ OwsauriGameCornerNPC2:
 	done
 
 OwsauriGameCornerNPC3:
-	ctxt "Wenn du noch einen"
-	line "Münzkorb brauchst,"
+	ctxt "Wenn du noch kein"
+	line "Münzkorb hast,"
 	para "kannst du dir in"
-	line "Euphorbia City"
-    cont "einen besorgen."
+	line "Euphorbia City,"
+	para "in Naljo,"
+    line "einen besorgen."
 
 	para "Ein zwielichtiger"
 	line "Typ verkauft dir"
@@ -234,17 +235,17 @@ OwsauriGameCornerNPC3:
 	done
 
 OwsauriGameCornerNPC4:
-	ctxt "Du musst die"
-	line "Walzen genau im"
-	para "Auge haben, um"
-	line "dein Ziel zu"
-    cont "erreichen."
+	ctxt "Wenn du die Walzen"
+	line "nah genug beobach-"
+	para "test, hilft es"
+	line "dir, dein Ziel"
+    cont "zu erreichen."
 	done
 
 OwsauriGameCornerNPC5:
-	ctxt "Diese neuen"
-	line "Kartenspiele"
-	cont "machen süchtig!"
+	ctxt "Das neue Karten-"
+	line "spiel macht so"
+	cont "süchtig!"
 
 	para "Das ist absolut"
 	line "verrückt!"
@@ -265,8 +266,8 @@ GameCorner_Text_HereYouGo::
 
 GameCorner_Text_NeedMoreCoins::
 	ctxt "Sieht so aus, als"
-	line "benötigst du dafür"
-	cont "mehr Münzen."
+	line "benötigst du für"
+	cont "dies mehr Münzen."
 	done
 
 GameCorner_Text_NoRoomInParty::

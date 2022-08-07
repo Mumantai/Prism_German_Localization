@@ -43,7 +43,7 @@ OxalisSalonStylistScript:
 	para "Unzufrieden mit"
 	line "deinem Aussehen?"
 
-	para "Deine Sorgen werde"
+	para "Deine Bedenken"
 	line "werden sich legen,"
 	para "wenn ich dich neu"
 	line "einkleide!"
@@ -116,7 +116,7 @@ OxalisSalonNPC2:
 
 OxalisSalonNPC3:
 	ctxt "Haare wie diese"
-	line "brauchen viel"
+	line "brauchen einige"
 	cont "Zeit und Pflege."
 
 	para "Deshalb komme ich"

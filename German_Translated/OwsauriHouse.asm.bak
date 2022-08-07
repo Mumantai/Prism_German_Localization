@@ -20,7 +20,7 @@ OwsauriHouseNPC2:
 	para "Der neue Typ"
 	line "kann dir statt-"
 	para "dessen einige"
-	line "Fakten über deine"
+	line "Fakten über dein"
 	cont "#mon nennen."
 	done
 

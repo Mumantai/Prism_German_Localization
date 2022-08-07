@@ -25,15 +25,16 @@ OwsauriCityGymSign:
 	done
 
 OwsauriCityNPC1:
-	ctxt "Wegen den  Klima-"
+	ctxt "Wegen den Klima-"
 	line "anlagen in der"
-	para "Arena, musste man"
-	line "das Kraftwerk"
-	cont "renovieren."
+	para "Arena mussten"
+	line "einige Leute das"
+	para "Kraftwerk dringend"
+	line "sanieren."
 
-	para "Die Eis-#mon"
-	line "da drinnen, fühlen"
-	para "sich bestimmt"
+	para "Ich denke, die Eis"
+	line "#mon fühlen"
+	para "sich hier drinnen"
 	line "pudelwohl."
 	done
 
@@ -42,24 +43,25 @@ OwsauriCityNPC2:
 	line "Garten <...>"
 
 	para "Ich habe diese"
-	line "Blumen aus Johto!"
+	line "Pflanzen in"
+	cont "Johto gefunden!"
 	done
 
 OwsauriCityNPC3:
 	ctxt "Sie haben ne Menge"
 	line "neue Spiele in der"
-	cont "Spielhalle" 
+	cont "Spiele-Ecke" 
 	cont "hinzugefügt."
 
 	para "Ich hatte schon"
 	line "keine Lust mehr"
-	cont "auf die alten"
+	cont "auf diese"
 	cont "Spielautomaten."
 	done
 
 OwsauriCityNPC4:
 	ctxt "Nach dem großen"
-	line "Erdbeben damals,"
+	line "Erdbeben damals"
 	para "sind viele Bewohn-"
 	line "er aus Dukatia"
 	para "City hier her"
@@ -74,8 +76,9 @@ OwsauriCityNPC4:
 	line "aber andere sind"
 	cont "auch geblieben."
 
-	para "Mir gefällt diese"
-	line "Vielfalt wirklich!"
+	para "Ich bn immer"
+	line "offen für diese"
+	cont "Vielfalt!"
 	done
 
 OwsauriCity_MapEventHeader:: db 0, 0

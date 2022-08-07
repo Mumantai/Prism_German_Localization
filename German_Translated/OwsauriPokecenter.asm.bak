@@ -5,8 +5,8 @@ OwsauriPokecenter_MapScriptHeader;trigger count
 
 OwsauriPokecenterNPC1:
 	ctxt "Nördlich von Jaeru"
-	line "City befindet sich"
-	cont "die #mon-Liga."
+	line "City ist die Liga"
+	cont "dieser Region."
 
 	para "Aber das wusstest"
 	line "du bestimmt schon,"
@@ -20,13 +20,13 @@ OwsauriPokecenterNPC2:
 	done
 
 OwsauriPokecenterNPC3:
-	ctxt "In Faenumia City,"
-	line "gibt es einen Ort,"
-	para "an dem Geologen"
-	line "die Erdbeben"
+	ctxt "Sie einen einen"
+	line "Ort geschaffen, wo"
+	para "Geologen in Hay-"
+	line "ward City Erdbeben"
 	para "erforschen können,"
-	line "die unserer Region"
-	cont "so zusetzen."
+	line "die diese Region"
+	cont "plagen."
 	done
 
 OwsauriPokecenter_MapEventHeader ;filler

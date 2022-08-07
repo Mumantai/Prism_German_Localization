@@ -6,7 +6,7 @@ NaljoBorderWest_MapScriptHeader;trigger count
 NaljoBorderWestNPC1:
 	ctxt "Viele Trainer"
 	line "versuchen, sich"
-	para "hier vorbei zu"
+	para "hier reinzu-"
 	line "schleichen <...>"
 
 	para "Daher mussten wir"
@@ -18,8 +18,8 @@ NaljoBorderWestNPC1:
 NaljoBorderWestNPC2:
 	ctxt "Nur die Besten der"
 	line "Besten haben die"
-	para "Chance, sich in"
-	line "der Rijon-Liga zu"
+	para "Chance, sich in der"
+	line "Rijon-Liga zu"
 	cont "behaupten!"
 
 	para "Nimm es nicht als"
@@ -68,25 +68,26 @@ NaljoBorderWestBadgeCheck:
 .got_all_badges_text
 	ctxt "Spektakulär!"
 
-	para "Du hast alle"
-	line "Orden in Naljo"
+	para "Du hast all die"
+	line "Naljo-Orden"
 	cont "gesammelt."
 	done
 
 .allowed_to_enter_text
-	ctxt "Ich muss aber noch"
-	line "die Echtheit der"
-	cont "Orden überprüfen."
-	
-	para "Los, Rotom!"
-	line "Scanne die Orden!"
-	
-	para "Rotom: ROOTOOM!"
-	line "Bzzzt! Bieeep!"
-	para "Rotom: Ro! Rotom!"
-	
-	para "OK, sie sind echt."
-	line "Du darfst weiter!"
+	ctxt "Lass mich diese"
+	line "Orden bitte noch"
+	para "auf Echtheit"
+	line "prüfen <...>"
+	para "LOS ROTOM,"
+	line "SCANN DIE ORDEN!"
+	para "ROTOM: ROOTOOM"
+	line "Rootoom, rootoom"
+	para "<...>"
+	para "<...>"
+	para "<...>"
+	para "OK, sie sind echt!"
+	line "Du darfst"
+	cont "passieren!"
 	done
 
 .not_enough_badges_text

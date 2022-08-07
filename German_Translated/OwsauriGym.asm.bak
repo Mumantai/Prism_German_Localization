@@ -28,21 +28,21 @@ OwsauriGym_Trainer_1:
 	para "ich immer noch"
 	line "Schüttelfrost."
 
-	para "Aber die #mon"
-	line "mögen es."
+	para "Ich denke, die"
+	line "#mon mögen es."
 	done
 
 .before_battle_text
-	ctxt "Yo, warum denn"
-	line "diese Eile?"
+	ctxt "Chill, warum so"
+	line "schnell unterwegs?"
 
 	para "Entspann dich und"
-	line "kämpf ne Runde!"
+	line "kämpfe!"
 	done
 
 .battle_won_text
-	ctxt "Willst wohl nicht"
-	line "entspannen <...>"
+	ctxt "Vielleicht war das"
+	line "zu kalt für mich."
 	done
 
 OwsauriGym_Trainer_2:
@@ -68,7 +68,7 @@ OwsauriGym_Trainer_3:
 	trainer EVENT_OWSAURI_GYM_TRAINER_3, BOARDER, 5, .before_battle_text, .battle_won_text
 
 	ctxt "Bro, wusstest du,"
-	line "dass Lily DJane"
+	line "dass Lily ein DJ"
 	para "war, als sie noch"
 	line "in Lavandia lebte?"
 	done
@@ -111,15 +111,15 @@ OwsauriGymLeader:
 .already_battled_text
 	ctxt "Wenn der Radioturm"
 	line "in Dukatia City"
-	para "repariert ist,"
+	para "repariert wurde,"
 	line "könnte ich dort"
-	cont "wieder auflegen."
+	cont "als DJ auflegen?"
 
 	para "Ich wohne gerne"
-	line "hier und Dukatia"
-	para "City ist auch"
+	line "hier und"
+	para "Dukatia City ist"
 	line "viel näher als"
-	cont "Lavandia."
+	cont "Lavandia es ist."
 	done
 
 .introduction_text
@@ -128,20 +128,20 @@ OwsauriGymLeader:
 	para "Willst du dich mit"
 	line "mir anlegen?"
 
-	para "Na super!"
+	para "Läuft bei dir!"
 
-	para "Ich habe Eis-"
-	line "#mon und den"
-	para "Winter schon immer"
-	line "geliebt!"
+	para "Ich hab immer Eis-"
+	line "#mon geliebt,"
+	para "natürlich auch in"
+	line "den Wintermonaten!"
 
 	para "Ich bin von Kanto"
 	line "hergezogen, als"
 	para "diese Arena einen"
 	line "Leiter brauchte!"
 
-	para "Hier kommt mein"
-	line "cooles Team!"
+	para "Mein Team zerstört"
+	line "dich jetzt!"
 	sdone
 
 .battle_won_text
@@ -149,11 +149,10 @@ OwsauriGymLeader:
 	line "und gleichzeitig"
 	cont "auch fröhlich."
 
-	para "Dank dir, weiß ich"
-	line "jetzt, wie ich"
-	para "mich als Arenalei-"
-	line "terin noch weiter"
-	cont "verbesserm kann!"
+	para "Vielen Dank für"
+	line "deine Hilfe, mich"
+	para "als Arenaleiter"
+	line "zu verbessern!"
 
 	para "Hier, der Orden!"
 	done

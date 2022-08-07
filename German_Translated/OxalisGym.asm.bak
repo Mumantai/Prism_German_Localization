@@ -10,14 +10,14 @@ OxalisGym_Trainer_1:
 	line "der Hitze klar-"
 	cont "zukommen."
 
-	para "Aber <...> packst du"
-	line "auch Josiah?"
+	para "Aber <...> auch"
+	line "mit Josiah?"
 	done
 
 .before_battle_text
 	ctxt "Na, was ist los?"
 
-	para "Angst, dass die"
+	para "Angst, wenn"
 	line "dampfende Lava"
 	para "dich bei @"
 	start_asm
@@ -29,7 +29,7 @@ OxalisGym_Trainer_1:
 	ret
 .metric_text
 	ctxt "700 Grad"
-	line "Celsius kocht?"
+	line "Celsius köchelt?"
 	done
 .imperial_text
 	ctxt "1300 Grad"
@@ -55,9 +55,6 @@ OxalisGym_Trainer_2:
 
 	para "Das sollte nicht"
 	line "schwer werden <...>"
-	
-	para "Für mich!"
-	
 	done
 
 .battle_won_text
@@ -71,11 +68,9 @@ OxalisGymGuide:
 	jumptextfaceplayer .before_badge_text
 
 .before_badge_text
-	ctxt "Hallo, wie geht's"
-	line "denn so?"
-	
-	para "Ich habe auf deine"
-	line "Ankunft gewartet."
+	ctxt "Hey, du da!"
+	line "Ich habe auf deine"
+	cont "Ankunft gewartet."
 
 	para "Prof. Ilk bat mich"
 	line "darum, dich zu"
@@ -87,7 +82,7 @@ OxalisGymGuide:
 
 	para "Also, Josiah hat"
 	line "Feuer-#mon aber"
-	para "das siehst du ja" 
+	para "das siehst du ja"
 	line "an der Arena hier."
 
 	para "Wasser-#mon"
@@ -133,16 +128,16 @@ OxalisGymLeader:
 	jumptext .after_giving_TM_text
 
 .before_battle_text
-	ctxt "'s geht?"
+	ctxt "Was geht ab, Bro?"
 
-	para "Bin Josiah."
+	para "Ich bin Josiah."
 
-	para "Werd's dir nicht"
-	line "leicht machen,"
-	cont "kapiert Kumpel?"
+	para "Jo Brudi, ich"
+	line "werd's dir nicht"
+	cont "leicht machen."
 
-	para "Dann lass ma den"
-	line "Kampf ausbrechen!"
+	para "Lass ma diesen"
+	line "Kampf beginnen!"
 	sdone
 
 .battle_won_text
@@ -150,7 +145,7 @@ OxalisGymLeader:
 
 	para "Du bist ne Bombe!"
 
-	para "Hast dir meinen"
+	para "Du hast dir den"
 	line "Orden verdient."
 	done
 
@@ -162,46 +157,47 @@ OxalisGymLeader:
 .before_giving_TM_text
 	ctxt "Der Fackel-Orden"
 	line "pumpt den Angriff"
-	cont "deiner #mon auf!"
+	cont "deiner #mon, Bro"
 
-	para "Kannst jetzt sogar"
-	line "Blitz außerhalb"
-	cont "von Kämpfen"
-	cont "einsetzen!"
+	para "Digga, du kannst"
+	line "jetzt sogar Blitz"
+	cont "außerhalb des"
+	cont "Kampfes nutzen!"
 
-	para "Wie geil ist das?!"
+	para "Ist das nicht"
+	line "KRASS???"
 
-	para "Das geb' ich dir"
-	line "auch noch mit!"
+	para "Hier, nimm auch"
+	line " das an dich <...>"
 	sdone
 
 .after_giving_TM_text
-	ctxt "Das ist eine TM."
-	line "Das bedeutet was <...>"
-	cont "ähm, Technische"
-	para "Maschine oder so?"
-	line "Ja, das war's!"
+	ctxt "Yo, das ist eine"
+	line "TM, was so viel"
+	cont "bedeutet wie <...> uhm,"
+	para "Technische Maschi-"
+	line "ne? Ja, das passt."
 
-	para "Damit kannste 'nem"
-	line "#mon 'ne Attacke"
-	para "beibringen und das"
-	line "so oft wie du Bock"
-	cont "drauf hast!"
+	para "Es lehrt deinen"
+	line "#mon neue"
+	para "Attacken und kann"
+	line "unendlich oft"
+	cont "eingesetzt werden."
 
-	para "Diese TM hier ist"
-	line "Irrlicht."
+	para "Diese TM bein-"
+	line "haltet Irrlicht."
 
-	para "Damit verbrennste"
-	line "deine Gegner!"	
+	para "Diese Attacke ver-"
+	line "brennt den Gegner!"	
 	done
 
 .already_battled_text
-	ctxt "Für die Liga"
-	line "brauchste aber"
-	cont "8 Orden, also <...>"
+	ctxt "Yo, die Rijon-"
+	line "Liga benötigt 8"
+	cont "Orden, von daher <...>"
 
-	para "Schnapp' sie dir"
-	line "alle, Kumpel!"
+	para "Schnapp sie dir"
+	line "alle, Brudi!"
 	done
 
 OxalisGym_MapEventHeader:: db 0, 0

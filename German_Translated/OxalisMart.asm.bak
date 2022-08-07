@@ -4,18 +4,18 @@ OxalisMart_MapScriptHeader;trigger count
 	db 0
 
 OxalisMartNPC1:
-	ctxt "Fluchtseile sind"
-	line "in Höhlen ein"
-	cont "Lebensretter!"
+	ctxt "Ein Fluchtseil"
+	line "bringt dich zum"
+	cont "Höhleneingang!"
 	done
 
 OxalisMartNPC2:
 	ctxt "Warum verkaufen"
-	line "die Ziegelstücke?"
+	line "die Ziegelsteine?"
 
-	para "Ich möchte einen"
-	line "ganzen Ziegel,"
-	cont "nicht nur Klumpen."
+	para "Ich möchte eine"
+	line "Palette voll und"
+	cont "nicht nur einen <...>"
 	done
 
 OxalisMart_MapEventHeader ;filler

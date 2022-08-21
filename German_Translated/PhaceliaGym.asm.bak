@@ -174,10 +174,10 @@ PhaceliaGymLeader:
 
 	para "Hier hast du zwar"
 	line "den Orden, aber"
-	para "komm bloß nicht"
-	line "heulend zu mir,"
 	para "wenn die Welt"
-	line "untergeht!"
+	line "untergeht, komm"
+	para "nicht heulend zu"
+	line "mir!"
 	done
 
 .received_badge_text
@@ -187,9 +187,11 @@ PhaceliaGymLeader:
 
 .before_giving_TM_text
 	ctxt "Ich muss mich von"
-	line "solchen ätzenden"
-	para "Abkürzungen der"
-	line "Technologie lösen."
+	line "den weichmachenden"
+	para "Vorteilen der"
+	line "Technologie lösen"
+	para "um hart und flei-"
+	line "ßig zu bleiben."
 
 	para "Nimm schon."
 	done
@@ -198,18 +200,18 @@ PhaceliaGymLeader:
 	ctxt "Diese TM ist"
 	line "Wuchtschlag."
 
-	para "Sie ist ungenau,"
+	para "Sie ist Ungenau,"
 	line "aber wenn sie"
 	para "trifft, wird der"
 	line "Gegner verwirrt!"
 
-	para "Für dich ist sie"
-	line "vielleicht ein"
-	para "Segen, aber ich"
-	line "sehe in ihr einen"
-	para "Weg deine Überle-"
-	line "bensfähigkeiten"
-	cont "einzuschränken!"
+	para "Das ist mein Weg,"
+	line "mir mit meinen"
+	para "Fäusten die Vor-"
+	line "teile zu verschaf-"
+	para "fen! Meine Schläge"
+	line "sind daher"
+	cont "immer wuchtig!"
 	done
 
 PhaceliaGym_MapEventHeader ;filler

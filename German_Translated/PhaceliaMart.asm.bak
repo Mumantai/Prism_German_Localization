@@ -4,31 +4,32 @@ PhaceliaMart_MapScriptHeader;trigger count
 	db 0
 
 PhaceliaMartNPC1:
-	ctxt "Wozu brauchen wir"
+	ctxt "Warum brauchen wir"
 	line "all diese Städte?"
 
 	para "Ich genieße das"
-	line "ruhige Landleben."
+	line "Ländliche so sehr."
 
 	para "Ein alter Mann wie"
 	line "ich braucht in"
 	para "seinem Leben nicht"
 	line "noch mehr Stress."
-	para "Der Baulärm reißt"
-	line "mich immer wieder"
-	cont "aus dem Schlaf!"
+	para "Die Bauarbeiten"
+	line "hier sind schon"
+	cont "sehr nervig."
 	done
 
 PhaceliaMartNPC2:
-	ctxt "Andre ist echt"
-	line "eine Bestie!"
+	ctxt "Andre ist ein"
+	line "Biest!"
 
-	para "Schon bevor es die"
-	line "Stadt hier gab,"
-	para "hat er seine Arena"
-	line "in einer Höhle"
-	para "gebaut. Wie krass"
-	line "ist das bitte?!"
+	para "Die Arena baute"
+	line "er, bevor es hier"
+	cont "ein Dorf gab!"
+
+	para "Stell dir vor,"
+	line "eine Arena in"
+	cont "einer HÖHLE!"
 	done
 
 PhaceliaMart_MapEventHeader:: db 0, 0

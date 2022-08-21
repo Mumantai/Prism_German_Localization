@@ -19,8 +19,9 @@ PhaceliaPoliceF2Officer:
 	jumptext .before_arresting_black_text
 
 .before_arresting_black_text
-	ctxt "Bitte finde einen"
-	line "Palette-Ranger!"
+	ctxt "Bitte finde eine"
+	line "Paletten-"
+	cont "Patrouille!"
 	done
 
 .after_arresting_black_text
@@ -30,7 +31,7 @@ PhaceliaPoliceF2Officer:
 	para "Hoffentlich"
 	line "kriegen wir sie"
 	para "eines Tages alle"
-	line "hinter Gitter!"
+	line "dran!"
 	done
 
 PhaceliaPoliceF2_MapEventHeader ;filler

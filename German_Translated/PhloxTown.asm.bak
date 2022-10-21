@@ -61,7 +61,7 @@ PhloxTownNPC2:
 
 PhloxTownNPC3:
 	ctxt "Das Gebäude wurde"
-	line "auf MEINEM"
+	line "auf meinen"
 	cont "Angelplatz gebaut."
 
 	para "Sie hatten eine"
@@ -75,7 +75,7 @@ PhloxTownNPC4:
 	line "abgeschottete"
 	cont "Untergrund-Höhle."
 
-	para "Am Tag ist sie"
+	para "Am Tag is es"
 	line "hin und wieder"
 	para "komplett mit"
 	line "Wasser geflutet!"

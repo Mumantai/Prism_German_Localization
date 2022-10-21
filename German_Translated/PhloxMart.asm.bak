@@ -4,25 +4,34 @@ PhloxMart_MapScriptHeader;trigger count
 	db 0
 
 PhloxMartNPC1:
-	ctxt "Weißt du, wo man"
-	line "Skier kaufen kann?"
+	ctxt "Weißt du, wo sie"
+	line "die Ausrüstungen"
+	para "für Skifahrer"
+	line "verkaufen?"
 
-	para "In den Bergen kann"
-	line "man überall Skier"
-	para "und Snowboards"
-	line "kaufen, oder?"
+	para "Ich dachte, alle"
+	line "Städte in den"
+	para "Bergen würden"
+	line "Sportausrüstung"
+	cont "verkaufen <...>"
 	done
 
 PhloxMartNPC2:
 	ctxt "Wusstest du?"
 
-	para "Top-Schutz hat mal"
-	line "nur 250 Schritte"
-	para "lang gehalten."
+	para "Top-Schutz wirkt"
+	line "eigentlich nur"
+	para "250 Schritte"
+	line "lang."
 	
-	para "Die 300-Schritte"
-	line "Version, gibt es"
-	para "erst seit Kurzem."	
+	para "Sie verbesserten"
+	line "vor Kurzem die"
+	para "Rezeptur und es"
+	line "hält jetzt sage"
+	para "und schreibe"
+	line "300 Schritte"
+	cont "lang!"
+	
 	done
 
 PhloxMart_MapEventHeader:: db 0, 0

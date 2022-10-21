@@ -222,8 +222,8 @@ PhloxLabF2ElectricPanel:
 	jumptext .text
 
 .text
-	ctxt "Es ist ein elekt-"
-	line "trisches Panel."
+	ctxt "Es ist ein"
+	line "elektisches Panel."
 
 	para "Sehr kompliziert."
 
@@ -264,7 +264,7 @@ PhloxLabF2Trainer2:
 	line "bauen."
 
 	para "Aber Sekunden, um"
-	line "ihn zu ruinieren."
+	line "es zu nehmen."
 	done
 
 .before_battle_text
@@ -295,7 +295,7 @@ PhloxLabF2PaletteGreen:
 	para "Was ist dein Ziel"
 	line "im Leben, hmm?"
 
-	para "Meins ist es,"
+	para "Meiner ist es,"
 	line "die finanzielle"
 	para "Freiheit zu"
 	line "erreichen."
@@ -315,6 +315,7 @@ PhloxLabF2PaletteGreen:
 	para "Solange gierige"
 	line "Menschen unsere"
 	cont "Produkte kaufen,"
+	
 	para "werde ich weiter-"
 	line "hin viel Geld"
 	para "machen und mir"

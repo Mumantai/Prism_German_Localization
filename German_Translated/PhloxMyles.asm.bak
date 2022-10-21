@@ -4,9 +4,9 @@ PhloxMyles_MapScriptHeader;trigger count
 	db 0
 
 PhloxMylesNewspaperArticle:
-	ctxt "Mann findet"
-	line "anderen Mann"
-	cont "in Höhle:"
+	ctxt "Mann findet einen"
+	line "Mann anderen in"
+	cont "einer Höhle:"
 
 	para "Heute, in der"
 	line "abgelegenen Stadt"
@@ -14,7 +14,7 @@ PhloxMylesNewspaperArticle:
 	line "Mann in einer"
 	cont "Höhle gefunden."
 
-	para "Der Mann leidet"
+	para "Der Mann leidete"
 	line "an Amnesie."
 
 	para "Der andere Mann"
@@ -43,8 +43,9 @@ PhloxMylesMyles:
 	line "der von meinen"
 	cont "fantastischen"
 	para "Geschichten gehört"
-	line "hat, die durch"
-	para "ganz Naljo hallen?"
+	line "hat, welche durch"
+	para "die Naljo-Region"
+	line "wandern?"
 
 	para "Du hast mich"
 	line "endlich gefunden!"
@@ -65,7 +66,7 @@ PhloxMylesMyles:
 	para "Da war ich nun."
 
 	para "Kämpfte mich durch"
-	line "die Acquaminen,"
+	line "die Wasserminen,"
 	para "die im Norden von"
 	line "Phloxia City"
 	cont "liegen."
@@ -84,7 +85,7 @@ PhloxMylesMyles:
 	para "Geistern, Mördern"
 	line "und Flüchen."
 
-	para "Welch Narren!"
+	para "IDIOTEN!"
 
 	para "Tief in der"
 	line "dunklen Höhle"
@@ -95,10 +96,10 @@ PhloxMylesMyles:
 	cont "getrennt wurde."
 
 	para "So ging ich, Myles"
-	line "der Große, blind"
-	cont "wie ein Zubat,"
-	para "durch dunkle Höhle"
-	line "und fand das arme,"
+	line "der Große, wie ein"
+	cont "Zubat durch die"
+	para "dunkle Höhle und"
+	line "fand das arme,"
 	cont "schwache Lamm!"
 
 	para "Es war ein junger"
@@ -107,7 +108,7 @@ PhloxMylesMyles:
 	line "Monaten dort aus-"
 	para "harrte, zumindest"
 	line "nach meiner"
-	cont "Expertise."
+	cont "Meinung."
 
 	para "Der Mann lag dort"
 	line "ruhig in einem"
@@ -133,8 +134,8 @@ PhloxMylesMyles:
 	para "Dieser junge Mann"
 	line "tut mir echt leid,"
 	para "weil durch seine"
-	line "Amnesie weiß er"
-	cont "von nichts mehr."
+	line "Amnesie nichts"
+	cont "mehr wusste."
 
 	para "Keine Erinnerung"
 	line "an sein Leben vor"
@@ -165,7 +166,7 @@ PhloxMylesMyles:
 	line "eingerahmt hinter"
 	para "mir an der Wand."
 
-	para "LIES IHN, OK?"
+	para "LIES ES, OK?"
 	line "BITTE!"
 	done
 

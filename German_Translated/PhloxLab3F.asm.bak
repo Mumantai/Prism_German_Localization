@@ -98,10 +98,11 @@ PhloxLabF3CEO:
 	para "um meine Theorie"
 	line "zu beweisen."
 
-	para "Leider kam es bei"
-	line "einem anderen Team"
-	para "zu dem Unfall, aus"
-	line "dem Mewtu enstand."
+	para "Es kam zu einem"
+	line "Unfall und durch"
+	para "den Klonungs-"
+	line "prozess entstand"
+	cont "Mewtu."
 
 	para "Daraufhin wurde"
 	line "das Klonen von"
@@ -129,13 +130,14 @@ PhloxLabF3CEO:
 	line "medizinischen For-"
 	para "schungsinstitutes,"
 	line "das das Ziel hat,"
-	para "die DNS aller"
+	para "die DNA aller"
 	line "#mon in einer"
 	para "Datenbank aufzu-"
-	line "listen, um sie"
-	para "anschließend"
-	line "genetisch verbess-"
-	cont "ern zu können."
+	line "listen und dadurch"
+	para "viel genauer an"
+	line "#mon"
+	para "Experimente"
+	line "ausüben zu können."
 
 	para "Dir gefällt es"
 	line "sicher nicht, was"
@@ -162,36 +164,37 @@ PhloxLabF3CEO:
 	done
 
 .officer_appears_text
-	ctxt "So so!"
+	ctxt "Jut Jut."
 	para "Freut mich, dich"
-	line "wiederzusehen."
+	line "wiederzutreffen."
 
 	para "Du hast der"
 	line "Polizei wieder"
 	cont "Arbeit abgenommen."
 
-	para "Du kriegst doch"
-	line "sicherlich irgend-"
-	para "wie Informationen"
-	line "von innen, hab ich"
-	cont "nicht Recht?"
+	para "Ich bin sicher,"
+	line "dass du ein paar"
+	para "Insider-"
+	line "Informationen"
+	para "bekommen haben"
+	line "musst <...>"
 	sdone
 
 .officer_talks_to_black_text
 	ctxt "Wie dem auch sei <...>"
-	line "Hast gute Arbeit"
+	line "Gute Arbeit"
 	cont "geleistet, Kind."
 
 	para "Sehr gute Arbeit."
 
 	para "Dank dir wird"
 	line "diese Firma hohe"
-	para "Strafen zahlen"
-	line "müssen und alle,"
-	para "die darin ver-"
-	line "wickelt waren,"
+	para "Strafzahlungen"
+	line "tätigen müssen und"
+	para "alle, die daran"
+	line "beteiligt waren,"
 	para "können mit einem"
-	line "Aufenthalt auf"
+	line "Aufenthalt in"
 	para "Saxifragia-Eiland"
 	line "rechnen!"
 	sdone
@@ -208,20 +211,21 @@ PhloxLabF3CEO:
 .officer_talks_to_player_text
 	ctxt "Polizist: Übrigens"
 	line "Kind, du bist aus"
-	para "Saxifragia"
-	line "ausgebrochen <...>"
+	para "dem Saxifragia-"
+	line "Gefängnis aus-"
+	cont "gebrochen <...>"
 
 	para "Wenn du uns nicht"
 	line "geholfen hättest,"
 	para "würden wir dich"
-	line "glatt dort hin"
-	cont "zurückschicken!"
+	line "glatt zurück dahin"
+	cont "schicken!"
 
 	para "Wir begnadigen"
 	line "dich dafür, also"
 	cont "bist du nun frei."
 
-	para "Da dieser Fall nun"
+	para "Da nun dieser Fall"
 	line "geschlossen ist,"
 	para "ist es Zeit,"
 	line "nach Hause zu"
@@ -267,9 +271,9 @@ PhloxLabF3Trainer1:
 	done
 
 .battle_won_text
-	ctxt "Mein Team braucht"
-	line "wohl einen neuen"
-	cont "Vorgesetzten <...>"
+	ctxt "Vor dir steht der"
+	line "CEO-wei von"
+	cont "Koko-wei!"
 	done
 
 PhloxLabF3Trainer2:
@@ -290,8 +294,9 @@ PhloxLabF3Trainer2:
 	done
 
 .battle_won_text
-	ctxt "Ich sollte lieber"
-	line "kündigen."
+	ctxt "Ich trage einfach"
+	line "2 Wochen im"
+	cont "Voraus ein."
 	done
 
 PhloxLabF3Trainer3:
@@ -299,7 +304,8 @@ PhloxLabF3Trainer3:
 
 	ctxt "Ich hätte warten"
 	line "sollen, bis du den"
-	para "CEO besiegst <...>"
+	para "CEO zuerst"
+	line "besiegst <...>"
 	done
 
 .before_battle_text
@@ -311,8 +317,10 @@ PhloxLabF3Trainer3:
 	para "Jetzt komm ich von"
 	line "hinten, besiege"
 	para "dich und dann"
-	line "gehört diese Firma"
-	cont "mir allein!"
+	line "nur noch den"
+	para "CEO und der"
+	line "Ruhm gehört"
+	cont "MIR!"
 	done
 
 .battle_won_text

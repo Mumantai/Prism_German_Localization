@@ -92,9 +92,9 @@ PhloxLabB1FGuard:
 	endtext
 
 .before_battle_text
-	ctxt "Zzz <...>"
+	ctxt "zzz <...>"
 
-	para "Ah, äh, was?"
+	para "Ah, uh, was?"
 
 	para "Wie spät ist es?"
 
@@ -115,8 +115,12 @@ PhloxLabB1FGuard:
 	para "Warum stehst du da"
 	line "noch?"
 
-	para "Sag doch was."
+	para "So ruhig?"
 	
+	para "<...>"
+	para "<...>"
+	para "<...>"
+
 	para "Ich lasse mit mir"
 	line "keine Psycho-"
 	para "spielchen treiben,"
@@ -145,10 +149,11 @@ PhloxLabB1FGuard:
 	line "wenn du danach"
 	cont "einfach gehst. OK?"
 
-	para "Wenn es hier ein"
-	line "Probleme gibt, hat"
-	para "natürlich niemand"
-	line "jemals die Schuld."
+	para "Wenn es zu"
+	line "Problemen kommt,"
+	para "dann ist das nie"
+	line "die Schuld eines"
+	cont "Einzelnen <...>"
 	sdone
 
 .gave_lab_card_text

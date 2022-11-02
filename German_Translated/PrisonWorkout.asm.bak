@@ -9,48 +9,52 @@ PrisonWorkoutTrashCan:
 	done
 
 PrisonWorkoutNPC1:
-	ctxt "Ich habe gehört,"
-	line "dass die Wächter"
-	para "von Naljo hier"
-	line "früher ihren"
-	cont "Ruheort hatten."
+	ctxt "Ich hörte, dass"
+	line "diese Insel der"
+	para "Ruheort der"
+	line "legendären Naljo-"
+	cont "Wächter war."
 
 	para "Menschen und"
-	line "anderen #mon,"
+	line "andere #mon"
 	para "war es verboten,"
 	line "diese Insel zu"
 	cont "betreten."
 
-	para "Das hat die Bau-"
-	line "arbeiter aber"
-	cont "nicht gekümmert."
-	para "Die haben brav"
-	line "ihre Anweisungen"
-	para "befolgt und ein"
+	para "Die von außen"
+	line "gerufene Bau-"
+	cont "Firma hat das"
+	para "nicht interessiert"
+	line "und haben wie"
+	para "befohlen das"
 	line "Gefängnis auf"
-	para "diesem histosichen"
+	para "dieses historische"
 	line "Denkmal gebaut."
 	done
 
 PrisonWorkoutNPC2:
-	ctxt "Trainieren ist die"
-	line "einzige Freude,"
-	para "die ich im Leben"
-	line "noch habe."
+	ctxt "Muskeln aufbauen"
+	line "ist das Einzige,"
+	para "was ich zur"
+	line "Abwechslung noch"
+	cont "tun kann <...>"
 
-	para "Und trotzdem fühle"
-	line "ich mich so leer <...>"
+	para "Es füllt dennoch"
+	line "nicht die Leere"
+	cont "in mir <...>"
 
-	para "Sie haben mir die"
-	line "#mon genommen,"
-	para "als sie mich hier"
-	line "eingesperrt haben."
+	para "Als sie mich hier"
+	line "einsperrten,"
+	para "trennten sie mich"
+	line "von meinen"
+	cont "#mon <...>"
 
 	para "Die Freundschaft"
 	line "zwischen uns war"
-	para "stärker, als meine"
-	line "Muskeln jemals"
-	cont "werden könnten <...>"
+	para "so stark, wie es"
+	line "meine Muskeln"
+	para "niemals werden"
+	line "könnten <...>"
 	done
 
 PrisonWorkoutKeyGuy:
@@ -71,32 +75,32 @@ PrisonWorkoutKeyGuy:
 	ctxt "Hah!"
 
 	para "Was willst du,"
-	line "du kleiner Wurm?"
+	line "kleiner Wurm?"
 
 	para "Suchst du nach"
 	line "Zellenschlüsseln?"
 
 	para "Jupp, ich hab noch"
-	line "einen Zweiten."
+	line "einen zweiten."
 
-	para "Ich brauch ihn"
-	line "nicht, weil ich"
-	para "bin hart genug"
-	line "für den Knast."
+	para "Ich brauchs nicht,"
+	line "weil ich HART"
+	para "genug für den"
+	line "Knast bin."
 	sdone
 
 .key_given_text
-	ctxt "Du musst noch"
-	line "härter werden."
+	ctxt "Du musst härter"
+	line "werden."
 
 	para "Ohne Härte über-"
 	line "lebst du hier"
-	cont "drinnen nicht."
+	cont "sonst nicht."
 	done
 
 .no_space_text
-	ctxt "Mach aber erstmal"
-	line "Platz im Beutel."
+	ctxt "Du hast kein Platz"
+	line "im Beutel."
 	done
 
 PrisonWorkoutGuard:
@@ -129,32 +133,34 @@ PrisonWorkoutGuard:
 	cont "Gewichten starten."
 
 	para "Du brauchst noch"
-	line "viiieeel Training,"
-	para "bevor du den"
-	line "Anderen das Wasser"
-	cont "reichen kannst."
+	line "sehr viel Training"
+	para "bevor du solche"
+	line "Muskeln wie wir"
+	cont "kriegst."
 	done
 
 .before_battle_text
 	ctxt "Meine Güte!"
 
-	para "Du hast mir eine"
-	line "Heidenangst"
-	cont "eingejagt!"
+	para "Du Pisser hast"
+	line "mich voll"
+	para "erschreckt,"
+	line "ich schwör."
 
-	para "Hier gehen über-"
-	line "natürliche Dinge"
-	cont "vor sich <...>"
+	para "Hier geht so"
+	line "viel Krasses ab"
+	cont "und so <...>"
 
-	para "Ich weiß, was mich"
-	line "wieder beruhigt:"
+	para "Lass uns zur Be-"
+	line "ruhigung kämpfen!"
 
-	para "Lass uns kämpfen!"
+	para "Aber ohne Treten"
+	line "klaro?"
 	sdone
 
 .battle_won_text
-	ctxt "Das ist doch"
-	line "lächerlich."
+	ctxt "Das ist"
+	line "unglaublich."
 	done
 
 .after_winning_text
@@ -166,31 +172,30 @@ PrisonWorkoutGuard:
 	done
 
 .password_text
-	ctxt "Was ist?"
+	ctxt "Was ist das?"
 
-	para "Johnny sagt, es"
-	line "wär OK, dir das"
-	cont "Passwort zu sagen?"
+	para "Johnny-Boy sagte,"
+	line "es ist OK, dir das"
+	cont "Passwort zu geben?"
 
-	para "Ah, OK."
-	line "Na dann."
+	para "Ah, OK. Bitte"
+	line "Entschuldige."
 
 	para "Das Passwort für"
 	line "das Haupt-Tor"
 	para "lautet:"
-	line "Knuddelgelée."
+	line "Wigglyjelly."
 
-	para "Das ist ein Mix"
-	line "aus meiner Lieb-"
-	para "ligssüßgkeit und"
-	line "Gradys #mon."
+	para "Es ist eine"
+	line "Süßigkeit aus"
+	cont "den USA!"
 
 	para "Oder war es:"
-	line "Pummeldonut <...>?"
+	line "Jigglydoughnut <...>?"
 
-	para "Nein, nein! Ich"
+	para "Ne, ne, ne! ich"
 	line "bin sicher es war:"
-	cont "Knuddelgelée!"
+	cont "Wigglyjelly!"
 	done
 
 PrisonWorkoutNurse:
@@ -212,7 +217,7 @@ PrisonWorkoutNurse:
 
 .after_healing_text
 	ctxt "Jetzt siehst du"
-	line "wieder fit aus."
+	line "viel besser aus."
 
 	para "Komm jederzeit"
 	line "wieder her."

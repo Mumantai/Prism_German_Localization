@@ -303,7 +303,7 @@ PokeCenter2F_Movement_Spin_LookDown:
 
 Text_BattleReceptionistIntro:
 	ctxt "Willkommen im"
-	line "Kabel-Klub-"
+	line "Kabel-Club-"
 	cont "Kolosseum."
 
 	para "Hier kannst du"
@@ -317,8 +317,8 @@ Text_BattleReceptionistIntro:
 
 Text_TradeReceptionistIntro:
 	ctxt "Willkommen im"
-	line "Kabel-Klub-"
-	cont "Tauschabteil."
+	line "Kabel-Club-"
+	cont "Kolosseum."
 
 	para "Hier kannst du"
 	line "dein #mon mit"
@@ -352,7 +352,7 @@ Text_FriendNotReady:
 	prompt
 
 Text_MustSaveGame:
-	ctxt "Du musst das Spiel"
+	ctxt "Du musst"
 	line "speichern, bevor"
 	para "die Verbindung"
 	line "hergestellt wird."
@@ -366,7 +366,7 @@ Text_PleaseWait:
 
 Text_LinkTimedOut:
 	ctxt "Die Verbindung"
-	line "wurde aufgrund"
+	line "wurde auf Grund"
 	para "von Inaktivität"
 	line "getrennt."
 
@@ -409,41 +409,39 @@ Text_PleaseEnter:
 	prompt
 
 Text_RejectNewMon:
-	ctxt "Du kannst dein"
-	para "<STRBF1> nicht"
-	line "mitnehmen."
+	ctxt "Du kannst <STRBF1>"
+	line "nicht nehmen."
 
 	done
 
 Text_RejectMonWithNewMove:
-	ctxt "Du kannst dein"
-	para "<STRBF1> mit"
-	line "<STRBF2> nicht"
-	cont "mitnehmen."
+	ctxt "Du kannst <STRBF1>"
+	line "nicht nehmen, da"
+	cont "es <STRBF2> hat."
 
 	done
 
 Text_TimeCapsuleClosed:
 	ctxt "Es tut mir leid,"
 	line "die Zeitkapsel"
-	para "wird gerade"
-	line "gewartet."
+	para "wird gerade "
+	line "eingestellt."
 
 	done
 
 Text_TradeRoomClosed:
 	ctxt "Es tut mir leid,"
 	line "die Tauschmaschine"
-	para "wird gerade"
-	line "gewartet."
+	para "wird gerade "
+	line "eingestellt."
 
 	done
 
 Text_BattleRoomClosed:
 	ctxt "Es tut mir leid,"
 	line "die Kampfmaschine"
-	para "wird gerade"
-	line "gewartet."
+	para "wird gerade "
+	line "eingestellt."
 
 	done
 

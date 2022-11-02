@@ -25,11 +25,11 @@ PrisonCafeteriaNPC2:
 	para "das Essen im Hals"
 	line "stecken geblieben."
 
-	para "Es gibt das Ge-"
-	line "rücht über etwas"
+	para "Die Gerüchte be-"
+	line "sagen, es gäbe was"
 	para "Warmes & Fluffiges"
-	line "irgendwo im Ge-"
-	cont "fängnis versteckt."
+	line "versteckt irgend-"
+	cont "wo im Gefängnis."
 
 	para "Vieleicht hält"
 	line "mich das ja warm."
@@ -52,7 +52,7 @@ PrisonCafeteriaNPC4:
 	line "dass das Essen so"
 	cont "gut schmeckt."
 
-	para "Wir sind hier ja"
+	para "Wir sind ja hier"
 	line "nur Insassen!"
 	done
 

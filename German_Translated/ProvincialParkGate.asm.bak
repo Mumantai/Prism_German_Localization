@@ -63,9 +63,9 @@ ProvincialParkGateAttendant:
 .regular_menu_options
 	db $80 ;print the text one tile to the right of the border
 	db 3 ;option count
-	db "Wettkampf starten@"
+	db "START Challenge@"
 	db "Anleitung@"
-	db "Nein, danke@"
+	db "Tschüss@"
 
 .weekend_menu_header
 	db $40 ;flags
@@ -76,10 +76,10 @@ ProvincialParkGateAttendant:
 .weekend_menu_options
 	db $80 ;print the text one tile to the right of the border
 	db 4 ;option count
-	db "Wettkampf starten@"
-	db "Wochenend Spezial@"
+	db "START Challenge@"
+	db "Weekend-Spezial@"
 	db "Anleitung@"
-	db "Nein, danke@"
+	db "Tschüss@"
 
 .game_menu_header
 	db $40 ;flags
@@ -90,124 +90,125 @@ ProvincialParkGateAttendant:
 .game_menu_options
 	db $80 ;print the text one tile to the right of the border
 	db 3 ;option count
-	db "10 Minuten ¥2000@"
-	db "20 Minuten ¥3500@"
-	db "30 Minuten ¥5000@"
+	db "10 minuten ¥2000@"
+	db "20 minuten ¥3500@"
+	db "30 minuten ¥5000@"
 
 .introduction_text
-	ctxt "Es gibt zur Zeit"
-	line "einen Wettkampf,"
-	cont "hier im Park."
+	ctxt "Aktuell gibt es"
+	line "hier im Park eine"
+	cont "Challenge."
 
-	para "Na, interessiert?"
+	para "Interessiert?"
 	done
 
 .denied_text
-	ctxt "Naja, dann genieß"
-	line "nur den Park."
+	ctxt "Nunja, genieß den"
+	line "den Park."
 
 	para "<...>"
 
 	para "Was? Ich sollte"
-	line "zumindest so tun,"
-	para "als würde mich"
-	line "das alles hier"
-	cont "interessieren?"
+	line "zumindest so"
+	para "klingen, als würde"
+	line "ich meinen Job"
+	cont "lieben?"
 
-	para "Hör mal <...> mir"
-	line "wurde nur gesagt,"
+	para "Schau mal <...> mir"
+	line "wurde nur gezeigt,"
 	para "WAS ich sagen soll"
-	line "und nicht WIE."
+	line "und nicht WIE!"
 
 	para "Wenn du ein Pro-"
 	line "blem damit hast,"
-	para "beschwer dich bei"
-	line "meinem Chef!"
+	para "kläre das mit"
+	line "meinem"
+	cont "Vorgesetzten!"
 	done
 
 .which_mode_text
-	ctxt "Wie lange möchtest"
+	ctxt "Wie lange willst"
 	line "du spielen?"
 	done
 
 .weekend_special_text
-	ctxt "Das Wochenend"
-	line "Spezial dauert 15"
-	para "Minuten und kostet"
+	ctxt "Das Weekend-"
+	line "Spezial geht 15"
+	para "Minuten für nur"
 	line "¥2500. Interesse?"
 	done
 
 .no_money_text
 	ctxt "Komm schon, das"
-	line "ist hier nicht die"
+	line "hier keine"
 	cont "Wohlfahrt <...>"
 
-	para "Du verschwendest"
-	line "nur meine Zeit,"
-	para "wenn du nicht"
-	line "genug Geld hast!"
+	para "Wenn du kein Geld"
+	line "hast, verschwende"
+	cont "nicht unsere Zeit!"
 	done
 
 .instructions_text
 	ctxt "-Seufz-"
 
-	para "Oh man <...> OK, hier"
-	line "ist die Anleitung:"
+	para "Oh man <...> OK hier"
+	line "die Anleitung."
 
-	para "Auf jedem Feld"
-	line "kannst du Bälle,"
-	para "ein #mon oder auch"
-	line "gar nichts finden."
+	para "Jeder Fleck"
+	line "enthällt Bälle,"
+	para "ein #mon oder"
+	line "sogar gar nichts."
 
 	para "Wenn du gegen das"
-	line "#mon kämpfst"
-	para "oder die Items"
-	line "nimmst, wird das"
-	para "Feld eine Zeit"
-	line "lang leer sein."
+	line "#mon kämpfst oder"
+	para "die Items nimmst,"
+	line "leert sich der"
+	para "Fleck für eine"
+	line "kurze weile."
 
-	para "Nach circa einer"
-	line "Minute erholt sich"
-	cont "ein leeres Feld."
+	para "Leere Flecken"
+	line "regenerieren sich"
+	cont "nach 1 Min oder so."
 
 	para "Die #mon, denen"
 	line "du hier begegnest,"
-	para "sind stärker, als"
+	para "sind stärker als"
 	line "die in der Wildnis"
-	para "und sie sind auch"
+	para "und sind auch"
 	line "öfters schillernd."
 
-	para "Deine #bälle"
-	line "kannst du hier"
-	cont "nicht einsetzen."
+	para "Du kannst keine"
+	line "normalen #bälle"
+	cont "nutzen."
 	
-	para "Wir geben dir"
-	line "stattdessen Park-"
-	para "bälle. Außerdem"
-	line "kannst du alle"
-	para "#bälle, die du"
-	line "im Park findest,"
-	para "benutzen."
-	
-	para "Alle ungenutzten"
-	line "Parkbälle, musst"
-	para "du wieder zurück-"
-	line "geben. Auch alle"
-	para "#bälle, die du"
-	line "im Park findest,"
-	para "gibst du ab. Aber,"
-	line "die bekommst du"
-	para "bei beim nächsten"
-	line "Besuch wieder und"
-	para "können dann wieder"
-	line "benutzt werden."
+	para "Stattdessen wirst"
+	line "du von uns mit"
+	para "Parkbällen aus-"
+	line "gestattet und"
+	para "kannst die Bälle,"
+	line "die du hier"
+	para "findest, auch"
+	line "einsetzen."
 
-	para "Es gibt außerdem"
-	line "ein Zeitlimit. Ist"
-	para "die Zeit vorbei,"
-	line "bringen wir dich"
-	para "wieder zurück"
-	line "zum Eingang."
+	para "Die Parkbälle, die"
+	line "du nicht benutzt,"
+	para "gibst du uns"
+	line "nachher zurück."
+	para "Die Bälle, die du"
+	line "hier findest"
+	para "bleiben ebenfalls"
+	line "bei uns, jedoch"
+	para "kannst du sie"
+	line "bei deinem"
+	para "nächsten Besuch"
+	line "wieder nutzen."
+
+	para "Zudem hast du ein"
+	line "Zeit-Limit. Wenn"
+	para "die Zeit vorbei"
+	line "ist, wirst du von"
+	para "uns zum Eingang"
+	line "gebracht."
 
 	done
 

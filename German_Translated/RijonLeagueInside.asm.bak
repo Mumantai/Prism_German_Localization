@@ -15,11 +15,11 @@ RijonLeagueInside_MapScriptHeader;trigger count
 	return
 
 RijonLeagueInsideNPC1:
-	ctxt "Deck dich gut mit"
-	line "Tränken ein, bevor"
-	cont "du rein gehst."
+	ctxt "Pack dich gut"
+	line "ein, bevor du"
+	cont "rein gehst."
 
-	para "Du wirst sie"
+	para "Du wirst es"
 	line "brauchen!"
 	done
 
@@ -27,19 +27,20 @@ RijonLeagueInsideNPC2:
 	ctxt "Yo, zukünftiger"
 	line "Champ!"
 
-	para "Der aktuelle"
-	line "Champion ist kein"
-	cont "einfacher Gegner!"
+	para "Der Meister hier"
+	line "ist kein leichter"
+	cont "Gegner!"
 
-	para "Der Trainer namens"
-	line "Braun war früher"
-	cont "der Champion."
+	para "Der eigentliche"
+	line "Meister war jedoch"
+	para "ein Typ namens"
+	line "Braun."
 
 	para "Aber!"
 
 	para "Ein anderer"
 	line "legendärer Trainer"
-	cont "hat ihn bezwungen!"
+	cont "schlug ihn!"
 	done
 
 RijonLeagueInsideGuard:
@@ -47,14 +48,15 @@ RijonLeagueInsideGuard:
 	line "ist vorübergehend"
 	cont "geschlossen."
 
-	para "Die Mitglieder"
-	line "nehmen sich eine"
-	para "wohlverdiente"
-	line "Auszeit nach einer"
-	para "verheerenden"
-	line "Niederlage"
+	para "Die Top-4 nehmen"
+	line "sich eine wohl-"
 	
-	para "Komm' später"
+	para "verdiente Auszeit"
+	line "und werden dabei"
+	para "warscheinlich"
+	line "trainieren."
+	
+	para "Komm später"
 	line "wieder zurück."
 	done
 

@@ -38,9 +38,9 @@ RijonLeagueSora_Sora:
 	line "besser sagen <...>"
 	cont "HERAUSFORDERER!"
 
-	para "Ich bin Sora, der"
+	para "Ich bin Sora, die"
 	line "Flug-#mon-"
-	para "Meister der"
+	para "Meisterin der"
 	line "Rijon-Liga!"
 
 	para "Du hast es zwar"

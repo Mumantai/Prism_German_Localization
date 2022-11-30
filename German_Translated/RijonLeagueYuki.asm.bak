@@ -39,29 +39,34 @@ RijonLeagueYuki_Yuki:
 
 	para "Jeder könnte sich"
 	line "die Orden verdie-"
-	para "nen und die Seneca"
-	line "Höhle durchqueren,"
-	para "aber niemand hätte"
-	line "es wie du gemacht."
+	para "nen und die Sene-"
+	line "za-Höhlen durch-"
+	para "queren, aber kei-"
+	line "ner könnte es so,"
+	cont "wie du es hast."
 
-	para "Du bist so einzig-"
-	line "artig wie eine"
-	para "Schneeflocke, die"
-	line "in der kalten"
-	para "Gebirgsluft tän-"
-	line "zelt und taumelt."
+	para "Deine Art ist wie"
+	line "die einer Schnee-"
+	para "flocke <...> Keine"
+	line "Schneeflocke in"
+	para "diesem Universum"
+	line "gleicht einer"
+	cont "anderen <...>"
+	para "Krass, oder?"
+	para "So, wie du auch!"
 
 	para "Ich bin Yuki, die"
 	line "Meisterin aller"
-	para "Eis-#mon und"
-	line "dein erster Gegner"
-	cont "in der Rijon-Liga."
+	para "Eis-#mon,"
+	line "Trainer, und auch"
+	para "dein 1. Gegner"
+	line "der Rijon-Liga."
 
 	para "Gib dein Bestes!"
 	sdone
 
 .battle_won_text
-	ctxt "Was für'n Weg, das"
+	ctxt "Was fürn Weg, das"
 	line "Eis zu brechen."
 	done
 

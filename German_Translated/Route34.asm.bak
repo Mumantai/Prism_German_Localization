@@ -19,13 +19,13 @@ Route34EmptyHouseSign:
 
 Route34ApricornAdSign:
 	signpostheader 1
-	ctxt "Schlaue Trainer,"
-	nl 	 "machen sich ihre"
-	nl 	 "#bälle selbst!"
+	ctxt "Schlaue Trainer"
+	nl "machen sich die"
+	nl "#bälle selbst!"
 
-	next "Suche in ganz"
-	nl 	 "Rijon nach"
-	nl 	 "Aprikoko-Bäumen!"
+	next "Suche in"
+	nl "Rijon nach "
+	nl "Aprikoko-Bäumen."
 
 	done
 
@@ -45,13 +45,14 @@ Route34_Trainer_1:
 	line "Champion von"
 	cont "Rijon?"
 
-	para "Dann sei du mein"
-	line "Sparringpartner!"
+	para "Darf ich sehen,"
+	line "wie stark du bist?"
 
 	done
 
 .battle_won_text
-	ctxt "Ich gewinne nie <...>"
+	ctxt "Ich kann nicht"
+	line "gewinnen!"
 
 	done
 
@@ -63,7 +64,7 @@ Route34_Trainer_2:
 
 	para "Schließlich ist"
 	line "ein Leben ohne"
-	para "Scheitern, ein"
+	para "Scheitern ein"
 	line "Leben ohne"
 	cont "Erfahrung."
 
@@ -71,16 +72,18 @@ Route34_Trainer_2:
 
 .before_battle_text
 	ctxt "Ich war"
-	line "Klassenbester im"
-	cont "#monunterricht!"
+	line "Klassenbester!"
+
+	para "Die Klasse war"
+	line "#mon!"
 
 	done
 
 .battle_won_text
 	ctxt "Ich bin vielleicht"
 	line "nicht der Beste,"
-	para "aber ich mag die"
-	line "Herausforderung!"
+	para "aber ich genieße"
+	line "den Sport!"
 
 	done
 

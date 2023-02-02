@@ -32,29 +32,32 @@ Route49_Trainer_1:
 	done
 
 .battle_won_text
-	ctxt "Ja das lief jetzt"
-	line "nicht so gut."
+	ctxt "Versuch das 5x"
+	line "hintereinander zu"
+	cont "sagen!"
 
 	done
 
 Route49_Trainer_2:
 	trainer EVENT_ROUTE_49_TRAINER_2, BIKER, 1, .before_battle_text, .battle_won_text
 
-	ctxt "Besorg dir ein"
-	line "Rad!"
+	ctxt "Hol dir ein paar"
+	line "Räder!"
 
 	done
 
 .before_battle_text
-	ctxt "Diese Beinchen"
-	line "schaffen es doch"
-	cont "nie nach Johto!"
+	ctxt "Du hast nicht die"
+	line "Beine, um es nach"
+	cont "Johto zu schaffen!"
 
 	done
 
 .battle_won_text
 	ctxt "Wenigstens habe"
-	line "ich mein Motorrad."
+	line "ich mein Motorrad,"
+	para "mit dem ich mich"
+	line "fortbewegen kann."
 
 	done
 

@@ -21,14 +21,14 @@ Route47DirectionsSign:
 Route47_Trainer_1:
 	trainer EVENT_ROUTE_47_TRAINER_1, BIKER, 8, .before_battle_text, .battle_won_text
 
-	ctxt "Übertreib's nicht."
+	ctxt "Nicht drücken."
 
 	done
 
 .before_battle_text
-	ctxt "Du kannst dieses"
-	line "Durchgangshaus"
-	cont "nicht betreten."
+	ctxt "Sie können dieses"
+	line "Tor nicht"
+	cont "passieren."
 
 	done
 
@@ -40,19 +40,19 @@ Route47_Trainer_1:
 Route47_Trainer_2:
 	trainer EVENT_ROUTE_47_TRAINER_2, BIKER, 7, .before_battle_text, .battle_won_text
 
-	ctxt "Ich bin nur am"
-	line "Chillen."
+	ctxt "Ich werde einfach"
+	line "chillen."
 
 	done
 
 .before_battle_text
-	ctxt "Ich bin kurz vor"
+	ctxt "Ich stehe kurz vor"
 	line "dem Abflug."
 
 	done
 
 .battle_won_text
-	ctxt "Verdammt."
+	ctxt "Verdammt nochmal."
 
 	done
 

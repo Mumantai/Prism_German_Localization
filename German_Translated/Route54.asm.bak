@@ -15,7 +15,8 @@ Route54Signpost:
 Route54_Trainer_1:
 	trainer EVENT_ROUTE_54_TRAINER_1, LASS, 3, .before_battle_text, .battle_won_text
 
-	ctxt "Ich liebe Süßes!"
+	ctxt "Immer lieber"
+	line "niedlich!"
 
 	done
 
@@ -25,7 +26,7 @@ Route54_Trainer_1:
 	done
 
 .battle_won_text
-	ctxt "Oh ja, gutes"
+	ctxt "Ach ja, gutes"
 	line "Spiel!"
 
 	done
@@ -33,12 +34,12 @@ Route54_Trainer_1:
 Route54_Trainer_2:
 	trainer EVENT_ROUTE_54_TRAINER_2, SAGE, 5, .before_battle_text, .battle_won_text
 
-	ctxt "Wie du auf eine"
-	line "unerwartete Situa-"
-	para "tion reagierst,"
-	line "ist wichtiger, als"
-	para "die Situation an"
-	line "sich."
+	ctxt "Wichtiger als die"
+	line "Situationen selbst"
+	para "ist, wie du auf"
+	line "unerwartete"
+	para "Situationen"
+	line "reagierst."
 
 	done
 

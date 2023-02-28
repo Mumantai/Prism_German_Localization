@@ -8,16 +8,16 @@ Route71HiddenItem:
 	db GOLD_TOKEN
 
 Route71DirectionsSign1:
-	ctxt "<LEFT> Kaper City"
+	ctxt "<LEFT> Capparia City"
 	next "<RIGHT><UP>Oxalia City"
-	next "<RIGHT> Klathrat"
+	next "<RIGHT> Klathrat-"
 	next "  Tunnel"
 	done
 
 Route71DirectionsSign2:
 	ctxt "<UP> Oxalia City"
-	next "<LEFT> Kaper City"
-	next "<RIGHT> Klathrat"
+	next "<LEFT> Capparia City"
+	next "<RIGHT> Klathrat-"
 	next "  Tunnel"
 	done
 
@@ -29,7 +29,7 @@ Route71NPC1:
 	line "Aufmerksamkeit für"
 	cont "nichts!"
 	
-	para "Ich meine, sogar"
+	para "Ich meine sogar"
 	line "der Champ der"
 	para "Rijon Liga hat"
 	line "seine eigene"
@@ -39,21 +39,21 @@ Route71NPC1:
 	done
 
 Route71NPC2:
-	ctxt "War Kaper City"
+	ctxt "War Capparia City"
 	line "zu kalt für dich?"
 
-	para "Du hast Glück!"
+	para "Du hast glück!"
 
-	para "Von hier an wird"
+	para "von hier an wird"
 	line "es immer wärmer!"
 	done
 
 Route71NPC3:
-	ctxt "Ich habe Angst,"
+	ctxt "Ich habe Angst"
 	line "hier zu stehen."
 
-	para "Vieleicht könnte"
-	line "ich runterfallen."
+	para "vieleicht könnte"
+	line "ich runter fallen."
 
 	para "Wenn ich nach"
 	line "unten krieche, wär"
@@ -85,12 +85,12 @@ Route71_Trainer_1:
 
 	ctxt "Unterschätz nicht"
 	line "die Kraft von"
-	cont "Käfer-#mon!"
+	cont "Käfer #mon!"
 	done
 
 .before_battle_text
 	ctxt "Meine Käfer werden"
-	line "immer stärker!"
+	line "immer Stärker!"
 	done
 
 .battle_won_text

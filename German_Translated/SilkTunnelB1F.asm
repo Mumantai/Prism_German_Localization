@@ -6,8 +6,8 @@ SilkTunnelB1F_MapScriptHeader;trigger count
 SilkTunnelB1F_Trainer_1:
 	trainer EVENT_SILK_TUNNEL_B1F_TRAINER_1, HIKER, 8, .before_battle_text, .battle_won_text
 
-	ctxt "Erkunden macht"
-	line "spaß, laugt einen"
+	ctxt "Erkunden macht "
+	line "spass, laugt einen"
 	cont "aber auch aus."
 	done
 
@@ -26,7 +26,7 @@ SilkTunnelB1F_Trainer_1:
 SilkTunnelB1F_Trainer_2:
 	trainer EVENT_SILK_TUNNEL_B1F_TRAINER_2, HIKER, 7, .before_battle_text, .battle_won_text
 
-	ctxt "Wer weiß, was für"
+	ctxt "Wer weiss was für"
 	line "unentdeckte Höhlen"
 	para "direkt unter uns"
 	line "liegen könnten?"

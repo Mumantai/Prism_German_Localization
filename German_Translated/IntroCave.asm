@@ -47,7 +47,7 @@ IntroCaveNPC:
 	para "Dein Lager ist"
 	line "nördlich von hier?"
 
-	para "DEin Erdrutsch hat"
+	para "Ein Erdrutsch hat"
 	line "den Weg zurück"
 	cont "versperrt?"
 

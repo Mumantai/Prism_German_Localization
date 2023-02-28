@@ -11,7 +11,7 @@ SpurgeGymHouseAbra:
 	endtext
 
 .text
-	ctxt "Abra: Aabraa <...>"
+	ctxt "Abra: Aabraa<...>"
 	done
 
 SpurgeGymHouseTeleportationNPC:
@@ -37,24 +37,24 @@ SpurgeGymHouseTeleportationNPC:
 	end
 
 .introduction_text
-	ctxt "Fufufu <...> kommst du"
+	ctxt "Fufufu<...> kommst du"
 	line "nicht mehr weiter?"
 
 	para "Für eine kleine"
-	line "Spende holt dich"
-	cont "mein Abra raus <...>"
+	line "Spende, holt dich"
+	cont "mein Abra da raus<...>"
 
-	para "Wie wäre es mit <...>"
+	para "Wie wäre es mit<...>"
 	line "¥400?"
 	done
 
 .declined_text
-	ctxt "Fufufu ... deine"
+	ctxt "Fufufu... deine"
 	line "Entscheidung."
 	done
 
 .paid_text
-	ctxt "Fufufu ... sehr"
+	ctxt "Fufufu... sehr"
 	line "gut."
 	done
 
@@ -63,7 +63,7 @@ SpurgeGymHouseTeleportationNPC:
 	line "genug Geld dabei!"
 
 	para "Dann gib mir, was"
-	line "du dabei hast <...>"
+	line "du dabei hast<...>"
 	done
 
 SpurgeGymHouse_MapEventHeader ;filler

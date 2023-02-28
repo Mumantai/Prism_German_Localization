@@ -18,7 +18,7 @@ Route76_Trainer_1:
 
 	ctxt "Lily: -Schnüffel-"
 
-	para "Bitte finde es <...>"
+	para "Bitte finde es<...>"
 	done
 
 .before_battle_text
@@ -27,25 +27,25 @@ Route76_Trainer_1:
 	done
 
 .battle_won_text
-	ctxt "Liz & Lily: Du"
+	ctxt "Liz & Lily: du"
 	line "bist gemein!"
 	done
 
 Route76_Trainer_1_OtherTwin:
-	ctxt "Liz: Wir liebten"
+	ctxt "Liz: wir liebten"
 	line "unser Sheinux!"
 
-	para "Ich hoffe, ihm"
+	para "Ich hoffe ihm"
 	line "gehts gut."
 	done
 
 Route76_Trainer_2:
 	trainer EVENT_ROUTE_76_TRAINER_2, PSYCHIC_T, 2, .before_battle_text, .battle_won_text
 
-	ctxt "Ich versteh nicht,"
+	ctxt "Ich verstehe nicht"
 	line "wie die #mon"
 	para "hier einfach so"
-	line "verschwinden <...>"
+	line "verschwinden<...>"
 	done
 
 .before_battle_text

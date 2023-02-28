@@ -4,11 +4,11 @@ SoutherlyHouse2_MapScriptHeader;trigger count
 	db 0
 
 SoutherlyHouseNPC1:
-	ctxt "Willkommen in"
-	line "Tunod!"
+	ctxt "Willkommen in der"
+	line "Tunod-Region!"
 
 	para "Dank der neuen"
-	line "Südroute kommen"
+	line "Süd-Passage kommen"
 	para "jetzt viel mehr"
 	line "Besucher!"
 
@@ -16,7 +16,7 @@ SoutherlyHouseNPC1:
 
 SoutherlyHouseNPC2:
 	ctxt "Der Psion-Wald ist"
-	line "fürs Erste"
+	line "fürs erste"
 	para "gesperrt, es leben"
 	line "jedoch eine Menge"
 	cont "Folipurba dort!"

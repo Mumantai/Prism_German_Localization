@@ -7,8 +7,8 @@ Route55GateUndergroundNPC:
 	ctxt "Dieser Tunnel"
 	line "führt zur Route"
 	para "52, auch bekannt"
-	line "als die Faenumia"
-	cont "Docks."
+	line "als der Heuhofen-"
+	cont "Hafen."
 
 	done
 

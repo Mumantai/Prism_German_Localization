@@ -10,7 +10,7 @@ ToreniaCity_MapScriptHeader;trigger count
 	return
 
 ToreniaCityGymSign:
-	ctxt "#mon-Arena"
+	ctxt "#mon Arena"
 	next "Leiter: Edison"
 	done
 
@@ -19,7 +19,7 @@ ToreniaCityMagnetTrainSign:
 	done
 
 ToreniaCityCitySign:
-	ctxt "Die jüngste"
+	ctxt "Die jüngste "
 	next "Stadt der Region"
 	done
 
@@ -30,29 +30,29 @@ ToreniaCityPachisiSign:
 	done
 
 ToreniaCityNPC1:
-	ctxt "'Mensch ärgere"
-	line "dich nicht' macht"
-	cont "so Spaß!"
+	ctxt "Mensch ärgere dich"
+	line "nicht macht so"
+	cont "Spaß!"
 
 	para "Ich habe vor"
-	line "Kurzem dort ein"
+	line "kurzem dort ein"
 	para "neues #mon"
 	line "gefangen!"
 	done
 
 ToreniaCityNPC2:
 	ctxt "In dieser Zeit"
-	line "hier zu leben <...>"
+	line "hier zu leben<...>"
 
-	para "Als wäre man Teil"
+	para "<...>als wäre man Teil"
 	line "der Geschichte."
 	done
 
 ToreniaCityNPC3:
-	ctxt "Das letzte Mal,"
-	line "als ich mit dem"
+	ctxt "Das letzte mal,"
+	line "als Ich mit dem"
 	para "Arenaleiter sprach"
-	line "wünschte er sich,"
+	line "wünschte er sich"
 	cont "träumen zu können."
 
 	para "Was ist so toll"
@@ -64,7 +64,7 @@ ToreniaCityNPC3:
 
 ToreniaCityNPC4:
 	ctxt "Diese Stadt wird"
-	line "riesig, sobald die"
+	line "riesig sobald die"
 	para "Erweiterung fertig"
 	line "ist."
 	done

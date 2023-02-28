@@ -8,7 +8,7 @@ Route78HiddenItem:
 	db HYPER_POTION
 
 Route78DirectionsSign:
-	ctxt "<UP> Phacelia Dorf"
+	ctxt "<UP> Phacelia"
 	next "<DOWN><LEFT>Ruinen"
 	next "<DOWN><RIGHT>Route 79"
 	done
@@ -29,7 +29,7 @@ Route78_Trainer_1:
 	ctxt "Diese Route sieht"
 	line "bei Sonnen-"
 	para "untergang"
-	line "wunderschön aus <...>"
+	line "wunderschön aus<...>"
 	done
 
 .before_battle_text
@@ -47,11 +47,11 @@ Route78_Trainer_2:
 
 	ctxt "Wenn doch nur"
 	line "jemand mutig genug"
-	para "wäre, tief in die"
+	para "wäre tief in die"
 	line "Ruinen vorzu-"
-	cont "dringen <...>"
+	cont "dringen<...>"
 
-	para "Wer weiß, was für"
+	para "Wer weiss was für"
 	line "Schätze da unten"
 	cont "auf uns warten!"
 	done
@@ -73,22 +73,22 @@ Route78_Trainer_2:
 Route78_Trainer_3:
 	trainer EVENT_ROUTE_78_TRAINER_3, SWIMMERF, 3, .before_battle_text, .battle_won_text
 
-	ctxt "Ich wünschte, ich"
+	ctxt "Ich wünschte ich"
 	line "könnte tiefer"
-	para "tauchen, um seltene"
-	line "Wasser-#mon"
+	para "tauchen um seltene"
+	line "Wasser #mon"
 	cont "finden zu können!"
 	done
 
 .before_battle_text
 	ctxt "Die #mon hier"
-	line "sind wunderschön."
+	line "sind Wunderschön."
 	done
 
 .battle_won_text
 	ctxt "Innerlich schön,"
-	line "nicht ihre Kampf-"
-	cont "fähigkeiten."
+	line "nicht Ihre Kampf"
+	cont "Fähigkeiten."
 	done
 
 Route78_Trainer_4:
@@ -104,7 +104,7 @@ Route78_Trainer_4:
 
 .before_battle_text
 	ctxt "Mein Surfbrett"
-	line "brach <...> wieder!"
+	line "brach<...> wieder!"
 
 	para "Jetzt kann ich"
 	line "nicht mehr surfen!"
@@ -112,7 +112,7 @@ Route78_Trainer_4:
 
 .battle_won_text
 	ctxt "Streu noch Salz"
-	line "in die Wunde <...>"
+	line "in die Wunde<...>"
 	done
 
 Route78Guard:
@@ -136,7 +136,7 @@ Route78Guard:
 
 .require_ID_text
 	ctxt "Ohne einen Naljo-"
-	line "Pass kann ich"
+	line "Pass, kann ich"
 	para "keinen passieren"
 	line "lassen."
 	sdone
@@ -149,27 +149,27 @@ Route78Guard:
 	line "auf die Insel."
 
 	para "Ist das dein 1."
-	line "Mal hier?"
+	line "mal hier?"
 
-	para "Nun, Saxifragia"
-	line "iat ein Ort, wo"
+	para "Nun Saxifragia ist"
+	line "ein Ort wo"
 	para "Kriminelle einge-"
 	line "sperrt werden!"
 
-	para "Du kannst sie dir"
+	para "Du kannst Sie dir"
 	line "anschauen, aber"
 	cont "nicht füttern."
 
 	para "Im Endeffekt ist"
-	line "das auch ein Zoo,"
+	line "das auch ein Zoo"
 	para "nur mit weniger"
-	line "Rechten <...>"
+	line "rechten<...>"
 	sdone
 
 .no_ID_text
 	ctxt "Du hast keinen?"
 
-	para "Sei froh, dass du"
+	para "Sei froh das du"
 	line "noch klein bist."
 
 	para "Sonst hätte ich"

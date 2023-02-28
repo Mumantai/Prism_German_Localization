@@ -15,17 +15,17 @@ SaxifrageMartNPC1:
 	para "<...>"
 
 	para "Wieso er nicht in"
-	line "ein #mon-Center"
+	line "ein #mon Center"
 	cont "gegangen ist?"
 
 	para "Bist du nun der"
 	line "Staatsanwalt oder"
-	cont "was? <...>"
+	cont "was?<...>"
 	done
 
 SaxifrageMartNPC2:
-	ctxt "Ein Markt auf ner"
-	line "Gefängnis-Insel!"
+	ctxt "Ein Markt in einer"
+	line "Gefängniss Insel!"
 
 	para "Shopping für die"
 	line "Insassen oder was?"

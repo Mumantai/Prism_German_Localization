@@ -18,9 +18,9 @@ Route77QRCode:
 	jumptext .text
 
 .text
-	ctxt "Gold-Ei-Haus"
+	ctxt "Gold-Ei - Haus"
 	line "im Westen des"
-	cont "Hayward-Markts"
+	cont "Heuhofen-Markts"
 	done
 
 Route77Guard_AfterIlk:
@@ -45,13 +45,13 @@ Route77Guard_AfterIlk:
 	done
 
 .give_HM_text
-	ctxt "Sieht so aus, als"
+	ctxt "Sieht so aus als"
 	line "hättest du nun die"
 	cont "Freigabe erhalten."
 
-	para "Nutze nächstes Mal"
-	line "diese VM, um flott"
-	para "nach Kaper City"
+	para "Nutze nächstesmal"
+	line "diese VM um flott"
+	para "nach Capparia City"
 	line "zu gelangen!"
 	sdone
 
@@ -71,7 +71,7 @@ Route77Guard_BeforeIlk:
 
 .no_clearance_text
 	ctxt "Ohne eine gültige"
-	line "Freigabe kann ich"
+	line "Freigabe, kann ich"
 	para "dich leider nicht"
 	line "passieren lassen."
 
@@ -81,21 +81,21 @@ Route77Guard_BeforeIlk:
 	para "Wenn es doch nur"
 	line "Experten gäbe, die"
 	para "uns unterstützen"
-	line "könnten <...>"
+	line "könnten<...>"
 
-	para "Wie 'Prof. Silk'!"
+	para "Wie'Prof. Silk'!"
 
 	para "<...>"
 
-	para "Was? Oh, sein Name"
+	para "Was? Oh, sein name"
 	line "ist Prof. Ilk?"
 
-	para "Du kennst ihn?"
+	para "Du kennst Ihn?"
 
 	para "Vieleicht kann er"
 	line "uns helfen?"
 
-	para "Er kennt diese"
+	para "Er kennt diese "
 	line "Region wie seine"
 	cont "Westentasche."
 
@@ -106,16 +106,17 @@ Route77Guard_BeforeIlk:
 
 	para "Diese VM bringt"
 	line "dich schneller"
-	cont "nach Kaper City."
+	para "nach Capparia-"
+	line "City!"
 	sdone
 
 .after_HM_text
 	ctxt "VM02 ist Fliegen."
 
-	para "Deine #mon"
+	para "deine #mon "
 	line "fliegen dich hier-"
 	para "mit an Orte, die"
-	line "du bereits"
+	line "du bereits "
 	cont "besucht hast!"
 
 	para "Sprich nun mit"
@@ -126,13 +127,13 @@ Route77Guard_BeforeIlk:
 
 .no_badge_text
 	ctxt "Mir wurde befohlen"
-	line "fürs Erste diese"
+	line "fürs erste diese"
 	cont "Brücke zu bewachen"
 
-	para "Hättest du nur"
-	line "mehr Orden, dann"
+	para "Wenn du doch nur"
+	line "mehr Orden hättest"
 	para "könnte ich dich"
-	line "ohne Sorgen"
+	line "ohne sorgen "
 	cont "passieren lassen."
 	done
 
@@ -140,11 +141,11 @@ Route77_Trainer_1:
 	trainer EVENT_ROUTE_77_TRAINER_1, FISHER, 2, .before_battle_text, .battle_won_text
 
 	ctxt "Ich brauche mehr"
-	line "Wasser-#mon."
+	line "Wasser #mon."
 	done
 
 .before_battle_text
-	ctxt "Ich liebe Wasser-"
+	ctxt "Ich liebe Wasser"
 	line "#mon!"
 	done
 
@@ -165,7 +166,7 @@ Route77_Trainer_2:
 	done
 
 .battle_won_text
-	ctxt "Uh <...> Was?"
+	ctxt "Uh<...> Was?"
 	done
 
 Route77_Trainer_3:
@@ -177,7 +178,7 @@ Route77_Trainer_3:
 	done
 
 .before_battle_text
-	ctxt "2 große #mon"
+	ctxt "2 Große #mon"
 	line "gefangen!"
 	done
 
@@ -194,7 +195,7 @@ Route77_Trainer_4:
 
 .before_battle_text
 	ctxt "Ich musste sie"
-	line "einfach fangen <...>"
+	line "einfach fangen<...>"
 	done
 
 .battle_won_text
@@ -204,14 +205,14 @@ Route77_Trainer_4:
 Route77_Trainer_5:
 	trainer EVENT_ROUTE_77_TRAINER_5, CAMPER, 4, .before_battle_text, .battle_won_text
 
-	ctxt "Hmm <...> mir wird"
+	ctxt "Hmm<...> mir wird"
 	line "kalt ohne meine"
 	cont "#mon."
 
 	para "<...>"
 
 	para "Ich sollte dann zu"
-	line "einem #mon-"
+	line "einem #mon"
 	cont "Center gehen?"
 
 	para "Nein! Solch eine"
@@ -233,21 +234,21 @@ Route77_Trainer_5:
 Route77_Trainer_6:
 	trainer EVENT_ROUTE_77_TRAINER_6, PICNICKER, 4, .before_battle_text, .battle_won_text
 
-	ctxt "Ich hätte sie mehr"
+	ctxt "Ich hätte Sie mehr"
 	line "trainieren sollen<...>"
 	done
 
 .before_battle_text
-	ctxt "Ich habe nun drei"
+	ctxt "Ich habe nun Drei"
 	line "#mon gefangen!"
 
-	para "Zeit, sie"
+	para "Zeit sie"
 	line "auszuprobieren!"
 	done
 
 .battle_won_text
 	ctxt "Wenigstens hat es"
-	line "Spaß gemacht."
+	line "Spass gemacht."
 	done
 
 Route77_MapEventHeader:: db 0, 0

@@ -14,7 +14,7 @@ PrisonCafeteriaNPC1:
 
 	para "Diesen Fraß würde"
 	line "ich selbst niemals"
-	cont "essen. Haha!"
+	cont "essen hahah."
 	done
 
 PrisonCafeteriaNPC2:
@@ -22,14 +22,14 @@ PrisonCafeteriaNPC2:
 
 	para "Wegen meiner Er-"
 	line "kältung ist mir"
-	para "das Essen im Hals"
+	para "das Essen im hals"
 	line "stecken geblieben."
 
-	para "Es gibt das Ge-"
-	line "rücht über etwas"
-	para "Warmes & Fluffiges"
-	line "irgendwo im Ge-"
-	cont "fängnis versteckt."
+	para "Die Gerüchte sagen"
+	line "es gäbe etwas"
+	para "warmes & fluffiges"
+	line "versteckt irgendwo"
+	cont "im Gefängnis."
 
 	para "Vieleicht hält"
 	line "mich das ja warm."
@@ -37,22 +37,22 @@ PrisonCafeteriaNPC2:
 
 PrisonCafeteriaNPC3:
 	ctxt "Bei diesem Fraß"
-	line "ist es unmöglich,"
-	cont "gesund zu bleiben."
+	line "ist es unmöglich"
+	cont "Gesund zu bleiben."
 
-	para "Es ist fettig und"
+	para "Es ist zu fettig &"
 	line "löst bei mir so"
 	cont "ein Herzrasen aus."
 	done
 
 PrisonCafeteriaNPC4:
-	ctxt "Mampf <...>"
+	ctxt "Mampf<...>"
 
 	para "Ich bin überascht,"
 	line "dass das Essen so"
 	cont "gut schmeckt."
 
-	para "Wir sind hier ja"
+	para "Wir sind ja hier"
 	line "nur Insassen!"
 	done
 

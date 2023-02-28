@@ -55,10 +55,13 @@ ProvincialParkContest_FirelightCavernsEntranceNPC:
 	end
 
 .firelight_caverns_not_allowed_text
-	ctxt "Während des Wett-"
-	line "kampfs, sind die"
-	para "Leuchtfeuerhöhlen"
+	ctxt "Die Leuchtfeuer-"
+	line "höhle ist während"
+	para "der Challenge"
 	line "gesperrt."
+
+	para "Darauf zu bestehen"
+	line "bringt nichts!"
 	sdone
 
 ProvincialParkContest_GateNPC:
@@ -95,9 +98,9 @@ ProvincialParkContest_QuitParkMinigame:
 .are_you_leaving_text
 	ctxt "Gehst du?"
 	
-	para "Der Wettkampf ist"
+	para "Die Challenge ist"
 	line "vorbei, wenn du"
-	cont "jetzt gehst."
+	cont "gehst."
 	done
 
 ProvincialParkContest_MapEventHeader

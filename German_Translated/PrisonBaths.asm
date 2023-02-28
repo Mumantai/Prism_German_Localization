@@ -10,13 +10,15 @@ PrisonBathsHiddenItem:
 PrisonBathsNPC:
 	ctxt "Wusstest du?"
 
-	para "Es gehen oft Dinge"
-	line "in den Bädern"
-	cont "verloren."
+	para "Die Leute hier"
+	line "lassen oft Ihre"
+	para "Wertsachen im"
+	line "Bad liegen."
 
 	para "Wenn du etwas"
 	line "suchst, könntest"
-	cont "du es dort finden."
+	para "du es in den"
+	line "Bädern finden."
 	done
 
 PrisonBaths_MapEventHeader ;filler

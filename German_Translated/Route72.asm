@@ -9,27 +9,27 @@ Route72HiddenItem:
 
 Route72DirectionsSign:
 	ctxt "<UP> Oxalia City"
-	next "<DOWN><LEFT>Kaper City"
-	next "<DOWN><RIGHT>Klathrat"
+	next "<DOWN><LEFT>Capparia City"
+	next "<DOWN><RIGHT>Klathrat-"
 	next "  Tunnel"
 	done
 
 Route72_Trainer_1:
 	trainer EVENT_ROUTE_72_TRAINER_1, YOUNGSTER, 1, .before_battle_text, .battle_won_text
 
-	ctxt "Es ist hart, ein"
+	ctxt "Es ist hart ein"
 	line "Trainer zu sein!"
 
-	para "Du weißt nie,"
-	line "was dein Gegner"
-	cont "dabei hat!"
+	para "Du weist nie was"
+	line "dein Gegner dabei"
+	cont "hat!"
 	done
 
 .before_battle_text
 	ctxt "Hey!"
 
 	para "Wenn zwei Trainer"
-	line "sich ansehen,"
+	line "Augenkontakt haben"
 	cont "gibts einen Kampf!"
 	done
 
@@ -78,21 +78,21 @@ Route72_Trainer_3:
 Route72_Trainer_4:
 	trainer EVENT_ROUTE_72_TRAINER_4, POKEFANM, 1, .before_battle_text, .battle_won_text
 
-	ctxt "Ich habe meinen"
+	ctxt "Ich habe mein"
 	line "Urlaub dazu genuzt"
-	para "Pikachu-Anhänger"
+	para "Pikachu Anhänger"
 	line "zu sammeln!"
 	done
 
 .before_battle_text
 	ctxt "Wer ist der größte"
-	line "Pikachu-Fan?"
+	line "Pikachu Fan?"
 
 	para "Steht vor dir!"
 	done
 
 .battle_won_text
-	ctxt "Mein Pikachu <...>"
+	ctxt "Mein Pikachu<...>"
 	done
 
 Route72_MapEventHeader:: db 0, 0

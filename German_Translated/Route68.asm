@@ -8,16 +8,16 @@ Route68HiddenItem:
 	db GOLD_TOKEN
 
 Route68DirectionsSign:
-	ctxt "<LEFT> Akania Hafen"
+	ctxt "<LEFT> Akania-Hafen"
 	next "<RIGHT> Rijon Grenze"
-	next "<RIGHT><RIGHT>Heuhof City"
+	next "<RIGHT><RIGHT>Heuhofen"
 	done
 
 Route68_Trainer_1:
 	trainer EVENT_ROUTE_68_TRAINER_1, OFFICER, 4, .before_battle_text, .battle_won_text
 
 	ctxt "Verursache in der"
-	line "Rijon-Region bitte"
+	line "Rijon Region bitte"
 	cont "keine Probleme."
 
 	para "Naljo hat sowieso"
@@ -41,13 +41,13 @@ Route68_Trainer_2:
 	trainer EVENT_ROUTE_68_TRAINER_2, SWIMMERM, 15, .before_battle_text, .battle_won_text
 
 	ctxt "Also ich würde"
-	line "Naljo nicht"
-	cont "weiterempfelen."
+	line "Naljo nicht weiter"
+	cont "empfelen."
 	done
 
 .before_battle_text
 	ctxt "Ich bin aus der"
-	line "Rijon-Region und"
+	line "Rijon Region und"
 	para "möchte mir Naljo"
 	line "genauer anschauen."
 	done
@@ -55,7 +55,7 @@ Route68_Trainer_2:
 .battle_won_text
 	ctxt "Uff, gegen Leute"
 	line "aus Naljo zu"
-	cont "kämpfen, ist hart."
+	cont "kämpfen ist hart."
 	done
 
 Route68_Trainer_3:
@@ -92,8 +92,8 @@ Route68_Trainer_4:
 	done
 
 .before_battle_text
-	ctxt "Beim Schwimmen"
-	line "versuche ich, den"
+	ctxt "Beim schwimmen"
+	line "versuche ich den"
 	para "Kopf über Wasser"
 	line "zu halten."
 	done
@@ -119,7 +119,7 @@ Route68_Trainer_5:
 
 	para "So kann ich auf"
 	line "dem Schwimmweg von"
-	para "Heuhof City nach"
+	para "Heuhofen nach"
 	line "Torenia City eine"
 	cont "Pause einlegen."
 	done

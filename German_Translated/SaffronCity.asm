@@ -4,18 +4,18 @@ SaffronCity_MapScriptHeader;trigger count
 	db 0
 
 SaffronCityCitySign:
-	ctxt "Leuchtendes"
+	ctxt "Leuchtendes,"
 	next "goldenes Land des"
-	next "Handels"
+	next "Handels "
 	done
 
 SaffronCityGymSign:
-	ctxt "#mon-Arena"
+	ctxt "#mon Arena"
 	next "Leiterin: Sabrina"
 	done
 
 SaffronCityDojoSign:
-	ctxt "Kampf-Dojo"
+	ctxt "Kampf Dojo"
 	nl " "
 	next "Jeder ist"
 	next "willkommen!"
@@ -26,7 +26,7 @@ SaffronCitySilphSign:
 	ctxt "Silph Co."
 
 	nl " "
-	next "Zentral-"
+	next "Zentral"
 	next "Hauptquatier"
 	done
 
@@ -36,20 +36,20 @@ SaffronCityMrPsychicSign:
 	done
 
 SaffronCityTrainStationSign:
-	ctxt "Magnet-Zug"
+	ctxt "Magnet Zug"
 	done
 
 SaffronCityNPC1:
 	ctxt "Die Leute aus"
 	line "Naljo sind so"
-	para "ungezwungen und"
+	para "ungezwungen und "
 	line "faszinierend."
 
 	done
 
 SaffronCityNPC2:
 	ctxt "Ein berühmter"
-	line "#mon-Trainer"
+	line "#mon Trainer"
 	para "ist kürzlich in"
 	line "die Stadt gezogen."
 
@@ -61,9 +61,9 @@ SaffronCityNPC2:
 
 SaffronCityNPC3:
 	ctxt "Ich liebe die"
-	line "Silph Co. dafür,"
-	para "dass sie umwelt-"
-	line "freundlich"
+	line "Silph Co. dafür."
+	para "dass sie Umwelt-"
+	line "freundlich "
 	cont "geworden sind."
 	done
 
@@ -80,7 +80,7 @@ SaffronCityNPC5:
 	line "Sicherheitsgründen"
 	para "gilt für Menschen,"
 	line "die von außerhalb"
-	para "Kantos kommen,"
+	para "Kanto's kommen,"
 	line "die Stadt nicht zu"
 	cont "verlassen."
 
@@ -136,19 +136,19 @@ SaffronCitySilphWorker:
 
 .generic_opening_text
 	ctxt "Schön, mal an die"
-	line "frische Luft zu"
+	line "frische Luft zu "
 	cont "kommen!"
 
 	sdone
 
 .back_to_work_text
-	ctxt "Was, Herr Eich"
-	line "will mich wieder"
+	ctxt "Was, Dr. Eich will"
+	line "mich wieder "
 	cont "beschäftigen?!"
 
-	para "Es tut mir leid."
-	line "Lass uns abhauen,"
-	para "bevor es zu spät"
+	para "Es tut mir leid,"
+	line "lass uns abhauen,"
+	para "bevor es zu spät "
 	line "ist!"
 
 	sdone
@@ -156,14 +156,14 @@ SaffronCitySilphWorker:
 .blue_meets_worker_text
 	ctxt "Sorry, Chef!"
 
-	para "Herr Eich: Ja, ja."
-	line "Nun, bring deine"
+	para "Dr Eich: Ja, ja;"
+	line "nun, bring deine"
 	cont "Arbeit zu Ende."
 
 	sdone
 
 .created_master_ball_text
-	ctxt "Herr Eich: Gute"
+	ctxt "Dr Eich: Gute"
 	line "Arbeit, <PLAYER>!"
 
 	para "Vielen Dank, dass"
@@ -175,9 +175,9 @@ SaffronCitySilphWorker:
 
 	para "geworden bist!"
 
-	line "Der Meister-Ball:"
+	line "Der Meister-Ball -"
 	para "er wird jedes"
-	line "#mon zu 100%"
+	line "#mon zu 100% "
 	cont "fangen!"
 
 	para "<PLAYER>, ich kann"
@@ -189,19 +189,19 @@ SaffronCitySilphWorker:
 	sdone
 
 .interested_in_battle_text
-	ctxt "Bist du auch an"
-	line "einem #mon-"
-	para "Kampf"
+	ctxt "Bist Du auch an"
+	line "einem #mon"
+	para "Kampf "
 	line "interessiert?"
 
 	para "Ich schätze, ich"
-	line "könnte. Ich bin"
+	line "könnte; ich bin"
 	para "etwas eingerostet,"
 	line "aber ich nehme an,"
 	cont "ich könnte."
 
 	para "Sprich mit mir,"
-	line "wann immer du"
+	line "wann immer Du"
 	cont "kämpfen möchtest."
 
 	done

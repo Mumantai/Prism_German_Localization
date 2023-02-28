@@ -9,7 +9,7 @@ Route51HiddenItem:
 
 Route51DirectionsSign:
 	ctxt "<RIGHT> Route 50"
-	next "<DOWN> Faenumia City"
+	next "<DOWN> Heuhofen"
 	done
 
 Route51_Trainer:

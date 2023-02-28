@@ -49,7 +49,7 @@ IntroOutside_MapScriptHeader;trigger count
 	cont "ter verlassen hat."
 
 	para "Kein Kind möchte"
-	line "das erleben <...>"
+	line "das erleben<...>"
 
 	para "<PLAYER>, dein"
 	line "Vater war ein"
@@ -60,13 +60,14 @@ IntroOutside_MapScriptHeader;trigger count
 
 	para "Ich weiß du willst"
 	line "in seine Fuß-"
-	cont "stapfen treten <...>"
+	cont "stapfen treten<...>"
 
 	para "Aber bitte ver-"
 	line "sprich mir, egal"
-	cont "wohin dein Weg"
-	para "führt <...> vergiss"
-	line "deine Mutter nie."
+	para "wohin dein Weg"
+	line "dich führt<...>"
+	para "vergiss nie"
+	line "deine Mutter!"
 
 	para "Danke für die"
 	line "schöne Zeit,"
@@ -89,7 +90,7 @@ StartingGameEarthquake:
 
 IntroCampsiteFire:
 	ctxt "Sieht heiß aus!"
-	line "Nicht berühren <...>"
+	line "Nicht berühren<...>"
 	done
 
 IntroCampsiteMom:
@@ -98,7 +99,7 @@ IntroCampsiteMom:
 
 	para "Ich habe die Ruhe"
 	line "der Wildnis so"
-	cont "vermisst <...>"
+	cont "vermisst<...>"
 
 	para "Danke für die"
 	line "schöne Zeit,"
@@ -143,8 +144,8 @@ IntroMomLeavingDialogue:
 
 	para "<...>"
 
-	para "<...> pass auf dich"
-	line "auf, mein Kind <...>"
+	para "<...> ich liebe"
+	line "dich, mein Kind<...>"
 	sdone
 
 .approach_far

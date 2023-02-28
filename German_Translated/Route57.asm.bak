@@ -8,7 +8,7 @@ Route57HiddenItem:
 	db GOLD_TOKEN
 
 Route57GymSign:
-	ctxt "#mon Arena"
+	ctxt "#mon-Arena"
 	next "Leiter: Joe"
 	nl " "
 	next "Der normalste"

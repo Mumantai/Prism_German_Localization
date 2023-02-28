@@ -20,10 +20,10 @@ OwsauriPokecenterNPC2:
 	done
 
 OwsauriPokecenterNPC3:
-	ctxt "In Faenumia City,"
-	line "gibt es einen Ort,"
-	para "an dem Geologen"
-	line "die Erdbeben"
+	ctxt "In Heuhofen gibt"
+	line "es einen Ort, an"
+	para "dem Geologen die"
+	line "Erdbeben ausgiebig"
 	para "erforschen können,"
 	line "die unserer Region"
 	cont "so zusetzen."

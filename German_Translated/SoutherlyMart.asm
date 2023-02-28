@@ -4,21 +4,21 @@ SoutherlyMart_MapScriptHeader;trigger count
 	db 0
 
 SoutherlyMartNPC1:
-	ctxt "Ich bin hier, um"
+	ctxt "Ich bin hier, um "
 	line "die Paranormalität"
-	para "im Psion-Wald zu"
+	para "im Psion-Wald zu "
 	line "erforschen."
 
 	done
 
 SoutherlyMartNPC2:
 	ctxt "X-Spezial hebt den"
-	line "SPEZ. ANG eines"
+	line "SPEZ. ANG eines "
 	cont "#mons im Kampf."
 
 	para "Ich dachte,"
-	line "es erhöht auch"
-	cont "seine SPEZ. VERT <...>"
+	line "es erhöht auch "
+	cont "seine SPEZ. VERT<...> "
 	done
 
 SoutherlyMart_MapEventHeader:

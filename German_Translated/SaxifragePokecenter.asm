@@ -6,9 +6,9 @@ SaxifragePokecenter_MapScriptHeader;trigger count
 SaxifragePokecenterNPC1:
 	ctxt "Den eingesperrten"
 	line "#mon wird die"
-	para "Nutzung des"
-	line "#mon-Centers"
-	cont "verwehrt <...>"
+	para "nutzung des"
+	line "#mon Centers"
+	cont "verwehrt<...>"
 
 	para "Sie kennen es"
 	line "auch nicht anders."
@@ -16,7 +16,7 @@ SaxifragePokecenterNPC1:
 	para "Sie wurden von"
 	line "ihren Trainern"
 	para "ohnehin ständig"
-	line "misshandelt <...>"
+	line "misshandelt<...>"
 	done
 
 SaxifragePokecenterNPC2:
@@ -25,13 +25,13 @@ SaxifragePokecenterNPC2:
 
 	para "Wilde #mon"
 	line "laufen frei herum"
-	para "und nerven jeden,"
+	para "und nerven jeden"
 	line "der diese Insel"
-	cont "betritt <...>"
+	cont "betritt<...>"
 	done
 
 SaxifragePokecenterNPC3:
-	ctxt "Meiner Meinung"
+	ctxt "Meiner Meinung "
 	line "nach sind die"
 	para "Bedingungen für"
 	line "die Gefangenen"

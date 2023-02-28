@@ -7,31 +7,31 @@ TrainerHouse_Trainer_1:
 	trainer EVENT_TRAINER_HOUSE_TRAINER_1, SUPER_NERD, 2, .before_battle_text, .battle_won_text
 
 	ctxt "Anscheinend bist"
-	line "du kein Freund!"
+	line "du kein freund!"
 	done
 
 .before_battle_text
 	ctxt "Ich komme oft her,"
-	line "um mit Freunden"
+	line "um mit freunden"
 	cont "zu trainieren."
 	done
 
 .battle_won_text
-	ctxt "<...> Wrrrr <...>"
+	ctxt "<...>Wrrrr<...>"
 	done
 
 TrainerHouse_Trainer_2:
 	trainer EVENT_TRAINER_HOUSE_TRAINER_2, SUPER_NERD, 1, .before_battle_text, .battle_won_text
 
-	ctxt "Ich kenne Stär-"
-	line "ken aller Typen."
+	ctxt "Ich kenne die Stä-"
+	line "rken aller Typen."
 	done
 
 .before_battle_text
 	ctxt "Mit verschiedenen"
 	line "#mon bestehst"
 	cont "du eher gegen"
-	cont "Typ-Schwächen."
+	cont "Typ-schwächen."
 
 	para "Im besten Fall"
 	line "hast du keine Typ-"
@@ -46,22 +46,22 @@ TrainerHouse_Trainer_3:
 	trainer EVENT_TRAINER_HOUSE_TRAINER_3, POKEMANIAC, 2, .before_battle_text, .battle_won_text
 
 	ctxt "Ja, hör auf zu"
-	line "prahlen!"
+	line "Prahlen!"
 	done
 
 .before_battle_text
-	ctxt "Mal schauen <...>"
+	ctxt "mal schauen<...>"
 	done
 
 .battle_won_text
-	ctxt "Ohjemine!"
+	ctxt "Ohyemine!"
 	done
 
 TrainerHouse_Trainer_4:
 	trainer EVENT_TRAINER_HOUSE_TRAINER_4, POKEMANIAC, 1, .before_battle_text, .battle_won_text
 
 	ctxt "Du hast mich"
-	line "geschockt <...>"
+	line "geschockt<...>"
 	done
 
 .before_battle_text
@@ -111,7 +111,7 @@ TrainerHouseBoss:
 	para "Ich freu mich für"
 	line "euch, aber so"
 	para "langsam gehen mir"
-	line "die #mon aus <...>"
+	line "die #mon aus<...>"
 
 	para "Ich verliere nur!"
 	done
@@ -122,18 +122,18 @@ TrainerHouseBoss:
 	cont "Trainer."
 
 	para "Hast du das Zeug"
-	line "zum Trainer?"
+	line "zum Trainer?<...>"
 
 	para "Wir werden sehen!"
 	sdone
 
 .battle_won_text
 	ctxt "WAAS!"
-	line "Besiegt <...>"
+	line "besiegt<...>"
 	done
 
 .after_battle_text
-	ctxt "Glückwunsch."
+	ctxt "Glückwunsch,"
 	line "Das ist für dich."
 
 	para "Ich fand dieses"
@@ -152,7 +152,7 @@ TrainerHouseBoss:
 	ctxt "Du hast kein Platz"
 	line "im Team!"
 
-	para "Komm wieder, wenn"
+	para "Komm wieder wenn"
 	line "du Platz hast."
 	done
 

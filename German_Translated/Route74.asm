@@ -10,7 +10,7 @@ Route74HiddenItem:
 Route74DirectionsSign:
 	ctxt "<DOWN> Euphorbia City"
 	next "<RIGHT> Lauralia City"
-	next "<LEFT> Dorfheide"
+	next "<LEFT> Heidenau"
 	done
 
 Route74_Trainer_1:
@@ -38,19 +38,19 @@ Route74_Trainer_2:
 	trainer EVENT_ROUTE_74_TRAINER_2, POKEFANM, 2, .before_battle_text, .battle_won_text
 
 	ctxt "Ich bin nicht der"
-	line "einzige Pikachu-"
+	line "einzige Pikachu"
 	cont "Fan in Naljo."
 
 	para "Aber!"
 
-	para "Ich mache es von"
+	para "Ich mache es vom"
 	line "Herzen gerne!"
 	done
 
 .before_battle_text
 	ctxt "Haha!"
 
-	para "Zeit, dir mein"
+	para "Zeit dir mein"
 	line "Pikachu zu zeigen!"
 	done
 
@@ -61,18 +61,18 @@ Route74_Trainer_2:
 Route74_Trainer_3:
 	trainer EVENT_ROUTE_74_TRAINER_3, POKEFANF, 1, .before_battle_text, .battle_won_text
 
-	ctxt "Baby-#mon sind"
+	ctxt "Baby #mon sind"
 	line "so niedlich!"
 	done
 
 .before_battle_text
-	ctxt "Zeig mir, wie süß"
+	ctxt "Zeig mir wie süß"
 	line "dein #mon ist!"
 	done
 
 .battle_won_text
-	ctxt "Dass ich verliere,"
-	line "ist mir egal <...>"
+	ctxt "Das ich verliere"
+	line "ist mir egal<...>"
 	done
 
 Route74_Trainer_4:
@@ -84,7 +84,7 @@ Route74_Trainer_4:
 
 	para "Jedes hat seine"
 	line "individuellen"
-	cont "Stärken."
+	cont "stärken."
 	done
 
 .before_battle_text

@@ -15,7 +15,7 @@ Route67HiddenItem:
 
 Route67RouteSign:
 	ctxt "Der Pfad zur"
-	next "Rijon-Liga!"
+	next "Rijon Liga!"
 	done
 
 Route67_MapEventHeader ;filler

@@ -9,7 +9,7 @@ Route58HiddenItem:
 
 Route58DirectionsSign:
 	ctxt "<UP> Botania City"
-	next "<DOWN> Kastro-Tal"
+	next "<DOWN> Kastro Tal"
 	done
 
 Route58_MapEventHeader ;filler

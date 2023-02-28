@@ -15,10 +15,10 @@ PhloxPokecenterNPC2:
 	line "Bergen ist so"
 	cont "entspannend."
 
-	para "Ich sollte ein"
-	line "Haus kaufen"
-	para "und hier nach"
-	line "Phloxia ziehen!"
+	para "Ich sollte hier"
+	line "einen Haus"
+	para "kaufen und nach"
+	line "Flokalis ziehen!"
 	done
 
 PhloxPokecenter_MapEventHeader ;filler

@@ -4,34 +4,34 @@ SaffronCopycatsHouse_MapScriptHeader;trigger count
 	db 0
 
 SaffronCopycatsHousePikachuDoll:
-	ctxt "Eine Pikachu-"
+	ctxt "Eine Pikachu"
 	line "Puppe!"
 
 	done
 
 SaffronCopycatsHouseGengarDoll:
-	ctxt "Eine Gengar-"
+	ctxt "Eine Gengar"
 	line "Puppe!"
 
 	done
 
 SaffronCopycatsHouseCaterpieDoll:
-	ctxt "Eine Raupy-"
+	ctxt "Eine Raupy"
 	line "Puppe!"
 
 	done
 
 SaffronCopycatsHouseLarvitarDoll:
-	ctxt "Eine Larvitar-"
+	ctxt "Eine Larvitar"
 	line "Puppe!"
 
-	para "Ah, Erinnerungen <...>"
+	para "Ah, Erinnerungen<...>"
 	done
 
 SaffronCopycat:
 	ctxt "Hallo!"
 
-	para "Man nennt mich"
+	para "Man nennt mich "
 	line "Imitator."
 
 	para "Ich ahme nicht"

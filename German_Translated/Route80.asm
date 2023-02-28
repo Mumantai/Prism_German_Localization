@@ -4,7 +4,7 @@ Route80_MapScriptHeader;trigger count
 	db 0
 
 Route80ProphetSign:
-	ctxt "Der Naljo-Prophet"
+	ctxt "Der Naljo Prophet"
 	done
 
 Route80QRCode:
@@ -18,9 +18,9 @@ Route80QRCode:
 	jumptext .text
 
 .text
-	ctxt "Silber Ei-"
+	ctxt "Silber Ei -"
 	line "Route 56 auf"
-	cont "See-Felsen."
+	cont "See Felsen."
 	done
 	
 Route80_Trainer_1:
@@ -66,7 +66,7 @@ Route80_Trainer_2:
 
 	para "Mit diesem Körper"
 	line "kriege ich jedes"
-	cont "Mädchen, Baby!"
+	cont "Mädchen, baby!"
 	done
 
 .before_battle_text
@@ -79,7 +79,7 @@ Route80_Trainer_2:
 
 .battle_won_text
 	ctxt "Nunja, zurück zum"
-	line "Schwimmen!"
+	line "schwimmen!"
 	done
 
 Route80_Trainer_3:
@@ -88,7 +88,7 @@ Route80_Trainer_3:
 	ctxt "Die Stürme hier"
 	line "haben andere"
 	para "Flüchtlinge auf"
-	line "dem Gewissen."
+	line "dem gewissen."
 
 	para "Wir müssen auf"
 	line "dieser Route sehr"
@@ -96,7 +96,7 @@ Route80_Trainer_3:
 	done
 
 .before_battle_text
-	ctxt "Ich versuche, aus"
+	ctxt "Ich versuche aus"
 	line "dem schrecklichen"
 	para "Gefängniss zu"
 	line "entkommen."
@@ -109,7 +109,7 @@ Route80_Trainer_4:
 	trainer EVENT_ROUTE_80_TRAINER_4, FISHER, 5, .before_battle_text, .battle_won_text
 
 	ctxt "Dieser Angler ist"
-	line "ein Verwandter des"
+	line "ein verwandter des"
 	para "bekannten"
 	line "Angler-Gurus."
 	done
@@ -133,31 +133,31 @@ Route80_Trainer_5:
 	ctxt "Dieser Teil von"
 	line "Naljo hat sehr"
 	para "oft Gewitterstürme"
-	line "und man weiß nicht"
-	cont "mal wieso <...>"
+	line "und man weis nicht"
+	cont "mal wieso<...>"
 	done
 
 .before_battle_text
 	ctxt "Diese Route hat"
 	line "eigenartige Wetter"
-	cont "Ereignisse <...>"
+	cont "Ereignisse<...>"
 	done
 
 Route80_Trainer_6:
 	trainer EVENT_ROUTE_80_TRAINER_6, FISHER, 6, .before_battle_text, .battle_won_text
 
 	ctxt "Keiner darf hier"
-	line "sein außer mir,"
+	line "sein, ausser ich"
 	cont "kapiert?"
 	done
 
 .before_battle_text
-	ctxt "Hey du! Das hier"
+	ctxt "Hey du! das hier"
 	line "ist mein Gebiet!"
 	done
 
 .battle_won_text
-	ctxt "Naja <...>"
+	ctxt "Naja<...>"
 	done
 
 Route80_Trainers_3_5_BattleWon_Text:

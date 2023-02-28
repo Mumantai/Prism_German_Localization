@@ -5,14 +5,14 @@ PhaceliaGym_MapScriptHeader;trigger count
 
 PhaceliaGymGuide:
 	ctxt "Andre ist der Typ"
-	line "Arenaleiter, der"
+	line "Arenaleiter der"
 	para "seine Fäuste"
 	line "sprechen lässt."
 
 	para "Er ist sehr"
-	line "hitzig, also pass"
-	para "auf, wenn du mit"
-	line "ihm sprichst."
+	line "hitzig also geb"
+	para "acht auf deine"
+	line "Worte."
 	done
 
 PhaceliaGym_Trainer_1:
@@ -24,35 +24,35 @@ PhaceliaGym_Trainer_1:
 
 .before_battle_text
 	ctxt "Du brauchst jahre-"
-	line "langes Training,"
+	line "langes training"
 	para "bevor Andre dich"
 	line "überhaupt als"
 	cont "Schüler aufnimmt!"
 	done
 
 .battle_won_text
-	text "Aaaaargh!"
+	text "UGAH UGAH!"
 	done
 
 PhaceliaGym_Trainer_2:
 	trainer EVENT_PHACELIA_GYM_TRAINER_2, BLACKBELT_T, 4, .before_battle_text, .battle_won_text
 
-	ctxt "Ich wache um 3 Uhr"
-	line "Morgens auf und"
-	para "trainiere bis"
-	line "Abends um 9 Uhr!"
+	ctxt "Ich wache um 03:00"
+	line "Uhr Morgens auf"
+	para "und trainiere bis"
+	line "abends um 21:00!"
 
 	para "Ich muss stärker"
-	line "werden, als du es"
+	line "werden als du es"
 	para "dir je erträumen"
 	line "könntest!"
 	done
 
 .before_battle_text
-	ctxt "Aufstehen um 4,"
-	line "16 Stunden Trai-"
-	para "Training und nur"
-	line "30 Minuten Pause."
+	ctxt "Um 04:00 Morgens"
+	line "aufstehen, 16std"
+	para "training mit nur"
+	line "3x a 10min Pausen."
 
 	para "Tag für Tag."
 
@@ -77,7 +77,7 @@ PhaceliaGym_Trainer_3:
 .before_battle_text
 	ctxt "Ich bin zwar nur"
 	line "der Stellvertreter"
-	para "hier <...> Aber"
+	para "hier<...> Aber"
 	line "das ist egal!"
 
 	para "An mir kommst du"
@@ -85,7 +85,7 @@ PhaceliaGym_Trainer_3:
 	done
 
 .battle_won_text
-	ctxt "Ungerecht!!"
+	ctxt "UNMÖGLICH!"
 	done
 
 PhaceliaGymLeader:
@@ -118,20 +118,21 @@ PhaceliaGymLeader:
 	para "bringen uns an den"
 	line "Abgrund."
 
-	para "Wenn das passiert,"
-	line "werden meine Crew"
-	para "und unsere #mon"
-	line "die stärkste Macht"
-	para "auf der ganzen"
-	line "Welt sein!"
+	para "Bis dahin werden"
+	line "meine Crew und ich"
+	para "mit unseren"
+	line "#mon die"
+	para "stärkste Allianz"
+	line "bilden!"
 	done
 
 .introduction_text
-	ctxt "Hey, wie hast du's"
-	line "so weit geschafft?"
+	ctxt "Hmm, wie kamst du"
+	line "so weit?"
 
-	para "Meine Leute müssen"
-	line "härter trainieren."
+	para "Meine Jünger"
+	line "brauchen ein"
+	cont "härteres Training!"
 
 	para "Ich bin Andre."
 
@@ -141,55 +142,62 @@ PhaceliaGymLeader:
 	para "Meine #mon und"
 	line "ich haben das hier"
 	para "mit unseren Händen"
-	line "ausgegraben!"
+	line "gegraben!"
 
-	para "Diese Bauarbeiter"
-	line "sind erbärmlich."
-	para "Verlassen sich auf"
-	line "die Technik, an-"
-	para "statt ihre Körper"
-	line "zu unzerstörbaren"
-	para "Kampfmaschinen zu"
-	line "stählen!"
+	para "Die Minenarbeiter"
+	line "hier, sind so"
+	para "schwächlich, weil"
+	line "Sie ohne"
+	para "Technologie nichts"
+	line "mehr erledigen"
+	cont "könnten."
+	
+	para "Statt einfach Ihre"
+	line "Körper zu einer"
+	para "Maschiene zu"
+	line "transofrmieren<...>"
 
+	para "Naja egal<...>"
 
-	para "Denkst wohl ich"
-	line "bin verrückt?"
-
-	para "Pass nur auf!"
+	para "Jetzt zeige ich"
+	line "dir meine Brutale"
+	para "Berge-Zerfetzende"
+	line "MACHT!"
 	sdone
 
 .battle_won_text
-	ctxt "Nein!"
+	ctxt "NEIN!"
 
 	para "Jetzt bist du noch"
 	line "stark, aber wenn"
 	para "die Gesellschaft"
-	line "auseinanderbricht"
-	para "und du deinen Beu-"
-	line "tel nicht mehr"
-	para "füllen kannst,"
-	line "sieht es schlecht"
-	cont "für dich aus!"
+	line "auseinander bricht"
+	para "und deinen Beutel"
+	line "nicht mehr füllen"
+	para "kannst, sieht es"
+	line "schlecht für dich"
+	cont "aus!"
 
 	para "Hier hast du zwar"
 	line "den Orden, aber"
-	para "komm bloß nicht"
-	line "heulend zu mir,"
 	para "wenn die Welt"
-	line "untergeht!"
+	line "untergeht, komm"
+	para "nicht heulend zu"
+	line "mir!"
 	done
 
 .received_badge_text
 	ctxt "<PLAYER> erhält"
-	line "den Muskel-Orden!"
+	line "den Muskelorden!"
 	done
 
 .before_giving_TM_text
 	ctxt "Ich muss mich von"
-	line "solchen ätzenden"
-	para "Abkürzungen der"
-	line "Technologie lösen."
+	line "den weichmachenden"
+	para "vorteilen der"
+	line "Technologie lösen"
+	para "um Hart und flei-"
+	line "ßig zu bleiben."
 
 	para "Nimm schon."
 	done
@@ -198,18 +206,18 @@ PhaceliaGymLeader:
 	ctxt "Diese TM ist"
 	line "Wuchtschlag."
 
-	para "Sie ist ungenau,"
-	line "aber wenn sie"
+	para "Sie ist Ungenau,"
+	line "aber wenn Sie"
 	para "trifft, wird der"
-	line "Gegner verwirrt!"
+	line "Gegn. Verwirrt!"
 
-	para "Für dich ist sie"
-	line "vielleicht ein"
-	para "Segen, aber ich"
-	line "sehe in ihr einen"
-	para "Weg deine Überle-"
-	line "bensfähigkeiten"
-	cont "einzuschränken!"
+	para "Das ist mein Weg"
+	line "mit meinen Fäusten"
+	para "mir die vorteile"
+	line "zu verschaffen!"
+	para "Meine Schläge sind"
+	line "daher immer"
+	cont "wuchtig!"
 	done
 
 PhaceliaGym_MapEventHeader ;filler

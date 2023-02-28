@@ -23,7 +23,7 @@ RuinsF5GrappleHookSpot:
 	para "Wenn man da hoch"
 	line "käme, hätte man"
 	para "eine gute"
-	line "Übersicht <...>"
+	line "übersicht<...>"
 	done
 
 .use_hook_text
@@ -74,16 +74,16 @@ RuinsF5Chest:
 	para "Es sieht so aus,"
 	line "als könnte man"
 	para "an ihr 4 Items"
-	line "platzieren <...>"
+	line "platzieren<...>"
 
-	para "Kann man ihn"
+	para "Kann man Ihn"
 	line "vieleicht so"
 	cont "öffnen?"
 	done
 
 .placed_jewels_text
 	ctxt "4 Juwelen wurden"
-	line "eingesetzt <...>"
+	line "eingesetzt<...>"
 
 	para "Sie passen"
 	line "perfekt!"
@@ -93,7 +93,7 @@ RuinsF5Chest:
 	done
 
 .opened_text
-	ctxt "In ihr ist <...>"
+	ctxt "In Ihr ist<...>"
 
 	para "Das Prismajuwel!"
 	sdone
@@ -117,7 +117,7 @@ RuinsF5_PatrollerGreen:
 	line "den Scherben des"
 	cont "Kröten-Wächters."
 
-	para "Wir werden reich,"
+	para "Wir werden Reich,"
 	line "wenn wir es finden"
 	para "und es diesen"
 	line "Forschern"
@@ -125,7 +125,7 @@ RuinsF5_PatrollerGreen:
 
 	para "Bisher haben wir"
 	line "nur wertlose"
-	cont "Juwelen gefunden <...>"
+	cont "Juwelen gefunden<...>"
 
 	para "Aber diesen hier,"
 	line "kriegst du nicht."
@@ -133,7 +133,7 @@ RuinsF5_PatrollerGreen:
 
 .battle_won_text
 	ctxt "Das wars mit der"
-	line "Karibikreise <...>"
+	line "Karibik Reise<...>"
 	done
 
 RuinsF5_MapEventHeader ;filler

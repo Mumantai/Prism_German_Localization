@@ -166,10 +166,10 @@ PrisonF2RoofCardGuard:
 	done
 
 .got_roof_card_text
-	ctxt "Oh, du hast eine"
-	line "Dachkarte? Dann"
-	para "lasse ich dich"
-	line "einfach mal rein."
+	ctxt "Da du die"
+	line "Dachkarte besitzt"
+	para "darfst du hier"
+	line "glaube ich sein."
 	sdone
 
 PrisonF2_MapEventHeader:: db 0, 0

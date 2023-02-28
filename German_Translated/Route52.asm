@@ -8,7 +8,7 @@ Route52HiddenItem:
 	db GOLD_TOKEN
 
 Route52DirectionsSign:
-	ctxt "<RIGHT> Faenumia Docks"
+	ctxt "<RIGHT> Heuhofen-Hafen"
 	done
 
 Route52_Trainer:

@@ -47,7 +47,7 @@ MagikarpCavernsEndNPC:
 	para "Ich gewähre dir"
 	line "den Zutritt in den"
 	para "Süden des Lauralia"
-	line "Forst."
+	line "-Waldes."
 	sdone
 
 MagikarpCavernsEnd_MapEventHeader:: db 0, 0

@@ -4,7 +4,7 @@ Route71b_MapScriptHeader;trigger count
 	db 0
 
 Route71bBattleTowerSign:
-	ctxt "Battle Tower"
+	ctxt "Duellturm"
 	done
 
 Route71b_Trainer_1:
@@ -32,25 +32,25 @@ Route71b_Trainer_2:
 	trainer EVENT_ROUTE_71B_TRAINER_2, FIREBREATHER, 8, .before_battle_text, .battle_won_text
 
 	ctxt "Es gibt diverse"
-	line "Items, die du"
-	para "durch Bergbau an"
-	line "anderen Orten"
-	cont "ausgraben kannst!"
+	line "Items die du durch"
+	para "Bergbau an anderen"
+	line "Orten ausgraben"
+	cont "kannst!"
 
 	para "Wenn du z.B. nach"
 	line "Feuerstein suchst,"
-	cont "geh in den"
-	para "Feuerlichthöhlen"
+	cont "geh in der"
+	para "Leuchtfeuerhöhle"
 	line "abbauen!"
 	done
 
 .before_battle_text
-	ctxt "Ich kenne ein"
-	line "Geheimnis über"
+	ctxt "Ich kenne ein "
+	line "Geheimniss über"
 	cont "den Bergbau."
 
 	para "Schlag mich und"
-	line "ich sag's dir!"
+	line "ich sags dir!"
 	done
 
 .battle_won_text
@@ -63,8 +63,8 @@ Route71b_Trainer_3:
 
 	ctxt "Wenn du nach Osten"
 	line "gehst, gelangst du"
-	para "zu den"
-	line "Feuerlichthöhlen."
+	para "zu der"
+	line "Leuchtfeuerhöhle."
 
 	para "Dort habe ich"
 	line "meine #mon her!"
@@ -72,7 +72,7 @@ Route71b_Trainer_3:
 
 .before_battle_text
 	ctxt "Zeit zum"
-	line "Schmelzen!"
+	line "schmelzen!"
 	done
 
 .battle_won_text

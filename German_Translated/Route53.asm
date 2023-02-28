@@ -9,7 +9,7 @@ Route53HiddenItem:
 
 Route53Sign:
 	ctxt "<UP> Maritima City"
-	next "<DOWN> Kieselingen"
+	next "<DOWN> Kiesdorf"
 	done
 
 Route53ElixirGiveawayDude:

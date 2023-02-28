@@ -41,7 +41,7 @@ Route86LockedDoor:
 	end
 	
 .locked_text
-	ctxt "Die Tür ist"
+	ctxt "Die Tür ist "
 	line "verschlossen."
 
 
@@ -50,7 +50,7 @@ Route86LockedDoor:
 .opened_text
 	ctxt "Die Tür wurde mit"
 	line "dem"
-	para "Prismaschlüssel"
+	para "Prismaschlüssel "
 	line "geöffnet!"
 
 	done

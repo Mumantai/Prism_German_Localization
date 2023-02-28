@@ -42,16 +42,16 @@ PrisonB1FPasswordDoor:
 	ctxt "Die Tür ist"
 	line "verschlossen."
 
-	para "Man braucht ein"
-	line "Passwort um sie"
-	cont "zu öffnen."
+	para "Es braucht einen"
+	line "Passwort zum"
+	cont "öffnen."
 	done
 
 .door_password_text
 	ctxt "<PLAYER> gibt"
 	line "das Passwort ein."
 
-	para $72, "Knuddelgelée!", $73
+	para $72, "Wigglyjelly!", $73
 
 	para "Die Tür ist offen!"
 	sdone
@@ -71,102 +71,105 @@ PrisonB1FRival:
 	jumptext .got_HM_text
 
 .before_battle_text
-	ctxt "Du suchst also"
+	ctxt "Suchst du etwa"
 	line "auch nach einem"
 	cont "Weg hier raus?"
 
 	para "Dieses Gefängnis"
 	line "wird von einem"
 	para "faulen Geschäfts-"
-	line "mann geleitet"
-	para "und von nutzlosen"
-	line "Wärtern bewacht."
+	line "mann geleitet &"
+	para "von fetten Wärtern"
+	line "bewacht."
 
-	para "Mich hat man wegen"
-	line "meiner Kämpfe und"
-	para "harten Trainings-"
-	line "Methoden hier"
-	para "eingesperrt, aber"
-	line "zum Leidwesen für"
-	para "für diese Welt"
-	line "voller Schwäch-"
-	para "linge, kann mich"
-	line "so bröseliger"
-	para "Beton hier nicht"
-	line "gefangen halten!"
+	para "Ich wurde für"
+	line "meine sehr harten"
+	para "Kampf & Trainings-"
+	line "Methoden"
+	cont "eingesperrt, aber<...>"
 
-	para "In #mon-Kämpfen"
-	line "zeige ich die"
-	para "selbe Härte, wie"
-	line "auch die Natur."
+	para "Glücklicherweise"
+	line "bin ich in einer"
+	para "Welt voller"
+	line "schwächlinge viel"
+	para "zu Stark um von"
+	line "Wänden aus ödem"
+	para "Zement aufgehalten"
+	line "zu werden!"
 
-	para "Denkst du etwa,"
-	line "diese kleinen"
-	para "Racker haben nur"
-	line "aus Spaß gelernt,"
-	para "Feuer zu speien,"
-	line "Felsen zu werfen"
-	para "und ihre Feinde"
-	line "aufzuschlitzen?"
+	para "Ich kämpfe mit"
+	line "#mon so, wie es"
+	para "von Gott gewollt"
+	line "ist."
+
+	para "Denkst du etwa"
+	line "diese Kreaturen"
+	para "können Feuer"
+	line "speihen, Felsen"
+	para "werfen & Ihre"
+	line "Gegn. aufschlitzen"
+	para "nur wegen Spaß"
+	line "am Sport?"
 
 	para "Natürlich nicht!"
 
-	para "Ich Kämpfe mit"
-	line "ihnen so, wie die"
-	para "Natur es will:"
-	line "Erbarmungslos."
+	para "Ich Kämpfe so, wie"
+	line "es von der Natur"
+	para "gewollt ist:"
+	line "ERBARMUNGSLOS."
 
-	para "Wahre Stärke"
-	line "erlangt man nur,"
-	para "wenn man die"
-	line "Schwächen seiner"
-	para "Gegner ausnutzt"
-	line "und nie die"
-	para "Kontrolle über das"
-	line "Schlachtfeld"
-	cont "verliert!"
+	para "Du erlangst die"
+	line "absolute Macht,"
+	para "wenn du die"
+	line "schwäche deiner"
+	para "Gegner kennst &"
+	line "die Kontrolle über"
+	para "das Kampffeld"
+	line "aufrecht erhälst!"
 
-	para "Nun trau dich und"
-	line "spüre die Gewalt"
-	cont "der Natur! Haha!"
+	para "Komm her, und"
+	line "spüre die Gewallt"
+	cont "der Natur! Muhahah"
 	done
 
 .battle_won_text
-	ctxt "Unmöglich!"
+	ctxt "Eine"
+	line "Naturkatastrophe!"
 	done
 
 .after_winning_text
 	ctxt "Du tust mir schon"
-	line "etwas Leid."
+	line "etwas leid."
 
 	para "Du wirst niemals"
 	line "wissen wie es ist,"
-	para "hier drin kämpfen"
-	line "zu müssen wie ich."
+	para "hier drinn kämpfen"
+	line "zu müssen wie ich<...>"
 
-	para "Nimm diese VM als"
-	line "Trostpflaster."
+	para "Daher nimm diese"
+	line "VM an dich!"
 	sdone
 
 .got_HM_text
-	ctxt "Damit kann man von"
-	line "hier entkommen!"
+	ctxt "Das werde ich zum"
+	line "flüchten nutzen."
 
-	para "Ich werde dir aber"
-	line "nicht sagen, wie."
-	para "Das wirst du schon"
-	line "selber heraus-"
-	cont "finden müssen!"
+	para "Ich werde dir"
+	line "nicht zeigen wie"
+	para "man es nutzt, das"
+	line "wirst du selbst"
+	para "herausfinden"
+	line "müssen!"
 	done
 
 .after_giving_HM_text
-	ctxt "Eines verspreche"
-	line "ich dir:"
-	
-	para "Bei unserem nächs-"
-	para "ten Kampf, werde"
-	line "ich meinen Willen"
-	cont "durchsetzen!"
+	ctxt "Ich verspreche dir"
+	line "das nächstemal"
+	para "wenn wir uns sehen"
+
+	para "wird der Kampf so"
+	line "enden wie ich es"
+	cont "WILL!"
 	done
 
 PrisonB1FMetagross:

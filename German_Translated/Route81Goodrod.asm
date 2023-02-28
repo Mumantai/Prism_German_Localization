@@ -21,11 +21,11 @@ Route81GoodrodNPC:
 .introduction_text
 	ctxt "Hi!"
 
-	para "Ich bin der Angel-"
-	line "Guru <...> ähm."
+	para "Ich bin der Angel"
+	line "Gurus<...> ähm."
 
 	para "Nunja, ich bin mit"
-	line "ihm verwandt."
+	line "Ihm verwandt."
 
 	para "Ich habe hier eine"
 	line "professionelle"
@@ -47,7 +47,7 @@ Route81GoodrodNPC:
 
 .no_space_text
 	ctxt "Du hast kein"
-	line "Platz im Beutel!"
+	line "platz im Beutel!"
 	done
 
 Route81Goodrod_MapEventHeader ;filler

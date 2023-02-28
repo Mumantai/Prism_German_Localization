@@ -7,18 +7,17 @@ Route67Pokecenter_MapScriptHeader;trigger count
 Route67PokecenterNPC:
 	ctxt "Weiter oben"
 	line "befinden sich"
-	para "die Seneza-"
-	line "Höhlen."
+	cont "die Senecahöhle."
 
 	para "Es wurde zu einem"
 	line "beliebten Ort für"
-	para "Trainer, seit dem"
+	para "Trainer seit dem"
 	line "das Warp hinzukam."
 
 	para "Sie üben mit"
-	line "anderen Trainern,"
+	line "anderen Trainern"
 	para "um sich für die"
-	line "Rijon-Liga"
+	line "Rijon Liga"
 	cont "vorzubereiten."
 	done
 

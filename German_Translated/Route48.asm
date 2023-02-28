@@ -80,7 +80,7 @@ Route48_Trainer_3:
 
 .before_battle_text
 	ctxt "Ich werde an"
-	line "diesen Docks ein"
+	line "im Hafen ein"
 	para "paar Donuts"
 	line "machen!"
 

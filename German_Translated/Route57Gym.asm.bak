@@ -4,7 +4,7 @@ Route57Gym_MapScriptHeader;trigger count
 	db 0
 
 Route57GymInsideSign:
-	ctxt "Normal Arena"
+	ctxt "Normalo Arena"
 	para "Leiter: Joe"
 	done
 
@@ -32,23 +32,24 @@ Route57GymLeader:
 	jumptext .after_TM_text
 
 .before_battle_text
-	ctxt "Hallo, ich bin Joe"
-	line "und das hier ist"
-	para "die Normal Arena."
+	ctxt "Hallo, mein Name"
+	line "ist Joe, der"
+	para "Leiter der Normalo"
+	line "Arena in Rijon!"
 
-	para "Alle unnormalen"
-	line "Leute haben die"
-	para "Arena verlassen,"
-	line "weil ich ihnen zu"
-	cont "normal bin."
+	para "Ich bin so normal,"
+	line "dass alle"
+	para "anormalen Menschen"
+	line "meine Arena"
+	cont "verlassen haben."
 
 	para "Dieser Ort gehört"
 	line "jetzt ganz mir und"
-	cont "ist total normal."
+	cont "ist sehr normal."
 
-	para "Also, bist du"
+	para "Nun, bist Du"
 	line "bereit für einen"
-	cont "normalen Kampf?"
+	cont "normalo Kampf?"
 
 	sdone
 
@@ -56,34 +57,34 @@ Route57GymLeader:
 	ctxt "Das ist unnormal!"
 
 	para "Du störst meine"
-	line "völlig normalen"
+	line "normalen "
 	cont "Schwingungen!"
 
 	para "Bitte, nimm diesen"
-	line "Orden und"
+	line "Orden und "
 	cont "verschwinde!"
 
 	done
 
 .received_badge_text
 	ctxt "<PLAYER> erhält den"
-	line "Blankorden."
+	line "Normalo Orden."
 
 	done
 
 .after_badge_text
-	ctxt "Es ist normal, dem"
-	line "Gewinner eine TM"
-	cont "zu schenken."
+	ctxt "Nimm dir etwas"
+	line "Normalität mit"
+	cont "nach Hause!"
 
 	sdone
 
 .after_TM_text
-	ctxt "TM15 enthält"
-	line "Hyperstrahl!"
+	ctxt "TM15 ist Hyper"
+	line "Strahl!"
 
 	para "Ein starker"
-	line "normaler Angriff!"
+	line "normalo Angriff!"
 
 	done
 

@@ -8,65 +8,72 @@ Route62HiddenItem:
 	db GOLD_TOKEN
 
 Route62Sign:
-	ctxt "Der Weg zu vielen"
+	ctxt "Der Weg zu vielen "
 	next "Städten!"
+
 	done
 
 Route62_Trainer_1:
 	trainer EVENT_ROUTE_62_TRAINER_1, GENTLEMAN, 3, .before_battle_text, .battle_won_text
 
 	ctxt "Ich muss ihre"
-	line "Ansichten"
+	line "Ansichten "
 	cont "respektieren."
 
-	para "Nach Aegolia City"
-	line "kommt man auch"
-	para "über einen unter-"
-	line "irdischen Weg, der"
-	para "einen nach Moragia"
-	line "führt."
+	para "Alternativ kann"
+	line "Aegolia City auch"
+	para "über einen"
+	line "unterirdischen Weg"
+	para "erreicht werden,"
+	line "der nach Moragia"
+	cont "führt."
 
-	para "Hoffentlich ist"
-	line "der nicht auch"
-	para "noch versperrt!"
+	para "Ich hoffe, dass"
+	line "dieser Weg nicht"
+	para "auch versperrt "
+	line "ist!"
 
 	done
 
 .before_battle_text
 	ctxt "Ich komme zu spät"
-	line "zu meinem Meeting!"
+	line "zu meiner "
+	cont "Verabredung!"
 
 	done
 
 .battle_won_text
 	ctxt "Ich denke, sie"
 	line "haben einen guten"
-	para "Grund, den Pfad"
-	line "zu blockieren."
+	para "Grund, den"
+	line "Aegolia-Pfad zu"
+	cont "blockieren."
 
 	done
 
 Route62_Trainer_2:
 	trainer EVENT_ROUTE_62_TRAINER_2, BLACKBELT_T, 11, .before_battle_text, .battle_won_text
 
-	ctxt "Sie wirken klug."
-	line "Sie müssen einen"
-	para "guten Grund haben."
+	ctxt "Sie wirkten"
+	line "intelligent, sie"
+	para "müssen einen guten"
+	line "Grund haben."
 
 	done
 
 .before_battle_text
-	ctxt "Fäusten allein"
-	line "bringen mich wohl"
-	para "nicht weiter."
+	ctxt "Mit den Fäusten"
+	line "allein komme ich"
+	para "offenbar nicht zu"
+	line "Joe's Arena."
 
 	done
 
 .battle_won_text
 	ctxt "Wenn der Weg frei"
-	line "wäre, würde ich"
-	para "die Arena ganz"
-	line "locker packen!"
+	line "wäre, würde dieses"
+	para "Team diese Arena "
+	line "besitzen!"
 
 
 	done
@@ -75,23 +82,24 @@ Route62_Trainer_3:
 	trainer EVENT_ROUTE_62_TRAINER_3, SAGE, 6, .before_battle_text, .battle_won_text
 
 	ctxt "Ich muss bei"
-	line "meinen Freunden"
+	line "meinen Freunden "
 	cont "bleiben."
 
 	para "Sie haben alle"
-	line "Angst vor"
+	line "Angst vor "
 	cont "Varaneous."
 
 	done
 
 .before_battle_text
-	ctxt "Oh, du hast meine"
-	line "Freunde getroffen?"
+	ctxt "Ah, Du hast also"
+	line "meine Freunde "
+	cont "kennengelernt?"
 
 	done
 
 .battle_won_text
-	ctxt "Gemeinheit."
+	ctxt "Unfreundlich."
 
 	done
 

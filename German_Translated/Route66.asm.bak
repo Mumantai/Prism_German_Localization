@@ -14,23 +14,26 @@ Route66DirectionsSign:
 Route66_Trainer_1:
 	trainer EVENT_ROUTE_66_TRAINER_1, SWIMMERF, 5, .before_battle_text, .battle_won_text
 
-	ctxt "Eines Tages werde"
-	line "ich mit den"
-	para "Azuria-Schwestern"
-	cont "schwimmen!"
+	ctxt "Wir brauchen eine"
+	line "#mon "
+	cont "Kampf-Olympiade."
+
+	para "War nur ein "
+	line "Vorschlag!"
 
 	done
 
 .before_battle_text
-	ctxt "Guck mich an, ich"
-	line "bin Misty!"
+	ctxt "Sieh mich an, ich"
+	line "bin Ye Shiwen!"
 
 	done
 
 .battle_won_text
-	ctxt "Die vier Azuria-"
-	line "Schwestern sind"
-	cont "meine Idole!"
+	ctxt "Was, schaust du"
+	line "dir keine"
+	para "Olympischen Spiele"
+	line "an?"
 
 	done
 
@@ -39,24 +42,26 @@ Route66_Trainer_2:
 
 	ctxt "Vielleicht kannst"
 	line "du eines Tages"
-	para "selber schwimmen,"
-	line "ganz ohne #mon."
+	para "selbst schwimmen,"
+	line "anstatt zu radeln."
 
 	done
 
 .before_battle_text
 	ctxt "Dieser See ist ein"
-	line "toller Ort, um ein"
-	para "paar Bahnen zu"
-	line "schwimmen."
+	line "toller Ort, um"
+	para "meine Runden zu "
+	line "trainieren."
 
 	done
 
 .battle_won_text
 	ctxt "Zu schade, dass"
-	line "die meisten Leute"
-	para "nicht gerne im"
-	line "Wasser trainieren."
+	line "die meisten"
+	para "Menschen #mon"
+	line "Training auf dem"
+	para "Wasser nicht "
+	line "mögen."
 
 	done
 
@@ -76,18 +81,21 @@ Route66_Trainer_3:
 
 .before_battle_text
 	ctxt "Ich bin ein"
-	line "Schwimmer, also"
-	para "muss ich auch"
-	line "Wasser-#mon"
-	cont "benutzen, oder?"
+	line "Schwimmer, ich"
+	para "muss Wasser"
+	line "#mon benutzen, "
+	cont "richtig?"
 
 	done
 
 .battle_won_text
-	ctxt "Haha! Reingelegt!"
+	ctxt "Hahahaha, "
+	line "verarscht!"
 
-	para "Was, du hast"
-	line "meinen Sarkasmus"
+	para "Was?!"
+
+	para "Du hast meinen"
+	line "Sarkasmus "
 	cont "durchschaut?"
 
 	done

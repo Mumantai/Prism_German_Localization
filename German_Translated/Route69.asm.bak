@@ -5,8 +5,8 @@ Route69_MapScriptHeader;trigger count
 
 Route69DirectionsSign:
 	signpostheader 3
-	ctxt "Bitte klaut die"
-	next "Schilder nicht."
+	ctxt "Schilder bekritz-"
+	next "eln Verboten!!!"
 	nl   ""
 	next "<UP> Heidenau"
 	next "<DOWN> Capparia City"
@@ -15,72 +15,72 @@ Route69DirectionsSign:
 Route69_Trainer_1:
 	trainer EVENT_ROUTE_69_TRAINER_1, HIKER, 2, .before_battle_text, .battle_won_text
 
-	ctxt "Es ist unmöglich,"
+	ctxt "Es ist unmöglich"
 	line "alles vorherzu-"
 	cont "sehen."
 	done
 
 .before_battle_text
-	ctxt "Als Trainer, musst"
+	ctxt "Als Trainer musst"
 	line "du auf alles vor-"
 	cont "bereitet sein."
 	done
 
 .battle_won_text
-	ctxt "Wie unerwartet."
+	ctxt "Oh, das warn Fail."
 	done
 
 Route69_Trainer_2:
 	trainer EVENT_ROUTE_69_TRAINER_2, HIKER, 3, .before_battle_text, .battle_won_text
 
-	ctxt "Warum bin ich nur"
-	line "so verdammt toll?"
+	ctxt "Ich verabscheue"
+	line "Iksbat."
 	done
 
 .before_battle_text
-	ctxt "Du hälst dich wohl"
-	line "für ganz toll?"
+	ctxt "Du denkst bei dir"
+	line "läuft, nicht wahr?"
 
-	para "Aber verglichen"
-	line "mit mir <...>?"
+	para "Nein! Bei dir"
+	line "läufts gar nicht!"
 	done
 
 .battle_won_text
-	ctxt "<...> bist du doch"
-	line "ziemlich toll."
+	ctxt "Bei mir läufts"
+	line "nicht mehr<...>"
 	done
 
 Route69_Trainer_3:
 	trainer EVENT_ROUTE_69_TRAINER_3, HIKER, 15, .before_battle_text, .battle_won_text
 
-	ctxt "Mit seinen #mon"
-	line "wandern zu gehen,"
-	cont "ist das Beste!"
+	ctxt "Auf Wanderschaft"
+	line "mit seinen #mon"
+	cont "zu sein, ist Toll!"
 	done
 
 .before_battle_text
 	ctxt "Meine #mon"
-	line "und ich, lieben"
-	cont "das Wandern."
+	line "lieben es, Wandern"
+	cont "zu gehen."
 	done
 
 .battle_won_text
-	ctxt "Wir brauchen wohl"
-	line "mal eine Pause."
+	ctxt "Sie lernen auch"
+	line "durch Niederlagen!"
 	done
 
 Route69_Trainer_4:
 	trainer EVENT_ROUTE_69_TRAINER_4, BLACKBELT_T, 2, .before_battle_text, .battle_won_text
 
 	ctxt "Ich muss noch viel"
-	line "härter trainieren,"
+	line "härter trainieren"
 	cont "als zuvor!"
 	done
 
 .before_battle_text
 	ctxt "Ich trainiere hier"
 	line "täglich mit meinen"
-	cont "treuen #mon!"
+	cont "loyalen #mon!"
 	done
 
 .battle_won_text
@@ -90,28 +90,29 @@ Route69_Trainer_4:
 Route69_Trainer_5:
 	trainer EVENT_ROUTE_69_TRAINER_5, COOLTRAINERM, 3, .before_battle_text, .battle_won_text
 
-	ctxt "Es ist wichtig,"
+	ctxt "Es ist wichtig"
 	line "seine Schwächen zu"
-	para "kennen, um besser"
+	para "kennen um besser"
 	line "zu werden."
 
+	para "Selbstdisziplin."
 	done
 
 .before_battle_text
-	ctxt "Ich hab' echt"
-	line "was drauf!"
+	ctxt "Gib es zu, ich hab"
+	line "krasse Skills!"
 	done
 
 .battle_won_text
-	ctxt "Ich habe versagt."
+	ctxt "Ich akzeptiere es."
 	done
 
 Route69_Trainer_6:
 	trainer EVENT_ROUTE_69_TRAINER_6, COOLTRAINERF, 1, .before_battle_text, .battle_won_text
 
-	ctxt "Vielleicht kannst"
-	line "du mir ja etwas"
-	cont "beibringen <...>"
+	ctxt "Eventuell kannst"
+	line "du mir ja was"
+	cont "beibringen<...>"
 
 	para "Nicht?"
 
@@ -124,7 +125,7 @@ Route69_Trainer_6:
 	done
 
 .battle_won_text
-	ctxt "<...> Echt?"
+	ctxt "<...>Echt?"
 	done
 
 IlkBrotherHouseBlockLeaving:

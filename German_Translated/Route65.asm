@@ -9,7 +9,7 @@ Route65HiddenItem:
 
 Route65Sign:
 	ctxt "Der Pfad zur"
-	next "Rijon Liga!"
+	next "Rijon-Liga!"
 	done
 
 Route65QRCode:
@@ -23,7 +23,7 @@ Route65QRCode:
 	jumptext .text
 
 .text
-	ctxt "Prisma Schlüssel:"
+	ctxt "Prismaschlüssel:"
 	line "Baum außerhalb der"
 	cont "Maritima Arena."
 	done

@@ -55,7 +55,7 @@ ProvincialParkContest_FirelightCavernsEntranceNPC:
 	end
 
 .firelight_caverns_not_allowed_text
-	ctxt "Die Feuerlicht-"
+	ctxt "Die Leuchtfeuer-"
 	line "höhle ist während"
 	para "der Challenge"
 	line "gesperrt."

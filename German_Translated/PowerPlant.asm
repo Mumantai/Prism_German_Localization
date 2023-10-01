@@ -21,10 +21,10 @@ PowerPlantLance:
 	jumptextfaceplayer .text
 
 .text
-	ctxt "In einer neuen"
-	line "Version, werde ich"
-	para "eine Mission für"
-	line "dich haben."
+	ctxt "Bei einem neuen"
+	line "Update für #mon"
+	para "Prisma habe ich ne"
+	line "Mission für dich."
 
 	para "Updates:"
 	line "Discord.gg/VHaA2Zr"
@@ -42,40 +42,40 @@ PowerPlantWalkLance:
 PowerPlantNPC1:
 	ctxt "Wir sind fast"
 	line "fertig mit der"
-	cont "Renovierung."
+	cont "Renovierung hier."
 
-	para "Wir müssen nur all"
-	line "die #mon hier"
-	cont "wegschaffen!"
+	para "Jetzt müssen wir"
+	line "nur noch alle"
+	para "#mon hier weg-"
+	line "schaffen!"
 	done
 
 PowerPlantNPC2:
-	ctxt "Gut, dass die Aus-"
+	ctxt "Gut das die Aus-"
 	line "rüstung hier noch"
 	cont "funktioniert."
-	
-	para "Es läuft quasi"
-	line "ganz von allein."
 
 	done
 
 PowerPlantNPC3:
-	ctxt "Es gibt eine Eis-"
-	line "Arena, die viel zu"
-	para "viele Klimaanlagen"
+	ctxt "Es gibt eine Eis"
+	line "Arena, das viel zu"
+	para "viele Klimageräte"
 	line "einsetzt."
 
-	para "Deshalb hat man"
-	line "das Kraftwerk"
-	para "wieder in Betrieb"
-	line "genommen."
+	para "Der hohe Strom-"
+	line "bedarf ist der"
+	para "Grund warum das"
+	line "hier wieder In-"
+	para "standgehalten"
+	line "wird."
 	done
 
 PowerPlantNPC4:
-	ctxt "Ich werde in einer"
-	line "neueren Version"
-	para "deinem Vater"
-	line "helfen!"
+	ctxt "Beim kommenden"
+	line "Update begleite"
+	para "ich dich bei einer"
+	line "Mission!"
 	done
 
 PowerPlant_MapEventHeader ;filler

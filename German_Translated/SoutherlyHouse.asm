@@ -8,12 +8,12 @@ SoutherlyHouseNPC:
 	line "gab mir vor langer"
 	cont "Zeit ein Kirlia."
 
-	para "Meins hat sich zu"
-	line "einem Galagladi"
+	para "Meins hat sich zu "
+	line "einem Galagladi "
 	cont "entwickelt!"
 
-	para "Nur männliche"
-	line "Kirlia entwickeln"
+	para "Nur männliche "
+	line "Kirlia entwickeln "
 	cont "sich zu Galagladi."
 
 	done

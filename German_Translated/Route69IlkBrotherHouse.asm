@@ -12,18 +12,19 @@ Route69IlkBrotherHouse_MapScriptHeader;trigger count
 
 Route69IlkBrotherHouseStove:
 	ctxt "Hmm, dieser Herd"
-	line "ist dreckig!"
+	line "muss geputzt"
+	cont "werden."
 	done
 
 Route69IlkBrotherHouseSink:
 	ctxt "Bäh!"
 
-	para "Was für eine!"
+	para "Was für eine"
 	line "dreckige Spüle!"
 	done
 
 Route69IlkBrotherHouseN64:
-	ctxt "Es ist eine N64!"
+	ctxt "Es ist ein N64!"
 	done
 
 IlkBrothersInTrouble:
@@ -46,33 +47,34 @@ IlkBrothersInTrouble:
 	ctxt "Endlich!"
 
 	para "Die Polizei ist"
-	line "da!"
+	line "eingetroffen!"
 
-	para "Warte <...>"
+	para "Warte<...>"
 
-	para "Du bist ein Kind <...>"
+	para "Du bist ein Kind<...>"
 
 	para "<...>"
 
-	para "Die Polizei sendet"
-	line "dich? Was denken"
-	cont "die sich bloß?"
+	para "Die Polizei hat"
+	line "dich geschickt?"
+	para "Was haben die sich"
+	line "dabei gedacht?!"
 
 	para "<...>"
 
 	para "Oh? Prof. Ilk"
-	line "sandte dich?"
+	line "schickt dich?"
 
-	para "Naja dann <...>"
+	para "Naja dann<...>"
 
 	para "Siehst du den"
-	line "Jungen da?"
+	line "Jungen da hinten?"
 
-	para "Er ist einge-"
-	line "brochen und will"
-	cont "mein Kindwurm!"
+	para "Er versucht, mein"
+	line "armes Kindwurm"
+	cont "zu stehlen!"
 
-	para "Unternimm etwas!"
+	para "Bitte, hilf mir!"
 	sdone
 
 IlkBrothersTalkToRival:
@@ -143,24 +145,24 @@ IlkBrothersTalkToRival:
 .talk_to_bagon_text
 	ctxt "Haha!"
 
-	para "Du gehörst mir <...>"
+	para "Du kommst mit mir<...>"
 
-	para "<...> oder willst du"
+	para "<...>oder willst du"
 	line "verletzt werden?"
 	sdone
 
 .before_battle_text
-	ctxt "Was willst du Furz"
-	line "denn von mir?"
+	ctxt "Was willst du von"
+	line "mir, Dreikäsehoch?"
 
 	para "Komm mir nicht"
 	line "in die Quere!"
 	sdone
 
 .battle_won_text
-	ctxt "Dieses Werkzeug"
-	line "muss noch"
-	cont "trainiert werden <...>"
+	ctxt "Dieses #mon"
+	line "muss ich wohl noch"
+	cont "etwas trainieren<...>"
 
 	para "Ich mache es"
 	line "stärker, egal was"
@@ -170,22 +172,21 @@ IlkBrothersTalkToRival:
 .battle_lost_text
 	ctxt "Hah!"
 
-	para "Du bist so"
+	para "Das war ja mal"
 	line "erbärmlich!"
 	done
 
 .after_battle_text
-	ctxt "Das war nur Glück."
+	ctxt "Du bist so ätzend!"
 
-	para "Zeit, zu gehen."
+	para "Zeit zu gehen."
 
-	para "Ich habe von dem"
-	line "alten Sack bereits"
-	cont "was ich brauche."
+	para "Ich habe bekommen,"
+	line "was ich wollte."
 
 	para "Ciao!"
 
-	para "<RIVAL> ben."
+	para "<RIVAL> benutzt"
 	line "Fluchtseil."
 	sdone
 
@@ -193,17 +194,17 @@ IlkBrothersTalkToRival:
 	ctxt "Ich habe alles"
 	line "gesehen! Wow!"
 
-	para "Das war ein toller"
-	line "Kampf!"
+	para "Du hast wirklich"
+	line "toll gekämpft!"
 
-	para "Sagte er dir"
-	line "seinen Namen?"
+	para "Hat er dir seinen"
+	line "Namen verraten?"
 	sdone
 
 .after_naming_rival_text
 	ctxt "<RIVAL>, also?"
 
-	para "Dein Larvitar <...>"
+	para "Dein Larvitar<...>"
 
 	para "Ist es das von"
 	line "meinem Bruder?"
@@ -211,21 +212,18 @@ IlkBrothersTalkToRival:
 	para "Oh, du hast ihn"
 	line "bereits getroffen?"
 
-	para "Ach, du solltest"
-	line "nach mir sehen?"
+	para "Er schickt dich,"
+	line "um nach mir zu"
+	cont "sehen?"
 
-	para "So ist mein Bruder"
-	line "nunmal <...>"
+	para "Wie nett von ihm."
 	
-	para "Bring ihm bitte"
-	line "auch sein Larvitar"
-	para "zurück, die beiden"
-	line "haben gemeinsam"
-	para "viel durch-"
-	line "gemacht <...>"
+	para "Vergiss nicht, ihm"
+	line "sein Larvitar"
+	para "zurückzugeben."
 	
-	para "Er liebt dieses"
-	line "#mon sehr <...>"
+	para "Er liegt sehr viel"
+	line "an diesem #mon."
 	done
 
 Route69IlkBrotherHouseIlkBrother:
@@ -235,16 +233,18 @@ Route69IlkBrotherHouseIlkBrother:
 	jumptextfaceplayer .before_battling_rival
 
 .before_battling_rival
-	ctxt "Bitte, beeil dich!"
+	ctxt "Bitte beeil dich!"
 	done
 
 .after_battling_rival
-	ctxt "Vielen Dank, dass"
-	line "du versucht hast,"
-	cont "ihn zu stoppen."
+	ctxt "Danke, dass du"
+	line "dieses verrückte"
+	para "Kind aufgehalten"
+	cont "hast."
 
-	para "Ich hoff, Kindwurm"
-	line "geht es gut <...>"
+	para "Ich hoffe, meinem"
+	line "Kindwurm geht es"
+	line "immerhin gut<...>"
 	done
 
 Route69IlkBrotherHouse_MapEventHeader ;filler

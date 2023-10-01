@@ -21,13 +21,13 @@ SaffronMrPsychicNPC:
 	sdone
 
 .after_giving_TM_text
-	ctxt "TM29 enthält"
+	ctxt "TM29 enthält "
 	line "Psychokinese."
 
 	para "Es kann die"
 	line "Spezial-"
 	para "verteidigung des"
-	line "Gegners"
+	line "Gegners "
 	cont "verringern."
 
 	done

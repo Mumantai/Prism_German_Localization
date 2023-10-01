@@ -172,7 +172,7 @@ RuinsF1Arrow:
 	line "giftig aus."
 
 	para "Lass lieber die"
-	line "Finger davon <...>"
+	line "Finger davon<...>"
 	done
 
 RuinsF1ClearArrow:
@@ -195,11 +195,11 @@ RuinsF1MurumSwitch:
 
 .switch_on_text
 	ctxt "Der Schalter ist"
-	line "an und auf ihm"
+	line "An und auf ihm"
 	para "steht das Wort:"
 	line "Murum."
 
-	para "Ausschalten?"
+	para "Auschalten?"
 	done
 
 RuinsSwitchAlreadyOffText:
@@ -355,7 +355,7 @@ RuinsF1_PaletteYellow:
 
 .battle_won_text
 	ctxt "Das sollte nicht"
-	line "wieder passieren <...>"
+	line "wieder passieren<...>"
 	done
 
 RuinsF1_MapEventHeader ;filler

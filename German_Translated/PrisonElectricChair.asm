@@ -33,12 +33,13 @@ PrisonElectricDoorSign:
 	end
 
 .text
-	ctxt "In diese Tür wird"
-	line "Strom geleitet."
+	ctxt "Elektrizität"
+	line "fließt in die"
+	cont "Tür."
 
-	para "Wird sie dadurch"
-	line "verschlossen"
-	cont "gehalten?"
+	para "Warscheinlich"
+	line "hält das die Tür"
+	cont "verschlossen?"
 	done
 
 PrisonElectricChairFlaaffy:

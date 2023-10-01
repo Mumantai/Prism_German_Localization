@@ -8,9 +8,9 @@ Route83HiddenItem:
 	db GOLD_TOKEN
 
 Route83DirectionsSign:
-	ctxt "<LEFT> Wallhoehle"
+	ctxt "<LEFT> Felsgrabhöhle"
 	next "<RIGHT> Torenia City"
-	next "<LEFT><DOWN>Route 73"
+	next "<LEFT><DOWN> Route 73"
 	done
 
 Route83BlockingDude:
@@ -18,7 +18,7 @@ Route83BlockingDude:
 
 	para "Sry, aber ich muss"
 	line "hier meine Schnür-"
-	cont "senkel binden <...>"
+	cont "senkel binden<...>"
 	done
 
 Route83_Trainer:

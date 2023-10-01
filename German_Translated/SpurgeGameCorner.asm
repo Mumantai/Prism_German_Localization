@@ -60,7 +60,7 @@ GameCornerMemoryGame::
 
 .need_25_coins_text
 	ctxt "25 Münzen brauchst"
-	line "du zum Spielen."
+	line "du zum spielen."
 	done
 
 .you_won_text
@@ -253,7 +253,7 @@ SpurgeGameCornerCoinCaseSeller:
 	done
 
 .will_sell_text
-	ctxt "Psst <...>"
+	ctxt "Psst<...>"
 
 	para "Ich verticke dir"
 	line "einen Münzkorb."
@@ -274,13 +274,13 @@ SpurgeGameCornerCoinCaseSeller:
 .not_enough_money_text
 	ctxt "<...>"
 
-	para "Komm wieder, wenn"
+	para "Komm wieder wenn"
 	line "du Moneten hast."
 	done
 
 SpurgeGameCornerNPC1:
 	ctxt "Woaw, 24× beim"
-	line "ersten Versuch!"
+	line "ersten versuch!"
 
 	para "Läuft bei mir!"
 	done
@@ -289,10 +289,10 @@ SpurgeGameCornerNPC2:
 	ctxt "Diese Reihe ist"
 	line "Memory!"
 
-	para "Finde Pärchen und"
+	para "Finde pärchen und"
 	line "gewinne Preise."
 
-	para "Du hast 5 Chancen,"
+	para "Du hast 5 chancen"
 	line "um pärchen zu"
 	cont "finden."
 	para "Somit kannst du"
@@ -301,28 +301,28 @@ SpurgeGameCornerNPC2:
 
 	para "Sei dennoch vor-"
 	line "sichtig, 25 Münzen"
-	cont "sind nicht wenig <...>"
+	cont "sind nicht wenig<...>"
 	done
 
 SpurgeGameCornerNPC3:
 	ctxt "Hier gibts"
 	line "Einarmiger Bandit."
 
-	para "Ich denke, du"
-	line "weißt, wie dieses"
-	cont "Spiel geht <...>"
+	para "Ich denke du weist"
+	line "wie dieses Spiel"
+	cont "funktioniert<...>"
 	done
 
 SpurgeGameCornerNPC4:
 	ctxt "Hier gibt es"
-	line "Classic Card"
+	line "classic card"
 	done
 
 SpurgeGameCornerNPC5:
 	ctxt "Blackjack!"
 
 	para "Komm der 21 so"
-	line "nah, du kannst."
+	line "nah du kannst."
 
 	para "Wenn du drüber"
 	line "bist, GAME OVER!"
@@ -336,7 +336,7 @@ SpurgeGameCornerNPC6:
 	done
 
 SpurgeGameCornerNPC7:
-	ctxt "Diese Pärchen sind"
+	ctxt "Diese pärchen sind"
 	line "schwer zu finden!"
 	done
 
@@ -346,7 +346,7 @@ SpurgeGameCornerNPC8:
 	cont "hiermit gewinnen."
 
 	para "Aber ich habe kein"
-	line "Glück bei sowas <...>"
+	line "Glück bei sowas<...>"
 	done
 
 SpurgeGameCornerNPC9:
@@ -354,20 +354,20 @@ SpurgeGameCornerNPC9:
 	line "Spiel spiele,"
 
 	para "dauert es viel zu"
-	line "lang, um die TM33,"
+	line "lange um die TM33,"
 	cont "Eishieb zu"
 	cont "gewinnen."
 	done
 
 SpurgeGameCornerNPC10:
-	ctxt "Mein Baba sagt,"
+	ctxt "Mein Baba sagt"
 	line "Glückspiele sind"
-	cont "Haram <...>"
+	cont "Haram<...>"
 
 	para "<...>"
 	
-	para "Wenn ich schummel,"
-	line "ist es kein Glück."
+	para "Wenn ich schummel"
+	line "ist es kein Glück<...>"
 	done
 
 GameCorner_SaveYourCoinsComeAgain::
@@ -375,7 +375,7 @@ GameCorner_SaveYourCoinsComeAgain::
 
 .text
 	ctxt "OK. Spare dir"
-	line "mehr Münzen an"
+	line "mehr Münzen auf"
 	cont "und komm zurück!"
 	done
 

@@ -5,7 +5,7 @@ HaywardMartF1_MapScriptHeader;trigger count
 
 HaywardMartF1Receptionist:
 	ctxt "Willkommen im"
-	line "Faenumia-Center."
+	line "Heuhofen-Center."
 
 	done
 

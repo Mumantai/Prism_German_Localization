@@ -10,7 +10,6 @@ Route62HiddenItem:
 Route62Sign:
 	ctxt "Der Weg zu vielen"
 	next "Städten!"
-
 	done
 
 Route62_Trainer_1:
@@ -20,60 +19,54 @@ Route62_Trainer_1:
 	line "Ansichten"
 	cont "respektieren."
 
-	para "Alternativ kann"
-	line "Eagulou auch über"
-	para "einen"
-	line "unterirdischen Weg"
-	para "erreicht werden,"
-	line "der nach Moraga"
-	cont "führt."
+	para "Nach Aegolia City"
+	line "kommt man auch"
+	para "über einen unter-"
+	line "irdischen Weg, der"
+	para "einen nach Moragia"
+	line "führt."
 
-	para "Ich hoffe, dass"
-	line "dieser Weg nicht"
-	para "auch versperrt"
-	line "ist!"
+	para "Hoffentlich ist"
+	line "der nicht auch"
+	para "noch versperrt!"
 
 	done
 
 .before_battle_text
 	ctxt "Ich komme zu spät"
-	line "zu meiner "
-	cont "Verabredung!"
+	line "zu meinem Meeting!"
 
 	done
 
 .battle_won_text
 	ctxt "Ich denke, sie"
 	line "haben einen guten"
-	para "Grund, den"
-	line "Eagulou-Pfad zu"
-	cont "blockieren."
+	para "Grund, den Pfad"
+	line "zu blockieren."
 
 	done
 
 Route62_Trainer_2:
 	trainer EVENT_ROUTE_62_TRAINER_2, BLACKBELT_T, 11, .before_battle_text, .battle_won_text
 
-	ctxt "Sie wirkten"
-	line "intelligent, sie"
-	para "müssen einen guten"
-	line "Grund haben."
+	ctxt "Sie wirken klug."
+	line "Sie müssen einen"
+	para "guten Grund haben."
 
 	done
 
 .before_battle_text
-	ctxt "Mit den Fäusten"
-	line "allein komme ich"
-	para "offenbar nicht zu"
-	line "Joes Arena."
+	ctxt "Fäusten allein"
+	line "bringen mich wohl"
+	para "nicht weiter."
 
 	done
 
 .battle_won_text
 	ctxt "Wenn der Weg frei"
-	line "wäre, würde dieses"
-	para "Team diese Arena"
-	line "besitzen!"
+	line "wäre, würde ich"
+	para "die Arena ganz"
+	line "locker packen!"
 
 
 	done
@@ -92,14 +85,13 @@ Route62_Trainer_3:
 	done
 
 .before_battle_text
-	ctxt "Ah, du hast also"
-	line "meine Freunde"
-	cont "kennengelernt?"
+	ctxt "Oh, du hast meine"
+	line "Freunde getroffen?"
 
 	done
 
 .battle_won_text
-	ctxt "Unfreundlich."
+	ctxt "Gemeinheit."
 
 	done
 

@@ -8,7 +8,7 @@ Route84HiddenItem:
 	db GOLD_TOKEN
 
 Route84DirectionsSign:
-	ctxt "<LEFT> Phloxia City"
+	ctxt "<LEFT> Flokalis"
 	next "<RIGHT> Klathrat"
 	nl   "  Tunnel"
 	done
@@ -52,8 +52,8 @@ Route84_Trainer_2:
 	done
 
 .battle_won_text
-	ctxt "Satz mit X, das"
-	line "war wohl nix!"
+	ctxt "Satz mit X war"
+	line "wohl nix!"
 	done
 
 Route84_Trainer_3:
@@ -74,7 +74,7 @@ Route84_Trainer_3:
 .before_battle_text
 	ctxt "Diese Region hat"
 	line "echt eigenartige"
-	cont "Landschaften <...>"
+	cont "Landschaften<...>"
 	done
 
 .battle_won_text
@@ -95,8 +95,8 @@ Route84_Trainer_4:
 	cont "mich."
 
 	para "Du musst nur drauf"
-	line "achten, wo du genau"
-	cont "hingehst!"
+	line "achten wo du genau"
+	cont "hin gehst!"
 	done
 
 .battle_won_text

@@ -238,7 +238,7 @@ IlksLabProfIlk:
 	para "Es treten vermehrt"
 	line "Erdbeben auf."
 
-	para "Laut dem 'Faenumia"
+	para "Laut dem 'Heuhofen"
 	line "Labor für Paläo-"
 	para "seismologie', sind"
 	line "diese Erdbeben"

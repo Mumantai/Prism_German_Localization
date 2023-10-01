@@ -17,11 +17,10 @@ Route50GateNoBikeLeave:
 	step_end
 
 Route50NoBikeText:
-	ctxt "Dies ist eine"
-	line "steile Straße."
-
-	para "Ohne Fahrrad kann"
-	line "ich dich nicht"
+	ctxt "Der Weg ist viel"
+	line "zu steil. Ohne"
+	para "Fahrrad, kann ich"
+	line "dich leider nicht"
 	cont "durchlassen."
 
 	sdone
@@ -33,8 +32,8 @@ Route50GateGuardText:
 	line "der Aussichts-"
 	cont "plattform."
 
-	para "Also haben wir sie"
-	line "abgeschottet."
+	para "Also haben wir"
+	line "eine Wand gebaut."
 
 	para "Jetzt besprühen"
 	line "Leute die Wand mit"

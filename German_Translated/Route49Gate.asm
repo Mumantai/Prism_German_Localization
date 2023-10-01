@@ -27,9 +27,9 @@ Route49NoBikeText:
 	sdone
 
 Route49BikeText:
-	ctxt "Pass auf und fahre"
-	line "nicht im Hafen mit"
-	cont "dem Fahrrad!"
+	ctxt "Pass auf, dass du"
+	line "nicht von den"
+	cont "Docks fällst!"
 
 	done
 

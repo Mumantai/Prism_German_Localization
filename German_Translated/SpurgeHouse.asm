@@ -4,7 +4,7 @@ SpurgeHouse_MapScriptHeader;trigger count
 	db 0
 
 SpurgeHouseNPC1:
-	ctxt "Bergbau ist toll!"
+	ctxt "Bergbau ist Toll!"
 
 	para "Wenn du Bergbau"
 	line "ausprobieren"
@@ -13,18 +13,18 @@ SpurgeHouseNPC1:
 
 	para "Interagiere dann"
 	line "mit einer felsigen"
-	para "Oberfläche und bau"
-	line "alles Mögliche ab!"
+	para "oberfläche und bau"
+	line "alles mögliche ab!"
 	done
 
 SpurgeHouseNPC2:
 	ctxt "Ein Dorf in der"
-	line "Nähe verkauft"
+	line "nähe verkauft"
 	cont "Spitzhacken."
 
 	para "Für das Bergbau"
 	line "brauchst du mehr"
-	cont "als eine!"
+	cont "als einen!"
 	done
 
 SpurgeHouse_MapEventHeader ;filler

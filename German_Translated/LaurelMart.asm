@@ -9,7 +9,7 @@ LaurelMartNPC:
 
 	para "Einen in Euphorbia"
 	line "City, einen in der"
-	cont "Wallhöhle, etc."
+	cont "Felsgrabhöhle etc."
 	done
 
 LaurelMart_MapEventHeader:: db 0, 0

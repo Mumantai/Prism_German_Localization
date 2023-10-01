@@ -6,9 +6,9 @@ SilkTunnelB2F_MapScriptHeader;trigger count
 SilkTunnelB2F_Trainer:
 	trainer EVENT_SILK_TUNNEL_B2F_TRAINER_1, HIKER, 9, .before_battle_text, .battle_won_text
 
-	ctxt "Ich habe einmal"
-	line "gegen ein Kind"
-	para "gekämpft mit sehr"
+	ctxt "Ich habe einmal "
+	line "gegen ein Kind "
+	para "gekämpft mit sehr "
 	line "viel Potenzial, so"
 	cont "wie du es hast."
 
@@ -23,12 +23,12 @@ SilkTunnelB2F_Trainer:
 	done
 
 .battle_won_text
-	ctxt "Wir haben uns"
-	line "vorher noch nie"
-	para "getroffen, aber du"
-	line "erinnerst mich an"
-	para "jemanden, den ich"
-	line "einmal gesehen"
+	ctxt "Wir haben uns "
+	line "vorher noch nie "
+	para "getroffen, aber Du"
+	line "erinnerst mich an "
+	para "jemanden, den ich "
+	line "einmal gesehen "
 	cont "habe."
 
 	done

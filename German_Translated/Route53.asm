@@ -8,7 +8,7 @@ Route53HiddenItem:
 	db GOLD_TOKEN
 
 Route53Sign:
-	ctxt "<UP> Küstenstadt"
+	ctxt "<UP> Maritima City"
 	next "<DOWN> Kiesdorf"
 	done
 
@@ -29,17 +29,17 @@ Route53ElixirGiveawayDude:
 .before_giving_item_text
 	ctxt "Hi!"
 
-	para "Der Kiesdorf-Markt"
-	line "verschenkt heute"
-	cont "kostenlose Proben!"
+	para "Der kieselinger"
+	line "Markt verschenkt"
+	cont "heute Kostproben!"
 
 	para "Viel Spaß damit!"
 	sdone
 
 .already_gave_item_text
 	ctxt "Tut mir leid,"
-	line "keine Gratisproben"
-	cont "mehr!"
+	line "alle Proben sind"
+	cont "schon aus!"
 
 	done
 

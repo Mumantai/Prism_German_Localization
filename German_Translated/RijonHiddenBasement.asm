@@ -8,11 +8,9 @@ RijonHiddenBasementHiddenItem:
 	db MAX_REVIVE
 
 RijonHiddenBasementNPC:
-	ctxt "Eine Gruppe von"
-	line "Digda guckte"
-	para "kurz aus dem"
-	line "Boden! Das war"
-	cont "ein Schock!"
+	ctxt "Eine Gruppe Digda"
+	line "kam aus dem Boden!"
+	para "Das kam plötzlich!"
 	done
 
 RijonHiddenBasement_MapEventHeader ;filler

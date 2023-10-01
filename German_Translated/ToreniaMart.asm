@@ -8,19 +8,19 @@ ToreniaMart_GoldToken:
 	db GOLD_TOKEN
 
 ToreniaMartNPC1:
-	ctxt "Die Bauarbeiten"
-	line "pausieren grade."
+	ctxt "Die Baustelle ist"
+	line "jetzt bei hiatus."
 
 	para "Sehr gut!"
 
-	para "Die Geräusche waren"
+	para "Die Geräuche waren"
 	line "sehr nervig."
 	done
 
 ToreniaMartNPC2:
 	ctxt "Ich kann mich"
 	line "einfach nicht"
-	cont "entscheiden <...>"
+	cont "entscheiden<...>"
 
 	para "So viel zu kaufen,"
 	line "so wenig Geld!"

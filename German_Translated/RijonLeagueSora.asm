@@ -31,24 +31,24 @@ RijonLeagueSora_Sora:
 	step_end
 
 .before_battle_text
-	ctxt "Wie geht's dir,"
+	ctxt "Wie geht's dir so,"
 	line "Trainer?"
 
 	para "Oder sollte ich"
-	line "besser sagen:"
-	cont "Herausforderer!"
+	line "besser sagen <...>"
+	cont "HERAUSFORDERER!"
 
-	para "Ich bin Sora, die"
+	para "Ich bin Sora, der"
 	line "Flug-#mon-"
-	para "Meisterin der"
+	para "Meister der"
 	line "Rijon-Liga!"
 
 	para "Du hast es zwar"
-	line "durch das 1. Tor"
-	para "geschafft, aber es"
-	line "wird nach jedem"
-	para "Tor schwieriger,"
-	line "Trainer!"
+	line "durch das erste"
+	para "Tor geschafft,"
+	line "doch mit jedem"
+	para "Tor wird es schwe-"
+	cont "rer, Freundchen!"
 
 	para "Versuche, nicht zu"
 	line "schnell von meiner"

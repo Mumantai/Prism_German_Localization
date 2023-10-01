@@ -14,8 +14,7 @@ Route48HiddenItem:
 	db GOLD_TOKEN
 
 Route48BorderSign:
-	ctxt "Johto-Rijon"
-	next "Grenze"
+	ctxt "Johto-Rijon-Grenze"
 	done
 
 Route48IlexForestSign:
@@ -24,29 +23,29 @@ Route48IlexForestSign:
 	done
 
 Route48UphillSign:
-	ctxt "Gehe hinauffff!"
+	ctxt "Es geht bergauf!"
 
 	done
 
 Route48_Trainer_1:
 	trainer EVENT_ROUTE_48_TRAINER_1, BIKER, 3, .before_battle_text, .battle_won_text
 
-	ctxt "Warum die Medien"
-	line "dich"
+	ctxt "Warum sollten die"
+	line "Medien dich"
 	cont "kontrollieren?"
 
-	para "Na weil sie Geld"
-	line "machen wollen!"
+	para "Hör auf mich und"
+	line "nicht auf die!"
 
 	done
 
 .before_battle_text
-	ctxt "Schaf!"
+	ctxt "Du Schlafschaf!"
 
 	done
 
 .battle_won_text
-	ctxt "Aaargy."
+	ctxt "Aaargh!"
 	done
 
 Route48_Trainer_2:
@@ -58,15 +57,13 @@ Route48_Trainer_2:
 	done
 
 .before_battle_text
-	ctxt "Radfahren auf dem"
-	line "Hafengelände,"
-	cont "sicher, ne?"
+	ctxt "Radfahren auf den"
+	line "Docks, sicher, ne?"
 
 	done
 
 .battle_won_text
-	ctxt "Du bist ein"
-	line "Weichei!"
+	ctxt "Du Weichei!"
 
 	done
 
@@ -77,13 +74,13 @@ Route48_Trainer_3:
 	line "Fahrrad in die"
 	cont "Bucht gerollt."
 
-	para "War ich sauer, ey!"
+	para "Ich war so sauer!"
 
 	done
 
 .before_battle_text
 	ctxt "Ich werde an"
-	line "diesem Hafen ein"
+	line "im Hafen ein"
 	para "paar Donuts"
 	line "machen!"
 
@@ -100,8 +97,9 @@ Route48_Trainer_4:
 
 	ctxt "Die langweiligen"
 	line "Leute in Azalea"
-	para "City lieben meine"
-	line "wilde Art."
+	para "City können meine"
+	line "wilde Art einfach"
+	cont "nicht ab."
 
 	done
 
@@ -136,8 +134,7 @@ Route48_Trainer_5:
 
 .battle_won_text
 	ctxt "Jetzt mag ich dich"
-	line "aber wirklich"
-	cont "nicht!"
+	line "wirklich nicht!"
 
 	done
 

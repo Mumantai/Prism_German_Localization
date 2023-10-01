@@ -47,21 +47,21 @@ SilphWarehouseF1Guard:
 	step_end
 
 SilphWarehouseF1GuardMoved:
-	ctxt "Komm rein, wann"
+	ctxt "Komm rein wann"
 	line "immer du willst."
 	done
 
 SilphWarehouseF1Guard_Text_NotAllowedUpstairs:
-	ctxt "Entschuldigung,"
-	line "Sie dürfen nicht"
-	para "weiter hoch, es"
+	ctxt "Entschuldigung, "
+	line "Sie dürfen nicht "
+	para "weiter hoch, es "
 	line "sei denn, Sie sind"
 	cont "Silph-Mitarbeiter."
 	prompt
 
 SilphWarehouseF1Guard_Text_NothingOfInterest:
-	ctxt "Es gibt dort oben"
-	line "nichts"
+	ctxt "Es gibt dort oben "
+	line "nichts "
 	cont "Interessantes."
 	done
 
@@ -71,18 +71,18 @@ SilphWarehouseF1Guard_Text_WaitIsThatShopTicket:
 	para "Ist das das"
 	line "Marktticket?"
 
-	para "Oh mein Gott, das"
+	para "Oh mein Gott, das "
 	line "ist es wirklich!"
 
-	para "Trainer, die im"
-	line "Besitz des"
+	para "Trainer, die im "
+	line "Besitz des "
 	para "Markttickets sind,"
-	line "sind als wahre"
-	para "Champions von"
+	line "sind als wahre "
+	para "Champions von "
 	line "#mon bekannt."
 
-	para "Bitte geh hinein,"
-	line "wenn du möchtest."
+	para "Bitte geh hinein, "
+	line "wenn Du möchtest."
 
 	sdone
 

@@ -134,7 +134,7 @@ LaurelCityTeleportation:
 	done
 
 .go_to_southerly_text
-	ctxt "Nach Suntia City"
+	ctxt "Nach Südport City"
 	line "teleportieren?"
 	done
 

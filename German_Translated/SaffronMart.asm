@@ -6,13 +6,13 @@ SaffronMart_MapScriptHeader;trigger count
 SaffronMartNPC1:
 	ctxt "Ein Trainer namens"
 	line "Gold besuchte mal"
-	para "Saffronia und"
-	line "verriet mir,"
-	para "wie ich stärker"
-	line "werden kann."
+	para "Safran und verriet"
+	line "mir, wie ich"
+	para "stärker werden "
+	line "kann."
 
-	para "Ich konnte den"
-	line "Meister des Kampf-"
+	para "Ich konnte die"
+	line "Leiterin des Kampf"
 	para "Dojos besiegen,"
 	line "aber Sabrina ist"
 	para "immer noch zu"
@@ -25,7 +25,7 @@ SaffronMartNPC2:
 	line "spannend, Besucher"
 	para "aus weit"
 	line "entfernten"
-	para "Regionen zu"
+	para "Regionen zu "
 	line "treffen."
 
 	done

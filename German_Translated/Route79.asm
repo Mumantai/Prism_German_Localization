@@ -13,24 +13,24 @@ Route79_Trainer_1:
 	ctxt "Viele dieser ein-"
 	line "gesperrten #mon"
 	para "wurden durch ihre"
-	line "Trainer verletzt <...>"
+	line "Trainer verletzt<...>"
 
 	para "Sie tun mir zwar"
-	line "leid, aber es ist"
+	line "leid aber es ist"
 	para "gut so, dass sie"
-	line "eingesperrt wur-"
-	para "den, weil sie"
-	line "ihre Hass auf"
-	para "ihre Trainer auch"
-	line "auf andere Men-"
-	para "schen proji-"
-	line "zieren könnten."
+	line "eingesperrt wurden"
+	para "weil Sie Ihren"
+	line "Hass auf Ihre"
+	para "Trainer auch auf"
+	line "andere Menschen"
+	para "projizieren"
+	line "könnten."
 	done
 
 .before_battle_text
 	ctxt "Das Gefängnis zu"
 	line "besuchen, hat"
-	cont "schon was <...>"
+	cont "schon was<...>"
 
 	para "Diese gefährlichen"
 	line "#mon erzeugen"
@@ -39,8 +39,8 @@ Route79_Trainer_1:
 	done
 
 .battle_won_text
-	ctxt "<...> Du gehörst"
-	line "eingesperrt <...>"
+	ctxt "<...>Du gehörst"
+	line "eingesperrt<...>"
 	done
 
 Route79_Trainer_2:
@@ -48,22 +48,22 @@ Route79_Trainer_2:
 
 	ctxt "Die Knackis hier"
 	line "sind wie meine"
-	cont "Vögel <...> Im Käfig."
+	cont "Vögel<...> Im Käfig."
 
 	para "Verstehste?"
 	
 	para "<...>"
 
-	para "Jetzt lach end-"
-	line "lich, bevor ich"
-	cont "sauer werde!"
+	para "Jetzt lach endlich"
+	line "bevor ich sauer"
+	cont "werde!"
 	done
 
 .before_battle_text
 	ctxt "Ich bin aus dem"
 	line "Knast geflüchtet."
 
-	para "Was ich getan hab,"
+	para "Was ich getan habe"
 	line "um dort zu landen?"
 
 	para "Das geht dich"
@@ -79,9 +79,9 @@ Route79_Trainer_2:
 Route79_Trainer_3:
 	trainer EVENT_ROUTE_79_TRAINER_3, POKEFANM, 4, .before_battle_text, .battle_won_text
 
-	ctxt "Habibi, tritt"
-	line "meinem Ponita-Club"
-	para "bei! Ich schwöre,"
+	ctxt "Habibi, Trete"
+	line "meinem Ponita Club"
+	para "bei! Ich Schwöre"
 	line "wir sind voll"
 	cont "freundlich undso!"
 	done
@@ -89,13 +89,13 @@ Route79_Trainer_3:
 .before_battle_text
 	ctxt "Yooo, mein Habibi!"
 
-	para "Ich schwör, ich"
+	para "Ich schwöre ich"
 	line "liebe Ponitas!"
 	done
 
 .battle_won_text
-	ctxt "Ich schwör, diese"
-	line "anderen Ponita-"
+	ctxt "Ich schwör diese"
+	line "anderen Ponita"
 	para "fans werden mich"
 	line "auslachen!"
 	done
@@ -103,10 +103,10 @@ Route79_Trainer_3:
 Route79_Trainer_4:
 	trainer EVENT_ROUTE_79_TRAINER_4, COOLTRAINERM, 9, .before_battle_text, .battle_won_text
 
-	ctxt "Fake-Protein zu"
+	ctxt "Fake Protein zu"
 	line "kaufen, war wohl"
 	para "doch keine gute"
-	line "Idee <...>"
+	line "idee<...>"
 	done
 
 .before_battle_text

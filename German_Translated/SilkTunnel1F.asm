@@ -8,8 +8,8 @@ SilkTunnel1FHiddenItem:
 	db CRYSTAL_EGG
 
 SilkTunnel1FSign:
-	ctxt "<LEFT> Heuhof City"
-	next "<RIGHT> Moragadorf"
+	ctxt "<LEFT> Heuhofen"
+	next "<RIGHT> Moragia"
 	done
 
 SilkTunnel1F_MapEventHeader ;filler

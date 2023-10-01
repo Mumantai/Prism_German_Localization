@@ -90,10 +90,9 @@ Route55_Trainer_2:
 	trainer EVENT_ROUTE_55_TRAINER_2, HIKER, 6, .before_battle_text, Route55_Trainers_1_2_BattleWon_Text
 
 	ctxt "Die verrückten"
-	line "Typen im Norden"
-	para "wollen wohl, dass"
-	line "ihre Studios"
-	cont "abgelegen sind."
+	line "Typen im Norden,"
+	para "mögen ihre Studios"
+	line "wohl abgeschieden."
 
 	done
 
@@ -101,8 +100,7 @@ Route55_Trainer_2:
 	ctxt "Warum hat sich"
 	line "niemand die Mühe"
 	para "gemacht, diesen"
-	line "Weg freizu-"
-	cont "machen?"
+	line "Weg freizuräumen?"
 
 	done
 
@@ -112,7 +110,7 @@ Route55_Trainer_3:
 	ctxt "Diese Leute"
 	line "glauben, dass"
 	para "unsere Welt nicht"
-	line "mehr ist als ein"
+	line "mehr ist, als ein"
 	para "Spiel, das sie"
 	line "geschaffen haben."
 
@@ -128,7 +126,7 @@ Route55_Trainer_3:
 	done
 
 .battle_won_text
-	ctxt "Hört nicht auf"
+	ctxt "Hör nicht auf"
 	line "falsche Propheten."
 
 	done

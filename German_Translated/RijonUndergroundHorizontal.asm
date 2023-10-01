@@ -10,7 +10,7 @@ RijonUndergroundHorizontal_Trainer_1:
 	line "einen langen"
 	cont "Tunnel ohne Licht?"
 
-	para "Es macht einfach"
+	para "Das macht einfach"
 	line "keinen Sinn!"
 
 	done
@@ -24,7 +24,7 @@ RijonUndergroundHorizontal_Trainer_1:
 .battle_won_text
 	ctxt "Mach es nicht"
 	line "grusliger, als es"
-	cont "schon ist!"
+	cont "eh schon ist!"
 
 	done
 

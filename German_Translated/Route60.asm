@@ -9,7 +9,7 @@ Route60HiddenItem:
 
 Route60DirectionsSign:
 	ctxt "<UP>  Kraftwerk"
-	next "<UP><RIGHT>Moragadorf"
+	next "<UP><RIGHT> Moragia"
 	next "<DOWN> Route 61"
 	done
 

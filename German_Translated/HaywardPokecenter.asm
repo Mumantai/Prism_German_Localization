@@ -4,10 +4,10 @@ HaywardPokecenter_MapScriptHeader;trigger count
 	db 0
 
 HaywardPokecenterNPC1:
-	ctxt "Faenumia City"
-	line "liegt direkt an"
-	para "der Gefahrenzone"
-	line "von Rijon."
+	ctxt "Heuhofen liegt"
+	line "direkt an der"
+	para "Gefahrenzone von"
+	line "Rijon."
 
 	para "Wir können nur"
 	line "hoffen, dass das"

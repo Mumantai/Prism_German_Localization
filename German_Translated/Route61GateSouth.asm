@@ -4,13 +4,12 @@ Route61GateSouth_MapScriptHeader;trigger count
 	db 0
 
 Route61GateSouthGuard:
-	ctxt "Noch immer"
-	line "streifen wilde"
-	para "#mon durch das"
-	line "Kraftwerk!"
+	ctxt "Das Kraftwerk ist"
+	line "immer noch voller"
+	cont "wilder #mon!"
 
-	para "Komfortabel!"
-	line "Stimmt's oder habe"
+	para "Total praktisch."
+	line "Stimmt's oder hab"
 	cont "ich Recht?"
 
 	done

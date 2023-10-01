@@ -114,13 +114,13 @@ ProvincialParkGateAttendant:
 	line "ich meinen Job"
 	cont "lieben?"
 
-	para "Schau mal <...> mir"
-	line "wurde nur gezeigt,"
+	para "Schau mal<...> mir"
+	line "wurde nur gezeigt"
 	para "WAS ich sagen soll"
 	line "und nicht WIE!"
 
-	para "Wenn du ein Pro-"
-	line "blem damit hast,"
+	para "Wenn du ein"
+	line "Problem damit hast"
 	para "kläre das mit"
 	line "meinem"
 	cont "Vorgesetzten!"
@@ -134,14 +134,14 @@ ProvincialParkGateAttendant:
 .weekend_special_text
 	ctxt "Das Weekend-"
 	line "Spezial geht 15"
-	para "Minuten für nur"
+	para "minuten für nur"
 	line "¥2500. Interesse?"
 	done
 
 .no_money_text
 	ctxt "Komm schon, das"
-	line "hier keine"
-	cont "Wohlfahrt <...>"
+	line "hier keine "
+	cont "Wohlfahrt<...>"
 
 	para "Wenn du kein Geld"
 	line "hast, verschwende"
@@ -151,31 +151,31 @@ ProvincialParkGateAttendant:
 .instructions_text
 	ctxt "-Seufz-"
 
-	para "Oh man <...> OK hier"
+	para "Oh man<...> OK hier"
 	line "die Anleitung."
 
 	para "Jeder Fleck"
 	line "enthällt Bälle,"
-	para "ein #mon oder"
+	para "ein #mon, oder"
 	line "sogar gar nichts."
 
 	para "Wenn du gegen das"
 	line "#mon kämpfst oder"
 	para "die Items nimmst,"
-	line "leert sich der"
+	line "leert sich das"
 	para "Fleck für eine"
 	line "kurze weile."
 
-	para "Leere Flecken"
+	para "Leere Flecke "
 	line "regenerieren sich"
-	cont "nach 1 Min oder so."
+	cont "nach 1min oder so."
 
-	para "Die #mon, denen"
-	line "du hier begegnest,"
+	para "Die #mon denen"
+	line "du hier begegnest"
 	para "sind stärker als"
 	line "die in der Wildnis"
 	para "und sind auch"
-	line "öfters schillernd."
+	line "öfters Schillernd."
 
 	para "Du kannst keine"
 	line "normalen #bälle"
@@ -185,16 +185,16 @@ ProvincialParkGateAttendant:
 	line "du von uns mit"
 	para "Parkbällen aus-"
 	line "gestattet und"
-	para "kannst die Bälle,"
+	para "kannst die Bälle"
 	line "die du hier"
-	para "findest, auch"
+	para "findest auch"
 	line "einsetzen."
 
 	para "Die Parkbälle, die"
 	line "du nicht benutzt,"
 	para "gibst du uns"
 	line "nachher zurück."
-	para "Die Bälle, die du"
+	para "Die Bälle die du"
 	line "hier findest"
 	para "bleiben ebenfalls"
 	line "bei uns, jedoch"

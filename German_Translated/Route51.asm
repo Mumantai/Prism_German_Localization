@@ -9,7 +9,7 @@ Route51HiddenItem:
 
 Route51DirectionsSign:
 	ctxt "<RIGHT> Route 50"
-	next "<DOWN> Heuhof City"
+	next "<DOWN> Heuhofen"
 	done
 
 Route51_Trainer:
@@ -17,31 +17,29 @@ Route51_Trainer:
 
 	ctxt "Ich schätze, ich"
 	line "hätte diese tollen"
-	para "#mon nicht,"
-	line "wenn es diesen"
-	para "grasigen Weg nicht"
-	line "gegeben hätte."
+	para "#mon nicht"
+	line "gefunden, wenn man"
+	para "den Weg hier"
+	line "gemäht hätte."
 
 	done
 
 .before_battle_text
 	ctxt "Jemand sollte"
-	line "diesen Weg frei-"
-	cont "machen."
+	line "hier mal mähen!"
 
-	para "Menschen dazu zu"
-	line "zwingen, durch so"
-	para "viel Gras zu"
-	line "gehen, ist einfach"
-	para "schlechte"
-	line "Straßengestaltung."
+	para "Es ist doch un-"
+	line "verantwortlich,"
+	para "die Leute durch so"
+	line "viel hohes Gras"
+	para "laufen zu lassen!"
 
 	done
 
 .battle_won_text
-	ctxt "Nun, das"
-	line "relativiert die"
-	cont "Dinge."
+	ctxt "Gut, das kann man"
+	line "wohl auch anders"
+	cont "sehen."
 
 	done
 

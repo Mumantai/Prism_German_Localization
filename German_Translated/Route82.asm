@@ -15,10 +15,10 @@ Route82DirectionsSign:
 Route82_Trainer_1:
 	trainer EVENT_ROUTE_82_TRAINER_1, FISHER, 12, .before_battle_text, .battle_won_text
 
-	ctxt "-Seufz- Würde mich"
-	line "nicht wundern,"
+	ctxt "-Seufz- Es würde"
+	line "mich nicht wundern"
 	para "wenn die Relicanth"
-	line "aussterben <...>"
+	line "aussterben würden<...>"
 
 	para "Die Menschen ver-"
 	line "schmutzen mit dem"
@@ -39,13 +39,13 @@ Route82_Trainer_2:
 	trainer EVENT_ROUTE_82_TRAINER_2, FISHER, 13, .before_battle_text, .battle_won_text
 
 	ctxt "Ich ritt mein"
-	line "#mon, während"
+	line "#mon während"
 	cont "ich am Angeln war."
 	
 	para "Als es mich nicht"
-	line "mehr tragen"
-	para "konnte, ging ich"
-	line "an den Hafen."
+	line "mehr tragen konnte"
+	para "ging ich an den"
+	line "Hafen."
 	done
 
 .before_battle_text
@@ -70,8 +70,8 @@ Route82_Trainer_3:
 
 	para "Ich treffe leider"
 	line "viel zu selten auf"
-	para "Leute, die gut"
-	line "kämpfen können!"
+	para "leute die gut"
+	line "Kämpfen können!"
 	done
 
 .before_battle_text
@@ -83,7 +83,7 @@ Route82_Trainer_3:
 	done
 
 .battle_won_text
-	ctxt "Das war spaßig!"
+	ctxt "Das war Spaßig!"
 	done
 
 Route82_MapEventHeader ;filler

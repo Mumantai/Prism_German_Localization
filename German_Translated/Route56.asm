@@ -16,24 +16,23 @@ Route56_Trainer_1:
 
 	ctxt "Nächstes Mal"
 	line "rasiere ich mir"
-	para "die Haare. Dadurch"
-	line "schwimmt man doch"
-	para "angeblich"
-	line "schneller, oder?"
+	para "die Haare, dadurch"
+	line "soll man schneller"
+	para "schwimmen können."
 
 	done
 
 .before_battle_text
-	ctxt "Rat mal, wie viele"
-	line "Runden ich gedreht"
-	cont "habe!"
+	ctxt "Wie viele Bahnen"
+	line "bin ich jetzt"
+	cont "geschwommen?"
 
 	done
 
 .battle_won_text
-	ctxt "Ich bin Hundertmal"
-	line "hin und her"
-	cont "geschwommen."
+	ctxt "Es müssen schon"
+	line "Hunderte gewesen"
+	cont "sein."
 
 	para "Im Ernst!"
 
@@ -42,24 +41,21 @@ Route56_Trainer_1:
 Route56_Trainer_2:
 	trainer EVENT_ROUTE_56_TRAINER_2, SWIMMERF, 6, .before_battle_text, .battle_won_text
 
-	ctxt "Komm irgendwann"
-	line "einmal mit mir"
-	cont "üben."
-
+	ctxt "Trainier doch mal"
+	line "mit mir."
+	
 	done
 
 .before_battle_text
-	ctxt "Schau dir an,"
-	line "wie ich"
-	para "Rückenschwimmen"
-	line "kann!"
+	ctxt "Ich bin der beste"
+	line "Rückenschwimmer!"
 
 	done
 
 .battle_won_text
-	ctxt "Schwimmen während"
-	line "des Kampfes ist"
-	cont "aufregend!"
+	ctxt "Beim Kämpfen zu"
+	line "schwimmen, ist"
+	cont "so aufregend!"
 
 	done
 
@@ -71,9 +67,9 @@ Route56_Trainer_3:
 
 	para "Wenn du surfst,"
 	line "bekommt dein"
-	para "#mon die"
-	line "Bewegung, nicht"
-	cont "du!"
+	para "#mon die ganze"
+	line "Bewegung und"
+	cont "du bleibst faul!"
 
 	done
 
@@ -83,10 +79,10 @@ Route56_Trainer_3:
 	done
 
 .battle_won_text
-	ctxt "Dieser Kampf war"
-	line "atemberaubend!"
-	para "Wie das Wasser"
-	line "beim Ertrinken!"
+	ctxt "Jetzt hast du mir"
+	line "einen Schlag"
+	para "verpasst."
+
 	done
 
 Route56_MapEventHeader ;filler

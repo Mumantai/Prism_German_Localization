@@ -14,26 +14,23 @@ Route66DirectionsSign:
 Route66_Trainer_1:
 	trainer EVENT_ROUTE_66_TRAINER_1, SWIMMERF, 5, .before_battle_text, .battle_won_text
 
-	ctxt "Wir brauchen eine"
-	line "#mon-"
-	cont "Kampf-Olympiade."
-
-	para "War nur ein"
-	line "Vorschlag!"
+	ctxt "Eines Tages werde"
+	line "ich mit den"
+	para "Azuria-Schwestern"
+	cont "schwimmen!"
 
 	done
 
 .before_battle_text
-	ctxt "Sieh mich an, ich"
-	line "bin Ye Shiwen!"
+	ctxt "Guck mich an, ich"
+	line "bin Misty!"
 
 	done
 
 .battle_won_text
-	ctxt "Was, schaust du"
-	line "dir keine"
-	para "Olympischen Spiele"
-	line "an?"
+	ctxt "Die vier Azuria-"
+	line "Schwestern sind"
+	cont "meine Idole!"
 
 	done
 
@@ -42,26 +39,24 @@ Route66_Trainer_2:
 
 	ctxt "Vielleicht kannst"
 	line "du eines Tages"
-	para "selbst schwimmen,"
-	line "anstatt zu radeln."
+	para "selber schwimmen,"
+	line "ganz ohne #mon."
 
 	done
 
 .before_battle_text
 	ctxt "Dieser See ist ein"
-	line "toller Ort, um"
-	para "meine Runden zu"
-	line "trainieren."
+	line "toller Ort, um ein"
+	para "paar Bahnen zu"
+	line "schwimmen."
 
 	done
 
 .battle_won_text
 	ctxt "Zu schade, dass"
-	line "die meisten"
-	para "Menschen #mon-"
-	line "Training auf dem"
-	para "Wasser nicht"
-	line "mögen."
+	line "die meisten Leute"
+	para "nicht gerne im"
+	line "Wasser trainieren."
 
 	done
 
@@ -70,32 +65,29 @@ Route66_Trainer_3:
 
 	ctxt "Trainer genießen"
 	line "es, die gleichen"
-	para "#mon-Typen wie"
+	para "#mon Typen wie"
 	line "ihre Interessen zu"
 	cont "haben."
 
-	para "Das macht auch"
+	para "Das macht auch "
 	line "Sinn."
 
 	done
 
 .before_battle_text
 	ctxt "Ich bin ein"
-	line "Schwimmer, ich"
-	para "muss Wasser-"
-	line "#mon benutzen,"
-	cont "richtig?"
+	line "Schwimmer, also"
+	para "muss ich auch"
+	line "Wasser-#mon"
+	cont "benutzen, oder?"
 
 	done
 
 .battle_won_text
-	ctxt "Hahahaha,"
-	line "verarscht!"
+	ctxt "Haha! Reingelegt!"
 
-	para "Was?!"
-
-	para "Du hast meinen"
-	line "Sarkasmus"
+	para "Was, du hast"
+	line "meinen Sarkasmus"
 	cont "durchschaut?"
 
 	done

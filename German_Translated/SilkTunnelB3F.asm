@@ -13,9 +13,9 @@ SilkTunnelB3F_Trainer_1:
 .before_battle_text
 	ctxt "Hey du!"
 
-	para "Ich sammle gerne"
-	line "Steine, auch"
-	para "solche wie diese"
+	para "Ich sammle gerne "
+	line "Steine, auch "
+	para "solche wie diese "
 	line "da!"
 
 	done
@@ -28,22 +28,22 @@ SilkTunnelB3F_Trainer_1:
 SilkTunnelB3F_Trainer_2:
 	trainer EVENT_SILK_TUNNEL_B3F_TRAINER_2, HIKER, 11, .before_battle_text, .battle_won_text
 
-	ctxt "Wie viel haben"
-	line "diese Schuhe"
+	ctxt "Wie viel haben "
+	line "diese Schuhe "
 	cont "gekostet?"
 
-	para "Die Wirtschaft in"
+	para "Die Wirtschaft in "
 	line "deiner Region muss"
-	para "völlig außer"
-	line "Kontrolle sein!?"
+	para "völlig außer "
+	line "Kontrolle sein?!"
 
 	done
 
 .before_battle_text
-	ctxt "Das sind ein paar"
+	ctxt "Das sind ein paar "
 	line "coole Schuhe."
 
-	para "Für jedes Terrain,"
+	para "Für alle Terrain, "
 	line "richtig?"
 
 	done
@@ -55,25 +55,25 @@ SilkTunnelB3F_Trainer_2:
 SilkTunnelB3F_Trainer_3:
 	trainer EVENT_SILK_TUNNEL_B3F_TRAINER_3, PICNICKER, 7, .before_battle_text, .battle_won_text
 
-	ctxt "Wenn du Zubat und"
-	line "dergleichen"
-	para "ignorierst, ist"
-	line "dieser Tunnel ein"
-	para "großartiger Ort"
+	ctxt "Wenn du Zubat und "
+	line "dergleichen "
+	para "ignorierst, ist "
+	line "dieser Tunnel ein "
+	para "großartiger Ort "
 	line "zum Entspannen."
 
 	done
 
 .before_battle_text
 	ctxt "Nenn mich komisch,"
-	line "aber ich finde"
-	para "diesen Ort"
+	line "aber ich finde "
+	para "diesen Ort "
 	line "entspannend."
 
 	done
 
 .battle_won_text
-	ctxt "Zumindest die"
+	ctxt "Zumindest die "
 	line "meiste Zeit!"
 
 	done

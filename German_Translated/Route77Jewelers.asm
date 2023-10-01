@@ -4,44 +4,44 @@ Route77Jewelers_MapScriptHeader;trigger count
 	db 0
 
 Route77JewelersRecipeBook:
-	ctxt "Ring-Rezepte:"
+	ctxt "Ring Rezepte:"
 
-	para "Pflanzen-Ring:"
+	para "Pflanzen Ring:"
 
 	para "2x Blattstein,"
 	line "25x Asche."
 
-	para "Feuer-Ring:"
+	para "Feuer Ring:"
 
 	para "2x Feuerstein,"
 	line "25x Asche."
 
-	para "Wasser-Ring:"
+	para "Wasser Ring:"
 
 	para "2x Wasserstein,"
 	line "50x Asche."
 
-	para "Donner-Ring:"
+	para "Donner Ring:"
 
 	para "2x Donnerstein,"
 	line "50x Asche."
 
-	para "Leucht-Ring:"
+	para "Leucht Ring:"
 
 	para "3x Leuchtstein,"
 	line "75x Asche."
 
-	para "Funkel-Ring:"
+	para "Funkel Ring:"
 
 	para "3x Funkelstein,"
 	line "75x Asche."
 
-	para "Finster-Ring:"
+	para "Finster Ring:"
 
 	para "3x Finsterstein,"
 	line "100x Asche."
 
-	para "Mond-Ring:"
+	para "Mond Ring:"
 
 	para "3x Mondstein,"
 	line "100x Asche."
@@ -51,7 +51,7 @@ Route77JewelersExplanationNPC:
 	ctxt "Ringe herstellen"
 	line "ist nicht einfach."
 
-	para "Es kostet element-"
+	para "Es kostet Element-"
 	line "are Steine und"
 	para "Asche für jeden"
 	line "Versuch."
@@ -59,33 +59,33 @@ Route77JewelersExplanationNPC:
 	para "Asche sammelst du"
 	line "beim Schmelzen von"
 	para "Kohle oder beim"
-	line "Laufen durch die"
-	cont "Feuerlichthöhlen."
+	line "laufen durch die"
+	cont "Leuchtfeuerhöhle."
 
-	para "Auf LV 1 kannst"
-	line "du nur Pflanzen-"
+	para "Auf LV 1, kannst"
+	line "du nur Pflanzen"
 	para "Ringe herstellen."
 	line "Bei steigendem LV"
 	para "kannst du immer"
 	line "mehr Ringe"
 	cont "herstellen."
 
-	para "Es gibt 7 Ringe,"
+	para "Es gibt 7 Ringe"
 	line "die du herstellen"
-	para "kannst und jeder"
+	para "kannst, und jedes"
 	line "davon hilft deinen"
 	para "#mon auf unter-"
-	line "schiedliche Weise"
+	line "schiedliche weise"
 	cont "im Kampf!"
 
 	para "Oder du stellst"
-	line "sie her und"
+	line "Sie her und"
 	para "verkaufst sie dann"
 	line "für gutes Geld."
 
-	para "Wenn du dran-"
+	para "Wenn du dran"
 	line "bleibst, kann sich"
-	para "das Ganze echt"
+	para "das ganze echt"
 	line "bezahlt machen!"
 	done
 
@@ -111,16 +111,16 @@ Route77JewelersSootSackDude:
 	para "obwohl du keinen"
 	line "Aschensack hast?"
 
-	para "Na gut, ich habe"
-	line "eine zweite für"
+	para "Nagut, Ich habe"
+	line "ein zweites für"
 	cont "dich übrig."
 	sdone
 
 .already_gave_soot_sack_text
 	ctxt "Sammle die Asche"
-	line "drin, indem du bei"
-	para "den Feuerlicht-"
-	line "höhlen spazierst"
+	line "darin indem du in"
+	para "der Leuchtfeuer-"
+	line "höhle spazierst"
 	para "oder Kohle"
 	line "schmilzt!"
 	done

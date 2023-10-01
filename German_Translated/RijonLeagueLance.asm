@@ -96,68 +96,69 @@ RijonLeagueLance_Lance:
 	para "Wie sehr habe ich"
 	line "dich vermisst." 
 
-	para "Als ich hörte, was"
-	line "damals in der"
-	para "Höhle passierte,"
-	line "kam ich so schnell"
-	para "ich konnte und"
-	line "suchte unter jedem"
-	cont "Stein nach dir!"
+	para "Als ich von dem"
+	line "Höhleneinsturz ge-"
+	para "hört habe, bin ich"
+	line "sofort hergeeilt,"
+	para "um nach dir zu"
+	line "suchen!"
 	
-	para "Da traf ich auf"
-	line "Professor Ilk, der"
-	para "in dieser Höhle"
-	line "die seismischen"
-	para "Aktivitäten"
-	line "untersuchte."
+	para "Dann hae ich Prof."
+	line "Ilk getroffen, der"
+	para "die seismischen"
+	line "Aktivitäten in"
+	para "diesen Höhlen"
+	line "untersucht hat."
 
-	para "Er beschrieb mir"
-	line "einen jungen"
-	para "Trainer, welcher"
-	line "auf der Naljo-"
-	para "Seite des Berges"
-	line "festsitzt und sich"
-	para "mit einem Larvitar"
-	line "befreundet hat, um"
-	para "ein Abenteuer zu"
-	line "erleben!"
+	para "Er hat mir einen"
+	line "jungen Trainer"
+	para "beschrieben, der"
+	line "auf Naljos Seite"
+	para "des Gebirges ge-"
+	line "fangen war, sich"
+	para "mit einem kleinen"
+	line "Larvitar ange-"
+	para "freundet hat und"
+	line "auf ein Abenteuer"
+	para "in der Region auf-"
+	line "gebrochen ist."
 
-	para "Ich wusste gleich,"
-	line "dass du gemeint"
-	para "warst und war so"
-	line "stolz auf dich!" 
-
-	para "Ich wusste, dass"
+	para "Ich habe vor Stolz"
+	line "nur so gestrotzt,"
+	para "als ich erfahren"
+	line "habe, dass du"
+	cont "gemeint warst!"
+	
+	para "Mir war klar, dass"
 	line "du das alleine"
 	para "schaffen wirst und"
 	line "auf dieser Reise"
-	para "an dir wachsen"
-	line "wirst."
+	para "jedes Hindernis"
+	line "überwinden kannst."
 
 	para "Ich musste darauf"
 	line "setzten, dass du"
-	para "weise"
-	line "Entscheidungen,"
-	para "treffen kannst"
-	line "ohne, dass ich"
-	cont "dir helfen muss."
+	para "weise Entschei-"
+	line "dungen triffst und"
+	para "auch ohne meine"
+	line "Hilfe auskommst."
 
 	para "Deshalb werde ich"
-	line "es dir auch hier"
+	line "es dir hier auch"
 	para "nicht einfach"
-	line "machen, damit du"
-	para "dir diesen Titel"
-	line "auch verdienst!"
+	line "machen. Diesen"
+	para "Titel, musst du"
+	line "dir verdienen!"
 	sdone
 
 .battle_won_text
 	ctxt "Großartig!"
 
 	para "Es gibt niemanden,"
-	line "bei dem ich mich"
-	para "so freuen würde,"
-	line "den Titel an ihn"
-	cont "abzutreten!"
+	line "dem ich meinen"
+	para "Titel lieber über-"
+	line "lassen würde als"
+	cont "dir, mein Kind!"
 	done
 
 .after_battle_text
@@ -179,13 +180,13 @@ RijonLeagueLance_Lance:
 	para "einem jungen Alter"
 	line "bezwungen!"
 
-	para "Lass uns direkt"
-	line "mal zur"
+	para "Nun lass uns"
+	line "direkt zur"
 	cont "Ruhmeshalle gehen!"
 
 	para "<...>"
 
-	para "Gibt es noch was,"
+	para "Es gibt noch was,"
 	line "das du vorher"
 	cont "machen möchtest?"
 
@@ -199,18 +200,18 @@ RijonLeagueLance_Lance:
 	sdone
 
 .family_gathering_text_1
-	ctxt "Mom: Mein Kind!"
-	line "Was für ein Weg!"
+	ctxt "Mama: Mensch, was"
+	line "für ein Abenteuer!"
 
-	para "Ich habe Tag und"
-	line "Nacht gebetet,"
-	para "dass du gesund"
-	line "wieder nach Hause"
-	cont "kommst!"
+	para "Ich bin so froh,"
+	line "dass du es gesund"
+	para "und munter nach"
+	line "Hause geschafft"
+	cont "hast!"
 
-	para "Und eines Tages"
-	line "Rijon-Champion"
-	cont "wirst <...>"
+	para "Dass du jetzt"
+	line "sogar Champion"
+	cont "bist <...>"
 
 	para "Du bist genau wie"
 	line "dein Vater!"
@@ -222,18 +223,17 @@ RijonLeagueLance_Lance:
 	para "viel auf dieser"
 	line "Reise gelernt."
 
-	para "Ich hatte meine"
+	para "Ich habe meine"
 	line "Abstammung aus"
-	para "Naljo vergessen"
-	line "gehabt."
+	cont "Naljo vergessen."
 
 	para "Ich war einfach zu"
 	line "beschäftigt <...>"
 	para "<...> Aber ich muss"
-	line "alles dafür tun,"
-	para "um Naljo in"
-	line "Sicherheit zu"
-	cont "bringen."
+	line "alles Nötige tun,"
+	para "um die Sicherheit"
+	line "in Naljo wieder"
+	cont "zu bewahren."
 
 	para "Die Wächter kennen"
 	line "das Naljo von"
@@ -243,32 +243,32 @@ RijonLeagueLance_Lance:
 	line "dass sie jemandem"
 	cont "schaden."
 
-	para "Ich kenne ein paar"
-	line "in Rijon, die uns"
-	para "hierbei helfen"
-	line "könnten."
+	para "Ich kenne einige"
+	line "Leute in Rijon,"
+	para "die uns dabei"
+	line "helfen könnten."
 	sdone
 
 .family_gathering_text_3
-	ctxt "Mom: Das ist sehr"
+	ctxt "Mama: Das ist sehr"
 	line "anständig von dir."
 
 	para "Vielleicht hast du"
-	line "dich ja echt"
+	line "dich ja wirklich"
 	cont "verändert <...>"
 	sdone
 
 .give_pass_text
-	ctxt "Siegfried: Treffen"
-	line "wir uns bei Ge-"
-	para "legenheit in der"
-	line "Rijon-Region."
+	ctxt "Siegfried: Wir"
+	line "sollten uns bei"
+	para "Gelegenheit in"
+	line "Rijon treffen."
 
-	para "Ich werde beim"
-	line "Kraftwerk sein."
+	para "Ich warte auf dich"
+	line "beim Kraftwerk."
 
-	para "Dieser Pass wird"
-	line "uns gewähren, den"
+	para "Dieser Pass"
+	line "erlaubt dir, den"
 	para "Tunnel nach Rijon"
 	line "zu passieren."
 	sdone
@@ -286,8 +286,8 @@ RijonLeagueLance_Lance:
 
 	para "<...> keine Eile."
 
-	para "Wir haben genug"
-	line "Zeit <...>"
+	para "Wir haben alle"
+	line "Zeit der Welt <...>"
 	sdone
 
 .hall_of_fame_text
@@ -299,14 +299,12 @@ RijonLeagueLance_Lance:
 	line "diesem Computer"
 	cont "gespeichert."
 
-	para "Du und deine"
-	line "#mon werden"
-	para "jetzt in die"
-	line "Geschichte"
-	para "eingehen und von"
-	line "Generationen nach"
-	para "euch bewundert"
-	line "werden."
+	para "Nun ist es an der"
+	line "Zeit, dass du und"
+	para "deine #mon sich"
+	line "ebenfalls in den"
+	para "Annalen der Rijon-"
+	line "Liga verewigen!"
 	done
 
 RijonLeagueLance_MapEventHeader:: db 0, 0

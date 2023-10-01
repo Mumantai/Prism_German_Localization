@@ -24,14 +24,13 @@ Route69GateGuard:
 .before_beating_rival_text
 	ctxt "Sei vorsichtig."
 
-	para "Die Naljo-Region"
-	line "ist momentan"
-	cont "unberechenbar <...>"
+	para "Manchmal ist Naljo"
+	line "berechenbar."
 	done
 
 .after_beating_rival_text
-	ctxt "Mach genau so"
-	line "weiter!"
+	ctxt "Kämpfe weiter und"
+	line "immer weiter!"
 	done
 
 Route69Gate_FirstTimeThrough:
@@ -66,58 +65,58 @@ Route69Gate_FirstTimeThrough:
 .opening_text
 	ctxt "Hey du!"
 
-	para "Du darfst nicht"
-	line "passieren!"
+	para "Ich kann dich"
+	line "nicht durchlassen!"
 
-	para "Es gibt einen"
-	line "Vorfall etwas"
-	cont "weiter im Haus"
-	cont "auf dem Hügel."
+	para "Irgendein Punk,"
+	line "macht am Haus auf"
+	cont "dem Hügel einen"
+	cont "riesen Aufstand."
 
-	para "Ich habe bereits"
-	line "jemanden gerufen,"
-	cont "der sich darum"
-	cont "kümmern sollte."
+	para "Ich habe schon"
+	line "Unterstützung"
+	cont "gerufen."
 
 	para "<...>"
 
-	para "<...> warte. Prof. Ilk"
-	line "hat dich gesandt?"
+	para "<...>warte. Prof. Ilk"
+	line "schickt dich?"
 
 	para "Ich hoffe, er weiß"
-	line "was er tut <...>"
+	line "was er tut<...>"
 
-	para "<...> schau, ich muss"
-	line "hier 24/7 lang"
-	cont "stehen, seitdem"
-	cont "die Kriminalität"
+	para "<...>ich muss Tag"
+	line "und Nacht Wache"
+	cont "stehen, seit die"
+	cont "Kriminalität hier"
 	cont "gestiegen ist."
 
 	para "Das zieht einen"
-	line "schon runter <...>"
+	line "schon runter<...>"
 
-	para "Entschuldige,"
-	line "dass ich motze."
+	para "Aber ich sollte"
+	line "mich nicht so viel"
+	cont "beschweren."
 	
-	para "Naja, ich sehe du"
-	line "hast keine Karte."
+	para "Wie ich sehe, hast"
+	line "du keine Karte."
 	
-	para "<...> Nimm das bitte"
-	line "an dich, damit du"
-	cont "dich nicht noch"
-	cont "verläufst <...>"
+	para "Hier, nimm. Ich"
+	line "will doch nicht,"
+	cont "dass du dich noch"
+	cont "verläufst<...>"
 
 	para "<PLAYER> erhält"
 	line "eine Karte!"
 	done
 
 .after_map_text
-	ctxt "In dem Haus auf"
-	line "dem Hügel ist ein"
-	cont "ziemlicher Tumult."
+	ctxt "Setz dem Aufruhr"
+	line "oben auf dem Hügel"
+	cont "ein Ende."
 
-	para "Das kriegst du"
-	line "locker hin!"
+	para "Ich wette, das"
+	line "kriegst du hin!"
 	sdone
 
 Route69Gate_MapEventHeader ;filler

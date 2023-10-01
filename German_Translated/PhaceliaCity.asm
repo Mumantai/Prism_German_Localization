@@ -9,13 +9,13 @@ PhaceliaCity_MapScriptHeader;trigger count
 	return
 
 PhaceliaCityTownSign:
-	ctxt "Noch keine"
-	next "richtige Stadt."
+	ctxt "Noch nicht ganz"
+	next "ein Dorf."
 	done
 
 PhaceliaCityMoveDeleterSign:
-	ctxt "Attacken-"
-	next "Verlerner."
+	ctxt "Attacken"
+	next "verlerner."
 	done
 
 PhaceliaCityMachoke:
@@ -26,7 +26,7 @@ PhaceliaCityMachoke:
 	endtext
 
 .text
-	ctxt "Maschock: Mahhh!"
+	ctxt "Maschock: Rhahhh!"
 	done
 
 PhaceliaCityBlockingGuard:
@@ -37,45 +37,48 @@ PhaceliaCityBlockingGuard:
 
 	para "<...>"
 
-	para "Warte, bist du ein"
-	line "Palette-Ranger?"
+	para "WARTE<...>"
+	
+	para "Bist du eine"
+	line "Paletten"
+	cont "Patrouille?"
 
-	para "Wir behalten euch"
-	line "im Auge!"
+	para "Wir suchen nach"
+	line "euch!"
 
 	para "<...>"
 
-	para "Was? Du bist ein"
-	line "Undercover-Agent?"
+	para "Oh, warte, du bist"
+	line "nur undercover?"
 
-	para "Ich verstehe."
+	para "Oh, Ich sehe."
 
-	para "Wenn du hilfst,"
-	line "einen von denen zu"
-	para "fangen, lasse ich"
-	line "dich rein."
+	para "OK, solange du zu"
+	line "den guten gehörst"
+	para "lass ich dich"
+	line "natürlich rein."
 	done
 
 PhaceliaCityNPC1:
-	ctxt "Dank unserer neuen"
-	line "Gewerkschaft habe"
-	para "ich Anspruch auf"
-	line "15 Minuten Pause!"
+	ctxt "Dank unserer"
+	line "Gewerkschaft, darf"
+	para "ich jeden Tag"
+	line "15m Pause machen."
 	done
 
 PhaceliaCityNPC2:
-	ctxt "Irgendwann möchte"
-	line "ich auch zu Andres"
-	cont "Crew gehören!"
+	ctxt "Ich will zu Andres"
+	line "Crew gehören eines"
+	cont "schönen Tages!"
 
-	para "Er wurde von einer"
-	line "Familie Machomei"
-	para "erzogen und kennt"
-	line "daher seine echten"
-	cont "Eltern nicht."
+	para "Er wurde durch die"
+	line "Machomei groß-"
+	para "gezogen und kennt"
+	line "daher seine wahre"
+	cont "Familie nicht."
 
 	para "Er ist halb Mensch"
-	line "und halb Machomei!"
+	line "& Halb Machomei!"
 	done
 
 PhaceliaCity_MapEventHeader:: db 0, 0

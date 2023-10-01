@@ -4,25 +4,25 @@ PhloxMyles_MapScriptHeader;trigger count
 	db 0
 
 PhloxMylesNewspaperArticle:
-	ctxt "Mann findet"
-	line "anderen Mann"
-	cont "in Höhle:"
+	ctxt "Mann findet einen"
+	line "Mann in einer"
+	cont "Höhle:"
 
 	para "Heute, in der"
 	line "abgelegenen Stadt"
-	para "Phloxia, wurde ein"
-	line "Mann in einer"
+	para "Flokalis, wurde"
+	line "ein Mann in einer"
 	cont "Höhle gefunden."
 
-	para "Der Mann leidet"
+	para "Der Mann leidete"
 	line "an Amnesie."
 
 	para "Der andere Mann"
-	line "wollte, dass wir"
+	line "wollte, das wir"
 	para "diesen Artikel"
 	line "schreiben."
 
-	para "Allen geht's gut."
+	para "'Allen gehts gut'."
 
 	para "Ende."
 	done
@@ -43,20 +43,21 @@ PhloxMylesMyles:
 	line "der von meinen"
 	cont "fantastischen"
 	para "Geschichten gehört"
-	line "hat, die durch"
-	para "ganz Naljo hallen?"
+	line "hat, welche durch"
+	para "die Naljo Region"
+	line "wandern?"
 
 	para "Du hast mich"
 	line "endlich gefunden!"
 
-	para "Myles, der Große!"
+	para "Myles der Große!"
 
 	para "Lass mich deine"
-	line "Ermüdung mit dem"
+	line "ermüdung mit dem"
 	para "Klang meiner"
 	line "Geschichte über"
 	para "meine große"
-	line "Heldentat nehmen."
+	line "Heldentat, nehmen."
 	done
 
 .tale
@@ -64,41 +65,40 @@ PhloxMylesMyles:
 
 	para "Da war ich nun."
 
-	para "Kämpfte mich durch"
-	line "die Acquaminen,"
+	para "Kämpfe mich durch"
+	line "die Aqua-Minen,"
 	para "die im Norden von"
-	line "Phloxia City"
-	cont "liegen."
-
+	line "Flokalis liegen."
+	
 	para "Dort war es nass"
-	line "und kalt, doch ich"
+	line "und kalt doch ich"
 	para "drang furchtlos"
 	line "immer tiefer in"
 	para "die Dunkelheit"
 	line "vor."
 
-	para "Andere wagten sich"
+	para "Andere wagen sich"
 	line "erst gar nicht"
-	para "rein wegen den"
+	para "rein, wegen den"
 	line "Gerüchten von"
 	para "Geistern, Mördern"
-	line "und Flüchen."
+	line "& anderen Flüchen."
 
-	para "Welch Narren!"
+	para "IDIOTEN!"
 
 	para "Tief in der"
 	line "dunklen Höhle"
 	para "hörte ich die"
-	line "Schreie eines"
+	line "schreie eines"
 	para "Lammes, das von"
 	line "seinem Hirten"
 	cont "getrennt wurde."
 
 	para "So ging ich, Myles"
-	line "der Große, blind"
-	cont "wie ein Zubat,"
-	para "durch dunkle Höhle"
-	line "und fand das arme,"
+	line "der Große, wie ein"
+	cont "Zubat durch die"
+	para "dunkle Höhle und"
+	line "fand das arme"
 	cont "schwache Lamm!"
 
 	para "Es war ein junger"
@@ -107,7 +107,7 @@ PhloxMylesMyles:
 	line "Monaten dort aus-"
 	para "harrte, zumindest"
 	line "nach meiner"
-	cont "Expertise."
+	cont "Meinung."
 
 	para "Der Mann lag dort"
 	line "ruhig in einem"
@@ -115,12 +115,12 @@ PhloxMylesMyles:
 
 	para "Er dachte wohl,"
 	line "dass es das Ende"
-	cont "für ihn ist <...>"
+	cont "für Ihn ist<...>"
 
-	para "Ich schrie:"
+	para "Ich schrieh:"
 
 	para "NEIN!, und trug"
-	line "ihn aus der Höhle!"
+	line "Ihn aus der Höhle!"
 
 	para "Sie haben sogar"
 	line "einen Artikel über"
@@ -131,10 +131,10 @@ PhloxMylesMyles:
 	cont "Geschichte!"
 
 	para "Dieser junge Mann"
-	line "tut mir echt leid,"
+	line "tut mir echt leid"
 	para "weil durch seine"
-	line "Amnesie weiß er"
-	cont "von nichts mehr."
+	line "Amnesie nichts"
+	cont "mehr wusste."
 
 	para "Keine Erinnerung"
 	line "an sein Leben vor"
@@ -145,14 +145,14 @@ PhloxMylesMyles:
 	line "heute von Zeit"
 	para "zu Zeit in dieser"
 	line "Höhle rum, um sich"
-	para "zu erinnern, wieso"
+	para "zu erinnern wieso"
 	line "er dort war."
 
-	para "Selbst ich, als"
+	para "Selbst ich als"
 	line "großer Held, kann"
-	para "ihm seine"
+	para "Ihm seine "
 	line "Erinnerungen nicht"
-	para "zurückbringen <...>"
+	para "zurück bringen<...>"
 
 	para "Versuch du es"
 	line "ruhig nochmal."
@@ -165,7 +165,7 @@ PhloxMylesMyles:
 	line "eingerahmt hinter"
 	para "mir an der Wand."
 
-	para "LIES IHN, OK?"
+	para "LIES ES OK?"
 	line "BITTE!"
 	done
 

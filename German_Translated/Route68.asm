@@ -8,29 +8,27 @@ Route68HiddenItem:
 	db GOLD_TOKEN
 
 Route68DirectionsSign:
-	ctxt "<LEFT> Akania Hafen"
-	next "<RIGHT> Rijon Grenze"
-	next "<RIGHT><RIGHT>Heuhof City"
+	ctxt "<LEFT> Akania-Hafen"
+	next "<RIGHT> Rijon-Grenze"
+	next "<RIGHT><RIGHT>Faenumia City"
 	done
 
 Route68_Trainer_1:
 	trainer EVENT_ROUTE_68_TRAINER_1, OFFICER, 4, .before_battle_text, .battle_won_text
 
-	ctxt "Verursache in der"
-	line "Rijon-Region bitte"
-	cont "keine Probleme."
+	ctxt "Bitte mach keinen"
+	line "Aufstand in Rijon."
 
-	para "Naljo hat sowieso"
-	line "einen schlechten"
-	cont "Ruf dort."
+	para "Naljo hat dort ja"
+	line "eh schon einen"
+	cont "schlechten Ruf."
 	done
 
 .before_battle_text
 	ctxt "Du willst Naljo"
 	line "verlassen?"
 
-	para "Traust du dich"
-	line "das echt?"
+	para "Packst du das?"
 	done
 
 .battle_won_text
@@ -40,22 +38,21 @@ Route68_Trainer_1:
 Route68_Trainer_2:
 	trainer EVENT_ROUTE_68_TRAINER_2, SWIMMERM, 15, .before_battle_text, .battle_won_text
 
-	ctxt "Also ich würde"
-	line "Naljo nicht"
-	cont "weiterempfelen."
+	ctxt "Du würdest Naljo"
+	line "eher nicht weiter-"
+	cont "empfehlen?"
 	done
 
 .before_battle_text
-	ctxt "Ich bin aus der"
-	line "Rijon-Region und"
-	para "möchte mir Naljo"
-	line "genauer anschauen."
+	ctxt "Ich bin aus Rijon"
+	line "und will Naljo"
+	para "hautnah erleben."
 	done
 
 .battle_won_text
-	ctxt "Uff, gegen Leute"
-	line "aus Naljo zu"
-	cont "kämpfen, ist hart."
+	ctxt "Oh, ihr aus Naljo"
+	line "wisst echt wie man"
+	cont "kämpft."
 	done
 
 Route68_Trainer_3:
@@ -63,21 +60,21 @@ Route68_Trainer_3:
 
 	ctxt "Das Wasser hier"
 	line "ist klarer als"
-	cont "sonst wo in Naljo."
+	cont "sonstwo in Naljo."
 
-	para "Man kann die"
+	para "Man kann sogar die"
 	line "#mon unter uns"
 	cont "schwimmen sehen!"
 	done
 
 .before_battle_text
 	ctxt "Das ist mein"
-	line "lieblings Schwimm-"
-	cont "platz!"
+	line "Lieblingsplatz"
+	cont "zum Schwimmen!"
 	done
 
 .battle_won_text
-	ctxt "Whoops."
+	ctxt "Ups."
 	done
 
 Route68_Trainer_4:
@@ -85,48 +82,47 @@ Route68_Trainer_4:
 
 	ctxt "Ich tauche meinen"
 	line "Kopf niemals unter"
-	cont "Wasser."
+	cont "Wasser. Niemals."
 
 	para "Mein Makeup würde"
-	line "sonst schmieren!"
+	line "sonst verlaufen!"
 	done
 
 .before_battle_text
-	ctxt "Beim Schwimmen"
-	line "versuche ich, den"
-	para "Kopf über Wasser"
-	line "zu halten."
+	ctxt "Beim Schwimmen,"
+	line "versuche ich den"
+	para "Kopf immer über"
+	line "Wasser zu halten."
 	done
 
 .battle_won_text
-	ctxt "Das war schnell."
+	ctxt "Das war gemein."
 	done
 
 Route68_Trainer_5:
 	trainer EVENT_ROUTE_68_TRAINER_5, SWIMMERF, 11, .before_battle_text, .battle_won_text
 
-	ctxt "Man fliegt, man"
-	line "gräbt und man"
-	cont "schwimmt!"
-
-	para "Ich gehöre zu den"
-	line "Schwimmenden."
+	ctxt "Zwischen Fliegen,"
+	line "Schaufeln und"
+	para "Schwimmen, würde"
+	line "ich immer das"
+	cont "Schwimmen wählen."
 	done
 
 .before_battle_text
-	ctxt "Ich bin froh um"
-	line "den Akania Hafen."
+	ctxt "Zum Glück gibt es"
+	line "diese Hafenstadt."
 
 	para "So kann ich auf"
-	line "dem Schwimmweg von"
-	para "Heuhof City nach"
+	line "dem Weg zwischen"
+	para "Faenumia City und"
 	line "Torenia City eine"
 	cont "Pause einlegen."
 	done
 
 .battle_won_text
-	ctxt "Das hat mich"
-	line "ausgepowert."
+	ctxt "Das hat mich jetzt"
+	line "echt ausgepowert."
 	done
 
 Route68_MapEventHeader:: db 0, 0

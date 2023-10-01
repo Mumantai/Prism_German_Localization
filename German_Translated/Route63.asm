@@ -8,34 +8,33 @@ Route63HiddenItem:
 	db GOLD_TOKEN
 
 Route63DirectionsSign:
-	ctxt "<LEFT> Heuhof City"
-	next "<RIGHT> Seidenpass"
+	ctxt "<LEFT> Faenumia City"
+	next "<RIGHT> Seidentunnel"
 	done
 
 Route63_Trainer_1:
 	trainer EVENT_ROUTE_63_TRAINER_1, BUG_CATCHER, 10, .before_battle_text, .battle_won_text
 
 	ctxt "Käfer-#mon sind"
-	line "super effektiv"
+	line "sehr effektiv"
 	para "gegen Psycho- und"
-	line "Schatten-#mon."
+	line "Unlicht-#mon."
 
-	para "Cool, was?"
+	para "Cool, oder?"
 
 	done
 
 .before_battle_text
-	ctxt "Zeit für meinen"
-	line "Käferschwarm"
+	ctxt "Zeit, für meinen"
+	line "Käferschwarm,"
 	cont "anzugreifen!"
 
 	done
 
 .battle_won_text
 	ctxt "Du hast nicht"
-	line "einmal"
-	para "Insektenspray"
-	line "verwendet!"
+	line "einmal Insekten-"
+	cont "spray benutzt!"
 
 	done
 
@@ -43,16 +42,15 @@ Route63_Trainer_2:
 	trainer EVENT_ROUTE_63_TRAINER_2, LASS, 6, .before_battle_text, .battle_won_text
 
 	ctxt "Dieser Tunnel wird"
-	line "Seidenpass"
+	line "Seidentunnel"
 	para "genannt, weil er"
-	line "früher die größte"
-	para "Raupy-Wildnis-"
-	line "quelle war."
+	line "früher voll mit"
+	cont "wilden Raupy war."
 
-	para "Alle enthlielten"
-	line "Seide, aus der"
-	para "Menschen Kleider"
-	line "herstellten."
+	para "Aus ihren Fäden"
+	line "machte man Seide,"
+	para "die zu Kleidung"
+	line "verarbeitet wurde."
 
 	para "Hat dir deine"
 	line "Geschichtsstunde"
@@ -63,13 +61,13 @@ Route63_Trainer_2:
 .before_battle_text
 	ctxt "Ich weiß, warum"
 	line "dieser Tunnel"
-	para "Seidenpass genannt"
-	line "wird!"
+	para "Seidentunnel"
+	line "genannt wird!"
 
 	done
 
 .battle_won_text
-	ctxt "Neugierig?"
+	ctxt "Na, neugierig?"
 
 	done
 

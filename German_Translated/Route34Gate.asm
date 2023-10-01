@@ -73,17 +73,17 @@ Route34GateNPC:
 	para "Du kommst nicht"
 	line "aus Johto?"
 
-	para "Hier, nimm das als"
-	line "Willkommens-"
+	para "Hier, nimm das,"
+	line "als Willkommens-"
 	cont "geschenk."
 
 	sdone
 
 .after_giving_TM_text
 	ctxt "TM88 ist Ampel-"
-	line "leuchte, meines"
-	para "Smettbos liebste"
-	line "Attacke!"
+	line "leuchte. Die Lieb-"
+	para "lingsattacke von"
+	line "meinem Smettbo!"
 
 	done
 
@@ -95,8 +95,8 @@ Route34GateButterfree:
 	endtext
 
 .text
-	ctxt "Smettbo,"
-	line "Smet, Boooo"
+	ctxt "Smettbo:"
+	line "Sme-e-e-ett!"
 
 	done
 

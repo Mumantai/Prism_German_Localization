@@ -16,54 +16,54 @@ Route59DirectionsSign:
 Route59_Trainer_1:
 	trainer EVENT_ROUTE_59_TRAINER_1, JUGGLER, 2, .before_battle_text, .battle_won_text
 
-	ctxt "Jetzt, wo die Lage"
-	line "in Botania City"
-	para "nicht mehr so"
-	line "angespannt ist,"
-	para "kann jeder ohne"
-	line "Probleme vorbei."
+	ctxt "Jetzt, wo sich die"
+	line "Lage in Botania"
+	para "City entspannt"
+	line "hat, kann jeder"
+	para "ohne Probleme"
+	line "kommen und gehen."
 	done
 
 .before_battle_text
 	ctxt "Botania City ist"
-	line "nicht mehr unter"
+	line "nicht mehr in"
 	cont "Quarantäne!"
 	done
 
 .battle_won_text
 	ctxt "Schade, dass die"
-	line "hier kein #mon-"
-	cont "Center haben, denn"
-	para "ich könnte jetzt"
-	line "eines brauchen."
+	line "hier kein #mon"
+	cont "Center haben. Ich"
+	para "könnte jetzt echt"
+	line "eins gebrauchen."
 	done
 
 Route59_Trainer_2:
 	trainer EVENT_ROUTE_59_TRAINER_2, FIREBREATHER, 4, .before_battle_text, .battle_won_text
 
-	ctxt "Zeit, etwas mehr"
-	line "Maisstärke zu"
-	cont "nehmen."
+	ctxt "Achtung, gleich"
+	line "wird's hier heiß!"
+	
 	done
 
 .before_battle_text
-	ctxt "Die Mitte dieses"
-	line "Grasfeldes ist"
-	para "der beste Ort, um"
-	line "meine Feuer-Spuck-"
-	cont "Künste zu zeigen!"
+	ctxt "Das hier, ist der"
+	line "beste Ort, um mein"
+	para "Feuerspucken zu"
+	line "trainieren!"
+
 	done
 
 .battle_won_text
-	ctxt "Komm runter, du"
-	line "hast nur gewonnen."
+	ctxt "Spiel dich nicht"
+	line "so auf."
 
 	para "Ist ja nicht so,"
-	line "dass du jetzt"
-	cont "Champ wurdest <...>"
+	line "als wärst du der"
+	cont "Champ oder so."
 
-	para "Moment mal <...>"
-	line "Du bist der CHAMP!"
+	para "Oh, Moment."
+
 	done
 
 Route59_MapEventHeader:: db 0, 0

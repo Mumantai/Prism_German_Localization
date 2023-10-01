@@ -23,10 +23,9 @@ Route65QRCode:
 	jumptext .text
 
 .text
-	ctxt "Prisma-Schlüssel"
-	line "im Umfeld der"
-	cont "Küstenstadt-"
-	cont "Arena."
+	ctxt "Prismaschlüssel:"
+	line "Baum außerhalb der"
+	cont "Maritima Arena."
 	done
 
 Route65_Rival:
@@ -39,64 +38,64 @@ Route65_Rival:
 	ctxt "Bleib stehen!"
 
 	para "Seit ich aus dem"
-	line "Gefängnis raus"
-	para "bin, sehe ich"
-	line "diese Welt mit"
-	cont "anderen Augen!"
+	line "Gefängnis raus bin"
+	para "sehe ich diese"
+	line "Welt mit anderen"
+	cont "Augen!"
 
 	para "Das Leben als"
 	line "Flüchtling ist"
 	cont "sehr schwer."
 
-	para "Wenn ich nachts"
-	line "mit meinen #mon"
-	para "liege, merke ich,"
-	line "dass ich sehr"
-	para "froh darüber bin,"
-	line "dass sie gerade"
-	cont "da sind."
+	para "Wenn ich Nachts"
+	line "kein Auge zu"
+	para "kriege, wird mir"
+	line "klar, wie froh ich"
+	para "bin, meine #mon"
+	line "um mich herum"
+	cont "zu haben."
 
 	para "Mein Band zu ihnen"
-	line "ist gewachsen und"
-	para "damit auch meine"
-	line "Kraft."
+	line "wurde stärker und"
+	para "dadurch wurde auch"
+	line "ich immer stärker."
 
-	para "Es ist Zeit, diese"
+	para "Es ist Zeit, meine"
 	line "Kraft in einem"
-	cont "Kampf auszutesten!"
+	cont "Kampf zu testen!"
 	done
 
 .battle_won_text
-	ctxt "Ich muss noch"
-	line "viel lernen."
+	ctxt "Ich muss noch viel"
+	line "mehr lernen."
 	done
 
 .after_battle_text
-	ctxt "Ich weiß, ich habe"
-	line "viel Schaden"
-	para "angerichtet, aber"
-	line "dank dir weiß ich," 
-	para "dass ich ein guter"
-	line "Trainer sein"
-	para "möchte <...>"
-	line "Ein besserer"
-	cont "Trainer!"
+	ctxt "Ich weiß, dass ich"
+	line "meinen #mon und"
+	para "Anderen viel Scha-"
+	line "den zugefügt habe." 
+	
+	para "Doch dank dir, bin"
+	line "bin ich bereit für"
+	cont "einen Neuanfang."
+	
+	para "Ich werde ein"
+	cont "besserer Trainer!"
 
-	para "Die Art, wie du" 
-	line "kämpfst, spiegelt"
-	para "deine innere"
-	line "Stärke und Ruhe"
-	cont "wieder."
+	para "Die Art, wie deine" 
+	line "#mon kämpfen,"
+	para "zeigt mir deine"
+	line "innere Stärke und"
+	cont "Entschlossenheit."
 
 	para "Ein Trainer wie du"
-	line "ist wie dafür"
-	para "geschaffen, Champ"
-	line "der Rijon-Liga"
-	cont "zu werden!"	
+	line "ist dazu bestimmt,"
+	cont "Champion zu sein."	
 
-	para "Ich hoffe, wir"
+	para "Ich hoffe wir"
 	line "sehen uns wieder,"
-	cont "Trainer <...>"
+	cont "Trainer<...>"
 	done
 
 Route65_MapEventHeader ;filler

@@ -4,15 +4,15 @@ SaffronPokecenter_MapScriptHeader;trigger count
 	db 0
 
 SaffronPokecenterNPC1:
-	ctxt "Der CEO von Silph"
+	ctxt "Der CEO von Silph "
 	line "Co."
 
 	para "war früher der"
-	line "Champion von"
+	line "Champion von "
 	cont "Kanto."
 
 	para "Was für ein"
-	line "beachtlicher"
+	line "beachtlicher "
 	cont "Lebenslauf!"
 
 	done
@@ -38,7 +38,7 @@ SaffronPokecenterNPC3:
 	para "Ist ein Gerücht,"
 	line "weil niemand weiß,"
 	para "wo die Trainer"
-	line "sich derzeit"
+	line "sich derzeit "
 	cont "aufhalten."
 
 	done

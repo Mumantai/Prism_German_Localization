@@ -21,7 +21,7 @@ PrisonRoof_Trainer_1:
 	done
 
 .battle_won_text
-	text "Äh <...>"
+	text "Uh<...>"
 	done
 
 .after_battle_text
@@ -38,12 +38,13 @@ PrisonRoof_Trainer_2:
 	jumptext .after_battle_text_3
 
 .before_battle_text
-	ctxt "Verdammt Grady,"
-	line "konzentrier dich."
+	ctxt "Verdammt nochmal"
+	line "Grady, bleib"
+	cont "fokussiert."
 
-	para "Ich hasse es, auf"
+	para "Ich hasse es auf"
 	line "diesen Typen auf-"
-	cont "zupassen <...>"
+	cont "zupassen<...>"
 	done
 
 .battle_won_text
@@ -52,47 +53,49 @@ PrisonRoof_Trainer_2:
 	done
 
 .after_battle_text_1
-	ctxt "Das ist wirklich"
-	line "mit das schlimmste"
-	para "Gefängnis der"
-	line "der Welt."
+	ctxt "Im ernst, das ist"
+	line "eins der"
+	para "schlimmsten"
+	line "Gefängnisse der"
+	cont "Welt."
 
 	para "Die Insassen hier"
 	line "könnten jederzeit"
 	para "ausbrechen, wenn"
-	line "sie wollten."
+	line "Sie wollen"
+	cont "würden."
 
-	para "Grady und ich sind"
-	line "quasi allein für"
-	para "die Sicherheit"
-	line "zuständig."
+	para "Grady und Ich"
+	line "führen alleine die"
+	para "ganze Sicherheits-"
+	line "abteilung."
 
-	para "Stimm's, Grady?"
+	para "Stimms Grady?"
 	sdone
 
 .after_battle_text_2
-	ctxt "Grady: Hä?"
+	ctxt "Grady: Huh?"
 	sdone
 
 .after_battle_text_3
-	ctxt "Egal, du bist"
-	line "nur ein Kind."
+	ctxt "Egal du bist nur"
+	line "ein Kind."
 
 	para "Die hätten dich"
-	line "in die Jugendhaft"
-	cont "stecken sollen."
+	line "besser zu juvie"
+	cont "schicken sollen."
 
 	para "Geh runter zum"
-	line "Fitness-Raum und"
+	line "Fitness Raum und"
 	para "frag Paulie nach"
 	line "dem neuen Passwort"
 	cont "zum Keller."
 
-	para "Wegen der ganzen"
-	line "Inkompetenz hier,"
+	para "Wegen der"
+	line "Inkompetenz hier"
 	para "müssen wir ständig"
 	line "das beknackte"
-	cont "Passwort ändern <...>"
+	cont "Passwort ändern<...>"
 	done
 
 PrisonRoof_MapEventHeader ;filler

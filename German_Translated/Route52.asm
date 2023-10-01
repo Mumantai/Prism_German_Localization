@@ -8,14 +8,14 @@ Route52HiddenItem:
 	db GOLD_TOKEN
 
 Route52DirectionsSign:
-	ctxt "<RIGHT> Heuhof Hafen"
+	ctxt "<RIGHT> Heuhofen-Hafen"
 	done
 
 Route52_Trainer:
 	trainer EVENT_ROUTE_52_TRAINER_1, FISHER, 7, .before_battle_text, .battle_won_text
 
-	ctxt "Ich fische liebend"
-	line "gerne!"
+	ctxt "Mein nächster Fang"
+	line "wird dich umhauen!"
 
 	done
 
@@ -26,8 +26,8 @@ Route52_Trainer:
 	done
 
 .battle_won_text
-	ctxt "Ich glaube, ich"
-	line "kann es besser"
+	ctxt "Ich muss es wohl"
+	line "noch viel besser"
 	cont "machen."
 
 	done

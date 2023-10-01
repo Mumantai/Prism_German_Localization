@@ -16,14 +16,14 @@ Route61_Trainer_1:
 	done
 
 .before_battle_text
-	ctxt "Hier ist mein"
-	line "geheimer "
+	ctxt "Das ist mein"
+	line "geheimer"
 	cont "Angelplatz."
 
 	done
 
 .battle_won_text
-	ctxt "Sag es niemandem!"
+	ctxt "Verrat ihn nicht!"
 
 	done
 
@@ -31,20 +31,16 @@ Route61_Trainer_2:
 	trainer EVENT_ROUTE_61_TRAINER_2, FISHER, 9, .before_battle_text, .battle_won_text
 
 	ctxt "Vielleicht sollte"
-	line "ich sie ein"
-	para "bisschen am Haken"
-	line "baumeln lassen,"
-	para "bevor ich mich"
-	line "entscheide, dass"
-	para "sie mit mir in die"
-	line "Stadt mitkommen"
-	cont "sollen."
+	line "ich sie ein wenig"
+	para "zappeln lassen,"
+	line "bevor ich sie mit"
+	para "nach Hause bringe."
 
 	done
 
 .before_battle_text
-	ctxt "Ich habe eine"
-	line "super Angelrute."
+	ctxt "Meine Angelrute"
+	line "ist super."
 
 	done
 
@@ -57,24 +53,23 @@ Route61_Trainer_2:
 Route61_Trainer_3:
 	trainer EVENT_ROUTE_61_TRAINER_3, FISHER, 10, .before_battle_text, .battle_won_text
 
-	ctxt "Es empfiehlt sich,"
-	line "bei den Fischen zu"
-	cont "schlafen."
-
-	para "Immer noch falsch?"
+	ctxt "Was Redewendungen"
+	line "angeht, bin ich"
+	para "ein toller Hecht."
 
 	done
 
 .before_battle_text
-	ctxt "Haken, Schnur und"
-	line "Senker!"
+	ctxt "Fische fängt man"
+	line "mit Angeln,"
+	para "Trainer mit"
+	cont "Kämpfen."
 
 	done
 
 .battle_won_text
-	ctxt "Was, diese"
-	line "Redewendung klappt"
-	cont "hier nicht?"
+	ctxt "Da war ich wohl"
+	line "im Trüben fischen."
 
 	done
 

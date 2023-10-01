@@ -15,7 +15,7 @@ SaffronFightingDojo_Trainer_1:
 
 .before_battle_text
 	ctxt "Und von wo kommst"
-	line "du her?"
+	line "du denn?"
 
 	done
 
@@ -37,7 +37,7 @@ SaffronFightingDojo_Trainer_2:
 .before_battle_text
 	ctxt "Lässt du lieber"
 	line "deinen Mund oder"
-	para "deine Fäuste"
+	para "deine Fäuste "
 	line "sprechen?"
 
 	done
@@ -52,7 +52,7 @@ SaffronFightingDojo_Trainer_3:
 	trainer EVENT_SAFFRON_FIGHTING_DOJO_TRAINER_3, BLACKBELT_T, 9, .before_battle_text, .battle_won_text
 
 	ctxt "Warte nur, bis du"
-	line "unserem Meister"
+	line "unserem Meister "
 	cont "begegnest!"
 
 	done
@@ -98,8 +98,8 @@ SaffronFightingDojoMaster:
 	jumptext .received_item_text
 
 .already_battled_text
-	ctxt "Immer weiter"
-	line "trainieren!"
+	ctxt "Immer weiter "
+	line "Trainieren!"
 
 	para "Das werde ich auch"
 	line "machen!"
@@ -109,7 +109,7 @@ SaffronFightingDojoMaster:
 .before_battle_text
 	ctxt "Hey!"
 
-	para "Ich bin Kiyo, der"
+	para "Ich bin Kiyo, der "
 	line "Karate-König!"
 
 	cont "Du!"

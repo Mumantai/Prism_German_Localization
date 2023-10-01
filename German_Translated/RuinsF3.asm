@@ -68,7 +68,7 @@ RuinsF3_DoRandomBall:
 
 .got_brown_jewel_text
 	ctxt "Du hast das"
-	line "Braun-Juwel"
+	line "Braun Juwel"
 	cont "gefunden!"
 	done
 

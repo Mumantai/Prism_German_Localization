@@ -11,10 +11,10 @@ SpurgePokecenterNPC1:
 	cont "reden!"
 
 	para "Du weißt schon,"
-	line "derjenige, der die"
+	line "derjenige der die"
 	cont "Felsen zerstörte!"
 
-	para "Ich glaube, diese"
+	para "Ich glaube diese"
 	line "Explosion legte"
 	para "auch andere Wege"
 	line "in der Höhle frei."
@@ -25,7 +25,7 @@ SpurgePokecenterNPC2:
 	line "vor der Außenwelt."
 
 	para "Wer weiß, was dort"
-	line "so passiert <...>"
+	line "so alles passiert<...>"
 	done
 
 SpurgePokecenter_MapEventHeader ;filler

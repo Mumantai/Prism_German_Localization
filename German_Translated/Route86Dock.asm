@@ -6,7 +6,7 @@ Route86Dock_MapScriptHeader;trigger count
 Route86DockNPC1:
 	ctxt "Wenn du nach"
 	line "Norden gehst,"
-	para "kommst du zu den"
+	para "kommst du zu den "
 	line "Kampfarkaden."
 
 	done
@@ -14,7 +14,7 @@ Route86DockNPC1:
 Route86DockNPC2:
 	ctxt "Die Kampfarkaden"
 	line "haben ein"
-	para "interessantes"
+	para "interessantes "
 	line "Konzept."
 
 	cont "Viel Erfolg!"
@@ -57,7 +57,7 @@ Route86DockSailor:
 
 	para "Möchtest du an"
 	line "Bord gehen und"
-	para "nach Kastro-Tal"
+	para "nach Kastro Tal "
 	line "fahren?"
 
 	done

@@ -16,7 +16,7 @@ Route74DirectionsSign:
 Route74_Trainer_1:
 	trainer EVENT_ROUTE_74_TRAINER_1, SAILOR, 1, .before_battle_text, .battle_won_text
 
-	ctxt "Mit meinen #mon"	;hier fehlt eigentlich ein Komma, aber der Platz reicht nicht aus
+	ctxt "Mit meinen #mon"
 	line "habe ich die ganze"
 	cont "Welt bereist."
 
@@ -31,21 +31,20 @@ Route74_Trainer_1:
 	done
 
 .battle_won_text
-	ctxt "Aaaargh!"
+	ctxt "Awaaargh!"
 	done
 
 Route74_Trainer_2:
 	trainer EVENT_ROUTE_74_TRAINER_2, POKEFANM, 2, .before_battle_text, .battle_won_text
 
 	ctxt "Ich bin nicht der"
-	line "einzige Pikachu-"
+	line "einzige Pikachu"
 	cont "Fan in Naljo."
 
 	para "Aber!"
 
-	para "Ich habe mehr"
-	line "Leidenschaft, als"
-	para "sie alle zusammen!"
+	para "Ich mache es vom"
+	line "Herzen gerne!"
 	done
 
 .before_battle_text
@@ -56,24 +55,24 @@ Route74_Trainer_2:
 	done
 
 .battle_won_text
-	text "Pah!"
+	text "Feh!"
 	done
 
 Route74_Trainer_3:
 	trainer EVENT_ROUTE_74_TRAINER_3, POKEFANF, 1, .before_battle_text, .battle_won_text
 
-	ctxt "Baby-#mon sind"
+	ctxt "Baby #mon sind"
 	line "so niedlich!"
 	done
 
 .before_battle_text
-	ctxt "Zeig mir deine"
-	line "süßesten #mon!"
+	ctxt "Zeig mir wie süß"
+	line "dein #mon ist!"
 	done
 
 .battle_won_text
-	ctxt "Verlieren, macht"
-	line "mir nichts aus <...>"
+	ctxt "Das ich verliere"
+	line "ist mir egal<...>"
 	done
 
 Route74_Trainer_4:
@@ -83,14 +82,14 @@ Route74_Trainer_4:
 	line "gleicht dem"
 	cont "anderen!"
 
-	para "Jedes einzelne"
-	line "ist individuell."
+	para "Jedes hat seine"
+	line "individuellen"
+	cont "stärken."
 	done
 
 .before_battle_text
-	ctxt "Ich möchte einen"
-	line "Blick auf dein"
-	para "Team werfen."
+	ctxt "Zeig mir dein"
+	line "Team!"
 	done
 
 .battle_won_text

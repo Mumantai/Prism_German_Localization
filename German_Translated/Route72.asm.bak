@@ -17,20 +17,20 @@ Route72DirectionsSign:
 Route72_Trainer_1:
 	trainer EVENT_ROUTE_72_TRAINER_1, YOUNGSTER, 1, .before_battle_text, .battle_won_text
 
-	ctxt "Trainer zu sein,"
-	line "ist harte Arbeit!"
+	ctxt "Es ist hart ein"
+	line "Trainer zu sein!"
 
-	para "Man weiß nie, was"
-	line "ein Gegner so in"
-	cont "Petto hat!"
+	para "Du weist nie was"
+	line "dein Gegner dabei"
+	cont "hat!"
 	done
 
 .before_battle_text
 	ctxt "Hey!"
 
-	para "Sehen zwei Trainer"
-	line "sich in die Augen,"
-	cont "heißt es Kämpfen!"
+	para "Wenn zwei Trainer"
+	line "Augenkontakt haben"
+	cont "gibts einen Kampf!"
 	done
 
 .battle_won_text
@@ -40,21 +40,21 @@ Route72_Trainer_1:
 Route72_Trainer_2:
 	trainer EVENT_ROUTE_72_TRAINER_2, YOUNGSTER, 2, .before_battle_text, .battle_won_text
 
-	ctxt "Bah!"
+	ctxt "Bleh!"
 
-	para "Wärst du mein"
-	line "Lehrer, hätte ich"
-	cont "eine 6 bekommen!"
+	para "Wenn du mein"
+	line "Lehrer wärst, hätt"
+	cont "ich die Note 5!"
 	done
 
 .before_battle_text
-	ctxt "Bildung, ist der"
+	ctxt "Bildung ist der"
 	line "Schlüssel zum"
 	cont "Erfolg!"
 	done
 
 .battle_won_text
-	ctxt "Ich habe versagt!"
+	ctxt "NEIN! Verloren???"
 	done
 
 Route72_Trainer_3:
@@ -65,10 +65,10 @@ Route72_Trainer_3:
 	done
 
 .before_battle_text
-	ctxt "Oh, hey du."
+	ctxt "Oh, hey."
 
-	para "Hättest du an 'nem"
-	line "Kampf Interesse?"
+	para "Interesse an einem"
+	line "Kampf?"
 	done
 
 .battle_won_text
@@ -78,21 +78,21 @@ Route72_Trainer_3:
 Route72_Trainer_4:
 	trainer EVENT_ROUTE_72_TRAINER_4, POKEFANM, 1, .before_battle_text, .battle_won_text
 
-	ctxt "Ich nutze jeden"
-	line "Tag, um meine"
-	para "Pikachu-Sammlung"
-	line "zu vergrößern!"
+	ctxt "Ich habe mein"
+	line "Urlaub dazu genuzt"
+	para "Pikachu Anhänger"
+	line "zu sammeln!"
 	done
 
 .before_battle_text
 	ctxt "Wer ist der größte"
-	line "Pikachu-Fan?"
+	line "Pikachu Fan?"
 
-	para "Er steht vor dir!"
+	para "Steht vor dir!"
 	done
 
 .battle_won_text
-	ctxt "Pikachu<...>"
+	ctxt "Mein Pikachu<...>"
 	done
 
 Route72_MapEventHeader:: db 0, 0

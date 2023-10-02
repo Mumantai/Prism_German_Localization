@@ -22,18 +22,18 @@ Route71DirectionsSign2:
 	done
 
 Route71NPC1:
-	ctxt "Ich kann Promis"
-	line "nicht leiden."
+	ctxt "Ich hasse diese"
+	line "Promis."
 	
 	para "Die kriegen viel"
 	line "Aufmerksamkeit für"
 	cont "nichts!"
 	
-	para "Ich meine, selbst"
-	line "der Champion der"
-	para "Rijon-Liga hat"
-	line "jetzt seine eigene"
-	cont "Fernsehsendung!"
+	para "Ich meine sogar"
+	line "der Champ der"
+	para "Rijon Liga hat"
+	line "seine eigene"
+	cont "TV-Show!"
 	
 	para "Das ist verrückt!"
 	done
@@ -42,22 +42,22 @@ Route71NPC2:
 	ctxt "War Capparia City"
 	line "zu kalt für dich?"
 
-	para "Du hast Glück!"
+	para "Du hast glück!"
 
-	para "Von hier an, wird"
+	para "von hier an wird"
 	line "es immer wärmer!"
 	done
 
 Route71NPC3:
-	ctxt "Hier zu stehen,"
-	line "macht mir Angst."
+	ctxt "Ich habe Angst"
+	line "hier zu stehen."
 
-	para "Was, wenn ich"
-	line "herunter falle?"
+	para "vieleicht könnte"
+	line "ich runter fallen."
 
-	para "Vielleicht, kann"
-	line "ich ja einfach"
-	cont "runter kriechen<...>"
+	para "Wenn ich nach"
+	line "unten krieche, wär"
+	cont "ich evt. sicher."
 	done
 
 Route71NPC4:
@@ -71,26 +71,26 @@ Route71NPC4:
 	line "Arena,"
 	cont "Psycho."
 
-	para "Verstanden?"
+	para "Kapiert?"
 	done
 
 .night_text
 	ctxt "Kristallseide"
 
-	para "Verstanden?"
+	para "Kapiert?"
 	done
 
 Route71_Trainer_1:
 	trainer EVENT_ROUTE_71_TRAINER_1, BUG_CATCHER, 1, .before_battle_text, .battle_won_text
 
-	ctxt "Unterschätze nicht"
+	ctxt "Unterschätz nicht"
 	line "die Kraft von"
-	cont "Käfer-#mon!"
+	cont "Käfer #mon!"
 	done
 
 .before_battle_text
 	ctxt "Meine Käfer werden"
-	line "immer stärker!"
+	line "immer Stärker!"
 	done
 
 .battle_won_text
@@ -100,10 +100,10 @@ Route71_Trainer_1:
 Route71_Trainer_2:
 	trainer EVENT_ROUTE_71_TRAINER_2, HIKER, 1, .before_battle_text, .battle_won_text
 
-	ctxt "Pah!"
+	ctxt "Gah!"
 
 	para "Wisch dir das"
-	line "blöde Grinsen von"
+	line "Grinsen von"
 	cont "deinem Gesicht!"
 	done
 

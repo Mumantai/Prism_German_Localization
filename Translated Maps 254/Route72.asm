@@ -21,18 +21,18 @@ Route72IslandSign:
 
 Route72_Trainer_1:
 	trainer EVENT_ROUTE_72_TRAINER_1, YOUNGSTER, 1, .before_battle_text, .battle_won_text
-	ctxt "Es ist hart ein"
-	line "Trainer zu sein!"
-	para "Du weist nie was"
-	line "dein Gegner dabei"
-	cont "hat!"
+	ctxt "Trainer zu sein,"
+	line "ist harte Arbeit!"
+	para "Man weiß nie, was"
+	line "ein Gegner so in"
+	cont "Petto hat!"
 	done
 
 .before_battle_text
 	ctxt "Hey!"
-	para "Wenn zwei Trainer"
-	line "Augenkontakt haben"
-	cont "gibts einen Kampf!"
+	para "Sehen zwei Trainer"
+	line "sich in die Augen,"
+	cont "heißt es Kämpfen!"
 	done
 
 .battle_won_text
@@ -41,20 +41,20 @@ Route72_Trainer_1:
 
 Route72_Trainer_2:
 	trainer EVENT_ROUTE_72_TRAINER_2, YOUNGSTER, 2, .before_battle_text, .battle_won_text
-	ctxt "Bleh!"
-	para "Wenn du mein"
-	line "Lehrer wärst, hätt"
-	cont "ich die Note 5!"
+	ctxt "Bah!"
+	para "Wärst du mein"
+	line "Lehrer, hätte ich"
+	cont "eine 6 bekommen!"
 	done
 
 .before_battle_text
-	ctxt "Bildung ist der"
+	ctxt "Bildung, ist der"
 	line "Schlüssel zum"
 	cont "Erfolg!"
 	done
 
 .battle_won_text
-	ctxt "NEIN! Verloren???"
+	ctxt "Ich habe versagt!"
 	done
 
 Route72_Trainer_3:
@@ -64,9 +64,9 @@ Route72_Trainer_3:
 	done
 
 .before_battle_text
-	ctxt "Oh, hey."
-	para "Interesse an einem"
-	line "Kampf?"
+	ctxt "Oh, hey du."
+	para "Hättest du an 'nem"
+	line "Kampf Interesse?"
 	done
 
 .battle_won_text
@@ -75,20 +75,20 @@ Route72_Trainer_3:
 
 Route72_Trainer_4:
 	trainer EVENT_ROUTE_72_TRAINER_4, POKEFANM, 1, .before_battle_text, .battle_won_text
-	ctxt "Ich habe mein"
-	line "Urlaub dazu genuzt"
-	para "Pikachu Anhänger"
-	line "zu sammeln!"
+	ctxt "Ich nutze jeden"
+	line "Tag, um meine"
+	para "Pikachu-Sammlung"
+	line "zu vergrößern!"
 	done
 
 .before_battle_text
 	ctxt "Wer ist der größte"
-	line "Pikachu Fan?"
-	para "Steht vor dir!"
+	line "Pikachu-Fan?"
+	para "Er steht vor dir!"
 	done
 
 .battle_won_text
-	ctxt "Mein Pikachu<...>"
+	ctxt "Pikachu<...>"
 	done
 
 Route72_MapEventHeader:: db 0, 0

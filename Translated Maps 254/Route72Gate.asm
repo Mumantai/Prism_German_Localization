@@ -18,13 +18,13 @@ Route72GateNPC2:
 	ctxt "Ich muss"
 	line "nachdenken<...>"
 	para "Mein #mon hasst"
-	line "mich und Ich weiss"
+	line "mich und ich weiß"
 	cont "nicht wieso<...>"
 	done
 
 Route72GateNPC3:
 	ctxt "Die Treppen führen"
-	line "runter in eine,"
+	line "runter in eine"
 	cont "Höhle."
 	done
 
@@ -54,55 +54,58 @@ Route72GateOldMan:
 .gave_shiny_balls_text
 	ctxt "Diese speziellen"
 	line "Bälle machen jedes"
-	cont "#mon schillernd"
-	para "Es hat einen kom-"
-	line "ischen Nebeneffekt"
-	cont "bei manchen arten."
+	para "#mon"
+	line "schillernd!"
+	para "Sie haben einen"
+	line "seltsamenen Neben-"
+	para "effekt bei manchen"
+	line "#mon-Arten."
 	para "Mir ist das aber"
 	line "noch nie passiert."
-	para "Nutze es sehr"
-	line "weise!"
+	para "Benutze sie bitte"
+	line "überlegt!"
 	done
 
 .before_giving_pokeballs_text
-	ctxt "Na du."
-	para "Du bist interess-"
-	line "iert daran den"
-	cont "#dex zu füllen?"
-	para "In dem Fall kann"
+	ctxt "Hallo, wie geht's"
+	para "denn so?"
+	para "Du möchtest eines"
+	line "Tages den #dex"
+	cont "vervollständigen?"
+	para "In dem Fall, kann"
 	line "ich dir helfen!"
-	para "Ist zwar nicht"
-	line "viel, aber besser"
-	cont "als nichts."
+	para "Es ist zwar nicht"
+	line "viel, aber es wird"
+	cont "dir etwas helfen."
 	prompt
 
 .after_giving_pokeballs_text
-	ctxt "Ich will unbedingt"
-	line "einen vollen Naljo"
-	cont "#dex sehen."
-	para "Komm zurück wenn"
-	line "es soweit ist!"
+	ctxt "Ich möchte einmal"
+	line "einen kompletten"
+	cont "Naljo-Dex sehen."
+	para "Komm zurück, wenn"
+	line "du soweit bist!"
 	done
 
 .show_all_pokemon_text
 	ctxt "Was ist das?!"
 	para "253 #mon!"
-	para "WUNDERSCHÖN!"
-	para "So eine beachtl-"
-	line "iche Leistung muss"
+	para "Unglaublich!"
+	para "Eine Leistung, wie"
+	line "diese, muss auch"
 	cont "belohnt werden!"
 	para "Oh, ich weis wie!"
-	para "Pass gut auf die"
-	line "auf."
+	para "Hier, pass gut"
+	line "darauf auf."
 	sdone
 
 .after_giving_shiny_balls_text
-	ctxt "Du solltest stolz"
-	line "sein auf das, was"
-	cont "du erreicht hast."
-	para "Den Naljo Dex zu"
-	line "füllen ist nicht"
-	cont "so einfach!"
+	ctxt "Du kannst stolz"
+	line "auf deine Leistung"
+	cont "sein."
+	para "Den Naljo-Dex zu"
+	line "vervollständigen,"
+	cont "ist nicht einfach!"
 	done
 
 Route72Gate_MapEventHeader:

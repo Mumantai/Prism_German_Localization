@@ -15,60 +15,59 @@ Route75HiddenItem_2:
 Route75_Trainer_1:
 	trainer EVENT_ROUTE_75_TRAINER_1, SCHOOLBOY, 2, .before_battle_text, .battle_won_text
 	ctxt "Die Schule stiehlt"
-	line "mir die Zeit<...>"
+	line "mir die Zeit <...>"
 	done
 
 .before_battle_text
-	ctxt "Ich Zeige dir, was"
+	ctxt "Ich zeige dir, was"
 	line "ich in der Schule"
 	cont "gelernt habe."
 	done
 
 .battle_won_text
-	ctxt "Jaa, Ich hab nicht"
-	line "nicht aufgepasst."
+	ctxt "Ich hab wohl nicht"
+	line "gut aufgepasst."
 	done
 
 Route75_Trainer_2:
 	trainer EVENT_ROUTE_75_TRAINER_2, LASS, 1, .before_battle_text, .battle_won_text
-	ctxt "Ich muss wieder"
-	line "Shoppen gehen!"
+	ctxt "Ich brauche ein"
+	line "Paar Turbotreter!"
 	done
 
 .before_battle_text
 	ctxt "Du siehst gut aus,"
-	line "Aber<...> nicht gut"
+	line "aber <...> nicht gut"
 	cont "genug für mich!"
 	done
 
 .battle_won_text
-	ctxt "Ich sehe. Kämpfen"
-	line "kannst du gut."
+	ctxt "Ich sehe, du"
+	line "kämpft echt gut."
 	done
 
 Route75_Trainer_3:
 	trainer EVENT_ROUTE_75_TRAINER_3, BIRD_KEEPER, 2, .before_battle_text, .battle_won_text
-	ctxt "Ich hoffe eines"
-	line "tages so gut wie"
+	ctxt "Ich hoffe, eines"
+	line "Tages so gut wie"
 	cont "Falkner zu werden!"
 	done
 
 .before_battle_text
-	ctxt "#mon Attacken"
-	line "sind so"
-	cont "furchteregend!"
+	ctxt "#mon greifen"
+	line "so anmutig an!"
 	done
 
 .battle_won_text
-	ctxt "Dennoch mag ich"
-	line "sie<...>"
+	ctxt "Aber ich gebe"
+	line "gerne an <...>"
 	done
 
 Route75_Trainer_4:
 	trainer EVENT_ROUTE_75_TRAINER_4, BEAUTY, 2, .before_battle_text, .battle_won_text
 	ctxt "Wenn meine #mon"
-	line "bei mir sind, ist"
-	cont "alles in Ordnung."
+	line "bei mir sind, bin"
+	cont "ich glücklich."
 	done
 
 .before_battle_text
@@ -77,8 +76,8 @@ Route75_Trainer_4:
 	done
 
 .battle_won_text
-	ctxt "Süß allein gewinnt"
-	line "keinen Kampf?"
+	ctxt "Süße allein,"
+	line "reicht nicht?"
 	done
 
 Route75_Trainer_5:
@@ -94,8 +93,8 @@ Route75_Trainer_5:
 	done
 
 .battle_won_text
-	ctxt "Deine Skills sind"
-	line "Weltklasse!"
+	ctxt "Du bist wirklich"
+	line "weltklasse!"
 	done
 
 Route75_MapEventHeader:

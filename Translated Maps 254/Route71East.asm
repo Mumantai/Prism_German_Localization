@@ -10,63 +10,61 @@ Route71EastBattleTowerSign:
 
 Route71East_Trainer_1:
 	trainer EVENT_ROUTE_71_EAST_TRAINER_1, JUGGLER, 3, .before_battle_text, .battle_won_text
-	ctxt "Um so Jonglieren"
+	ctxt "Um so jonglieren"
 	line "zu können, muss"
-	cont "man üben & üben!"
+	cont "man lange üben!"
 	para "Man wird nicht als"
 	line "Jongleur geboren."
 	done
 
 .before_battle_text
 	ctxt "Zeit für meine"
-	line "übungen!"
+	line "Jonlierübungen!"
 	done
 
 .battle_won_text
-	ctxt "Das hat dich nicht"
+	ctxt "Hat dich das nicht"
 	line "amüsiert?"
 	done
 
 Route71East_Trainer_2:
 	trainer EVENT_ROUTE_71_EAST_TRAINER_2, FIREBREATHER, 8, .before_battle_text, .battle_won_text
-	ctxt "Es gibt diverse"
-	line "Items die du durch"
-	para "Bergbau an anderen"
-	line "Orten ausgraben"
-	cont "kannst!"
-	para "Wenn du z.B. nach"
-	line "Feuerstein suchst,"
-	cont "geh in der"
-	para "Leuchtfeuerhöhle"
-	line "abbauen!"
+	ctxt "An anderen Orten,"
+	line "kannst du andere"
+	para "Items abbauen!"
+	para "So kannst du zum"
+	line "Beispiel in der"
+	cont "Leuchtfeuerhöhle"
+	para "Feuersteine finden"
+	line "und abbauen!"
 	done
 
 .before_battle_text
-	ctxt "Ich kenne ein "
+	ctxt "Ich kenne ein"
 	line "Geheimniss über"
 	cont "den Bergbau."
-	para "Schlag mich und"
-	line "ich sags dir!"
+	para "Besieg mich und"
+	line "ich verrate es!"
 	done
 
 .battle_won_text
-	ctxt "Willst du es nun"
-	line "wissen?"
+	ctxt "Alles klar, willst"
+	line "du es nun wissen?"
 	done
 
 Route71East_Trainer_3:
 	trainer EVENT_ROUTE_71_EAST_TRAINER_3, FIREBREATHER, 7, .before_battle_text, .battle_won_text
-	ctxt "Wenn du nach Osten"
-	line "gehst, gelangst du"
-	para "zu der"
+	ctxt "Wenn du weiter"
+	line "nach Osten gehst,"
+	para "kommst du zur"
 	line "Leuchtfeuerhöhle."
-	para "Dort habe ich"
+	para "Da habe ich"
 	line "meine #mon her!"
 	done
 
 .before_battle_text
-	ctxt "Zeit zum"
-	line "schmelzen!"
+	ctxt "Es ist Zeit, dir"
+	line "einzuheizen!"
 	done
 
 .battle_won_text

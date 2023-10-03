@@ -24,22 +24,22 @@ Route70IslandSign:
 Route70NPC1:
 	ctxt "Man, dieser Schnee"
 	line "ist wirklich tief!"
-	para "Wenn du beim"
-	line "laufen den" 
-	para "B-Knopf drückst,"
-	line "rennst du"
-	cont "schneller!"
+	para "Wenn du beim Gehen"
+	line "den B-Knopf" 
+	para "drückst, kannst du"
+	line "vielleicht noch"
+	cont "schneller laufen!"
 	done
 
 Route70NPC2:
-	ctxt "Siehst du rechts"
-	line "den Tunnel?"
-	para "Es führt in die"
-	line "Rijon-Region!"
-	para "Du brauchst einen"
-	line "Rijon-Pass damit"
-	para "dich der Wächter"
-	line "passieren lässt."
+	ctxt "Siehst du den"
+	line "Tunnel, da rechts?"
+	para "Er führt dich"
+	line "direkt nach Rijon!"
+	para "Du brauchst aber"
+	line "einen Rijon-Pass,"
+	para "um an der Wache"
+	line "vorbeizukommen."
 	done
 
 Route70_MapEventHeader:: db 0, 0

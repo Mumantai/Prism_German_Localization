@@ -38,17 +38,18 @@ Route74_Trainer_1:
 	done
 
 .battle_won_text
-	ctxt "Awaaargh!"
+	ctxt "Aaaargh!"
 	done
 
 Route74_Trainer_2:
 	trainer EVENT_ROUTE_74_TRAINER_2, POKEFANM, 2, .before_battle_text, .battle_won_text
 	ctxt "Ich bin nicht der"
-	line "einzige Pikachu"
+	line "einzige Pikachu-"
 	cont "Fan in Naljo."
 	para "Aber!"
-	para "Ich mache es vom"
-	line "Herzen gerne!"
+	para "Ich habe mehr"
+	line "Leidenschaft, als"
+	para "sie alle zusammen!"
 	done
 
 .before_battle_text
@@ -58,23 +59,23 @@ Route74_Trainer_2:
 	done
 
 .battle_won_text
-	text "Feh!"
+	text "Pah!"
 	done
 
 Route74_Trainer_3:
 	trainer EVENT_ROUTE_74_TRAINER_3, POKEFANF, 1, .before_battle_text, .battle_won_text
-	ctxt "Baby #mon sind"
+	ctxt "Baby-#mon sind"
 	line "so niedlich!"
 	done
 
 .before_battle_text
-	ctxt "Zeig mir wie süß"
-	line "dein #mon ist!"
+	ctxt "Zeig mir deine"
+	line "süßesten #mon!"
 	done
 
 .battle_won_text
-	ctxt "Das ich verliere"
-	line "ist mir egal<...>"
+	ctxt "Verlieren, macht"
+	line "mir nichts aus <...>"
 	done
 
 Route74_Trainer_4:
@@ -82,14 +83,14 @@ Route74_Trainer_4:
 	ctxt "Kein #mon"
 	line "gleicht dem"
 	cont "anderen!"
-	para "Jedes hat seine"
-	line "individuellen"
-	cont "stärken."
+	para "Jedes einzelne"
+	line "ist individuell."
 	done
 
 .before_battle_text
-	ctxt "Zeig mir dein"
-	line "Team!"
+	ctxt "Ich möchte einen"
+	line "Blick auf dein"
+	para "Team werfen."
 	done
 
 .battle_won_text

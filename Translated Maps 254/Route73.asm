@@ -20,54 +20,56 @@ Route73IslandSign:
 	done
 
 Route73BlockingDude:
-	ctxt "Momentan kannst du"
-	line "nicht passieren."
-	para "Die #mon vor"
-	line "dir, sind zu"
+	ctxt "Ich werde dich"
+	line "nicht durchlassen."
+	para "Die #mon hier,"
+	line "sind noch zu"
 	cont "stark für dich."
 	para "Wenn du Josiah"
-	line "besiegst, könntest"
-	cont "du mich vieleicht"
-	cont "umstimmen."
-	para "Hah! Als ob das"
-	line "passieren wird."
+	line "besiegen kannst,"
+	cont "lasse ich dich"
+	cont "eventuell vorbei."
+	para "Hah! Aber als ob"
+	line "du das schaffst."
 	done
 
 Route73_Trainer_1:
 	trainer EVENT_ROUTE_73_TRAINER_1, PICNICKER, 2, .before_battle_text, .battle_won_text
-	ctxt "Josiah's Kampfstil"
-	line "ist Heiß!"
+	ctxt "Josiah ist tough,"
+	para "aber er ist auch"
+	line "echt heiß!"
 	para "Wortwörtlich!"
 	done
 
 .before_battle_text
-	ctxt "Wie war es gegen"
+	ctxt "Wie war es, gegen"
 	line "Josiah zu kämpfen?"
 	done
 
 .battle_won_text
-	ctxt "Nun weiss ich es<...>"
+	ctxt "Ich verstehe <...>"
 	done
 
 Route73_Trainer_2:
 	trainer EVENT_ROUTE_73_TRAINER_2, BIRD_KEEPER, 1, .before_battle_text, .battle_won_text
-	ctxt "Du musst schnell"
-	line "sein in Kämpfen!"
+	ctxt "In Kämpfen, musst"
+	line "du immer schnell"
+	cont "nachdenken!"
 	done
 
 .before_battle_text
-	ctxt "Überlege schnell!"
+	ctxt "Schnell denken!"
 	done
 
 .battle_won_text
-	ctxt "Aww! Ich war nicht"
-	line "schnell genug!"
+	ctxt "Mist! Ich war"
+	line "zu langsam!"
 	done
 
 Route73_Trainer_3:
 	trainer EVENT_ROUTE_73_TRAINER_3, BUG_CATCHER, 2, .before_battle_text, .battle_won_text
-	ctxt "Was ist der Sch-"
-	line "lüssel zum Sieg?"
+	ctxt "Der Schlüssel zu"
+	line "guten Kämpfen?"
 	para "Motivation!"
 	done
 
@@ -78,25 +80,25 @@ Route73_Trainer_3:
 
 .battle_won_text
 	ctxt "Zu viele Fehl-"
-	line "entscheidungen<...>"
+	line "entscheidungen <...>"
 	done
 
 Route73_Trainer_4:
 	trainer EVENT_ROUTE_73_TRAINER_4, JUGGLER, 1, .before_battle_text, .battle_won_text
-	ctxt "Fang ein Elektro"
-	line "und ein Feuer-typ"
-	para "#mon bevor du"
-	line "zur Höhle gehst."
+	ctxt "Fang ein Elektro-"
+	line "und ein Feuer-"
+	para "#mon bevor du in"
+	line "die Höhle gehst."
 	para "Vertrau mir!"
 	done
 
 .before_battle_text
-	ctxt "Fang ein Elektro"
-	line "und Feuer #mon!"
+	ctxt "Fang ein Elektro-"
+	line "und Feuer-#mon!"
 	done
 
 .battle_won_text
-	ctxt "Sei gewarnt!"
+	ctxt "Hör auf mich!"
 	done
 
 Route73_MapEventHeader:: db 0, 0

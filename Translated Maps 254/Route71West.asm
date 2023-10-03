@@ -23,35 +23,35 @@ Route71WestDirectionsSign2:
 	done
 
 Route71WestNPC1:
-	ctxt "Ich hasse diese"
-	line "Promis."
+	ctxt "Ich kann Promis"
+	line "nicht leiden."
 	para "Die kriegen viel"
 	line "Aufmerksamkeit für"
 	cont "nichts!"
-	para "Ich meine sogar"
-	line "der Champ der"
-	para "Rijon Liga hat"
-	line "seine eigene"
-	cont "TV-Show!"
+	para "Ich meine, selbst"
+	line "der Champion der"
+	para "Rijon-Liga hat"
+	line "jetzt seine eigene"
+	cont "Fernsehsendung!"
 	para "Das ist verrückt!"
 	done
 
 Route71WestNPC2:
 	ctxt "War Capparia City"
 	line "zu kalt für dich?"
-	para "Du hast glück!"
-	para "von hier an wird"
+	para "Du hast Glück!"
+	para "Von hier an, wird"
 	line "es immer wärmer!"
 	done
 
 Route71WestNPC3:
-	ctxt "Ich habe Angst"
-	line "hier zu stehen."
-	para "vieleicht könnte"
-	line "ich runter fallen."
-	para "Wenn ich nach"
-	line "unten krieche, wär"
-	cont "ich evt. sicher."
+	ctxt "Hier zu stehen,"
+	line "macht mir Angst."
+	para "Was, wenn ich"
+	line "herunter falle?"
+	para "Vielleicht, kann"
+	line "ich ja einfach"
+	cont "runter kriechen<...>"
 	done
 
 Route71WestNPC4:
@@ -64,24 +64,24 @@ Route71WestNPC4:
 	ctxt "Schlüssel,"
 	line "Arena,"
 	cont "Psycho."
-	para "Kapiert?"
+	para "Verstanden?"
 	done
 
 .night_text
 	ctxt "Kristallseide"
-	para "Kapiert?"
+	para "Verstanden?"
 	done
 
 Route71West_Trainer_1:
 	trainer EVENT_ROUTE_71_WEST_TRAINER_1, BUG_CATCHER, 1, .before_battle_text, .battle_won_text
-	ctxt "Unterschätz nicht"
+	ctxt "Unterschätze nicht"
 	line "die Kraft von"
-	cont "Käfer #mon!"
+	cont "Käfer-#mon!"
 	done
 
 .before_battle_text
 	ctxt "Meine Käfer werden"
-	line "immer Stärker!"
+	line "immer stärker!"
 	done
 
 .battle_won_text
@@ -90,14 +90,14 @@ Route71West_Trainer_1:
 
 Route71West_Trainer_2:
 	trainer EVENT_ROUTE_71_WEST_TRAINER_2, HIKER, 1, .before_battle_text, .battle_won_text
-	ctxt "Gah!"
+	ctxt "Pah!"
 	para "Wisch dir das"
-	line "Grinsen von"
+	line "blöde Grinsen von"
 	cont "deinem Gesicht!"
 	done
 
 .before_battle_text
-	ctxt "Go, Sentret!"
+	ctxt "Los, Wiesor!"
 	done
 
 .battle_won_text

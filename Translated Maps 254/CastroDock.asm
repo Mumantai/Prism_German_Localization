@@ -46,7 +46,7 @@ CastroDockSailor:
 	ctxt "Wunderbar!"
 	para "Möchstest du los"
 	line "in Richtung"
-	cont "Kampfarena?"
+	cont "Kampfarkaden?"
 	done
 
 BattleArcadeFerrySailor_Text_Welcome:

@@ -13,15 +13,15 @@ Route64SilphWarehouseSign:
 	done
 
 Route64NaljoBorderSign:
-	ctxt "<UP> Naljo Grenze"
-	next "  (Akania Hafen)"
+	ctxt "<UP> Naljo-Grenze"
+	next "  (Akania-Hafen)"
 	next "<RIGHT> Heuhofen"
 	done
 
 Route64NaljoBorderInfoSign:
 	ctxt "Westlicher Hafen"
-	next "<LEFT> Naljo Grenze"
-	next "  (Akania Hafen)"
+	next "<LEFT> Naljo-Grenze"
+	next "  (Akania-Hafen)"
 	next "<RIGHT> Heuhofen"
 	done
 

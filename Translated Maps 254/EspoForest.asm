@@ -100,7 +100,7 @@ EspoForest_Trainer_4:
 	para "den Glockenturm."
 	line "Ich wurde im"
 	para "Knofensa-Turm"
-	line "traniert."
+	line "trainiert."
 	done
 
 .before_battle_text

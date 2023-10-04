@@ -21,7 +21,7 @@ Route81Bridge:
 	return_if_callback_else_end
 
 Route81DirectionsSign:
-	ctxt "<UP> Akania Hafen"
+	ctxt "<UP> Akania-Hafen"
 	next "<LEFT> Provinzial-"
 	nl   "  park"
 	next "<RIGHT> Route 80"
@@ -90,7 +90,7 @@ Route81_Trainer_3:
 
 .before_battle_text
 	ctxt "Weiter nördlich"
-	line "liegt der Akania"
+	line "liegt der Akania-"
 	para "Hafen. Was ist nur"
 	line "mit der Brücke<...>"
 	done

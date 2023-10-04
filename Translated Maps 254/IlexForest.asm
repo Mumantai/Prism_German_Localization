@@ -12,17 +12,16 @@ IlexForestShrine:
 	ctxt "Dieser Schrein"
 	line "wurde zu Ehren des"
 	para "Schutzpatrons des"
-	line "Waldes errichtet <...>"
+	line "Waldes errichtety<...>"
 	done
 
 IlexForestSign:
 	ctxt "Die hohen Bäume"
-	next "des Waldes, lassen"
+	next "des Waldes lassen"
 	next "kein Licht durch."
 	nl	 ""
 	next "Achten Sie auf"
-	next "heruntergefallene"
-	next "Gegenstände!"
+	next "verlorene Items!"
 	done
 
 IlexForest_MapEventHeader:: db 0, 0

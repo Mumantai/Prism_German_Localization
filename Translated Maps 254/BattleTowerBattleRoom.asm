@@ -217,24 +217,25 @@ BattleTowerText_AskNextBattle:
 	
 .continue_text
 	ctxt ""
-	line "is up next."
+	line "ist der nächste."
 
-	para "Are you ready?"
+	para "Bist du bereit?"
 	done
 
 .tycoon_text
-	ctxt "Congratulations on"
-	line "winning thus far!"
+	ctxt "Glückwunsch für"
+	line "deine bisherigen"
+	cont "Siege!"
 
-	para "I've just been"
-	line "informed that our"
-	para "esteemed Tower"
-	line "Tycoon seeks an"
-	cont "audience with you."
+	para "Ich wurde soeben"
+	line "informiert, dass"
+	para "unsere Kampf-"
+	line "koryphäe eine"
+	para "audience mit Ihnen"
+	line "wünscht."
 
-	para "Are you ready to"
-	line "accept their"
-	cont "challenge?"
+	para "Stimmst du dem"
+	line "zu?"
 	done
 
 BattleTowerBattleRoom_MapEventHeader:: db 0, 0

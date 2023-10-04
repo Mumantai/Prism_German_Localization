@@ -9,7 +9,7 @@ Route62HiddenItem:
 	db GOLD_TOKEN
 
 Route62Sign:
-	ctxt "Castro Felder"
+	ctxt "Kastro Felder"
 	next "Der Weg zu vielen"
 	next "Städten!"
 	done

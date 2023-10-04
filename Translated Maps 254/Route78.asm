@@ -9,6 +9,7 @@ Route78HiddenItem:
 	db HYPER_POTION
 
 Route78DirectionsSign:
+	stxt "<UP>  Phacelia"
 	next "<DOWN><LEFT> Ruinen"
 	next "<DOWN><RIGHT> Route 79"
 	done

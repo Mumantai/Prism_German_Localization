@@ -5,7 +5,7 @@ Route87_MapScriptHeader:
 	db 0
 
 Route87DirectionsSign:
-	ctxt "<UP> Tunod Wasserpfad"
+	ctxt "<UP> Tunod-Wasserpfad"
 	next "<UP><UP> Südport City"
 	next "<DOWN> Lauralia City"
 	done
@@ -70,7 +70,7 @@ Route87_Trainer_3:
 	ctxt "Der naheste Flug-"
 	line "hafen nach Naljo"
 	para "befindet sich in"
-	line "der Süd-Stadt und"
+	line "Südport City und"
 	para "da muss man sehr"
 	line "lange hin-"
 	cont "schwimmen!"

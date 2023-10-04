@@ -5,7 +5,7 @@ OwsauriGym_MapScriptHeader:
 	db 0
 
 OwsauriGymSign:
-	ctxt "Owsauri-Arena"
+	ctxt "Osaria-Arena"
 	line "Leiterin: Lily"
 	done
 
@@ -52,7 +52,7 @@ OwsauriGym_Trainer_2:
 
 .before_battle_text
 	ctxt "Die Abhänge von"
-	line "Klathrit sind so"
+	line "Klathrat sind so"
 	cont "heftig, Alter!"
 	done
 

@@ -38,22 +38,22 @@ Route55TowerSign:
 .FacingUp ; cannot read sign facing up
 .FacingDown
 .facingLeftEntryPoint
-	stxt "<LEFT><LEFT><LEFT><LEFT><LEFT><LEFT> You"
+	stxt "<LEFT><LEFT><LEFT><LEFT><LEFT><LEFT> Du"
 	done
 
 .FacingLeft
-	stxt "Rainbow"
-	nl   "   Tower"
+	stxt "Regenbogen"
+	nl   "   Turm"
 	nl   "    <UP>"
 	nl   "    <UP>"
 	nl   "    <UP>"
 	nl   "    <LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT>"
 	nl   "           <UP>"
-	nl   "          You@"
+	nl   "          Du@"
 	done
 
 .FacingRight
-	nl   "   Tower"
+	nl   "   Turm"
 	nl   "    <UP>"
 	nl   "    <UP>"
 	nl   "    <UP>"
@@ -65,67 +65,80 @@ Route55TowerSign:
 Route55_Trainer_1:
 	trainer EVENT_ROUTE_55_TRAINER_1, HIKER, 5, .before_battle_text, Route55_Trainers_1_2_BattleWon_Text
 
-	line "#mon when you"
-	para "can walk with"
-	line "them?"
+	ctxt "Wieso mit deinen"
+	line "#mon fliegen,"
+	para "wenn du mit ihnen"
+	line "laufen kannst?"
 	done
 
 .before_battle_text
-	line "way is always"
-	cont "refreshing!"
+	ctxt "Den längeren Weg"
+	line "zu wählen, stärkt"
+	cont "deinen Willen!"
 	done
 
 Route55_Trainer_2:
 	trainer EVENT_ROUTE_55_TRAINER_2, HIKER, 6, .before_battle_text, Route55_Trainers_1_2_BattleWon_Text
 
-	line "guys up north want"
-	para "their Tower to be"
-	line "secluded."
+	ctxt "Ich nehme an, die"
+	line "verrückten Typen"
+	para "im Norden möchten,"
+	line "dass ihr Turm"
+	para "nicht so leicht"
+	line "erreichbar ist."
 	done
 
 .before_battle_text
-	line "bothered to clear"
-	cont "this path?"
+	ctxt "Wieso kümmert sich"
+	line "keiner darum, dass"
+	para "man hier vorbei"
+	line "kann?"
 	done
 
 Route55_Trainer_3:
 	trainer EVENT_ROUTE_55_TRAINER_3, GENTLEMAN, 1, .before_battle_text, .battle_won_text
 
-	line "that our world is"
-	para "nothing more than"
-	line "a game that they"
-	cont "created."
-
-	para "I can't stand"
-	line "egomaniacs<...>"
+	ctxt "Diese Typen"
+	line "glauben, dass"
+	para "unsere Welt nichts"
+	line "weiter ist als ein"
+	para "von ihnen"
+	line "erschaffenes"
+	cont "Spiel."
+	para "Ich kann Egomane"
+	line "nicht"
+	cont "ausstehen<...>"
 	done
 
 .before_battle_text
-	line "building at your"
-	cont "own risk!"
+	ctxt "Betreten dieses"
+	line "Gebäudes nur auf"
+	cont "eigene Gefahr!"
 	done
 
 .battle_won_text
-	line "false prophets."
+	ctxt "Höre nicht auf"
+	line "diese falschen"
+	cont "Propheten."
 	done
 
 Route55_Trainers_1_2_BattleWon_Text:
+	ctxt "Gute Übung!"
 	done
 
 Route55_Dev:
-
-	para "We have just taken"
-	line "over this"
-	cont "building."
-
-	para "It needs some"
-	line "renovation, as it"
-	para "seems the last"
-	line "tenants left in a"
-	cont "hurry<...>"
-
-	para "We plan to open"
-	line "real soon!"
+	ctxt "Hallo!"
+	para "Wir haben dieses"
+	line "Gebäude"
+	cont "übernommen."
+	para "Es muss noch"
+	line "renoviert werden,"
+	para "da die letzten"
+	line "Mieter plötzlich"
+	para "verschwunden"
+	line "sind<...>"
+	para "Wir planen, bald"
+	line "zu eröffnen!"
 	done
 
 Route55_MapEventHeader:: db 0, 0

@@ -11,7 +11,7 @@ Route58HiddenItem:
 Route58DirectionsSign:
 	ctxt "Tan Boot Hafen"
 	next "<UP> Botania City"
-	next "<DOWN> Kastro Tal"
+	next "<DOWN> Kastro-Tal"
 	done
 
 Route58_MapEventHeader:

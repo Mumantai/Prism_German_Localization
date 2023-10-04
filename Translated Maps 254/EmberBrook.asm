@@ -6,115 +6,109 @@ EmberBrook_MapScriptHeader:
 
 EmberBrookDirectionsSignEast:
 	ctxt "<LEFT> Route 67"
-	next "<RIGHT> Sevii Islands"
-	next "  via Mt. Ember"
+	next "<RIGHT> Sevii Eilande"
+	next "  via Glutberg"
 	done
 
 EmberBrookDirectionsSignWest:
-	ctxt "<UP> Mt. Ember"
-	next "<LEFT> Rijon Border"
+	ctxt "<UP> Glutberg"
+	next "<LEFT> Rijon-Grenze"
 	next "  (Route 67)"
 	done
 
 EmberBrook_Trainer_1:
 	trainer EVENT_EMBER_BROOK_TRAINER_1, SWIMMERF, 12, .before_battle_text, .battle_won_text
-
-	ctxt "East to us is"
-	line "Mt. Ember."
-
-	para "Its an active"
-	line "volcano that will"
-	para "spew these big"
-	line "rocks out into the"
-	cont "ocean."
-
-	para "They are great"
-	line "training for"
-	para "swimming, but not"
-	line "for the novice."
+	ctxt "Östlich von uns"
+	line "liegt der"
+	cont "Glutberg."
+	para "Es ist ein aktiver"
+	line "Vulkan, der diese"
+	para "großen Steine in"
+	line "den Ozean spuckt."
+	para "Sie sind großartig"
+	line "für das Schwimm-"
+	para "training, aber"
+	line "nichts für"
+	cont "Anfänger."
 	done
 
 .before_battle_text
-	ctxt "Do you know where"
-	line "you are?"
+	ctxt "Weißt du wo du"
+	line "gerade bist?"
 	done
 
 .battle_won_text
-	ctxt "I did try to warn"
-	line "you."
+	ctxt "Ich wollte dich"
+	line "nur warnen."
 	done
 
 EmberBrook_Trainer_2:
 	trainer EVENT_EMBER_BROOK_TRAINER_2, SWIMMERF, 13, .before_battle_text, .battle_won_text
-
-	ctxt "Sometimes, I wish"
-	line "I could float here"
-	para "forever, and be"
-	line "able to forget all"
-	cont "my problems<...>"
-
-	para "Life is so cruel<...>"
+	ctxt "Manchmal wünschte"
+	line "ich, ich könnte"
+	para "hier für immer"
+	line "schweben und all"
+	para "meine Probleme"
+	line "vergessen<...>"
+	para "Das Leben ist so"
+	line "grausam<...>"
 	done
 
 .before_battle_text
-	ctxt "This part is the"
-	line "calmest spot in"
-	cont "Ember Brook."
-
-	para "Fancy a dip?"
+	ctxt "Dieser Ort ist die"
+	line "ruhigste Stelle im"
+	cont "Glutbach. Lust auf"
+	para "ein Bad?"
 	done
 
 .battle_won_text
 	ctxt "Hm<...>?"
-
-	para "Sorry, I was too"
-	line "distracted by the"
-	cont "relaxing current<...>"
+	para "Entschuldigung,"
+	line "ich war zu sehr"
+	para "von der"
+	line "entspannenden"
+	para "Strömung"
+	line "abgelenkt."
 	done
 
 EmberBrook_Trainer_3:
 	trainer EVENT_EMBER_BROOK_TRAINER_3, SWIMMERF, 14, .before_battle_text, .battle_won_text
-
-	ctxt "I know I dont look"
-	line "it, but before I"
-	para "was a swimmer, I"
-	line "was a fisherman."
-
-	para "The power of"
-	line "medical science"
-	para "is incredible,"
-	line "wouldnt you say?"
+	ctxt "Ich weiß, ich sehe"
+	line "nicht so aus, aber"
+	para "bevor ich"
+	line "Schwimmer war, war"
+	cont "ich ein Fischer."
+	para "Die Kraft der"
+	line "Wissenschaft ist"
+	para "unglaublich,"
+	line "findest du nicht?"
 	done
 
 .before_battle_text
-	ctxt "Looks like I"
-	line "caught you in my"
-	cont "net!"
+	ctxt "Hab dich an der"
+	line "Leine!"
 	done
 
 .battle_won_text
-	ctxt "Ack! You caught"
-	line "me!"
+	ctxt "Ah! du hast mich!"
 	done
 
 EmberBrook_Trainer_4:
 	trainer EVENT_EMBER_BROOK_TRAINER_4, TWINS, 3, .before_battle_text, .battle_won_text
-
-	ctxt "Sal: Im afraid"
-	line "this conversation"
-	para "can serve no"
-	line "purpose anymore."
-
-	para "Goodbye."
+	ctxt "Sal: Ich fürchte,"
+	line "dieses Gespräch"
+	para "hat keinen Zweck"
+	line "mehr."
+	para "Auf Wiedersehen."
 	done
 
 .before_battle_text
-	ctxt "Sal: You want to"
-	line "pass us?"
-
-	para "Im sorry, Im"
-	line "afraid we cant do"
-	cont "that<...>"
+	ctxt "Sal: Du möchtest"
+	line "uns passieren?"
+	para "Es tut mir leid,"
+	line "ich fürchte, das"
+	para "können wir nicht"
+	line "zulassen<...>"
 	done
 
 .battle_won_text
@@ -123,116 +117,111 @@ EmberBrook_Trainer_4:
 
 EmberBrook_Trainer_4_OtherTwin:
 	trainer EVENT_EMBER_BROOK_TRAINER_4, TWINS, 3, .before_battle_text, .battle_won_text
-
-	ctxt "Daisy: Nothing can"
-	line "sneak past my"
-	cont "sister!"
-
-	para "Although, she is a"
-	line "little strange."
-
-	para "She keeps singing"
-	line "to me. Its super"
-	cont "annoying."
+	ctxt "Daisy: Nichts kann"
+	line "an meiner"
+	para "Schwester"
+	line "vorbeischleichen!"
+	para "Obwohl sie ein"
+	line "bisschen seltsam"
+	cont "ist."
+	para "Sie singt ständig"
+	line "für mich."
+	para "Das ist super"
+	line "nervig."
 	done
 
 .before_battle_text
-	ctxt "Daisy: Oops!"
-
-	para "Were you trying to"
-	line "sneak past us?"
+	ctxt "Daisy: Ups!"
+	para "Wolltest du dich"
+	line "an uns vorbei-"
+	cont "schleichen?"
 	done
 
 .battle_won_text
-	ctxt "Daisy: Oh, no!"
-
-	para "You hid your"
-	line "abilities well."
+	ctxt "Daisy: Oh nein!"
+	para "Du hast deine"
+	line "Fähigkeiten gut"
+	cont "versteckt."
 	done
 
 EmberBrook_Trainer_5:
 	trainer EVENT_EMBER_BROOK_TRAINER_5, CHEERLEADER, 3, .before_battle_text, .battle_won_text
-
-	ctxt "So, Im from One"
-	line "Island, and this"
-	para "is my first time"
-	line "travelling abroad."
-
-	para "I was told that"
-	line "the Rijish always"
-	para "say hello with a"
-	line "#mon battle."
-
-	para "Shows what I know."
+	ctxt "Also, ich komme"
+	line "von Eiland Eins,"
+	para "und das ist meine"
+	line "erste Reise ins"
+	cont "Ausland."
+	para "Mir wurde gesagt,"
+	line "dass die Rijish"
+	para "einen immer mit"
+	line "einem #mon-"
+	cont "Kampf grüßen."
 	done
 
 .before_battle_text
-	ctxt "Oh, finally! A"
-	line "friendly face!"
-
-	para "Is this how people"
-	line "from Rijon say"
-	cont "hello?"
+	ctxt "Oh, endlich!"
+	para "Ein freundliches"
+	line "Gesicht!"
+	para "Ist das die Art,"
+	line "wie die Leute aus"
+	cont "Rijon grüßen?"
 	done
 
 .battle_won_text
-	ctxt "Gosh, that was so"
-	line "dumb<...>"
+	ctxt "Oh Gott, das war"
+	line "so dumm<...>"
 	done
 
 EmberBrook_Trainer_6:
 	trainer EVENT_EMBER_BROOK_TRAINER_6, BURGLAR, 3, .before_battle_text, .battle_won_text
-
-	ctxt "I was told by an"
-	line "associate of mine"
-	para "that there was"
-	line "valuable jewels in"
-	para "that there"
-	line "mountain."
-
-	para "But its all buried"
-	line "in the rock, and I"
-	cont "aint no miner!"
+	ctxt "Mir wurde von"
+	line "einem Bekannten"
+	para "gesagt, dass es"
+	line "wertvolle Juwelen"
+	para "in diesem Berg"
+	line "gibt<...>"
+	para "Aber es steckt in"
+	line "den Felsen, und"
+	para "ich bin kein"
+	line "Bergarbeiter!"
 	done
 
 .before_battle_text
-	ctxt "Put up your dukes!"
-	line "This is a stick"
-	cont "up!"
+	ctxt "Hände hoch!"
+	para "Das ist ein"
+	line "Überfall!"
 	done
 
 .battle_won_text
-	ctxt "Help! Police!"
+	ctxt "Hilfe, Polizei!"
 	done
 
 EmberBrook_Trainer_7:
 	trainer EVENT_EMBER_BROOK_TRAINER_7, PICNICKER, 9, .before_battle_text, .battle_won_text
-
 	ctxt "<...>"
-
-	para "Oh, so youre not"
-	line "someone sketchy."
-
-	para "Im terribly sorry."
-
-	para "Im somewhat lost,"
-	line "and there are a"
-	para "bunch of weird"
-	line "people here."
-
-	para "Dont worry. Ill"
-	line "find my way soon."
+	para "Oh, also bist du"
+	line "keiner dieser"
+	cont "komischen Leute."
+	para "Es tut mir"
+	line "furchtbar leid."
+	para "Ich habe mich"
+	line "etwas verlaufen"
+	para "und hier sind"
+	line "einige seltsame"
+	cont "Leute."
+	para "Mach dir aber"
+	line "keine Sorgen."
+	para "Ich finde schon"
+	line "den Weg."
 	done
 
 .before_battle_text
-	ctxt "Eek!"
-
-	para "Dont come any"
-	line "closer!"
+	ctxt "Iiih! Komm nicht"
+	para "näher!"
 	done
 
 .battle_won_text
-	ctxt "Oh, heavens!"
+	ctxt "Oh, Nein!"
 	done
 
 EmberBrook_MapEventHeader:: db 0, 0

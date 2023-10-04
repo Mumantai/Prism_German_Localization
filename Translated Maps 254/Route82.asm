@@ -10,7 +10,7 @@ Route82HiddenItem:
 
 Route82DirectionsSign:
 	ctxt "<LEFT> Torenia City"
-	next "<RIGHT> Akania Hafen"
+	next "<RIGHT> Akania-Hafen"
 	done
 
 Route82IslandSign:

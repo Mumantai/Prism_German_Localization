@@ -16,7 +16,7 @@ GoldenrodCity_GoldToken:
 
 GoldenrodCity_GymSign:
 	ctxt "#mon Arena"
-	next "Leiterin: Bianca"
+	next "Leiterin: Bianka"
 	nl   ""
 	next "Das unfassbar"
 	next "hübsche Mädchen!"

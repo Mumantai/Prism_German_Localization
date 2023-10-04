@@ -106,7 +106,7 @@ Route68_Trainer_5:
 	line "diese Hafenstadt."
 	para "So kann ich auf"
 	line "dem Weg zwischen"
-	para "Faenumia City und"
+	para "Heuhofen und"
 	line "Torenia City eine"
 	cont "Pause einlegen."
 	done

@@ -66,7 +66,7 @@ EagulouCity_NPC_2:
 
 EagulouCity_NPC_3:
 	ctxt "Warst du schon im"
-	line "Kampfturm?"
+	line "Duellturm?"
 	para "Ich möchte hier"
 	line "mein eigenes"
 	para "bauen, aber das"

@@ -64,8 +64,8 @@ JensLabJen:
 	cont "Orden zu sammeln!"
 	para "Nimm dieses"
 	line "Ticket, geh zum"
-	para "Hafen im Castrotal"
-	line "und nimm das"
+	para "Hafen im Kastro-"
+	line "Tal und nimm das"
 	para "Schiff in Richtung"
 	cont "Kampfarkaden."
 	sdone

@@ -14,113 +14,144 @@ Route80IslandSign:
 
 Route80_Trainer_1:
 	trainer EVENT_ROUTE_80_TRAINER_1, SWIMMERM, 2, .before_battle_text, .battle_won_text
+
+	ctxt "Ich kann sehr"
+	line "weit schwimmen."
+	para "Einmal bin ich"
+	line "sogar @"
+	start_asm
+	ld a, [wOptions2]
+	and 1 << 2
+	ld hl, .metric_text
+	ret z
+	ld hl, .imperial_text
+	ret
 .metric_text
+	ctxt ""
+	para "1 Kilometer weit"
+	line "geschwommen!"
 	done
 .imperial_text
+	ctxt ""
+	para "eine halbe Meile"
+	line "geschwommen!"
 	done
 
 .before_battle_text
+	ctxt "Ich bin bereit!"
 	done
 
 .battle_won_text
-	line "out of #mon?"
+	ctxt "Wie? Keine #mon"
+	line "mehr übrig?"
 	done
 
 Route80_Trainer_2:
 	trainer EVENT_ROUTE_80_TRAINER_2, SWIMMERM, 1, .before_battle_text, .battle_won_text
 
-	line "continue to tone"
-	cont "my muscles."
+	ctxt "Jede Runde mehr"
+	line "sorgt für mehr"
+	cont "Muskeln."
 
-	para "I'll be able to"
-	line "get any girl I"
-	para "want with this"
-	line "body, baby!"
+	para "Mit diesem Körper"
+	line "kriege ich jedes"
+	cont "Mädchen, baby!"
 	done
 
 .before_battle_text
-	line "the day!"
+	ctxt "Meine 100ste"
+	line "Runde heute!"
 
-	para "Time for a break"
-	line "with a battle!"
+	para "Zeit für eine"
+	line "Pause!"
 	done
 
 .battle_won_text
-	line "swimming!"
+	ctxt "Nunja, zurück zum"
+	line "schwimmen!"
 	done
 
 Route80_Trainer_3:
 	trainer EVENT_ROUTE_80_TRAINER_3, SWIMMERF, 2, .before_battle_text, Route80_Trainers_3_5_BattleWon_Text
 
-	line "that have occurred"
-	para "here killed other"
-	line "fugitives."
+	ctxt "Die Stürme hier"
+	line "haben andere"
+	para "Flüchtlinge auf"
+	line "dem gewissen."
 
-	para "We need to be"
-	line "careful when we"
-	para "travel on this"
-	line "route."
+	para "Wir müssen auf"
+	line "dieser Route sehr"
+	cont "vorsichtig sein!"
 	done
 
 .before_battle_text
-	line "escape from that"
-	cont "dreadful prison."
+	ctxt "Ich versuche aus"
+	line "dem schrecklichen"
+	para "Gefängniss zu"
+	line "entkommen."
 
-	para "You're not gonna"
-	line "stop me, never."
+	para "Du kannst mich"
+	line "nicht aufhalten!"
 	done
 
 Route80_Trainer_4:
 	trainer EVENT_ROUTE_80_TRAINER_4, FISHER, 5, .before_battle_text, .battle_won_text
 
-	line "was a distant"
-	para "relative to the"
-	line "fishing guru."
+	ctxt "Dieser Angler ist"
+	line "ein verwandter des"
+	para "bekannten"
+	line "Angler-Gurus."
 	done
 
 .before_battle_text
-	line "#mon with a"
-	cont "pretty good rod!"
+	ctxt "Diese #mon habe"
+	line "ich mit meiner"
+	para "Profiangel"
+	line "gefangen"
 	done
 
 .battle_won_text
-	line "name is <``>good<''><...>"
-
-	para "Does that make it"
-	line "false labeling?"
+	ctxt "Muss man eig."
+	line "Profi sein für"
+	cont "diese Profiangel?"
 	done
 
 Route80_Trainer_5:
 	trainer EVENT_ROUTE_80_TRAINER_5, SWIMMERF, 1, .before_battle_text, Route80_Trainers_3_5_BattleWon_Text
 
-	line "often has"
-	cont "thunderstorms."
-
-	para "I'm not sure how"
-	line "that makes sense."
+	ctxt "Dieser Teil von"
+	line "Naljo hat sehr"
+	para "oft Gewitterstürme"
+	line "und man weis nicht"
+	cont "mal wieso<...>"
 	done
 
 .before_battle_text
-	line "some very strange"
-	cont "weather patterns."
+	ctxt "Diese Route hat"
+	line "eigenartige Wetter"
+	cont "Ereignisse<...>"
 	done
 
 Route80_Trainer_6:
 	trainer EVENT_ROUTE_80_TRAINER_6, FISHER, 6, .before_battle_text, .battle_won_text
 
-	line "this spot but me,"
-	cont "understood?"
+	ctxt "Keiner darf hier"
+	line "sein, ausser ich"
+	cont "kapiert?"
 	done
 
 .before_battle_text
-	line "my fishing spot."
+	ctxt "Hey du! das hier"
+	line "ist mein Gebiet!"
 	done
 
 .battle_won_text
+	text "Naja<...>"
 	done
 
 Route80_Trainers_3_5_BattleWon_Text:
-	line "there's a storm!"
+	ctxt "Man schwimmt nicht"
+	line "bei einem Sturm!"
 	done
 
 Route80_MapEventHeader:: db 0, 0

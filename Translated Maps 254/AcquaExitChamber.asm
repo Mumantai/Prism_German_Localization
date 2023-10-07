@@ -33,7 +33,7 @@ AcquaExitChamberNPC:
 	para "Ein frischer"
 	line "Trainer!"
 	para "Ich habe hier"
-	line "etwas ganz Tolles"
+	line "etwas ganz tolles"
 	cont "für dich!"
 	done
 

@@ -12,9 +12,9 @@ CaperHouseNPC:
 	cont "Capparia City?"
 	para "<...> Was?!"
 	para "Du bist in der"
-	line "Mine durch das"
+	line "Mine durch ein"
 	cont "Loch gefallen?!"
-	para "Ich sollte da wohl"
+	para "Dann sollte ich da"
 	line "mal eine Leiter"
 	cont "aufstellen <...>"
 	done

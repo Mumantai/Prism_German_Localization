@@ -27,7 +27,7 @@ Route70NPC1:
 	para "Wenn du beim Gehen"
 	line "den B-Knopf" 
 	para "drückst, kannst du"
-	line "vielleicht noch"
+	line "sogar noch"
 	cont "schneller laufen!"
 	done
 

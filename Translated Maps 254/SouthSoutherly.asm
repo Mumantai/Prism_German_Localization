@@ -53,8 +53,8 @@ SouthSoutherly_Trainer_3:
 	done
 
 .before_battle_text
-	ctxt "Südport liegt im"
-	line "Norden."
+	ctxt "Südport City liegt"
+	line "im Norden."
 	para "Seltsam, oder?"
 	done
 

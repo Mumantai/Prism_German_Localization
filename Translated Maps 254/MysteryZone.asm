@@ -5,8 +5,8 @@ MysteryZone_MapScriptHeader:
 	db 0
 
 MysteryZoneSignpost:
-	text "Mystery Zone"
-	line "Airport"
+	text "Flughafen der"
+	line "Mysteriösen Zone."
 	done
 
 MysteryZone_MapEventHeader:: db 0, 0

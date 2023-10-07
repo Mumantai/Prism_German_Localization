@@ -66,14 +66,14 @@ SoutherlyAirportPilot:
 	ctxt "Moment mal!"
 	para "<...>"
 	line "Lese ich das "
-	cont "wirklich?"
+	cont "richtig?"
 	para "<...>"
 	line "Ja, tatsächlich!"
 	para "Das ist wirklich "
-	line "ein Ticket zur "
-	cont "Geheimniszone!"
+	line "ein Ticket zur"
+	cont "Mysteriösen Zone!"
 	para "In der "
-	line "Geheimniszone "
+	line "Mysteriösen Zone"
 	para "warten die besten "
 	line "Trainer der Welt "
 	cont "auf dich!"
@@ -86,8 +86,8 @@ SoutherlyAirportPilot:
 	done
 
 .want_to_go_text
-	ctxt "Willst du zur "
-	line "Geheimniszone?"
+	ctxt "Willst du zur"
+	line "Mysteriösen Zone?"
 	done
 
 .leaving_text
@@ -98,8 +98,8 @@ SoutherlyAirportPilot:
 .declined_text
 	ctxt "Schade."
 	para "Ich bring selten "
-	line "jemanden in die "
-	cont "Geheimniszone."
+	line "jemanden in die"
+	cont "Mysteriöse Zone."
 	done
 
 SoutherlyCityAirportCheckInSign:

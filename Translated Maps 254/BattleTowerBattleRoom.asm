@@ -229,8 +229,8 @@ BattleTowerText_AskNextBattle:
 
 	para "Ich wurde soeben"
 	line "informiert, dass"
-	para "unsere Kampf-"
-	line "koryphäe eine"
+	para "unser Kampf-"
+	line "koloss eine"
 	para "audience mit Ihnen"
 	line "wünscht."
 

@@ -84,7 +84,7 @@ ToreniaGymLeader:
 	cont "erwacht."
 	para "<...>"
 	para "Was? Ein Gengar"
-	line "aus Botanian City"
+	line "aus Botania City"
 	para "hat meine schönen"
 	line "Träume gefressen?"
 	para "<...>"

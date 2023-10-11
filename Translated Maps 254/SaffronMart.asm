@@ -7,9 +7,9 @@ SaffronMart_MapScriptHeader:
 SaffronMartNPC1:
 	ctxt "Ein Trainer namens"
 	line "Gold besuchte mal"
-	para "Safran und verriet"
-	line "mir, wie ich"
-	para "stärker werden "
+	para "Safronia City und"
+	line "verriet mir, wie"
+	para "ich stärker werden"
 	line "kann."
 	para "Ich konnte die"
 	line "Leiterin des Kampf"

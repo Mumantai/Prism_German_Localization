@@ -44,7 +44,7 @@ MysteryZoneBrownBattle:
 	para "Bist du verwirrt?"
 	line "<PLAYER>, richtig?"
 	para "Nun, dies ist die"
-	line "Mystik-Liga."
+	line "Mysteriöse-Liga."
 	para "Zusammen mit der"
 	line "Hilfe von zwei"
 	para "anderen berühmten"

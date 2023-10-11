@@ -114,10 +114,11 @@ MysteryZoneRedBattle:
 	para "Das war"
 	line "unglaublich!"
 	cont "Es ist offiziell."
-	para "Heißen wir alle"
+	
+	para "Lasst uns alle"
 	line "<PLAYER> in der"
-	para "Mystik-Liga"
-	line "willkommen!"
+	para "Mysteriösen-Liga"
+	line "willkommen heißen!"
 	sdone
 
 MysteryZoneLeagueRed_MapEventHeader:: db 0, 0

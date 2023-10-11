@@ -64,7 +64,7 @@ EspoForest_Trainer_2:
 
 .battle_won_text
 	ctxt "HOTMIX 93.9 FM!"
-	line "SÜDPORT CITYS"
+	line "SÜDPORT-CITYS"
 	para "NUMMER EINS RADIO"
 	line "KANAL FÜR MUSIK!"
 	done

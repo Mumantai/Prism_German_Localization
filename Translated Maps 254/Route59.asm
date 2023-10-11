@@ -11,7 +11,7 @@ Route59HiddenItem:
 Route59DirectionsSign:
 	ctxt "Jaeru Ebenen"
 	next "<UP> Silph Co. Lager"
-	next "<UP><RIGHT>Botania City"
+	next "<UP><RIGHT> Botania City"
 	next "<LEFT> Jaeru City"
 	done
 

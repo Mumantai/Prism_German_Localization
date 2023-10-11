@@ -30,8 +30,7 @@ Route69SouthGateGuard:
 	done
 
 .after_beating_rival_text
-	ctxt "Mach genau so"
-	line "weiter!"
+	ctxt "Mach weiter so!"
 	done
 
 Route69SouthGate_FirstTimeThrough:

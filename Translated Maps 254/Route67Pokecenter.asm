@@ -7,8 +7,8 @@ Route67Pokecenter_MapScriptHeader:
 
 Route67PokecenterNPC:
 	ctxt "Weiter oben"
-	line "befinden sich"
-	cont "die Seneca-Höhlen."
+	line "befindet sich"
+	cont "die Senecahöhle."
 	para "Seit es den Warp"
 	line "dort gibt, sind"
 	para "sie unter Trainern"

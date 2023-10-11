@@ -10,7 +10,7 @@ Route61GateSouthGuard:
 	para "#mon durch das "
 	line "Kraftwerk!"
 	para "Komfortabel,"
-	line "stimmt's oder habe"
+	line "stimmts oder habe"
 	cont "ich Recht?"
 	done
 

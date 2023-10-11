@@ -16,8 +16,8 @@ Route76DirectionsSign:
 
 Route76_Trainer_1:
 	trainer EVENT_ROUTE_76_TRAINER_1, TWINS, 2, .before_battle_text, .battle_won_text
-	ctxt "Lily: -Schnüffel-"
-	para "Bitte finde es<...>"
+	ctxt "Lily: -schnief-"
+	para "Bitte finde es <...>"
 	done
 
 .before_battle_text
@@ -31,18 +31,19 @@ Route76_Trainer_1:
 	done
 
 Route76_Trainer_1_OtherTwin:
-	ctxt "Liz: wir liebten"
-	line "unser Sheinux!"
-	para "Ich hoffe ihm"
-	line "gehts gut."
+	ctxt "Liz: Wir lieben"
+	line "unser Sheinux."
+	
+	para "Hoffentlich geht"
+	line "es ihm gut."
 	done
 
 Route76_Trainer_2:
 	trainer EVENT_ROUTE_76_TRAINER_2, PSYCHIC_T, 2, .before_battle_text, .battle_won_text
-	ctxt "Ich verstehe nicht"
-	line "wie die #mon"
-	para "hier einfach so"
-	line "verschwinden<...>"
+	ctxt "Ich weiß nicht,"
+	line "warum hier so"
+	para "viele #mon"
+	line "verschwinden <...>"
 	done
 
 .before_battle_text
@@ -52,7 +53,7 @@ Route76_Trainer_2:
 
 .battle_won_text
 	ctxt "Das ist auch"
-	line "traurig."
+	line "traurig <...>"
 	done
 
 Route76_MapEventHeader:: db 0, 0

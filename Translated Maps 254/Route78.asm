@@ -9,7 +9,7 @@ Route78HiddenItem:
 	db HYPER_POTION
 
 Route78DirectionsSign:
-	stxt "<UP>  Phacelia"
+	ctxt "<UP>  Phacelia"
 	next "<DOWN><LEFT> Ruinen"
 	next "<DOWN><RIGHT> Route 79"
 	done
@@ -21,94 +21,97 @@ Route78IslandSign:
 Route78NPC:
 	ctxt "Wenn du das Wasser"
 	line "nicht überqueren"
-	para "kannst, ist der"
-	line "einzige Weg zurück"
-	para "in die Minenanlage"
-	line "zu gehen und von"
-	cont "dort nach Osten."
+	para "kannst, musst du"
+	line "leider zurück in"
+	para "den Steinbruch und"
+	line "von da nach Osten."
 	done
 
 Route78_Trainer_1:
 	trainer EVENT_ROUTE_78_TRAINER_1, SWIMMERM, 3, .before_battle_text, .battle_won_text
-	ctxt "Diese Route sieht"
-	line "bei Sonnen-"
-	para "untergang"
-	line "wunderschön aus<...>"
+	ctxt "Diese Route, sieht"
+	line "bei Dämmerung am"
+	cont "schönsten aus <...>"
 	done
 
 .before_battle_text
-	ctxt "Mädchen finden"
-	line "diesen Ort sehr"
-	cont "romantisch."
+	ctxt "In der Bucht zu"
+	line "treiben ist super." 
+	para "Manche Mädchen,"
+	line "finden diesen Ort"
+	cont "sehr romantisch."
 	done
 
 .battle_won_text
-	text "Mannnn!"
+	text "Verdammt!"
 	done
 
 Route78_Trainer_2:
 	trainer EVENT_ROUTE_78_TRAINER_2, SWIMMERM, 4, .before_battle_text, .battle_won_text
 	ctxt "Wenn doch nur"
 	line "jemand mutig genug"
-	para "wäre tief in die"
-	line "Ruinen vorzu-"
-	cont "dringen<...>"
-	para "Wer weiss was für"
-	line "Schätze da unten"
-	cont "auf uns warten!"
+	para "wäre, tief in die"
+	line "Ruinen zu gehen <...>"
+	para "Wer weiß, was es"
+	line "direkt unter uns"
+	cont "zu entdecken gibt!"
 	done
 
 .before_battle_text
-	ctxt "Die Ruinen haben"
-	line "viele Mysterien."
-	para "Wurde mir gesagt."
+	ctxt "Die Ruinen bergen"
+	line "eine Menge Rätsel."
+	para "So sagt man sich."
 	done
 
 .battle_won_text
-	ctxt "Fein."
-	para "Ich durchsuche es"
-	line "alleine."
+	ctxt "Na gut. Erkunde"
+	line "ich die Gegend"
+	cont "halt alleine."
 	done
 
 Route78_Trainer_3:
 	trainer EVENT_ROUTE_78_TRAINER_3, SWIMMERF, 3, .before_battle_text, .battle_won_text
-	ctxt "Ich wünschte ich"
-	line "könnte tiefer"
-	para "tauchen um seltene"
-	line "Wasser #mon"
-	cont "finden zu können!"
+	ctxt "Ich wünschte, ich"
+	line "könnte tief"
+	para "tauchen und all"
+	line "die süßen Wasser-"
+	cont "#mon sehen!"
 	done
 
 .before_battle_text
-	ctxt "Die #mon hier"
-	line "sind Wunderschön."
+	ctxt "Die #mon hier,"
+	line "sind wunderschön."
 	done
 
 .battle_won_text
-	ctxt "Innerlich schön,"
-	line "nicht Ihre Kampf"
-	cont "Fähigkeiten."
+	ctxt "Bewundere ihre"
+	line "innere Schönheit,"
+	para "nicht ihre"
+	para "Kampffähigkeiten."
 	done
 
 Route78_Trainer_4:
 	trainer EVENT_ROUTE_78_TRAINER_4, SWIMMERF, 4, .before_battle_text, .battle_won_text
-	ctxt "Wenn du auf einem"
+	ctxt "Wenn du auf deinem"
 	line "#mon surfst,"
-	cont "sei zärtlich."
-	para "Es ist schließlich"
-	line "ein Lebewesen."
+	para "denk an seine"
+	line "Gefühle. Du willst"
+	para "einem guten Freund"
+	line "doch nicht wehtun."
 	done
 
 .before_battle_text
-	ctxt "Mein Surfbrett"
-	line "brach<...> wieder!"
+	ctxt "Mein Surfbrett ist"
+	line "zerbrochen <...>!"
 	para "Jetzt kann ich"
 	line "nicht mehr surfen!"
 	done
 
 .battle_won_text
 	ctxt "Streu noch Salz"
-	line "in die Wunde<...>"
+	line "in die Wunde <...>"
+	para "Für wen hälst du"
+	line "dich eigentlich <...>?"
 	done
 
 Route78Guard:
@@ -131,40 +134,43 @@ Route78Guard:
 	step_end
 
 .require_ID_text
-	ctxt "Ohne einen Naljo-"
-	line "Pass, kann ich"
-	para "keinen passieren"
-	line "lassen."
+	ctxt "Ich kann niemanden"
+	line "ohne Naljo-Pass"
+	cont "hier durchlassen."
 	sdone
 
 .ID_shown_text
-	ctxt "Danke für den"
-	line "Naljo-Pass."
-	para "Ich lass dich nun"
+	ctxt "Alles klar, danke."
+	para "Du kannst jetzt"
 	line "auf die Insel."
-	para "Ist das dein 1."
-	line "mal hier?"
-	para "Nun Saxifragia ist"
-	line "ein Ort wo"
-	para "Kriminelle einge-"
-	line "sperrt werden!"
+
+	para "Bist du zum ersten"
+	line "Mal zu Besuch?"
+
+	para "Saxifragia ist ein"
+	line "Ort, an dem wir"
+	para "den Abschaum der"
+	line "Gesellschaft weg-"
+	cont "sperren."
+
 	para "Du kannst Sie dir"
-	line "anschauen, aber"
-	cont "nicht füttern."
-	para "Im Endeffekt ist"
-	line "das auch ein Zoo"
+	para "anschauen, aber"
+	line "fütter sie nicht."
+
+	para "Im Grunde, ist es"
+	line "hier wie im Zoo,"
 	para "nur mit weniger"
-	line "rechten<...>"
+	line "Rechten <...>"
 	sdone
 
 .no_ID_text
 	ctxt "Du hast keinen?"
-	para "Sei froh das du"
-	line "noch klein bist."
-	para "Sonst hätte ich"
-	line "dich auf dieser"
-	para "Insel dafür"
-	line "eingesperrt!"
+	line "Sei froh, dass ich"
+	para "nett zu Minderjäh-"
+	line "rigen bin, sonst"
+	para "hätte ich dich"
+	line "hier und jetzt"
+	cont "verhaftet!"
 	done
 
 Route78_MapEventHeader:: db 0, 0

@@ -10,105 +10,113 @@ Route79HiddenItem:
 
 Route79_Trainer_1:
 	trainer EVENT_ROUTE_79_TRAINER_1, COOLTRAINERM, 8, .before_battle_text, .battle_won_text
-	ctxt "Viele dieser ein-"
-	line "gesperrten #mon"
-	para "wurden durch ihre"
-	line "Trainer verletzt<...>"
+	ctxt "Viele der einge-"
+	line "sperrten #mon,"
+	para "wurden von ihren"
+	line "Trainern verletzt."
+	
 	para "Sie tun mir zwar"
-	line "leid aber es ist"
-	para "gut so, dass sie"
-	line "eingesperrt wurden"
-	para "weil Sie Ihren"
-	line "Hass auf Ihre"
-	para "Trainer auch auf"
-	line "andere Menschen"
-	para "projizieren"
-	line "könnten."
+	line "Leid, aber es ist"
+	para "gut, dass sie ein-"
+	line "gesperrt wurden."
+
+	para "So können sie"
+	line "immerhin niemanden"
+	cont "mehr verletzen."
 	done
 
 .before_battle_text
-	ctxt "Das Gefängnis zu"
-	line "besuchen, hat"
-	cont "schon was<...>"
-	para "Diese gefährlichen"
-	line "#mon erzeugen"
-	para "bei mir immer eine"
-	line "Gänsehaut."
+	ctxt "Ein Gefängnis zu"
+	line "besuchen, isz"
+	cont "aufregend."
+	
+	para "All diese gefähr-"
+	line "lichen #mon!"
 	done
 
 .battle_won_text
-	ctxt "<...>Du gehörst"
-	line "eingesperrt<...>"
+	ctxt "Ich sollte mir was"
+	line "von den gefangenen"
+	cont "#mon abgucken."
 	done
 
 Route79_Trainer_2:
 	trainer EVENT_ROUTE_79_TRAINER_2, BIRD_KEEPER, 6, .before_battle_text, .battle_won_text
-	ctxt "Die Knackis hier"
-	line "sind wie meine"
-	cont "Vögel<...> Im Käfig."
-	para "Verstehste?"
+	ctxt "Warum ist Relaxos"
+	line "Gefängnisausbruch"
+	cont "schiefgelaufen?"	;Hier richtigen Witz einfügen
+	
+	para "Weil es den Kuchen"
+	line "aufgegessen hat!"	;Wegen der Feile im Kuchen, verstehste? ☺
+	
 	para "<...>"
-	para "Jetzt lach endlich"
-	line "bevor ich sauer"
-	cont "werde!"
+	
+	para "Lach schon, bevor"
+	line "ich sauer werde!"
 	done
 
 .before_battle_text
-	ctxt "Ich bin aus dem"
-	line "Knast geflüchtet."
-	para "Was ich getan habe"
-	line "um dort zu landen?"
+	ctxt "Ich bin gerade"
+	line "erst ausgebrochen."
+	
+	para "Was ich verbrochen"
+	line "habe, um hier drin"
+	cont "zu landen?"
+	
 	para "Das geht dich"
 	line "nichts an!"
 	done
 
 .battle_won_text
-	ctxt "Meine #mon sind"
-	line "wohl etwas"
-	cont "eingerostet."
+	ctxt "Ich bin wohl etwas"
+	line "eingerostet."
+
+	para "Normalerweise,"
+	line "erlauben sie hier"
+	cont "drin keine Kämpfe."
 	done
 
 Route79_Trainer_3:
 	trainer EVENT_ROUTE_79_TRAINER_3, POKEFANM, 4, .before_battle_text, .battle_won_text
-	ctxt "Habibi, Trete"
-	line "meinem Ponita Club"
-	para "bei! Ich Schwöre"
-	line "wir sind voll"
-	cont "freundlich undso!"
+	ctxt "Tritt dem Ponita"
+	line "Fanclub bei! Wir"
+	para "sind alle wirklich"
+	cont "super freundlich!"
 	done
 
 .before_battle_text
-	ctxt "Yooo, mein Habibi!"
-	para "Ich schwöre ich"
-	line "liebe Ponitas!"
+	ctxt "Yooo, mein Bruder!"
+	
+	para "Ich bin der größte"
+	line "Ponita-Fan!"
 	done
 
 .battle_won_text
-	ctxt "Ich schwör diese"
-	line "anderen Ponita"
-	para "fans werden mich"
-	line "auslachen!"
+	ctxt "Die anderen Fans"
+	line "werden sich das"
+	cont "merken!"
 	done
 
 Route79_Trainer_4:
 	trainer EVENT_ROUTE_79_TRAINER_4, COOLTRAINERM, 7, .before_battle_text, .battle_won_text
-	ctxt "Fake Protein zu"
-	line "kaufen, war wohl"
-	para "doch keine gute"
-	line "idee<...>"
+	ctxt "Ich hätte dem Kerl"
+	line "in der dunklen"
+	para "Gasse besser nicht"
+	line "trauen sollen <...>"
 	done
 
 .before_battle_text
-	ctxt "Ich habe all"
-	line "meinen #mon"
+	ctxt "Ich habe meinen"
+	line "#mon nen Haufen"
 	cont "Protein gegeben."
-	para "Nun hast du keine"
-	line "Chance mehr!"
+	
+	para "Jetzt machen sie"
+	line "dich locker platt!"
 	done
 
 .battle_won_text
 	ctxt "Das Protein hat"
-	line "nichts gebracht?"
+	line "nicht gewirkt?"
 	done
 
 Route79_MapEventHeader:: db 0, 0

@@ -27,14 +27,12 @@ Route80_Trainer_1:
 	ld hl, .imperial_text
 	ret
 .metric_text
-	ctxt ""
-	para "1 Kilometer weit"
-	line "geschwommen!"
+	ctxt "einen Kilometer"
+	line "weit geschwommen!"
 	done
 .imperial_text
-	ctxt ""
-	para "eine halbe Meile"
-	line "geschwommen!"
+	ctxt "eine halbe Meile"
+	line "weit geschwommen!"
 	done
 
 .before_battle_text
@@ -49,18 +47,18 @@ Route80_Trainer_1:
 Route80_Trainer_2:
 	trainer EVENT_ROUTE_80_TRAINER_2, SWIMMERM, 1, .before_battle_text, .battle_won_text
 
-	ctxt "Jede Runde mehr"
-	line "sorgt für mehr"
+	ctxt "Jede Runde mehr,"
+	line "stärkt meine"
 	cont "Muskeln."
 
-	para "Mit diesem Körper"
+	para "Mit diesem Körper,"
 	line "kriege ich jedes"
 	cont "Mädchen, baby!"
 	done
 
 .before_battle_text
-	ctxt "Meine 100ste"
-	line "Runde heute!"
+	ctxt "Meine 100. Runde"
+	line "für heute!"
 
 	para "Zeit für eine"
 	line "Pause!"
@@ -68,16 +66,16 @@ Route80_Trainer_2:
 
 .battle_won_text
 	ctxt "Nunja, zurück zum"
-	line "schwimmen!"
+	line "Schwimmen!"
 	done
 
 Route80_Trainer_3:
 	trainer EVENT_ROUTE_80_TRAINER_3, SWIMMERF, 2, .before_battle_text, Route80_Trainers_3_5_BattleWon_Text
 
-	ctxt "Die Stürme hier"
-	line "haben andere"
-	para "Flüchtlinge auf"
-	line "dem gewissen."
+	ctxt "Die Stürme hier,"
+	line "haben bereits"
+	para "Einigen das"
+	line "Leben gekostet."
 
 	para "Wir müssen auf"
 	line "dieser Route sehr"
@@ -85,73 +83,73 @@ Route80_Trainer_3:
 	done
 
 .before_battle_text
-	ctxt "Ich versuche aus"
-	line "dem schrecklichen"
-	para "Gefängniss zu"
-	line "entkommen."
+	ctxt "Ich versuche, aus"
+	line "diesem schreck-"
+	para "lichen Gefängniss"
+	line "zu entkommen."
 
 	para "Du kannst mich"
-	line "nicht aufhalten!"
+	line "niemals aufhalten!"
 	done
 
 Route80_Trainer_4:
 	trainer EVENT_ROUTE_80_TRAINER_4, FISHER, 5, .before_battle_text, .battle_won_text
 
 	ctxt "Dieser Angler ist"
-	line "ein verwandter des"
+	line "ein Verwandter des"
 	para "bekannten"
 	line "Angler-Gurus."
 	done
 
 .before_battle_text
-	ctxt "Diese #mon habe"
-	line "ich mit meiner"
-	para "Profiangel"
-	line "gefangen"
+	ctxt "Diese #mon,"
+	line "habe ich mit"
+	para "einer Profiangel"
+	line "gefangen!"
 	done
 
 .battle_won_text
-	ctxt "Muss man eig."
-	line "Profi sein für"
-	cont "diese Profiangel?"
+	ctxt "Dabei bin ich gar"
+	line "kein Profi."
 	done
 
 Route80_Trainer_5:
 	trainer EVENT_ROUTE_80_TRAINER_5, SWIMMERF, 1, .before_battle_text, Route80_Trainers_3_5_BattleWon_Text
 
-	ctxt "Dieser Teil von"
-	line "Naljo hat sehr"
-	para "oft Gewitterstürme"
-	line "und man weis nicht"
-	cont "mal wieso<...>"
+	ctxt "In diesem Teil von"
+	line "Naljo gibt es oft"
+	para "Gewitterstürme."
+	
+	line "Das macht doch gar"
+	cont "keinen Sinn."
 	done
 
 .before_battle_text
 	ctxt "Diese Route hat"
-	line "eigenartige Wetter"
-	cont "Ereignisse<...>"
+	line "echt eigenartige"
+	cont "Wetterlagen."
 	done
 
 Route80_Trainer_6:
 	trainer EVENT_ROUTE_80_TRAINER_6, FISHER, 6, .before_battle_text, .battle_won_text
 
 	ctxt "Keiner darf hier"
-	line "sein, ausser ich"
-	cont "kapiert?"
+	line "angeln, außer mir!"
+	cont "Hast du kapiert?"
 	done
 
 .before_battle_text
-	ctxt "Hey du! das hier"
-	line "ist mein Gebiet!"
+	ctxt "Hey, du! Das ist"
+	line "mein Angelplatz!"
 	done
 
 .battle_won_text
-	text "Naja<...>"
+	text "Naja <...>"
 	done
 
 Route80_Trainers_3_5_BattleWon_Text:
-	ctxt "Man schwimmt nicht"
-	line "bei einem Sturm!"
+	ctxt "Man schwimmt bei"
+	line "einem Sturm nicht!"
 	done
 
 Route80_MapEventHeader:: db 0, 0

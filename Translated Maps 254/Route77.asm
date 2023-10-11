@@ -29,20 +29,22 @@ Route77Guard_AfterIlk:
 
 .regular_text
 	ctxt "Oh, Hallo nochmal!"
+	
 	para "Prof. Ilk hat mir"
 	line "alles erzählt."
-	para "Viel Glück auf"
-	line "deinem Weg!"
+	
+	para "Viel Glück!"
 	done
 
 .give_HM_text
-	ctxt "Sieht so aus als"
+	ctxt "Sieht so aus, als"
 	line "hättest du nun die"
 	cont "Freigabe erhalten."
-	para "Nutze nächstesmal"
-	line "diese VM um flott"
-	para "nach Capparia City"
-	line "zu gelangen!"
+	
+	para "Benutze diese VM,"
+	line "um schneller nach"
+	para "Capparia City zu"
+	line "kommen!"
 	sdone
 
 Route77Guard_BeforeIlk:
@@ -63,69 +65,86 @@ Route77Guard_BeforeIlk:
 	ctxt "Ohne eine gültige"
 	line "Freigabe, kann ich"
 	para "dich leider nicht"
-	line "passieren lassen."
-	para "Ein schweres Erd-"
-	line "beben wütete hier."
-	para "Wenn es doch nur"
-	line "Experten gäbe, die"
-	para "uns unterstützen"
-	line "könnten<...>"
-	para "Wie'Prof. Silk'!"
+	line "hier durchlassen."
+	
+	para "Es gab hier ein"
+	line "schweres Erdbeben."
+	
+	para "Wenn uns doch nur"
+	line "ein Experte unter-"
+	cont "stützen könnte <...>"
+	
+	para "Wie dieser <...>"
+	line "Wie hieß er noch?"
+	cont "'Prof. Silk'?"
+	
 	para "<...>"
-	para "Was? Oh, sein name"
-	line "ist Prof. Ilk?"
-	para "Du kennst Ihn?"
+	
+	para "Was? Oh, er heißt"
+	line "also Prof. Ilk?"
+	
+	para "Du kennst den ver-"
+	line "rückten Professor?"
+	
 	para "Vieleicht kann er"
 	line "uns helfen?"
-	para "Er kennt diese "
-	line "Region wie seine"
-	cont "Westentasche."
+	
+	para "Er weiß mehr über"
+	line "diese seltsame"
+	cont "Region, als ich."
+	
 	para "<...>"
+	
 	para "Perfekt, wir haben"
 	line "nun einen Deal."
-	para "Diese VM bringt"
-	line "dich schneller"
-	para "nach Capparia-"
-	line "City!"
+	
+	para "Diese VM hilft"
+	line "dir, schneller"
+	para "nach Capparia City"
+	line "zurückzukommen!"
 	sdone
 
 .after_HM_text
-	ctxt "VM02 ist Fliegen."
-	para "deine #mon "
-	line "fliegen dich hier-"
-	para "mit an Orte, die"
-	line "du bereits "
+	ctxt "VM02 enthält"
+	para "Fliegen."
+	
+	para "Damit, können dich"
+	line "deine #mon an Orte"
+	para "Orte fliegen, die"
+	line "du schon einmal"
 	cont "besucht hast!"
-	para "Sprich nun mit"
+	
+	para "Jetzt sprich mit"
 	line "Prof. Ilk und ich"
-	para "erteile dir die"
+	para "besorge dir die"
 	line "Freigabe."
 	done
 
 .no_badge_text
-	ctxt "Mir wurde befohlen"
-	line "fürs erste diese"
-	cont "Brücke zu bewachen"
-	para "Wenn du doch nur"
-	line "mehr Orden hättest"
-	para "könnte ich dich"
-	line "ohne sorgen "
-	cont "passieren lassen."
+	ctxt "Ich soll hier,"
+	line "fürs Erste, die"
+	cont "Brücke bewachen."
+	
+	para "Wenn du mehr Orden"
+	line "hättest, könnte"
+	para "ich dich guten"
+	line "Gewissens hier"
+	cont "vorbeilassen."
 	done
 
 Route77_Trainer_1:
 	trainer EVENT_ROUTE_77_TRAINER_1, FISHER, 2, .before_battle_text, .battle_won_text
-	ctxt "Ich brauche mehr"
-	line "Wasser #mon."
+	ctxt "Zeit, noch mehr"
+	line "zu angeln."
 	done
 
 .before_battle_text
-	ctxt "Ich liebe Wasser"
-	line "#mon!"
+	ctxt "Heute beißen die"
+	line "Fische echt gut!"
 	done
 
 .battle_won_text
-	ctxt "Sploosh!"
+	ctxt "Platsch!"
 	done
 
 Route77_Trainer_2:
@@ -134,39 +153,40 @@ Route77_Trainer_2:
 	done
 
 .before_battle_text
-	ctxt "Ein großer Fang!"
-	para "Schau es dir an!"
+	ctxt "Ein GROSSER Fang!"
+	
+	para "Guck ihn dir an!"
 	done
 
 .battle_won_text
-	ctxt "Uh<...> Was?"
+	ctxt "Uh <...> Was?"
 	done
 
 Route77_Trainer_3:
 	trainer EVENT_ROUTE_77_TRAINER_3, FISHER, 4, .before_battle_text, .battle_won_text
-	ctxt "Ich trainiere nie,"
+	ctxt "Vergiss Trainig."
 	line "Ich fange einfach"
 	cont "starke #mon!"
 	done
 
 .before_battle_text
-	ctxt "2 Große #mon"
-	line "gefangen!"
+	ctxt "Hab zwei große"
+	line "#mon gefangen!"
 	done
 
 .battle_won_text
-	text "OW!"
+	text "AU!"
 	done
 
 Route77_Trainer_4:
 	trainer EVENT_ROUTE_77_TRAINER_4, YOUNGSTER, 4, .before_battle_text, .battle_won_text
-	ctxt "Ich habe sie"
+	ctxt "Hab sie wieder"
 	line "freigelassen."
 	done
 
 .before_battle_text
-	ctxt "Ich musste sie"
-	line "einfach fangen<...>"
+	ctxt "Die musste ich"
+	line "einfach fangen <...>"
 	done
 
 .battle_won_text
@@ -175,17 +195,19 @@ Route77_Trainer_4:
 
 Route77_Trainer_5:
 	trainer EVENT_ROUTE_77_TRAINER_5, CAMPER, 1, .before_battle_text, .battle_won_text
-	ctxt "Hmm<...> mir wird"
-	line "kalt ohne meine"
-	cont "#mon."
+	ctxt "Hmm <...> mir wird"
+	line "kalt, ohne meine"
+	cont "warmen #mon."
+	
 	para "<...>"
-	para "Ich sollte dann zu"
-	line "einem #mon"
-	cont "Center gehen?"
-	para "Nein! Solch eine"
-	line "Heilung ist von"
-	para "der Natur nicht"
-	line "vorgesehen!"
+	
+	para "Du meinst, ich"
+	line "sollte zu einem"
+	cont "#mon-Center?"
+	
+	para "Kein Bedarf. Ich"
+	line "heile sie auf die"
+	cont "natürliche Art!"
 	done
 
 .before_battle_text
@@ -195,25 +217,26 @@ Route77_Trainer_5:
 
 .battle_won_text
 	ctxt "Wer wärmt mich"
-	line "denn jetzt?"
+	line "denn jetzt auf?"
 	done
 
 Route77_Trainer_6:
 	trainer EVENT_ROUTE_77_TRAINER_6, PICNICKER, 4, .before_battle_text, .battle_won_text
-	ctxt "Ich hätte Sie mehr"
-	line "trainieren sollen<...>"
+	ctxt "Ich hätte sie erst"
+	line "trainieren sollen."
 	done
 
 .before_battle_text
-	ctxt "Ich habe nun Drei"
+	ctxt "Ich habe mir"
 	line "#mon gefangen!"
-	para "Zeit sie"
-	line "auszuprobieren!"
+	
+	para "Zeit sie kämpfen"
+	line "zu lassen!"
 	done
 
 .battle_won_text
 	ctxt "Wenigstens hat es"
-	line "Spass gemacht."
+	line "Spaß gemacht."
 	done
 
 Route77_MapEventHeader:: db 0, 0

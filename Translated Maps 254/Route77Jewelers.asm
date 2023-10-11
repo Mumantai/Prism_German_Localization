@@ -6,66 +6,91 @@ Route77Jewelers_MapScriptHeader:
 
 Route77JewelersRecipeBook:
 	ctxt "Ring Rezepte:"
-	para "Pflanzen Ring:"
-	para "1x Blattstein,"
+	
+	para "Blattring:"
+	
+	para "Ein Blattstein,"
 	line "25x Asche."
-	para "Feuer Ring:"
-	para "1x Feuerstein,"
+	
+	para "Feuerring:"
+	
+	para "Ein Feuerstein,"
 	line "25x Asche."
-	para "Wasser Ring:"
-	para "1x Wasserstein,"
+	
+	para "Wasserring:"
+	
+	para "Ein Wasserstein,"
 	line "50x Asche."
-	para "Donner Ring:"
-	para "2x Donnerstein,"
+	
+	para "Donnerring:"
+	
+	para "Zwei Donnersteine,"
 	line "50x Asche."
-	para "Leucht Ring:"
-	para "3x Leuchtstein,"
+	
+	para "Leuchtring:"
+	
+	para "Drei Leuchtsteine,"
 	line "75x Asche."
-	para "Funkel Ring:"
-	para "3x Funkelstein,"
+	
+	para "Funkelring:"
+	
+	para "Drei Funkelstein,"
 	line "75x Asche."
-	para "Finster Ring:"
-	para "3x Finsterstein,"
+	
+	para "Finsterring:"
+	
+	para "Drei Finsterstein,"
 	line "100x Asche."
-	para "Mond Ring:"
-	para "3x Mondstein,"
+	
+	para "Mondring:"
+	
+	para "Drei Mondsteine,"
 	line "100x Asche."
 	done
 
 Route77JewelersExplanationNPC:
-	ctxt "Ringe herstellen"
+	ctxt "Ringe herzustellen"
 	line "ist nicht einfach."
-	para "Es kostet Element-"
-	line "are Steine und"
-	para "Asche für jeden"
-	line "Versuch."
+	
+	para "Jeder Versuch,"
+	line "kostet dich"
+	para "Evolutionssteine"
+	line "und etwas Asche."
+	
 	para "Asche sammelst du"
 	line "beim Schmelzen von"
 	para "Kohle oder beim"
-	line "laufen durch die"
-	cont "Leuchtfeuerhöhle."
-	para "Auf LV 1, kannst"
-	line "du nur Pflanzen"
-	para "Ringe herstellen."
-	line "Bei steigendem LV"
-	para "kannst du immer"
-	line "mehr Ringe"
+	line "Laufen durch die"
+	cont "Leuchtfeuerhöhlen."
+	
+	para "Auf Level 1 kannst"
+	line "du nur Blattringe"
+	para "herstellen. Aber"
+	line "je höher dein"
+	para "Level, desto mehr"
+	line "Ringe kannst du"
 	cont "herstellen."
-	para "Es gibt 7 Ringe"
-	line "die du herstellen"
-	para "kannst, und jedes"
-	line "davon hilft deinen"
-	para "#mon auf unter-"
-	line "schiedliche weise"
+	
+	para "Es gibt sieben"
+	line "verschiedene Ringe"
+	para "und jeder einzelne"
+	line "davon, hilft"
+	para "deinen #mon"
 	cont "im Kampf!"
+
+	
 	para "Oder du stellst"
-	line "Sie her und"
+	line "Sie massig her und"
 	para "verkaufst sie dann"
-	line "für gutes Geld."
-	para "Wenn du dran"
-	line "bleibst, kann sich"
-	para "das ganze echt"
-	line "bezahlt machen!"
+	line "für den Profit."
+	
+	para "Wie du siehst,"
+	line "kann die Ringher-"
+	para "stellung dich arm"
+	line "machen, aber mit"
+	para "dem richtigen Ehr-"
+	line "geiz, macht sie"
+	cont "dich auch reich."		;Den Absatz evtl. umschreiben
 	done
 
 Route77JewelersJeweler:
@@ -84,21 +109,23 @@ Route77JewelersSootSackDude:
 
 .before_giving_soot_sack_text
 	ctxt "Lustig."
-	para "Wolltest du etwa"
-	line "Ringe herstellen,"
-	para "obwohl du keine"
-	line "Aschetasche hast?"
-	para "Nagut, Ich habe"
-	line "ein zweites für"
-	cont "dich übrig."
+	
+	para "Willst nen Ring"
+	line "herstellen, hast"
+	para "aber gar keine"
+	line "Aschetasche."
+	
+	para "Zum Glück, habe"
+	line "ich noch eine für"
+	cont "dich über."
 	sdone
 
 .already_gave_soot_sack_text
-	ctxt "Sammle die Asche"
-	line "darin indem du in"
-	para "der Leuchtfeuer-"
-	line "höhle spazierst"
-	para "oder Kohle"
+	ctxt "Asche sammelst du,"
+	line "indem du in der"
+	para "Leuchtfeuerhöhle"
+	line "herumläufst, oder"
+	para "indem du Kohle"
 	line "schmilzt!"
 	done
 

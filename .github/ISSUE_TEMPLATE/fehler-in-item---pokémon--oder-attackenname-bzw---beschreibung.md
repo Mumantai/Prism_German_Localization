@@ -8,11 +8,11 @@ assignees: ''
 
 ---
 
-##**Was ist betroffen??**
-#*Gib hier an, ob der Fehler bei einem Item, einem Pokémon oder einer Attacke auftritt.*
+## **Was ist betroffen??**
+# *Gib hier an, ob der Fehler bei einem Item, einem Pokémon oder einer Attacke auftritt.*
 
-##**Welche Art von Fehler?**
-#*Gib hier an, ob der Fehler im Namen oder der Beschreibung auftritt.*
+## **Welche Art von Fehler?**
+# *Gib hier an, ob der Fehler im Namen oder der Beschreibung auftritt.*
 
-##**Was genau ist der Fehler?**
-#*Gib hier an, welcher Fehler uns genau passiert ist. Am Besten mit Screenshot.*
+## **Was genau ist der Fehler?**
+# *Gib hier an, welcher Fehler uns genau passiert ist. Am Besten mit Screenshot.*

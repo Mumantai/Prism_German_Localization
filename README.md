@@ -1,5 +1,6 @@
 # Prism_German_Translation
-German Translation of the popular ROM Hack.
+This is the German translation of the popular ROM Hack made by [RainbowDevs](https://rainbowdevs.com).
+
 
 ## How to
 ### Übersetzen und Anpassen:

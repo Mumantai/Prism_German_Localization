@@ -8,10 +8,12 @@ assignees: ''
 ---
 
 ## **Auf welcher Map tritt der Fehler auf?**
-# *Gib hier den Ort an und ggf. das Gebäude und die Etage.*
+<sup>*Gib hier den Ort an und ggf. das Gebäude und die Etage.*</sup>
+
 
 ## **Welcher NPC ist betroffen?**
-# *Gib hier an welcher Charakter, welches Schild oder Sonstiges betroffen ist.*
+<sup>*Gib hier an welcher Charakter, welches Schild oder Sonstiges betroffen ist.*</sup>
+
 
 ## **Was genau ist der Fehler?**
-# *Gib hier an, wo genau uns welcher Fehler passiert ist. Am Besten mit Screenshot*
+<sup>*Gib hier an, wo genau uns welcher Fehler passiert ist. Am Besten mit Screenshot*</sup>

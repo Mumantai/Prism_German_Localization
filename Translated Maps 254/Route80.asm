@@ -27,11 +27,13 @@ Route80_Trainer_1:
 	ld hl, .imperial_text
 	ret
 .metric_text
-	ctxt "einen Kilometer"
+	ctxt ""
+	para "einen Kilometer"
 	line "weit geschwommen!"
 	done
 .imperial_text
-	ctxt "eine halbe Meile"
+	ctxt ""
+	para "eine halbe Meile"
 	line "weit geschwommen!"
 	done
 

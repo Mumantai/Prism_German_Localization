@@ -7,44 +7,36 @@ Route77Jewelers_MapScriptHeader:
 Route77JewelersRecipeBook:
 	ctxt "Ring Rezepte:"
 	
-	para "Blattring:"
-	
-	para "Ein Blattstein,"
+	para "Pflanzen Ring:"
+	para "1x Blattstein,"
 	line "25x Asche."
 	
-	para "Feuerring:"
-	
-	para "Ein Feuerstein,"
+	para "Feuer Ring:"
+	para "1x Feuerstein,"
 	line "25x Asche."
 	
-	para "Wasserring:"
-	
-	para "Ein Wasserstein,"
+	para "Wasser Ring:"
+	para "1x Wasserstein,"
 	line "50x Asche."
 	
-	para "Donnerring:"
-	
-	para "Zwei Donnersteine,"
+	para "Donner Ring:"
+	para "2x Donnerstein,"
 	line "50x Asche."
 	
-	para "Leuchtring:"
-	
-	para "Drei Leuchtsteine,"
+	para "Leucht Ring:"
+	para "3x Leuchtstein,"
 	line "75x Asche."
 	
-	para "Funkelring:"
-	
-	para "Drei Funkelstein,"
+	para "Funkel Ring:"
+	para "3x Funkelstein,"
 	line "75x Asche."
 	
-	para "Finsterring:"
-	
-	para "Drei Finsterstein,"
+	para "Finster Ring:"
+	para "3x Finsterstein,"
 	line "100x Asche."
 	
-	para "Mondring:"
-	
-	para "Drei Mondsteine,"
+	para "Mond Ring:"
+	para "3x Mondstein,"
 	line "100x Asche."
 	done
 

@@ -42,38 +42,29 @@ Route79_Trainer_1:
 
 Route79_Trainer_2:
 	trainer EVENT_ROUTE_79_TRAINER_2, BIRD_KEEPER, 6, .before_battle_text, .battle_won_text
-	ctxt "Warum ist Relaxos"
-	line "Gefängnisausbruch"
-	cont "schiefgelaufen?"	;Hier richtigen Witz einfügen
-	
-	para "Weil es den Kuchen"
-	line "aufgegessen hat!"	;Wegen der Feile im Kuchen, verstehste? ☺
-	
+	ctxt "Die Knackis hier"
+	line "sind wie meine"
+	cont "Vögel<...> Im Käfig."
+	para "Verstehste?"
 	para "<...>"
-	
-	para "Lach schon, bevor"
-	line "ich sauer werde!"
+	para "Jetzt lach endlich"
+	line "bevor ich sauer"
+	cont "werde!"
 	done
 
 .before_battle_text
-	ctxt "Ich bin gerade"
-	line "erst ausgebrochen."
-	
-	para "Was ich verbrochen"
-	line "habe, um hier drin"
-	cont "zu landen?"
-	
+	ctxt "Ich bin aus dem"
+	line "Knast geflüchtet."
+	para "Was ich getan habe"
+	line "um dort zu landen?"
 	para "Das geht dich"
 	line "nichts an!"
 	done
 
 .battle_won_text
-	ctxt "Ich bin wohl etwas"
-	line "eingerostet."
-
-	para "Normalerweise,"
-	line "erlauben sie hier"
-	cont "drin keine Kämpfe."
+	ctxt "Meine #mon sind"
+	line "wohl etwas"
+	cont "eingerostet."
 	done
 
 Route79_Trainer_3:
@@ -118,7 +109,6 @@ Route79_Trainer_4:
 	ctxt "Das Protein hat"
 	line "nicht gewirkt?"
 	done
-
 Route79_MapEventHeader:: db 0, 0
 
 .Warps: db 2

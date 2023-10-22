@@ -40,8 +40,9 @@ Route80Nobu_Nobu:
 	line "schlimmen Lage und"
 	cont "brauchen deine"
 	para "Hilfe. Siegfried"
-	line "ist die Reinkarna-"
-	cont "tion des Gesandten.";Punkt hier an 19. Stelle, aber am Ende des Dialoges in Ordnung
+	line "ist die"
+	para "Reinkarnation des"
+	line "Gesandten."
 	sdone
 
 .explanation_text_2

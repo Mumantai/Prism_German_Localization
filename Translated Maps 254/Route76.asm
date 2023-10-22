@@ -31,11 +31,10 @@ Route76_Trainer_1:
 	done
 
 Route76_Trainer_1_OtherTwin:
-	ctxt "Liz: Wir lieben"
-	line "unser Sheinux."
-	
-	para "Hoffentlich geht"
-	line "es ihm gut."
+	ctxt "Liz: wir liebten"
+	line "unser Sheinux!"
+	para "Ich hoffe ihm"
+	line "gehts gut."
 	done
 
 Route76_Trainer_2:
@@ -53,7 +52,7 @@ Route76_Trainer_2:
 
 .battle_won_text
 	ctxt "Das ist auch"
-	line "traurig <...>"
+	line "traurig."
 	done
 
 Route76_MapEventHeader:: db 0, 0

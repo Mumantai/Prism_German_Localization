@@ -47,9 +47,9 @@ Route86LockedDoor:
 	done
 
 .opened_text
-	ctxt "Die Tür wurde mit"
-	line "dem"
-	para "Prismaschlüssel "
+	ctxt "Die Tür wurde"
+	line "mit dem"
+	para "Prismaschlüssel"
 	line "geöffnet!"
 	done
 

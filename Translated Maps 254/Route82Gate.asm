@@ -5,11 +5,19 @@ Route82Gate_MapScriptHeader:
 	db 0
 
 Route82GateGuard:
-	ctxt "Wenn du nicht"
-	line "Schwimmen oder"
+	ctxt "Wenn du weder"
+	line "schwimmen noch"
 	para "Surfer einsetzen"
-	line "kannst, geh besser"
-	cont "zurück zur Stadt."
+	line "kannst, gehst du"
+	para "besser zurück in"
+	line "die Stadt."
+
+;alt:
+;ctxt "Falls du weder"
+;line "schwimmen noch"
+;para "Surfer einsetzen"
+;line "kannst, geh besser"
+;cont "zurück zur Stadt."
 	done
 
 Route82Gate_MapEventHeader:

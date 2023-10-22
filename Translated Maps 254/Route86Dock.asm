@@ -14,9 +14,9 @@ Route86DockNPC1:
 Route86DockNPC2:
 	ctxt "Die Kampfarkaden"
 	line "haben ein"
-	para "interessantes "
+	para "interessantes"
 	line "Konzept."
-	cont "Viel Erfolg!"
+	cont "Viel Glück!"
 	done
 
 Route86DockSailor:
@@ -54,7 +54,7 @@ Route86DockSailor:
 	ctxt "Wunderbar!"
 	para "Möchtest du an"
 	line "Bord gehen und"
-	para "nach Kastro Tal "
+	para "nach Kastro-Tal"
 	line "fahren?"
 	done
 

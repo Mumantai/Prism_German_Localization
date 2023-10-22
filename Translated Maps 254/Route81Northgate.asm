@@ -6,16 +6,20 @@ Route81Northgate_MapScriptHeader:
 
 Route81NorthgateGuard:
 	ctxt "Die Stadt im"
-	line "Norden ist noch in"
-	cont "der Entwicklung."
-	para "Sie sahen diesen"
-	line "Ozean und dachten"
-	cont "sich: 'Hey! warum"
-	para "bauen wir hier"
-	line "nicht eine riesen"
-	cont "Stadt hin?'"
-	para "Die Vorstellung"
-	line "ist köstlich."
+	line "Norden wird noch"
+	cont "gebaut."
+
+	para "Die haben diesen"
+	line "großen Fleck Meer"
+	para "gesehen und haben"
+	line "sich gedacht <''>Hey!"
+	para "Warum bauen wir da"
+	line "nicht einfach eine"
+	cont "Stadt hin?<''>"
+
+	para "Die Vorstellung,"
+	line "finde ich schon"
+	cont "zum Lachen."
 	done
 
 Route81Northgate_MapEventHeader:

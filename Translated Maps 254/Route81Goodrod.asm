@@ -20,30 +20,29 @@ Route81GoodrodNPC:
 	endtext
 
 .introduction_text
-	ctxt "Hi!"
-	para "Ich bin der Angel"
-	line "Gurus<...> ähm."
-	para "Nunja, ich bin mit"
-	line "Ihm verwandt."
-	para "Ich habe hier eine"
-	line "professionelle"
-	para "Angel für dich."
-	line "Wir nennen sie"
-	cont "Profiangel!"
-	para "Viel Spaß!"
+	ctxt "Hallo!"
+	para "Ich bin der"
+	line "Angelprofi."
+	para "Möchtest du auch"
+	line "ein Profiangler"
+	cont "sein?"
+	para "<...>"
+	para "Dann nimm diese"
+	line "Profiangel!" ;Dialog etwas geändert, weil der Good Rod Witz sonst nicht richtig rüberkommt.
 	done
 
 .already_gave_rod_text
 	ctxt "Die Profiangel ist"
 	line "viel besser als"
-	cont "die alte Angel."
-	para "Fang damit große"
-	line "#mon für mich!"
+	cont "deine alte Angel."
+	para "Damit fängst du"
+	line "richtig große"
+	cont "#mon!"
 	done
 
 .no_space_text
-	ctxt "Du hast kein"
-	line "platz im Beutel!"
+	ctxt "Du hast keinen"
+	line "Platz im Beutel!"
 	done
 
 Route81Goodrod_MapEventHeader:

@@ -5,12 +5,11 @@ Route81Eastgate_MapScriptHeader:
 	db 0
 
 Route81EastgateNPC:
-	ctxt "Wenn du nach Osten"
-	line "gehen willst, rate"
-	para "ich dir davon ab,"
-	line "falls du nicht"
-	para "nach Problemen"
-	line "suchst!"
+	ctxt "Ich würde dir"
+	line "empfehlen, nicht"
+	para "weiter nach Osten"
+	line "zu gehen. Außer du"
+	para "suchst nach Ärger."
 	done
 
 Route81Eastgate_MapEventHeader:

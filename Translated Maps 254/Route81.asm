@@ -21,7 +21,7 @@ Route81Bridge:
 	return_if_callback_else_end
 
 Route81DirectionsSign:
-	ctxt "<UP> Akania-Hafen"
+	ctxt "<UP> Akania Docks"
 	next "<LEFT> Provinzial-"
 	nl   "  park"
 	next "<RIGHT> Route 80"
@@ -33,45 +33,43 @@ Route81IslandSign:
 
 Route81_Trainer_1:
 	trainer EVENT_ROUTE_81_TRAINER_1, BIRD_KEEPER, 4, .before_battle_text, .battle_won_text
-	ctxt "Die Bauarbeiten"
-	line "auf der Brücke"
-	para "sind noch nicht"
-	line "fertiggestellt<...>"
+	ctxt "Die Baurarbeiten"
+	line "an der Brücke sind"
+	cont "noch nicht fertig."
 	para "Zum Glück, helfen"
-	line "mir meine #mon"
-	cont "beim überqueren."
+	line "meine #mon mir"
+	cont "beim Überqueren."
 	done
 
 .before_battle_text
-	ctxt "Meine Flug #mon"
-	line "Fliegen mich"
-	cont "einfach rüber!"
+	ctxt "Meine Flug-#mon"
+	line "können mich"
+	cont "rüberfliegen!"
 	done
 
 .battle_won_text
-	ctxt "Bei einem Kampf"
-	line "sind sie weniger"
-	cont "hilfreich."
+	ctxt "Im Kampf, helfen"
+	line "sie mir wohl"
+	cont "nocht so viel."
 	done
 
 Route81_Trainer_2:
 	trainer EVENT_ROUTE_81_TRAINER_2, BLACKBELT_T, 6, .before_battle_text, .battle_won_text
-	ctxt "Diesen Pfad hier"
-	line "habe ich mit"
-	para "meinen eigenen"
-	line "Händen geebnet!"
-	para "Damit beeindrucke"
-	line "ich meinen Idol,"
-	cont "richtig?"
+	ctxt "Den Weg hier, habe"
+	line "ich selber aus dem"
+	cont "Fels geschlagen!" ;alt.: eigenhändig gebaut  o. Ä.
+
+	para "Das muss Andre"
+	line "beeindrucken!"
 	done
 
 .before_battle_text
 	ctxt "HAAAAAAAAAAAAAAAAA"
 	line "AAAAAAAAAAAAAAAAA!"
 	para "<...>"
-	para "Ich trainiere um"
-	line "eines tages Andres"
-	cont "jünger zu werden!"
+	para "Ich trainiere, um"
+	line "eines Tages Andres"
+	cont "Schüler zu werden!"
 	done
 
 .battle_won_text
@@ -80,19 +78,27 @@ Route81_Trainer_2:
 
 Route81_Trainer_3:
 	trainer EVENT_ROUTE_81_TRAINER_3, PICNICKER, 5, .before_battle_text, .battle_won_text
-	ctxt "Wenn du die VM03"
-	line "Surfer findest,"
-	para "kannst du damit"
-	line "auf deinen #mon"
-	para "schwimmen und das"
-	line "Wasser überqueren!"
+	ctxt "Wenn dein #mon"
+	line "Surfer kann,"
+	para "kannst du auf"
+	line "ihm übers Meer"
+	cont "reiten!"
 	done
 
 .before_battle_text
-	ctxt "Weiter nördlich"
-	line "liegt der Akania-"
-	para "Hafen. Was ist nur"
-	line "mit der Brücke<...>"
+;ctxt "Im Norden würdest"
+;line "du nach Akania"
+;para "kommen, wäre die"
+;line "Brücke nicht"
+;cont "gesperrt."
+
+	ctxt "Wenn du nach"
+	line "Norden gehst,"
+	para "würdest du direkt"
+	line "nach Akania"
+	para "kommen <...>"
+para"Wäre die Brücke"
+	line "nicht kaputt."
 	done
 
 .battle_won_text
@@ -102,45 +108,44 @@ Route81_Trainer_3:
 Route81_Trainer_4:
 	trainer EVENT_ROUTE_81_TRAINER_4, PICNICKER, 7, .before_battle_text, .battle_won_text
 	ctxt "Der Bau dieses"
-	line "#mon Centers,"
-	cont "machte meinen"
-	para "#mon sehr viel"
-	line "Angst."
+	line "#mon-Centers,"
+	para "hat meinen #mon"
+	line "Angst gemacht." ;alt.: Angst eingedagt.
 	done
 
 .before_battle_text
-	ctxt "Das war hier mein"
-	line "lieblings Ort zum"
+	ctxt "Das hier, war mein"
+	line "Lieblingsplatz zum"
 	para "Picknicken, bis"
-	line "sie den dummen"
-	para "#mon Center"
-	line "hier bauten<...>"
+	line "sie das dumme"
+	para "#mon-Center"
+	line "gebaut haben <...>"
 	done
 
 .battle_won_text
-	ctxt "Nun ab zum dummen"
-	line "#mon Center."
+	ctxt "Und ab zum dummen"
+	line "#mon-Center."
 	done
 
 Route81_Trainer_5:
 	trainer EVENT_ROUTE_81_TRAINER_5, SUPER_NERD, 3, .before_battle_text, .battle_won_text
-	ctxt "Ich könnte seine"
-	line "dienste gut"
+	ctxt "Ich könnte deren"
+	line "Hilfe echt gut"
 	cont "gebrauchen."
 	done
 
 .before_battle_text
 	ctxt "Ich habe gehört,"
-	line "es gäbe einen"
-	para "Forscher, der die"
-	line "natürlichen"
-	para "Fähigkeiten von"
-	line "#mon verstärken"
-	cont "kann."
+	line "es gäbe Wissen-"
+	para "schaftler, die die"
+	line "natürlichen Fähig-"
+	para "keiten von #mon"
+	line "verbessern wollen."
+	para "Das ist so cool."
 	done
 
 .battle_won_text
-	text "WIRKLICH?!"
+	text "Wirklich?!"
 	done
 
 Route81DoubleTeamTMDude:
@@ -156,20 +161,27 @@ Route81DoubleTeamTMDude:
 	closetextend
 
 .give_TM_text
-	ctxt "Ich dachte meine"
-	line "#mon würden"
-	para "hiermit ein gutes"
-	line "Team werden, aber"
+;ctxt "Ich dachte, meine"
+;line "#mon würden"
+;para "hiermit ein gutes"
+;line "Team werden, aber"
+;cont "ich lag falsch!"
+;para "Hier, nimm es!"
+
+	ctxt "Ich dachte, mein"
+	line "Team würde sich"
+	para "mit dieser TM"
+	line "verdoppeln, aber"
 	cont "ich lag falsch!"
-	para "Hier, nimm es!"
+	para "Hier, nimm sie!"
 	sdone
 
 .after_TM_given_text
-	ctxt "TM32 ist"
+	ctxt "TM32 enthält"
 	line "Doppelteam."
 	para "Lass dich nicht"
-	line "vom Namen täuschen"
-	para "es erhöht nur den"
+	line "vom Namen beirren."
+	para "Sie erhöht nur den"
 	line "Fluchtwert."
 	done
 
@@ -196,14 +208,14 @@ Route81MegaphoneGirl:
 	sdone
 
 .after_megaphone_given_text
-	ctxt "Entschuldigung,"
-	line "falls ich zu laut"
-	cont "war."
-	para "Was wäre wohl,"
-	line "wenn ein Sound-Typ"
-	para "#mon dieses"
-	line "Megafon verwenden"
-	cont "würde?"
+	ctxt "Bitte entschuldige"
+	line "den Lärm, aber ich"
+	para "kann mir gut"
+	line "vorstellen, dass"
+	para "ein Schall-#mon"
+	line "etwas mit diesem"
+	para "Megafon anfangen"
+	line "könnte."
 	done
 
 .no_room_text
@@ -247,31 +259,34 @@ Route81BridgeBuilder:
 	jumptext .after_building_bridge_text
 
 .introduction_text
-	ctxt "OK, nun<...> du bist"
+	ctxt "OK, nun <...> du bist"
 	line "der Sohn von"
 	para "Siegfried und"
-	line "musst da hoch um"
-	para "das #mon"
-	line "aufzuhalten, dass"
-	para "Naljo zerstören"
-	line "könnte?"
-	para "Hört sich realisch"
-	line "an, glaube ich<...>"
+	line "musst da hoch, um"
+	para "verrückte #mon"
+	line "abzuhalten, Naljo"
+	cont "zu vernichten?"
+
+	para "Klingt glaubwürdig"
+	line "genug für mich."
+
 	para "Ich brauche 20"
-	line "Ziegelsteine um"
+	line "Ziegelsteine, um"
 	para "den Hafen von"
 	line "unten zu stützen."
+
 	para "Es gibt einen"
 	line "Markt, der sie"
-	cont "Verkauft<...>"
-	para "Wo genau, weiss"
-	line "ich leider nicht<...>"
+	cont "verkauft <...>"
+
+	para "Wo genau, weiß"
+	line "ich leider nicht <...>"
 	done
 
 .before_nobu_text
 	ctxt "Ich sollte diese"
 	line "Brücke eigentlich"
-	cont "fertig bauen<...>"
+	cont "fertig bauen <...>"
 	para "Ich bin aber viel"
 	line "zu müde."
 	para "Du musst mir schon"
@@ -279,7 +294,7 @@ Route81BridgeBuilder:
 	para "Grund nennen,"
 	line "warum ich diese"
 	para "Brücke genau jetzt"
-	line "Fertigstellen"
+	line "fertigstellen"
 	cont "sollte."
 	done
 
@@ -291,25 +306,24 @@ Route81BridgeBuilder:
 	done
 
 .got_bricks_text
-	ctxt "Hast du paar"
+	ctxt "Hast du ein paar"
 	line "Ziegelsteine?"
-	para "Gibst du sie mir"
+	para "Gibst du sie mir,"
 	line "damit ich die"
 	cont "Brücke bauen kann?"
 	done
 
 .enough_bricks_text
-	ctxt "Danke. Nun ab an"
-	line "die Arbeit!"
+	ctxt "Danke. Und jetzt"
+	line "ab an die Arbeit!"
 	prompt
 
 .after_building_bridge_text
 	ctxt "Wie Belebend!"
 	para "Das war mein"
-	line "workout für die"
-	cont "Woche."
-	para "Ich bin durch,"
-	line "Ciau."
+	line "Workout für die"
+	para "Woche. Ich bin"
+	line "hier fertig, ciao."
 	done
 
 .refused_text
@@ -320,14 +334,13 @@ Route81BridgeBuilder:
 .not_enough_bricks_text
 	ctxt "Ich brauche 20!"
 	para "Lass es mich"
-	line "buchstabieren."
-	para "Z"
-	para "W"
-	para "A<...>"
-	para "Hör mit dem"
-	line "facepalm auf"
-	para "während ich mit"
-	line "dir rede"
+	line "buchstabieren:"
+	para "Z <...>"
+	para "W <...>"
+	para "A <...>"
+	para "Hey! Hör mir zu,"
+	line "wenn ich mich"
+	cont "beschwere!"
 	done
 
 Route81_MapEventHeader:: db 0, 0

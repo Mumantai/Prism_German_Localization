@@ -10,7 +10,7 @@ Route84HiddenItem:
 
 Route84DirectionsSign:
 	ctxt "<LEFT> Flokalis"
-	next "<RIGHT> Klathrat"
+	next "<RIGHT> Klathrat-"
 	nl   "  Tunnel"
 	done
 
@@ -21,55 +21,53 @@ Route84_Trainer_1:
 	done
 
 .before_battle_text
-	ctxt "Du bist in meine"
-	line "Falle getappt!"
-	para "Kampfmodus"
-	line "aktiviert!"
+	ctxt "Du wurdest aus dem"
+	line "Hinterhalt"
+	cont "überfallen!"
+	para "Würfel auf"
+	line "Initiative!"
 	done
 
 .battle_won_text
-	ctxt "Awww, das war"
-	line "jetzt langweilig."
+	ctxt "Maaan, das macht"
+	line "so keinen Spaß."
 	done
 
 Route84_Trainer_2:
 	trainer EVENT_ROUTE_84_TRAINER_2, SKIER, 1, .before_battle_text, .battle_won_text
-	ctxt "Manchmal fahre ich"
-	line "auf meinen #mon"
-	cont "Ski!"
-	para "Lustig, huh?"
+	ctxt "Manchmal fahre"
+	line "ich zusammen"
+	para "mit meinen #mon"
+	line "Ski!"
 	done
 
 .before_battle_text
-	ctxt "Das ist eine sehr"
-	line "schwierige Piste"
-	para "für talentierte"
-	line "Skifahrer wie ich"
-	cont "es nunmal bin."
+	ctxt "Das ist ein super"
+	line "Hindernisparcour,"
+	para "für erfahrene"
+	line "Skiefahrer, wie"
+	cont "mich!"
 	done
 
 .battle_won_text
-	ctxt "Satz mit X war"
-	line "wohl nix!"
+	ctxt "Verflixt!"
 	done
 
 Route84_Trainer_3:
 	trainer EVENT_ROUTE_84_TRAINER_3, SKIER, 2, .before_battle_text, .battle_won_text
-	ctxt "Die komischen"
-	line "Landschaften"
-	para "dieser Region"
-	line "wurden durch ein"
-	para "sehr altes #mon"
-	line "geformt."
-	para "Es machte es zu"
-	line "dem perfekten Ort"
-	cont "zum Skifahren!"
+	ctxt "Diese Landschaft,"
+	line "soll von alten"
+	line "legendären #mon"
+	para "geformt worden"
+	line "sein."
+	para "Einfach perfekt"
+	line "zum Skifahren!"
 	done
 
 .before_battle_text
 	ctxt "Diese Region hat"
 	line "echt eigenartige"
-	cont "Landschaften<...>"
+	cont "Landschaften <...>"
 	done
 
 .battle_won_text
@@ -79,21 +77,20 @@ Route84_Trainer_3:
 
 Route84_Trainer_4:
 	trainer EVENT_ROUTE_84_TRAINER_4, HIKER, 13, .before_battle_text, .battle_won_text
-	ctxt "Ich brauchte nicht"
-	line "mal nen Kompass!"
+	ctxt "Ich brauche nicht"
+	line "mal einen Kompass!"
 	done
 
 .before_battle_text
 	ctxt "Dieser Tunnel war"
-	line "kein Problem für"
-	cont "mich."
-	para "Du musst nur drauf"
-	line "achten wo du genau"
-	cont "hin gehst!"
+	line "kein Problem."
+	para "Man muss nur"
+	line "darauf achten,"
+	cont "wohin man geht!"
 	done
 
 .battle_won_text
-	ctxt "Festhalten."
+	ctxt "Halt."
 	done
 
 Route84_MapEventHeader:: db 0, 0

@@ -27,34 +27,32 @@ Route85_Trainer_1:
 	jumptext .after_battle_not_undercover_text
 
 .before_battle_text
-	ctxt "Bist du auch eine"
-	line "Paletten"
-	cont "Patrouille?"
+	ctxt "Du bist also ein"
+	line "Palette Ranger?"
 	done
 
 .battle_won_text
-	ctxt "Ich glaub nicht,"
-	line "dass ich gegen"
-	para "eine Paletten"
-	line "Patrouille"
-	cont "verloren habe!"
+	ctxt "Ich hab nicht"
+	line "wirklich gegen"
+	para "einen Palette"
+	line "Ranger verloren <...>"
 	done
 
 .after_battle_not_undercover_text
-	ctxt "Ich bin erschöpft"
-	line "seitdem ich gegen"
-	para "eine Paletten"
-	line "Patrouille"
-	cont "verloren habe."
+	ctxt "Ich habe gegen"
+	line "einen Palette"
+	para "Ranger gekämpft"
+	line "und bin jetzt"
+	cont "völlig erschöpft."
 	done
 
 .after_battle_undercover_text
-	ctxt "Es sieht so aus"
-	line "als ob eure Truppe"
-	para "nur Zeit schinden"
-	line "will."
+	ctxt "Es kommt mir vor,"
+	line "als würdet ihr"
+	para "Clowns nur Zeit"
+	line "verschwenden."
 	para "<...>"
-	para "<...> Warte."
+	para "<...> Moment mal."
 	para "Warum sucht die"
 	line "Polizei dann nach"
 	cont "euch Typen?"
@@ -76,24 +74,26 @@ Route85_Trainer_2:
 	done
 
 .battle_won_text
-	ctxt "OK, ich stehe dir"
-	line "nicht mehr im Weg."
+	ctxt "Ich geh dir lieber"
+	line "aus dem Weg."
 	done
 
 .after_battle_not_undercover_text
 	ctxt "Ich habe Angst vor"
-	line "diesen Paletten"
-	cont "Patrouillen."
-	para "Ich hörte, Sie"
-	line "fürchten keine"
-	cont "Konsequenzen<...>"
+	line "diesen Palette"
+	cont "Rangern."
+	para "Ich habe gehört,"
+	line "sie tun was sie"
+	cont "wollen."
+	para "Ohne Angst vor den"
+	line "Konsequenzen."
 	done
 
 .after_battle_undercover_text
 	ctxt "Solange es mich"
 	line "nicht betrifft,"
 	para "werde ich keinem"
-	line "von euren machen-"
+	line "von euren Machen-"
 	cont "schaften erzählen."
 	done
 
@@ -127,9 +127,9 @@ Route85Officer:
 
 .officer_text
 	ctxt "Polizist: Gute"
-	line "Arbeit, Ich wusste"
+	line "Arbeit. Ich wusste"
 	para "auf dich ist"
-	line "verlass."
+	line "Verlass."
 	sdone
 
 .black_text
@@ -144,23 +144,24 @@ Route85Officer:
 	sdone
 
 .after_arrest_text
-	ctxt "Der Wächter vor"
-	line "der Höhlen-Arena"
-	para "lässt dich nun"
-	line "passieren."
-	para "Nimm bitte noch"
-	line "das hier."
+	ctxt "Die Wache vor der"
+	line "Arena im"
+	para "Steinbruch lässt"
+	line "dich jetzt durch."
+	para "Nimm bitte auch"
+	line "noch das hier."
 	sdone
 
 .after_giving_HM_text
-	ctxt "VM05 ist"
+	ctxt "VM05 enthält"
 	line "Zertrümmerer."
 	para "Damit kannst du"
-	line "felsen aus dem"
-	cont "Weg räumen."
-	para "Jedoch brauchst du"
-	line "hierzu den lokalen"
-	cont "Orden."
+	line "kleinere Felsen"
+	cont "zerschlagen."
+	para "Du brauchst vorher"
+	line "aber noch den"
+	para "Museklorden aus"
+	line "Phacelia."
 	done
 
 Route85PaletteBlack:
@@ -176,18 +177,18 @@ Route85PaletteBlack:
 
 .text
 	ctxt "Hey."
-	para "Ich mach gerade ne"
-	line "Raucherpause."
+	para "Ich mache gerade"
+	line "eine Raucherpause."
 	para "<...>"
-	para "Oh, Was?"
-	para "Du hast den Boss"
-	line "gefunden?"
+	para "Oh, was?"
+	para "Du hast wirklich"
+	line "den Boss gefunden?"
 	para "Zeig mir den Weg."
 	done
 
 .already_following_text
-	ctxt "Gehen wir nun,"
-	line "oder watt?"
+	ctxt "Gehen wir jetzt,"
+	line "oder was?"
 	done
 
 Route85_MapEventHeader:: db 0, 0

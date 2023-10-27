@@ -18,10 +18,11 @@ RuinsF4GasTrap:
 	step_end
 
 .text
-	ctxt "Dieser Raum"
-	line "riecht giftig."
-	para "Es ist schwer hier"
-	line "oben zu atmen."
+	ctxt "Der Raum riecht"
+	line "stark giftig."
+	para "Es fällt schwer,"
+	line "hier oben zu"
+	cont "atmen."
 	sdone
 
 RuinsF4TelumSwitch:
@@ -39,10 +40,10 @@ RuinsF4TelumSwitch:
 
 .switch_is_on_text
 	ctxt "Der Schalter ist"
-	line "An und auf ihm"
-	para "steht das Wort:"
-	line "Telum."
-	para "Auschalten?"
+	line "eingeschaltet und"
+	para "beschriftet mit"
+	line "'Telum'."
+	para "Ausschalten?"
 	done
 
 RuinsF4Trap1:

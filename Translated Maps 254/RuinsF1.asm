@@ -168,10 +168,10 @@ RuinsF1PitTable:
 	db -1, -1, -1, -1
 
 RuinsF1Arrow:
-	ctxt "Dieser Pfeil sieht"
-	line "giftig aus."
-	para "Lass lieber die"
-	line "Finger davon<...>"
+	ctxt "Der Pfeil riecht"
+	line "nach Gift."
+	para "Man lässt besser"
+	line "die Finger davon."
 	done
 
 RuinsF1ClearArrow:
@@ -194,10 +194,10 @@ RuinsF1MurumSwitch:
 
 .switch_on_text
 	ctxt "Der Schalter ist"
-	line "An und auf ihm"
-	para "steht das Wort:"
-	line "Murum."
-	para "Auschalten?"
+	line "eingeschaltet und"
+	para "beschriftet mit"
+	line "'Murum'."
+	para "Ausschalten?"
 	done
 
 RuinsSwitchAlreadyOffText:
@@ -324,32 +324,33 @@ RuinsF1TelumTrap:
 
 RuinsF1_PaletteYellow:
 	trainer EVENT_RUINS_F1_YELLOW_PATROLLER, PATROLLER, 5, .before_battle_text, .battle_won_text
-	ctxt "Bitte aufhören."
+	ctxt "Bitte, hör auf."
 	para "Wenn wir die"
-	line "Steinkröte finden,"
-	para "können wir seine"
-	line "Kugel mitsammt"
-	para "seiner Energie"
-	line "stehlen!"
+	line "Steinschildkröte"
+	para "finden, können wir"
+	line "seine Kugel klauen"
+	para "und ihre Energie"
+	line "benutzbar machen."
 	para "Damit können wir"
 	line "jedes #mon noch"
 	cont "stärker machen!"
 	done
 
 .before_battle_text
-	ctxt "Wir sind zwar nur"
-	line "zu zweit, hören"
-	cont "aber niemals auf!"
-	para "Grün und ich sind"
-	line "starke Partner und"
-	para "wir werden"
-	line "gemeinsam reich"
-	cont "werden!"
+	ctxt "Auch wenn wir nur"
+	line "noch zu zweit"
+	para "sind, wir hören"
+	line "nicht auf!"
+	para "Grün und ich haben"
+	line "ein starkes Band"
+	para "aufgebaut und"
+	line "genau das wird uns"
+	cont "reich machen!"
 	done
 
 .battle_won_text
 	ctxt "Das sollte nicht"
-	line "wieder passieren<...>"
+	line "wieder passieren <...>"
 	done
 
 RuinsF1_MapEventHeader:

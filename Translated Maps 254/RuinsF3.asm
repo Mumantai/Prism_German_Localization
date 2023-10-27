@@ -63,13 +63,13 @@ RuinsF3_DoRandomBall:
 	dw .yanma
 
 .no_room_text
-	ctxt "Kein Platz mehr"
-	line "hierfür!"
+	ctxt "Du hast keinen"
+	line "Platz dafür!"
 	done
 
 .got_brown_jewel_text
 	ctxt "Du hast das"
-	line "Braun Juwel"
+	line "Braunjuwel"
 	cont "gefunden!"
 	done
 

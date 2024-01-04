@@ -12,35 +12,36 @@ SaffronFightingDojo_Trainer_1:
 	done
 
 .before_battle_text
-	ctxt "Und von wo kommst"
-	line "du denn?"
+	ctxt "Haiyaaah!"
+	para "Wo kommst du her?"
 	done
 
 .battle_won_text
-	ctxt "Hergekommen, um"
-	line "unseren Meister zu"
+	ctxt "Bist gekommen, um"
+	line "den Meister zu"
 	cont "sehen, was?"
 	done
 
 SaffronFightingDojo_Trainer_2:
 	trainer EVENT_SAFFRON_FIGHTING_DOJO_TRAINER_2, BLACKBELT_T, 8, .before_battle_text, .battle_won_text
-	ctxt "Psycho Kraft"
-	line "macht uns Angst!"
+	ctxt "Wir fürchten uns"
+	line "nur noch vor"
+	cont "Psycho-Kräften!"
 	done
 
 .before_battle_text
-	ctxt "Dieses Kampfdojo"
-	line "gehörte dem"
-	para "Elite-Vier-Mitglied"
-	line "Koichi!"
-	para "Unterschätze uns"
-	line "nicht!"
+	ctxt "Dieses Dojo"
+	line "gehörte mal Koichi"
+	para "von den den Top"
+	line "Vier!"
+	para "Unterschätz uns"
+	line "also besser nicht!"
 	done
 
 .battle_won_text
 	ctxt "Meister Koichi,"
-	line "Ich habe Sie"
-	cont "entäuscht!"
+	line "ich habe Euch"
+	cont "enttäuscht!"
 	done
 
 SaffronFightingDojo_Trainer_3:
@@ -57,7 +58,7 @@ SaffronFightingDojo_Trainer_3:
 	done
 
 .battle_won_text
-	ctxt "Letzteres also<...>"
+	ctxt "Letzteres also <...>"
 	done
 
 SaffronFightingDojoMaster:
@@ -87,20 +88,21 @@ SaffronFightingDojoMaster:
 	jumptext .received_item_text
 
 .already_battled_text
-	ctxt "Immer weiter "
-	line "Trainieren!"
-	para "Das werde ich auch"
-	line "machen!"
+	ctxt "Trainiere weiter"
+	line "und immer weiter!"
+	para "Das werde ich"
+	line "nämlich auch tun!"
 	done
 
 .before_battle_text
 	ctxt "Hey!"
-	para "Ich bin Kiyo, der "
-	line "Karate-König!"
-	para "Koichis nummer 1!"
+	para "Ich bin Kiyo, der"
+	line "Karatekönig!"
+	para "Koichis bester"
+	line "Schüler!"
 	para "Du!"
-	para "Kämpfen!"
-	line "Hayaa!"
+	para "Zeit zu Kämpfen!"
+	para "Haiyaah!"
 	sdone
 
 .battle_won_text
@@ -115,9 +117,9 @@ SaffronFightingDojoMaster:
 	sdone
 
 .received_item_text
-	ctxt "Es wird deine"
+	ctxt "Er macht deine"
 	line "Kampf-#mon noch"
-	cont "stärker machen!"
+	cont "stärker!"
 	done
 
 .no_room_for_item_text

@@ -5,14 +5,12 @@ SaffronPokecenter_MapScriptHeader:
 	db 0
 
 SaffronPokecenterNPC1:
-	ctxt "Der CEO von Silph "
-	line "Co."
-	para "war früher der"
-	line "Champion von "
-	cont "Kanto."
-	para "Was für ein"
-	line "beachtlicher "
-	cont "Lebenslauf!"
+	ctxt "Der aktuelle CEO"
+	line "der Silph Co. war"
+	para "einmal der Champ"
+	line "von Kanto."
+	para "Wenn das nicht mal"
+	line "bemerkenswert ist!"
 	done
 
 SaffronPokecenterNPC2:
@@ -29,12 +27,14 @@ SaffronPokecenterNPC3:
 	line "dass einige"
 	para "legendäre Trainer"
 	line "auf einer geheimen"
-	cont "Insel leben."
-	para "Ist ein Gerücht,"
-	line "weil niemand weiß,"
-	para "wo die Trainer"
-	line "sich derzeit "
-	cont "aufhalten."
+	para "Insel leben"
+	line "sollen."
+	para "Es ist nur ein"
+	line "gerücht, aber"
+	para "niemand weiß, wo"
+	line "sie sich seit"
+	para "einiger Zeit"
+	line "aufhalten."
 	done
 
 SaffronPokecenter_MapEventHeader:

@@ -10,31 +10,33 @@ SaffronGymSign:
 	done
 
 SaffronGymGuide:
-	ctxt "Hey!"
+	ctxt "Hallo,"
+	line "Herausforderer!"
 	para "Sabrina ist die"
-	line "stärkste Arena"
-	cont "Leiterin in Kanto!"
-	para "Sie hat viele"
-	line "Einladungen zur"
-	para "Elite Vier"
-	line "abgelehnt."
-	para "Einige sagen"
-	line "sogar, ihre Psycho"
-	para "Kräfte seien dem"
-	line "Liga-Champion"
-	cont "ebenbürtig!"
+	line "stärkste Arena-"
+	line "leiterin in Kanto!"
+	para "Sie hat schon"
+	line "unzählige"
+	para "Einladungen für"
+	line "die Top Vier"
+	cont "abgelehnt. Manche"
+	para "sagen sogar, ihre"
+	line "Psycho-Kräfte"
+	para "wären selbst dem"
+	line "Champ ebenbürtig!"
+	para "Sei also den stets"
+	line "auf der Hut!"
 	done
 
 SaffronGym_Trainer_1:
 	trainer EVENT_SAFFRON_GYM_TRAINER_1, PSYCHIC_T, 6, .before_battle_text, .battle_won_text
-	ctxt "Das Warpsystem"
-	line "dieser Arena wurde"
-	cont "kürzlich geändert."
-	para "Du wirst eine"
+	ctxt "Die Teleporter"
+	line "wurden vor kurzem"
+	cont "aktualisiert. "
+	para "Du brauchst eine"
 	line "entschlossene"
-	para "Seele benötigen,"
-	line "um Sabrina zu"
-	cont "erreichen!"
+	para "Seele, um zu"
+	line "Sabrina zu kommen!"
 	done
 
 .before_battle_text
@@ -50,14 +52,12 @@ SaffronGym_Trainer_1:
 
 SaffronGym_Trainer_2:
 	trainer EVENT_SAFFRON_GYM_TRAINER_2, MEDIUM, 6, .before_battle_text, .battle_won_text
-	ctxt "Du hast einen"
-	line "recht langen Weg"
-	para "hinter dir, junger"
-	line "Mensch."
+	ctxt "Du hast ja einen"
+	line "echt langen Weg"
+	cont "hinter dir."
 	para "Wird dein Aufstieg"
 	line "jemals seinen"
-	para "Höhepunkt"
-	line "erreichen?"
+	cont "Zenit erreichen?"
 	done
 
 .before_battle_text
@@ -79,11 +79,11 @@ SaffronGym_Trainer_3:
 	para "Leiterin wurde,"
 	line "war sie ganz die"
 	cont "Eis-Königin!"
-	para "Trotzdem hat Sie"
+	para "Trotzdem hat sie"
 	line "sich schnell mit"
 	para "Erika aus"
 	line "Prismania City"
-	cont "befreundet."
+	cont "angefreundet."
 	para "Ich vermute,"
 	line "Erikas mitfühlende"
 	para "Natur hat im Laufe"
@@ -93,14 +93,15 @@ SaffronGym_Trainer_3:
 	line "der Grund, warum"
 	para "sie sich weigert,"
 	line "Saffronia City zu"
-	cont "verlassen<...>"
-	para "Fufufufu<...>"
+	cont "verlassen <...>"
+	para "Fufufufu <...>"
 	done
 
 .before_battle_text
-	ctxt "Fufufufu<...> ich"
-	para "kann deine"
-	line "gedanken lesen."
+	ctxt "Fufufufu <...>"
+	para "Ich sehe, was in"
+	line "deiner Seele"
+	cont "vor sich geht <...>"
 	done
 
 .battle_won_text
@@ -110,7 +111,7 @@ SaffronGym_Trainer_3:
 SaffronGym_Trainer_4:
 	trainer EVENT_SAFFRON_GYM_TRAINER_4, PSYCHIC_T, 7, .before_battle_text, .battle_won_text
 	ctxt "Koichi war der"
-	line "Arena-Leiter von"
+	line "Arenaleiter von"
 	para "Saffronia City,"
 	line "bevor er den Titel"
 	para "vor über einem"
@@ -118,29 +119,30 @@ SaffronGym_Trainer_4:
 	cont "Sabrina verlor."
 	para "Nachdem sie viele"
 	line "Einladungen zur"
-	para "Elite Vier"
-	line "abgelehnt hatte,"
-	para "sagte Sabrina den"
-	line "Liga-Offiziellen,"
-	para "sie sollten Koichi"
-	line "an ihrer Stelle"
-	cont "wählen. Er erhielt"
-	para "später eine"
-	line "Einladung, die er"
-	para "auf der Stelle"
-	line "annahm, ohne zu"
-	para "wissen, warum er"
+	para "Top Vier abgelehnt"
+	line "hatte, sagte sie"
+	para "der #-Liga,"
+	line "sie sollten Koichi"
+	para "an ihrer Stelle"
+	line "wählen. Er erhielt"
+	cont "später eine"
+	para "Einladung, die er"
+	line "auf der Stelle"
+	para "angenommen hat,"
+	line "ohne zu wissen,"
+	para "warum er überhaupt"
 	line "ausgewählt wurde."
 	done
 
 .before_battle_text
-	ctxt "Kennst du Koichi"
-	line "den Karate"
-	cont "Meister?"
+	ctxt "Weißt du über"
+	line "Koichi, den"
+	para "Karatemeister,"
+	line "bescheid?"
 	done
 
 .battle_won_text
-	ctxt "So schwach<...>"
+	ctxt "So schwach <...>"
 	done
 
 
@@ -169,77 +171,78 @@ SaffronGymSabrina:
 
 .already_battled_text
 	ctxt "Ich bin als eine"
-	line "der besten in"
+	line "der Besten in"
 	cont "Kanto bekannt."
-	para "Du solltest"
-	line "anderswo nach"
-	para "Herausforderungen"
-	line "suchen."
-	para "Die Liebe, die du"
-	line "mit deinem #mon"
-	para "teilst, hat meine"
-	line "Psycho-Kraft"
-	cont "überwältigt."
+	para "Eine echte"
+	line "Herausforderung"
+	para "musst du wohl"
+	line "woanders suchen."
+	para "Die Liebe, die"
+	line "du mit deinen"
+	para "#mon teilst,"
+	line "hat meine"
+	para "Psycho-Kräfte"
+	line "überwältigt."
 	para "Die Kraft der"
-	line "Liebe<...>"
-	para "Vielleicht ist es"
-	line "die stärkste<...>"
+	line "Liebe <...>"
+	para "Sie ist wohl die"
+	line "stärkste"
+	cont "psychische Kraft <...>"
 	done
 
 .before_battle_text
-	ctxt "Du<...> ich habe"
+	ctxt "Du <...> ich habe"
 	para "deine Ankunft"
-	line "erwartet."
+	line "bereits erwartet."
 	para "Ich habe sie vor"
-	line "Jahren"
-	cont "vorausgesehen."
-	para "Als Arena Leiterin"
+	line "Jahren schon"
+	cont "vorhergesehen."
+	para "Als Arenaleiterin"
 	line "ist es meine"
-	para "Pflicht,"
+	para "Pflicht, jeden"
 	line "Herausforderer"
 	para "dazu zu bringen,"
 	line "sich zu beweisen."
 	para "Ich weiß, wie weit"
 	line "du gekommen bist."
-	para "Da du es wünschst,"
-	line "werde ich dir das"
-	para "volle Ausmaß"
-	line "meiner"
+	para "Da du es dir"
+	line "wünchst, werde ich"
+	para "dir das volle"
+	line "Ausmaß meiner"
 	para "Psycho-Kräfte"
 	line "zeigen!"
 	sdone
 
 .battle_won_text
-	ctxt "Ich war nicht in"
-	line "der Lage, dieses"
-	para "Ausmaß an Macht"
-	line "voraussehen zu "
-	cont "können."
+	ctxt "Ich war mir deiner"
+	line "Kraft bewusst."
+	para "Dieser Kampf war"
+	line "für mich genauso"
+	para "eine Prüfung, wie"
+	line "auch für dich."
 	para "Du hast dir den"
-	line "Sumpforden "
+	line "den Sumpforden"
 	cont "verdient."
 	done
 
 .received_badge_text
 	ctxt "<PLAYER> erhält den"
-	line "Sumpf Orden."
+	line "Sumpforden."
 	done
 
 .before_giving_TM_text
-	ctxt "Bitte nimm auch"
-	line "dies als Geschenk"
-	cont "an."
+	ctxt "Bitte, nimm auch"
+	line "dieses Geschenk."
 	sdone
 
 .after_giving_TM_text
-	ctxt "Diese TM enthält "
+	ctxt "Diese TM enthält"
 	line "Bodyguard."
-	para "Dieser Angriff"
-	line "negiert 5 Runden"
-	para "lang jeden"
-	line "negativen Status"
-	para "Effekt deines"
-	line "ganzen Teams!"
+	para "Diese Attacke"
+	line "schützt dein Team"
+	para "für fünf Runden"
+	line "vor den gängigen"
+	cont "Statusproblemen."
 	done
 
 SaffronGym_MapEventHeader:

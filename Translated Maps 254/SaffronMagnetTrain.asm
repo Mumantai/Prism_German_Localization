@@ -8,25 +8,25 @@ SaffronMagnetTrainEmployee:
 	farjump MagnetTrainScript
 
 SaffronMagnetTrainNPC1:
-	ctxt "Einfach mal Zug"
-	line "fahren um die"
-	para "Seele baumeln zu "
-	line "lassen."
+	ctxt "Mit dem Zug zu"
+	line "fahren, ist super"
+	cont "zum Entspannen."
 	done
 
 SaffronMagnetTrainNPC2:
-	ctxt "<``>Wir kommen an?<''>"
+	ctxt "<``>Wir sind auf dem"
+	line "Weg<''>?"
 	para "Was soll das"
-	line "bedeuten?"
-	para "Ich bin derjenige,"
-	line "der dorthin geht."
-	para "Sie sollten schon"
-	line "dort sein!"
-	para "Ich möchte nicht"
-	line "aus der Spur"
-	para "geraten, weil sie"
-	line "noch nicht dort"
-	cont "sind!"
+	line "denn bedeuten?"
+	para "Ich fahr doch zu"
+	line "ihnen! Sie sollten"
+	para "sollten schon"
+	line "längst da sein!"
+	para "Ich will nicht auf"
+	line "die schiefe Bahn"
+	para "geraten, nur weil"
+	line "sie noch nicht"
+	cont "da sind!"
 	done
 
 SaffronMagnetTrain_MapEventHeader:

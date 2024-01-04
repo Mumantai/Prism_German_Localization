@@ -5,35 +5,34 @@ SaffronCopycatsHouse_MapScriptHeader:
 	db 0
 
 SaffronCopycatsHousePikachuDoll:
-	ctxt "Eine Pikachu"
-	line "Puppe!"
+	ctxt "Eine Pikachu-"
+	line "#puppe!"
 	done
 
 SaffronCopycatsHouseGengarDoll:
-	ctxt "Eine Gengar"
-	line "Puppe!"
+	ctxt "Eine Gengar-"
+	line "#puppe!"
 	done
 
 SaffronCopycatsHouseCaterpieDoll:
-	ctxt "Eine Raupy"
-	line "Puppe!"
+	ctxt "Eine Raupy-"
+	line "#puppe!"
 	done
 
 SaffronCopycatsHouseLarvitarDoll:
-	ctxt "Eine Larvitar"
-	line "Puppe!"
+	ctxt "Eine Larvitar-"
+	line "#puppe!"
 	para "Ah, Erinnerungen<...>"
 	done
 
 SaffronCopycat:
-	ctxt "Hallo!"
-	para "Man nennt mich "
-	line "Imitator."
-	para "Ich ahme nicht"
-	line "mehr viele Leute"
-	para "nach, aber ich"
-	line "sammle #mon-"
-	cont "Puppen!"
+	ctxt "Hallo! Ich bin"
+	para "die Nachahmerin."
+	line "Ich ahme keine"
+	para "Leute mehr nach,"
+	line "ich sammle aber"
+	para "immernoch gerne"
+	line "#puppen!"
 	done
 
 SaffronCopycatsHouse_MapEventHeader:

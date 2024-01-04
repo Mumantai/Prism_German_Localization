@@ -5,76 +5,70 @@ SaffronCity_MapScriptHeader:
 	db 0
 
 SaffronCityCitySign:
-	ctxt "Leuchtendes,"
-	next "goldenes Land des"
-	next "Handels "
+	ctxt "Leuchtend goldenes"
+	next "Land des Handels"
 	done
 
 SaffronCityGymSign:
-	ctxt "#mon Arena"
+	ctxt "#mon-Arena"
 	next "Leiterin: Sabrina"
 	done
 
 SaffronCityDojoSign:
-	ctxt "Kampf Dojo"
-	nl " "
+	ctxt "Kampf-Dojo"
+	nl   ""
 	next "Jeder ist"
 	next "willkommen!"
 	done
 
 SaffronCitySilphSign:
 	ctxt "Silph Co."
-	nl " "
-	next "Zentral"
+	nl   ""
 	next "Hauptquatier"
 	done
 
 SaffronCityMrPsychicSign:
-	ctxt "Mr. Psychos"
-	next "Haus"
+	ctxt "Mr. Psychos Haus"
 	done
 
 SaffronCityNPC1:
 	ctxt "Die Leute aus"
 	line "Naljo sind so"
-	para "ungezwungen und "
-	line "faszinierend."
+	para "ungestüm und "
+	line "aufregend."
 	done
 
 SaffronCityNPC2:
 	ctxt "Ein berühmter"
-	line "#mon Trainer"
-	para "ist kürzlich in"
-	line "die Stadt gezogen."
+	line "#mon-Trainer"
+	para "ist vor Kurzem"
+	line "hier hergezogen."
 	para "Er war früher der"
-	line "Leiter der"
-	para "Vertania City"
-	line "Arena."
+	line "Arenaleiter von"
+	cont "Vertania City."
 	done
 
 SaffronCityNPC3:
-	ctxt "Ich liebe die"
-	line "Silph Co. dafür."
-	para "dass sie Umwelt-"
-	line "freundlich "
-	cont "geworden sind."
+	ctxt "Seit die Silph Co."
+	para "sich für den"
+	line "Umweltschutz"
+	para "einsetzt, mag ich"
+	line "sie immer mehr."
 	done
 
 SaffronCityNPC4:
-	ctxt "Es ist aufregend,"
-	line "in einer großen"
-	para "Stadt wie dieser"
-	line "zu leben!"
+	ctxt "In einer so großen"
+	line "Stadt zu leben,"
+	cont "ist aufregend!"
 	done
 
 SaffronCityNPC5:
-	ctxt "Aus"
-	line "Sicherheitsgründen"
-	para "gilt für Menschen,"
-	line "die von außerhalb"
-	para "Kanto's kommen,"
-	line "die Stadt nicht zu"
-	cont "verlassen."
+	ctxt "Aus Sicherheits-"
+	line "gründen, dürfen"
+	para "Menschen, die"
+	line "nicht aus Kanto"
+	para "kommen, die Stadt"
+	line "nicht verlassen."
 	done
 
 SaffronCitySilphWorker:
@@ -126,61 +120,59 @@ SaffronCitySilphWorker:
 
 .generic_opening_text
 	ctxt "Schön, mal an die"
-	line "frische Luft zu "
+	line "frische Luft zu"
 	cont "kommen!"
 	sdone
 
 .back_to_work_text
-	ctxt "Was, Dr. Eich will"
-	line "mich wieder "
-	cont "beschäftigen?!"
-	para "Es tut mir leid,"
+	ctxt "Was? Herr Eich"
+	line "will mich wieder "
+	cont "einstellen?!"
+	para "Es tut mir Leid,"
 	line "lass uns abhauen,"
 	para "bevor es zu spät "
 	line "ist!"
 	sdone
 
 .blue_meets_worker_text
-	ctxt "Sorry, Chef!"
-	para "Dr Eich: Ja, ja;"
-	line "nun, bring deine"
+	ctxt "Tut mir Leid,"
+	line "Chef!"
+	para "Herr Eich: Ja,ja."
+	line "Jetzt mach deine"
 	cont "Arbeit zu Ende."
 	sdone
 
 .created_master_ball_text
-	ctxt "Dr Eich: Gute"
+	ctxt "Herr Eich: Gute"
 	line "Arbeit, <PLAYER>!"
-	para "Vielen Dank, dass"
-	line "du Zeuge eines"
-	para "sehr wichtigen"
-	line "Events in der"
-	para "Geschichte von"
-	line "Silph Co."
-	para "geworden bist!"
-	line "Der Meister-Ball -"
-	para "er wird jedes"
-	line "#mon zu 100% "
-	cont "fangen!"
-	para "<PLAYER>, ich kann"
-	line "dich wirklich gut"
-	para "leiden, ich gebe"
-	line "dir unseren ersten"
-	cont "Meister-Ball!"
+	para "Danke, dass du"
+	line "diesem besonderen"
+	para "Moment für uns und"
+	line "die Silph Co."
+	cont "beiwohnst!"
+	para "Der Meisterball!"
+	para "Mit ihm fängt"
+	line "man garantiert"
+	cont "jedes #mon!"
+	para "Und weil ich dich"
+	line "so mag, schenke"
+	para "ich dir das erstes"
+	line "Exemplar unserer"
+	cont "Produktion!"
 	sdone
 
 .interested_in_battle_text
-	ctxt "Bist Du auch an"
-	line "einem #mon"
-	para "Kampf "
-	line "interessiert?"
-	para "Ich schätze, ich"
-	line "könnte; ich bin"
-	para "etwas eingerostet,"
-	line "aber ich nehme an,"
-	cont "ich könnte."
-	para "Sprich mit mir,"
-	line "wann immer Du"
-	cont "kämpfen möchtest."
+	ctxt "Bist du auch an"
+	line "einem Kampf"
+	cont "interessiert?"
+	para "Ich bin zwar etwas"
+	line "eingerostet, aber"
+	para "ich denke ich"
+	line "hab es noch drauf."
+	para "Sprich mich"
+	line "einfach an, wenn"
+	para "du einen Kampf"
+	line "willst."
 	done
 
 SaffronCity_MapEventHeader:

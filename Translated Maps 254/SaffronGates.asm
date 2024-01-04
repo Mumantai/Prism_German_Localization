@@ -5,13 +5,12 @@ SaffronGates_MapScriptHeader:
 	db 0
 
 SaffronGatesGuard:
-	ctxt "Tut mir leid, hier"
-	line "darf vorerst"
+	ctxt "Tut mir Leid, aber"
+	line "hier darf zur Zeit"
 	cont "niemand vorbei."
-	para "Fühl dich frei,"
-	line "alles zu erleben,"
-	para "was Saffronia City"
-	line "zu bieten hat!"
+	para "Erkunde doch in"
+	line "der Zwischenzeit"
+	cont "die Stadt!"
 	done
 
 SaffronGates_MapEventHeader:

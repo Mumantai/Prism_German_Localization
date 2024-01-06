@@ -5,24 +5,25 @@ SaxifrageExits_MapScriptHeader:
 	db 0
 
 SaxifrageExitsNPC1:
-	ctxt "Endlich konnte ich"
-	line "von diesem"
-	para "elendigen Ort"
-	line "fliehen<...>"
-	para "Wenn ich doch nur"
-	line "ein #mon das"
-	para "Surfer beherrscht"
-	line "bei mir hätte!"
+	ctxt "Endlich bin ich"
+	line "dieser elenden"
+	cont "Stadt entkommen!"
+	para "Wenn ich jetzt"
+	line "noch ein #mon"
+	para "hätte, das"
+	line "Surfer lernen"
+	cont "kann!"
 	done
 
 SaxifrageExitsNPC2:
-	ctxt "Wenn du keinen"
-	line "Ausweis besitzt,"
-	para "könntest du in"
-	line "Schwierigkeiten"
-	para "geraten, wenn du"
-	line "weiter gen Osten"
-	cont "gehst."
+	ctxt "Wenn du dich nicht"
+	line "irgendwie"
+	para "ausweisen kannst,"
+	line "wirst du in echte"
+	para "Schwierigkeiten"
+	line "geraten, wenn du"
+	para "weiter nach Osten"
+	line "gehst."
 	done
 
 SaxifrageExits_MapEventHeader:

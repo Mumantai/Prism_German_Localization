@@ -8,23 +8,23 @@ SaxifrageMartNPC1:
 	ctxt "Mein Freund ist im"
 	line "Gefängnis, weil er"
 	para "einen Trank"
-	line "geklaut hat, weil"
-	para "seine #mon"
-	line "verwundet waren."
+	line "geklaut hat als"
+	para "sein #mon"
+	line "verletzt war."
 	para "<...>"
 	para "Wieso er nicht in"
-	line "ein #mon Center"
+	line "ein #mon-Center"
 	cont "gegangen ist?"
-	para "Bist du nun der"
+	para "Bist du der"
 	line "Staatsanwalt oder"
-	cont "was?<...>"
+	cont "was? <...>"
 	done
 
 SaxifrageMartNPC2:
 	ctxt "Ein Markt in einer"
-	line "Gefängniss Insel!"
-	para "Shopping für die"
-	line "Insassen oder was?"
+	line "Gefängnisstadt!"
+	para "Kaufen hier die"
+	line "Insassen ein?"
 	done
 
 SaxifrageMart_MapEventHeader:: db 0, 0

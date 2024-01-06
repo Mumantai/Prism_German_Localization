@@ -59,7 +59,7 @@ SaxifrageGym_Trainer_1:
 
 .before_battle_text
 	ctxt "Das ist dein"
-	line "ENDE!"
+	line "Ende!"
 	done
 
 .battle_won_text
@@ -68,13 +68,13 @@ SaxifrageGym_Trainer_1:
 
 .turn_lights_on_text
 	ctxt "Ich konnte dich"
-	line "nicht aufhalten<...>"
+	line "nicht aufhalten <...>"
 	para "Unsere Leiterin"
 	line "wird es aber!"
 	sdone
 
 .after_battle_text
-	ctxt "So, ähm<...>"
+	ctxt "Also, ähm <...>"
 	para "Hast du eine Band?"
 	para "Kann ich"
 	line "mitmachen?"
@@ -97,10 +97,10 @@ SaxifrageGym_Trainer_2:
 	closetextend
 
 .before_battle_text
-	ctxt "Ich vermisse die"
-	line "täglichen Band"
-	para "Auftritte von"
-	line "damals."
+	ctxt "Ich vermisse"
+	line "unsere täglichen"
+	para "Jam-Sessions von"
+	line "früher."
 	para "Daher lasse ich"
 	line "ich nun meine"
 	para "Agressionen an"
@@ -114,24 +114,20 @@ SaxifrageGym_Trainer_2:
 
 .turn_lights_on_text
 	ctxt "Ich denke du"
-	line "schaffst es gegen"
-	cont "den nächsten."
+	line "schaffst es, gegen"
+	cont "den Nächsten."
 	sdone
 
 .after_battle_text
 	ctxt "Cadence wurde mal"
-	line "wegen gefährdung"
-	para "des Friedens ein-"
-	line "gesperrt."
-	para "Ihr wurde danach"
-	line "diese Arena über-"
-	para "geben, weil Sie"
-	line "unter den anderen"
-	para "insassen die"
-	line "jenige war, die"
-	para "Ihre #mon"
-	line "am besten"
-	cont "behandelt hat!"
+	line "wegen Ruhestörung"
+	cont "verhaftet."
+	para "Man hat ihr diese"
+	line "Arena anvertraut,"
+	para "weil sie die"
+	line "Insassin war, die"
+	para "ihre #mon am"
+	line "besten behandelt."
 	done
 
 SaxifrageGym_Trainer_3:
@@ -156,7 +152,7 @@ SaxifrageGym_Trainer_3:
 	done
 
 .battle_won_text
-	ctxt "Rausgeflogen!"
+	ctxt "Zu laut!"
 	done
 
 .turn_lights_on_text
@@ -166,9 +162,9 @@ SaxifrageGym_Trainer_3:
 	sdone
 
 .after_battle_text
-	ctxt "Viel Erfolg!"
-	para "Du wirst es "
-	line "brauchen HAHAHA!"
+	ctxt "Viel Glück!"
+	para "Du wirst es"
+	line "brauchen, hahaha!"
 	done
 
 SaxifrageGymGuide:
@@ -180,32 +176,31 @@ SaxifrageGymGuide:
 .guide_text
 	ctxt "Hallo nochmal!"
 	para "Das ist Cadence."
-	para "Damals gründete"
-	line "Sie eine Rockband."
-	para "Nach mehreren"
-	line "niederlagen, haben"
-	para "Sie sich dazu"
-	line "entschlossen,"
-	para "lieber eine Arena"
-	line "zu gründen, die"
-	para "auf Schall #mon"
-	line "spezialisiert ist."
-	para "Da es nicht viele"
-	line "Schall #mon"
-	para "gibt dachten Sie"
-	line "sich, das einpaar"
-	para "Elektro #mon"
-	line "nicht schaden"
-	cont "würden."
+	para "Sie hat früher"
+	line "eine Rockband"
+	cont "gegründet."
+	para "Nach vielen"
+	line "Misserfolgen,"
+	para "beschlossen sie,"
+	line "ihre eigene Arena"
+	para "zu gründen, die"
+	line "die sich auf"
+	para "Schall-#mon"
+	line "spezialisiert."
+	para "Aber es gibt halt"
+	line "nicht so viele von"
+	para "denen, also haben"
+	line "sie noch ein paar"
+	para "Elektro-#mon"
+	line "dazugepackt."
 	done
 
 .won_badge_text
-	ctxt "Das war ein"
-	line "wilder Kampf!"
+	ctxt "Was für ein"
+	line "aufregender Kampf!"
 	para "Ich musste mir"
-	line "sogar einpaar"
-	para "3M Gehörschutz-"
-	line "Stöpsel einsetzen."
+	line "sogar extra starke"
+	cont "Ohropax einsetzen!"
 	done
 
 SaxifrageGymLeader:
@@ -230,75 +225,68 @@ SaxifrageGymLeader:
 	jumptext .after_TM_text
 
 .introduction_text
-	ctxt "Was geht?"
+	ctxt "Was geht ab?!"
 	para "Ich bin Cadence."
-	para "Ich nutze die"
-	line "Kraft des Schalls."
-	para "Die Macht von"
-	line "Schall und Musik"
-	para "beeinflussen die"
-	line "#mon positiv!"
-	para "Schau dich an!"
-	line "Du kennst noch"
-	para "nicht einmal den"
-	line "unterschied"
-	para "zwischen einer"
-	line "Sinusschwingung"
-	para "und einem"
-	line "Rechtecksignal!"
-	para "Wie erbärmlich"
-	line "du bist! Nun lass"
-	cont "uns Kämpfen!"
+	para "Ich benutze die"
+	line "Kraft des"
+	para "Schalls, um die"
+	line "Fähigkeiten"
+	para "meiner #mon zu"
+	line "verstärken!"
+	para "Die Musik"
+	line "verleiht mir"
+	para "und meinen #mon"
+	line "völlig neue"
+	cont "Kräfte!"
+	para "Doch als Laie,"
+	line "verstehst du davon"
+	cont "sicher nichts!"
+	para "Egal. Ich mach"
+	para "dich jetzt fertig!"
 	sdone
 
 .battle_won_text
-	ctxt "Du hast die Bühne"
-	line "gerockt!"
+	ctxt "Nun, mein Gig ist"
+	line "vorbei und ich bin"
+	cont "ausgelaugt."
 	para "Du hast dir den"
-	line "Lärm-Orden redlich"
-	cont "verdient!"
+	line "Krawallorden"
+	cont "redlich verdient!"
 	done
 
 .received_badge_text
 	ctxt "<PLAYER> erhält"
-	line "Lärm Orden."
+	line "den Krawallorden."
 	done
 
 .give_TM_text
-	ctxt "Hier ist eine TM"
-	line "mit der du dir"
-	para "den Schall zu"
-	line "eigen machen"
-	cont "kannst!"
+	ctxt "Hier ist eine TM,"
+	line "die dir die Kraft"
+	para "des Schalls"
+	line "verleiht!"
 	sdone
 
 .after_TM_text
-	ctxt "TM79 ist"
+	ctxt "TM79 enthält"
 	line "Schallwelle!"
-	para "Es ist eine sehr"
-	line "starke Schall"
-	para "Attacke der die"
-	line "Ohren des Gegners"
-	cont "betäubt!"
+	para "Diese starke"
+	line "Schall-Attacke,"
+	para "wird die Ohren"
+	line "deiner Gegner"
+	cont "betäuben!"
 	done
 
 .already_beaten_text
-	ctxt "Ich werde nun"
-	line "weiter neue Songs"
+	ctxt "Ich werd' wieder"
+	line "neue Songs"
 	cont "schreiben!"
 	para "Meine #mon"
-	line "helfen mir den"
-	para "besten ABROCK-"
-	line "Song zu schaffen!"
-	para "Übrigens wenn du"
-	line "im Gefängnis eine"
-	para "Pelz-Jacke"
-	line "gefunden haben"
-	para "solltest, kannst"
-	line "du die kalte Zone"
-	para "in den Ruinen"
-	line "betreten."
-	cont "Just sayin."
+	line "können mir"
+	para "dabei helfen,"
+	line "den perfekten"
+	para "Song zum"
+	line "Abrocken zu"
+	cont "erschaffen!"
 	done
 
 SaxifrageGym_MapEventHeader:

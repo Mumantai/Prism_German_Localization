@@ -5,27 +5,28 @@ SaxifragePokecenter_MapScriptHeader:
 	db 0
 
 SaxifragePokecenterNPC1:
-	ctxt "Den eingesperrten"
-	line "#mon wird die"
-	para "nutzung des"
-	line "#mon Centers"
-	cont "verwehrt<...>"
-	para "Sie kennen es"
-	line "auch nicht anders."
-	para "Sie wurden von"
-	line "ihren Trainern"
-	para "ohnehin ständig"
-	line "misshandelt<...>"
+	ctxt "Die eingesperr-"
+	line "#mon dürfen das"
+	para "#mon-Center"
+	line "nicht benutzen <...>"
+	para "Einige #mon"
+	line "kennen es auch"
+	cont "nicht anders."
+	para "Die Meisten von"
+	line "ihnen wurden von"
+	para "ihren Trainern"
+	line "schlecht erzogen"
+	cont "und missbraucht <...>"
 	done
 
 SaxifragePokecenterNPC2:
 	ctxt "Diese Insel ist"
-	line "echt ungepflegt."
+	line "sehr ungepflegt."
 	para "Wilde #mon"
-	line "laufen frei herum"
-	para "und nerven jeden"
-	line "der diese Insel"
-	cont "betritt<...>"
+	line "laufen laufen hier"
+	para "frei herum und"
+	line "stören jeden, der"
+	cont "die Insel besucht."
 	done
 
 SaxifragePokecenterNPC3:
@@ -33,7 +34,7 @@ SaxifragePokecenterNPC3:
 	line "nach sind die"
 	para "Bedingungen für"
 	line "die Gefangenen"
-	cont "sehr grausam."
+	cont "hier sehr grausam."
 	para "Menschen und"
 	line "#mon können"
 	para "auch mal tagelang"

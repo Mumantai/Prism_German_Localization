@@ -13,33 +13,34 @@ SeashoreGymHiddenItem_2:
 	db GOLD_TOKEN
 
 SeashoreGymGuide:
-	ctxt "He!"
-	para "Das ist Sheryl's "
-	line "Arena."
+	ctxt "Heya!"
+	para "Das hier ist"
+	line "Sheryls Arena."
 	para "Lass dich nicht"
-	line "von ihren Tricks"
-	para "täuschen, du bist"
-	line "in der Arena!"
-	para "Sie benutzt Psycho"
-	line "#mon, also sei "
-	cont "vorsichtig."
+	line "von ihren"
+	para "Psychotricks"
+	line "reinlegen. Du bist"
+cont"in der Arena!"
+	para "Sie benutzt"
+	line "Psycho-#mon,"
+	cont "also pass auf."
 	done
 
 SeashoreGym_Trainer_1:
 	trainer EVENT_SEASHORE_GYM_TRAINER_1, MEDIUM, 4, .before_battle_text, .battle_won_text
-	ctxt "Wirk einmal einen "
+	ctxt "Wirk einmal einen"
 	line "Zauber!"
 	done
 
 .before_battle_text
-	ctxt "Psst<...>"
+	ctxt "Psst <...>"
 	para "Sei ruhig,"
-	line "Kindchen<...>"
+	line "Kindchen <...>"
 	done
 
 .battle_won_text
-	ctxt "Stark<...>"
-	line "Viel zu stark<...>"
+	ctxt "Stark <...>"
+	line "Viel zu stark <...>"
 	done
 
 SeashoreGym_Trainer_2:
@@ -49,22 +50,23 @@ SeashoreGym_Trainer_2:
 	done
 
 .before_battle_text
-	ctxt "Komm mal klar, "
-	line "Kollege!"
+	ctxt "Mach den Kopf"
+	line "frei, Kumpel!"
 	done
 
 .battle_won_text
-	ctxt "Vielleicht sollte ich<...>!"
+	ctxt "Vielleicht sollte"
+	line "ich <...>!"
 	done
 
 SeashoreGym_Trainer_3:
 	trainer EVENT_SEASHORE_GYM_TRAINER_3, MEDIUM, 5, .before_battle_text, .battle_won_text
-	ctxt "Lass mich bitte in"
-	line "Ruhe!"
+	ctxt "Bitte, lass mich"
+	line "in Ruhe!"
 	done
 
 .before_battle_text
-	ctxt "Dämonen, hinfort!"
+	ctxt "Hinfort, Dämonen!"
 	done
 
 .battle_won_text
@@ -74,8 +76,7 @@ SeashoreGym_Trainer_3:
 
 SeashoreGym_Trainer_4:
 	trainer EVENT_SEASHORE_GYM_TRAINER_4, PSYCHIC_T, 4, .before_battle_text, .battle_won_text
-	ctxt "Was?"
-	para "Warum hat das"
+	ctxt "Hä? Warum hat das"
 	line "nicht geklappt?"
 	done
 
@@ -86,7 +87,7 @@ SeashoreGym_Trainer_4:
 
 .battle_won_text
 	ctxt "Ich hatte keine"
-	line "Chance<...>"
+	line "Chance <...>"
 	done
 
 SeashoreGymLeader:
@@ -109,56 +110,52 @@ SeashoreGymLeader:
 	jumptext .after_badge_text
 
 .before_battle_text
-	ctxt "Sheryl: Wieder"
-	line "einmal ein"
-	para "weiterer Trainer,"
-	line "der mein Psi-Orden"
-	cont "begehrt."
-	para "Ich habe das"
-	line "Gefühl, dass du"
-	para "das Herz und die"
-	line "Seele eines"
-	cont "Trainers hast."
+	ctxt "Sheryl: Und wieder"
+	line "ein Trainer, der"
+	para "meinen Psi-Orden"
+	line "begehrt."
+	para "Ich fühle, dass du"
+	line "Herz und Seele"
+	para "eines Trainers"
+	line "besitzt."
 	para "Eine Seele wie die"
 	line "von Brown, gegen"
-	para "die ich vor vielen"
-	line "Jahren gekämpft"
-	para "habe<...> Das wird in"
-	line "der Tat Spaß"
-	cont "machen<...> "
+	para "den ich vor vielen"
+	line "Jahren einmal"
+	cont "gekämpft habe <...>"
+	para "Das wird wirklich"
+	line "ein Spaß <...>"
 	sdone
 
 .battle_won_text
 	ctxt "Sheryl: Genau wie"
 	line "ich dachte!"
-	para "Danke für den"
-	line "Kampf; nur zu,"
-	para "nimm den "
-	line "Psi-Orden!"
+	para "Danke dir, für den"
+	line "Kampf. Nimm ruhig"
+	cont "meinen Psi-Orden!"
 	done
 
 .received_badge_text
 	ctxt "<PLAYER> erhält den"
-	line "Psi Orden."
+	line "Psi-Orden."
 	done
 
 .after_badge_text
 	ctxt "Sheryl: Ich habe"
 	line "das Gefühl, dass"
-	para "Deine Jagt auf"
+	para "deine Jagd auf"
 	line "Orden niemals"
 	cont "enden wird."
-	para "Ich möchte Dich"
-	line "bei deinem"
-	para "Abenteuer "
-	line "unterstützen."
-	cont "Gib niemals auf!"
+	para "Ich werde dich bei"
+	line "deinem Abenteuer"
+	cont "unterstützen."
+	para "Gib niemals auf!"
 	done
 
 .already_battled_text
-	ctxt "Niemals aufgeben!"
-	para "Beweis der Welt,"
-	line "wie gut du bist!"
+	ctxt "Gib niemals auf!"
+	para "Zeig der Welt, wie"
+	line "gut du trainierst!"
 	done
 
 SeashoreGym_MapEventHeader:

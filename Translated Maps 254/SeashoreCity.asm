@@ -14,7 +14,7 @@ SeashoreCityCitySign:
 	ctxt "Wo Wellen neuer"
 	next "Reisen ihren"
 	next "langen Weg "
-	next "aufnehmen."
+	next "beginnen."
 	done
 
 SeashoreCityGymSign:
@@ -24,13 +24,13 @@ SeashoreCityGymSign:
 
 SeashoreCityNPC1:
 	ctxt "Wusstest du, dass"
-	line "hier einst der"
-	para "legendäre Trainer"
-	line "Brown lebte?"
-	para "Ich kenne ihn"
-	line "schon, seit dem er"
-	para "mit dem Training"
-	line "angefangen hat."
+	line "der legendäre"
+	para "Trainer Brown hier"
+	line "früher gelebt hat?"
+	para "Ich habe ihn"
+	line "getroffen, als er"
+	para "noch grün hinter"
+	line "den Ohren war."
 	done
 
 SeashoreCityNPC2:
@@ -41,11 +41,10 @@ SeashoreCityNPC2:
 
 SeashoreCityNPC3:
 	ctxt "Setze dir positive"
-	line "Ziele und"
-	para "verwirkliche sie ,"
-	line "auch wenn sie nur"
-	para "für dich von"
-	line "Bedeutung sind."
+	line "Ziele und erreiche"
+	para "sie, auch wenn sie"
+	line "nur dir etwas"
+	cont "bedeuten sollten."
 	done
 
 SeashoreCity_MapEventHeader:

@@ -12,25 +12,23 @@ SeashoreMuraFearow:
 	endtext
 
 .text
-	ctxt "Ibitak: IBIITAAK!"
+	ctxt "Ibi: Iiiibitak!"
 	done
 
 SeashoreMuraSister:
-	ctxt "Mein Vater übt"
-	line "zusätzlichen Druck"
-	para "auf mich aus, um"
-	line "sicherzustellen,"
-	para "dass ich mich gut "
-	line "entwickle."
+	ctxt "Mein Papa passt"
+	line "extra doll darauf"
+	para "auf, dass ich"
+	line "nicht verkorkse."
 	done
 
 SeashoreMuraDad:
 	ctxt "Ich hoffe, meinem"
-	line "Jungen Mura geht"
+	line "Junge, Mura, geht"
 	cont "es gut."
-	para "Er ist jetzt Teil"
-	line "der Liga von "
-	cont "Rijon."
+	para "Er ist jetzt"
+	line "Mitglied der"
+	cont "Rijon-Liga."
 	done
 
 SeashoreMura_MapEventHeader: db 0, 0

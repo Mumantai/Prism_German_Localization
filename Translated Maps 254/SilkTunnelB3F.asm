@@ -6,16 +6,15 @@ SilkTunnelB3F_MapScriptHeader:
 
 SilkTunnelB3F_Trainer_1:
 	trainer EVENT_SILK_TUNNEL_B3F_TRAINER_1, HIKER, 10, .before_battle_text, .battle_won_text
-	ctxt "Kleine Steine &"
-	line "Kleinstein, hmm?"
+	ctxt "Kleine Steine und"
+	line "Kleinstein, hm?"
 	done
 
 .before_battle_text
 	ctxt "Hey du!"
-	para "Ich sammle gerne "
-	line "Steine, auch "
-	para "solche wie diese "
-	line "da!"
+	para "Ich sammle gerne"
+	line "Steine, so wie"
+	cont "diese!"
 	done
 
 .battle_won_text
@@ -30,28 +29,27 @@ SilkTunnelB3F_Trainer_2:
 	para "Die Wirtschaft in "
 	line "deiner Region muss"
 	para "völlig außer "
-	line "Kontrolle sein?!"
+	line "Kontrolle sein."
 	done
 
 .before_battle_text
-	ctxt "Das sind ein paar "
+	ctxt "Das sind ein paar"
 	line "coole Schuhe."
-	para "Für alle Terrain, "
-	line "richtig?"
+	para "Für jedes Gelände,"
+	line "oder?"
 	done
 
 .battle_won_text
-	text "Ack!"
+	text "Ach!"
 	done
 
 SilkTunnelB3F_Trainer_3:
 	trainer EVENT_SILK_TUNNEL_B3F_TRAINER_3, PICNICKER, 6, .before_battle_text, .battle_won_text
-	ctxt "Wenn du Zubat und "
-	line "dergleichen "
-	para "ignorierst, ist "
-	line "dieser Tunnel ein "
-	para "großartiger Ort "
-	line "zum Entspannen."
+	ctxt "Wenn du die Zubat"
+	line "und so ignorierst,"
+	para "ist dieser Tunnel"
+	line "ein super Ort zum"
+	cont "Runterkommen."
 	done
 
 .before_battle_text

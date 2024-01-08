@@ -6,37 +6,39 @@ SenecaCavernsF1_MapScriptHeader:
 
 SenecaCavernsF1_Trainer_1:
 	trainer EVENT_SENECACAVERNSF1_TRAINER_1, BURGLAR, 2, .before_battle_text, .battle_won_text
-	ctxt "Jetzt muss ich bis"
-	line "zum #mon Center"
-	cont "laufen<...>"
+	ctxt "Jetzt muss ich"
+	line "den ganzen Weg"
+	para "zum #mon-Center"
+	line "zurücklaufen."
 	done
 
 .before_battle_text
-	ctxt "Ein Kind wie du"  
+	ctxt "Ein Kind wie du,"  
 	line "kann mich nie und"
 	cont "nimmer schlagen!"
 	done
 
 .battle_won_text
-	ctxt "Ich wurde"
-	line "geschlagen<...>"
+	ctxt "Geschlagen, im"
+	line "eigenen Spiel <...>"
 	done
 
 SenecaCavernsF1_Trainer_2:
 	trainer EVENT_SENECACAVERNSF1_TRAINER_2, BIRD_KEEPER, 7, .before_battle_text, .battle_won_text
-	ctxt "Nachdem ich sie"
-	line "geheilt habe,"
-	para "werden Sie dich"
-	line "besiegen."
+	ctxt "Wenn sie wieder"
+	line "fit sind, machen"
+	cont "sie dich fertig!"
 	done
 
 .before_battle_text
-	ctxt "Fürchte dich vor"
-	line "den Vögeln!"
+	ctxt "Fürchte dich,"
+	line "vor meinen"
+	para "gefiedertden"
+	line "Freunden!"
 	done
 
 .battle_won_text
-	ctxt "Vorführeffekt!"
+	ctxt "Was für ein Pech!"
 	done
 
 SenecaCavernsF1_Trainer_3:
@@ -70,8 +72,9 @@ SenecaCavernsF1_Trainer_4:
 	done
 
 .battle_won_text
-	ctxt "Jetzt habe ich"
-	line "mich verbrannt."
+	ctxt "Toll. Jetzt"
+	para "brauche ich einen"
+	line "Feuerheiler."
 	done
 
 SenecaCavernsF1_MapEventHeader:

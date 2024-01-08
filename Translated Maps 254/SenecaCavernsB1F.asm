@@ -6,29 +6,41 @@ SenecaCavernsB1F_MapScriptHeader:
 
 SenecaCavernsB1F_Trainer_1:
 	trainer EVENT_SENECACAVERNSB1F_TRAINER_1, POKEFANM, 5, .before_battle_text, .battle_won_text
-	ctxt "Hadomi hätte statt"
-	line "den #dex zu"
-	para "übersetzen, lieber"
-	line "etwas trainieren"
-	cont "sollen<...>"
+	ctxt "Muss mehr"
+	line "trainieren!"
 	done
 
 .before_battle_text
-	ctxt "Hi ich bin Hadomi"
-	line "& habe deinen #"
-	cont "Dex mit übersetzt!"
+	ctxt "Hi, ich bin Hadomi"
+	line "und habe geholfen,"
+	para "deinen #dex zu"
+	line "übersetzen!"
+
+/* Alternative
+	ctxt "Ich bin SOWAS"
+	line "von bereit für"
+	cont "die #mon-Liga!"
+*/
 	done
 
 .battle_won_text
-	ctxt "Hätte lieber mal"
-	line "trainieren sollen<...>"
+	ctxt "Hätt' ich mal"
+	line "besser trainiert <...>"
+
+
+/* Alternative
+	ctxt "Vielleicht nicht!"
+	para "Vielleicht nicht <...>"
+*/
 	done
 
 SenecaCavernsB1F_Trainer_2:
 	trainer EVENT_SENECACAVERNSB1F_TRAINER_2, HIKER, 14, .before_battle_text, .battle_won_text
 	ctxt "Höhlen sind wie"
-	line "Häuser, aber durch"
-	cont "die Natur kreiert!"
+	line "Häuser, aber"
+	para "gebaut von #mon"
+	line "und Mutter"
+	cont "Natur."
 	done
 
 .before_battle_text
@@ -37,47 +49,59 @@ SenecaCavernsB1F_Trainer_2:
 	done
 
 .battle_won_text
-	ctxt "Oh waren wir am"
-	line "kämpfen?"
+	ctxt "Warte, wir haben"
+	line "gekämpft?"
+	para "Sorry, ich war"
+	line "abgelenkt."
 	done
 
 SenecaCavernsB1F_Trainer_3:
 	trainer EVENT_SENECACAVERNSB1F_TRAINER_3, GENTLEMAN, 4, .before_battle_text, .battle_won_text
-	ctxt "Schick der Top 4"
-	line "viele Grüße von"
-	para "Karsten bzw. "
-	line "Mumantai OK?"
+	ctxt "Schick der Top"
+	line "Vier viele Grüße"
+	cont "von Mumantai, OK?"
+
+/* Alternative
+	ctxt "Ich wollte mich"
+	line "nicht vor der Top"
+	cont "Vier blamieren."
+	para "Da du mich aber"
+	line "besiegt hast,"
+	para "kannst due"
+	line "vielleicht ja die"
+	para "Top Vier"
+	line "blamieren!"
+*/
 	done
 
 .before_battle_text
-	ctxt "Warte mal Kind."
-	para "Ich bin Karsten."
-	line "Aber alle nennen"
-	cont "mich Mumantai!"
-	para "Wie? du kennst"
-	line "mich nicht?"
-	para "<...>"
+	ctxt "Hey, warte mal!"
+	para "Du hast es echt"
+	line "eilig, oder?"
 	done
 
 .battle_won_text
-	ctxt "Jetzt gehts mir"
-	line "besser."
+	ctxt "Jetzt geht's mir"
+	line "schon besser."
 	done
 
 SenecaCavernsB1F_Trainer_4:
 	trainer EVENT_SENECACAVERNSB1F_TRAINER_4, SCIENTIST, 3, .before_battle_text, .battle_won_text
-	ctxt "Diese Höhle ist<...>"
-	para "WUNDERSCHÖN."
+	ctxt "Wenn ich diese"
+	line "Höhle mit einem"
+	para "Wort beschreiben"
+	line "müsste, wäre es <...>"
+	para "Faszinierend."
 	done
 
 .before_battle_text
 	ctxt "Diese Höhle ist"
-	line "der Traum für"
+	line "ein Traum für"
 	cont "jeden Geologen!"
 	done
 
 .battle_won_text
-	text "Nunja<...>"
+	text "Naja <...>"
 	done
 
 SenecaCavernsB1F_MapEventHeader:

@@ -7,25 +7,26 @@ SilkTunnelB1F_MapScriptHeader:
 SilkTunnelB1F_Trainer_1:
 	trainer EVENT_SILK_TUNNEL_B1F_TRAINER_1, HIKER, 8, .before_battle_text, .battle_won_text
 	ctxt "Erkunden macht "
-	line "spass, laugt einen"
+	line "Spaß, laugt einen"
 	cont "aber auch aus."
 	done
 
 .before_battle_text
-	ctxt "Solche wie dich"
+	ctxt "Solche wie dich,"
 	line "sieht man hier"
 	cont "nicht oft."
 	done
 
 .battle_won_text
-	ctxt "Wir teilen die"
-	line "selben Hobbys."
-	para "Das gefällt mir."
+	ctxt "Du bist genauso"
+	line "ehrgeizig wie ich."
+	para "Das respektiere"
+	line "ich."
 	done
 
 SilkTunnelB1F_Trainer_2:
 	trainer EVENT_SILK_TUNNEL_B1F_TRAINER_2, HIKER, 7, .before_battle_text, .battle_won_text
-	ctxt "Wer weiss was für"
+	ctxt "Wer weiß, was für"
 	line "unentdeckte Höhlen"
 	para "direkt unter uns"
 	line "liegen könnten?"
@@ -38,7 +39,7 @@ SilkTunnelB1F_Trainer_2:
 
 .battle_won_text
 	ctxt "Wow."
-	para "Das ist tief."
+	para "So weit."
 	done
 
 SilkTunnelB1F_MapEventHeader:

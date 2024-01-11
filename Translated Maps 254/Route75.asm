@@ -65,9 +65,10 @@ Route75_Trainer_3:
 
 Route75_Trainer_4:
 	trainer EVENT_ROUTE_75_TRAINER_4, BEAUTY, 2, .before_battle_text, .battle_won_text
-	ctxt "Wenn meine #mon"
-	line "bei mir sind, bin"
-	cont "ich glücklich."
+	ctxt "Solange meine"
+	line "#mon bei mir"
+	para "sind, bin ich"
+	line "glücklich."
 	done
 
 .before_battle_text

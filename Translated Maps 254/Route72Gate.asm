@@ -67,8 +67,8 @@ Route72GateOldMan:
 	done
 
 .before_giving_pokeballs_text
-	ctxt "Hallo, wie geht's"
-	para "denn so?"
+	ctxt "Hallo, wie gehts"
+	line "denn so?"
 	para "Du möchtest eines"
 	line "Tages den #dex"
 	cont "vervollständigen?"
@@ -80,11 +80,13 @@ Route72GateOldMan:
 	prompt
 
 .after_giving_pokeballs_text
-	ctxt "Ich möchte einmal"
-	line "einen kompletten"
-	cont "Naljo-Dex sehen."
-	para "Komm zurück, wenn"
-	line "du soweit bist!"
+	ctxt "Ich wollte schon"
+	line "immer einen"
+	para "kompletten"
+	line "Naljo-Dex sehen."
+	para "Komm bitte zurück,"
+	line "wenn du soweit"
+	cont "bist!"
 	done
 
 .show_all_pokemon_text

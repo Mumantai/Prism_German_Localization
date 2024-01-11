@@ -288,10 +288,10 @@ IlksLabPhillip:
 	ctxt "Oh, Hallo."
 	para "Kann ich helfen?"
 	para "<...>"
-	para "Willst du zum"
-	line "Professor?"
-	para "Er ist gerade in"
-	line "dem anderen Raum."
+	para "Ah, du willst"
+	line "zum Professor?"
+	para "Er ist nebenan in"
+	line "seinem Bereich."
 	done
 
 .waiting_for_brother_in_law_text
@@ -304,7 +304,7 @@ IlksLabPhillip:
 	para "Verwandten zu"
 	line "sehen, ist doch"
 	cont "nicht normal oder?"
-	para "Mein Bruder geht"
+	para "Sein Bruder geht"
 	line "nie an sein Handy,"
 	para "aber jetzt ist es"
 	line "plötzlich ein"
@@ -319,7 +319,7 @@ IlksLabPhillip:
 	cont "dürfen!"
 	para "Lass das den"
 	line "Professor bitte"
-	cont "wissen."
+	cont "sofort wissen."
 	done
 
 .after_receiving_dex_text
@@ -329,10 +329,9 @@ IlksLabPhillip:
 	para "Aber er ist eine"
 	line "herzensgute"
 	cont "Person."
-	para "Er vertraut"
-	line "schnell."
-	para "Er glaubt auch an"
-	line "dich."
+	para "Er vertraut viel"
+	line "zu schnell."
+	para "Auch dir!"
 	para "Mach ihn also"
 	line "bitte stolz!"
 	done

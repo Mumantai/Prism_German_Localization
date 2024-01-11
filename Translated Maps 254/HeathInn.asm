@@ -18,14 +18,15 @@ HeathInnNPC:
 	line "hier schon seit"
 	cont "Jahrhunderten so."
 	para "Mein Cousin Rinji"
-	line "übt mit unseren"
-	para "Kinder oft im Wald"
-	line "#mon-Kämpfe."
+	line "übt mit den"
+	para "Kindern oft im"
+	line "Wald wie man"
+	cont "Kämpft."
 	para "Meine Oma kümmert"
 	line "sich um die Räume"
-	cont "in diesem Gasthaus"
-	para "und meinem Bruder"
-	line "gehört der Markt."
+	para "in diesem Gasthaus"
+	line "und meinem Bruder"
+	cont "gehört der Markt."
 	done
 
 HeathInnAttendant:
@@ -74,7 +75,7 @@ HeathInnAttendant:
 	ctxt "Willkommen zurück!"
 	line "Ich hoffe, du hast"
 	para "deinen Aufenthalt"
-	cont "bei uns genossen."
+	line "bei uns genossen."
 	done
 
 .not_enough_money_text

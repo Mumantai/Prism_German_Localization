@@ -6,6 +6,7 @@ LaurelForestMain_MapScriptHeader:
 
 LaurelForestMain_Trainer_1:
 	trainer EVENT_LAUREL_FOREST_MAIN_TRAINER_1, BUG_CATCHER, 3, .before_battle_text, .battle_won_text
+
 	ctxt "Meine Mutter lässt"
 	line "mich meine Käfer-"
 	cont "#mon nicht mit"
@@ -28,6 +29,7 @@ LaurelForestMain_Trainer_1:
 
 LaurelForestMain_Trainer_2:
 	trainer EVENT_LAUREL_FOREST_MAIN_TRAINER_2, BUG_CATCHER, 4, .before_battle_text, .battle_won_text
+
 	ctxt "Hmm <...> ob manche"
 	line "Arten den Wald"
 	cont "verlassen haben?"
@@ -58,10 +60,11 @@ LaurelForestMainMagikarpWorshipper:
 	line "antiken Fisches"
 	para "erkennen, mögen"
 	line "passieren."
-	para "Du bist wie der"
+	para "Du wirkst wie der"
 	line "Rest auch <...>"
-	para "Du verstehst"
-	line "es nicht."
+	para "Desinteressiert."
+	para "Daher verstehst"
+	line "du es nicht."
 	para "Hinfort mit dir!"
 	done
 
@@ -100,9 +103,9 @@ LaurelForestMainClefairy:
 	jpba HealPartyMon
 
 .text
-	text_from_ram wPartyMonNicknames
 	ctxt "Pipi lässt dich"
 	line "nicht passieren <...>"
+
 	para "@"
 	text_from_ram wPartyMonNicknames
 	ctxt ""

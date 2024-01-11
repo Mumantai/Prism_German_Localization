@@ -40,14 +40,14 @@ LaurelForestPokemonOnlyBrainwashedCharizard:
 
 .placed_curo_shards_text
 	ctxt "Du legst drei"
-	line "Curo-Scherben auf"
+	line "Curoscherben auf"
 	cont "Gluraks Kopf."
 	para "Grr <...> Was?"
 	para "Wo bin ich?"
 	para "Wer bist du?"
 	para "Stand ich hier den"
 	line "ganzen Tag lang?"
-	para "Das ist ist doch"
+	para "Das ist doch"
 	line "lächerlich!"
 	para "Ich hab noch so"
 	line "viel zu erledigen!"

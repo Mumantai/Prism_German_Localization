@@ -15,11 +15,14 @@ ToreniaPokecenterNPC1:
 
 ToreniaPokecenterNPC2:
 	ctxt "Ich habe nie Glück"
-	line "mit Brettspielen."
+	line "in Brettspielen."
 	para "Wie das aus der"
 	line "Pachisi Halle."
-	para "Ich verliere"
-	line "immer'."
+	para "Das steht für"
+	line "Mensch ärgere"
+	cont "dich nicht."
+	para "Ich bin echt"
+	line "schlecht darin."
 	done
 
 ToreniaPokecenterNPC3:

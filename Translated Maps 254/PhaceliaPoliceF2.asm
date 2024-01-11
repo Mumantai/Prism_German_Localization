@@ -19,9 +19,8 @@ PhaceliaPoliceF2Officer:
 	jumptext .before_arresting_black_text
 
 .before_arresting_black_text
-	ctxt "Bitte finde eine"
-	line "Paletten"
-	cont "Patrouille!"
+	ctxt "Bitte finde einen"
+	line "Paletten-Ranger!"
 	done
 
 .after_arresting_black_text

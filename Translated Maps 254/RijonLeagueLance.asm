@@ -102,7 +102,7 @@ RijonLeagueLance_Lance:
 	line "sofort hergeeilt,"
 	para "um nach dir zu"
 	line "suchen!"
-	para "Dann hae ich Prof."
+	para "Dann hab ich Prof."
 	line "Ilk getroffen, der"
 	para "die seismischen"
 	line "Aktivitäten in"

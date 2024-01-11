@@ -42,12 +42,12 @@ Route80Nobu_Nobu:
 	para "Hilfe. Siegfried"
 	line "ist die"
 	para "Reinkarnation des"
-	line "Gesandten."
+	line "'Auserwählten'."
 	sdone
 
 .explanation_text_2
 	ctxt "<...> Hmm, wer der"
-	line "Gesandte war?"
+	line "'Auserwählte' war?"
 	para "Nunja <...> beginnen"
 	cont "wir am Anfang."
 
@@ -176,10 +176,10 @@ Route80Nobu_Nobu:
 	sdone
 
 .explanation_text_7
-	ctxt "Der Gesandte hatte"
-	line "die Aufgabe, alle"
-	para "Nachrichten der"
-	line "Wächter an das"
+	ctxt "Der 'Auserwählte'"
+	line "hatte die Aufgabe,"
+	para "alle Nachrichten"
+	line "der Wächter an das"
 	para "Volk zu leiten."
 
 	line "Er war der einzige"
@@ -230,7 +230,7 @@ Route80Nobu_Nobu:
 	para "Jedoch bist du,"
 	para "der letzte noch"
 	line "bekannte Nachfahre"
-	cont "des Gesandten."
+	cont "des Auserwählten."
 
 	para "Naja, abgesehen"
 	line "von deinem Vater."

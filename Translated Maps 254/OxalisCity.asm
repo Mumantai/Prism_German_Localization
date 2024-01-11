@@ -58,7 +58,7 @@ OxalisCityNPC1:
 	line "mit einem Wort"
 	cont "beschreiben."
 	para "<...>"
-	para "Idiot."
+	para "Proll."
 	done
 
 OxalisCityNPC2:
@@ -116,25 +116,25 @@ OxalisCityNPC6:
 	done
 
 OxalisCityNPC7:
-	ctxt "Ick sag's dir,"
+	ctxt "Ick sags dir,"
 	line "man, diese Stadt <...>"
 	para "Da versucht man"
 	line "ma nett zu sein <...>"
 	para "Weißt schon, sowat"
 	line "wie 'Hallo!' <...>"
-	para "<...> oder 'Jut'n"
+	para "<...> oder 'Jutn"
 	line "Morgen!' <...>"
 	para "<...> und dir fliegt"
 	line "nur sowat um" 
-	cont "die Ohr'n:"
+	cont "die Ohrn:"
 	para "'Lass mich!'"
 	line "'Hau ab!'" 
-	cont "'Nicht anfassen!'"
+	cont "'Ich habn Freund!'"
 	para "Ick kenn Leute aus"
 	line "Johto und Rijon."
 	para "Viel jechillter."
 	para "Haste 'Yo!'"
-	line "jesacht, kam 'n"
+	line "jesacht, kam ein"
 	cont "'Ey!' zurück."
 	para "Warum sind se in"
 	line "Naljo alle nur"

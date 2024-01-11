@@ -32,7 +32,7 @@ MoundB3F_PaletteGreen:
 	line "nicht. Wir werden"
 	cont "dich immer finden!"
 	para "Also lass uns"
-	line "kämpfen, Kniprs!"
+	line "kämpfen, Knirps!"
 	done
 
 .battle_won_text
@@ -46,9 +46,8 @@ MoundB3F_PaletteGreen:
 	para "Hinter ihnen steht"
 	line "immerhin bloß ein"
 	cont "hilfsloses Kind."
-	para "#mon sind, genau"
-	line "wie auch Menschen,"
-	cont "austauschbar."
+	para "#mon sind alle"
+	line "austauschbar."
 	para "Wir werden der"
 	line "Welt schon zeigen,"
 	para "wie verletzbar du"

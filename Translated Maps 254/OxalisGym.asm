@@ -16,7 +16,6 @@ OxalisGym_Trainer_1:
 	para "Ist das ein Witz?"
 	para "Das sollte nicht"
 	line "schwer werden <...>"
-	para "Für mich!"
 	done
 
 .battle_won_text
@@ -25,22 +24,43 @@ OxalisGym_Trainer_1:
 
 OxalisGym_Trainer_2:
 	trainer EVENT_OXALIS_GYM_TRAINER_2, DELINQUENTM, 1, .before_battle_text, .battle_won_text
-	ctxt "Du scheinst mit"
-	line "der Hitze klar-"
-	cont "zukommen."
-	para "Aber <...> packst du"
-	line "auch Josiah?"
+
+	ctxt "Scheinbar kannst"
+	line "du mit der Hitze"
+	cont "umgehen."
+
+	para "Aber<...> kannst du"
+	line "auch mit Josiah"
+	cont "umgehen?"
 	done
 
 .before_battle_text
+	ctxt "Wo liegt das"
+	line "Problem?"
+
+	para "Kannst du es nicht"
+	line "ertragen, in der"
+	para "Nähe von"
+	line "brodelnder Lava zu"
+	para "sein bei @"
+	start_asm
+	ld a, [wOptions2]
+	and 1 << 2
+	ld hl, .metric_text
+	ret z
+	ld hl, .imperial_text
+	ret
 .metric_text
-	line "degrees C?"
+	ctxt "700"
+	line "Grad Celsius?"
 	done
 .imperial_text
-	line "degrees F?"
+	ctxt "1,300"
+	line "Grad Fahrenheit?"
 	done
 
 .battle_won_text
+	ctxt "Gaaah!"
 	done
 
 OxalisGymGuide:
@@ -50,41 +70,40 @@ OxalisGymGuide:
 	jumptextfaceplayer .before_badge_text
 
 .before_badge_text
-	line "I've been waiting"
-	cont "for your arrival."
-
-	para "Prof. Ilk has"
-	line "asked of me to"
-	cont "assist you."
-
-	para "I'll give you all"
-	line "the inside info"
-	cont "you need!"
-
-	para "Alright, Josiah"
-	line "has fire #mon,"
-	para "but you can tell"
-	line "by the scenery,"
-	cont "right? Blazing!"
-
-	para "Water would be a"
-	line "good choice of"
-	cont "#mon to use."
-
-	para "Rock is another"
-	line "excellent choice!"
-
-	para "If you're getting"
-	line "burned too often,"
-	para "try buying a Burn"
-	line "Heal at the Mart."
+	ctxt "Ich habe auf deine"
+	line "Ankunft gewartet."
+	para "Prof. Ilk hat mich"
+	line "gebeten, dir zu"
+	cont "helfen."
+	para "Daher gebe ich dir"
+	line "alle Insider-"
+	para "Informationen, die"
+	line "du brauchst!"
+	para "Also gut, Josiah"
+	line "hat Feuer-Pokemon."
+	para "Aber das kannst du"
+	line "an der Umgebung"
+	para "hier erkennen,"
+	line "richtig? Brennend!"
+	para "Ein Wasser-Typ"
+	line "Pokemon wäre eine"
+	cont "super Wahl."
+	para "Der Gestein-Typ"
+	line "wäre eine weitere"
+	cont "gute Wahl!"
+	para "Wenn dein Team zu"
+	line "oft verbrennt,"
+	para "versuche ein"
+	line "Brandheilmittel im"
+	cont "Markt zu kaufen."
 	done
 
 .after_badge_text
+	ctxt "Gute Arbeit!"
 
-	para "You couldn't have"
-	line "done it without my"
-	cont "advice, though!"
+	para "Ohne meine Tipps"
+	line "hättest du es aber"
+	cont "niemals geschafft!"
 	done
 
 OxalisGymLeader:
@@ -108,61 +127,77 @@ OxalisGymLeader:
 	jumptext .after_giving_TM_text
 
 .before_battle_text
-	ctxt "Na, was ist los?"
-	para "Angst, dass die"
-	line "dampfende Lava"
-	para "dich bei @"
+	ctxt "Was geht."
+
+	para "Man nennt mich"
+	line "Josiah."
+
+	para "Alter, Ich werds"
+	line "dir nicht leicht"
+	cont "machen."
+
+	para "Also lass uns die"
+	line "Arena zum Beben"
+	cont "bringen!"
 	sdone
 
 .battle_won_text
+	ctxt "<...>Whoa!"
 
-	para "You are the bomb!"
+	para "Du bist Bombe!"
 
-	para "You have earned my"
-	line "badge."
+	para "Mein Orden haste"
+	line "dir verdient."
 	done
 
 .got_badge_text
-	line "Pyre Badge!"
+	ctxt "<PLAYER> erhält"
+	line "den Pyro-Orden!"
 	done
 
 .before_giving_TM_text
-	line "increases da"
-	cont "attack power."
+	ctxt "Der Pyro-Orden"
+	line "erhöht den"
+	cont "Angriffs-Wert."
 
-	para "It also lets ya"
-	line "use Flash out of"
-	cont "battle!"
+	para "Es erlaubt dir"
+	line "außerdem Blitz"
+	para "außerhalb eines"
+	line "Kampfes einzu-"
+	cont "setzen."
 
-	para "Now that's thug!"
+	para "Ist das nicht"
+	line "Krass???"
 
-	para "Also take this."
+	para "Also nimm es."
 	sdone
 
 .after_giving_TM_text
-	line "and it means"
-	para "somethin'<...> uhm,"
-	line "Technical Machine?"
-	cont "Yeh, that's it."
+	ctxt "Yo, das ist ne TM"
+	line "und das steht für"
+	para "irgendwas<...> ähm,"
+	line "Technische Machine"
+	cont "oder so."
 
-	para "Yer #mon can"
-	line "learn moves from"
-	para "it, and it has"
-	line "unlimited uses!"
+	para "Deine #mon"
+	line "können damit eine"
+	cont "Attacke lernen."
 
-	para "This TM is for"
-	line "Will-O-Wisp."
+	para "Diese TM enthält"
+	line "Irrlicht."
 
-	para "It inflicts a burn"
-	line "on the foe!"
+	para "Es verbennt den"
+	line "Gegner!"
 	done
 
 .already_battled_text
-	line "League requires"
-	cont "eight badges, so<...>"
+	ctxt "Digga, die Rijon"
+	line "Liga setzt 8 Orden"
+	cont "vorraus<...>"
 
-	para "Go for it, bro,"
-	line "get them all."
+	para "Also geh und"
+	line "schnapp sie dir"
+	cont "du Champion!"
 	done
 
 OxalisGym_MapEventHeader:: db 0, 0
@@ -180,3 +215,4 @@ OxalisGym_MapEventHeader:: db 0, 0
 	person_event SPRITE_YOUNGSTER, 9, 19, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, PERSONTYPE_GENERICTRAINER, 3, OxalisGym_Trainer_1, -1
 	person_event SPRITE_DELINQUENTM, 10, 4, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, PERSONTYPE_GENERICTRAINER, 3, OxalisGym_Trainer_2, -1
 	person_event SPRITE_GYM_GUY, 18, 13, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, OxalisGymGuide, -1
+

@@ -65,8 +65,9 @@ Route72_Trainer_3:
 
 .before_battle_text
 	ctxt "Oh, hey du."
-	para "Hättest du an 'nem"
-	line "Kampf Interesse?"
+	para "Hättest du"
+	line "Interesse an einem"
+	cont "Kampf?"
 	done
 
 .battle_won_text

@@ -64,7 +64,8 @@ HeathGym_Trainer_2:
 .before_battle_text
 	ctxt "Pflanzen-#mon"
 	line "sind unterschätzt."
-	para "Ich beweise es dir!"
+	para "Ich beweise es"
+	line "dir!"
 	done
 
 .battle_won_text

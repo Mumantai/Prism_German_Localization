@@ -335,7 +335,7 @@ LaurelForestPokemonOnly_ButterfreeTryGiveCuroShard:
 	line "mein Baby gefunden"
 	cont "hast!"
 	para "Hier ist eine"
-	line "Curo-Scherbe!"
+	line "Curoscherbe!"
 	done
 
 .no_room_text

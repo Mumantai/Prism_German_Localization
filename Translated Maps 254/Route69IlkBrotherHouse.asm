@@ -13,7 +13,7 @@ Route69IlkBrotherHouse_MapScriptHeader:
 
 Route69IlkBrotherHouseStove:
 	ctxt "Hmm, dieser Herd"
-	line "ist dreckig!"
+	line "ist schmutzig!"
 	done
 
 Route69IlkBrotherHouseSink:
@@ -47,11 +47,13 @@ IlkBrothersInTrouble:
 	para "Die Polizei ist"
 	line "da!"
 	para "Warte<...>"
-	para "Du bist nurn Kind<...>"
+	para "Du bist ja nur ein"
+	line "Kind<...>"
 	para "<...>"
-	para "Die Polizei sendet"
-	line "dich? Was denken"
-	cont "die sich bloß?"
+	para "Was denkt sich die"
+	line "Polizei nur dabei,"
+	para "ein Kind"
+	line "loszuschicken?"
 	para "<...>"
 	para "Oh? Prof. Ilk"
 	line "sandte dich?"
@@ -60,8 +62,10 @@ IlkBrothersInTrouble:
 	line "Jungen da?"
 	para "Er ist einge-"
 	line "brochen und will"
-	cont "mein Kindwurm!"
-	para "Unternimm etwas!"
+	para "mein Kindwurm"
+	line "entführen!"
+	para "Halte ihn bitte"
+	line "auf!"
 	sdone
 
 IlkBrothersTalkToRival:
@@ -132,24 +136,27 @@ IlkBrothersTalkToRival:
 .talk_to_bagon_text
 	ctxt "Haha!"
 	para "Du gehörst mir<...>"
-	para "<...>oder willst du"
-	line "verletzt werden?"
+	para "Wehre dich nicht,"
+	line "wenn du nicht"
+	para "verletzt werden"
+	cont "möchtest!"
 	sdone
 
 .before_battle_text
-	ctxt "Was willst du Furz"
-	line "denn von mir?"
-	para "Komm mir nicht"
-	line "in die Quere!"
+	ctxt "Was willst du"
+	line "Knirps von mir?"
+	para "Komm mir bloß"
+	line "nicht in die"
+	cont "Quere!"
 	sdone
 
 .battle_won_text
 	ctxt "Dieses Werkzeug"
 	line "muss noch"
-	cont "trainiert werden<...>"
+	cont "geformt werden<...>"
 	para "Ich mache es"
 	line "stärker, egal was"
-	cont "es mich kostet!"
+	cont "es kostet!"
 	done
 
 .battle_lost_text
@@ -162,7 +169,7 @@ IlkBrothersTalkToRival:
 	ctxt "Das war nur Glück."
 	para "Zeit zu gehen."
 	para "Ich habe von dem"
-	line "alten Sack bereits"
+	line "alten Kauz bereits"
 	cont "was ich brauch."
 	para "Ciao!"
 	para "<RIVAL> ben."
@@ -185,15 +192,16 @@ IlkBrothersTalkToRival:
 	line "meinem Bruder?"
 	para "Oh, du hast ihn"
 	line "bereits getroffen?"
-	para "Ach, du solltest"
-	line "nach mir sehen?"
+	para "Ach stimmt ja,"
+	line "solltest nach mir sehen,"
+	cont "nicht wahr?"
 	para "So ist mein Bruder"
 	line "nunmal<...>"
 	para "Bring ihm bitte"
-	line "auch sein Larvitar"
+	line "sein Larvitar"
 	para "zurück, die beiden"
 	line "haben gemeinsam"
-	para "viel durch"
+	para "sehr viel durch"
 	line "gemacht<...>"
 	para "Er liebt dieses"
 	line "#mon sehr<...>"

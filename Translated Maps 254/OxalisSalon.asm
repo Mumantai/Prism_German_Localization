@@ -42,11 +42,12 @@ OxalisSalonStylistScript:
 	ctxt "Hi, Schatzi!"
 	para "Unzufrieden mit"
 	line "deinem Aussehen?"
-	para "Deine Sorgen werde"
+	para "Deine Sorgen"
 	line "werden sich legen,"
-	para "wenn ich dich neu"
-	line "einkleide!"
-	para "Für nur ¥1000!"
+	para "sobald ich dich"
+	line "umgestylt habe!"
+	para "Und das für nur"
+	line "¥1000!"
 	done
 
 .said_yes_text
@@ -69,10 +70,11 @@ OxalisSalonStylistScript:
 	done
 
 .done_text
-	ctxt "Los geht's!"
+	ctxt "Los gehts!"
 	para "Du siehst nun"
 	line "viel besser aus!"
-	para "Beehre uns wieder!"
+	para "Beehre uns bald"
+	line "wieder!"
 	done
 
 .no_change_text
@@ -96,7 +98,7 @@ OxalisSalonNPC1:
 
 OxalisSalonNPC2:
 	ctxt "Versuch dich nicht"
-	line "zu sehr zu ändern"
+	line "zu sehr zu ändern."
 	para "Nach meinem Image-"
 	line "wechsel erkannten"
 	para "mich meine #mon"
@@ -108,7 +110,7 @@ OxalisSalonNPC3:
 	line "brauchen viel"
 	cont "Zeit und Pflege."
 	para "Deshalb komme ich"
-	line "immer hier her!"
+	line "immer wieder her!"
 	done
 
 OxalisSalon_MapEventHeader: ;filler

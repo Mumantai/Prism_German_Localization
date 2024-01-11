@@ -5,10 +5,11 @@ OxalisPokecenter_MapScriptHeader:
 	db 0
 
 OxalisPokecenterNPC1:
-	ctxt "Pssst!"
+	ctxt "Pssst! Stör nicht!"
 	para "<...>"
-	para "Ich schlage meinen"
-	line "alten Rekord!"
+	para "Ich bin kurz davor"
+	line "meinen alten"
+	cont "Rekord zu brechen!"
 	done
 
 OxalisPokecenterNPC2:

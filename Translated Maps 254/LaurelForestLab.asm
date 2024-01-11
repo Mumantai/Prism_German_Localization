@@ -11,11 +11,12 @@ LaurelForestLab_Trainer_1:
 	done
 
 .before_battle_text
-	ctxt "Wer hat dieses"
-	line "niedere #mon"
+	ctxt "Wer hat diese"
+	line "niedere Kreatur"
 	cont "reingelassen?!"
-	para "Egal. Es ist das"
-	line "das perfekte"
+	para "Egal."
+	para "Es ist das"
+	line "perfekte"
 	para "Testobjekt für"
 	line "meine Experimente!"
 	done
@@ -97,15 +98,18 @@ LaurelForestLab_Totodile:
 	para "Ich bin mir aber"
 	line "nicht sicher, ob"
 	para "ich wieder zu mei-"
-	line "nem Besitzer will."
+	line "ner Besitzerin"
+	cont "zurück will<...>"
 	para "Sie ist so nervig."		
 	para "<...>"
-	para "Warte. Du hast ein"
+	para "Warte, WAS?"
+	para "Du hast ein"
 	line "durchgedrehtes"
 	cont "Glurak getroffen?"
 	para "Dem will ich nicht"
-	line "begegnen! Nichts"
-	cont "wie weg hier!"
+	line "begegnen!"
+	para "Nichts wie weg"
+	line "von hier!"
 	sdone
 
 LaurelForestLab_MapEventHeader:: db 0, 0

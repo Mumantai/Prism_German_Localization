@@ -13,7 +13,7 @@ SpurgeCity_MapScriptHeader:
 SpurgeCityCitySign:
 	ctxt "Die Stadt in"
 	next "der nichts"
-	next "unmoeglich ist!"
+	next "unmöglich ist!"
 	done
 
 SpurgeCityOrphanageSign:
@@ -22,7 +22,7 @@ SpurgeCityOrphanageSign:
 
 SpurgeCityCasinoSign:
 	ctxt "Euphorbia Casino"
-	next "Mach das grosse"
+	next "Mach das große"
 	next "Geld!"
 	done
 
@@ -59,12 +59,13 @@ SpurgeCityNPC3:
 	para "Oh, uh, was?"
 	para "Ich bin plötzlich"
 	line "eingeschlafen!"
-	para "Ich habe die"
-	line "Schlüssel zu"
-	cont "meiner Wohnung"
-	cont "verloren."
-	para "Ich suche sie"
-	line "seit 6 Stunden!"
+	para "Ich habe meine"
+	line "Schlüssel in der"
+	para "der Wohnung liegen"
+	line "lassen."
+	para "Ich warte schon"
+	line "seit 6 Std auf den"
+	cont "Schlüsseldienst!"
 	done
 
 SpurgeCityNPC4:

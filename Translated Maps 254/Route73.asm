@@ -35,7 +35,7 @@ Route73BlockingDude:
 
 Route73_Trainer_1:
 	trainer EVENT_ROUTE_73_TRAINER_1, PICNICKER, 2, .before_battle_text, .battle_won_text
-	ctxt "Josiah ist tough,"
+	ctxt "Josiah ist stark,"
 	para "aber er ist auch"
 	line "echt heiß!"
 	para "Wortwörtlich!"
@@ -53,12 +53,12 @@ Route73_Trainer_1:
 Route73_Trainer_2:
 	trainer EVENT_ROUTE_73_TRAINER_2, BIRD_KEEPER, 1, .before_battle_text, .battle_won_text
 	ctxt "In Kämpfen, musst"
-	line "du immer schnell"
-	cont "nachdenken!"
+	line "du schnell"
+	cont "reagieren können!"
 	done
 
 .before_battle_text
-	ctxt "Schnell denken!"
+	ctxt "Schnell reagiert!"
 	done
 
 .battle_won_text
@@ -87,8 +87,9 @@ Route73_Trainer_4:
 	trainer EVENT_ROUTE_73_TRAINER_4, JUGGLER, 1, .before_battle_text, .battle_won_text
 	ctxt "Fang ein Elektro-"
 	line "und ein Feuer-"
-	para "#mon bevor du in"
-	line "die Höhle gehst."
+	para "#mon bevor du"
+	line "in die Höhle"
+	cont "gehst."
 	para "Vertrau mir!"
 	done
 

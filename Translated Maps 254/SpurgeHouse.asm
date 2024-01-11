@@ -20,9 +20,10 @@ SpurgeHouseNPC2:
 	ctxt "Ein Dorf in der"
 	line "nähe verkauft"
 	cont "Spitzhacken."
-	para "Für das Bergbau"
-	line "brauchst du mehr"
-	cont "als einen!"
+	para "Als erfolgreicher"
+	line "Bergbauer brauchst"
+	para "du sehr viele"
+	line "Spitzhacken!"
 	done
 
 SpurgeHouse_MapEventHeader:

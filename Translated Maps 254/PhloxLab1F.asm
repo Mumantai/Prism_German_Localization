@@ -163,12 +163,12 @@ PhloxLabF1_YellowPalette:
 	para "Ich bin mir sicher"
 	line "dort werden die"
 	para "mein Style und"
-	line "FLARE zu schätzen"
+	line "FLAIRE zu schätzen"
 	cont "wissen!"
 	done
 
 .before_battle_text
-	ctxt "Palette Rot war"
+	ctxt "Ranger Rot war"
 	line "ein schlechter"
 	para "Anführer und"
 	line "schätzte mein"

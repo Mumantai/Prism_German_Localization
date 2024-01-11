@@ -10,7 +10,7 @@ ToreniaGateGuard:
 	para "dafür zu"
 	line "beschuldigen, dass"
 	para "ich die Paletten-"
-	line "Patrouillen hier"
+	line "Ranger hier"
 	para "durchgelassen"
 	line "habe."
 	para "Ich bin auch nur"

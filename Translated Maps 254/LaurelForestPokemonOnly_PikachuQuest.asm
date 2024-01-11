@@ -152,7 +152,7 @@ LaurelForestPokemonOnlyPikachu:
 	line "nichts mehr zu"
 	cont "besorgen <...>"
 	para "Hier hast du eine"
-	line "Curo-Scherbe."
+	line "Curoscherbe."
 	done
 
 .must_deliver_two_burnt_berries_text
@@ -236,7 +236,7 @@ LaurelForestPokemonOnlyPikachu:
 	ctxt "Danke für die"
 	line "Röstbeere!"
 	para "Nimm diese Curo-"
-	line "Scherbe als Dank."
+	line "scherbe als Dank."
 	done
 
 .happy_pikachu_full_bag_text
@@ -277,7 +277,7 @@ LaurelForestPokemonOnlyPikachu:
 .handed_over_text
 	ctxt "Pikachu schenkt"
 	line "dir eine Curo-"
-	cont "Scherbe!"
+	cont "scherbe!"
 	done
 
 .dont_come_back_without_burnt_berries_text
@@ -509,7 +509,7 @@ LaurelForestPokemonOnlyFruitTree:
 
 .heres_a_curo_shard_text
 	ctxt "Hier, eine Curo-"
-	line "Scherbe für dich."
+	line "scherbe für dich."
 	sdone
 
 .something_extra_text
@@ -520,7 +520,7 @@ LaurelForestPokemonOnlyFruitTree:
 
 .light_ball_substitute_reward_text
 	ctxt "Hmm, ich würde dir"
-	line "eine Curo-Scherbe"
+	line "eine Curoscherbe"
 	para "schenken, aber"
 	line "leider habe ich"
 	para "die letzte schon"

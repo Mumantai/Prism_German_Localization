@@ -13,7 +13,7 @@ HeathGymUndergroundInstructionsGuy:
 	para "Interagiere mit"
 	line "der Lava, um Erze"
 	cont "zu schmelzen."
-	para "Oder mach' Kohle"
+	para "Oder mach Kohle"
 	line "zu Asche."
 	para "Beachte jedoch,"
 	line "dass du für Asche"
@@ -66,9 +66,9 @@ HeathGymUndergroundOreBuyer:
 	jp ByteFill
 
 .introduction_text
-	ctxt "Hehehe ..."
+	ctxt "Hehehe <...>"
 	para "Für gutes Geld"
-	line "kauf' ich dir"
+	line "kauf ich dir"
 	cont "deine Erze ab."
 	para "Nimm diese"
 	line "Erztasche, damit"
@@ -80,7 +80,7 @@ HeathGymUndergroundOreBuyer:
 .want_to_sell_ores_text
 	ctxt "Ah, willst du mir"
 	line "Erze verkaufen?"
-	para "Hmm ..."
+	para "Hmm <...>"
 	para "Für all diese Erze"
 	line "würde ich dir"
 	cont "¥@"
@@ -91,11 +91,11 @@ HeathGymUndergroundOreBuyer:
 	done
 
 .sold_ores_text
-	ctxt "Super. Hier hast du"
-	line "¥@"
+	ctxt "Super. Hier hast"
+	line "du ¥@"
 	deciram wTotalOrePrices, 3, 7
-	ctxt ""
-	cont "für deine Erze."
+	ctxt " für"
+	cont "deine Erze."
 	done
 
 .refused_text

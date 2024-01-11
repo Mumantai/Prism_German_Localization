@@ -49,8 +49,9 @@ PrisonBathsCigaretteGuy:
 .intro_text
 	ctxt "Hey, denkst"
 	line "du, du könntest"
-	para "mir etwas vom Mart"
-	line "reinschmuggeln?"
+	para "mir etwas vom"
+	line "Markt rein-"
+	cont "schmuggeln?"
 	para "Ich könnte"
 	line "wirklich eine"
 	para "Zigarette"

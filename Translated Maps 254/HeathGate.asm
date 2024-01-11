@@ -47,8 +47,9 @@ HeathGateTrigger:
 	line "dass ich nur"
 	cont "zugesehen habe <...>"
 	para "Huh? Warum ich den"
-	line "Gummianzug nicht"
-	cont "aufgehalten habe?"
+	line "Gummianzug-Typen"
+	para "nicht aufgehalten"
+	line "habe?"
 	para "Er hat mich belei-"
 	line "digt, als ich ihn"
 	cont "Gummianzug nannte."
@@ -85,7 +86,8 @@ HeathGate_PatrollerRed:
 	done
 
 .before_battle_text
-	ctxt "Oh gut, du bist's."
+	ctxt "Oh gut, du bist"
+	line "es."
 	para "Dieser <...> nervige <...>"
 	line "Rosa Ranger hat"
 	para "mir alles erzählt,"

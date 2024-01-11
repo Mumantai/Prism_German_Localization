@@ -51,7 +51,7 @@ MoundF1Rival:
 .during_phone_call_text
 	ctxt "Ich kann dich"
 	line "nicht hören <...>"
-	para "OK, jetzt geht's."
+	para "OK, jetzt gehts."
 	para "Gut, wo soll ich"
 	line "jetzt nochmal hin?"
 	sdone
@@ -86,7 +86,7 @@ MoundF1Rival:
 	para "Jetzt muss ich mir"
 	line "#mon suchen,"
 	para "die meine Anforde-"
-	cont "rungen erfüllen."
+	line "rungen erfüllen."
 	para "<...>"
 	para "Welche das sind?"
 	para "Hah! Das geht dich"

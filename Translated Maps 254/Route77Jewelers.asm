@@ -44,6 +44,12 @@ Route77JewelersExplanationNPC:
 	ctxt "Ringe herzustellen"
 	line "ist nicht einfach."
 	
+	para "Eine Rezept-"
+	line "Übersicht findest"
+	para "du auf dem Tisch"
+	line "direkt über mir."
+	
+	para "Also<...>"
 	para "Jeder Versuch,"
 	line "kostet dich"
 	para "Evolutionssteine"
@@ -68,7 +74,7 @@ Route77JewelersExplanationNPC:
 	para "und jeder einzelne"
 	line "davon, hilft"
 	para "deinen #mon"
-	cont "im Kampf!"
+	line "im Kampf!"
 
 	
 	para "Oder du stellst"

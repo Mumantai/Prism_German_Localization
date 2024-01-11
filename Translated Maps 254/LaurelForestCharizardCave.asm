@@ -71,7 +71,7 @@ LaurelForestCharizardCaveMom:
 	para "aber du musst ver-"
 	line "stehen, dass das"
 	para "Tradition in sei-"
-	cont "ner Familie ist."
+	line "ner Familie ist."
 	done
 
 LaurelForestCharizardCaveDad:
@@ -132,7 +132,7 @@ LaurelForestCharizardCaveDad:
 	line "nicht schwimmen <...>"
 	para "<...>"
 	para "Was? Du suchst"
-	line "Curo-Scherben?"
+	line "Curoscherben?"
 	para "Ein paar Wissen-"
 	line "schaftler haben"
 	para "uns vor Kurzem"

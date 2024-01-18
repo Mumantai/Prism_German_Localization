@@ -11,9 +11,10 @@ HauntedForestGate_RubyEgg:
 HauntedForestGateGuard:
 	ctxt "Die Geister können"
 	line "ihre Umgebung nach"
-	para "Lust und Lane ver-"
-	line "ändern. Pass also"
-	cont "gut auf dich auf!"
+	para "Lust und Laune"
+	line "verändern."
+	para "Pass also gut auf"
+	line "dich auf!"
 	done
 
 HauntedForestGate_MapEventHeader:: db 0, 0

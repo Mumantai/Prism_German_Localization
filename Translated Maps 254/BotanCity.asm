@@ -58,8 +58,10 @@ BotanCityNPC4:
 BotanCityNPC5:
 	ctxt "Ich war der"
 	line "Architekt für"
-	cont "<'>dieses<'>Gebäude<...>"
-	para "Nun bereue ich es<...>"
+	para "das <'>Gebäude<'>"
+	line "im Spukwald <...>"
+	para "Nun bereue ich"
+	line "es zu tiefst <...>"
 	done
 
 BotanCityNPC6:

@@ -14,14 +14,23 @@ ToreniaMagnetTrainNPC:
 	jumptextfaceplayer .botan_unquarantined
 
 .stuck
-	ctxt "Ich stecke in"
-	line "Naljo fest."
+	ctxt "Ich stecke in der"
+	line "Naljo-Region fest."
+	para "Jeder kann zwar"
+	line "ohne Fahrschein in"
+	para "die Rijon-Region"
+	line "fahren, aber"
 	para "Botania City ist"
-	line "unter Quarantäne"
-	para "und Ich habe"
-	line "keinen Pass um"
-	cont "nach Johto oder"
-	cont "Kanto zu kommen."
+	line "aktuell unter"
+	para "Quarantäne,"
+	line "weshalb man die"
+	para "restliche"
+	line "Rijon-Region nicht"
+	cont "besuchen kann."
+	para "Für die Kanto-"
+	line "oder Johto-Region"
+	para "fehlt mir leider"
+	line "der Fahrschein."
 	done
 
 .botan_unquarantined

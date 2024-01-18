@@ -20,7 +20,7 @@ DreamSequence_MapScriptHeader:
 	return
 
 DreamSequenceNPC1:
-	ctxt "Ich bin's, Mama."
+	ctxt "Ich bins, Mama."
 	para "Wo bist du?"
 	para "Ich vermisse dich!"
 	line "Bitte komm zurück!"

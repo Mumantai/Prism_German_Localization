@@ -74,10 +74,11 @@ HauntedForest_Trainer_3:
 	done
 
 .battle_won_text
-	ctxt "Hab Verständnis"
-	line "mit allem Leben."
-	para "Jeder hat seine"
-	cont "eigenen Probleme."
+	ctxt "Sei immer"
+	line "verständnissvoll!"
+	para "Denn jeder hat"
+	line "seine eigenen"
+	cont "Probleme."
 	done
 
 HauntedForestRedGravestone:

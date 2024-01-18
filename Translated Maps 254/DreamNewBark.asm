@@ -17,7 +17,7 @@ DreamNewBarkNPC:
 	ctxt "Grüß dich."
 	para "Was?"
 	para "Nein, ich bin kein"
-	line "Palette-Ranger."
+	line "Paletten-Ranger."
 	para "Ich existiere ja"
 	line "noch nicht einmal!"
 	para "Du bist in einem"
@@ -80,7 +80,8 @@ DreamNewBarkNPC:
 	line "Konflikte in die-"
 	cont "ser Hirnhälfte <...>"
 	para "<...>"
-	para "Schmatz <...> Schmatz <...>"
+	para "Schmatz, Schmatz <...>"
+	para "Schmatz <...>"
 	para "Es scheint, dass"
 	line "du Gengars"
 	cont "Mahlzeit bist <...>"
@@ -99,13 +100,13 @@ DreamNewBarkNPC:
 
 .gengar_text
 	ctxt "-RÜLPS-"
-	para "Das war lecker!"
-	para "Ich muss auf mein"
-	line "Gewicht achten."
-	para "Keine Träume mehr"
-	line "für mich, für"
-	para "mindestens eine"
-	line "Woche!"
+	ctxt "Lecker, was für"
+	line "eine Mahlzeit!"
+	para "Das war so viel,"
+	line "dass ich für die"
+	para "nächsten Wochen"
+	line "keine Träume mehr"
+	cont "fressen muss."
 	done
 
 DreamNewBark_MapEventHeader:: db 0, 0

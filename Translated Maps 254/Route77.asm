@@ -62,13 +62,14 @@ Route77Guard_BeforeIlk:
 	jumptext .after_HM_text
 
 .no_clearance_text
-	ctxt "Ohne eine gültige"
-	line "Freigabe, kann ich"
-	para "dich leider nicht"
-	line "hier durchlassen."
-	
-	para "Es gab hier ein"
+	ctxt "Es gab hier ein"
 	line "schweres Erdbeben."
+
+	para "Ohne eine gültige"
+	line "Freigabe, kann ich"
+	para "dich leider selbst"
+	line "mit den Orden hier"
+	cont "nicht durchlassen."
 	
 	para "Wenn uns doch nur"
 	line "ein Experte unter-"
@@ -98,24 +99,25 @@ Route77Guard_BeforeIlk:
 	para "Perfekt, wir haben"
 	line "nun einen Deal."
 	
-	para "Diese VM hilft"
-	line "dir, schneller"
-	para "nach Capparia City"
-	line "zurückzukommen!"
+	para "Damit du schneller"
+	line "nach Capparia City"
+	para "zum Prof gelangst,"
+	line "gebe ich dir eine"
+	cont "VM."
 	sdone
 
 .after_HM_text
 	ctxt "VM02 enthält"
-	para "Fliegen."
+	line "Fliegen."
 	
 	para "Damit, können dich"
-	line "deine #mon an Orte"
+	line "deine #mon an"
 	para "Orte fliegen, die"
 	line "du schon einmal"
 	cont "besucht hast!"
 	
 	para "Jetzt sprich mit"
-	line "Prof. Ilk und ich"
+	line "Prof. Ilk und"
 	para "besorge dir die"
 	line "Freigabe."
 	done

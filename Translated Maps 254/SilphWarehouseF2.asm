@@ -11,8 +11,7 @@ SilphWarehouseF2NPC:
 
 .SecretShopIntroText:
 	ctxt "Ah, ein Besucher "
-	line "des Geheimen "
-	cont "Ladens!"
+	line "des Geheimladens!"
 	prompt
 
 SilphWarehouseF2_MapEventHeader:

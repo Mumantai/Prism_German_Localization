@@ -5,9 +5,10 @@ SoutherlyHouse_MapScriptHeader:
 	db 0
 
 SoutherlyHouseNPC:
-	ctxt "Ein netter Trainer"
-	line "gab mir vor langer"
-	cont "Zeit ein Kirlia."
+	ctxt "Vor langer Zeit"
+	line "habe ich mit einem"
+	para "netten Trainer"
+	line "Kirlia getauscht."
 	para "Meins hat sich zu "
 	line "einem Galagladi "
 	cont "entwickelt!"

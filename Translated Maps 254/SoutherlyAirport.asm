@@ -5,7 +5,9 @@ SoutherlyAirport_MapScriptHeader:
 	db 0
 
 SoutherlyAirportNPC1:
-	ctxt "Es gibt so viele "
+	ctxt "Flugzeuge sind"
+	line "super!"
+	para "Es gibt so viele "
 	line "#mon auf der "
 	cont "Welt."
 	para "Ich will so viele "
@@ -13,19 +15,23 @@ SoutherlyAirportNPC1:
 	done
 
 SoutherlyAirportNPC2:
-	ctxt "Ich war schon "
+	ctxt "Ich war schon"
 	line "überall!"
-	para "Nenne mir eine "
-	line "Region und ich war"
-	cont "schon dort!"
+	para "Nenne mir eine"
+	line "Region. Ich wette,"
+	cont "ich war schon da!"
 	done
 
 SoutherlyAirportNPC3:
 	ctxt "Wenn der Flughafen"
-	line "in Dukatia City "
-	para "wieder steht, "
-	line "können wir nach "
+	line "in Dukatia City"
+	para "wieder steht,"
+	line "können wir nach"
 	cont "Johto fliegen!"
+	para "Ich hasse"
+	line "Zugfahrten. Sie"
+	para "haben einfach"
+	line "keine Klasse!"
 	done
 
 SoutherlyAirportPilot:
@@ -54,34 +60,33 @@ SoutherlyAirportPilot:
 .introduction_text
 	ctxt "Hallo hallo!"
 	para "Falls du jemals "
-	line "irgendwo hin "
-	para "fliegen möchtest, "
+	line "irgendwo hin"
+	para "fliegen möchtest,"
 	line "komm mit einem "
 	cont "Ticket wieder."
-	para "Wir bringen dich "
-	line "dann überall hin!"
+	para "Wir fliegen dich"
+	line "im Nu ans Ziel!"
 	done
 
 .first_time_mystery_ticket_text
-	ctxt "Moment mal!"
+	ctxt "Warte mal."
 	para "<...>"
-	line "Lese ich das "
-	cont "richtig?"
+	para "Sehe ich das"
+	line "richtig?"
 	para "<...>"
-	line "Ja, tatsächlich!"
-	para "Das ist wirklich "
-	line "ein Ticket zur"
-	cont "Mysteriösen Zone!"
-	para "In der "
-	line "Mysteriösen Zone"
-	para "warten die besten "
-	line "Trainer der Welt "
-	cont "auf dich!"
-	para "Du musst ja echt "
-	line "was drauf haben!"
-	para "Ich kann dich "
-	line "sofort dort hin "
-	cont "bringen."
+	para "Ja, es ist echt."
+	para "Das ist"
+	line "tatsächlich ein"
+	para "Ticket in die"
+	line "Mysteriöse Zone."
+	para "Dort warten die"
+	line "besten Trainer der"
+	cont "Welt auf dich!"
+	para "Du musst ja"
+	line "richtig was auf"
+	cont "dem kasten haben!"
+	para "Ich kann dich"
+	line "sofort hinbringen."
 	para "Willst du los?"
 	done
 
@@ -97,7 +102,7 @@ SoutherlyAirportPilot:
 
 .declined_text
 	ctxt "Schade."
-	para "Ich bring selten "
+	para "Ich bring selten"
 	line "jemanden in die"
 	cont "Mysteriöse Zone."
 	done
@@ -110,23 +115,22 @@ SoutherlyCityAirportCheckInSign:
 	done
 
 SoutherlyCityAirportWarningSign:
-	ctxt "Behalte dein"
+	ctxt "Behalte deine"
 	next "Koffer immer im"
-	next "Auge. Melde alles"
+	next "Auge. Melde alles,"
 	next "was dir verdächtig"
 	next "vorkommt!"
 	done
 
 SoutherlyCityAirportGuard:
-	ctxt "Sorry, Ich kann"
-	line "dich nicht vorbei"
-	para "lassen, ohne dass"
-	line "du eingecheckt"
-	cont "hast."
-	para "Sprich mit meinen"
+	ctxt "Ich kann dich"
+	line "nicht durchlassen,"
+	para "bis du eingecheckt"
+	line "hast."
+	para "Sprich mit meinem"
 	line "Kollegen am"
-	para "Schalter um einzu-"
-	line "checken."
+	para "Schalter, um"
+	line "einzuchecken."
 	done
 
 SoutherlyAirport_MapEventHeader:

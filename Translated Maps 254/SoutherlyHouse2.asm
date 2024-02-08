@@ -10,15 +10,15 @@ SoutherlyHouseNPC1:
 	para "Dank der neuen"
 	line "Süd-Passage kommen"
 	para "jetzt viel mehr"
-	line "Besucher!"
+	line "Besucher zu uns!"
 	done
 
 SoutherlyHouseNPC2:
-	ctxt "Der Psion-Wald ist"
-	line "fürs erste"
-	para "gesperrt, es leben"
-	line "jedoch eine Menge"
-	cont "Folipurba dort!"
+	ctxt "Hast du schon die"
+	line "Psionlichtung"
+	cont "besucht?"
+	para "Viele Folipurba"
+	line "leben dort!"
 	done
 
 SoutherlyHouse2_MapEventHeader:: db 0, 0

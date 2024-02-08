@@ -10,7 +10,7 @@ SoutherlyPokecenterNPC1:
 	para "Dort hat er"
 	line "gelernt, seine"
 	para "Feuer-#mon zu"
-	line "beschützen! "
+	line "beschützen!"
 	done
 
 SoutherlyPokecenterNPC2:
@@ -31,10 +31,11 @@ SoutherlyPokecenterNPC2:
 	done
 
 SoutherlyPokecenterNPC3:
-	ctxt "Du bist den langen"
-	line "weg geschwommen?"
+	ctxt "Du bist den ganzen"
+	line "Weg gesurft?!"
 	para "Deine #mon"
-	line "müssen müde sein!"
+	line "müssen total"
+	cont "erschöpft sein!"
 	para "Zum Glück bist du"
 	line "am richtigen Ort!"
 	done

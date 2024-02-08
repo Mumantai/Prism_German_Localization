@@ -16,24 +16,21 @@ SouthRijonGateDirectionsSign:
 	done
 
 SouthRijonGateBorderSign:
-	ctxt "Der Grenzübergang"
-	line "ist aufgrund eines"
-	para "ansteckenden Virus"
-	line "derzeit"
-	cont "geschlossen."
-	para "Trage eine Maske!"
+	ctxt "Die Grenze ist zur"
+	next "Zeit aufgrund"
+	next "eines ansteckenden"
+	next "Virus geschlossen."
+	nl   ""
+	next "Tragt eine Maske!"
 	done
 
 SouthRijonGate_NPC_1:
 	ctxt "Sie haben die"
-	line "Grenze"
-	cont "geschlossen!"
-	para "Auf dem Schild"
-	line "steht, dass sie"
-	para "sich wegen einer"
-	line "Krankheit sorgen."
-	para "Ich denke, es ist"
-	line "nur Paranoia."
+	line "Grenze wegen eines"
+	para "leichten Hustens"
+	line "geschlossen!"
+	para "Das ist reine"
+	line "Paranoia!"
 	done
 
 SouthRijonGate_MapEventHeader:: db 0, 0

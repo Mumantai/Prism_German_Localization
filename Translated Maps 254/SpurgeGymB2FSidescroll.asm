@@ -34,8 +34,7 @@ SpurgeGymB2FSidescrollSwitch:
 
 .switch_disabled_text
 	ctxt "Der Schalter ist"
-	line "durch etwas"
-	cont "blockiert<...>"
+	line "deaktiviert!"
 	done
 
 .toggled_blocks

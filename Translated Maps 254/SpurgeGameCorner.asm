@@ -60,8 +60,10 @@ GameCornerMemoryGame::
 	db NUGGET
 
 .need_25_coins_text
-	ctxt "25 Münzen brauchst"
-	line "du zum spielen."
+	ctxt "Du brauchst 25"
+	line "Münzen, um hier"
+	para "mitspielen zu"
+	line "können."
 	done
 
 .you_won_text
@@ -247,20 +249,20 @@ SpurgeGameCornerCoinCaseSeller:
 
 .after_sale_text
 	ctxt "Münzkorb?"
-	para "Was ist ein"
-	line "Münzkorb?"
+	para "Welcher Münzkorb?"
 	done
 
 .will_sell_text
-	ctxt "Psst<...>"
-	para "Ich verticke dir"
+	ctxt "Psst <...>"
+	para "Ich verkaufe dir"
 	line "einen Münzkorb."
-	para "Für nur ¥1000."
+	para "Ich will dafür nur"
+	line "¥1000 haben."
 	para "Deal?"
 	done
 
 .declined_text
-	ctxt "Dann eben nicht."
+	ctxt "Dann verzieh dich."
 	done
 
 .accepted_text
@@ -269,113 +271,118 @@ SpurgeGameCornerCoinCaseSeller:
 
 .not_enough_money_text
 	ctxt "<...>"
-	para "Komm wieder wenn"
-	line "du Moneten hast."
+	para "Lass mich wissen,"
+	line "wenn du überhaupt"
+	cont "Geld hast."
 	done
 
 SpurgeGameCornerNPC1:
 	ctxt "Woaw, 24× beim"
-	line "ersten versuch!"
+	line "ersten Versuch!"
 	para "Läuft bei mir!"
 	done
 
 SpurgeGameCornerNPC2:
-	ctxt "Diese Reihe ist"
-	line "Memory!"
-	para "Finde pärchen und"
+	ctxt "In dieser Reihe"
+	line "gibt es nur"
+	cont "Memory!"
+	para "Finde Paare und"
 	line "gewinne Preise."
-	para "Du hast 5 chancen"
-	line "um pärchen zu"
-	cont "finden."
-	para "Somit kannst du"
-	line "bis zu 5 Preise"
+	para "Du hast fünf"
+	line "Versuche, um Paare"
+	cont "zu finden."
+	para "Du kannst also bis"
+	line "zu fünf Preise"
 	cont "gewinnen!"
-	para "Sei dennoch vor-"
-	line "sichtig, 25 Münzen"
-	cont "sind nicht wenig<...>"
+	para "Aber sei gewarnt;"
+	line "ein Spiel kostet"
+	cont "25 Münzen <...>"
 	done
 
 SpurgeGameCornerNPC3:
-	ctxt "Hier gibts"
-	line "Einarmiger Bandit."
-	para "Ich denke du weist"
-	line "wie dieses Spiel"
-	cont "funktioniert<...>"
+	ctxt "Das sind unsere"
+	line "Spielautomaten."
+	para "Ich hoffe, du"
+	line "weißt mittler-"
+	line "weile, wie sie"
+	cont "funktionieren <...>"
 	done
 
 SpurgeGameCornerNPC4:
-	ctxt "Hier gibt es"
-	line "classic card"
+	ctxt "In dieser Reihe,"
+	line "gibt es das"
+	para "klassische"
+	line "Kartenspiel."
 	done
 
 SpurgeGameCornerNPC5:
 	ctxt "Blackjack!"
 	para "Komm der 21 so"
-	line "nah du kannst."
-	para "Wenn du drüber"
-	line "bist, GAME OVER!"
+	line "nahe, wie möglich."
+	para "Kommst du drüber,"
+	line "hast du verloren!"
 	done
 
 SpurgeGameCornerNPC6:
 	ctxt "Video Poker!"
-	para "Pro Versuch nur"
-	line "10 Münzen!"
+	para "Zehn Münzen pro"
+	line "Spiel!"
 	done
 
 SpurgeGameCornerNPC7:
-	ctxt "Diese pärchen sind"
+	ctxt "Diese Pärchen sind"
 	line "schwer zu finden!"
 	done
 
 SpurgeGameCornerNPC8:
-	ctxt "Hab gehört, man"
-	line "kann Sonderbonbons"
-	cont "hiermit gewinnen."
-	para "Aber ich habe kein"
-	line "Glück bei sowas<...>"
+	ctxt "Man soll hier"
+	line "Sonderbonbons"
+	cont "gewinnen können."
+	para "Aber ich habe"
+	line "natürlich  mal"
+	cont "wieder Pech <...>"
 	done
 
 SpurgeGameCornerNPC9:
-	ctxt "Wenn ich dieses"
-	line "Spiel spiele,"
-	para "dauert es viel zu"
-	line "lange um die TM33,"
-	cont "Eishieb zu"
-	cont "gewinnen."
+	ctxt "Wenn ich weiter"
+	line "nur am Automaten"
+	para "spiele, dauert es"
+	line "ewig, bis ich die"
+	para "TM33, Eishieb, für"
+	line "mein Schneppke"
+	cont "gewinne."
 	done
 
 SpurgeGameCornerNPC10:
-	ctxt "Ich habe 100"
-	line "gesetzt, hatte"
-	para "eine gute Hand,"
+	ctxt "Ich hab 100"
+	line "gesetzt, hatte ne"
+	para "gute Hand, hab"
 	line "verdoppelt und"
-	cont "dann verloren."
-	para "Naja, versuche es"
-	line "erneut<...>"
+	cont "verloren."
+	para "Naja, auf ein"
+	line "Neues <...>"
 	done
 
 SpurgeGameCornerNPC11:
-	ctxt "Die Musik, die sie"
-	line "hier spielen,"
-	para "klingt schrecklich"
-	line "vertraut."
+	ctxt "Die Musik hier,"
+	line "kommt mir so"
+	cont "bekannt vor."
 	para "Ich kann mich"
-	line "nicht erinnern, wo"
-	para "ich sie schon"
-	line "einmal gehört"
-	cont "habe<...>"
-	para "Wurde sie nicht"
-	line "von diesen zwei"
-	cont "Robotern gemacht?"
+	line "nicht erinnern,"
+	para "woher ich sie"
+	line "kenne <...>"
+	para "Haben diese zwei"
+	line "Roboter die"
+	cont "gemacht?"
 	done
 
 GameCorner_SaveYourCoinsComeAgain::
 	jumptext .text
 
 .text
-	ctxt "OK. Spare dir"
-	line "mehr Münzen auf"
-	cont "und komm zurück!"
+	ctxt "OK. Bitte bewahr"
+	para "die Münzen gut auf"
+	line "und komm zurück!"
 	done
 
 SpurgeGameCorner_MapEventHeader:: db 0, 0

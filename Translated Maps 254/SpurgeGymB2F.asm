@@ -96,77 +96,74 @@ SpurgeGymB2FLeader:
 	end
 
 .did_not_find_all_mons_text
-	ctxt "Du hast ja Jahre"
-	line "gebraucht um mich"
-	cont "zu finden!"
-	para "Du hast aber noch"
-	line "nicht all deine"
-	cont "#mon zurück!"
-	para "Komm wieder wenn"
-	line "es so weit ist."
+	ctxt "Du hast mich also"
+line "endlich gefunden!"
+para "Aber wie ich"
+line "sehe, hast du"
+para "noch nicht all"
+line "eine #mon"
+cont "zurück. Komm"
+para "wieder, wenn du"
+line "sie alle hast."
 	done
 
 .introduction_text
-	ctxt "Hallo Trainer!"
-	para "Aufgrund deinem"
-	line "Mut, welches du"
-	cont "in diesem Puzzle"
-	para "beweisen konntest,"
-	line "akzeptiere ich"
-	cont "den Kampf!"
-	para "Ich bin Bruce, der"
-	line "Stahl Arenaleiter"
-	cont "von Naljo!"
-	para "Die Verteidigungs-"
-	line "stärke von Stahl-"
-	para "#mon ist"
-	line "unübertreffbar!"
+	ctxt "Willkommen,"
+	line "Trainer!"
+	para "Da du dich"
+	line "wagemutig meinem"
+	para "Test gestellt"
+	line "hast, habe ich"
+	para "entschieden, deine"
+	line "Herausforderung"
+	cont "anzunehmen!"
+	para "Ich bin Bruce,"
+	line "Naljos stolzer"
+	cont "Stahl-Arenaleiter!"
+	para "Die Abwehrkräfte"
+	line "von Stahl-#mon"
+	para "sind nicht zu"
+	line "übertreffen!"
 	para "Bist du bereit?"
 	sdone
 
 .battle_won_text
-	ctxt "W<...>Wie?"
+	ctxt "W- <...> Wie?"
 	para "Naja, egal."
-	para "Du hast dir den"
+	para "Du hast dir meinen"
 	line "Orden verdient und"
 	para "dadurch auch die"
-	line "möglichkeit, die"
-	para "Rijon Liga zu"
-	line "bestreiten!"
+	line "Möglichkeit, die"
+	para "Rijon-Liga"
+	line "herauszufordern!"
 	done
 
 .received_badge_text
 	ctxt "<PLAYER> erhält"
-	line "den Naljo Orden!"
+	line "den Naljo-Orden!"
 	done
 
 .before_giving_TM_text
-	ctxt "Ich hab noch etwas"
-	line "für dich."
+	ctxt "Ich denke, das"
+	line "sollte ich dir"
+	cont "auch geben."
 	sdone
 
 .after_giving_TM_text
-	ctxt "Diese TM ist"
-	line "Lichtkanone!"
-	para "Diese starke Stahl"
-	line "Attacke hat die"
-	para "Chance, die Spez."
-	line "Vert. des Gegners"
-	cont "etwas zu senken!"
+	ctxt "Diese TM enthält"
+	line "Lichtkannone!"
+	para "Diese starke"
+	line "Stahl-Attacke, hat"
+	para "die Chance, die"
+	line "Spez. Vert. des"
+	para "Gegners zu senken!"
 	sdone
 
 .parting_text
-	ctxt "Es ist Zeit für"
-	line "uns zu gehen."
-	para "Wenn du nicht"
-	line "weißt wie du zur"
-	para "Rijon Liga"
-	line "gelangst, sprich"
-	para "mich oben nochmal"
-	line "an, dann erkläre"
-	cont "ich es dir."
-	para "Bis dahin,"
-	line "Lebewohl!"
+	ctxt "Nun, es ist Zeit,"
+	line "dass wir uns"
+	cont "verabschieden."
+	para "Lebewohl."
 	sdone
 
 SpurgeGymB2F_MapEventHeader:: db 0, 0

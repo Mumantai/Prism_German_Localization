@@ -10,73 +10,79 @@ SpurgeMartATM:
 	endtext
 
 SpurgeMartNPC1:
-	ctxt "Schau dich gerne"
-	line "um. Ich biete"
-	cont "viele Spiele an."
-	para "Wenn dir was"
+	ctxt "Sieh dich ruhig"
+	line "um. Ich habe hier"
+	cont "viele Spiele."
+	para "Wenn dir eins"
 	line "gefällt, sag mir"
-	cont "bescheid!"
+	cont "einfach Bescheid!"
 	done
 
 SpurgeMartNPC2:
 	ctxt "Sprudel ist nicht"
-	line "besonders gesund,"
-	para "aber dafür bil-"
-	line "liger als Wasser."
+	line "sehr gesund, aber"
+	para "es kostet weniger"
+	line "als Wasser."
 	done
 
 SpurgeMartNPC3:
-	ctxt "Ein eigenartiger"
-	line "Typ, komplett in"
-	para "Rot, war hier um"
-	line "etwas zu essen."
-	para "Mit Rot meine ich"
-	line "RICHTIG ROT!"
-	para "Helm, jumpsuit."
-	line "ALLES war ROT."
-	para "Er weigerte sich"
-	line "den Helm abzulegen"
-	para "also hat er das"
-	line "Essen mitgenommen."
+	ctxt "Ein zwielichtiger"
+	line "Typ hat hier etwas"
+	cont "zu Essen bestellt."
+	para "Der war komplett"
+	line "rot, also so"
+	cont "RICHTIG ROT!"
+	para "Helm, Overall,"
+	line "alles rot."
+	para "Er hat sich"
+	line "geweigert den Helm"
+	para "abzunehmen, also"
+	line "hat er sein Essen"
+	para "zum Mitnehmen"
+	line "bestellt."
 	done
 
 SpurgeMartNPC4:
-	ctxt "Diese Essensmeile"
+	ctxt "Diese Essensmeile,"
 	line "schafft es mein"
 	para "dickes Bäuchlein"
-	line "zu füllen."
+	line "gut zu füllen."
 	done
 
 SpurgeMartNPC5:
-	ctxt "Mein Relaxo mag"
+	ctxt "Mein Relaxo liebt"
 	line "diese Burger auch."
-	para "Ich verdrücke aber"
-	line "mehr als Relaxo."
+	para "Es kann viel mehr"
+	line "essen, als ich."
 	done
 
 SpurgeMartNPC6:
-	ctxt "Ich hörte diese"
-	line "Milch die hier"
-	para "verkauft wird,"
-	line "stammt aus Johto."
+	ctxt "Ich habe gehört,"
+	line "die verkaufen hier"
+	para "Milch von einem"
+	line "kleinem Hof aus"
+	cont "Johto."
 	done
 
 SpurgeMartNPC7:
-	ctxt "Ich möchte gerne"
-	line "ein Spiel für mein"
-	cont "Sohn reklamieren."
-	para "Wer ist 'Frigo'"
-	line "Überhaupt?"
-	para "Und #mon Quartz"
-	line "hatte zu viel"
-	cont "profanes in sich!"
-	para "Pegi 7 Freigabe?"
-	line "Ja klar!"
+	ctxt "Ich versuche ein"
+	line "Spiel zu rekla-"
+	line "mieren, das ich"
+	para "für meinen Sohn"
+	line "gekauft habe."
+	para "Wer ist dieser"
+	line "'Frigo' überhaupt?"
+	para "In #mon Quartz"
+	line "gibt es auch"
+	para "viel zu viele"
+	line "Schimpfwörter!"
+	para "Und es hast eine"
+	line "USK 0 Freigabe!"
 	done
 
 SpurgeMartNPC8:
-	ctxt "Keine Ahnung was"
-	line "ich kaufen soll!"
+	ctxt "Ich kann mich"
+	line "nicht entscheiden!"
 	done
 
 SpurgeMart_MapEventHeader:: db 0, 0

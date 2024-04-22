@@ -5,25 +5,24 @@ SpurgeHouse_MapScriptHeader:
 	db 0
 
 SpurgeHouseNPC1:
-	ctxt "Bergbau ist Toll!"
-	para "Wenn du Bergbau"
+	ctxt "Bergbau ist toll!"
+	para "Wenn du es auch"
 	line "ausprobieren"
-	para "willst, besorge"
-	line "dir ne Spitzhacke!"
-	para "Interagiere dann"
-	line "mit einer felsigen"
-	para "oberfläche und bau"
-	line "alles mögliche ab!"
+	para "möchtest, hol dir"
+	line "eine Spitzhacke!"
+	para "Dann kannst du"
+	line "einfach mit einer"
+	para "Felsoberfläche"
+	line "interagieren und"
+	cont "alles abbauen!"
 	done
 
 SpurgeHouseNPC2:
 	ctxt "Ein Dorf in der"
-	line "nähe verkauft"
-	cont "Spitzhacken."
-	para "Als erfolgreicher"
-	line "Bergbauer brauchst"
-	para "du sehr viele"
-	line "Spitzhacken!"
+	line "Nähe verkauft"
+	cont "Spitzhacken. "
+	para "Kauf dir besser"
+	line "gleich mehrere!"
 	done
 
 SpurgeHouse_MapEventHeader:

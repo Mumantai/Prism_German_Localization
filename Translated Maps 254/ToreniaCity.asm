@@ -21,43 +21,46 @@ ToreniaCityCitySign:
 	done
 
 ToreniaCityPachisiSign:
-	ctxt "Mensch ärgere"
-	next "dich nicht"
-	next "(Pachisi)"
+	ctxt "Pachisi-Halle"
 	done
 
 ToreniaCityNPC1:
-	ctxt "Mensch ärgere dich"
-	line "nicht macht so"
-	cont "Spaß!"
-	para "Ich habe vor"
-	line "kurzem dort ein"
-	para "neues #mon"
+	ctxt "Das Pachisi-Brett"
+	line "macht so viel"
+	para "Spaß! Ich habe"
+	line "da neulich sogar"
+	para "ein neues #mon"
 	line "gefangen!"
 	done
 
 ToreniaCityNPC2:
-	ctxt "In dieser Zeit"
-	line "hier zu leben<...>"
-	para "<...>als wäre man Teil"
-	line "der Geschichte."
+	ctxt "In einer Zeit wie"
+	line "dieser, hier zu"
+	cont "leben<...>"
+	para "Ist fast so, als"
+	line "wäre man Teil der"
+	cont "Geschichte."
 	done
 
 ToreniaCityNPC3:
-	ctxt "Das letzte mal,"
-	line "als Ich mit dem"
-	para "Arenaleiter sprach"
-	line "wünschte er sich"
+	ctxt "Als ich das letzte"
+	line "Mal mit Edison,"
+	para "dem Arenaleiter,"
+	line "geredet habe, hat"
+	para "er gesagt, er"
+	line "wünscht sich,"
 	cont "träumen zu können."
-	para "Was ist so toll"
-	line "am Träumen?"
-	para "Ich habe Angst"
-	line "davor."
+
+	para "Was findet er so"
+	line "toll am Träumen?"
+
+	para "Mir machen Träume"
+	line "Angst."
 	done
 
 ToreniaCityNPC4:
 	ctxt "Diese Stadt wird"
-	line "riesig sobald die"
+	line "riesig, sobald die"
 	para "Erweiterung fertig"
 	line "ist."
 	done

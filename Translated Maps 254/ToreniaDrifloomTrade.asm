@@ -7,7 +7,7 @@ ToreniaDrifloomTrade_MapScriptHeader:
 ToreniaDrifloomTradeDude:
 	ctxt "Diese Leute in"
 	line "Botania City sind"
-	cont "sicher gemein."
+	cont "wirklich gemein."
 	done
 
 ToreniaDrifloomTrade_MapEventHeader:: db 0, 0

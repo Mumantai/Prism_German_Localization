@@ -27,11 +27,11 @@ ToreniaCelebrityNPC:
 	done
 
 .already_gave_item_text
-	ctxt "Wieso denken die"
-	line "Leute es wäre OK"
-	para "einfach ohne"
-	line "Erlaubnis in mein"
-	cont "Haus zu kommen?"
+	ctxt "Warum denken die"
+	line "Leute, es wäre"
+	para "okay, einfach in"
+	line "mein Haus zu"
+	cont "gehen?"
 	done
 
 ToreniaCelebrityFearow:
@@ -41,7 +41,7 @@ ToreniaCelebrityFearow:
 	endtext
 
 .cry_text
-	ctxt "IBITAK: Ibii!"
+	ctxt "IBITAK: Iiiibitak!"
 	done
 
 ToreniaCelebrity_MapEventHeader:

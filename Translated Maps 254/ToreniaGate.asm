@@ -5,14 +5,13 @@ ToreniaGate_MapScriptHeader:
 	db 0
 
 ToreniaGateGuard:
-	ctxt "Die Leute müssen"
-	line "aufhören, mich"
-	para "dafür zu"
-	line "beschuldigen, dass"
-	para "ich die Paletten-"
-	line "Ranger hier"
-	para "durchgelassen"
-	line "habe."
+	ctxt "Die Leute sollten"
+	line "aufhören, mir die"
+	para "Schuld zu geben,"
+	line "die Pallette"
+	para "Rangers hier"
+	line "durchgelassen zu"
+	cont "haben."
 	para "Ich bin auch nur"
 	line "ein Mensch!"
 	done

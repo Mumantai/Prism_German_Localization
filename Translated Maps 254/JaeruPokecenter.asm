@@ -10,7 +10,7 @@ JaeruPokecenterNPC1:
 	para "weit entfernten"
 	line "Stadt, namens"
 	para "Merscauwia City,"
-	cont "repariert."
+	line "repariert."
 	para "Jetzt hat er seine"
 	line "eigene Firma hier"
 	cont "in Jaeru!"

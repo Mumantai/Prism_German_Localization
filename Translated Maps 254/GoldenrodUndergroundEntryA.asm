@@ -5,8 +5,8 @@ GoldenrodUndergroundEntryA_MapScriptHeader:
 	db 0
 
 GoldenrodUndergroundEntryANPC:
-	ctxt "Be careful"
-	line "downstairs."
+	ctxt "Sei da unten"
+	line "vorsichtig."
 	done
 
 GoldenrodUndergroundEntryA_MapEventHeader:: db 0, 0

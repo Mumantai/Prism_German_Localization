@@ -197,7 +197,7 @@ HaywardMartF6OrbGirl:
 	para "Kugel, die ich vor"
 	line "fünf Jahren von"
 	para "einem Trainer"
-	cont "bekommen habe."
+	line "bekommen habe."
 	para "Der Trainer wurde"
 	line "später sogar der"
 	para "Champion in Rijon."

@@ -20,7 +20,7 @@ RijonUndergroundHorizontal_Trainer_1:
 
 .battle_won_text
 	ctxt "Mach es nicht"
-	line "grusliger, als es"
+	line "gruseliger, als es"
 	cont "eh schon ist!"
 	done
 

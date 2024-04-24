@@ -67,7 +67,7 @@ JensLabJen:
 	para "Hafen im Kastro-"
 	line "Tal und nimm das"
 	para "Schiff in Richtung"
-	cont "Kampfarkaden."
+	line "Kampfarkaden."
 	sdone
 
 .after_receiving_ticket_text
@@ -81,14 +81,14 @@ JensLabJen:
 	para "ein genialer"
 	line "#mon-Professor"
 	para "werde, wie mein"
-	cont "Großvater vor mir!"
+	line "Großvater vor mir!"
 	done
 
 .free_mon_text
 	ctxt "Ich überlasse dir"
 	line "auch eines dieser"
 	para "frisch geschlüpf-"
-	cont "ten #mon."
+	line "ten #mon."
 	para "Ein Trainer, der"
 	line "so begabt ist wie"
 	para "du, sollte in der"

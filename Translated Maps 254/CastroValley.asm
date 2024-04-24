@@ -16,20 +16,20 @@ CastroValley_GoldToken:
 
 CastroValleyTownSign:
 	ctxt "Die vornehme"
-	line "Hafenstadt."
+	next "Hafenstadt."
 	done
 
 CastroValleyForestSign:
 	ctxt "Kastro-Wald"
-	line "Eingang"
+	next "Eingang"
 	done
 
 CastroValleyGymSign:
 	ctxt "#mon Arena"
-	line "Leiter: Koji"
+	next "Leiter: Koji"
 	nl 	 ""
-	para "Der gnadenlose"
-	line "und harte Trainer!"
+	next "Der gnadenlose"
+	next "und harte Trainer!"
 	done
 
 CastroValleyUnderConstructionSign:

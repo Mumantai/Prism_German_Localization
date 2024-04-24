@@ -20,7 +20,7 @@ SeashoreGymGuide:
 	line "von ihren"
 	para "Psychotricks"
 	line "reinlegen. Du bist"
-cont"in der Arena!"
+    cont"in der Arena!"
 	para "Sie benutzt"
 	line "Psycho-#mon,"
 	cont "also pass auf."

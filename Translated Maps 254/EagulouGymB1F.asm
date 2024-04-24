@@ -24,7 +24,7 @@ EagulouGymB1FGuide:
 	ctxt "Das hier ist im"
 	line "Grunde bloß eine"
 	para "Erweiterung von"
-	cont "Saxifragia Eiland."
+	line "Saxifragia Eiland."
 	para "Es wurde zu voll,"
 	line "weshalb sie einige"
 	para "ihrer Insassen in"
@@ -253,7 +253,7 @@ EagulouGymB1FLeader:
 	para "Sei geduldig und"
 	line "dein #mon wird "
 	para "dein treuester"
-	cont "Freund werden!"
+	line "Freund werden!"
 	para "<PLAYER>!"
 	para "Kampfbereit?"
 	sdone

@@ -86,14 +86,14 @@ EggAppraiserScript:
 	line "Eier-Gutachter!"
 	para "Einige spezielle"
 	line "Eier sind in"
-	para "wirklichkeit"
+	para "Wirklichkeit"
 	line "#mon."
 	para "Bring mir ein Ei"
 	line "und ich kann dir"
 	para "sagen, ob es in"
 	line "Wahrheit ein"
 	para "seltenes #mon"
-	cont "ist!"
+	line "ist!"
 	sdone
 
 .egg_text

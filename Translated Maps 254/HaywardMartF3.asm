@@ -8,7 +8,7 @@ HaywardMartF3NPC1:
 	ctxt "Auf dieser Etage"
 	line "wurden früher"
 	para "Videospiele"
-	cont "verkauft."
+	line "verkauft."
 	done
 
 HaywardMartF3NPC2:

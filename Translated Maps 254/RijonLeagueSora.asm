@@ -46,7 +46,7 @@ RijonLeagueSora_Sora:
 	para "Tor geschafft,"
 	line "doch mit jedem"
 	para "Tor wird es schwe-"
-	cont "rer, Freundchen!"
+	line "rer, Freundchen!"
 	para "Versuche, nicht zu"
 	line "schnell von meiner"
 	para "Macht davongeweht"

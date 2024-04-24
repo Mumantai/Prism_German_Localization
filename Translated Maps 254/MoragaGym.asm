@@ -77,7 +77,7 @@ MoragaGym_Trainer_4:
 	ctxt "Ich möchte auch"
 	line "irgenwann mal eine"
 	para "Arenaleiterin, wie"
-	cont "Lois, sein!"
+	line "Lois, sein!"
 	done
 
 .before_battle_text

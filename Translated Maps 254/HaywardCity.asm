@@ -98,7 +98,7 @@ HaywardCity_PaletteBlue:
 	para "Team Rocket, bis"
 	line "ein Junge namens"
 	para "Brown dem ein Ende"
-	cont "setzte."
+	line "setzte."
 	para "Im letzten halben"
 	line "Jahrzehnt hat er"
 	para "versucht, die"
@@ -109,7 +109,7 @@ HaywardCity_PaletteBlue:
 	para "Palette-Rangers"
 	line "nichts mehr mit"
 	para "unseren Ambitionen"
-	cont "zu tun haben."
+	line "zu tun haben."
 	para "Es liegt alles an"
 	line "mir."
 	para "Lass mich sehen,"
@@ -149,7 +149,7 @@ HaywardCity_PaletteBlue:
 	para "Lust auch einen"
 	line "Anzug zu tragen?"
 	para "Du siehst sicher"
-	line "schick darin aus <...> "
+	line "schick darin aus <...>"
 	done
 
 .declined_text

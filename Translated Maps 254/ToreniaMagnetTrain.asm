@@ -14,23 +14,15 @@ ToreniaMagnetTrainNPC:
 	jumptextfaceplayer .botan_unquarantined
 
 .stuck
-	ctxt "Ich stecke in der"
-	line "Naljo-Region fest."
-	para "Jeder kann zwar"
-	line "ohne Fahrschein in"
-	para "die Rijon-Region"
-	line "fahren, aber"
-	para "Botania City ist"
-	line "aktuell unter"
-	para "Quarantäne,"
-	line "weshalb man die"
-	para "restliche"
-	line "Rijon-Region nicht"
-	cont "besuchen kann."
-	para "Für die Kanto-"
-	line "oder Johto-Region"
-	para "fehlt mir leider"
-	line "der Fahrschein."
+	ctxt "Weil Botania City"
+	line "unter Quarantäne"
+	para "steht und ich"
+	line "nicht die richtige"
+	para "Fahrkarte habe, um"
+	line "nach Kanto oder"
+	para "Johto zu kommen,"
+	line "stecke ich jetzt"
+	cont "in Naljo fest."
 	done
 
 .botan_unquarantined
@@ -61,14 +53,13 @@ ToreniaMagnetTrainBranchLineEmployee:
 	end
 
 .branch_line_not_open
-	ctxt "Wir erweitern"
-	line "unser Netzwerk"
+	ctxt "Wer erweitern"
+	line "unser Schienennetz"
 	cont "nach Norden."
-	para "Es ist noch nicht"
-	line "fertig."
-	para "Bitte kommen Sie"
-	line "zu einem späteren"
-	cont "Zeitpunkt zurück."
+	para "Wir sind aber noch"
+	line "nicht fertig."
+	para "Komm bitte später"
+	line "zurück."
 	done
 
 .want_to_travel
@@ -76,8 +67,7 @@ ToreniaMagnetTrainBranchLineEmployee:
 	para "Möchten Sie mit"
 	line "unserer neuen"
 	para "Erweiterungslinie"
-	line "in die Tunod"
-	cont "Region fahren?"
+	line "nach Tunod fahren?"
 	sdone
 
 ToreniaMagnetTrain_MapEventHeader:

@@ -12,7 +12,7 @@ ToreniaPachisiNPC:
 	line "pures Glück<...>"
 	para "Deshalb verliere"
 	line "ich natürlich auch"
-	cont "immer."
+	cont "jedes Mal."
 	para "Nein, bitte kein"
 	line "Mitleid mit einem"
 	cont "alten Mann<...>"

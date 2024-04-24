@@ -9,11 +9,12 @@ ToreniaMart_GoldToken:
 	db GOLD_TOKEN
 
 ToreniaMartNPC1:
-	ctxt "Die Baustelle ist"
-	line "jetzt bei hiatus."
+	ctxt "Die Bauarbeiten"
+	line "sind zur Zeit"
+	cont "unterbrochen."
 	para "Sehr gut!"
-	para "Die Geräuche waren"
-	line "sehr nervig."
+	para "Der Lärm war so"
+	line "nervig!"
 	done
 
 ToreniaMartNPC2:

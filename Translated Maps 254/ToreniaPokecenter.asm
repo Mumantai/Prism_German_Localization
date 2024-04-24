@@ -5,32 +5,29 @@ ToreniaPokecenter_MapScriptHeader:
 	db 0
 
 ToreniaPokecenterNPC1:
-	ctxt "Warum bekommt die"
-	line "neueste Stadt,"
-	para "sowas altes wie"
+	ctxt "Warum bekommt so"
+	line "eine neue Stadt,"
+	para "sowas Altes wie"
 	line "den Magnetzug?"
-	para "Etwas neues wäre"
-	line "angebracht!"
+	para "Etwas Moderneres"
+	line "wäre angebracht!"
 	done
 
 ToreniaPokecenterNPC2:
 	ctxt "Ich habe nie Glück"
 	line "in Brettspielen."
-	para "Wie das aus der"
-	line "Pachisi Halle."
-	para "Das steht für"
-	line "Mensch ärgere"
-	cont "dich nicht."
-	para "Ich bin echt"
-	line "schlecht darin."
+	para "Wie bei dem, in"
+	line "der Pachisi-Halle."
+	para "Da <``>sterbe<``> ich"
+	line "immer zu."
 	done
 
 ToreniaPokecenterNPC3:
 	ctxt "Diese Stadt ist"
 	line "noch sehr neu."
-	para "Deshalb gibt es so"
-	line "viele schmale"
-	cont "Wege."
+	para "Deshalb gibt es"
+	line "hier so viele enge"
+	cont "Gassen und Wege."
 	done
 
 ToreniaPokecenter_MapEventHeader:: db 0, 0

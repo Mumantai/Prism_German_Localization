@@ -34,8 +34,8 @@ Route83_Trainer:
 	done
 
 .before_battle_text
-	ctxt "Runde 1: KÄMPFT!"
-;ctxt "Round 1: FIGHT!"
+	;ctxt "Runde 1: KÄMPFT!"
+    ctxt "Round 1: FIGHT!"
 	done
 
 .battle_won_text

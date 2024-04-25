@@ -98,7 +98,7 @@ PhloxMylesMyles:
 	para "Er dachte wohl,"
 	line "dass es das Ende"
 	cont "für Ihn ist<...>"
-	para "Ich schrieh:"
+	para "Ich schrie:"
 	para "NEIN!, und trug"
 	line "Ihn aus der Höhle!"
 	para "Sie haben sogar"

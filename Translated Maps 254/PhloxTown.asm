@@ -18,7 +18,7 @@ PhloxTown_MapScriptHeader:
 	return
 
 PhloxTownBingoSign:
-	ctxt "Bingo Halle"
+	ctxt "Bingohalle"
 	done
 
 PhloxTownAcquaMinesSign:
@@ -31,8 +31,8 @@ PhloxTownLabSign:
 	done
 
 PhloxTownTownSign:
-	ctxt "Der Ruhige"
-	next "Gebirgsruecken!"
+	ctxt "Der ruhige"
+	next "Gebirgsrücken!"
 	done
 
 PhloxTownNPC1:
@@ -44,7 +44,7 @@ PhloxTownNPC1:
 	done
 
 PhloxTownNPC2:
-	ctxt "Uns gefällt es"
+	ctxt "Uns gefällt es,"
 	line "abgeschottet von"
 	para "allen anderen zu"
 	line "sein."

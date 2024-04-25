@@ -206,7 +206,7 @@ IlksLabProfIlk:
 
 .earthquake_explanation_text
 	ctxt "Oh, <PLAYER>!"
-	para "Wir haben und 'ne"
+	para "Wir haben uns 'ne"
 	line "ganze Weile nicht"
 	cont "gesehen oder?"
 	para "Da gibt es etwas,"

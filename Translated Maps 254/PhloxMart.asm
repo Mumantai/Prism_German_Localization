@@ -5,7 +5,7 @@ PhloxMart_MapScriptHeader:
 	db 0
 
 PhloxMartNPC1:
-	ctxt "Weist du wo sie"
+	ctxt "Weißt du wo sie"
 	line "die Austüstungen"
 	para "für Skifahrer"
 	line "verkaufen?"

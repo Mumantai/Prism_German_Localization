@@ -7,70 +7,66 @@ TrainerHouse_MapScriptHeader:
 TrainerHouse_Trainer_1:
 	trainer EVENT_TRAINER_HOUSE_TRAINER_1, SUPER_NERD, 2, .before_battle_text, .battle_won_text
 	ctxt "Anscheinend bist"
-	line "du kein Freund!"
+	line "du kein freund!"
 	done
 
 .before_battle_text
 	ctxt "Ich komme oft her,"
-	line "um mit Freunden"
+	line "um mit freunden"
 	cont "zu trainieren."
 	done
 
 .battle_won_text
-	text "<...> Grrrr<...>"
+	text "Wrrrr <...>"
 	done
 
 TrainerHouse_Trainer_2:
 	trainer EVENT_TRAINER_HOUSE_TRAINER_2, SUPER_NERD, 1, .before_battle_text, .battle_won_text
-	ctxt "Ich kenne mich"
-	line "mit den"
-	para "#mon-Typen"
-	line "bestens aus!"
+	ctxt "Ich kenne die Stä-"
+	line "rken aller Typen."
 	done
 
 .before_battle_text
-	ctxt "Viele verschiedene"
-	line "#mon zu haben,"
-	para "hilft dir, mit"
-	line "unterschiedlichen"
-	para "Typen umzugehen."
-	line "Im besten Fall,"
-	para "hat dein Team"
-	line "keine eindeutige"
-	cont "Schwäche mehr!"
+	ctxt "Mit verschiedenen"
+	line "#mon bestehst"
+	cont "du eher gegen"
+	cont "Typ-schwächen."
+	para "Im besten Fall"
+	line "hast du keine Typ-"
+	cont "schwäche mehr!"
 	done
 
 .battle_won_text
-	ctxt "Au, au, au!"
+	ctxt "Ow, ow, ow!"
 	done
 
 TrainerHouse_Trainer_3:
 	trainer EVENT_TRAINER_HOUSE_TRAINER_3, POKEMANIAC, 2, .before_battle_text, .battle_won_text
-	ctxt "Maaan, hör auf zu"
-	line "prahlen!"
+	ctxt "Ja, hör auf zu"
+	line "Prahlen!"
 	done
 
 .before_battle_text
-	ctxt "Was ist?
+	ctxt "mal schauen <...>"
 	done
 
 .battle_won_text
-	ctxt "Ohjemine!"
+	ctxt "Ohyemine!"
 	done
 
 TrainerHouse_Trainer_4:
 	trainer EVENT_TRAINER_HOUSE_TRAINER_4, POKEMANIAC, 1, .before_battle_text, .battle_won_text
 	ctxt "Du hast mich"
-	line "zurück erschreckt<...>"
+	line "geschockt <...>"
 	done
 
 .before_battle_text
-	ctxt "Ha!"
-	para "Und? Erschreckt?"
+	ctxt "Boo!"
+	para "Und? Geschockt?"
 	done
 
 .battle_won_text
-	ctxt "Aaaah! Verloren!"
+	ctxt "NEIN! Verloren!"
 	line "Man bin ich sauer!"
 	done
 
@@ -104,41 +100,37 @@ TrainerHouseBoss:
 	jumptext .after_giving_cyndaquil
 
 .after_giving_cyndaquil
-	ctxt "Feurigel ist"
-	line "ein seltenes"
-	cont "Feuer-#mon."
-	para "Ich bin froh, dass"
-	line "du jetzt sein"
-	para "Trainer bist."
-	line "So langsam gehen"
-	para "mir aber die"
-	line "#mon aus<...>"
+	ctxt "Feurigel ist ein"
+	line "Feuer-Typ #mon."
+	para "Ich freu mich für"
+	line "euch, aber so"
+	para "langsam gehen mir"
+	line "die #mon aus <...>"
+	para "Ich verliere nur!"
 	done
 
 .before_battle_text
-	ctxt "Grüß dich."
-	para "Ich belohne"
-	line "talentierte"
+	ctxt "Grüß dich, ich"
+	line "belohne gute"
 	cont "Trainer."
-	para "Beweise mir, dass"
-	line "du auch eine"
-	cont "verdienst!"
+	para "Hast du das Zeug"
+	line "zum Trainer? <...>"
+	para "Wir werden sehen!"
 	sdone
 
 .battle_won_text
-	ctxt "Waaaaargh!"
-	line "Ich bin besiegt!"
+	ctxt "WAAS!"
+	line "besiegt <...>"
 	done
 
 .after_battle_text
-	ctxt "Glückwunsch."
-	para "Das hast du dir"
-	line "verdient."
-	para "Dieses #mon"
-	line "habe ich gefunden."
-	para "Es braucht einen"
-	line "jungen Trainer,"
-	cont "wie dich!"
+	ctxt "Glückwunsch,"
+	line "Das ist für dich."
+	para "Ich fand dieses"
+	line "#mon und möchte"
+	para "es einem starken"
+	line "Trainer wie dir"
+	cont "überreichen!"
 	done
 
 .got_cyndaquil_text
@@ -147,12 +139,10 @@ TrainerHouseBoss:
 	done
 
 .party_full_text
-	ctxt "Du hast keinen"
-	line "Platz mehr in"
-	cont "deinem Team!"
-	para "Komm wieder, wenn"
-	line "du einen Platz"
-	cont "freigemacht hast."
+	ctxt "Du hast kein Platz"
+	line "im Team!"
+	para "Komm wieder wenn"
+	line "du Platz hast."
 	done
 
 TrainerHouse_MapEventHeader:

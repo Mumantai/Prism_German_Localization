@@ -59,7 +59,7 @@ AcaniaGym_Trainer_1:
 	done
 
 .battle_won_text
-	ctxt "Ughhhhhh<...>"
+	ctxt "Ughhhhhh <...>"
 	done
 
 .clearing_gas_text
@@ -73,9 +73,10 @@ AcaniaGym_Trainer_1:
 
 .gas_cleared_text
 	ctxt "Äh, keine Ahnung"
-	line "was du noch will-<...>"
-	cont "<...> Ich bin so <...>"
-	cont "<...> schläfrig <...>"
+	line "was du noch"
+	cont "willst <...>"
+	para "<...> Ich bin so <...>"
+	line "<...> schläfrig <...>"
 	done
 
 AcaniaGym_Trainer_2:
@@ -150,8 +151,8 @@ AcaniaGymLeader:
 	line "äußerst strengen"
 	para "Zeitplan habe ich"
 	line "tatsächlich Zeit"
-	para "für einen Kampf."
-	line "Also los."
+	cont "für einen Kampf."
+	para "Also los."
 	para "Ich bin Ayaka"
 	line "und nutze"
 	cont "Gas-#mon!"
@@ -163,7 +164,7 @@ AcaniaGymLeader:
 	ctxt "-hust-"
 	para "Puh, das war"
 	line "ja mal was <...>!"
-	para "Naja, was soll's?"
+	para "Naja, was solls <...>"
 	para "Hier hast du den <...>"
 	para "Wie hieß das"
 	line "Ding nochmal?"
@@ -189,9 +190,10 @@ AcaniaGymLeader:
 	ctxt "Die TM heißt"
 	line "Ätznebel."
 	para "Sie, ähh <...>"
-	para "Mein Hirn tut weh<...>"
-	line "Ach, du findest es"
-	cont "schon selbst raus."
+	para "Mein Hirn tut"
+	line "weh <...>"
+	para "Ach, du findest es"
+	line "schon selbst raus."
 	done
 
 .already_battled_text

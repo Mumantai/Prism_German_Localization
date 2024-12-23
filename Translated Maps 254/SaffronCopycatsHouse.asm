@@ -22,7 +22,7 @@ SaffronCopycatsHouseCaterpieDoll:
 SaffronCopycatsHouseLarvitarDoll:
 	ctxt "Eine Larvitar-"
 	line "#puppe!"
-	para "Ah, Erinnerungen<...>"
+	para "Ah, Erinnerungen <...>"
 	done
 
 SaffronCopycat:

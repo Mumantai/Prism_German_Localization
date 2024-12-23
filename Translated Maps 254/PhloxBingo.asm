@@ -286,8 +286,8 @@ PhloxBingoGranny_Text_NoCard:
 	line "Mutter und sogar"
 	para "eine Oma."
 	line "Eine ziemlich"
-	cont "liebe Oma hehe<...>"
-	para "<...>Also weiß ich"
+	cont "liebe Oma hehe <...>"
+	para "<...> Also weiß ich"
 	line "sehr gut, wenn Ihr"
 	para "Kinder anfängt zu"
 	line "lügen!"
@@ -314,7 +314,7 @@ PhloxBingoGranny_Text_WontPlay:
 	ctxt "Willst du nicht"
 	line "mit mir spielen?"
 	para "Ich hab doch sonst"
-	line "nichts zu tun<...>"
+	line "nichts zu tun <...>"
 	done
 
 PhloxBingoGranny_Text_PrizeWaiting:
@@ -361,7 +361,7 @@ PhloxBingoAttendant_Text_NoCard:
 	line "Preise!"
 	para "Die Dame dort"
 	line "drüben hat unseren"
-	para "letzten Zettel<...>"
+	para "letzten Zettel <...>"
 	line "Vieleicht gibt sie"
 	cont "ihn dir."
 	done
@@ -475,7 +475,7 @@ PhloxBingoAttendant_Text_EndPrize:
 
 PhloxBingoAttendant_Text_NoRoomForPrize:
 	ctxt "Du hast kein platz"
-	line "für diesen Preis<...>"
+	line "für diesen Preis <...>"
 	para "Ich bewahre es auf"
 	line "bis du platz genug"
 	para "hast. Aber beeil"

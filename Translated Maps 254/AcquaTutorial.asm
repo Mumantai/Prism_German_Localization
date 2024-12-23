@@ -207,7 +207,7 @@ AcquaTutorialLarvitarOutsideCave:
 	step_end
 
 .found_other_larvitar_text
-	ctxt "Hmm<...> noch ein"
+	ctxt "Hmm <...> noch ein"
 	line "Larvitar."
 	sdone
 

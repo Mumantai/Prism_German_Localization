@@ -55,11 +55,12 @@ IntroOutside_MapScriptHeader:
 	cont "du sein größter."
 	para "Ich weiß, du "
 	line "willst in seine"
-	cont "Fußstapfen treten<...>"
+	para "Fußstapfen"
+	line "treten <...>"
 	para "Aber bitte ver-"
 	line "sprich mir, egal"
 	para "wohin dein Weg"
-	line "dich führt<...>"
+	line "dich führt <...>"
 	para "vergiss nie"
 	line "deine Mutter!"
 	para "Danke für die"
@@ -83,7 +84,7 @@ StartingGameEarthquake:
 
 IntroCampsiteFire:
 	ctxt "Sieht heiß aus!"
-	line "Nicht berühren<...>"
+	line "Nicht berühren <...>"
 	done
 
 IntroCampsiteMom:
@@ -91,7 +92,7 @@ IntroCampsiteMom:
 	line "schön, nicht wahr?"
 	para "Ich habe die Ruhe"
 	line "der Wildnis so"
-	cont "vermisst<...>"
+	cont "vermisst <...>"
 	para "Danke für die"
 	line "schöne Zeit,"
 	cont "<PLAYER>."
@@ -131,7 +132,7 @@ IntroMomLeavingDialogue:
 	para "<...> und <PLAYER> <...>"
 	para "<...>"
 	para "<...> ich liebe"
-	line "dich, mein Kind<...>"
+	line "dich, mein Kind <...>"
 	sdone
 
 .approach_far
@@ -171,7 +172,7 @@ BackOffAfterEarthquake:
 .text
 	ctxt "Diese Felsen"
 	line "könnten auf mich"
-	cont "herabfallen<...>"
+	cont "herabfallen <...>"
 	para "Besser ich ziehe"
 	line "mich fürs erste"
 	para "zurück und suche"

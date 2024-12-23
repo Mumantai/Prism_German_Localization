@@ -17,9 +17,9 @@ AcquaPhloxEntrance_MapScriptHeader:
 
 AcquaPhloxEntranceBlockingHiker:
 	ctxt "In dieser Höhle"
-	para "ändern sich die"
-	line "Gezeiten jeden Tag"
-	cont "ganze drei Mal."
+	line "ändern sich die"
+	para "Gezeiten jeden Tag"
+	line "ganze drei Mal."
 	done
 
 AcquaPhloxEntrance_MapEventHeader:: db 0, 0

@@ -5,10 +5,9 @@ SpurgeGymB1F_MapScriptHeader:
 	db 0
 
 SpurgeGymB1FBoulder:
-	ctxt "Der muss auch"
-	line "ohne #mon"
-	para "bewegt werden"
-	line "können."
+	ctxt "Es muss auch ohne"
+	line "#mon bewegt"
+	cont "werden können."
 	done
 
 SpurgeGymB1FExplodingRock:
@@ -35,10 +34,10 @@ SpurgeGymB1FExplodingRock:
 	step_end
 
 .placed_dynamite_text
-	ctxt "Dynamit am Felsen"
-	line "platziert und"
-	cont "angezündet."
-	para "Geh in Deckung!"
+	ctxt "Du hast den"
+	line "Dynamiten plaziert"
+	cont "und gezündet!"
+	para "Halte abstand!"
 	sdone
 
 SpurgeGymB1FThirdMon:
@@ -62,12 +61,12 @@ SpurgeGymB1FButton:
 	closetextend
 
 .pressed_text
-	ctxt "Knopf gedrückt!"
+	ctxt "Schalter betätigt!"
 	done
 
 .already_pressed_text
-	ctxt "Der Knopf wurde"
-	line "schon gedrückt."
+	ctxt "Der Schalter wurde"
+	line "bereits betätigt."
 	done
 
 SpurgeGymB1F_TrainerDisappears:
@@ -98,27 +97,25 @@ SpurgeGymB1FCadence:
 
 .no_mons_text
 	ctxt "Moment mal!"
-	para "Du kannst nicht"
-	line "ohne #mon gegen"
-	cont "mich kämpfen!"
+	para "Ohne #mon"
+	line "kannst du keinen"
+	cont "Kampf bestreiten!"
 	done
 
 .before_battle_text
-	ctxt "DU!"
-	para "Immer wenn ein"
-	line "Arenaleiter"
-	para "verliert, geht"
-	line "auch ein Stück"
-	para "seines Stolzes den"
-	line "Bach runter."
-	para "Dieses Mal gebe"
-	line "ich ALLES, um dich"
-	cont "FERTIGZUMACHEN!"
+	ctxt "DUUU!"
+	para "Jedesmal wenn ein"
+	line "Arena Leiter"
+	para "verliert, verliert"
+	line "er auch etwas von"
+	cont "seinem Ruf." 
+	para "Diesesmal werde"
+	line "ich mein Stolz"
+	cont "zurück erhalten!"
 	sdone
 
 .battle_won_text
-	ctxt "Neeein! Nicht"
-	para "schon wieder!"
+	ctxt "NICHT SCHON WIEDER"
 	done
 
 .after_battle_text
@@ -149,35 +146,32 @@ SpurgeGymB1FJosiah:
 	end
 
 .no_mons_text
-	ctxt "Warte mal ne"
-	line "Sekunde! Ohne"
-	para "#mon kannst du"
-	line "nicht gegen"
-	cont "mich kämpfen!"
+	ctxt "Moment mal!"
+	para "Ohne #mon"
+	line "kannst du keinen"
+	cont "Kampf bestreiten!"
 	done
 
 .before_battle_text
-	ctxt "Was geht, mein"
-	line "Kumpel?!"
-	para "Letztes Mal, hast"
-	line "du mich ja"
-	para "ordentlich in die"
-	line "Pfanne gehauen,"
-	para "aber das war nur"
-	line "Anfängerglück!"
-	para "Dieses Mal, mache"
-	line "ich dir richtig"
-	para "Feuer unterm"
-	line "Hintern!"
+	ctxt "Wie geht es dir"
+	line "Kollege!"
+	para "Du hast mich zwar"
+	line "beim letzten mal"
+	para "in die Pfanne"
+	line "gehauen, aber das"
+	para "war nur Anfänger-"
+	line "glück."
+	para "Die Hitze wird"
+	line "Hot, warte ab!"
 	sdone
 
 .battle_won_text
-	ctxt "Du fackelst nicht"
-	line "lange, Kumpel!"
+	ctxt "Du bist echt Hot!"
+	line "Läuft bei dir!"
 	done
 
 .after_battle_text
-	ctxt "Wieder verbrannt <...>"
+	ctxt "Wieder Verbrannt <...>"
 	sdone
 
 SpurgeGymB1FEdison:
@@ -203,29 +197,27 @@ SpurgeGymB1FEdison:
 
 .before_battle_text
 	ctxt "Ein Kampf ist ein"
-	line "Kampf und eine"
-	para "Niederlage ist"
-	line "eine Niederlage."
-	para "Ich habe dich für"
-	line "diesen Kampf extra"
-	para "analysiert und"
-	line "neue Techniken"
-	cont "einstduiert."
-	para "Ich werde nicht"
-	line "noch einmal gegen"
-	cont "dich verlieren!"
+	line "Kampf, verlieren"
+	cont "ist verlieren."
+	para "Berechnungen,"
+	line "Analysen und neue"
+	para "Strategien habe"
+	line "ich für diesen"
+	para "Kampf vor-"
+	line "bereitet."
+	para "Diesmal werde ich"
+	line "nicht verlieren!"
 	sdone
 
 .battle_won_text
-	ctxt "Aber <...> wie?!"
+	ctxt "ABER WIE?!"
 	done
 
 .after_battle_text
 	ctxt "Wie konnte ich nur"
-	line "so falsch liegen?!"
-	para "Meine Taktik muss"
-	line "einen Schwachpunkt"
-	cont "haben <...> aber wo?"
+	line "so daneben liegen!"
+	para "Wo war wohl mein"
+	line "schwachpunkt <...>"
 	sdone
 
 SpurgeGymB1FRinji:
@@ -250,41 +242,38 @@ SpurgeGymB1FRinji:
 	end
 
 .before_battle_text
-	ctxt "Grüß dich."
-	para "Ist schon was her."
-	para "Deine Schwing-"
-	line "ungen, zeigen mir,"
-	para "dass du und deine"
-	line "#mon ein noch"
-	para "stärkeres Band als"
-	line "vorher habt."
-	para "Ihr seid viel"
-	line "stärker geworden."
-	para "Diese Stärke will"
-	line "ich testen!"
+	ctxt "Grüß dich." 
+	para "Ist schon etwas" 
+	line "her."
+	para "Allein wie die"
+	line "Luft um dich herum"
+	para "vibriert zeigt die"
+	line "Stärke und Bindung"
+	cont "deiner #mon <...>"
+	para "Mal schauen wie"
+	line "stark die Bindung"
+	cont "wirklich ist!"
 	sdone
 
 .battle_won_text
-	ctxt "Das wachsende"
-	line "Band zwischen"
-	para "#mon und"
-	line "Trainer zu"
-	para "sehen, ist so"
-	line "ergreifend!"
+	ctxt "Es ist Großartig"
+	line "zu sehen wie stark" 
+	para "die Bindung"
+	line "zwischen Trainer"
+	para "und #mon sein"
+	line "kann!"
 	done
 
 .after_battle_text
-	ctxt "Angenehme Reise,"
-	line "mein Freund!"
+	ctxt "Viel Erfolg auf"
+	line "deiner Reise!"
 	sdone
 
 SpurgeGymB1F_Text_GenericNeedOneMon:
-	ctxt "Entschuldige,"
-	line "aber du brauchst"
-	para "schon ein"
-	line "#mon, um"
-	para "gegen mich kämpfen"
-	line "zu können!"
+	ctxt "Entschuldige, aber"
+	line "du brauchst"
+	para "mindestens ein"
+	line "#mon!"
 	done
 
 SpurgeGymB1F_MapEventHeader:: db 0, 0

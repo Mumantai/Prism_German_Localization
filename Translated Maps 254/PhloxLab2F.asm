@@ -272,7 +272,7 @@ PhloxLabF2ElectricPanel:
 	line "elektisches Panel."
 	para "Ist beschädigt."
 	para "Rauch steigt"
-	line "auf<...>"
+	line "auf <...>"
 	done
 
 PhloxLabF2Trainer1:
@@ -285,7 +285,7 @@ PhloxLabF2Trainer1:
 .before_battle_text
 	ctxt "Ist zwar nicht"
 	line "meine Welt, aber"
-	cont "egal<...>"
+	cont "egal <...>"
 	para "Hauptsache ich"
 	line "kann hier an den"
 	para "#mon herum-"
@@ -294,7 +294,7 @@ PhloxLabF2Trainer1:
 
 .battle_won_text
 	ctxt "Ich muss wohl an"
-	line "dir herumdoktern<...>"
+	line "mir herumdoktern <...>"
 	done
 
 PhloxLabF2Trainer2:
@@ -314,7 +314,7 @@ PhloxLabF2Trainer2:
 	done
 
 .battle_won_text
-	ctxt "All meine Träume<...>"
+	ctxt "All meine Träume <...>"
 	line "Futsch!"
 	done
 
@@ -327,49 +327,52 @@ PhloxLabF2PaletteGreen:
 
 .before_battle_text
 	ctxt "Genug von dir!"
-	para "Sag mir."
-	para "Was ist dein Ziel"
-	line "im leben, hmm?"
-	para "Meiner ist es die"
+	para "Sag mir, was ist"
+	line "dein Ziel im"
+	cont "Leben, hmm?"
+	para "Mein Ziel ist es,"
 	line "finanzielle"
 	para "Freiheit zu"
 	line "erreichen."
-	para "Dann kommst du und"
-	line "willst mir all das"
-	cont "wegnehmen."
-	para "Es juckt mich"
-	line "nicht, dass es"
-	cont "Unethisch ist."
-	para "Überall auf der"
-	line "Welt gibt es Un-"
-	cont "gerechtigkeit!"
+	para "Und dann kommst du"
+	line "daher und willst"
+	para "mir all das"
+	line "wegnehmen."
+	para "Es interessiert"
+	line "mich nicht, ob das"
+	cont "unethisch ist."
+	para "Ungerechtigkeit"
+	line "gibt es"
+	para "schließlich"
+	line "überall auf der"
+	cont "Welt!"
 	para "Solange gierige"
 	line "Menschen unsere"
-	cont "Produkte kaufen,"
-	para "werde ich weiter-"
-	line "hin viel Geld"
-	para "machen und mir"
-	line "alles kaufen,"
-	cont "was ich will!"
+	para "Produkte kaufen,"
+	line "werde ich"
+	para "weiterhin ein"
+	line "Vermögen anhäufen"
+	para "und mir jeden"
+	line "Wunsch erfüllen,"
+	cont "den ich habe!"
 	done
 
 .battle_won_text
 	ctxt "Hartnäckiges Kind!"
 	para "Gutes tun bringt"
-	line "gar nichts!"
-	para "Schau dir den"
-	line "Rest der Welt"
-	cont "an!"
-	para "Es herrscht so"
-	line "viel Ungerecht-"
-	para "igkeit und"
-	line "es interessiert"
-	para "einfach keinen!"
-	para "Deshalb sollte es"
-	line "dich nicht jucken,"
-	para "auf was für einen"
-	line "Weg ich mir meine"
-	cont "Träume erfülle!"
+	line "doch gar nichts!"
+	para "Schau dir die Welt"
+	line "an, überall"
+	para "herrscht"
+	line "Ungerechtigkeit,"
+	para "und niemanden"
+	line "interessiert es!"
+	para "Also warum sollte"
+	line "es dich kümmern,"
+	para "welchen Weg ich"
+	line "wähle, um mir"
+	para "meine Träume zu"
+	line "erfüllen?"
 	done
 
 PhloxLabJournal_4:

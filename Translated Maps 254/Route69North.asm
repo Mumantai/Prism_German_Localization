@@ -26,7 +26,7 @@ Route69NorthNPC_1:
 	line "geholfen, ihren"
 	cont "Fang einzuholen."
 	para "Ich vermisse diese"
-	line "Tage<...>"
+	line "Tage <...>"
 	done
 
 Route69NorthNPC_2:

@@ -30,7 +30,7 @@ Route69NorthGateGuard:
 	line "Mal, dass ich mit"
 	para "meinem"
 	line "Vorgesetzten"
-	cont "streite<...>"
+	cont "streite <...>"
 	done
 
 Route69NorthGate_MapEventHeader:: db 0, 0

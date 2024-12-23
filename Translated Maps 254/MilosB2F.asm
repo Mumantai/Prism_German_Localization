@@ -123,12 +123,12 @@ MilosB2FColorSwitchExplanationSign:
 	jumptext .text
 
 .text
-	ctxt "Farbige Schalter"
-	line "entscheiden, ob"
-	para "die Blöcke in der"
-	line "jeweiligen Farbe"
-	para "sichtbar sind oder"
-	line "eben nicht."
+	ctxt "Die Brücken und"
+	line "Blockaden lassen"
+	para "sich mit den"
+	line "Schaltern in der"
+	para "selben Farbe an-"
+	line "und auschalten."
 	done
 
 MilosB2FGreenSwitch:
@@ -140,7 +140,7 @@ MilosB2FGreenSwitch:
 	closetextend
 
 MilosB2F_Text_PulledGreenSwitch::
-	ctxt "<PLAYER> drückt"
+	ctxt "<PLAYER> drückt den"
 	line "grünen Schalter!"
 	sdone
 
@@ -153,7 +153,7 @@ MilosB2FRedSwitch:
 	closetextend
 
 MilosB2F_Text_PulledRedSwitch::
-	ctxt "<PLAYER> drückt"
+	ctxt "<PLAYER> drückt den"
 	line "roten Schalter!"
 	sdone
 
@@ -166,7 +166,7 @@ MilosB2FYellowSwitch:
 	closetextend
 
 MilosB2F_Text_PulledYellowSwitch::
-	ctxt "<PLAYER> drückt"
+	ctxt "<PLAYER> drückt den"
 	line "gelben Schalter!"
 	sdone
 
@@ -179,7 +179,7 @@ MilosB2FBrownSwitch:
 	closetextend
 
 MilosB2F_Text_PulledBrownSwitch::
-	ctxt "<PLAYER> drückt"
+	ctxt "<PLAYER> drückt den"
 	line "braunen Schalter!"
 	sdone
 
@@ -190,12 +190,14 @@ MilosB2FLatinSign1:
 	ctxt "FAC FORTIA ET"
 	line "PATERE"
 	done
+	
 MilosB2FLatinSign2:
 	jumptext .text
 
 .text
 	text "SIC PARVIS MAGNA"
 	done
+	
 MilosB2FLatinSign3:
 	jumptext .text
 
@@ -271,8 +273,8 @@ MilosB2F_BluePatroller:
 	done
 
 .battle_won_text
-	ctxt "Lass mich einmal"
-	line "gewinnen!"
+	ctxt "Lass mich doch"
+	line "einmal gewinnen!"
 	done
 
 MilosB2F_MapEventHeader:: db 0, 0

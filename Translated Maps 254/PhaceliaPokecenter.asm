@@ -25,7 +25,7 @@ PhaceliaPokecenterNPC2:
 	para "die ganzen Erd-"
 	line "beben hier."
 	para "Ich denke es ist"
-	line "ETWAS anderes<...>"
+	line "ETWAS anderes <...>"
 	done
 
 PhaceliaPokecenter_MapEventHeader:

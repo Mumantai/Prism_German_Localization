@@ -22,7 +22,7 @@ GoldenrodCape_Trainer_1:
 
 .before_battle_text
 	ctxt "Meine Exfrau"
-	line "vermisst mich<...>"
+	line "vermisst mich <...>"
 	done
 
 .battle_won_text

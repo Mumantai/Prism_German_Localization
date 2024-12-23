@@ -27,7 +27,7 @@ Route79_Trainer_1:
 
 .before_battle_text
 	ctxt "Ein Gefängnis zu"
-	line "besuchen, isz"
+	line "besuchen, ist"
 	cont "aufregend."
 	
 	para "All diese gefähr-"
@@ -44,7 +44,7 @@ Route79_Trainer_2:
 	trainer EVENT_ROUTE_79_TRAINER_2, BIRD_KEEPER, 6, .before_battle_text, .battle_won_text
 	ctxt "Die Knackis hier"
 	line "sind wie meine"
-	cont "Vögel<...> Im Käfig."
+	cont "Vögel <...> Im Käfig."
 	para "Verstehste?"
 	para "<...>"
 	para "Jetzt lach endlich"
@@ -72,11 +72,11 @@ Route79_Trainer_3:
 	ctxt "Tritt dem Ponita"
 	line "Fanclub bei! Wir"
 	para "sind alle wirklich"
-	cont "super freundlich!"
+	line "super freundlich!"
 	done
 
 .before_battle_text
-	ctxt "Yooo, mein Bruder!"
+	ctxt "Yooo!"
 	
 	para "Ich bin der größte"
 	line "Ponita-Fan!"

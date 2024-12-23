@@ -12,7 +12,7 @@ EspoForestShrine:
 	para "Das folgende ist"
 	line "besonder"
 	para "auffällig:"
-	line "<``>DANKE<...><''>"
+	line "<``>DANKE <...><''>"
 	done
 
 EspoForestShrineNPC:
@@ -52,14 +52,14 @@ EspoForest_Trainer_1:
 EspoForest_Trainer_2:
 	trainer EVENT_ESPO_FOREST_TRAINER_2, MEDIUM, 8, .before_battle_text, .battle_won_text
 	ctxt "<...>"
-	para "<...>Oh, ich empfange"
+	para "<...> Oh, ich empfange"
 	line "ein Signal,"
 	cont "Ehm?"
 	done
 
 .before_battle_text
-	ctxt "Hörst du auch die<...>"
-	line "diese Stimmen<...>?"
+	ctxt "Hörst du auch"
+	line "diese Stimmen <...>?"
 	done
 
 .battle_won_text
@@ -89,7 +89,7 @@ EspoForest_Trainer_3:
 	ctxt "Als würdest du"
 	line "dich in einem"
 	para"#mon Kampf wie"
-	line "Zuhause fühlen<...>"
+	line "Zuhause fühlen <...>"
 	done
 
 EspoForest_Trainer_4:

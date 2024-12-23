@@ -20,9 +20,10 @@ RuinsF5GrappleHookSpot:
 .no_hook_text
 	ctxt "In der Decke ist"
 	line "ein Loch."
-	para "Von da oben, hätte"
-	line "man bestimmt eine"
-	cont "gute Aussicht."
+	para "Wenn man da hoch"
+	line "käme, hätte man"
+	para "eine gute"
+	line "übersicht <...>"
 	done
 
 .use_hook_text
@@ -59,29 +60,30 @@ RuinsF5Chest:
 	endtext
 
 .empty_text
-	ctxt "Sie ist leer."
-	para "Du hast sie schon"
-	line "geplündert."
+	ctxt "Es ist leer."
+	para "Ist das ein"
+	line "Witz?"
 	done
 
 .locked_text
 	ctxt "Die Truhe ist"
-	line "verschlossen."
-	para "Sie hat vier"
-	line "Aussparungen für"
-	cont "Gegenstände."
-	para "Kann man sie"
-	line "vielleicht so"
-	cont "aufschließen?"
+	line "versperrt."
+	para "Es sieht so aus,"
+	line "als könnte man"
+	para "an ihr 4 Items"
+	line "platzieren <...>"
+	para "Kann man Ihn"
+	line "vieleicht so"
+	cont "öffnen?"
 	done
 
 .placed_jewels_text
-	ctxt "Alle vier Juwelen"
-	line "wurden eingesetzt."
+	ctxt "4 Juwelen wurden"
+	line "eingesetzt <...>"
 	para "Sie passen"
 	line "perfekt!"
-	para "Das Schloss ist"
-	line "aufgesprungen!"
+	para "Die Truhe ist"
+	line "offen!"
 	done
 
 .opened_text
@@ -91,40 +93,34 @@ RuinsF5Chest:
 
 RuinsF5_PatrollerGreen:
 	trainer EVENT_RUINS_F5_PALETTE_GREEN, PATROLLER, 14, .before_battle_text, .battle_won_text
-	ctxt "Ich muss auch"
+	ctxt "Schau, ich muss"
 	line "bezahlt werden."
-	para "Jeder muss sich"
-	line "irgendwie seine"
-	para "Brötchen"
-	line "verdienen."
+	para "Jeder muss schauen"
+	line "wie er sich seine"
+	cont "Brötchen verdient."
 	done
 
 .before_battle_text
-	ctxt "Kannst du endlich"
+	ctxt "Kannst du langsam"
 	line "mal aufhören?"
-
 	para "Wir suchen nach"
 	line "den Scherben des"
-	para "Schildkröten-"
-	line "wächters."
-
-	para "Wenn wir sie"
-	line "finden und diesen"
-	para "Wissenschaftler"
-	line "bringen, werden"
-	cont "wir reich!"
-
+	cont "Kröten-Wächters."
+	para "Wir werden Reich,"
+	line "wenn wir es finden"
+	para "und es diesen"
+	line "Forschern"
+	cont "übergeben!"
 	para "Bisher haben wir"
 	line "nur wertlose"
-	para "Juwelen gefunden,"
-	line "aber den hier"
-	cont "kriegst du nicht."
+	cont "Juwelen gefunden <...>"
+	para "Aber diesen hier,"
+	line "kriegst du nicht."
 	done
 
 .battle_won_text
-	ctxt "Das war's wohl mit"
-	line "dem Ferienhaus auf"
-	cont "Alola <...>"
+	ctxt "Das wars mit der"
+	line "Karibik Reise <...>"
 	done
 
 RuinsF5_MapEventHeader:

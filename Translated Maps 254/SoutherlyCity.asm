@@ -13,14 +13,12 @@ SoutherlyCity_MapScriptHeader:
 SoutherlyCityGymSign:
 	ctxt "#mon Arena"
 	next "Leiter: Ernest"
-	nl   ""
 	next "Der Trainer mit"
 	next "der Feuerkraft!"
 	done
 
 SoutherlyCityBattleBuildingSign:
 	ctxt "×Kampf-Dojo×"
-	nl   ""
 	next "Teste deine"
 	next "Fähigkeiten!"
 	done
@@ -31,10 +29,10 @@ SoutherlyCityCitySign:
 	done
 
 SoutherlyCityAirportSign:
-	ctxt "Verkehrsknoten"
+	ctxt "Transport Hub"
 	nl   ""
 	next "Flughafen &"
-	next "Magnetzug"
+	next "Magnetbahn"
 	done
 
 SoutherlyCityBridgeBlock:
@@ -51,58 +49,55 @@ SoutherlyCityBridgeGuard:
 	jumptextfaceplayer .text
 
 .text
-	ctxt "Zur Zeit finden"
-	line "Bauarbeiten an der"
-	cont "Brücke statt."
+	ctxt "An der Brücke wird"
+	line "noch gearbeitet."
 	done
 
 SoutherlyCityRunwayGuard:
-	ctxt "Das ist die"
-	line "Rollbahn für"
+	ctxt "Das ist die "
+	line "Rollbahn für "
 	cont "unseren Flughafen."
 	para "Ich kann dich hier"
 	line "nicht durchlassen,"
-	para "außer du checkst"
+	para "außer du checkst "
 	line "am Terminal ein."
 	done
 
 SoutherlyCityTeleporter:
-	ctxt "Die neue"
-	next "Erweiterung für"
-	next "den Magnetzug ist"
-	next "jetzt geöffnet!"
+	ctxt "Die neue Magnet-"
+	next "bahn erweiterung"
+	next "hat nun geöffnet!"
 	nl   ""
-	next "<DOWN> Verkehrsknoten"
+	next "<DOWN> Transport Hub"
 	done
 
 SoutherlyCityNPC1:
-	ctxt "Am Flughafen gibt"
-	line "es jetzt ein neues"
-	para "Flugzeug, das von"
-	line "Außen überall mit"
-	para "#mon verziert"
-	line "ist!"
+	ctxt "Der Flughafen hat "
+	line "ein neues "
+	cont "Flugzeug!"
+	para "Es ist komplett "
+	line "mit #mon "
+	cont "verziert!"
 	done
 
 SoutherlyCityNPC2:
-	ctxt "Jedes Mal, wenn"
+	ctxt "Jedes Mal, wenn "
 	line "man denkt, man hat"
-	para "den Dreh bei der"
-	line "Ausdauer-Challenge"
-	para "raus, wird man"
-	line "wieder überrascht!"
-	para "Ich versuche schon"
-	line "seit Jahren, sie"
-	cont "zu bestehen!"
+	para "den Dreh bei der "
+	line "Ausdauerübung "
+	para "raus, wird man "
+	line "erneut überrascht!"
+	para "Ich versuche es "
+	line "schon seit Jahren!"
 	done
 
 SoutherlyCityNPC3:
-	ctxt "Es ist verdammt"
-	line "schwer, rüber nach"
+	ctxt "Es ist verdammt "
+	line "schwer rüber nach "
 	cont "Naljo zu kommen."
-	para "Ich hoffe, sie"
-	line "bauen mal eine"
-	cont "Brücke rüber."
+	para "Hoffentlich bauen "
+	line "sie bald eine "
+	cont "Brücke."
 	done
 
 SoutherlyCityTyphlosion:
@@ -113,15 +108,15 @@ SoutherlyCityTyphlosion:
 	endtext
 
 .text
-	ctxt "Tornupto: Ruaaahr!"
+	ctxt "Tornupto: Roar!"
 	done
 
 SoutherlyCityTyphlosionTrainer:
 	ctxt "Mein Tornupto ist "
-	line "mein bester"
+	line "mein bester "
 	cont "Freund!"
 	para "Ich weiß noch, als"
-	line "es ein kleines"
+	line "es ein kleines "
 	cont "Feurigel war <...> "
 	done
 

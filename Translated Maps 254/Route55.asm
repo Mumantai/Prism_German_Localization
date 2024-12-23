@@ -107,7 +107,7 @@ Route55_Trainer_3:
 	cont "Spiel."
 	para "Ich kann Egomane"
 	line "nicht"
-	cont "ausstehen<...>"
+	cont "ausstehen <...>"
 	done
 
 .before_battle_text
@@ -136,7 +136,7 @@ Route55_Dev:
 	para "da die letzten"
 	line "Mieter plötzlich"
 	para "verschwunden"
-	line "sind<...>"
+	line "sind <...>"
 	para "Wir planen, bald"
 	line "zu eröffnen!"
 	done

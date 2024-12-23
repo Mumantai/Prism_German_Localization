@@ -46,7 +46,7 @@ EagulouCity_NPC_1:
 	para "Beim Bau des"
 	line "Gefängnisses"
 	para "zogen viele leute"
-	line "weg<...>"
+	line "weg <...>"
 	done
 
 EagulouCity_NPC_2:
@@ -54,7 +54,7 @@ EagulouCity_NPC_2:
 	line "Grundstück hier zu"
 	para "verkaufen, doch"
 	line "keiner scheint es"
-	cont "zu wollen<...>"
+	cont "zu wollen <...>"
 	para "Kennst du wen der"
 	line "gerne am Meer"
 	cont "wohnen möchte?"
@@ -72,13 +72,13 @@ EagulouCity_NPC_3:
 	para "bauen, aber das"
 	line "Geld zusammen zu"
 	para "bekommen ist sehr"
-	cont "schwierig<...>"
+	cont "schwierig <...>"
 	para "Ob eine Kick-"
 	line "starter Kampagne"
 	cont "helfen würde?"
-	para "<...>Ne, denke nicht."
+	para "<...> Ne, denke nicht."
 	para "Im Internet hat"
-	line "keiner Geld<...>"
+	line "keiner Geld <...>"
 	done
 
 EagulouCity_MapEventHeader:: db 0, 0

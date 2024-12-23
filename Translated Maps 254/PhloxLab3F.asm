@@ -118,7 +118,7 @@ PhloxLabF3CEO:
 	para "#mon endgültig"
 	line "verboten und meine"
 	para "Ergebnisse wurden"
-	line "mir weggenommen<...>"
+	line "mir weggenommen <...>"
 	para "Ich wollte nur die"
 	line "Stärke in der"
 	para "Individualität der"
@@ -178,11 +178,11 @@ PhloxLabF3CEO:
 	para "Insider"
 	line "Informationen"
 	para "bekommen haben"
-	line "musst<...>"
+	line "musst <...>"
 	sdone
 
 .officer_talks_to_black_text
-	ctxt "Wie dem auch sei<...>"
+	ctxt "Wie dem auch sei <...>"
 	line "Gute Arbeit"
 	cont "geleistet, Kind."
 	para "Sehr gute Arbeit."
@@ -212,7 +212,7 @@ PhloxLabF3CEO:
 	line "Kind, du bist aus"
 	para "dem Saxifragia"
 	line "Gefängnis aus-"
-	cont "gebrochen<...>"
+	cont "gebrochen <...>"
 	para "Wenn du uns nicht"
 	line "geholfen hättest,"
 	para "würden wir dich"
@@ -227,8 +227,8 @@ PhloxLabF3CEO:
 	line "nach Hause zu"
 	para "gehen und zu tun"
 	line "was mir Spaß"
-	cont "macht<...>"
-	para "<...>Undzwar der"
+	cont "macht <...>"
+	para "<...> Undzwar der"
 	line "Einzigwahre Arena"
 	para "Leiter von"
 	line "Euphorbia City"
@@ -246,7 +246,7 @@ PhloxLabF3Trainer1:
 	line "mein Spezial-"
 	cont "gebiet."
 	para "Aber für die da"
-	line "oben schon<...>"
+	line "oben schon <...>"
 	done
 
 .before_battle_text
@@ -270,7 +270,7 @@ PhloxLabF3Trainer1:
 PhloxLabF3Trainer2:
 	trainer EVENT_PHLOX_LAB_F3_TRAINER_2, SCIENTIST, 11, .before_battle_text, .battle_won_text
 	ctxt "Das wollte ich nie"
-	line "werden, im ernst<...>"
+	line "werden, im ernst <...>"
 	done
 
 .before_battle_text
@@ -279,7 +279,7 @@ PhloxLabF3Trainer2:
 	cont "Zeit Kind!"
 	para "Ich muss meine"
 	line "Arbeitsstunden"
-	cont "eintragen<...>"
+	cont "eintragen <...>"
 	done
 
 .battle_won_text
@@ -293,7 +293,7 @@ PhloxLabF3Trainer3:
 	ctxt "Ich hätte warten"
 	line "sollen, bis du den"
 	para "CEO zuerst"
-	line "besiegst<...>"
+	line "besiegst <...>"
 	done
 
 .before_battle_text
@@ -311,7 +311,7 @@ PhloxLabF3Trainer3:
 	done
 
 .battle_won_text
-	ctxt "Na toll<...>"
+	ctxt "Na toll <...>"
 	done
 
 PhloxLabJournal_13:
@@ -414,8 +414,8 @@ PhloxLabJournal_17:
 	ctxt "1. Januar 2010"
 	para "Lieferung von 6"
 	line "verbesserten Evoli"
-	para "aus beiden Produk-"
-	line "tionsmethoden"
+	para "aus beiden"
+	line "Produktionsmethoden"
 	cont "abgeschlossen."
 	para "Alle zeigen"
 	line "herausragende"

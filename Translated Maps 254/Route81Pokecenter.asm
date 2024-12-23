@@ -5,23 +5,23 @@ Route81Pokecenter_MapScriptHeader:
 	db 0
 
 Route81PokecenterNPC1:
-	ctxt "Mein #Com hat"
+	ctxt "Mein Handy hat"
 	line "eine GPS Funktion."
 	para "Wir sind bei:"
-	line "32°12'22.9<''>N und"
-	cont "134°20'30.<''>E."
-	para "Cool, was?"
+	line "32.206359,"
+	cont "134.341771."
+	para "Cool was?"
 	done
 
 Route81PokecenterNPC2:
-	ctxt "Ich bin nicht mehr"
-	line "bei Team Rocket."
-	para "Ich trage das nur"
-	line "aus nostalgischen"
-	cont "Gründen. "
-	para "Das war immerhin"
-	line "die Zeit meines"
-	cont "Lebens <...>"
+	ctxt "Ich gehöre nicht"
+	line "mehr Team-Rocket"
+	cont "an."
+	para "Ich trage es für"
+	line "die nostalgie."
+	para "Schließlich war es"
+	line "der höhepunkt"
+	cont "meines Lebens <...>"
 	done
 
 Route81Pokecenter_MapEventHeader:

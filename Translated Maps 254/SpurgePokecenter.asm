@@ -5,28 +5,25 @@ SpurgePokecenter_MapScriptHeader:
 	db 0
 
 SpurgePokecenterNPC1:
-	ctxt "Oh, du bist es"
-	line "wieder!"
-	para "Ich bin's, der,"
-	line "über den die ganze"
-	cont "Stadt spricht!"
-	para "Du weißst schon,"
-	line "der Typ, der die"
-	para "Felsen in der"
-	line "Höhle gesprengt"
-	cont "hat!"
-	para "Ich glaube,"
-	line "dadurch wurden"
-	para "auch weitere Wege"
+	ctxt "Oh, du bist es ja!"
+	para "Ich bins! Der,"
+	line "über den hier alle"
+	cont "reden!"
+	para "Du weißt schon,"
+	line "derjenige der die"
+	cont "Felsen zerstörte!"
+	para "Ich glaube diese"
+	line "Explosion legte"
+	para "auch andere Wege"
 	line "in der Höhle frei."
 	done
 
 SpurgePokecenterNPC2:
-	ctxt "Ich habe Angst,"
-	line "nach Draußen zu"
-	cont "gehen. Wer weiß"
-	para "schon, was da so"
-	line "alles passiert <...>"
+	ctxt "Ich fürchte mich"
+	line "vor der Außenwelt."
+	para "Wer weiß, was dort"
+	line "so alles"
+	cont "passiert <...>"
 	done
 
 SpurgePokecenter_MapEventHeader:

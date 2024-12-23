@@ -15,7 +15,8 @@ Route67HiddenItem:
 	db GOLD_TOKEN
 
 Route67RouteSign:
-	ctxt "Seneca Höhlenfront"
+	ctxt "Seneca-"
+	next "Höhlenfront"
 	next "Der Pfad zur"
 	next "Rijon-Liga!"
 	done

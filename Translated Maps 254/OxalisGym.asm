@@ -29,7 +29,7 @@ OxalisGym_Trainer_2:
 	line "du mit der Hitze"
 	cont "umgehen."
 
-	para "Aber<...> kannst du"
+	para "Aber <...> kannst du"
 	line "auch mit Josiah"
 	cont "umgehen?"
 	done
@@ -142,7 +142,7 @@ OxalisGymLeader:
 	sdone
 
 .battle_won_text
-	ctxt "<...>Whoa!"
+	ctxt "<...> Whoa!"
 
 	para "Du bist Bombe!"
 
@@ -175,7 +175,7 @@ OxalisGymLeader:
 .after_giving_TM_text
 	ctxt "Yo, das ist ne TM"
 	line "und das steht für"
-	para "irgendwas<...> ähm,"
+	para "irgendwas <...> ähm,"
 	line "Technische Machine"
 	cont "oder so."
 
@@ -193,7 +193,7 @@ OxalisGymLeader:
 .already_battled_text
 	ctxt "Digga, die Rijon"
 	line "Liga setzt 8 Orden"
-	cont "vorraus<...>"
+	cont "vorraus <...>"
 
 	para "Also geh und"
 	line "schnapp sie dir"

@@ -49,9 +49,9 @@ EmberBrook_Trainer_2:
 	para "hier für immer"
 	line "schweben und all"
 	para "meine Probleme"
-	line "vergessen<...>"
+	line "vergessen <...>"
 	para "Das Leben ist so"
-	line "grausam<...>"
+	line "grausam <...>"
 	done
 
 .before_battle_text
@@ -62,7 +62,7 @@ EmberBrook_Trainer_2:
 	done
 
 .battle_won_text
-	ctxt "Hm<...>?"
+	ctxt "Hm <...>?"
 	para "Entschuldigung,"
 	line "ich war zu sehr"
 	para "von der"
@@ -108,11 +108,11 @@ EmberBrook_Trainer_4:
 	para "Es tut mir leid,"
 	line "ich fürchte, das"
 	para "können wir nicht"
-	line "zulassen<...>"
+	line "zulassen <...>"
 	done
 
 .battle_won_text
-	ctxt "Stop, stop<...>"
+	ctxt "Stop, stop <...>"
 	done
 
 EmberBrook_Trainer_4_OtherTwin:
@@ -169,7 +169,7 @@ EmberBrook_Trainer_5:
 
 .battle_won_text
 	ctxt "Oh Gott, das war"
-	line "so dumm<...>"
+	line "so dumm <...>"
 	done
 
 EmberBrook_Trainer_6:
@@ -179,7 +179,7 @@ EmberBrook_Trainer_6:
 	para "gesagt, dass es"
 	line "wertvolle Juwelen"
 	para "in diesem Berg"
-	line "gibt<...>"
+	line "gibt <...>"
 	para "Aber es steckt in"
 	line "den Felsen, und"
 	para "ich bin kein"

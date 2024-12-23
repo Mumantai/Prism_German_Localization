@@ -36,21 +36,21 @@ PrisonWorkoutNPC2:
 	line "ist das einzige,"
 	para "was ich zur"
 	line "Abwechslung noch"
-	cont "tun kann<...>"
+	cont "tun kann <...>"
 	para "Es füllt dennoch"
 	line "nicht die Leere"
-	cont "in mir<...>"
+	cont "in mir <...>"
 	para "Als sie mich hier"
 	line "einsperrten,"
 	para "trennten Sie mich"
 	line "von meinen"
-	cont "#mon<...>"
+	cont "#mon <...>"
 	para "Die Freundschaft"
 	line "zwischen uns war"
 	para "so stark, wie es"
 	line "meine Muskeln"
 	para "niemals werden"
-	line "könnten<...>"
+	line "könnten <...>"
 	done
 
 PrisonWorkoutKeyGuy:
@@ -72,7 +72,7 @@ PrisonWorkoutKeyGuy:
 	para "Was willst du"
 	line "kleiner Wurm?"
 	para "Suchst du nach"
-	line "Zellenschlüsseln?"
+	line "Zellenschlüssel?"
 	para "Jup, ich hab noch"
 	line "einen zweiten."
 	para "Ich brauchs nicht,"
@@ -117,7 +117,7 @@ PrisonWorkoutGuard:
 	jumptext .password_text
 
 .already_beaten_text
-	ctxt "Hey Kiddie."
+	ctxt "Habibi."
 	para "Du solltest mit"
 	line "den leichtesten"
 	cont "Gewichten starten."
@@ -130,13 +130,13 @@ PrisonWorkoutGuard:
 
 .before_battle_text
 	ctxt "Ohaa Cüüsch!"
-	para "Du pisser hast"
+	para "Du opfer hast"
 	line "mich voll"
 	para "erschreckt jaaa,"
 	line "ich schwör."
 	para "Hier geht so"
 	line "viel krasses ab"
-	cont "und so<...>"
+	cont "und so <...>"
 	para "Lass uns zur be-"
 	line "ruhigung kämpfen!"
 	para "Aber ohne treten"
@@ -144,36 +144,36 @@ PrisonWorkoutGuard:
 	sdone
 
 .battle_won_text
-	ctxt "Das ist"
-	line "unglaublich."
+	ctxt "Voll Krass"
+	line "jaa."
 	done
 
 .after_winning_text
 	ctxt "Pass da unten"
-	line "auf dich auf."
+	line "auf disch auf."
 	para "Diese #mon sind"
-	line "Unvorhersehbar."
+	line "gefährlisch."
 	done
 
 .password_text
-	ctxt "Was ist das?"
-	para "Johnny-boy sagte"
+	ctxt "Was sagst du da?"
+	para "Bruder John sagte"
 	line "es ist OK dir den"
 	cont "Passwort zu geben?"
-	para "Ah, OK. Bitte"
-	line "Entschuldige."
+	para "Ah, Tamam."
+	
 	para "Das Passwort für"
 	line "das Haupt-Tor"
 	para "lautet:"
-	line "Wigglyjelly."
+	line "BAKLAVA"
 	para "Es ist eine"
 	line "Süßigkeit aus"
-	cont "den USA!"
+	cont "der Türkei!"
 	para "Oder war es:"
-	line "Jigglydoughnut<...>?"
+	line "LAHMACUN?"
 	para "Ne, ne, ne! ich"
 	line "bin sicher es war:"
-	cont "Wigglyjelly!"
+	cont "BAKLAVA!"
 	done
 
 PrisonWorkoutNurse:

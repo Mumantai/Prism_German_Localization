@@ -51,7 +51,7 @@ Route71WestNPC3:
 	line "herunter falle?"
 	para "Vielleicht, kann"
 	line "ich ja einfach"
-	cont "runter kriechen<...>"
+	cont "runter kriechen <...>"
 	done
 
 Route71WestNPC4:

@@ -43,7 +43,7 @@ EspoClearing_Trainer_1:
 	done
 
 .battle_won_text
-	ctxt "<...>Aua, mein Kopf<...>"
+	ctxt "<...> Aua, mein Kopf <...>"
 	done
 
 EspoClearing_MapEventHeader:: db 0, 0

@@ -23,7 +23,8 @@ CastroSuperRodNPC:
 .after_rod_text
 	ctxt "Wenn du meine"
 	line "Verwandten"
-	cont "triffst, grüß sie!"
+	para "triffst, grüß sie"
+	line "von mir!"
 	done
 
 .love_fishing_text

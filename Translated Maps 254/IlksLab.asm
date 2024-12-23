@@ -103,7 +103,7 @@ IlksLabProfIlk:
 	sdone
 
 .first_encounter_text
-	ctxt "<...>!"
+	ctxt "<...> !"
 	para "Wer, wie wo!?"
 	para "Wer bist du?"
 	para "Wer ICH bin???"
@@ -113,7 +113,7 @@ IlksLabProfIlk:
 	line "führender"
 	cont "Forscher!"
 	para "<...>"
-	para "Moment mal<...>"
+	para "Moment mal <...>"
 	para "Oh, das ist ja"
 	line "mein Larvitar!"
 	para "Ich konnte es"
@@ -206,7 +206,7 @@ IlksLabProfIlk:
 
 .earthquake_explanation_text
 	ctxt "Oh, <PLAYER>!"
-	para "Wir haben uns 'ne"
+	para "Wir haben uns eine"
 	line "ganze Weile nicht"
 	cont "gesehen oder?"
 	para "Da gibt es etwas,"

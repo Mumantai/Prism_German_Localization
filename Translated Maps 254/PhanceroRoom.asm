@@ -44,7 +44,7 @@ PhanceroNPC:
 
 .get_balls_text
 	ctxt "Dein Beutel ist"
-	line "nun schwerer<...>"
+	line "nun schwerer <...>"
 	sdone
 
 PhanceroEncounterData:

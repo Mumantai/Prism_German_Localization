@@ -111,7 +111,7 @@ Route74_NPC_1:
 	cont "betrieben hat?"
 	para "Die Gesellschaft"
 	line "denkt nie an die"
-	cont "kleinen Leute<...>"
+	cont "kleinen Leute <...>"
 	done
 
 Route74_MapEventHeader:: db 0, 0

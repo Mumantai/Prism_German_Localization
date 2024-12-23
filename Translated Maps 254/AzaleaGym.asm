@@ -176,7 +176,7 @@ AzaleaGymGuide:
 	done
 
 AzaleaGym_OhMyGoodnessText:
-	ctxt "Oh nein<...>"
+	ctxt "Oh nein <...>"
 	done
 
 AzaleaGym_MapEventHeader:: db 0, 0

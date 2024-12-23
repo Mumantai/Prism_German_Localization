@@ -99,7 +99,7 @@ LaurelForestLab_Totodile:
 	line "nicht sicher, ob"
 	para "ich wieder zu mei-"
 	line "ner Besitzerin"
-	cont "zurück will<...>"
+	cont "zurück will <...>"
 	para "Sie ist so nervig."		
 	para "<...>"
 	para "Warte, WAS?"

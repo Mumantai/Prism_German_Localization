@@ -24,7 +24,7 @@ SouthSoutherly_Trainer_1:
 
 .battle_won_text
 	ctxt "Gut! Angel ich"
-	line "halt wo anders<...>"
+	line "halt wo anders <...>"
 	done
 
 SouthSoutherly_Trainer_2:
@@ -53,7 +53,7 @@ SouthSoutherly_Trainer_3:
 	done
 
 .before_battle_text
-	ctxt "Suntia City liegt"
+	ctxt "Südport City liegt"
 	line "im Norden."
 	para "Seltsam, oder?"
 	done
@@ -72,7 +72,7 @@ SouthSoutherly_Trainer_4:
 .before_battle_text
 	ctxt "Tentacha sind so"
 	line "nervig! Und ihre"
-	cont "Tentakel erst<...> "
+	cont "Tentakel erst <...>"
 	done
 
 .battle_won_text

@@ -430,7 +430,7 @@ Text_OhPleaseWait:
 Text_ChangeTheLook:
 	ctxt "Wir müssen hier"
 	line "das Aussehen"
-	cont "ändern<...> "
+	cont "ändern <...> "
 	done
 
 Text_LikeTheLook:

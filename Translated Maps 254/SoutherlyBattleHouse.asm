@@ -124,17 +124,16 @@ SoutherlyBattleHouseNPC:
 
 .introduction_text
 	ctxt "Willkommen bei der"
-	line "Ausdauer-Challenge"
-	cont "von Suntia City!"
-	para "Hier erwarten dich"
-	line "sieben knallharte"
-	cont "Trainer!"
-	para "Schaffst du es,"
-	line "sie alle am Stück"
-	para "zu besiegen,"
-	line "bekommst du einen"
-	cont "besonderen Preis!"
-	para "Traust du dich?"
+	line "Ausdauerübung!"
+	para "Du wirst dich 7 "
+	line "starken Trainern "
+	cont "stellen."
+	para "Schaffst du sie "
+	line "alle, bekommst du "
+	para "einen besonderen "
+	line "Preis!"
+	para "Willst du es "
+	line "ausprobieren?"
 	done
 
 .accepted_text
@@ -142,33 +141,34 @@ SoutherlyBattleHouseNPC:
 	sdone
 
 .declined_text
-	ctxt "Dann vielleicht"
-	line "ein andermal."
+	ctxt "In Ordnung."
+	para "Bis bald!"
 	done
 
 .challenge_won_text
 	ctxt "Du hast Gewonnen!"
-	para "Hier ist dein"
+	para "Hier ist dein "
 	line "Preis!"
 	prompt
 
 .challenge_lost_text
 	ctxt "Wie schade."
-	para "Versuch es doch"
-	line "noch einmal!"
+	para "Versuch es wann "
+	line "anders wieder."
 	done
 
 .come_back_later_text
-	ctxt "Du hast keinen"
-	line "Platz für deinen"
-	cont "Preis."
-	para "Komm wieder, wenn"
-	line "du ihn mitnehmen"
-	cont "kannst."
+	ctxt "Solange du keinen "
+	line "Platz für deinen "
+	para "Preis hast, werde "
+	line "ich ihn vorerst "
+	cont "behalten."
+	para "Komm wieder, um "
+	line "ihn mitzunehmen."
 	done
 
 .holding_prize_text
-	ctxt "Du wilst deinen"
+	ctxt "Du wilst deinen "
 	line "Preis abholen?"
 	para "Hier ist er!"
 	done
@@ -210,42 +210,42 @@ SoutherlyBattleHouse_TrainerDataEnd:
 	battlehousetrainer COOLTRAINER_M, RED,   COOLTRAINERM, 12, StaminaTrainer7EncounterText, StaminaTrainer7DefeatedText, StaminaTrainer7AfterText
 
 StaminaTrainer1EncounterText:
-	ctxt "Ich habe eine neue"
-	line "Attacke entdeckt"
-	para "und werde sie an"
-	line "dir testen!"
+	ctxt "Ich versuch mein "
+	line "#mon eine neue "
+	para "Attacke einsetzen "
+	line "zu lassen!"
 	done
 
 StaminaTrainer1DefeatedText:
-	ctxt "Stahlfresser ist"
-	line "super, aber du"
+	ctxt "Stahlbiss ist "
+	line "super, aber du "
 	cont "bist noch besser!"
 	done
 
 StaminaTrainer1AfterText:
-	ctxt "Eines Tages werde"
-	line "ich noch mehr"
-	para "Attacken"
-	line "entdecken!"
+	ctxt "Eines Tages "
+	line "entdecke ich noch "
+	cont "mehr Attacken!"
 	done
 
 StaminaTrainer2EncounterText:
-	ctxt "Drauf habe ich"
-	line "gewartet!"
+	ctxt "Snibunna ist der "
+	line "Star meines Teams!"
 	done
 
 StaminaTrainer2DefeatedText:
-	ctxt "Das war das Warten"
-	line "wert!"
+	ctxt "Es konnte mich "
+	line "nicht retten!"
 	done
 
 StaminaTrainer2AfterText:
-	ctxt "Gib niemals auf!"
+	ctxt "Nächstes Mal zeig "
+	line "ich's dir!"
 	done
 
 StaminaTrainer3EncounterText:
 	ctxt "Hmmm?"
-	para "Kenne ich dich?"
+	para "Kenn ich dich?"
 	done
 
 StaminaTrainer3DefeatedText:
@@ -253,37 +253,38 @@ StaminaTrainer3DefeatedText:
 	done
 
 StaminaTrainer3AfterText:
-	ctxt "Du bist wirklich"
+	ctxt "Du bist wirklich "
 	line "Siegfrieds Kind?"
 	done
 
 StaminaTrainer4EncounterText:
-	ctxt "Snibunna ist der"
-	line "Star meines Teams!"
+	ctxt "Darauf habe ich "
+	line "gewartet!"
 	done
 
 StaminaTrainer4DefeatedText:
-	ctxt "Es konnte mich"
-	line "nicht retten!"
+	ctxt "Das Warten hat "
+	line "sich gelohnt!"
 	done
 
 StaminaTrainer4AfterText:
-	ctxt "Nächstes Mal"
-	line "zeigen wir es dir!"
+	ctxt "Danke fürs "
+	line "Durchhalten!"
 	done
 
 StaminaTrainer5EncounterText:
 	ctxt "Oh, hallo."
-	para "Lass uns kurz"
+	para "Lass uns kurz "
 	line "kämpfen."
-	para "Ist ja nicht so,"
-	line "als hättest du was"
-	cont "Besseres zu tun."
+	para "Ist ja nicht so, "
+	line "also hättest du "
+	para "was Besseres zu "
+	line "tun."
 	done
 
 StaminaTrainer5DefeatedText:
-	ctxt "Oh. Naja, ich bin"
-	para "nicht beeindruckt."
+	ctxt "Oh. Nun, ich bin"
+	line "beeindruckt."
 	done
 
 StaminaTrainer5AfterText:
@@ -304,8 +305,8 @@ StaminaTrainer6EncounterText:
 	done
 
 StaminaTrainer6DefeatedText:
-	ctxt "Autsch! Disko und"
-	line "Feuer vertragen"
+	ctxt "Au! Disko und"
+	line "Feuer vertragen "
 	cont "sich nicht!"
 	done
 
@@ -315,13 +316,13 @@ StaminaTrainer6AfterText:
 	done
 
 StaminaTrainer7EncounterText:
-	ctxt "Mir ist echt"
+	ctxt "Mir ist "
 	line "langweilig."
-	cont "Lass uns kämpfen!"
+	cont "Lass kämpfen!"
 	done
 
 StaminaTrainer7DefeatedText:
-	ctxt "<...> jetzt ist mir "
+	ctxt "<...> jetzt ist mir"
 	line "wieder langweilig."
 	done
 

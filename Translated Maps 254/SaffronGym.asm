@@ -6,7 +6,8 @@ SaffronGym_MapScriptHeader:
 
 SaffronGymSign:
 	ctxt "Saffronia Arena"
-	line "Leiterin: Sabrina"
+	
+	para "Leiterin: Sabrina"
 	done
 
 SaffronGymGuide:
@@ -14,12 +15,12 @@ SaffronGymGuide:
 	line "Herausforderer!"
 	para "Sabrina ist die"
 	line "stärkste Arena-"
-	line "leiterin in Kanto!"
-	para "Sie hat schon"
-	line "unzählige"
-	para "Einladungen für"
-	line "die Top Vier"
-	cont "abgelehnt. Manche"
+	para "leiterin in Kanto!"
+	line "Sie hat schon"
+	para "unzählige"
+	line "Einladungen für"
+	para "die Top Vier"
+	line "abgelehnt. Manche"
 	para "sagen sogar, ihre"
 	line "Psycho-Kräfte"
 	para "wären selbst dem"
@@ -192,11 +193,11 @@ SaffronGymSabrina:
 
 .before_battle_text
 	ctxt "Du <...> ich habe"
-	para "deine Ankunft"
-	line "bereits erwartet."
-	para "Ich habe sie vor"
-	line "Jahren schon"
-	cont "vorhergesehen."
+	line "deine Ankunft"
+	para "bereits erwartet."
+	line "Ich habe sie vor"
+	para "Jahren schon"
+	line "vorhergesehen."
 	para "Als Arenaleiterin"
 	line "ist es meine"
 	para "Pflicht, jeden"

@@ -59,8 +59,8 @@ Route59_Trainer_2:
 	line "hast nur gewonnen."
 	para "Ist ja nicht so"
 	line "das du jetzt Champ"
-	cont "geworden bist<...>"
-	para "Moment mal<...>"
+	cont "geworden bist <...>"
+	para "Moment mal <...>"
 	line "Du bist der CHAMP!"
 	done
 

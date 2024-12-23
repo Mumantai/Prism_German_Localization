@@ -42,7 +42,7 @@ PrisonCafeteriaNPC3:
 	done
 
 PrisonCafeteriaNPC4:
-	ctxt "Mampf<...>"
+	ctxt "Mampf <...>"
 	para "Ich bin überascht,"
 	line "dass das Essen so"
 	cont "gut schmeckt."

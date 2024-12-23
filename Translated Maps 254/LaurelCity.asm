@@ -116,7 +116,7 @@ LaurelCityTotodileRunsFromGym:
 LaurelCityMagnetTrainPoster:
 	ctxt "Es ist ein altes,"
 	line "abblätterndes."
-	cont "Plakat<...>"
+	cont "Plakat <...>"
 	para "Naljo öffnet sich"
 	line "endlich der Welt!"
 	para "Entdeckt den neuen"

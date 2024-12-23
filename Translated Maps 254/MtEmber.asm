@@ -64,7 +64,7 @@ MtEmber_Trainer_2:
 	done
 
 .battle_won_text
-	ctxt "Bitte<...> höre"
+	ctxt "Bitte <...> höre"
 	line "mir zu."
 	done
 
@@ -129,7 +129,7 @@ MtEmber_Trainer_5:
 	line "solltest wissen,"
 	para "dass ich mich sehr"
 	line "niedergeschlagen"
-	cont "fühle<...>"
+	cont "fühle <...>"
 	done
 
 .battle_won_text

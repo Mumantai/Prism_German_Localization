@@ -112,7 +112,7 @@ GoldenrodUnderground_Trainer_5:
 
 .before_battle_text
 	ctxt "!"
-	para "Wer<...>!?"
+	para "Wer <...>!?"
 	done
 
 .battle_won_text

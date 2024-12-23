@@ -165,7 +165,7 @@ CastroGymTrainer3:
 .before_battle_text
 	ctxt "Koji ist heiß."
 	para "Sich wie er zu"
-	line "verkleiden<...>"
+	line "verkleiden <...>"
 	para "EIN TRAUM!"
 	sdone
 

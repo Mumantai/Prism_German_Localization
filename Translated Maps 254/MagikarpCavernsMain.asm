@@ -229,7 +229,7 @@ MagikarpCavernsMainSage:
 	line "mehr von der Welt!"
 	para "Ich werde deine"
 	line "Reise weiter"
-	cont "beobachten<...>"
+	cont "beobachten <...>"
 	done
 
 

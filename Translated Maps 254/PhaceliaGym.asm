@@ -23,7 +23,7 @@ PhaceliaGym_Trainer_1:
 
 .before_battle_text
 	ctxt "Du brauchst jahre-"
-	line "langes training"
+	line "langes Training"
 	para "bevor Andre dich"
 	line "überhaupt als"
 	cont "Schüler aufnimmt!"
@@ -71,7 +71,7 @@ PhaceliaGym_Trainer_3:
 .before_battle_text
 	ctxt "Ich bin zwar nur"
 	line "der Stellvertreter"
-	para "hier<...> Aber"
+	para "hier <...> Aber"
 	line "das ist egal!"
 	para "An mir kommst du"
 	line "nicht vorbei."
@@ -124,7 +124,9 @@ PhaceliaGymLeader:
 	para "Meine Jünger"
 	line "brauchen ein"
 	cont "härteres Training!"
+	
 	para "Ich bin Andre."
+	
 	para "Diese Höhle hier"
 	line "ist unser Zuhause."
 	para "Meine #mon und"
@@ -141,8 +143,8 @@ PhaceliaGymLeader:
 	para "Statt einfach Ihre"
 	line "Körper zu einer"
 	para "Maschiene zu"
-	line "transofrmieren<...>"
-	para "Naja egal<...>"
+	line "transformieren <...>"
+	para "Naja egal <...>"
 	para "Jetzt zeige ich"
 	line "dir meine Brutale"
 	para "Berge-Zerfetzende"
@@ -180,7 +182,9 @@ PhaceliaGymLeader:
 	line "Technologie lösen"
 	para "um Hart und flei-"
 	line "ßig zu bleiben."
-	para "Nimm schon."
+	para "Hier, nimm noch"
+	line "das hier <...>"
+	cont ""
 	done
 
 .after_giving_TM_text

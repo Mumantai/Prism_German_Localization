@@ -89,7 +89,7 @@ Route72_Trainer_4:
 	done
 
 .battle_won_text
-	ctxt "Pikachu<...>"
+	ctxt "Pikachu <...>"
 	done
 
 Route72_MapEventHeader:: db 0, 0

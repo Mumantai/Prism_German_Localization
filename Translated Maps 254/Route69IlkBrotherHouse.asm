@@ -18,7 +18,7 @@ Route69IlkBrotherHouseStove:
 
 Route69IlkBrotherHouseSink:
 	ctxt "Bäh!"
-	para "Was für eine!"
+	para "Was für eine"
 	line "dreckige Spüle!"
 	done
 
@@ -46,9 +46,9 @@ IlkBrothersInTrouble:
 	ctxt "Endlich!"
 	para "Die Polizei ist"
 	line "da!"
-	para "Warte<...>"
+	para "Warte <...>"
 	para "Du bist ja nur ein"
-	line "Kind<...>"
+	line "Kind <...>"
 	para "<...>"
 	para "Was denkt sich die"
 	line "Polizei nur dabei,"
@@ -57,7 +57,7 @@ IlkBrothersInTrouble:
 	para "<...>"
 	para "Oh? Prof. Ilk"
 	line "sandte dich?"
-	para "Naja dann<...>"
+	para "Naja dann <...>"
 	para "Siehst du den"
 	line "Jungen da?"
 	para "Er ist einge-"
@@ -135,7 +135,7 @@ IlkBrothersTalkToRival:
 
 .talk_to_bagon_text
 	ctxt "Haha!"
-	para "Du gehörst mir<...>"
+	para "Du gehörst mir <...>"
 	para "Wehre dich nicht,"
 	line "wenn du nicht"
 	para "verletzt werden"
@@ -153,7 +153,7 @@ IlkBrothersTalkToRival:
 .battle_won_text
 	ctxt "Dieses Werkzeug"
 	line "muss noch"
-	cont "geformt werden<...>"
+	cont "geformt werden <...>"
 	para "Ich mache es"
 	line "stärker, egal was"
 	cont "es kostet!"
@@ -187,24 +187,24 @@ IlkBrothersTalkToRival:
 
 .after_naming_rival_text
 	ctxt "<RIVAL>, also?"
-	para "Dein Larvitar<...>"
+	para "Dein Larvitar <...>"
 	para "Ist es das von"
 	line "meinem Bruder?"
 	para "Oh, du hast ihn"
 	line "bereits getroffen?"
-	para "Ach stimmt ja,"
-	line "solltest nach mir sehen,"
-	cont "nicht wahr?"
+	para "Ach stimmt ja, du"
+	line "solltest nach mir"
+	cont "sehen, nicht wahr?"
 	para "So ist mein Bruder"
-	line "nunmal<...>"
+	line "nunmal <...>"
 	para "Bring ihm bitte"
 	line "sein Larvitar"
 	para "zurück, die beiden"
 	line "haben gemeinsam"
 	para "sehr viel durch"
-	line "gemacht<...>"
+	line "gemacht <...>"
 	para "Er liebt dieses"
-	line "#mon sehr<...>"
+	line "#mon sehr <...>"
 	done
 
 Route69IlkBrotherHouseIlkBrother:
@@ -222,7 +222,7 @@ Route69IlkBrotherHouseIlkBrother:
 	line "du versucht hast"
 	cont "ihn zu stoppen."
 	para "Ich hoffe Kindwurm"
-	line "geht es gut<...>"
+	line "geht es gut <...>"
 	done
 
 Route69IlkBrotherHouse_MapEventHeader:

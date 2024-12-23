@@ -14,7 +14,7 @@ Route34EmptyHouseSign:
 	ctxt "Verkauft."
 	para "Sieht so aus, als "
 	line "würde hier noch"
-	cont "niemand leben<...>"
+	cont "niemand leben <...>"
 	done
 
 Route34ApricornAdSign:
@@ -99,7 +99,7 @@ Route34NPC1:
 	para "hat ihn verlassen,"
 	line "als das Erdbeben"
 	cont "kam."
-	para "Ich<...> habe ihn"
+	para "Ich <...> habe ihn"
 	para "erworben und an"
 	line "einen Investor in"
 	para "der Onwa-Region"

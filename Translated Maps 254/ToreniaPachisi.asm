@@ -9,13 +9,13 @@ ToreniaPachisiGameOperator:
 
 ToreniaPachisiNPC:
 	ctxt "Diese Spiel ist"
-	line "pures Glück<...>"
+	line "pures Glück <...>"
 	para "Deshalb verliere"
 	line "ich natürlich auch"
-	cont "jedes Mal."
+	cont "immer."
 	para "Nein, bitte kein"
 	line "Mitleid mit einem"
-	cont "alten Mann<...>"
+	cont "alten Mann <...>"
 	done
 
 ToreniaPachisi_MapEventHeader:

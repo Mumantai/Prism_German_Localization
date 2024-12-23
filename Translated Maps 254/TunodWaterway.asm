@@ -10,46 +10,46 @@ TunodWaterwayHiddenItem:
 
 TunodWaterway_Trainer_1:
 	trainer EVENT_TUNOD_WATERWAY_TRAINER_1, SWIMMERM, 11, .before_battle_text, .battle_won_text
-	ctxt "Du solltest"
-	line "dankbar sein,"
-	para "dass wie die"
-	line "Technologie"
-	para "haben, um #mon"
-	line "zu zähmen."
+	ctxt "Du solltest dank-"
+	line "bar sein, dass wir"
+	para "eine Technologie"
+	line "haben um #mon"
+	cont "zu zähmen."
 	done
 
 .before_battle_text
 	ctxt "Schwimm gefälligst"
-	line "selber, wie ich!"
+	line "alleine, wie ich!"
 	done
 
 .battle_won_text
-	ctxt "Ich dachte, meine"
-	line "#mon hätten"
-	para "mehr Energie, wenn"
-	line "sie mich nicht"
-	cont "tragen müssen<...>"
+	ctxt "Wenigstens müssen"
+	line "meine #mon mich"
+	para "nicht beim"
+	line "Schwimmen tragen <...>"
 	done
 
 TunodWaterway_Trainer_2:
 	trainer EVENT_TUNOD_WATERWAY_TRAINER_2, SWIMMERF, 8, .before_battle_text, .battle_won_text
-	ctxt "Das Fortschreiten"
-	line "der Zivilisation"
-	para "zerstört ruhige"
-	line "Orte, wie diesen"
-	cont "hier."
+	ctxt "Wir verlieren mehr"
+	line "und mehr Privat-"
+	para "spähre, je offener"
+	line "die Welt wird."
 	done
 
 .before_battle_text
 	ctxt "Das war mal mein"
-	line "geheimer Ort, bis"
-	para "Suntia City diesen"
-	line "Pfad eröffnet hat<...>"
+	line "geheimer Ort"
+	para "wo ich für mich"
+	line "selbst sein konnte"
+	para "bevor Südport City"
+	line "die Passage hier"
+	cont "eröffnete."
 	done
 
 .battle_won_text
-	ctxt "Siehst du jetzt,"
-	line "warum ich diesen"
+	ctxt "Siehst du nun,"
+	line "wieso ich diesen"
 	para "Ort nur für mich"
 	line "haben wollte?"
 	done

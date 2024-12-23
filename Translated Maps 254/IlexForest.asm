@@ -12,7 +12,7 @@ IlexForestShrine:
 	ctxt "Dieser Schrein"
 	line "wurde zu Ehren des"
 	para "Schutzpatrons des"
-	line "Waldes errichtety<...>"
+	line "Waldes errichtet <...>"
 	done
 
 IlexForestSign:

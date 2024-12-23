@@ -49,7 +49,7 @@ Route77JewelersExplanationNPC:
 	para "du auf dem Tisch"
 	line "direkt über mir."
 	
-	para "Also<...>"
+	para "Also <...>"
 	para "Jeder Versuch,"
 	line "kostet dich"
 	para "Evolutionssteine"

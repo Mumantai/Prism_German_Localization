@@ -20,22 +20,20 @@ Route83IslandSign:
 
 Route83BlockingDude:
 	ctxt "Hallo!"
-	para "Tut mir Leid, aber"
-	line "ich MUSS meine"
-	para "Schuhe genau hier"
-	line "zubinden <...>"
+	para "Sry, aber ich muss"
+	line "hier meine Schnür-"
+	cont "senkel binden <...>"
 	done
 
 Route83_Trainer:
 	trainer EVENT_ROUTE_83_TRAINER_1, SCHOOLBOY, 3, .before_battle_text, .battle_won_text
-	ctxt "Videospiele finde"
-	line "besser als Schule."
+	ctxt "Ich mag Zocken"
+	line "mehr als Schule."
 	para "Hehe."
 	done
 
 .before_battle_text
-	;ctxt "Runde 1: KÄMPFT!"
-    ctxt "Round 1: FIGHT!"
+	ctxt "Round 1: FIGHT!"
 	done
 
 .battle_won_text

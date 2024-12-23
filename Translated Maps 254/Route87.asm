@@ -6,7 +6,7 @@ Route87_MapScriptHeader:
 
 Route87DirectionsSign:
 	ctxt "<UP> Tunod-Wasserpfad"
-	next "<UP><UP> Suntia City"
+	next "<UP><UP> Südport City"
 	next "<DOWN> Lauralia City"
 	done
 
@@ -16,7 +16,7 @@ Route87IslandSign:
 
 Route87_Trainer_1:
 	trainer EVENT_ROUTE_87_TRAINER_1, SWIMMERM, 9, .before_battle_text, .battle_won_text
-	ctxt "Vor dem Schwimmen"
+	ctxt "Vor dem schwimmen"
 	line "solltest du dich"
 	cont "immer dehnen."
 	para "Ich mache es immer"
@@ -38,15 +38,15 @@ Route87_Trainer_1:
 
 Route87_Trainer_2:
 	trainer EVENT_ROUTE_87_TRAINER_2, SWIMMERF, 7, .before_battle_text, .battle_won_text
-	ctxt "Du hast drei Jahre"
-	line "unterdrückte Wut"
-	cont "rausgelassen."
+	ctxt "Du hast ja deinen"
+	line "ganzen Zorn raus-"
+	cont "gelassen <...> Gut so!"
 	done
 
 .before_battle_text
 	ctxt "Zeit für einen"
 	line "entspannten Kampf"
-	para "mit beruigendem"
+	para "mit beruigenden"
 	line "Meeresrauschen im"
 	cont "Hintergrund."
 	done
@@ -59,7 +59,7 @@ Route87_Trainer_2:
 Route87_Trainer_3:
 	trainer EVENT_ROUTE_87_TRAINER_3, SWIMMERM, 10, .before_battle_text, .battle_won_text
 	ctxt "Mein Flug wurde um"
-	line "vier Stunden"
+	line "4 Stunden"
 	cont "verschoben."
 	para "Ich bin also"
 	line "umsonst so früh"
@@ -67,20 +67,20 @@ Route87_Trainer_3:
 	done
 
 .before_battle_text
-	ctxt "Der nächste"
-	line "Flughafen zu"
-	para "Naljo, ist der"
-	line "Suntia Flughafen."
-	para "Doch dahin muss"
-	line "man so weit"
+	ctxt "Der naheste Flug-"
+	line "hafen nach Naljo"
+	para "befindet sich in"
+	line "Südport City und"
+	para "da muss man sehr"
+	line "lange hin-"
 	cont "schwimmen!"
 	done
 
 .battle_won_text
 	ctxt "Oh, ich kriege"
-	line "einen Anruf"
-	para "von der Flug-"
-	line "gesellschaft <...>"
+	line "einen Anruf von"
+	para "der"
+	line "Fluggesellschaft <...>"
 	done
 
 Route87_MapEventHeader:

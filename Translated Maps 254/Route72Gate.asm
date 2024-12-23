@@ -10,16 +10,16 @@ Route72GateNPC1:
 	para "Eifrige Trainer"
 	line "warten dort auf"
 	cont "dich."
-	para "Ehrlich<...>"
+	para "Ehrlich <...>"
 	para "Was für Looser."
 	done
 
 Route72GateNPC2:
 	ctxt "Ich muss"
-	line "nachdenken<...>"
+	line "nachdenken <...>"
 	para "Mein #mon hasst"
 	line "mich und ich weiß"
-	cont "nicht wieso<...>"
+	cont "nicht wieso <...>"
 	done
 
 Route72GateNPC3:

@@ -93,7 +93,7 @@ PhloxLabB1FGuard:
 	endtext
 
 .before_battle_text
-	ctxt "zzz<...>"
+	ctxt "zzz <...>"
 	para "Ah, uh, was?"
 	para "Wie spät ist es?"
 	para "Warte mal, darfst"
@@ -132,7 +132,7 @@ PhloxLabB1FGuard:
 	line "könnte."
 	para "Aber etwas was du"
 	line "vieleicht"
-	cont "möchtest<...>"
+	cont "möchtest <...>"
 	para "Ich gebe es dir,"
 	line "wenn du danach"
 	cont "einfach gehst. OK?"
@@ -140,7 +140,7 @@ PhloxLabB1FGuard:
 	line "Problemen kommt,"
 	para "dann ist das nie"
 	line "die Schuld eines"
-	cont "einzelnen<...>"
+	cont "einzelnen <...>"
 	sdone
 
 .gave_lab_card_text
@@ -149,7 +149,7 @@ PhloxLabB1FGuard:
 	cont "ermöglichen."
 	para "Ab da bist du"
 	line "nicht mehr mein"
-	cont "Problem<...>"
+	cont "Problem <...>"
 	sdone
 
 .already_battled_text

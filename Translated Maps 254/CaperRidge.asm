@@ -34,7 +34,7 @@ CaperRidgeNPC1:
 
 CaperRidgeNPC2:
 	ctxt "Dich hab ich hier"
-	line "noch nie gesehen<...>"
+	line "noch nie gesehen <...>"
 	para "Von wo bist du"
 	line "denn hergekommen?"
 	para "<...>"

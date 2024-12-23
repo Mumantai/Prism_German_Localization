@@ -18,7 +18,7 @@ PhloxTown_MapScriptHeader:
 	return
 
 PhloxTownBingoSign:
-	ctxt "Bingohalle"
+	ctxt "Bingo Halle"
 	done
 
 PhloxTownAcquaMinesSign:
@@ -44,14 +44,14 @@ PhloxTownNPC1:
 	done
 
 PhloxTownNPC2:
-	ctxt "Uns gefällt es,"
+	ctxt "Uns gefällt es"
 	line "abgeschottet von"
 	para "allen anderen zu"
 	line "sein."
 	para "Es muss ja nicht"
 	line "alles und jeder"
 	para "mit jedem"
-	line "verbunden sein<...>"
+	line "verbunden sein <...>"
 	para "Ruhe ist auch"
 	line "etwas Wunder-"
 	cont "schönes!"
@@ -64,7 +64,7 @@ PhloxTownNPC3:
 	para "Sie hatten eine"
 	line "erlaubnis, daher"
 	para "konnte ich nichts"
-	line "tun<...>"
+	line "tun <...>"
 	done
 
 PhloxTownNPC4:
@@ -116,7 +116,7 @@ PhloxTownBoyfriend:
 	line "treffen. Sie hat"
 	para "angerufen und"
 	line "gesagt, sie sei"
-	cont "hier, aber<...>"
+	cont "hier, aber <...>"
 	para "Vielleicht hat sie"
 	line "sich verlaufen?"
 	done

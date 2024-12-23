@@ -12,7 +12,7 @@ SpurgeGymHouseAbra:
 	endtext
 
 .text
-	ctxt "Abra: Aabraaa<...>"
+	ctxt "Abra: Aabraa <...>"
 	done
 
 SpurgeGymHouseTeleportationNPC:
@@ -38,28 +38,31 @@ SpurgeGymHouseTeleportationNPC:
 	end
 
 .introduction_text
-	ctxt "Ehehe<...> Kommst du"
+	ctxt "Fufufu <...> kommst du"
 	line "nicht mehr weiter?"
 	para "Für eine kleine"
-	line "Gebühr, holt dich"
-	cont "mein Abra da raus."
-	para "Wie wären <...> ¥400?"
+	line "Spende, holt dich"
+	para "mein Abra da"
+	line "raus <...>"
+	para "Wie wäre es mit <...>"
+	line "¥400?"
 	done
 
 .declined_text
-	ctxt "Ehehe <...> deine"
+	ctxt "Fufufu... deine"
 	line "Entscheidung."
 	done
 
 .paid_text
-	ctxt "Ehehe <...> sehr gut."
+	ctxt "Fufufu... sehr"
+	line "gut."
 	done
 
 .not_enough_money_text
-	ctxt "Hä?! Du hast nicht"
-	line "genug Geld dabei?"
+	ctxt "Eh?! Du hast nicht"
+	line "genug Geld dabei!"
 	para "Dann gib mir, was"
-	line "du dabei hast."
+	line "du dabei hast <...>"
 	done
 
 SpurgeGymHouse_MapEventHeader:

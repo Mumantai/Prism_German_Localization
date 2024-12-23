@@ -43,7 +43,7 @@ PrisonBathsCigaretteGuy:
 
 .already_got_metal_coat_text
 	ctxt "Ich bin im"
-	line "Geschmacksland<...>"
+	line "Geschmacksland <...>"
 	done
 
 .intro_text
@@ -58,7 +58,7 @@ PrisonBathsCigaretteGuy:
 	line "gebrauchen."
 	para "Ich verspreche, es"
 	line "wird sich für dich"
-	cont "lohnen<...>"
+	cont "lohnen <...>"
 	done
 
 .said_no_text

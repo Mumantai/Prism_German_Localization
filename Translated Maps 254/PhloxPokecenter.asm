@@ -15,8 +15,8 @@ PhloxPokecenterNPC2:
 	ctxt "Diese Stadt in den"
 	line "Bergen ist so"
 	cont "entspannend."
-	para "Ich sollte hier"
-	line "einen Haus"
+	para "Ich sollte mir"
+	line "hier ein Haus"
 	para "kaufen und nach"
 	line "Flokalis ziehen!"
 	done

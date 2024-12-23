@@ -10,7 +10,7 @@ Route82HiddenItem:
 
 Route82DirectionsSign:
 	ctxt "<LEFT> Torenia City"
-	next "<RIGHT> Akania Docks"
+	next "<RIGHT> Akania-Hafen"
 	done
 
 Route82IslandSign:
@@ -19,14 +19,15 @@ Route82IslandSign:
 
 Route82_Trainer_1:
 	trainer EVENT_ROUTE_82_TRAINER_1, FISHER, 12, .before_battle_text, .battle_won_text
-	ctxt "-Seufz-"
-	line "Es würde mich"
-	para "nicht wundern,"
-	line "wenn die Relicanth"
-	para "verschwinden"
-	line "würden, wenn das"
-	para "Meer weiter so"
-	line "verschmutzt wird."
+	ctxt "-Seufz- Es würde"
+	line "mich nicht wundern"
+	para "wenn die Relicanth"
+	line "aussterben"
+	cont "würden <...>"
+	para "Die Menschen ver-"
+	line "schmutzen mit dem"
+	para "ganzen Müll"
+	line "den Ozean."
 	done
 
 .before_battle_text
@@ -35,50 +36,53 @@ Route82_Trainer_1:
 	done
 
 .battle_won_text
-	ctxt "Och menno!"
+	ctxt "Oh maaan!"
 	done
 
 Route82_Trainer_2:
 	trainer EVENT_ROUTE_82_TRAINER_2, FISHER, 13, .before_battle_text, .battle_won_text
-	ctxt "Ich habe auf dem"
-	line "offenen Meer"
-	para "geangelt, aber"
-	line "mein #mon hat"
-	cont "schlappgemacht."
-	para "Darum angel ich"
-	line "jetzt an den"
-	cont "Docks." ;alt. angel ich jetzt hier. Das würde eine Zeile sparen
+	ctxt "Ich ritt mein"
+	line "#mon während"
+	cont "ich am Angeln war."
+	para "Als es mich nicht"
+	line "mehr tragen konnte"
+	para "ging ich an den"
+	line "Hafen."
 	done
 
 .before_battle_text
-	ctxt "Ich glaube,"
-	line "unter den Docks,"
-	para "verstecken sich"
-	line "die seltensten"
-	cont "Fisch-#mon."
+	ctxt "Unterhalb des"
+	line "Hafens findet man"
+	para "bestimmt die"
+	line "seltensten Fisch-"
+	cont "#mon."
 	done
 
 .battle_won_text
-	ctxt "Nein, nein, nein!"
+	ctxt "NEIN, NEIN, NEIN!"
 	done
 
 Route82_Trainer_3:
 	trainer EVENT_ROUTE_82_TRAINER_3, COOLTRAINERF, 3, .before_battle_text, .battle_won_text
-;alternativ:
-;para "Es kommt nicht"
-;line "oft vor, dass ich"
-;para "jemanden treffe,"
-;line "der einen guten"
-;cont "Kampf liefert."
+	ctxt "Es begeistert mich"
+	line "jedesmal, Trainer"
+	para "mit starken"
+	line "#mon zu sehen."
+	para "Ich treffe leider"
+	line "viel zu selten auf"
+	para "leute die gut"
+	line "Kämpfen können!"
 	done
 
 .before_battle_text
+	ctxt "Hey, du siehst"
 	line "stark aus!"
 	para "Zeig mir bitte"
 	line "deine #mon!"
 	done
 
 .battle_won_text
+	ctxt "Das war Spaßig!"
 	done
 
 Route82_MapEventHeader:

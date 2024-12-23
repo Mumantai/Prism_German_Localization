@@ -102,7 +102,7 @@ SaxifrageGym_Trainer_2:
 	para "Jam-Sessions von"
 	line "früher."
 	para "Daher lasse ich"
-	line "ich nun meine"
+	line "nun meine"
 	para "Agressionen an"
 	line "dir raus!"
 	done
@@ -175,7 +175,8 @@ SaxifrageGymGuide:
 
 .guide_text
 	ctxt "Hallo nochmal!"
-	para "Das ist Cadence."
+	para "Die Leiterin hier"
+	line "heißt Cadence."
 	para "Sie hat früher"
 	line "eine Rockband"
 	cont "gegründet."
@@ -183,10 +184,10 @@ SaxifrageGymGuide:
 	line "Misserfolgen,"
 	para "beschlossen sie,"
 	line "ihre eigene Arena"
-	para "zu gründen, die"
+	para "zu gründen,"
 	line "die sich auf"
 	para "Schall-#mon"
-	line "spezialisiert."
+	line "spezialisiert hat."
 	para "Aber es gibt halt"
 	line "nicht so viele von"
 	para "denen, also haben"
@@ -242,7 +243,7 @@ SaxifrageGymLeader:
 	line "verstehst du davon"
 	cont "sicher nichts!"
 	para "Egal. Ich mach"
-	para "dich jetzt fertig!"
+	line "dich jetzt fertig!"
 	sdone
 
 .battle_won_text
@@ -277,16 +278,24 @@ SaxifrageGymLeader:
 	done
 
 .already_beaten_text
-	ctxt "Ich werd' wieder"
-	line "neue Songs"
-	cont "schreiben!"
-	para "Meine #mon"
-	line "können mir"
-	para "dabei helfen,"
-	line "den perfekten"
-	para "Song zum"
-	line "Abrocken zu"
-	cont "erschaffen!"
+	ctxt "Hätte ich bloß"
+	line "während meiner"
+	para "Zeit im Gefängnis"
+	line "meine wärmende"
+	para "Pelzjacke nicht"
+	line "verloren, könnte"
+	para "ich endlich die"
+	line "kalten, eisigen"
+	para "Pfade der von hier"
+	line "aus westlich"
+	para "gelegenen"
+	line "Naljo-Ruine"
+	para "überqueren und so"
+	line "die Stadt Flokalis"
+	para "erreichen, um"
+	line "endlich meinen"
+	para "Freund zu"
+	line "besuchen <...>"
 	done
 
 SaxifrageGym_MapEventHeader:

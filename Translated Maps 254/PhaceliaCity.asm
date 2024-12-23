@@ -10,8 +10,9 @@ PhaceliaCity_MapScriptHeader:
 	return
 
 PhaceliaCityTownSign:
-	ctxt "Noch nicht ganz"
-	next "ein Dorf."
+	ctxt "In kürze auch"
+	next "offiziell ein"
+	next "Dorf!"
 	done
 
 PhaceliaCityMoveDeleterSign:
@@ -35,8 +36,11 @@ PhaceliaCityBlockingGuard:
 	line "maßnahmen sind"
 	para "aktuell etwas"
 	line "verschärft."
+	para "Daher kann hier"
+	line "niemand rein oder"
+	cont "raus."
 	para "<...>"
-	para "WARTE<...>"
+	para "WARTE <...>"
 	para "Bist du ein"
 	line "Paletten-Ranger?"
 	para "Wir suchen nach"
@@ -48,14 +52,16 @@ PhaceliaCityBlockingGuard:
 	para "OK, solange du zu"
 	line "den guten gehörst"
 	para "lass ich dich"
-	line "natürlich rein."
+	line "natürlich wieder"
+	cont "gehen."
 	done
 
 PhaceliaCityNPC1:
 	ctxt "Dank unserer"
 	line "Gewerkschaft, darf"
 	para "ich jeden Tag"
-	line "15m Pause machen."
+	line "ganze 15min Pause"
+	cont "machen."
 	done
 
 PhaceliaCityNPC2:
@@ -68,7 +74,7 @@ PhaceliaCityNPC2:
 	line "daher seine wahre"
 	cont "Familie nicht."
 	para "Er ist halb Mensch"
-	line "& Halb Machomei!"
+	line "& halb Machomei!"
 	done
 
 PhaceliaCity_MapEventHeader:: db 0, 0

@@ -131,7 +131,7 @@ OlcanIsle_Trainer_4:
 	done
 
 .battle_won_text
-	ctxt "Puh<...> Die Hitze"
+	ctxt "Puh <...> Die Hitze"
 	line "nervt."
 	done
 

@@ -11,13 +11,13 @@ SpurgeCity_MapScriptHeader:
 	return
 
 SpurgeCityCitySign:
-	ctxt "Die Stadt, in der"
-	next "alles passieren"
-	next "kann!"
+	ctxt "Die Stadt in"
+	next "der nichts"
+	next "unmöglich ist!"
 	done
 
 SpurgeCityOrphanageSign:
-	ctxt "Waisenhaus"
+	ctxt "Weisenhaus"
 	done
 
 SpurgeCityCasinoSign:
@@ -31,65 +31,62 @@ SpurgeCityIslandSign:
 	done
 
 SpurgeCityGymGuard:
-	ctxt "Mir wurde gesagt,"
-	line "ich soll die Arena"
-	para "blockieren, bis"
-	line "der Leiter zurück"
-	cont "ist."
-	para "Langsam schlafen"
-	line "meine Beine ein."
+	ctxt "Ich bewache diese"
+	line "Arena bis der"
+	cont "Leiter zurück ist."
+	para "Meine Beine sind"
+	line "eingeschlafen <...>"
 	done
 
 SpurgeCityNPC1:
-	ctxt "Ich habe ein"
-	line "#mon aus dem"
-	para "Waisenhaus"
-	line "adoptiert."
-	para "Das Arme hatte am"
-	line "ganzen Körper"
-	cont "blaue Flecken."
+	ctxt "Vorhin adoptierte"
+	line "ich ein #mon"
+	cont "vom Weisenhaus."
+	para "Das arme Ding"
+	line "hatte prellungen"
+	cont "am ganzen Körper."
 	done
 
 SpurgeCityNPC2:
-	ctxt "Ich habe vorhin"
-	line "eine laute"
-	cont "Explosion gehört."
-	para "Was war das nur?"
+	ctxt "Vor einer weile"
+	line "hörte ich eine"
+	cont "laute explosion."
+	para "was das wohl war?"
 	done
 
 SpurgeCityNPC3:
-	ctxt "Zzz <...>"
-	para "Oh, äh, was?"
-	para "Ich bin wohl"
+	ctxt "zzz <...>"
+	para "Oh, uh, was?"
+	para "Ich bin plötzlich"
 	line "eingeschlafen!"
-	para "Ich habe die"
-	line "Schlüssel zu"
-	para "meiner Wohnung"
-	line "verloren und suche"
-	para "schon den ganzen"
-	line "Tag nach ihnen."
+	para "Ich habe meine"
+	line "Schlüssel in der"
+	para "der Wohnung liegen"
+	line "lassen."
+	para "Ich warte schon"
+	line "seit 6 Std auf den"
+	cont "Schlüsseldienst!"
 	done
 
 SpurgeCityNPC4:
 	ctxt "Wusstest du schon?"
-	para "Diese Stadt gab es"
-	line "vor zehn Jahren"
+	para "Vor 10 Jahren gab"
+	line "es diese Stadt"
 	cont "noch nicht."
-	para "Und jetzt guck sie"
-	line "dir an!"
-	para "Wie sie wohl in 20"
-	line "Jahren aussehen"
-	cont "wird?"
+	para "Schau sie dir"
+	line "jetzt an!"
+	para "Was wird wohl in"
+	line "20 Jahren sein!"
 	done
 
 SpurgeCityNPC5:
 	ctxt "Ich kümmere mich"
-	line "nur um den Garten."
+	line "um den Garten."
 	para "Die Stadt wächst"
-	line "immer weiter"
-	para "Richtung Norden,"
-	line "also muss ich ihn"
-	cont "auch verschieben."
+	line "und verdrängt die"
+	cont "die Natur <...>"
+	para "Den Garten bau ich"
+	line "einfach mit aus."
 	done
 
 SpurgeCitySwiftTMPerson:
@@ -107,21 +104,20 @@ SpurgeCitySwiftTMPerson:
 	ctxt "Was ich hier"
 	line "mache?"
 	para "Wenn ich dir diese"
-	line "TM gebe, kümmerst"
-	para "du dich dann um"
-	line "deinen eigenen"
-	cont "Kram?"
+	line "TM gebe, nervst du"
+	para "du dann bitte"
+	line "jemand anderes?"
 	sdone
 
 .after_TM_text
-	ctxt "TM 39 enthält"
-	line "Sternschauer!"
+	ctxt "TM39 ist"
+	line "Sternschauer"
 	para "Diese Attacke"
-	line "verfehlt nie ihr"
-	para "Ziel, außer der"
-	line "Gegner benutzt"
-	para "Fliegen, Schaufler"
-	line "oder Schutzschild."
+	line "trifft immer!"
+	para "Außer wenn der"
+	line "Gegner Fliegen,"
+	cont "Schaufler oder"
+	cont "Schutz einsetzt."
 	done
 
 SpurgeCity_MapEventHeader:: db 0, 0

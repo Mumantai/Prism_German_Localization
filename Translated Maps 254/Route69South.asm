@@ -48,7 +48,7 @@ Route69South_Trainer_2:
 
 .battle_won_text
 	ctxt "Bei mir läufts"
-	line "nicht mehr<...>"
+	line "nicht mehr <...>"
 	done
 
 Route69South_Trainer_3:
@@ -108,7 +108,7 @@ Route69South_Trainer_6:
 	trainer EVENT_ROUTE_69_TRAINER_6, COOLTRAINERF, 1, .before_battle_text, .battle_won_text
 	ctxt "Eventuell kannst"
 	line "du mir ja was"
-	cont "beibringen<...>"
+	cont "beibringen <...>"
 	para "Nicht?"
 	para "Wie frech!"
 	done
@@ -119,7 +119,7 @@ Route69South_Trainer_6:
 	done
 
 .battle_won_text
-	ctxt "<...>Echt?"
+	ctxt "<...> Echt?"
 	done
 
 IlkBrotherHouseBlockLeaving:

@@ -23,7 +23,7 @@ MtEmberEntrance_Trainer_1:
 
 .battle_won_text
 	ctxt "Dann teile ich mal"
-	line "mit dir<...>"
+	line "mit dir <...>"
 	done
 
 MtEmberEntrance_MapEventHeader:: db 0, 0

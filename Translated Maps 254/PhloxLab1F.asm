@@ -157,54 +157,58 @@ PhloxLabF1_YellowPalette:
 	trainer EVENT_PHLOX_LAB_F1_YELLOW_PALETTE, PATROLLER, 17, .before_battle_text, .battle_won_text
 	ctxt "Vergiss diesen"
 	line "Ort!"
-	para "Vieleicht gehe ich"
-	line "in die Kalos"
-	cont "Region."
-	para "Ich bin mir sicher"
-	line "dort werden die"
-	para "mein Style und"
-	line "FLAIRE zu schätzen"
-	cont "wissen!"
+	para "Vielleicht gehe"
+	line "ich in die"
+	cont "Kalos-Region."
+	para "Ich bin mir"
+	line "sicher, dort wird"
+	para "man meinen Stil"
+	line "und mein FLARE zu"
+	cont "schätzen wissen!"
 	done
 
 .before_battle_text
-	ctxt "Ranger Rot war"
-	line "ein schlechter"
+	ctxt "Ranger Rot war ein"
+	line "miserabler"
 	para "Anführer und"
-	line "schätzte mein"
-	para "Fashion Style"
-	line "nicht wert!"
+	line "wusste meinen"
+	para "Fashion-Style"
+	line "nicht zu schätzen!"
 	para "Deshalb wurde er"
-	line "auch so einfach"
-	para "von einem Kind wie"
-	line "dir hoch genommen."
+	line "auch so leicht von"
+	para "einem Kind wie dir"
+	line "besiegt."
 	done
 
 .battle_won_text
-	ctxt "Nein! Das"
-	line "schlechte Licht"
-	cont "ruinierte das Foto"
+	ctxt "Nein!"
+	para "Das schlechte"
+	line "Licht hat das Foto"
+	cont "ruiniert!"
 	done
 
 PhloxLabF1_Trainer_1:
 	trainer EVENT_PHLOX_LAB_F1_TRAINER_1, SCIENTIST, 4, .before_battle_text, .battle_won_text
-	ctxt "So wie du kämpfst"
-	line "musst du ein sehr"
-	para "talentierter"
-	line "#mon Trainer"
-	cont "sein."
+	ctxt "So wie du"
+	line "kämpfst, musst"
+	para "du ein sehr"
+	line "talentierter"
+	para "#mon-Trainer"
+	line "sein."
 	done
 
 .before_battle_text
-	ctxt "6 Jahre Medizin"
-	line "& #mon Anatomie"
-	para "Studium werden mir"
-	line "den Sieg in diesem"
-	cont "Kampf bringen!"
+	ctxt "Sechs Jahre"
+	line "Studium in"
+	para "Medizin und"
+	line "#mon-Anatomie"
+	para "werden mir den"
+	line "Sieg in diesem"
+	cont "Kampf sichern!"
 	done
 
 .battle_won_text
-	ctxt "<...>6 Jahre umsonst<...>"
+	ctxt "6 Jahre umsonst <...>"
 	done
 
 PhloxLabF1_Trainer_2:
@@ -214,55 +218,58 @@ PhloxLabF1_Trainer_2:
 	done
 
 .before_battle_text
-	text "<...>Ja?"
+	text "<...> Ja?"
 	done
 
 .battle_won_text
-	ctxt "Sie zahlen nicht"
-	line "genug also störts"
-	para "mich nicht, dass"
-	line "ich gegen dich"
-	cont "verloren habe."
+	ctxt "Für das bisschen,"
+	line "was die zahlen,"
+	para "ist es mir egal,"
+	line "dass ich gegen"
+	para "dich verloren"
+	line "habe!"
 	done
 
 PhloxLabF1_Trainer_3:
 	trainer EVENT_PHLOX_LAB_F1_TRAINER_3, SCIENTIST, 6, .before_battle_text, .battle_won_text
-	ctxt "Wenn du nur etwas"
-	line "Mitfühlend wärst,"
-	para "wurdest du nicht"
-	line "so unseren"
-	para "Arbeitsplatz"
-	line "gefährden!"
+	ctxt "Wenn du nur ein"
+	line "bisschen"
+	para "mitfühlender"
+	line "wärst, würdest du"
+	para "unseren"
+	line "Arbeitsplatz nicht"
+	cont "so gefährden!"
 	done
 
 .before_battle_text
 	ctxt "Wir haben vor"
 	line "kurzem alle eine"
 	para "betriebliche"
-	line "Gesundheits-"
+	line "Kranken-"
 	para "versicherung"
 	line "erhalten!"
-	para "Daher werden wir"
-	line "dich diese Firma"
-	para "nicht vernichten"
-	line "lassen!"
+	para "Deshalb werden wir"
+	line "nicht zulassen,"
+	para "dass du diese"
+	line "Firma zerstörst!"
 	done
 
 .battle_won_text
 	ctxt "Ich such schonmal"
-	line "ne neue Stelle<...>"
+	line "ne neue Stelle <...>"
 	done
 
 PhloxLabF1_Trainer_4:
 	trainer EVENT_PHLOX_LAB_F1_TRAINER_4, SCIENTIST, 7, .before_battle_text, .battle_won_text
-	ctxt "Ich werde dieser"
-	line "Firma eines tages"
-	para "Millionen "
+	ctxt "Eines Tages werde"
+	line "ich dieser Firma"
+	para "Millionen"
 	line "einbringen."
-	para "Dann werden die"
-	line "mein mickriges"
-	para "Gehalt erhöhen"
-	line "müssen!"
+	para "Dann werden sie"
+	line "mein lächerliches"
+	para "Gehalt wohl oder"
+	line "übel erhöhen"
+	cont "müssen!"
 	done
 
 .before_battle_text
@@ -274,8 +281,8 @@ PhloxLabF1_Trainer_4:
 	done
 
 .battle_won_text
-	ctxt "Zumindest haben"
-	line "einen Archiv."
+	ctxt "Das landet wohl im"
+	line "Archiv <...>"
 	done
 
 PhloxLabSwitchText:
@@ -338,15 +345,15 @@ PhloxLabJournal_3:
 .text
 	ctxt "15. Sep 1986"
 	line "Nr. 03 Berichte"
-	cont "aus Cinnabar<...>"
-	para "Labor zerstört<...>"
-	line "Ursache unbekannt<...>"
+	cont "aus Cinnabar <...>"
+	para "Labor zerstört <...>"
+	line "Ursache unbekannt <...>"
 	para "Behörden ermitteln"
 	line "<...>"
 	para "Fuji ist mit dem"
 	line "Hauptsubjekt "
-	para "verschwunden<...>"
-	line "Verrat?<...>"
+	para "verschwunden <...>"
+	line "Verrat? <...>"
 	para "Nr. 03 befahl,"
 	line "so viel Ausrüstung"
 	para "wie möglich zu"

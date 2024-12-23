@@ -87,7 +87,7 @@ Route78_Trainer_3:
 	ctxt "Bewundere ihre"
 	line "innere Schönheit,"
 	para "nicht ihre"
-	para "Kampffähigkeiten."
+	line "Kampffähigkeiten."
 	done
 
 Route78_Trainer_4:
@@ -111,7 +111,7 @@ Route78_Trainer_4:
 	ctxt "Streu noch Salz"
 	line "in die Wunde <...>"
 	para "Für wen hälst du"
-	line "dich eigentlich <...>?"
+	line "dich eigentlich <...>"
 	done
 
 Route78Guard:
@@ -140,9 +140,11 @@ Route78Guard:
 	sdone
 
 .ID_shown_text
-	ctxt "Alles klar, danke."
-	para "Du kannst jetzt"
-	line "auf die Insel."
+	ctxt "Ah <...>"
+	para "du hast also eins."
+	para "Dann darfst du"
+	line "natürlich auf die"
+	cont "Insel."
 
 	para "Bist du zum ersten"
 	line "Mal zu Besuch?"

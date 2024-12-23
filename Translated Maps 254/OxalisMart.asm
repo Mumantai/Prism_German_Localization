@@ -12,10 +12,12 @@ OxalisMartNPC1:
 
 OxalisMartNPC2:
 	ctxt "Warum verkaufen"
-	line "die Ziegelstücke?"
-	para "Ich möchte einen"
-	line "ganzen Ziegel,"
-	cont "nicht nur Klumpen."
+	line "die einzelne"
+	cont "Ziegelsteine?"
+	para "Man will doch"
+	line "nicht nur einen"
+	para "kaufen, sondern"
+	line "gleich mehrere!"
 	done
 
 OxalisMart_MapEventHeader:

@@ -49,19 +49,19 @@ Route80Nobu_Nobu:
 	ctxt "<...> Hmm, wer der"
 	line "'Auserwählte' war?"
 	para "Nunja <...> beginnen"
-	cont "wir am Anfang."
+	line "wir am Anfang."
 
 	para "Vor Tausenden von"
 	line "Jahren, war Naljo"
 	para "eine isolierte"
 	line "Region. So haben"
 	para "es sich die"
-	cont "Wächter gewünscht."
+	line "Wächter gewünscht."
 
 	para "Varaneous erschuf"
 	line "Naljo als Ebenbild"
 	para "seines idealen"
-	cont "Lebensraums."
+	line "Lebensraums."
 	para "Es wollte eine"
 	line "Gesellschafft, in"
 	para "der Mensch und"
@@ -190,7 +190,7 @@ Route80Nobu_Nobu:
 	para "dass sie jeden"
 	line "töteten, der"
 	para "versuchte, nach"
-    cont "Naljo zu gelangen."
+    line "Naljo zu gelangen."
 
 	para "Als er das heraus-"
 	para "fand, stahl er die"
@@ -308,13 +308,19 @@ Route80Nobu_Aggron:
 	done
 
 .found_aggron_text
-	ctxt "Dieses #mon"
+	ctxt "Dieses Stolloss"
 	line "klingt besorgt."
 
 	para "Es zieht an deinem"
-	line "Fuß <...>. Ich glaube,"
-	para "es möchte mit dir"
-	line "mitkommen?"
+	line "Fuß <...>"
+	para "Es scheint, als"
+	line "wäre dies der"
+	para "besagte Partner"
+	line "mit einem Körper"
+	cont "aus Stahl."
+	para "Stollos zu den"
+	line "Leuchtfeuerhöhlen"
+	cont "mitnehmen?"
 	sdone
 
 .joined_party_text

@@ -22,7 +22,7 @@ PrisonRoof_Trainer_1:
 	done
 
 .battle_won_text
-	text "Uh<...>"
+	text "Uh <...>"
 	done
 
 .after_battle_text
@@ -44,11 +44,11 @@ PrisonRoof_Trainer_2:
 	cont "fokussiert."
 	para "Ich hasse es auf"
 	line "diesen Typen auf-"
-	cont "zupassen<...>"
+	cont "zupassen <...>"
 	done
 
 .battle_won_text
-	ctxt "Warte, bist du"
+	ctxt "Warte, du bist"
 	line "kein Insasse?"
 	done
 
@@ -71,25 +71,28 @@ PrisonRoof_Trainer_2:
 	sdone
 
 .after_battle_text_2
-	ctxt "Grady: Huh?"
+	ctxt "Grady: Öhm echt?"
 	sdone
 
 .after_battle_text_3
-	ctxt "Egal du bist nur"
-	line "ein Kind."
-	para "Die hätten dich"
-	line "besser zu juvie"
-	cont "schicken sollen."
+	ctxt "Naja, du bist ja"
+	line "noch ein Kind."
+	para "Eigentlich hätten"
+	line "sie dich in eine"
+	para "Jugendanstalt"
+	line "schicken sollen"
+	cont "und nicht hierher."
+	
 	para "Geh runter zum"
 	line "Fitness Raum und"
-	para "frag Paulie nach"
+	para "frag Ali nach"
 	line "dem neuen Passwort"
 	cont "zum Keller."
 	para "Wegen der"
 	line "Inkompetenz hier"
 	para "müssen wir ständig"
 	line "das beknackte"
-	cont "Passwort ändern<...>"
+	cont "Passwort ändern <...>"
 	done
 
 PrisonRoof_MapEventHeader:

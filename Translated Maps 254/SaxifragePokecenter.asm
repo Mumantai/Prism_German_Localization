@@ -5,7 +5,7 @@ SaxifragePokecenter_MapScriptHeader:
 	db 0
 
 SaxifragePokecenterNPC1:
-	ctxt "Die eingesperr-"
+	ctxt "Die eingesperrten"
 	line "#mon dürfen das"
 	para "#mon-Center"
 	line "nicht benutzen <...>"
@@ -23,7 +23,7 @@ SaxifragePokecenterNPC2:
 	ctxt "Diese Insel ist"
 	line "sehr ungepflegt."
 	para "Wilde #mon"
-	line "laufen laufen hier"
+	line "laufen hier"
 	para "frei herum und"
 	line "stören jeden, der"
 	cont "die Insel besucht."

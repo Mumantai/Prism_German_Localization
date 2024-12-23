@@ -62,7 +62,7 @@ OwsauriGym_Trainer_2:
 
 OwsauriGym_Trainer_3:
 	trainer EVENT_OWSAURI_GYM_TRAINER_3, BOARDER, 5, .before_battle_text, .battle_won_text
-	ctxt "Bro, wusstest du,"
+	ctxt "Wusstest du,"
 	line "dass Lily DJane"
 	para "war, als sie noch"
 	line "in Lavandia lebte?"

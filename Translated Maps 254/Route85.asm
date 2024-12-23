@@ -27,36 +27,41 @@ Route85_Trainer_1:
 	jumptext .after_battle_not_undercover_text
 
 .before_battle_text
-	ctxt "Bist du auch ein"
-	line "Paletten-Ranger?"
+	ctxt "Bist du etwa auch"
+	line "ein Paletten-"
+	cont "Ranger?"
 	done
 
 .battle_won_text
-	ctxt "Ich glaub nicht,"
-	line "dass ich gegen"
-	para "einen Paletten-"
-	line "Ranger"
+	ctxt "Ich kann nicht"
+	line "glauben, dass ich"
+	para "gegen einen"
+	line "Paletten-Ranger"
 	cont "verloren habe!"
 	done
 
 .after_battle_not_undercover_text
-	ctxt "Ich bin erschöpft"
-	line "seitdem ich gegen"
-	para "einen Paletten-"
-	line "Ranger"
-	cont "verloren habe."
+	ctxt "Ich bin völlig"
+	line "erschöpft, weil"
+	para "ich gegen einen"
+	line "Paletten-Ranger"
+	cont "gekämpft habe."
 	done
 
 .after_battle_undercover_text
 	ctxt "Es sieht so aus"
 	line "als ob eure Truppe"
-	para "nur Zeit schinden"
-	line "will."
+	para "einfach nur Zeit"
+	line "schinden will."
+	
 	para "<...>"
-	para "<...> Warte."
-	para "Warum sucht die"
-	line "Polizei dann nach"
-	cont "euch Typen?"
+	
+	para "Moment mal <...>"
+	
+	para "Was will die"
+	line "Polizei dann"
+	para "eigentlich von"
+	line "euch Typen?"
 	done
 
 Route85_Trainer_2:
@@ -85,15 +90,14 @@ Route85_Trainer_2:
 	cont "Rangern."
 	para "Ich hörte, Sie"
 	line "fürchten keine"
-	cont "Konsequenzen<...>"
+	cont "Konsequenzen <...>"
 	done
 
 .after_battle_undercover_text
-	ctxt "Solange es mich"
-	line "nicht betrifft,"
-	para "werde ich keinem"
-	line "von euren machen-"
-	cont "schaften erzählen."
+	ctxt "Keine Sorge, ich"
+	line "werde niemandem"
+	para "von euch erzählen,"
+	line "ich verspreche es!"
 	done
 
 Route85Officer:
@@ -143,12 +147,22 @@ Route85Officer:
 	sdone
 
 .after_arrest_text
-	ctxt "Der Wächter vor"
-	line "der Höhlen-Arena"
-	para "lässt dich nun"
-	line "passieren."
+	ctxt "Die strengen"
+	line "Sicherheits-"
+	para "vorkehrungen"
+	line "wurden aufgehoben."
+	para "Deshalb stehen"
+	line "jetzt keine Wachen"
+	para "mehr an den beiden"
+	line "Höhleneingängen,"
+	para "und du kannst"
+	line "ungehindert die"
+	para "Höhlen-Arena"
+	line "betreten."
+
 	para "Nimm bitte noch"
-	line "das hier."
+	line "das hier als"
+	cont "Belohnung <...>"
 	sdone
 
 .after_giving_HM_text

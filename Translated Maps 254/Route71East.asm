@@ -19,7 +19,7 @@ Route71East_Trainer_1:
 
 .before_battle_text
 	ctxt "Zeit für meine"
-	line "Jonlierübungen!"
+	line "Jonglierübungen!"
 	done
 
 .battle_won_text

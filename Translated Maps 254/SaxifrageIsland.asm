@@ -15,9 +15,9 @@ SaxifrageIslandHiddenItem:
 	db REVIVE
 
 SaxifrageIslandDescriptionSign:
-	ctxt "Die Insel, die die"
-	next "Gesellschaft vor"
-	next "gefährlichen"
+	ctxt "Die Insel, die"
+	next "die Gesellschaft"
+	next "vor gefährlichen"
 	next "Kriminellen"
 	next "schützt."
 	done
@@ -113,7 +113,7 @@ SaxifrageIslandArrest:
 	para "<...>"
 	para "Haha, du hälst"
 	line "dich wohl für"
-	cont "clever, was?"
+	cont "schlau, was?"
 	para "Mit so einer"
 	line "billigen"
 	para "Fälschung, kannst"
@@ -144,7 +144,7 @@ SaxifrageIslandArrest:
 	line "versuchen dann"
 	para "ihre Freunde aus"
 	line "dem Gefängnis"
-	para "zu befreien."
+	cont "zu befreien."
 	para "Ich weiß nicht,"
 	line "warum genau du"
 	para "hier bist und was"

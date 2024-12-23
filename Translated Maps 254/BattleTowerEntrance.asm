@@ -322,24 +322,28 @@ BattleTower_NotEnoughPokemonText:
 	done
 
 BattleTower_ChooseStrengthText:
-	ctxt "Which room do you"
-	line "wish to challenge?"
+	ctxt "Welchen Raum"
+	line "möchtest du"
+	cont "herausfordern?"
 	done
 
 BattleTower_NotEnoughPokemonLevelText:
-	ctxt "I'm sorry."
-	para "You do not have"
-	line "enough #mon"
-	para "which are at or"
-	line "below the selected"
-	cont "level."
-	para "You need at least"
-	line "3 #mon in"
-	para "order to"
-	line "participate."
-	para "Eggs and legendary"
-	line "#mon are not"
-	cont "permitted."
+	ctxt "Es tut mir leid."
+	para "Du hast nicht"
+	line "genug #mon, die"
+	para "auf oder unter"
+	line "dem"
+	para "ausgewählten"
+	line "Level sind."
+	para "Du benötigst"
+	line "mindestens 3"
+	para "#mon, um"
+	line "teilnehmen zu"
+	cont "können."
+	para "Eier und"
+	line "legendäre #mon"
+	para "sind nicht"
+	line "erlaubt."
 	done
 
 BattleTower_SelectThreePokemonText:
@@ -420,7 +424,7 @@ BattleTowerEntrance_CooltrainerF:
 	para "Was für ein Witz!"
 	line "Wie soll man bitte"
 	para "ohne seine besten"
-	cont "#mon gewinnen?"
+	line "#mon gewinnen?"
 	done
 
 BattleTowerEntrance_MapEventHeader:: db 0, 0

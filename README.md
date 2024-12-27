@@ -1,65 +1,98 @@
-# Prism_German_Translation
-This is the German translation of the popular ROM Hack made by [RainbowDevs](https://rainbowdevs.com).
+# Prism_German_Localization
+This is a German fanmade localization of the popular ROM Hack made by [RainbowDevs](https://rainbowdevs.com).
 
 
-## How to
-### Übersetzen und Anpassen:
+# Deutsche Fan-Lokalisierung von Pokémon Prism
 
-**Vorab wichtig: Innerhalb der Gänsefüßschen darf der Text __NIEMALS länger als 18 Zeichen__ lang sein! Punkte, Kommata und Leerzeichen werden mit gezählt!**
+Eine von Fans erstellte deutsche Lokalisierung des beliebten ROM-Hacks von [RainbowDevs](https://rainbowdevs.com).
 
-`ctxt "WÄHLE EIN #MON"`
 
- -> Kommt nur an oberster Zeile und beginnt den Textabschnitt und stellt den zwischen den Gänsefüßschen eingetragenen Text dar.
+## Über dieses Projekt
 
-`line ""`
+Dies ist eine inoffizielle deutsche Fanübersetzung des ROM Hacks Pokémon Prism von RainbowDevs. 
 
--> Setzt einen Zeilenumbruch im ersten Textfeld und stellt den zwischen den Gänsefüßchen eingetragenen Text dar.
+Pokémon Prism ist eine umfangreiche Modifikation der zweiten Generation (Pokémon Kristall) und bietet eine neue Region, eine originelle Geschichte, neue Mechaniken sowie viele Herausforderungen für Pokémon-Fans.
 
-`cont ""`
+Die deutsche Lokalisierung zielt darauf ab, diese Erfahrung deutschsprachigen Spielern zugänglich zu machen, indem Dialoge, Menüs, Gegenstandsbeschreibungen und mehr ins Deutsche übersetzt werden.
 
- -> Beim Drücken von (A) im Spiel: Scrollt das erste Textfeld eine Zeile runter und stellt den zwischen den Gänsefüßchen eingetragenen Text dar.
 
-`para ""`
+### Funktionen der Lokalisierung
 
- -> Beim Drücken von (A) erscheint ein komplett neues Textfeld und stellt den zwischen den Gänsefüßchen eingetragenen Text dar. Zusätzlich kann man wieder mit line         einen zweizeiligen text schreiben 
+#### Vollständige Übersetzung:
+
+ - Dialoge
+
+ - Menüs und Benutzeroberfläche
+
+ - Gegenstände und Beschreibungen
+
+ - Pokémon und Attacken
+
+
+#### Angepasste Inhalte:
+
+ - Kultur- und sprachspezifische Anpassungen, um die Originalintention des Spiels zu bewahren
  
- ![image](https://user-images.githubusercontent.com/11394683/168790538-a63b0020-6965-4050-9c15-0e161028745e.png)
+ - Fehlerkorrekturen und Optimierungen
 
 
-### Variablen
-Es gibt Variablen die Ihr nutzen könnt bzw. sollt und müsst! 😄 
-Diese Variablen sind zb:
-`<...>`
+### Installation
 
---> Diese Variable stellt 3 normale Punkte dar, jedoch anstelle von 3 Character(da 3 Punkte) nur als 1 Character! Also Spart euch das ungemein Platz gerade bei der 18     Zeichen Begrenzung pro Zeile in der ja sogar Leerzeichen gezählt werden...
+#### Voraussetzungen:
 
-Oder das:
-`#`
+Original-ROM von Pokémon Kristall (US-Version)
 
---> Nur das Hashtag alleine also ohne links und rechts diese Pfeile.
-    Dieser Hashtag setzt im spiel statt dem Hashtag die Phrase
-    `Poké` dar.
-
-**Vorsicht! Als Code ist # zwar nur ein Zeichen, für die 18 Char begrenzung wird jedoch das was dargestellt wird gezählt!
-  Dementsprechend müsst Ihr # als 4 Character zählen!**
-  
-### Sonstige Begrenzungen
-- Pokemon Namen haben max. 10 Zeichen --> bei Variablen wie `<EMON>` und `<BMON>` also immer mit dazurechnen!
-- Item Namen haben max. 12 Zeichen --> Bei Variablen also immer mit dazurechnen!
-- Attacken-Namen haben ebenfalls max. 12 Zeichen --> Bei Variablen also immer mit dazurechnen!
+Ein IPS-Patching-Tool (z. B. Lunar IPS oder Floating IPS)
 
 
-# Geänderte Ortsnamen
-Farbliche Unterlegung:
- - Rot --> Ortsname muss noch geändert werden
- - Orange --> Ortsname sollte noch geändert werden
- - Gelb --> Ortsname könnte eventuell noch geändert werden
+#### Anleitung:
 
-![image](https://user-images.githubusercontent.com/11394683/169313304-5e7a622a-5aa0-49ee-a991-78e9ed0c9444.png)
+ - Lade die Patch-Datei (prism-de.ips) aus diesem Repository herunter.
+
+ - Erstelle eine Sicherheitskopie der Original-ROM.
+
+ - Nutze das Patching-Tool, um die IPS-Datei auf die Original-ROM anzuwenden.
+
+ - Spiele die gepatchte ROM in einem kompatiblen Emulator (z. B. mGBA, BGB).
 
 
-UPDATE 28.02.2023:
-![image](https://user-images.githubusercontent.com/11394683/221959444-436cd728-14d6-4d5a-b786-2ad176595617.png)
+## Bekannte Probleme
+
+ - Manche Textelemente können leicht von der vorgesehenen Box-Größe abweichen.
+   
+
+Falls Fehler auftreten, melde sie bitte im Issue-Bereich.
+
+
+## Beitragen
+
+Möchtest du dieses Projekt unterstützen? Wir freuen uns über jede Hilfe!
+
+#### Übersetzungsprüfung: Hilf uns, die Texte zu verbessern.
+
+#### Technische Unterstützung: Arbeite mit uns an Bugfixes oder Erweiterungen.
+
+#### Feedback: Teile deine Spielerfahrung und Verbesserungsvorschläge.
+
+
+
+## Haftungsausschluss
+
+Dies ist ein inoffizielles Fanprojekt. Wir sind weder mit RainbowDevs noch mit Nintendo, Game Freak oder The Pokémon Company verbunden. Alle Rechte an Pokémon und verwandten Inhalten gehören ihren jeweiligen Eigentümern.
+
+
+
+## Danksagungen
+
+Ein großes Dankeschön an:
+
+Koolboyman für den originalen ROM Hack.
+
+RainbowDevs für das Weiterführen des Hacks.
+
+Die Pokémon-Community für ihre Unterstützung.
+
+Alle Mitwirkenden für ihre Arbeit an der deutschen Lokalisierung.
 
 
 

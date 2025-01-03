@@ -52,6 +52,7 @@ Ein IPS-Patching-Tool (z. B. Lunar IPS oder Floating IPS)
  - Erstelle eine Sicherheitskopie der Original-ROM.
 
  - Nutze das Patching-Tool, um die IPS-Datei auf die Original-ROM anzuwenden.
+   - Der [Online Patcher](https://www.marcrobledo.com/RomPatcher.js/) von [Marco Bledo](https://github.com/marcrobledo) ist eine gute Alternative, die ohne zusätzliches Programm funktioniert.
 
  - Spiele die gepatchte ROM in einem kompatiblen Emulator (z. B. mGBA, BGB).
 

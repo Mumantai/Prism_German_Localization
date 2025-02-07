@@ -42,7 +42,7 @@ Die deutsche Lokalisierung zielt darauf ab, diese Erfahrung deutschsprachigen Sp
 
 Original-ROM von Pokémon Kristall (US-Version)
 
-Ein IPS-Patching-Tool (z. B. Lunar IPS oder Floating IPS)
+Ein IPS-Patching-Tool (z. B. Lunar IPS)
 
 
 #### Anleitung:

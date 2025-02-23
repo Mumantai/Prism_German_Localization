@@ -61,6 +61,8 @@ Ein IPS-Patching-Tool (z. B. Lunar IPS)
 ## Bekannte Probleme
 
  - Manche Textelemente können leicht von der vorgesehenen Box-Größe abweichen.
+ - Eventuell sind einige Textelemente noch nicht lokalisiert
+ - !!Es kann unter Umständen zu Crashes kommen, deshalb speichert das Spiel regelmäßig!!
    
 
 Falls Fehler auftreten, melde sie bitte im Issue-Bereich.

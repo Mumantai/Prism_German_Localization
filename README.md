@@ -40,14 +40,15 @@ Die deutsche Lokalisierung zielt darauf ab, diese Erfahrung deutschsprachigen Sp
 
 #### Voraussetzungen:
 
-Original-ROM von Pokémon Kristall (US-Version)
+Original-ROM von Pokémon Kristall (USA Version 1.1 bzw. Rev A)
+- SHA1-Checksumme: f2f52230b536214ef7c9924f483392993e226cfb
 
 Ein IPS-Patching-Tool (z. B. Lunar IPS)
 
 
 #### Anleitung:
 
- - Lade die Patch-Datei (prism-de.ips) aus diesem Repository herunter.
+ - Lade die Patch-Datei (prism-de.bps) aus diesem Repository herunter.
 
  - Erstelle eine Sicherheitskopie der Original-ROM.
 

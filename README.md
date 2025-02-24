@@ -33,7 +33,7 @@ Die deutsche Lokalisierung zielt darauf ab, diese Erfahrung deutschsprachigen Sp
 
  - Kultur- und sprachspezifische Anpassungen, um die Originalintention des Spiels zu bewahren
  
- - Fehlerkorrekturen und Optimierungen
+ - Nutzung des 24-Stunden Zeitformates und Angaben in metrischen Einheiten
 
 
 ### Installation

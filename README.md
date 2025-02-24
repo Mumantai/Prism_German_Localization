@@ -43,7 +43,7 @@ Die deutsche Lokalisierung zielt darauf ab, diese Erfahrung deutschsprachigen Sp
 Original-ROM von Pokémon Kristall (USA Version 1.1 bzw. Rev A)
 - SHA1-Checksumme: f2f52230b536214ef7c9924f483392993e226cfb
 
-Ein BPS-Patching-Tool
+Das [Online Patching Tool von Rainbowdevs](https://rainbowdevs.com/patcher_unified.htm)
 
 
 #### Anleitung:
@@ -52,8 +52,8 @@ Ein BPS-Patching-Tool
 
  - Erstelle eine Sicherheitskopie der Original-ROM.
 
- - Nutze das Patching-Tool, um die IPS-Datei auf die Original-ROM anzuwenden.
-   - Der [Online Patcher](https://www.marcrobledo.com/RomPatcher.js/) von [Marco Bledo](https://github.com/marcrobledo) ist eine gute Alternative, die ohne zusätzliches Programm funktioniert.
+ - Nutze das Patching-Tool, um die BSP-Datei auf die Original-ROM anzuwenden.
+   - Bei Patch File kommt der Patch hin und bei Input File die ROM
 
  - Spiele die gepatchte ROM in einem kompatiblen Emulator (z. B. mGBA, BGB).
 

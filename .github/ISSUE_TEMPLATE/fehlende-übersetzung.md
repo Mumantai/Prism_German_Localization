@@ -2,7 +2,7 @@
 name: Fehlende Übersetzung
 about: Du hast einen nicht übersetzten Text gefunden? Dann poste ihn hier!
 title: "[Fehlende Übersetzung] Map/NPC"
-labels: Rechtschreibung/Grammatik
+labels: ToDo
 assignees: ''
 
 ---

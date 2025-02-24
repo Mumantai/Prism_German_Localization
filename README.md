@@ -43,7 +43,7 @@ Die deutsche Lokalisierung zielt darauf ab, diese Erfahrung deutschsprachigen Sp
 Original-ROM von Pokémon Kristall (USA Version 1.1 bzw. Rev A)
 - SHA1-Checksumme: f2f52230b536214ef7c9924f483392993e226cfb
 
-Ein IPS-Patching-Tool (z. B. Lunar IPS)
+Ein BPS-Patching-Tool
 
 
 #### Anleitung:

@@ -53,9 +53,10 @@ Das [Online Patching Tool von Rainbowdevs](https://rainbowdevs.com/patcher_unifi
  - Erstelle eine Sicherheitskopie der Original-ROM.
 
  - Nutze das Patching-Tool, um die BSP-Datei auf die Original-ROM anzuwenden.
-   - Bei Patch File kommt der Patch hin und bei Input File die ROM
+   - Bei Patch File kommt der Patch hin und bei Input File die ROM.
+   - Der Patcher kann auch deine Speicherdatei als Input File benutzen, um diesen nach einem Update zu aktualisieren.
 
- - Spiele die gepatchte ROM in einem kompatiblen Emulator (z. B. mGBA, BGB).
+ - Spiele die gepatchte ROM in einem kompatiblen Emulator (z.B. mGBA, Sameboy).
 
 
 ## Bekannte Probleme

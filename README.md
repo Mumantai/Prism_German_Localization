@@ -42,6 +42,8 @@ Die deutsche Lokalisierung zielt darauf ab, diese Erfahrung deutschsprachigen Sp
 
 Original-ROM von Pokémon Kristall (USA Version 1.1 bzw. Rev A)
 - SHA1-Checksumme: f2f52230b536214ef7c9924f483392993e226cfb
+  - Die Checksumme lässt sich leicht über den [Online Patcher](https://www.marcrobledo.com/RomPatcher.js/) von [Marc Robledo](https://github.com/marcrobledo) prüfen.
+  - Andere Versionen könnten auch funktionieren, dies ist aber nicht garantiert.
 
 Das [Online Patching Tool von Rainbowdevs](https://rainbowdevs.com/patcher_unified.htm)
 

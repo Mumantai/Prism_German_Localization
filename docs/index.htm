@@ -1355,13 +1355,69 @@ function BSPPatcher (bsp, input) {
       }
       patcher.run();
     }
+
+  //   Neue Funktionen, um automatisch die Patch-Datei aus dem Repository zu beziehen
+  (() => {
+    const OWNER = 'Mumantai';
+    const REPO = 'Prism_German_Localization';
+    const PATCH_INPUT_SELECTOR = '#patch';     // ggf. anpassen
+    const FALLBACK_LOCAL = './prism-de.bsp';   // optionaler Fallback
+
+    async function getLatestBspUrl() {
+      const res = await fetch(`https://api.github.com/repos/${OWNER}/${REPO}/releases/latest`, {
+        headers: { 'Accept': 'application/vnd.github+json' },
+        cache: 'no-store'
+      });
+      if (!res.ok) throw new Error('Release konnte nicht geladen werden');
+      const rel = await res.json();
+      const asset = (rel.assets || []).find(a => a.name && a.name.toLowerCase().endsWith('.bsp'));
+      if (!asset) throw new Error('Keine .bsp-Datei in der neuesten Release gefunden');
+      return asset.browser_download_url;
+    }
+
+    async function fetchAsFile(url, nameHint) {
+      const resp = await fetch(url, { cache: 'no-store', redirect: 'follow' });
+      if (!resp.ok) throw new Error('Patch-Download fehlgeschlagen');
+      const blob = await resp.blob();
+      const name = nameHint || (url.split('/').pop() || 'patch.bsp');
+      return new File([blob], name, { type: blob.type || 'application/octet-stream' });
+    }
+
+    function setFileInput(file) {
+      const input = document.querySelector(PATCH_INPUT_SELECTOR);
+      if (!input) throw new Error('Patch-File-Input nicht gefunden');
+      const dt = new DataTransfer();
+      dt.items.add(file);
+      input.files = dt.files;
+      input.dispatchEvent(new Event('change', { bubbles: true }));
+    }
+
+    async function autoLoad() {
+      try {
+        const url = await getLatestBspUrl();
+        const file = await fetchAsFile(url);
+        setFileInput(file);
+      } catch (e) {
+        try {
+          const file = await fetchAsFile(FALLBACK_LOCAL, 'fallback.bsp');
+          setFileInput(file);
+          console.warn('API/Release-Asset fehlte, lokaler Fallback genutzt:', e);
+        } catch (e2) {
+          console.warn('Kein Patch geladen:', e2);
+        }
+      }
+    }
+
+    window.addEventListener('DOMContentLoaded', autoLoad);
+  })();
+
   </script>
 </head>
 <body>
   <form style="text-align: center;" name="inputs">
-    Patch file: <input type="file" name="bsp" /><br />
-    Input file: <input type="file" name="source" /><br />
-    <input type="button" value="Begin patching" onclick="patch(this);" />
+    <input name="bsp" /><br />
+    ROM bzw. Savefile: <input type="file" name="source" /><br />
+    <input type="button" value="Patchen" onclick="patch(this);" />
   </form>
   <div style="text-align: center; color: #ff0000;" id="result"></div>
   <hr />

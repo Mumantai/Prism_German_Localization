@@ -45,16 +45,29 @@ Original-ROM von Pokémon Kristall (USA Version 1.1 bzw. Rev A)
   - Die Checksumme lässt sich leicht über den [Online Patcher](https://www.marcrobledo.com/RomPatcher.js/) von [Marc Robledo](https://github.com/marcrobledo) prüfen.
   - Andere Versionen könnten auch funktionieren, dies ist aber nicht garantiert.
 
-Das [Online Patching Tool von Rainbowdevs](https://rainbowdevs.com/patcher_unified.htm)
 
 
 #### Anleitung:
+##### Automatisch:
+ - Besuche unseren [Online Patcher](https://mumantai.github.io/Prism_German_Localization/)
 
+ - Wähle deine Pokémon Kristall ROM aus
+
+ - Klicke auf "Patchen"
+
+ - Wähle die gewünschte Variante aus (Release-ROM, Debug-ROM oder GBS-Datei)
+
+ - Lade die gepatchte Datei herunter und speichere sie auf deinem Gerät.
+
+Tipp: Du kannst auch deine Speicherdatei (Save File) patchen, um sie nach einem Update zu aktualisieren. 
+Wähle dazu einfach deine Speicherdatei anstatt der ROM aus und die gepatchte Datei wird automatisch erstellt.
+
+##### Manuell:
  - Lade die Patch-Datei (prism-de.bps) aus diesem Repository herunter.
 
  - Erstelle eine Sicherheitskopie der Original-ROM.
 
- - Nutze das Patching-Tool, um die BSP-Datei auf die Original-ROM anzuwenden.
+ - Nutze das [Online Patching Tool von Rainbowdevs](https://rainbowdevs.com/patcher_unified.htm), um die BSP-Datei auf die Original-ROM anzuwenden.
    - Bei Patch File kommt der Patch hin und bei Input File die ROM.
    - Der Patcher kann auch deine Speicherdatei als Input File benutzen, um diesen nach einem Update zu aktualisieren.
 

@@ -1357,54 +1357,79 @@ function BSPPatcher (bsp, input) {
     }
 
   //   Neue Funktionen, um automatisch die Patch-Datei aus dem Repository zu beziehen
-    (() => {
-      const OWNER = 'Mumantai';
-      const REPO = 'Prism_German_Localization';
-      const PATCH_INPUT_SELECTOR = '#bsp';
+    const OWNER = 'Mumantai';
+    const REPO = 'Prism_German_Localization';
+    const PATCH_INPUT_SELECTOR = '#bsp';
 
-      async function getLatestBspUrl() {
-        const res = await fetch(`https://api.github.com/repos/${OWNER}/${REPO}/releases/latest`, {
+    async function getLatestBspUrl() {
+      const base = `https://api.github.com/repos/${OWNER}/${REPO}`;
+      // 1) Versuche "latest" (nur veröffentlichte Releases)
+      try {
+        const r = await fetch(`${base}/releases/latest`, {
           headers: { 'Accept': 'application/vnd.github+json' },
           cache: 'no-store'
         });
-        if (!res.ok) throw new Error('Release konnte nicht geladen werden');
-        const rel = await res.json();
-        const asset = (rel.assets || []).find(a => a.name && a.name.toLowerCase().endsWith('.bsp'));
-        if (!asset) throw new Error('Keine .bsp-Datei in der neuesten Release gefunden');
-        return asset.browser_download_url;
-      }
-
-      async function fetchAsFile(url, nameHint) {
-        const resp = await fetch(url, { cache: 'no-store', redirect: 'follow' });
-        if (!resp.ok) throw new Error(`Patch-Download fehlgeschlagen (${resp.status})`);
-        const blob = await resp.blob();
-        const name = nameHint || (url.split('/').pop() || 'patch.bsp');
-        return new File([blob], name, { type: 'application/octet-stream' });
-      }
-
-      function setFileInput(file) {
-        const input = document.querySelector(PATCH_INPUT_SELECTOR);
-        if (!input) throw new Error('Patch-Input nicht gefunden');
-        const dt = new DataTransfer();
-        dt.items.add(file);
-        input.files = dt.files;
-        input.dispatchEvent(new Event('change', { bubbles: true }));
-      }
-
-      async function autoLoad() {
-        const status = document.getElementById('result');
-        try {
-          const url = await getLatestBspUrl();
-          const file = await fetchAsFile(url);
-          setFileInput(file);
-          if (status) status.textContent = `Patch automatisch geladen: ${file.name}`;
-        } catch (e) {
-          if (status) status.textContent = 'Patch konnte nicht automatisch geladen werden.';
-          console.error(e);
+        if (r.status !== 404 && !r.ok) throw new Error(`GitHub API ${r.status}`);
+        if (r.ok) {
+          const rel = await r.json();
+          const a = (rel.assets || []).find(x => x.name?.toLowerCase().endsWith('.bsp'));
+          if (a) return a.browser_download_url;
         }
+      } catch (e) {
+        // andere Fehler als 404 nach unten durchfallen lassen
       }
 
-      window.addEventListener('DOMContentLoaded', autoLoad);
+      // 2) Fallback: Liste der letzten Releases inkl. Pre-Releases durchsuchen
+      const list = await fetch(`${base}/releases?per_page=10`, {
+        headers: { 'Accept': 'application/vnd.github+json' },
+        cache: 'no-store'
+      });
+      if (!list.ok) throw new Error(`GitHub API ${list.status}`);
+      const releases = await list.json();
+      for (const rel of releases) {
+        const a = (rel.assets || []).find(x => x.name?.toLowerCase().endsWith('.bsp'));
+        if (a) return a.browser_download_url;
+      }
+      throw new Error('Keine .bsp-Datei in Releases gefunden');
+    }
+
+    async function fetchAsFile(url, nameHint) {
+      const resp = await fetch(url, {
+        headers: { 'Accept': 'application/octet-stream' },
+        cache: 'no-store',
+        redirect: 'follow',
+        credentials: 'omit'
+      });
+      if (!resp.ok) throw new Error(`Patch-Download fehlgeschlagen (${resp.status})`);
+      const blob = await resp.blob();
+      const name = nameHint || (url.split('/').pop() || 'patch.bsp');
+      return new File([blob], name, { type: 'application/octet-stream' });
+    }
+
+    function setFileInput(file) {
+      const input = document.querySelector(PATCH_INPUT_SELECTOR);
+      if (!input) throw new Error('Patch-Input nicht gefunden');
+      const dt = new DataTransfer();
+      dt.items.add(file);
+      input.files = dt.files;
+      input.dispatchEvent(new Event('change', { bubbles: true }));
+    }
+
+    async function autoLoad() {
+      const status = document.getElementById('result');
+      try {
+        if (status) status.textContent = 'Patch wird geladen …';
+        const url = await getLatestBspUrl();
+        const file = await fetchAsFile(url);
+        setFileInput(file);
+        if (status) status.textContent = `Patch automatisch geladen: ${file.name}`;
+      } catch (e) {
+        if (status) status.textContent = `Patch konnte nicht automatisch geladen werden: ${e.message || e}`;
+        console.error('[AutoLoad BSP]', e);
+      }
+    }
+
+    window.addEventListener('DOMContentLoaded', autoLoad);
     })();
   </script>
 </head>

@@ -1344,10 +1344,10 @@ function BSPPatcher (bsp, input) {
         return create_menu(options, function (option) {patcher.run(option);});
       }
       patcher.error = function (error) {
-        patch_result.innerText = "Error: " + error.toString();
+        patch_result.innerText = "Fehler: " + error.toString();
       }
       patcher.failure = function (status) {
-        patch_result.innerText = "Patch finished with status " + status.toString();
+        patch_result.innerText = "Patch mit Status " + status.toString() + " abgschlossen.";
       }
       patcher.success = function (data) {
         var url = URL.createObjectURL(new Blob([data], {type: "application/octet-stream"}));
@@ -1357,60 +1357,55 @@ function BSPPatcher (bsp, input) {
     }
 
   //   Neue Funktionen, um automatisch die Patch-Datei aus dem Repository zu beziehen
-  (() => {
-    const OWNER = 'Mumantai';
-    const REPO = 'Prism_German_Localization';
-    const PATCH_INPUT_SELECTOR = '#patch';     // ggf. anpassen
-    const FALLBACK_LOCAL = './prism-de.bsp';   // optionaler Fallback
+    (() => {
+      const OWNER = 'Mumantai';
+      const REPO = 'Prism_German_Localization';
+      const PATCH_INPUT_SELECTOR = '#bsp';
 
-    async function getLatestBspUrl() {
-      const res = await fetch(`https://api.github.com/repos/${OWNER}/${REPO}/releases/latest`, {
-        headers: { 'Accept': 'application/vnd.github+json' },
-        cache: 'no-store'
-      });
-      if (!res.ok) throw new Error('Release konnte nicht geladen werden');
-      const rel = await res.json();
-      const asset = (rel.assets || []).find(a => a.name && a.name.toLowerCase().endsWith('.bsp'));
-      if (!asset) throw new Error('Keine .bsp-Datei in der neuesten Release gefunden');
-      return asset.browser_download_url;
-    }
+      async function getLatestBspUrl() {
+        const res = await fetch(`https://api.github.com/repos/${OWNER}/${REPO}/releases/latest`, {
+          headers: { 'Accept': 'application/vnd.github+json' },
+          cache: 'no-store'
+        });
+        if (!res.ok) throw new Error('Release konnte nicht geladen werden');
+        const rel = await res.json();
+        const asset = (rel.assets || []).find(a => a.name && a.name.toLowerCase().endsWith('.bsp'));
+        if (!asset) throw new Error('Keine .bsp-Datei in der neuesten Release gefunden');
+        return asset.browser_download_url;
+      }
 
-    async function fetchAsFile(url, nameHint) {
-      const resp = await fetch(url, { cache: 'no-store', redirect: 'follow' });
-      if (!resp.ok) throw new Error('Patch-Download fehlgeschlagen');
-      const blob = await resp.blob();
-      const name = nameHint || (url.split('/').pop() || 'patch.bsp');
-      return new File([blob], name, { type: blob.type || 'application/octet-stream' });
-    }
+      async function fetchAsFile(url, nameHint) {
+        const resp = await fetch(url, { cache: 'no-store', redirect: 'follow' });
+        if (!resp.ok) throw new Error(`Patch-Download fehlgeschlagen (${resp.status})`);
+        const blob = await resp.blob();
+        const name = nameHint || (url.split('/').pop() || 'patch.bsp');
+        return new File([blob], name, { type: 'application/octet-stream' });
+      }
 
-    function setFileInput(file) {
-      const input = document.querySelector(PATCH_INPUT_SELECTOR);
-      if (!input) throw new Error('Patch-File-Input nicht gefunden');
-      const dt = new DataTransfer();
-      dt.items.add(file);
-      input.files = dt.files;
-      input.dispatchEvent(new Event('change', { bubbles: true }));
-    }
+      function setFileInput(file) {
+        const input = document.querySelector(PATCH_INPUT_SELECTOR);
+        if (!input) throw new Error('Patch-Input nicht gefunden');
+        const dt = new DataTransfer();
+        dt.items.add(file);
+        input.files = dt.files;
+        input.dispatchEvent(new Event('change', { bubbles: true }));
+      }
 
-    async function autoLoad() {
-      try {
-        const url = await getLatestBspUrl();
-        const file = await fetchAsFile(url);
-        setFileInput(file);
-      } catch (e) {
+      async function autoLoad() {
+        const status = document.getElementById('result');
         try {
-          const file = await fetchAsFile(FALLBACK_LOCAL, 'fallback.bsp');
+          const url = await getLatestBspUrl();
+          const file = await fetchAsFile(url);
           setFileInput(file);
-          console.warn('API/Release-Asset fehlte, lokaler Fallback genutzt:', e);
-        } catch (e2) {
-          console.warn('Kein Patch geladen:', e2);
+          if (status) status.textContent = `Patch automatisch geladen: ${file.name}`;
+        } catch (e) {
+          if (status) status.textContent = 'Patch konnte nicht automatisch geladen werden.';
+          console.error(e);
         }
       }
-    }
 
-    window.addEventListener('DOMContentLoaded', autoLoad);
-  })();
-
+      window.addEventListener('DOMContentLoaded', autoLoad);
+    })();
   </script>
 </head>
 <body>

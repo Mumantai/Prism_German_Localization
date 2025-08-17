@@ -1356,8 +1356,8 @@ function BSPPatcher (bsp, input) {
       patcher.run();
     }
 
-  //   Neue Funktionen, um automatisch die Patch-Datei aus dem Repository zu beziehen
-// Auto-Loader für die Patch-Datei aus GitHub Releases
+//   Neue Funktionen, um automatisch die Patch-Datei aus dem Repository zu beziehen
+// Auto-Loader für die Patch-Datei aus GitHub Releases mit CORS-Proxy
 (() => {
   const OWNER = 'Mumantai';
   const REPO = 'Prism_German_Localization';
@@ -1369,62 +1369,33 @@ function BSPPatcher (bsp, input) {
     if (status) status.textContent = msg;
   }
 
-  function ensureBspInput() {
-    let input = document.querySelector(PATCH_INPUT_SELECTOR);
-    if (!input) {
-      const form = document.forms[0];
-      input = document.createElement('input');
-      input.type = 'file';
-      input.name = 'bsp';
-      input.id = 'bsp';
-      input.style.display = 'none';
-      form.appendChild(input);
-    }
-    return input;
-  }
-
   // GitHub API nutzen, um die URL des .bsp Assets zu finden
   async function findBspAssetUrl() {
-    const apiUrl = `https://api.github.com/repos/${OWNER}/${REPO}/releases`;
+    const apiUrl = `https://api.github.com/repos/${OWNER}/${REPO}/releases/latest`;
 
     try {
-      // Zuerst das neueste Release prüfen
-      const latestResponse = await fetch(`${apiUrl}/latest`);
+      const response = await fetch(apiUrl);
+      if (!response.ok) throw new Error(`GitHub API Error: ${response.status}`);
 
-      if (latestResponse.ok) {
-        const latestRelease = await latestResponse.json();
-        const asset = latestRelease.assets.find(a => a.name.endsWith('.bsp'));
-        if (asset) return asset.browser_download_url;
-      }
+      const release = await response.json();
+      const asset = release.assets.find(a => a.name.endsWith('.bsp'));
 
-      // Fallback: Alle Releases durchsuchen
-      const allResponse = await fetch(`${apiUrl}?per_page=10`);
-      if (!allResponse.ok) throw new Error(`GitHub API Error: ${allResponse.status}`);
-
-      const releases = await allResponse.json();
-      for (const release of releases) {
-        const asset = release.assets.find(a => a.name.endsWith('.bsp'));
-        if (asset) return asset.browser_download_url;
-      }
-
-      throw new Error('Keine .bsp-Datei in den Releases gefunden');
+      if (!asset) throw new Error('Keine .bsp-Datei im neuesten Release gefunden');
+      return asset.browser_download_url;
     } catch (e) {
-      throw new Error(`Fehler beim Abrufen der Releases: ${e.message}`);
+      throw new Error(`Fehler beim Abrufen des Release: ${e.message}`);
     }
   }
 
-  // Die Datei herunterladen (über die API-URL, nicht die direkte Asset-URL)
+  // Die Datei über einen CORS-Proxy herunterladen
   async function downloadReleaseAsset(url) {
     setStatus(`Lade Patch-Datei...`);
 
     try {
-      // GitHub API-URL für den Asset-Download verwenden
-      const response = await fetch(url, {
-        headers: {
-          'Accept': 'application/octet-stream'
-        }
-      });
+      // CORS-Proxy verwenden - hier mit corsproxy.io
+      const proxyUrl = `https://corsproxy.io/?${encodeURIComponent(url)}`;
 
+      const response = await fetch(proxyUrl);
       if (!response.ok) throw new Error(`Download fehlgeschlagen: ${response.status}`);
 
       const blob = await response.blob();
@@ -1438,11 +1409,20 @@ function BSPPatcher (bsp, input) {
 
   // Die Datei in das Formular einfügen
   function setFileInput(file) {
-    const input = ensureBspInput();
-    const dt = new DataTransfer();
-    dt.items.add(file);
-    input.files = dt.files;
-    input.dispatchEvent(new Event('change', { bubbles: true }));
+    const input = document.querySelector(PATCH_INPUT_SELECTOR);
+    if (!input) {
+      console.error('Patch-Input-Element nicht gefunden');
+      return;
+    }
+
+    try {
+      const dt = new DataTransfer();
+      dt.items.add(file);
+      input.files = dt.files;
+      input.dispatchEvent(new Event('change', { bubbles: true }));
+    } catch (e) {
+      console.error('Fehler beim Setzen der Datei:', e);
+    }
   }
 
   // Hauptfunktion
@@ -1450,6 +1430,7 @@ function BSPPatcher (bsp, input) {
     try {
       setStatus('Suche neueste Patch-Version...');
       const url = await findBspAssetUrl();
+      setStatus(`Lade Patch von ${url.split('/').pop()}...`);
       const file = await downloadReleaseAsset(url);
       setFileInput(file);
       setStatus(`Patch geladen: ${file.name}`);
@@ -1462,6 +1443,7 @@ function BSPPatcher (bsp, input) {
   // Beim Laden der Seite ausführen
   window.addEventListener('DOMContentLoaded', autoLoadPatch);
 })();
+
   </script>
 </head>
 <body>

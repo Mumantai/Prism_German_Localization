@@ -1415,7 +1415,7 @@ function BSPPatcher (bsp, input) {
 </head>
 <body>
   <form style="text-align: center;" name="inputs">
-    <input name="bsp" /><br />
+    <input type="file" name="bsp" id="bsp" style="display:none" /><br />
     ROM bzw. Savefile: <input type="file" name="source" /><br />
     <input type="button" value="Patchen" onclick="patch(this);" />
   </form>

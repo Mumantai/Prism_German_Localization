@@ -1362,7 +1362,7 @@ function BSPPatcher (bsp, input) {
   const OWNER = 'Mumantai';
   const REPO = 'Prism_German_Localization';
   const PATCH_INPUT_SELECTOR = '#bsp';
-  const FALLBACK_FILENAME = 'patch.bsp';
+  const FALLBACK_FILENAME = 'pokeprism.bsp';
 
   function setStatus(msg) {
     const status = document.getElementById('result');
@@ -1372,7 +1372,7 @@ function BSPPatcher (bsp, input) {
   function ensureBspInput() {
     let input = document.querySelector(PATCH_INPUT_SELECTOR);
     if (!input) {
-      const form = document.forms[0] || document.body;
+      const form = document.forms[0];
       input = document.createElement('input');
       input.type = 'file';
       input.name = 'bsp';
@@ -1383,173 +1383,84 @@ function BSPPatcher (bsp, input) {
     return input;
   }
 
-  // Sucht nach einer .bsp-Datei in allen Releases (inkl. Pre-Releases)
+  // GitHub API nutzen, um die URL des .bsp Assets zu finden
   async function findBspAssetUrl() {
-    const base = `https://api.github.com/repos/${OWNER}/${REPO}`;
+    const apiUrl = `https://api.github.com/repos/${OWNER}/${REPO}/releases`;
 
     try {
-      // Zuerst versuchen wir das neueste reguläre Release zu bekommen
-      const r = await fetch(`${base}/releases/latest`, {
-        headers: { 'Accept': 'application/vnd.github+json' },
-        cache: 'no-store'
-      });
+      // Zuerst das neueste Release prüfen
+      const latestResponse = await fetch(`${apiUrl}/latest`);
 
-      if (r.ok) {
-        const rel = await r.json();
-        const asset = (rel.assets || []).find(x => x.name?.toLowerCase().endsWith('.bsp'));
+      if (latestResponse.ok) {
+        const latestRelease = await latestResponse.json();
+        const asset = latestRelease.assets.find(a => a.name.endsWith('.bsp'));
         if (asset) return asset.browser_download_url;
       }
-      // Bei 404 oder wenn keine .bsp gefunden wurde, weiter mit dem Fallback
+
+      // Fallback: Alle Releases durchsuchen
+      const allResponse = await fetch(`${apiUrl}?per_page=10`);
+      if (!allResponse.ok) throw new Error(`GitHub API Error: ${allResponse.status}`);
+
+      const releases = await allResponse.json();
+      for (const release of releases) {
+        const asset = release.assets.find(a => a.name.endsWith('.bsp'));
+        if (asset) return asset.browser_download_url;
+      }
+
+      throw new Error('Keine .bsp-Datei in den Releases gefunden');
     } catch (e) {
-      console.warn('Latest-Release-Check fehlgeschlagen:', e);
+      throw new Error(`Fehler beim Abrufen der Releases: ${e.message}`);
     }
-
-    // Fallback: Liste aller Releases (inkl. Pre-Releases)
-    const response = await fetch(`${base}/releases?per_page=20`, {
-      headers: { 'Accept': 'application/vnd.github+json' },
-      cache: 'no-store'
-    });
-
-    if (!response.ok) throw new Error(`GitHub API: ${response.status}`);
-
-    const releases = await response.json();
-
-    for (const rel of releases) {
-      if (rel.draft) continue; // Draft-Releases überspringen
-      const asset = (rel.assets || []).find(x => x.name?.toLowerCase().endsWith('.bsp'));
-      if (asset) return asset.browser_download_url;
-    }
-
-    throw new Error('Keine .bsp-Datei in den Releases gefunden');
   }
 
-  // Lädt die Datei herunter und wandelt sie in ein File-Objekt um
-  async function downloadAsFile(url) {
-    setStatus(`Lade Patch von ${url.split('/').pop()}...`);
-
-    const response = await fetch(url, {
-      method: 'GET',
-      headers: { 'Accept': 'application/octet-stream' },
-      cache: 'no-store',
-      mode: 'cors',
-      redirect: 'follow',
-      credentials: 'omit'
-    });
-
-    if (!response.ok) throw new Error(`Download fehlgeschlagen: ${response.status}`);
-
-    const blob = await response.blob();
-    const name = url.split('/').pop() || FALLBACK_FILENAME;
+  // Die Datei herunterladen (über die API-URL, nicht die direkte Asset-URL)
+  async function downloadReleaseAsset(url) {
+    setStatus(`Lade Patch-Datei...`);
 
     try {
-      return new File([blob], name, { type: 'application/octet-stream' });
+      // GitHub API-URL für den Asset-Download verwenden
+      const response = await fetch(url, {
+        headers: {
+          'Accept': 'application/octet-stream'
+        }
+      });
+
+      if (!response.ok) throw new Error(`Download fehlgeschlagen: ${response.status}`);
+
+      const blob = await response.blob();
+      const filename = url.split('/').pop() || FALLBACK_FILENAME;
+
+      return new File([blob], filename, { type: 'application/octet-stream' });
     } catch (e) {
-      // Fallback für ältere Browser
-      blob.name = name;
-      return blob;
+      throw new Error(`Download fehlgeschlagen: ${e.message}`);
     }
   }
 
-  // Setzt die heruntergeladene Datei als Input-Wert
+  // Die Datei in das Formular einfügen
   function setFileInput(file) {
     const input = ensureBspInput();
-    try {
-      const dt = new DataTransfer();
-      dt.items.add(file);
-      input.files = dt.files;
-    } catch (e) {
-      // Fallback wenn DataTransfer nicht verfügbar ist
-      console.warn('DataTransfer nicht verfügbar:', e);
-      window.__autoBspFile = file;
-    }
-
+    const dt = new DataTransfer();
+    dt.items.add(file);
+    input.files = dt.files;
     input.dispatchEvent(new Event('change', { bubbles: true }));
   }
 
-  // Verbesserte patch-Funktion, die automatisch auf den Patch wartet
-  async function waitForPatchInput(timeoutMs = 8000) {
-    const input = ensureBspInput();
-    if (input.files && input.files.length === 1) return true;
-    if (window.__autoBspFile) return true;
-
-    return new Promise(resolve => {
-      const onChange = () => {
-        cleanup();
-        resolve(true);
-      };
-
-      const timeout = setTimeout(() => {
-        cleanup();
-        resolve(false);
-      }, timeoutMs);
-
-      function cleanup() {
-        clearTimeout(timeout);
-        input.removeEventListener('change', onChange);
-      }
-
-      input.addEventListener('change', onChange, { once: true });
-    });
-  }
-
-  // Patch-Funktion überschreiben, um nur noch Eingabedatei zu verlangen
-  const originalPatch = window.patch;
-  window.patch = async function(button) {
-    const form = document.forms[0];
-    if (form.source.files.length !== 1) {
-      return alert('Bitte wähle die Eingabedatei aus.');
-    }
-
-    // Wenn kein Patch ausgewählt, auf Auto-Load warten
-    if (form.bsp.files.length !== 1 && !window.__autoBspFile) {
-      setStatus('Warte auf automatischen Patch-Download...');
-      const ok = await waitForPatchInput(8000);
-      if (!ok) {
-        alert('Patch konnte nicht automatisch geladen werden.');
-        return;
-      }
-    }
-
-    // Rest der patch-Funktion wie original
-    const patchFile = form.bsp.files[0] || window.__autoBspFile;
-    const filename = patchFile.name.split('.').slice(0, -1)
-      .concat(form.source.files[0].name.split('.').slice(1).slice(-1)).join('.');
-
-    button.disabled = true;
-
-    const bspReader = new FileReader();
-    const srcReader = new FileReader();
-    let bspData, srcData;
-
-    bspReader.onload = function() {
-      bspData = this.result;
-      if (srcData) begin_patch(bspData, srcData, filename);
-    };
-    srcReader.onload = function() {
-      srcData = this.result;
-      if (bspData) begin_patch(bspData, srcData, filename);
-    };
-
-    bspReader.readAsArrayBuffer(patchFile);
-    srcReader.readAsArrayBuffer(form.source.files[0]);
-  };
-
-  // Hauptfunktion, die beim Laden der Seite ausgeführt wird
-  async function autoLoad() {
+  // Hauptfunktion
+  async function autoLoadPatch() {
     try {
-      setStatus('Patch wird automatisch geladen...');
+      setStatus('Suche neueste Patch-Version...');
       const url = await findBspAssetUrl();
-      const file = await downloadAsFile(url);
+      const file = await downloadReleaseAsset(url);
       setFileInput(file);
-      setStatus(`Patch automatisch geladen: ${file.name || FALLBACK_FILENAME}`);
+      setStatus(`Patch geladen: ${file.name}`);
     } catch (e) {
-      setStatus(`Patch konnte nicht automatisch geladen werden: ${e.message}`);
-      console.error('Auto-Load fehlgeschlagen:', e);
+      setStatus(`Fehler: ${e.message}`);
+      console.error('Patch-Download fehlgeschlagen:', e);
     }
   }
 
-  // Event-Listener für das Laden der Seite
-  window.addEventListener('DOMContentLoaded', autoLoad);
+  // Beim Laden der Seite ausführen
+  window.addEventListener('DOMContentLoaded', autoLoadPatch);
 })();
   </script>
 </head>

@@ -198,6 +198,7 @@ h1 {
 
 .file-input-button:hover {
     background-color: var(--primary-color-dark);
+    box-shadow: 0 4px 8px rgba(52, 152, 219, 0.3);
 }
 
 .file-input-button:active {

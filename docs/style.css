@@ -300,10 +300,6 @@ input[type="file"] {
     transition: background-color var(--transition-normal);
 }
 
-#result:hover {
-    background-color: #daeef5;
-}
-
 /* Nachrichtenbereich */
 #messages {
     background-color: var(--card-bg);

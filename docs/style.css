@@ -1,0 +1,226 @@
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2980b9;
+    --accent-color: #e74c3c;
+    --light-bg: #f5f7fa;
+    --dark-bg: #34495e;
+    --text-color: #2c3e50;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--light-bg);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: var(--dark-bg);
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.2rem;
+}
+
+.subtitle {
+    font-style: italic;
+    opacity: 0.8;
+}
+
+.patcher-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    padding: 25px;
+    margin-bottom: 20px;
+}
+
+.drag-drop-hint {
+    text-align: center;
+    margin-top: 10px;
+    color: var(--primary-color);
+    font-style: italic;
+    padding: 5px;
+    font-size: 0.9em;
+}
+
+/* Verbessere die visuelle Rückmeldung beim Drag & Drop */
+.drop-zone {
+    border: 2px dashed rgba(52, 152, 219, 0.2);
+    transition: all 0.3s ease;
+}
+
+.drop-zone.drag-over {
+    border-color: var(--primary-color);
+    background-color: rgba(52, 152, 219, 0.1);
+}
+
+.drop-instructions {
+    display: none;
+    text-align: center;
+    margin-top: 10px;
+    color: var(--primary-color);
+    font-style: italic;
+}
+
+.drop-zone.drag-over .drop-instructions {
+    display: block;
+}
+
+.file-select {
+    margin-bottom: 20px;
+}
+
+.file-select-label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.file-input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.file-input-button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.2s;
+}
+
+.file-input-button:hover {
+    background-color: var(--secondary-color);
+}
+
+.file-name {
+    margin-left: 10px;
+    font-style: italic;
+}
+
+input[type="file"] {
+    position: absolute;
+    left: -9999px;
+}
+
+.patch-button {
+    background-color: var(--accent-color);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+    transition: transform 0.1s, background-color 0.2s;
+}
+
+.patch-button:hover {
+    background-color: #c0392b;
+}
+
+.patch-button:active {
+    transform: scale(0.98);
+}
+
+.patch-button:disabled {
+    background-color: #95a5a6;
+    cursor: not-allowed;
+}
+
+.checksum-container {
+    margin-top: 15px;
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+    border-left: 4px solid var(--primary-color);
+}
+
+.checksum-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.checksum-value {
+    font-family: monospace;
+    word-break: break-all;
+}
+
+#result {
+    padding: 15px;
+    margin: 20px 0;
+    background-color: #e8f4f8;
+    border-left: 4px solid var(--primary-color);
+    border-radius: 5px;
+}
+
+#messages {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    padding: 15px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+#messages p {
+    border-bottom: 1px solid #eee;
+    padding: 8px 0;
+    margin: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.header-logo {
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 600px) {
+    .header-logo {
+        max-width: 150px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    .patcher-card {
+        padding: 15px;
+    }
+}

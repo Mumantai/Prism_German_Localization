@@ -3,7 +3,7 @@ function patch(button) {
     var fileInput = document.getElementById("rom-file-input");
     var bspInput = document.getElementById("bsp");
 
-    if ((bspInput.files.length != 1) || (fileInput.files.length != 1)) {
+    if ((bspInput.files.length !== 1) || (fileInput.files.length !== 1)) {
         alert("Du musst eine Patch-Datei und eine ROM-Datei auswählen!");
         return;
     }
@@ -97,74 +97,83 @@ function getOutputFilename(patchFilename, originalFilename) {
 }
 
 function begin_patch(bsp, input, filename) {
-    var patcher = new BSPPatcher(bsp, input);
-    var patch_result = document.getElementById("result");
+    try {
 
-    // Suche nach dem versteckten Input-Element für die Patch-Datei
-    var bspInput = document.getElementById("bsp");
-    // Fallback für den Patch-Dateinamen, falls nicht verfügbar
-    var patchFilename = (bspInput && bspInput.files && bspInput.files[0])
-                         ? bspInput.files[0].name
-                         : "patch";
 
-    patcher.print = function (message) {
-        create_message(message);
+        var patcher = new BSPPatcher(bsp, input);
+        var patch_result = document.getElementById("result");
+
+        // Suche nach dem versteckten Input-Element für die Patch-Datei
+        var bspInput = document.getElementById("bsp");
+        // Fallback für den Patch-Dateinamen, falls nicht verfügbar
+        var patchFilename = (bspInput && bspInput.files && bspInput.files[0])
+            ? bspInput.files[0].name
+            : "patch";
+
+        patcher.print = function (message) {
+            create_message(message);
+            patcher.run();
+        };
+
+        patcher.menu = function (options) {
+            var menuContainer = document.createElement("div");
+            menuContainer.className = "menu-container";
+
+            var menuTitle = document.createElement("h3");
+            menuTitle.textContent = "Bitte eine Option wählen:";
+            menuContainer.appendChild(menuTitle);
+
+            var menuList = document.createElement("div");
+            menuList.className = "menu-options";
+
+            options.forEach(function (option, index) {
+                var button = document.createElement("button");
+                button.textContent = option;
+                button.onclick = function () {
+                    patch_result.innerHTML = "";
+                    patcher.run(index);
+                };
+                menuList.appendChild(button);
+            });
+
+            menuContainer.appendChild(menuList);
+            patch_result.innerHTML = "";
+            patch_result.appendChild(menuContainer);
+        };
+
+        patcher.success = function (result) {
+            var downloadElement = document.createElement("a");
+
+            // Generiere den Ausgabedateinamen
+            var outputFilename = getOutputFilename(patchFilename, filename);
+
+            downloadElement.href = URL.createObjectURL(new Blob([result]));
+            downloadElement.download = outputFilename;
+            downloadElement.innerHTML = "Gepatchte Datei herunterladen";
+
+            patch_result.innerHTML = "";
+            patch_result.appendChild(downloadElement);
+
+            button.disabled = false;
+        };
+
+        patcher.failure = function (code) {
+            patch_result.innerHTML = "Fehler: " + code;
+            button.disabled = false;
+        };
+
+        patcher.error = function (message) {
+            patch_result.innerHTML = "Fehler: " + message;
+            button.disabled = false;
+        };
+
         patcher.run();
-    };
-
-    patcher.menu = function(options) {
-        var menuContainer = document.createElement("div");
-        menuContainer.className = "menu-container";
-
-        var menuTitle = document.createElement("h3");
-        menuTitle.textContent = "Bitte eine Option wählen:";
-        menuContainer.appendChild(menuTitle);
-
-        var menuList = document.createElement("div");
-        menuList.className = "menu-options";
-
-        options.forEach(function(option, index) {
-            var button = document.createElement("button");
-            button.textContent = option;
-            button.onclick = function() {
-                patch_result.innerHTML = "";
-                patcher.run(index);
-            };
-            menuList.appendChild(button);
-        });
-
-        menuContainer.appendChild(menuList);
-        patch_result.innerHTML = "";
-        patch_result.appendChild(menuContainer);
-    };
-
-    patcher.success = function(result) {
-        var downloadElement = document.createElement("a");
-
-        // Generiere den Ausgabedateinamen
-        var outputFilename = getOutputFilename(patchFilename, filename);
-
-        downloadElement.href = URL.createObjectURL(new Blob([result]));
-        downloadElement.download = outputFilename;
-        downloadElement.innerHTML = "Gepatchte Datei herunterladen";
-
-        patch_result.innerHTML = "";
-        patch_result.appendChild(downloadElement);
-
-        button.disabled = false;
-    };
-
-    patcher.failure = function(code) {
-        patch_result.innerHTML = "Fehler: " + code;
-        button.disabled = false;
-    };
-
-    patcher.error = function(message) {
-        patch_result.innerHTML = "Fehler: " + message;
-        button.disabled = false;
-    };
-
-    patcher.run();
+    }
+    catch (error) {
+        console.error("Patch-Fehler:", error);
+        document.getElementById("result").innerHTML =
+            `<div class="error-message">Fehler beim Patchen: ${error.message || "Unbekannter Fehler"}</div>`;
+    }
 }
 
 //   Neue Funktionen, um automatisch die Patch-Datei aus dem Repository zu beziehen
@@ -175,9 +184,23 @@ function begin_patch(bsp, input, filename) {
     const PATCH_INPUT_SELECTOR = '#bsp';
     const FALLBACK_FILENAME = 'pokeprism.bsp';
 
-    function setStatus(msg) {
+    function setStatus(msg, isLoading = false) {
         const status = document.getElementById('result');
-        if (status) status.textContent = msg;
+        if (!status) return;
+
+        // Vorherigen Inhalt löschen
+        status.innerHTML = '';
+
+        // Bei Ladevorgang einen Spinner hinzufügen
+        if (isLoading) {
+            const spinner = document.createElement('div');
+            spinner.className = 'loading-spinner';
+            status.appendChild(spinner);
+        }
+
+        const message = document.createElement('p');
+        message.textContent = msg;
+        status.appendChild(message);
     }
 
 // GitHub API nutzen, um die URL des .bsp Assets zu finden
@@ -214,24 +237,40 @@ function begin_patch(bsp, input, filename) {
     }
 
     // Die Datei über einen CORS-Proxy herunterladen
-    async function downloadReleaseAsset(url) {
-        setStatus(`Lade Patch-Datei...`);
+async function downloadReleaseAsset(url) {
+    setStatus(`Lade Patch-Datei...`, true);
 
-        try {
-            // CORS-Proxy verwenden - hier mit corsproxy.io
-            const proxyUrl = `https://corsproxy.io/?${encodeURIComponent(url)}`;
+    try {
+        // Liste von CORS-Proxies
+        const proxies = [
+            `https://corsproxy.io/?${encodeURIComponent(url)}`,
+            `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`,
+            `https://crossorigin.me/${url}`
+        ];
 
-            const response = await fetch(proxyUrl);
-            if (!response.ok) throw new Error(`Download fehlgeschlagen: ${response.status}`);
+        let response;
+        let proxyIndex = 0;
 
-            const blob = await response.blob();
-            const filename = url.split('/').pop() || FALLBACK_FILENAME;
-
-            return new File([blob], filename, {type: 'application/octet-stream'});
-        } catch (e) {
-            throw new Error(`Download fehlgeschlagen: ${e.message}`);
+        while (!response && proxyIndex < proxies.length) {
+            try {
+                response = await fetch(proxies[proxyIndex], {timeout: 5000});
+                if (!response.ok) throw new Error();
+            } catch (e) {
+                proxyIndex++;
+                if (proxyIndex >= proxies.length) {
+                    throw new Error(`Alle verfügbaren Proxies fehlgeschlagen`);
+                }
+            }
         }
+
+        const blob = await response.blob();
+        const filename = url.split('/').pop() || FALLBACK_FILENAME;
+
+        return new File([blob], filename, {type: 'application/octet-stream'});
+    } catch (e) {
+        throw new Error(`Download fehlgeschlagen: ${e.message}`);
     }
+}
 
     // Die Datei in das Formular einfügen
     function setFileInput(file) {
@@ -349,7 +388,7 @@ function begin_patch(bsp, input, filename) {
     // Hauptfunktion
     async function autoLoadPatch() {
         try {
-            setStatus('Lade Patch von GitHub...');
+            setStatus('Lade Patch von GitHub...', true);
 
             // Release-Informationen abrufen
             const assetInfo = await findBspAssetInfo();
@@ -361,10 +400,10 @@ function begin_patch(bsp, input, filename) {
             setFileInput(new File([patchFile], assetInfo.filename, {type: 'application/octet-stream'}));
 
             // Versionsinformation anzeigen
-            setStatus(`Patch geladen: ${assetInfo.filename} (Version ${assetInfo.version} vom ${assetInfo.date})`);
+            setStatus(`Patch geladen: ${assetInfo.filename} (Version ${assetInfo.version} vom ${assetInfo.date})`, true);
 
         } catch (error) {
-            setStatus(`Fehler: ${error.message}`);
+            setStatus(`Fehler: ${error.message}`, true);
         }
     }
 

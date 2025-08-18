@@ -211,6 +211,31 @@ a:hover {
     margin-right: auto;
 }
 
+.disclaimer-footer {
+    margin-top: 50px;
+    padding: 15px 0;
+    background-color: #f8f9fa;
+    border-top: 1px solid #e7e7e7;
+    font-size: 14px;
+    color: #888888;
+    text-align: center;
+}
+
+.disclaimer-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.disclaimer-footer a {
+    color: #5a6268;
+    text-decoration: underline;
+}
+
+.disclaimer-footer a:hover {
+    color: #343a40;
+}
+
 @media (max-width: 600px) {
     .header-logo {
         max-width: 150px;

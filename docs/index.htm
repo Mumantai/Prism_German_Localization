@@ -1,56 +1,75 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pokémon Prisma Online-Patcher</title>
-  <link rel="stylesheet" href="style.css">
-  <!-- Basis-Favicon -->
-  <link rel="icon" href="prisma.png" sizes="any">
-  <!-- Für moderne Browser -->
-  <link rel="icon" href="prisma.png" type="image/png">
-  <!-- Für iOS/Apple Geräte -->
-  <link rel="apple-touch-icon" href="prisma.png">
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Pokémon Prisma Online-Patcher</title>
+    <link href="style.css" rel="stylesheet">
+    <!-- Basis-Favicon -->
+    <link href="prisma.png" rel="icon" sizes="any">
+    <!-- Für moderne Browser -->
+    <link href="prisma.png" rel="icon" type="image/png">
+    <!-- Für iOS/Apple Geräte -->
+    <link href="prisma.png" rel="apple-touch-icon">
 </head>
 <body>
 <div class="container">
-  <header>
-    <img src="Prisma-Patcher-Logo.png" alt="Pokémon Prisma Logo" class="header-logo">
-    <h1>Pokémon Prisma Online-Patcher</h1>
-    <div class="subtitle">Deutsche Version</div>
-  </header>
+    <header>
+        <img alt="Pokémon Prisma Logo" class="header-logo" src="Prisma-Patcher-Logo.png">
+        <h1>Pokémon Prisma Online-Patcher</h1>
+        <div class="subtitle">Deutsche Version</div>
+    </header>
 
-  <div class="patcher-card drop-zone">
-    <div class="file-select">
-      <span class="file-select-label">ROM oder Savefile auswählen:</span>
-      <div class="file-input-container">
-        <label for="rom-file-input" class="file-input-button">Datei auswählen</label>
-        <span id="selected-filename" class="file-name">Keine Datei ausgewählt</span>
-      </div>
-      <div class="drag-drop-hint">Oder Datei per Drag & Drop hierher ziehen</div>
-      <input type="file" id="rom-file-input" name="source">
+    <div class="patcher-card drop-zone">
+        <div class="file-select">
+            <span class="file-select-label">ROM oder Savefile auswählen:</span>
+            <div class="file-input-container">
+                <label class="file-input-button" for="rom-file-input">Datei auswählen</label>
+                <span class="file-name" id="selected-filename">Keine Datei ausgewählt</span>
+            </div>
+            <div class="drag-drop-hint">Oder Datei per Drag & Drop hierher ziehen</div>
+            <input id="rom-file-input" name="source" type="file">
 
-      <div class="checksum-container hidden">
-        <div class="checksum-title">SHA1-Prüfsumme:</div>
-        <div id="file-checksum" class="checksum-value"></div>
-      </div>
+            <div class="checksum-container hidden">
+                <div class="checksum-title">SHA1-Prüfsumme:</div>
+                <div class="checksum-value" id="file-checksum"></div>
+            </div>
+        </div>
+
+        <div class="drop-instructions">Datei hier ablegen</div>
+
+        <button class="patch-button" onclick="patch(this);">ROM patchen</button>
     </div>
 
-    <div class="drop-instructions">Datei hier ablegen</div>
+    <div id="result">Lade Patch-Datei aus dem GitHub-Repository...</div>
 
-    <button class="patch-button" onclick="patch(this);">ROM patchen</button>
-  </div>
-
-  <div id="result">Lade Patch-Datei aus dem GitHub-Repository...</div>
-
-  <div id="messages" class="hidden"></div>
+    <div class="hidden" id="messages"></div>
 </div>
 
 <!-- Verstecktes Patch-Datei-Input-Feld -->
-<input type="file" name="bsp" id="bsp" style="display:none">
+<input id="bsp" name="bsp" style="display:none" type="file">
 
 <script src="bsp-patcher.js"></script>
 <script src="interface.js"></script>
 </body>
-<a href="https://www.vecteezy.com/free-png/crystal">Crystal PNGs by Vecteezy</a>
+
+<footer class="disclaimer-footer">
+    <div class="disclaimer-container">
+        <p>
+            Dieser Patcher basiert auf dem BSP-Patcher von RainbowDevs.
+            Wir stehen in keiner Verbindung mit RainbowDevs und sind kein offizieller Partner.
+        </p>
+        <p>
+            Den originalen Patcher findest du unter:
+            <a href="https://rainbowdevs.com/patcher_unified.htm" rel="noopener noreferrer" target="_blank">
+                RainbowDevs BSP Patcher
+            </a>
+        </p>
+        <p>
+            <a href="https://www.vecteezy.com/free-png/crystal" style="text-decoration: none;">
+                Crystal PNGs by Vecteezy
+            </a>
+        </p>
+    </div>
+</footer>
 </html>

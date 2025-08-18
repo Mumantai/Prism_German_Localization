@@ -344,6 +344,8 @@ function begin_patch(bsp, input, filename) {
         }
     });
 
+
+
     // Hauptfunktion
     async function autoLoadPatch() {
         try {

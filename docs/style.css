@@ -110,9 +110,12 @@ h1 {
 .drop-zone {
     border: 2px dashed rgba(52, 152, 219, 0.3);
     border-radius: var(--radius-small);
-    padding: var(--spacing-medium);
-    transition: all var(--transition-normal);
+    padding: var(--spacing-large);
+    transition: border-color 0.3s, background-color 0.3s;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .drop-zone.drag-over {
@@ -123,20 +126,32 @@ h1 {
 
 .drag-drop-hint {
     text-align: center;
-    margin-top: var(--spacing-small);
+    margin-top: var(--spacing-medium);
     color: var(--primary-color);
     font-style: italic;
     padding: 5px;
     font-size: 0.9em;
+    border-top: 1px solid var(--border-color);
+    width: 100%;
+    padding-top: var(--spacing-medium);
 }
 
 .drop-instructions {
     display: none;
+    position: absolute;
     text-align: center;
-    margin-top: var(--spacing-medium);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: var(--primary-color);
-    font-style: italic;
-    animation: fadeIn 0.5s;
+    font-weight: bold;
+    font-size: 1.2em;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: var(--spacing-medium) var(--spacing-large);
+    border-radius: var(--radius-small);
+    box-shadow: var(--card-shadow);
+    animation: fadeIn 0.3s;
+    z-index: 10;
 }
 
 @keyframes fadeIn {
@@ -150,7 +165,16 @@ h1 {
 
 /* Dateiauswahl */
 .file-select {
+    width: 100%;
     margin-bottom: var(--spacing-large);
+}
+
+.file-input-container {
+    display: flex;
+    align-items: center;
+    margin: var(--spacing-medium) 0;
+    flex-wrap: wrap;
+    gap: var(--spacing-medium);
 }
 
 .file-select-label {
@@ -158,13 +182,6 @@ h1 {
     margin-bottom: var(--spacing-small);
     font-weight: bold;
     color: var(--text-color);
-}
-
-.file-input-container {
-    display: flex;
-    align-items: center;
-    margin-bottom: var(--spacing-small);
-    flex-wrap: wrap;
 }
 
 .file-input-button {

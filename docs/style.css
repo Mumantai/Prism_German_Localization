@@ -670,6 +670,7 @@ body.light-theme .checksum-value {
     flex-direction: row;
     gap: var(--spacing-medium);
     align-items: center;
+    justify-content: center;
 }
 
 /* Menu Option Buttons */

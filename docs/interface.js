@@ -40,6 +40,7 @@ function create_message(message) {
     if (!result) return;
 
     const message_element = document.createElement("p");
+    message_element.className = "patch-message";
     message_element.innerText = message;
     
     // Neue Nachricht an den Anfang einfügen (wie im Original)

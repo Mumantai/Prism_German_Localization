@@ -617,3 +617,166 @@ body.light-theme #messages p {
 body.light-theme .checksum-value {
     background: rgba(52, 152, 219, 0.05);
 }
+
+/* BSP Patcher Elements Styling */
+/* Menu Container Styling */
+.menu-container {
+    background: var(--card-bg);
+    border-radius: var(--radius-medium);
+    box-shadow: var(--card-shadow);
+    padding: var(--spacing-large);
+    margin: var(--spacing-medium) 0;
+    border-left: 4px solid var(--primary-color);
+    transition: box-shadow var(--transition-normal);
+}
+
+.menu-container:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.menu-container h3 {
+    color: var(--primary-color-dark);
+    margin: 0 0 var(--spacing-medium) 0;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* Menu Options Container */
+.menu-options {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-medium);
+    align-items: center;
+}
+
+/* Menu Option Buttons */
+.menu-options button {
+    background-color: var(--primary-color);
+    color: var(--text-light);
+    border: none;
+    padding: 12px 20px;
+    border-radius: var(--radius-small);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    min-width: 200px;
+    text-align: center;
+    transition: all var(--transition-fast);
+    outline: none;
+    box-shadow: 0 2px 4px rgba(52, 152, 219, 0.2);
+}
+
+.menu-options button:hover {
+    background-color: var(--primary-color-dark);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(52, 152, 219, 0.3);
+}
+
+.menu-options button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(52, 152, 219, 0.2);
+}
+
+.menu-options button:focus {
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.4);
+}
+
+/* Download Link Styling */
+#result a {
+    display: inline-block;
+    background-color: var(--accent-color);
+    color: var(--text-light);
+    text-decoration: none;
+    padding: 15px 25px;
+    border-radius: var(--radius-small);
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    transition: all var(--transition-fast);
+    box-shadow: 0 4px 8px rgba(231, 76, 60, 0.2);
+    margin: var(--spacing-medium) 0;
+}
+
+#result a:hover {
+    background-color: var(--accent-color-hover);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(231, 76, 60, 0.3);
+    text-decoration: none;
+}
+
+#result a:active {
+    transform: translateY(0);
+    box-shadow: 0 4px 8px rgba(231, 76, 60, 0.2);
+}
+
+#result a:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(231, 76, 60, 0.4);
+}
+
+/* Error Message Styling */
+.error-message {
+    background-color: #ffeaea;
+    color: #d73527;
+    border: 1px solid #f5c6cb;
+    border-left: 4px solid #dc3545;
+    padding: var(--spacing-medium);
+    border-radius: var(--radius-small);
+    font-weight: 500;
+    margin: var(--spacing-medium) 0;
+    animation: slideIn 0.3s ease;
+}
+
+/* Loading Spinner */
+.loading-spinner {
+    width: 40px;
+    height: 40px;
+    border: 4px solid var(--border-color);
+    border-top: 4px solid var(--primary-color);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin: var(--spacing-medium) auto;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Responsive Design for BSP Patcher Elements */
+@media (max-width: 600px) {
+    .menu-options button {
+        min-width: 100%;
+        font-size: 15px;
+        padding: 10px 15px;
+    }
+    
+    .menu-container {
+        padding: var(--spacing-medium);
+    }
+    
+    #result a {
+        width: 100%;
+        box-sizing: border-box;
+        font-size: 15px;
+        padding: 12px 20px;
+    }
+}
+
+/* Dark Mode Support for BSP Patcher Elements */
+@media (prefers-color-scheme: dark) {
+    body:not(.light-theme) .error-message {
+        background-color: #442424;
+        color: #f56565;
+        border-color: #5a2828;
+        border-left-color: #e53e3e;
+    }
+}
+
+body.dark-theme .error-message {
+    background-color: #442424;
+    color: #f56565;
+    border-color: #5a2828;
+    border-left-color: #e53e3e;
+}

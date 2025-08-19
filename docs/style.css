@@ -72,13 +72,17 @@ header {
     margin-bottom: var(--spacing-xlarge);
     box-shadow: var(--card-shadow);
     padding: var(--spacing-large);
+    position: relative;
 }
 
 .header-top {
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
-    margin-bottom: var(--spacing-medium);
+    position: absolute;
+    top: var(--spacing-large);
+    right: var(--spacing-large);
+    margin-bottom: 0;
 }
 
 .header-main {

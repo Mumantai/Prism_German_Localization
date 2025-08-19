@@ -132,25 +132,24 @@ h1 {
     transform: translateY(-2px);
 }
 
-/* Theme Toggle Button */
+/* Theme Toggle Button - iOS Style */
 .theme-toggle {
-    background: rgba(255, 255, 255, 0.1);
-    border: 2px solid rgba(255, 255, 255, 0.2);
-    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 25px;
     width: 50px;
-    height: 50px;
+    height: 28px;
     cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all var(--transition-fast);
+    position: relative;
+    transition: all var(--transition-normal);
     backdrop-filter: blur(10px);
     flex-shrink: 0;
+    padding: 2px;
 }
 
 .theme-toggle:hover {
-    background: rgba(255, 255, 255, 0.2);
-    border-color: rgba(255, 255, 255, 0.4);
+    background: rgba(255, 255, 255, 0.3);
+    border-color: rgba(255, 255, 255, 0.5);
     transform: scale(1.05);
 }
 
@@ -158,13 +157,36 @@ h1 {
     transform: scale(0.95);
 }
 
-.theme-toggle-icon {
-    font-size: 20px;
-    transition: transform var(--transition-fast);
+.theme-toggle-slider {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    transition: transform var(--transition-normal);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-.theme-toggle:hover .theme-toggle-icon {
-    transform: rotate(15deg);
+.theme-toggle-icon {
+    width: 12px;
+    height: 12px;
+    transition: all var(--transition-normal);
+}
+
+/* Dark theme state */
+body.dark-theme .theme-toggle-slider {
+    transform: translateX(22px);
+    background: rgba(255, 255, 255, 0.95);
+}
+
+/* Light theme state */
+body.light-theme .theme-toggle-slider {
+    transform: translateX(0);
 }
 
 
@@ -645,7 +667,7 @@ body.light-theme .checksum-value {
 /* Menu Options Container */
 .menu-options {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: var(--spacing-medium);
     align-items: center;
 }
@@ -746,6 +768,10 @@ body.light-theme .checksum-value {
 
 /* Responsive Design for BSP Patcher Elements */
 @media (max-width: 600px) {
+    .menu-options {
+        flex-direction: column;
+    }
+    
     .menu-options button {
         min-width: 100%;
         font-size: 15px;

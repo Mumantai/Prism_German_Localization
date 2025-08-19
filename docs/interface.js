@@ -39,21 +39,21 @@ function create_message(message) {
     const result = document.getElementById("result");
     if (!result) return;
 
-    // Vorherigen Inhalt löschen (nur aktuellste Nachricht anzeigen)
-    result.innerHTML = '';
-
     const message_element = document.createElement("p");
     message_element.innerText = message;
-    result.appendChild(message_element);
+    
+    // Neue Nachricht an den Anfang einfügen (wie im Original)
+    if (result.firstChild) {
+        result.insertBefore(message_element, result.firstChild);
+    } else {
+        result.appendChild(message_element);
+    }
 }
 
 function create_menu(options, callback) {
     const result = document.getElementById("result");
     if (!result) return;
 
-    // Vorherigen Inhalt löschen
-    result.innerHTML = '';
-    
     const div = document.createElement("div");
     
     for (let n = 0; n < options.length; n++) {
@@ -64,14 +64,19 @@ function create_menu(options, callback) {
             const p = document.createElement("p");
             p.style.fontStyle = "italic";
             p.innerText = options[num];
-            result.innerHTML = '';
-            result.appendChild(p);
+            result.replaceChild(p, div);
             callback(num);
         }).bind(null, n);
         div.appendChild(option);
     }
     
-    result.appendChild(div);
+    // Menu an den Anfang einfügen (wie bei Nachrichten)
+    if (result.firstChild) {
+        result.firstChild.style.color = "#666666";
+        result.insertBefore(div, result.firstChild);
+    } else {
+        result.appendChild(div);
+    }
 }
 
 function escape_HTML(str) {

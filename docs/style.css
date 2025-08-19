@@ -645,7 +645,7 @@ body.light-theme .checksum-value {
 /* Menu Options Container */
 .menu-options {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: var(--spacing-medium);
     align-items: center;
 }
@@ -746,6 +746,10 @@ body.light-theme .checksum-value {
 
 /* Responsive Design for BSP Patcher Elements */
 @media (max-width: 600px) {
+    .menu-options {
+        flex-direction: column;
+    }
+    
     .menu-options button {
         min-width: 100%;
         font-size: 15px;

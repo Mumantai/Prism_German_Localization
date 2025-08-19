@@ -36,24 +36,24 @@ function patch(button) {
 }
 
 function create_message(message) {
-    const messages = document.getElementById("messages");
+    const result = document.getElementById("result");
+    if (!result) return;
+
+    // Vorherigen Inhalt löschen (nur aktuellste Nachricht anzeigen)
+    result.innerHTML = '';
+
     const message_element = document.createElement("p");
     message_element.innerText = message;
-
-    // Container anzeigen, wenn er bisher versteckt war
-    if (messages.classList.contains("hidden")) {
-        messages.classList.remove("hidden");
-    }
-
-    if (messages.firstChild) {
-        messages.insertBefore(message_element, messages.firstChild);
-    } else {
-        messages.appendChild(message_element);
-    }
+    result.appendChild(message_element);
 }
 
 function create_menu(options, callback) {
-    const messages = document.getElementById("messages");
+    const result = document.getElementById("result");
+    if (!result) return;
+
+    // Vorherigen Inhalt löschen
+    result.innerHTML = '';
+    
     const div = document.createElement("div");
     
     for (let n = 0; n < options.length; n++) {
@@ -64,18 +64,14 @@ function create_menu(options, callback) {
             const p = document.createElement("p");
             p.style.fontStyle = "italic";
             p.innerText = options[num];
-            messages.replaceChild(p, div);
+            result.innerHTML = '';
+            result.appendChild(p);
             callback(num);
         }).bind(null, n);
         div.appendChild(option);
     }
     
-    if (messages.firstChild) {
-        messages.firstChild.style.color = "#666666";
-        messages.insertBefore(div, messages.firstChild);
-    } else {
-        messages.appendChild(div);
-    }
+    result.appendChild(div);
 }
 
 function escape_HTML(str) {

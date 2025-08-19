@@ -403,10 +403,10 @@ async function downloadReleaseAsset(url) {
             setFileInput(new File([patchFile], assetInfo.filename, {type: 'application/octet-stream'}));
 
             // Versionsinformation anzeigen
-            setStatus(`Patch geladen: ${assetInfo.filename} (Version ${assetInfo.version} vom ${assetInfo.date})`, true);
+            setStatus(`Patch geladen: ${assetInfo.filename} (Version ${assetInfo.version} vom ${assetInfo.date})`, false);
 
         } catch (error) {
-            setStatus(`Fehler: ${error.message}`, true);
+            setStatus(`Fehler: ${error.message}`, false);
         }
     }
 

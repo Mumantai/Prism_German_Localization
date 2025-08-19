@@ -398,33 +398,6 @@ input[type="file"] {
     transition: background-color var(--transition-normal);
 }
 
-/* Nachrichtenbereich */
-#messages {
-    background-color: var(--card-bg);
-    border-radius: var(--radius-medium);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-    padding: var(--spacing-medium);
-    max-height: 300px;
-    overflow-y: auto;
-    scroll-behavior: smooth;
-    border: 1px solid var(--border-color);
-}
-
-#messages p {
-    border-bottom: 1px solid var(--message-border);
-    padding: var(--spacing-small) 0;
-    margin: 0;
-    transition: background-color var(--transition-fast);
-}
-
-#messages p:last-child {
-    border-bottom: none;
-}
-
-#messages p:hover {
-    background-color: rgba(52, 152, 219, 0.05);
-}
-
 /* Utility-Klassen */
 .hidden {
     display: none;
@@ -563,14 +536,6 @@ a:focus {
         border-color: #2d3748;
     }
 
-    body:not(.light-theme) #messages {
-        border-color: #2d3748;
-    }
-
-    body:not(.light-theme) #messages p {
-        border-color: #2d3748;
-    }
-
     body:not(.light-theme) .checksum-value {
         background: rgba(52, 152, 219, 0.1);
     }
@@ -596,14 +561,6 @@ body.dark-theme .disclaimer-footer {
     border-color: #2d3748;
 }
 
-body.dark-theme #messages {
-    border-color: #2d3748;
-}
-
-body.dark-theme #messages p {
-    border-color: #2d3748;
-}
-
 body.dark-theme .checksum-value {
     background: rgba(52, 152, 219, 0.1);
 }
@@ -626,14 +583,6 @@ body.light-theme #result {
 body.light-theme .disclaimer-footer {
     background-color: #f8f9fa;
     border-color: var(--border-color);
-}
-
-body.light-theme #messages {
-    border-color: var(--border-color);
-}
-
-body.light-theme #messages p {
-    border-color: #eee;
 }
 
 body.light-theme .checksum-value {

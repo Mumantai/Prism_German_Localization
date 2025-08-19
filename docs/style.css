@@ -398,33 +398,6 @@ input[type="file"] {
     transition: background-color var(--transition-normal);
 }
 
-/* Nachrichtenbereich */
-#messages {
-    background-color: var(--card-bg);
-    border-radius: var(--radius-medium);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-    padding: var(--spacing-medium);
-    max-height: 300px;
-    overflow-y: auto;
-    scroll-behavior: smooth;
-    border: 1px solid var(--border-color);
-}
-
-#messages p {
-    border-bottom: 1px solid var(--message-border);
-    padding: var(--spacing-small) 0;
-    margin: 0;
-    transition: background-color var(--transition-fast);
-}
-
-#messages p:last-child {
-    border-bottom: none;
-}
-
-#messages p:hover {
-    background-color: rgba(52, 152, 219, 0.05);
-}
-
 /* Utility-Klassen */
 .hidden {
     display: none;
@@ -563,14 +536,6 @@ a:focus {
         border-color: #2d3748;
     }
 
-    body:not(.light-theme) #messages {
-        border-color: #2d3748;
-    }
-
-    body:not(.light-theme) #messages p {
-        border-color: #2d3748;
-    }
-
     body:not(.light-theme) .checksum-value {
         background: rgba(52, 152, 219, 0.1);
     }
@@ -593,14 +558,6 @@ body.dark-theme #result {
 
 body.dark-theme .disclaimer-footer {
     background-color: #222831;
-    border-color: #2d3748;
-}
-
-body.dark-theme #messages {
-    border-color: #2d3748;
-}
-
-body.dark-theme #messages p {
     border-color: #2d3748;
 }
 
@@ -628,19 +585,41 @@ body.light-theme .disclaimer-footer {
     border-color: var(--border-color);
 }
 
-body.light-theme #messages {
-    border-color: var(--border-color);
-}
-
-body.light-theme #messages p {
-    border-color: #eee;
-}
-
 body.light-theme .checksum-value {
     background: rgba(52, 152, 219, 0.05);
 }
 
 /* BSP Patcher Elements Styling */
+/* Patch Progress Messages */
+.patch-message {
+    background: rgba(52, 152, 219, 0.08);
+    border-left: 3px solid var(--primary-color);
+    padding: 10px 15px;
+    margin: 8px 0;
+    border-radius: var(--radius-small);
+    font-size: 14px;
+    color: var(--text-color);
+    transition: all var(--transition-fast);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    animation: messageSlideIn 0.3s ease;
+}
+
+.patch-message:hover {
+    background: rgba(52, 152, 219, 0.12);
+    transform: translateX(2px);
+}
+
+@keyframes messageSlideIn {
+    from { 
+        opacity: 0; 
+        transform: translateY(-10px) translateX(-5px); 
+    }
+    to { 
+        opacity: 1; 
+        transform: translateY(0) translateX(0); 
+    }
+}
+
 /* Menu Container Styling */
 .menu-container {
     background: var(--card-bg);
@@ -799,6 +778,15 @@ body.light-theme .checksum-value {
         border-color: #5a2828;
         border-left-color: #e53e3e;
     }
+    
+    body:not(.light-theme) .patch-message {
+        background: rgba(52, 152, 219, 0.15);
+        border-left-color: var(--primary-color);
+    }
+    
+    body:not(.light-theme) .patch-message:hover {
+        background: rgba(52, 152, 219, 0.20);
+    }
 }
 
 body.dark-theme .error-message {
@@ -806,4 +794,13 @@ body.dark-theme .error-message {
     color: #f56565;
     border-color: #5a2828;
     border-left-color: #e53e3e;
+}
+
+body.dark-theme .patch-message {
+    background: rgba(52, 152, 219, 0.15);
+    border-left-color: var(--primary-color);
+}
+
+body.dark-theme .patch-message:hover {
+    background: rgba(52, 152, 219, 0.20);
 }

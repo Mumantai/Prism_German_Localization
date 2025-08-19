@@ -36,24 +36,25 @@ function patch(button) {
 }
 
 function create_message(message) {
-    const messages = document.getElementById("messages");
+    const result = document.getElementById("result");
+    if (!result) return;
+
     const message_element = document.createElement("p");
+    message_element.className = "patch-message";
     message_element.innerText = message;
-
-    // Container anzeigen, wenn er bisher versteckt war
-    if (messages.classList.contains("hidden")) {
-        messages.classList.remove("hidden");
-    }
-
-    if (messages.firstChild) {
-        messages.insertBefore(message_element, messages.firstChild);
+    
+    // Neue Nachricht an den Anfang einfügen (wie im Original)
+    if (result.firstChild) {
+        result.insertBefore(message_element, result.firstChild);
     } else {
-        messages.appendChild(message_element);
+        result.appendChild(message_element);
     }
 }
 
 function create_menu(options, callback) {
-    const messages = document.getElementById("messages");
+    const result = document.getElementById("result");
+    if (!result) return;
+
     const div = document.createElement("div");
     
     for (let n = 0; n < options.length; n++) {
@@ -64,17 +65,18 @@ function create_menu(options, callback) {
             const p = document.createElement("p");
             p.style.fontStyle = "italic";
             p.innerText = options[num];
-            messages.replaceChild(p, div);
+            result.replaceChild(p, div);
             callback(num);
         }).bind(null, n);
         div.appendChild(option);
     }
     
-    if (messages.firstChild) {
-        messages.firstChild.style.color = "#666666";
-        messages.insertBefore(div, messages.firstChild);
+    // Menu an den Anfang einfügen (wie bei Nachrichten)
+    if (result.firstChild) {
+        result.firstChild.style.color = "#666666";
+        result.insertBefore(div, result.firstChild);
     } else {
-        messages.appendChild(div);
+        result.appendChild(div);
     }
 }
 

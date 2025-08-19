@@ -17,6 +17,7 @@
 
     /* UI-Elemente */
     --border-color: #e7e7e7;
+    --border-color-light: #eaeaea;
     --card-bg: #ffffff;
     --card-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     --disabled-color: #95a5a6;
@@ -366,6 +367,7 @@ a:focus {
     padding: 0 var(--spacing-medium);
 }
 
+
 .disclaimer-footer a {
     color: #5a6268;
     text-decoration: underline;
@@ -373,6 +375,12 @@ a:focus {
 
 .disclaimer-footer a:hover {
     color: #343a40;
+}
+
+/* Trennlinien zwischen den Abschnitten */
+.disclaimer-container p:not(:last-child) {
+    padding-bottom: 0.8rem;
+    border-bottom: 1px dotted var(--border-color-light);
 }
 
 /* Responsive Design */

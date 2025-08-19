@@ -1,19 +1,19 @@
 function patch(button) {
-    var form = document.querySelector(".patcher-card");
-    var fileInput = document.getElementById("rom-file-input");
-    var bspInput = document.getElementById("bsp");
+    const form = document.querySelector(".patcher-card");
+    const fileInput = document.getElementById("rom-file-input");
+    const bspInput = document.getElementById("bsp");
 
     if ((bspInput.files.length !== 1) || (fileInput.files.length !== 1)) {
         alert("Du musst eine Patch-Datei und eine ROM-Datei auswählen!");
         return;
     }
 
-    var filename = fileInput.files[0].name;
+    const filename = fileInput.files[0].name;
     button.disabled = true;
 
-    var bsp_data, input_data;
+    let bsp_data, input_data;
 
-    var bsp_file_reader = new FileReader();
+    const bsp_file_reader = new FileReader();
     bsp_file_reader.onload = function() {
         bsp_data = bsp_file_reader.result;
         if (input_data !== undefined) {
@@ -22,7 +22,7 @@ function patch(button) {
         }
     };
 
-    var input_file_reader = new FileReader();
+    const input_file_reader = new FileReader();
     input_file_reader.onload = function() {
         input_data = input_file_reader.result;
         if (bsp_data !== undefined) {
@@ -36,8 +36,8 @@ function patch(button) {
 }
 
 function create_message(message) {
-    var messages = document.getElementById("messages");
-    var message_element = document.createElement("p");
+    const messages = document.getElementById("messages");
+    const message_element = document.createElement("p");
     message_element.innerText = message;
 
     // Container anzeigen, wenn er bisher versteckt war
@@ -53,15 +53,15 @@ function create_message(message) {
 }
 
 function create_menu(options, callback) {
-    var messages = document.getElementById("messages");
-    var div = document.createElement("div");
-    var option, n;
-    for (n = 0; n < options.length; n++) {
-        option = document.createElement("input");
+    const messages = document.getElementById("messages");
+    const div = document.createElement("div");
+    
+    for (let n = 0; n < options.length; n++) {
+        const option = document.createElement("input");
         option.type = "button";
         option.value = options[n];
         option.onclick = (function (num) {
-            var p = document.createElement("p");
+            const p = document.createElement("p");
             p.style.fontStyle = "italic";
             p.innerText = options[num];
             messages.replaceChild(p, div);
@@ -69,28 +69,31 @@ function create_menu(options, callback) {
         }).bind(null, n);
         div.appendChild(option);
     }
+    
     if (messages.firstChild) {
         messages.firstChild.style.color = "#666666";
         messages.insertBefore(div, messages.firstChild);
-    } else
+    } else {
         messages.appendChild(div);
+    }
 }
 
 function escape_HTML(str) {
-    var result = "";
-    var pos;
-    for (pos = 0; pos < str.length; pos++) result += "&#" + str.charCodeAt(pos) + ";";
+    let result = "";
+    for (let pos = 0; pos < str.length; pos++) {
+        result += "&#" + str.charCodeAt(pos) + ";";
+    }
     return result;
 }
 
 // Funktion zum Generieren des Ausgabedateinamens
 function getOutputFilename(patchFilename, originalFilename) {
     // Extrahiere den Basisnamen der Patchdatei ohne Erweiterung
-    var patchBaseName = patchFilename.split('.').slice(0, -1).join('.');
+    const patchBaseName = patchFilename.split('.').slice(0, -1).join('.');
 
     // Prüfe, ob die Originaldatei eine ROM ist (durch Überprüfung der Erweiterung)
-    var originalExt = originalFilename.split('.').pop().toLowerCase();
-    var isROMFile = originalExt === 'gbc';
+    const originalExt = originalFilename.split('.').pop().toLowerCase();
+    const isROMFile = originalExt === 'gbc';
 
     // Wenn es eine ROM ist, verwende .gbc, sonst behalte die originale Erweiterung
     return isROMFile ? patchBaseName + '.gbc' : originalFilename;

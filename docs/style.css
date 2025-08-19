@@ -63,13 +63,30 @@ body {
 
 /* Header-Bereich */
 header {
-    text-align: center;
-    padding: var(--spacing-large) 0;
     background-color: var(--dark-bg);
     color: var(--text-light);
     border-radius: var(--radius-medium);
     margin-bottom: var(--spacing-xlarge);
     box-shadow: var(--card-shadow);
+    padding: var(--spacing-large);
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--spacing-medium);
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-medium);
+    flex: 1;
+}
+
+.header-text {
+    text-align: left;
 }
 
 h1 {
@@ -85,11 +102,44 @@ h1 {
 }
 
 .header-logo {
-    max-width: 33%;
+    max-width: 80px;
     height: auto;
-    margin: 0 auto var(--spacing-medium);
-    display: block;
     transition: transform var(--transition-normal);
+}
+
+/* Theme Toggle Button */
+.theme-toggle {
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all var(--transition-fast);
+    backdrop-filter: blur(10px);
+    flex-shrink: 0;
+}
+
+.theme-toggle:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.4);
+    transform: scale(1.05);
+}
+
+.theme-toggle:active {
+    transform: scale(0.95);
+}
+
+.theme-toggle-icon {
+    font-size: 20px;
+    transition: transform var(--transition-fast);
+}
+
+.theme-toggle:hover .theme-toggle-icon {
+    transform: rotate(15deg);
 }
 
 
@@ -395,6 +445,20 @@ a:focus {
 }
 
 @media (max-width: 600px) {
+    .header-top {
+        flex-direction: column;
+        gap: var(--spacing-medium);
+    }
+    
+    .header-content {
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .header-text {
+        text-align: center;
+    }
+
     .header-logo {
         max-width: 150px;
     }
@@ -438,7 +502,7 @@ a:focus {
 
 /* Dark Mode Unterstützung */
 @media (prefers-color-scheme: dark) {
-    :root {
+    body:not(.light-theme) {
         --light-bg: #1a1a2e;
         --dark-bg: #16213e;
         --text-color: #e1e1e1;
@@ -446,26 +510,90 @@ a:focus {
         --card-bg: #222831;
     }
 
-    .checksum-container,
-    #result {
+    body:not(.light-theme) .checksum-container,
+    body:not(.light-theme) #result {
         background-color: #2d3748;
         border-left-color: var(--primary-color);
     }
 
-    .disclaimer-footer {
+    body:not(.light-theme) .disclaimer-footer {
         background-color: #222831;
         border-color: #2d3748;
     }
 
-    #messages {
+    body:not(.light-theme) #messages {
         border-color: #2d3748;
     }
 
-    #messages p {
+    body:not(.light-theme) #messages p {
         border-color: #2d3748;
     }
 
-    .checksum-value {
+    body:not(.light-theme) .checksum-value {
         background: rgba(52, 152, 219, 0.1);
     }
+}
+
+/* Dark Theme Class - Manual Override */
+body.dark-theme {
+    --light-bg: #1a1a2e;
+    --dark-bg: #16213e;
+    --text-color: #e1e1e1;
+    --border-color: #2d3748;
+    --card-bg: #222831;
+}
+
+body.dark-theme .checksum-container,
+body.dark-theme #result {
+    background-color: #2d3748;
+    border-left-color: var(--primary-color);
+}
+
+body.dark-theme .disclaimer-footer {
+    background-color: #222831;
+    border-color: #2d3748;
+}
+
+body.dark-theme #messages {
+    border-color: #2d3748;
+}
+
+body.dark-theme #messages p {
+    border-color: #2d3748;
+}
+
+body.dark-theme .checksum-value {
+    background: rgba(52, 152, 219, 0.1);
+}
+
+/* Light Theme Class - Manual Override */
+body.light-theme {
+    --light-bg: #f5f7fa;
+    --dark-bg: #34495e;
+    --text-color: #2c3e50;
+    --border-color: #e7e7e7;
+    --card-bg: #ffffff;
+}
+
+body.light-theme .checksum-container,
+body.light-theme #result {
+    background-color: #e8f4f8;
+    border-left-color: var(--primary-color);
+}
+
+body.light-theme .disclaimer-footer {
+    background-color: #f8f9fa;
+    border-color: var(--border-color);
+}
+
+body.light-theme #messages {
+    border-color: var(--border-color);
+}
+
+body.light-theme #messages p {
+    border-color: #eee;
+}
+
+body.light-theme .checksum-value {
+    background: rgba(52, 152, 219, 0.05);
 }

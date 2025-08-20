@@ -36,25 +36,27 @@ function patch(button) {
 }
 
 function create_message(message) {
-    const messages = document.getElementById("messages");
+    const result = document.getElementById("result");
     const message_element = document.createElement("p");
     message_element.innerText = message;
+    message_element.className = "patch-message";
 
     // Container anzeigen, wenn er bisher versteckt war
-    if (messages.classList.contains("hidden")) {
-        messages.classList.remove("hidden");
+    if (result.classList.contains("hidden")) {
+        result.classList.remove("hidden");
     }
 
-    if (messages.firstChild) {
-        messages.insertBefore(message_element, messages.firstChild);
+    if (result.firstChild) {
+        result.insertBefore(message_element, result.firstChild);
     } else {
-        messages.appendChild(message_element);
+        result.appendChild(message_element);
     }
 }
 
 function create_menu(options, callback) {
-    const messages = document.getElementById("messages");
+    const result = document.getElementById("result");
     const div = document.createElement("div");
+    div.className = "menu-container";
     
     for (let n = 0; n < options.length; n++) {
         const option = document.createElement("input");
@@ -63,18 +65,21 @@ function create_menu(options, callback) {
         option.onclick = (function (num) {
             const p = document.createElement("p");
             p.style.fontStyle = "italic";
+            p.className = "patch-message";
             p.innerText = options[num];
-            messages.replaceChild(p, div);
+            result.replaceChild(p, div);
             callback(num);
         }).bind(null, n);
         div.appendChild(option);
     }
     
-    if (messages.firstChild) {
-        messages.firstChild.style.color = "#666666";
-        messages.insertBefore(div, messages.firstChild);
+    if (result.firstChild) {
+        if (result.firstChild.tagName === 'P') {
+            result.firstChild.style.color = "#666666";
+        }
+        result.insertBefore(div, result.firstChild);
     } else {
-        messages.appendChild(div);
+        result.appendChild(div);
     }
 }
 

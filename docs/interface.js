@@ -193,8 +193,17 @@ function begin_patch(bsp, input, filename) {
         const status = document.getElementById('result');
         if (!status) return;
 
+        // Patch-Nachrichten beibehalten, nur andere Inhalte löschen
+        const patchMessages = status.querySelectorAll('.patch-message');
+        const preservedMessages = Array.from(patchMessages);
+        
         // Vorherigen Inhalt löschen
         status.innerHTML = '';
+        
+        // Beibehaltene Patch-Nachrichten wieder einfügen
+        preservedMessages.forEach(message => {
+            status.appendChild(message);
+        });
 
         // Bei Ladevorgang einen Spinner hinzufügen
         if (isLoading) {

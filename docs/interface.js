@@ -10,6 +10,10 @@ function patch(button) {
 
     const filename = fileInput.files[0].name;
     button.disabled = true;
+    
+    // Hide the result container when patching starts
+    const resultContainer = document.getElementById("result");
+    resultContainer.classList.add("hidden");
 
     let bsp_data, input_data;
 
@@ -17,7 +21,7 @@ function patch(button) {
     bsp_file_reader.onload = function() {
         bsp_data = bsp_file_reader.result;
         if (input_data !== undefined) {
-            begin_patch(bsp_data, input_data, filename);
+            begin_patch(bsp_data, input_data, filename, button);
             bsp_data = input_data = undefined;
         }
     };
@@ -26,7 +30,7 @@ function patch(button) {
     input_file_reader.onload = function() {
         input_data = input_file_reader.result;
         if (bsp_data !== undefined) {
-            begin_patch(bsp_data, input_data, filename);
+            begin_patch(bsp_data, input_data, filename, button);
             bsp_data = input_data = undefined;
         }
     };
@@ -125,7 +129,7 @@ function getOutputFilename(patchFilename, originalFilename) {
     return isROMFile ? patchBaseName + '.gbc' : originalFilename;
 }
 
-function begin_patch(bsp, input, filename) {
+function begin_patch(bsp, input, filename, button) {
     try {
 
 
@@ -219,27 +223,37 @@ function begin_patch(bsp, input, filename) {
         };
 
         patcher.success = function (result) {
-            var downloadElement = document.createElement("a");
-
             // Generiere den Ausgabedateinamen
             var outputFilename = getOutputFilename(patchFilename, filename);
 
-            downloadElement.href = URL.createObjectURL(new Blob([result]));
-            downloadElement.download = outputFilename;
-            downloadElement.innerHTML = "Gepatchte Datei herunterladen";
-
-            patch_result.innerHTML = "";
-            patch_result.appendChild(downloadElement);
-
+            // Transform patch button into download button
+            button.textContent = "Gepatchte Datei herunterladen";
             button.disabled = false;
+            
+            // Create download functionality for the button
+            button.onclick = function() {
+                var downloadElement = document.createElement("a");
+                downloadElement.href = URL.createObjectURL(new Blob([result]));
+                downloadElement.download = outputFilename;
+                downloadElement.style.display = "none";
+                document.body.appendChild(downloadElement);
+                downloadElement.click();
+                document.body.removeChild(downloadElement);
+            };
         };
 
         patcher.failure = function (code) {
+            // Show result container again for error display
+            const resultContainer = document.getElementById("result");
+            resultContainer.classList.remove("hidden");
             patch_result.innerHTML = "Fehler: " + code;
             button.disabled = false;
         };
 
         patcher.error = function (message) {
+            // Show result container again for error display
+            const resultContainer = document.getElementById("result");
+            resultContainer.classList.remove("hidden");
             patch_result.innerHTML = "Fehler: " + message;
             button.disabled = false;
         };
@@ -248,8 +262,12 @@ function begin_patch(bsp, input, filename) {
     }
     catch (error) {
         console.error("Patch-Fehler:", error);
-        document.getElementById("result").innerHTML =
+        // Show result container again for error display
+        const resultContainer = document.getElementById("result");
+        resultContainer.classList.remove("hidden");
+        resultContainer.innerHTML =
             `<div class="error-message">Fehler beim Patchen: ${error.message || "Unbekannter Fehler"}</div>`;
+        button.disabled = false;
     }
 }
 

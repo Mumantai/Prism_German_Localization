@@ -23,9 +23,9 @@ Eine von Fans erstellte deutsche Lokalisierung des beliebten ROM-Hacks von [Rain
 
 **Für eilige Nutzer:**
 1. Besuche den [Online Patcher](https://mumantai.github.io/Prism_German_Localization/)
-2. Wähle deine Pokémon Kristall ROM (.gbc) aus
+2. Wähle deine Pokémon Kristall ROM (.gbc) aus (idealerweise USA Version 1.1 bzw. Rev A)
 3. Klicke "ROM patchen" → Wähle "Release-ROM" → Download
-4. Spiele mit mGBA oder SameBoy
+4. Spiele den ROM-Hack
 
 > **Ausführliche Anleitung**: Siehe [Installation](#installation) für detaillierte Schritt-für-Schritt-Anweisungen.
 
@@ -64,22 +64,14 @@ Die deutsche Lokalisierung zielt darauf ab, diese Erfahrung deutschsprachigen Sp
 
 **Original-ROM von Pokémon Kristall (USA Version 1.1 bzw. Rev A)**
 - SHA1-Checksumme: `f2f52230b536214ef7c9924f483392993e226cfb`
-- Die Checksumme wird automatisch im Online-Patcher angezeigt und überprüft
+- Die Checksumme wird automatisch im Online-Patcher angezeigt
 - Andere Versionen könnten funktionieren, werden aber nicht offiziell unterstützt
-
-**Für den Online-Patcher:**
-- Moderner Webbrowser (Chrome, Firefox, Safari, Edge)
-- Aktive Internetverbindung (nur für das Laden des Patchers)
-- JavaScript muss aktiviert sein
-
-**Für die manuelle Installation:**
-- Ein BSP/BPS-Patcher (siehe Anleitung unten)
-- Grundlegende Computerkenntnisse
 
 **Zum Spielen:**
 - Game Boy Color Emulator
-  - **Empfohlen**: mGBA (plattformübergreifend, sehr kompatibel)
-  - **Alternative**: SameBoy (hohe Genauigkeit), BizHawk (TAS-Features)
+  - **Empfohlen**: mGBA (Windows, macOS, Linux, sehr kompatibel)
+  - **Alternative**: SameBoy (Windows, macOS, Linux, hohe Genauigkeit)
+  - **Mobile**: My OldBoy! (Android), GBC4iOS (iOS)
   - **Vermeiden**: Veraltete Emulatoren wie Visual Boy Advance
 
 
@@ -95,40 +87,29 @@ Unser benutzerfreundlicher Online-Patcher macht das Patchen einfach und sicher. 
 **Schritt 1: Online-Patcher öffnen**
 - Besuche unseren [Online Patcher](https://mumantai.github.io/Prism_German_Localization/)
 - Der Patcher lädt automatisch die neueste Patch-Version aus diesem Repository
-- Du siehst eine übersichtliche Benutzeroberfläche mit dem Pokémon Prisma Logo
 
 **Schritt 2: ROM-Datei auswählen**
 - Klicke auf die Schaltfläche "📁 Datei auswählen" 
 - Wähle deine Original Pokémon Kristall ROM-Datei (.gbc) aus
 - *Alternativ:* Ziehe deine ROM-Datei einfach per Drag & Drop in den markierten Bereich
-- Der ausgewählte Dateiname wird angezeigt
 
-**Schritt 3: ROM-Verifikation**
-- Nach der Auswahl wird automatisch die SHA1-Prüfsumme deiner ROM berechnet
-- Überprüfe, ob die angezeigte Prüfsumme mit der erwarteten übereinstimmt: `f2f52230b536214ef7c9924f483392993e226cfb`
-- Eine korrekte ROM wird durch die Anzeige der Prüfsumme bestätigt
+> **💡 Hinweis**: Verwende idealerweise eine ROM mit der korrekten Prüfsumme (`f2f52230b536214ef7c9924f483392993e226cfb`), aber andere englischsprachige Pokémon Crystal ROMs können auch funktionieren.
 
-**Schritt 4: Patchen starten**
+**Schritt 3: Patchen starten**
 - Klicke auf den Button "ROM patchen"
 - Der Patcher verarbeitet deine Datei automatisch (dies dauert nur wenige Sekunden)
-- Eine Statusmeldung informiert dich über den Fortschritt
 
-**Schritt 5: Variante auswählen**
+**Schritt 4: Variante auswählen**
 - Nach dem Patchen erscheint ein Menü mit verfügbaren Optionen:
   - **Release-ROM**: Die vollständige, spielbereite Version (empfohlen für normale Spieler)
   - **Debug-ROM**: Version mit zusätzlichen Debug-Funktionen (für Entwickler und Tester)
-  - **GBS-Datei**: Nur die Musikdateien zum Anhören der Soundtrack
+  - **GBS-Datei**: Nur die Musikdateien zum Anhören des Soundtracks
 - Wähle die gewünschte Variante durch Anklicken aus
 
-**Schritt 6: Download**
+**Schritt 5: Download**
 - Nach der Auswahl ändert sich der Button zu "Gepatchte Datei herunterladen"
 - Klicke darauf, um die gepatchte ROM-Datei auf deinem Gerät zu speichern
-- Die Datei wird automatisch mit einem passenden Namen versehen (z.B. "prism-de.gbc")
-
-**🎮 Schritt 7: Spielen**
-- Öffne die gepatchte ROM-Datei in deinem bevorzugten Game Boy Color Emulator
-- Empfohlene Emulatoren: mGBA, SameBoy, oder BizHawk
-- Erstelle ein neues Spiel oder lade deine bestehende Speicherdatei
+- Die Datei wird automatisch mit dem Namen "pokeprism.gbc" versehen
 
 **💾 Bonus: Speicherdateien aktualisieren**
 Du kannst auch deine bestehende Speicherdatei (.sav) patchen, um sie nach einem Update zu aktualisieren:
@@ -149,13 +130,12 @@ Du kannst auch deine bestehende Speicherdatei (.sav) patchen, um sie nach einem 
 **Für Nutzer, die lieber lokale Tools verwenden oder den Patch-Prozess selbst kontrollieren möchten:**
 
 **Schritt 1: Dateien herunterladen**
-- Lade die neueste Patch-Datei (prism-de.bps) aus dem [Releases-Bereich](https://github.com/Mumantai/Prism_German_Localization/releases) dieses Repositories herunter
-- Erstelle eine Sicherheitskopie deiner Original Pokémon Kristall ROM
+- Lade die neueste Patch-Datei (pokeprism.bps) aus dem [Releases-Bereich](https://github.com/Mumantai/Prism_German_Localization/releases) dieses Repositories herunter
 
 **Schritt 2: Patcher wählen**
 Du kannst einen der folgenden Patcher verwenden:
-- [Online Patching Tool von RainbowDevs](https://rainbowdevs.com/patcher_unified.htm) (Browser-basiert)
-- [Marc Robledo's ROM Patcher](https://www.marcrobledo.com/RomPatcher.js/) (Browser-basiert)
+- [Online Patching Tool von RainbowDevs](https://rainbowdevs.com/patcher_unified.htm) (Browser-basiert, zum Patchen)
+- [Marc Robledo's ROM Patcher](https://www.marcrobledo.com/RomPatcher.js/) (Browser-basiert, nur zur Prüfsummen-Anzeige)
 - Floating IPS (Windows/Linux)
 - MultiPatch (macOS)
 

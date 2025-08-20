@@ -1259,6 +1259,8 @@ function BSPPatcher (bsp, input) {
   });
 }
 
+// Only execute Node.js specific code if we're in a Node.js environment
+if (typeof module !== 'undefined' && module.exports) {
 var fs = require("fs");
 var rl = require("readline").createInterface({input: process.stdin, output: process.stdout});
 
@@ -1310,4 +1312,5 @@ try {
   if (typeof e !== "number") throw e;
   process.exitCode = e;
   rl.close();
+}
 }

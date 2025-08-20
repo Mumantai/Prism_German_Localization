@@ -54,16 +54,42 @@ function create_message(message) {
 
 function create_menu(options, callback) {
     const messages = document.getElementById("messages");
+    
+    // Container anzeigen, wenn er bisher versteckt war
+    if (messages.classList.contains("hidden")) {
+        messages.classList.remove("hidden");
+    }
+    
     const div = document.createElement("div");
+    div.style.display = "flex";
+    div.style.flexWrap = "wrap";
+    div.style.gap = "10px";
+    div.style.marginBottom = "15px";
     
     for (let n = 0; n < options.length; n++) {
         const option = document.createElement("input");
         option.type = "button";
         option.value = options[n];
+        option.style.padding = "8px 16px";
+        option.style.border = "1px solid var(--primary-color)";
+        option.style.backgroundColor = "var(--primary-color)";
+        option.style.color = "white";
+        option.style.borderRadius = "4px";
+        option.style.cursor = "pointer";
+        option.style.transition = "background-color 0.2s";
+        
+        option.onmouseover = function() {
+            option.style.backgroundColor = "var(--primary-color-dark)";
+        };
+        option.onmouseout = function() {
+            option.style.backgroundColor = "var(--primary-color)";
+        };
+        
         option.onclick = (function (num) {
             const p = document.createElement("p");
             p.style.fontStyle = "italic";
-            p.innerText = options[num];
+            p.style.color = "var(--text-muted)";
+            p.innerText = "Ausgewählt: " + options[num];
             messages.replaceChild(p, div);
             callback(num);
         }).bind(null, n);
@@ -119,29 +145,77 @@ function begin_patch(bsp, input, filename) {
         };
 
         patcher.menu = function (options) {
-            var menuContainer = document.createElement("div");
-            menuContainer.className = "menu-container";
+            const messages = document.getElementById("messages");
+            
+            // Container anzeigen, wenn er bisher versteckt war
+            if (messages.classList.contains("hidden")) {
+                messages.classList.remove("hidden");
+            }
 
-            var menuTitle = document.createElement("h3");
+            var menuTitle = document.createElement("p");
             menuTitle.textContent = "Bitte eine Option wählen:";
-            menuContainer.appendChild(menuTitle);
+            menuTitle.style.fontWeight = "bold";
+            menuTitle.style.color = "var(--primary-color-dark)";
+            menuTitle.style.marginBottom = "10px";
 
             var menuList = document.createElement("div");
             menuList.className = "menu-options";
+            menuList.style.display = "flex";
+            menuList.style.flexWrap = "wrap";
+            menuList.style.gap = "10px";
+            menuList.style.marginBottom = "15px";
 
             options.forEach(function (option, index) {
                 var button = document.createElement("button");
                 button.textContent = option;
+                button.style.padding = "8px 16px";
+                button.style.border = "1px solid var(--primary-color)";
+                button.style.backgroundColor = "var(--primary-color)";
+                button.style.color = "white";
+                button.style.borderRadius = "4px";
+                button.style.cursor = "pointer";
+                button.style.transition = "background-color 0.2s";
+                
+                button.onmouseover = function() {
+                    button.style.backgroundColor = "var(--primary-color-dark)";
+                };
+                button.onmouseout = function() {
+                    button.style.backgroundColor = "var(--primary-color)";
+                };
+                
                 button.onclick = function () {
+                    // Entferne das Menu aus den Nachrichten
+                    const menuElements = messages.querySelectorAll('.menu-options, p[style*="font-weight: bold"]');
+                    menuElements.forEach(el => el.remove());
+                    
+                    // Füge Auswahl-Nachricht hinzu
+                    const selectionMessage = document.createElement("p");
+                    selectionMessage.textContent = "Ausgewählt: " + option;
+                    selectionMessage.style.fontStyle = "italic";
+                    selectionMessage.style.color = "var(--text-muted)";
+                    
+                    if (messages.firstChild) {
+                        messages.insertBefore(selectionMessage, messages.firstChild);
+                    } else {
+                        messages.appendChild(selectionMessage);
+                    }
+                    
                     patch_result.innerHTML = "";
                     patcher.run(index);
                 };
                 menuList.appendChild(button);
             });
 
-            menuContainer.appendChild(menuList);
+            // Füge Titel und Buttons zum messages Container hinzu
+            if (messages.firstChild) {
+                messages.insertBefore(menuList, messages.firstChild);
+                messages.insertBefore(menuTitle, menuList);
+            } else {
+                messages.appendChild(menuTitle);
+                messages.appendChild(menuList);
+            }
+            
             patch_result.innerHTML = "";
-            patch_result.appendChild(menuContainer);
         };
 
         patcher.success = function (result) {

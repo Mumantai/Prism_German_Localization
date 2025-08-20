@@ -69,9 +69,9 @@ Die deutsche Lokalisierung zielt darauf ab, diese Erfahrung deutschsprachigen Sp
 
 **Zum Spielen:**
 - Game Boy Color Emulator
-  - **Empfohlen**: mGBA (Windows, macOS, Linux, sehr kompatibel)
-  - **Alternative**: SameBoy (Windows, macOS, Linux, hohe Genauigkeit)
-  - **Mobile**: My OldBoy! (Android), GBC4iOS (iOS)
+  - **Empfohlen**: mGBA (Windows, macOS, Linux - sehr kompatibel)
+  - **Alternative**: SameBoy (Windows, macOS, Linux, iOS - hohe Genauigkeit)
+  - **Mobile**: Nostalgia.gbc, Pizza Boy C (Android), GBC4iOS, SameBoy (iOS)
   - **Vermeiden**: Veraltete Emulatoren wie Visual Boy Advance
 
 
@@ -120,7 +120,6 @@ Du kannst auch deine bestehende Speicherdatei (.sav) patchen, um sie nach einem 
 - Ersetze deine alte .sav-Datei durch die neue
 
 **🔧 Fehlerbehebung:**
-- **Falsche Prüfsumme**: Stelle sicher, dass du die USA Version 1.1 (Rev A) von Pokémon Kristall verwendest
 - **Patcher lädt nicht**: Überprüfe deine Internetverbindung - der Patcher benötigt Zugang zum GitHub-Repository
 - **Download funktioniert nicht**: Stelle sicher, dass Downloads in deinem Browser erlaubt sind
 - **JavaScript-Fehler**: Aktiviere JavaScript in deinem Browser und lade die Seite neu
@@ -132,12 +131,11 @@ Du kannst auch deine bestehende Speicherdatei (.sav) patchen, um sie nach einem 
 **Schritt 1: Dateien herunterladen**
 - Lade die neueste Patch-Datei (pokeprism.bps) aus dem [Releases-Bereich](https://github.com/Mumantai/Prism_German_Localization/releases) dieses Repositories herunter
 
-**Schritt 2: Patcher wählen**
-Du kannst einen der folgenden Patcher verwenden:
+**Schritt 2: Patcher aufrufen**
+Rufe den Online Patcher auf und prüfe ggf. die SHA1-Prüfsumme deiner ROM
 - [Online Patching Tool von RainbowDevs](https://rainbowdevs.com/patcher_unified.htm) (Browser-basiert, zum Patchen)
+> ** 💡 Hinweis**: Wenn du den Patcher lokal benutzen möchtest: Er ist bei jedem Download des originalen Prism-Patches über RainbowDevs enthalten.
 - [Marc Robledo's ROM Patcher](https://www.marcrobledo.com/RomPatcher.js/) (Browser-basiert, nur zur Prüfsummen-Anzeige)
-- Floating IPS (Windows/Linux)
-- MultiPatch (macOS)
 
 **Schritt 3: Patchen**
 - **Patch File/Patch-Datei**: Wähle die heruntergeladene .bps-Datei
@@ -179,7 +177,7 @@ Falls Fehler auftreten, melde sie bitte im [Issue-Bereich](https://github.com/Mu
 - **Lösung**: Stelle sicher, dass die gepatchte ROM nicht beschädigt ist
 
 **Problem**: Speicherdatei wird nicht erkannt
-- **Lösung**: Stelle sicher, dass ROM und Speicherdatei den gleichen Namen haben (ohne Erweiterung)
+- **Lösung**: Stelle sicher, dass ROM und Speicherdatei den gleichen Namen haben (außer Dateiendung)
 - **Lösung**: Verwende die gleiche ROM-Version, mit der die Speicherdatei erstellt wurde
 
 ### Allgemeine Probleme

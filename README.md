@@ -82,7 +82,7 @@ Die deutsche Lokalisierung zielt darauf ab, diese Erfahrung deutschsprachigen Sp
 
 Unser benutzerfreundlicher Online-Patcher macht das Patchen einfach und sicher. Folge dieser Schritt-für-Schritt-Anleitung:
 
-> **💡 Hinweis**: Eine bebilderte Version dieser Anleitung wird in Zukunft hinzugefügt, um die Schritte noch verständlicher zu machen.
+![Online-Patcher Hauptansicht](docs/screenshots/patcher-overview.png)
 
 **Schritt 1: Online-Patcher öffnen**
 - Besuche unseren [Online Patcher](https://mumantai.github.io/Prism_German_Localization/)
@@ -93,7 +93,17 @@ Unser benutzerfreundlicher Online-Patcher macht das Patchen einfach und sicher. 
 - Wähle deine Original Pokémon Kristall ROM-Datei (.gbc) aus
 - *Alternativ:* Ziehe deine ROM-Datei einfach per Drag & Drop in den markierten Bereich
 
+![Dateiauswahl mit SHA1-Prüfsumme](docs/screenshots/file-selection.png)
+
+*Die SHA1-Prüfsumme wird automatisch berechnet und angezeigt, sobald eine .gbc ROM-Datei ausgewählt wird:*
+
+![SHA1-Prüfsummen-Anzeige](docs/screenshots/checksum-display.png)
+
 > **💡 Hinweis**: Verwende idealerweise eine ROM mit der korrekten Prüfsumme (`f2f52230b536214ef7c9924f483392993e226cfb`), aber andere englischsprachige Pokémon Crystal ROMs können auch funktionieren.
+
+> **🎯 Drag & Drop**: Du kannst Dateien auch einfach in den markierten Bereich ziehen:
+> 
+> ![Drag & Drop Funktionalität](docs/screenshots/drag-drop.png)
 
 **Schritt 3: Patchen starten**
 - Klicke auf den Button "ROM patchen"
@@ -118,6 +128,8 @@ Du kannst auch deine bestehende Speicherdatei (.sav) patchen, um sie nach einem 
 - Die Prüfsumme wird bei Speicherdateien nicht angezeigt (das ist normal)
 - Nach dem Patchen erhältst du eine aktualisierte Speicherdatei
 - Ersetze deine alte .sav-Datei durch die neue
+
+![Speicherdatei-Patch-Modus](docs/screenshots/save-file-mode.png)
 
 **🔧 Fehlerbehebung:**
 - **Patcher lädt nicht**: Überprüfe deine Internetverbindung - der Patcher benötigt Zugang zum GitHub-Repository

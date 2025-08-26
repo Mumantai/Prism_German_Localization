@@ -1,3 +1,11 @@
+/* Improved focus indicators */
+button:focus,
+input:focus,
+a:focus {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 2px;
+}
+
 :root {
     /* Hauptfarbschema */
     --primary-color: #3498db;

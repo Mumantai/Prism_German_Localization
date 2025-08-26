@@ -11,10 +11,10 @@
     <meta property="og:url" content="https://mumantai.github.io/Prism_German_Localization/">
     <meta property="og:title" content="Pokémon Prisma Online-Patcher">
     <meta property="og:description" content="Online-Patcher für die deutsche Lokalisierung von Pokémon Prism. Patche deine Pokémon Kristall ROM einfach und schnell im Browser - keine Downloads erforderlich!">
-    <meta property="og:image" content="https://mumantai.github.io/Prism_German_Localization/Prisma-Patcher-Logo.png">
+    <meta property="og:image" content="https://mumantai.github.io/Prism_German_Localization/website-preview.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="Pokémon Prisma Online-Patcher Logo">
+    <meta property="og:image:alt" content="Screenshot der Pokémon Prisma Online-Patcher Webseite mit Dateiauswahl und Patch-Interface">
     <meta property="og:site_name" content="Pokémon Prisma Deutsche Lokalisierung">
     <meta property="og:locale" content="de_DE">
 
@@ -23,8 +23,8 @@
     <meta name="twitter:url" content="https://mumantai.github.io/Prism_German_Localization/">
     <meta name="twitter:title" content="Pokémon Prisma Online-Patcher">
     <meta name="twitter:description" content="Online-Patcher für die deutsche Lokalisierung von Pokémon Prism. Patche deine Pokémon Kristall ROM einfach und schnell im Browser - keine Downloads erforderlich!">
-    <meta name="twitter:image" content="https://mumantai.github.io/Prism_German_Localization/Prisma-Patcher-Logo.png">
-    <meta name="twitter:image:alt" content="Pokémon Prisma Online-Patcher Logo">
+    <meta name="twitter:image" content="https://mumantai.github.io/Prism_German_Localization/website-preview.png">
+    <meta name="twitter:image:alt" content="Screenshot der Pokémon Prisma Online-Patcher Webseite mit Dateiauswahl und Patch-Interface">
 
     <link href="style.css" rel="stylesheet">
     <!-- Basis-Favicon -->
@@ -36,66 +36,68 @@
 </head>
 <body>
 <div class="container">
-    <header>
+    <header role="banner">
         <div class="header-top">
-            <button class="theme-toggle" id="theme-toggle" aria-label="Theme umschalten">
+            <button class="theme-toggle" id="theme-toggle" aria-label="Theme zwischen hell und dunkel umschalten">
                 <div class="theme-toggle-slider">
-                    <svg class="theme-toggle-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg class="theme-toggle-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                         <path id="icon-path" d="M21.64,13a1,1,0,0,0-1.05-.14,8.05,8.05,0,0,1-3.37.73A8.15,8.15,0,0,1,9.08,5.49a8.59,8.59,0,0,1,.25-2A1,1,0,0,0,8,2.36,10.14,10.14,0,1,0,22,14.05,1,1,0,0,0,21.64,13Zm-9.5,6.69A8.14,8.14,0,0,1,7.08,5.22v.27A10.15,10.15,0,0,0,17.22,15.63a9.79,9.79,0,0,0,2.1-.22A8.11,8.11,0,0,1,12.14,19.73Z" fill="currentColor"/>
                     </svg>
                 </div>
             </button>
         </div>
         <div class="header-main">
-            <img alt="Pokémon Prisma Logo" class="header-logo" src="Prisma-Patcher-Logo.png">
+            <img alt="Pokémon Prisma Online-Patcher Logo - Kristall mit Pokémon Prisma Schriftzug" class="header-logo" src="Prisma-Patcher-Logo.png">
             <h1>Pokémon Prisma Online-Patcher</h1>
-            <div class="header-links">
-                <a href="https://github.com/Mumantai/Prism_German_Localization" target="_blank" rel="noopener noreferrer" class="header-link">
-                    <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16" style="vertical-align: middle; margin-right: 4px;">
+            <nav aria-label="Hauptnavigation" class="header-links">
+                <a href="https://github.com/Mumantai/Prism_German_Localization" target="_blank" rel="noopener noreferrer" class="header-link" aria-label="Zur GitHub-Hauptseite des Projekts (öffnet in neuem Tab)">
+                    <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16" style="vertical-align: middle; margin-right: 4px;" aria-hidden="true">
                         <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
                     </svg>Zur Hauptseite
                 </a>
-                <a href="https://github.com/Mumantai/Prism_German_Localization/issues" target="_blank" rel="noopener noreferrer" class="header-link">
+                <a href="https://github.com/Mumantai/Prism_German_Localization/issues" target="_blank" rel="noopener noreferrer" class="header-link" aria-label="Fehler melden auf GitHub (öffnet in neuem Tab)">
                     🐛 Fehler gefunden? Hier melden!
                 </a>
-            </div>
+            </nav>
         </div>
     </header>
 
-    <div class="patcher-card drop-zone">
-        <div class="file-select">
-            <span class="file-select-label">ROM oder Savefile auswählen:</span>
-            <div class="file-input-container">
-                <label class="file-input-button" for="rom-file-input">📁 Datei auswählen</label>
-                <span class="file-name" id="selected-filename">Keine Datei ausgewählt</span>
+    <main id="main-content" role="main" aria-label="ROM-Patcher Anwendung">
+        <section class="patcher-card drop-zone" aria-label="Dateiauswahl und Patch-Bereich">
+            <div class="file-select">
+                <h2 class="file-select-label">ROM oder Savefile auswählen:</h2>
+                <div class="file-input-container">
+                    <label class="file-input-button" for="rom-file-input">📁 Datei auswählen</label>
+                    <span class="file-name" id="selected-filename" aria-live="polite">Keine Datei ausgewählt</span>
+                </div>
+                <div class="drag-drop-hint" aria-describedby="rom-file-input">Oder Datei per Drag & Drop hierher ziehen</div>
+                <input id="rom-file-input" name="source" type="file" aria-describedby="file-instructions" accept=".gbc,.sav">
+
+                <div class="checksum-container hidden" aria-live="polite">
+                    <div class="checksum-title">SHA1-Prüfsumme:</div>
+                    <div class="checksum-value" id="file-checksum" aria-label="SHA1-Prüfsumme der ausgewählten Datei"></div>
+                </div>
             </div>
-            <div class="drag-drop-hint">Oder Datei per Drag & Drop hierher ziehen</div>
-            <input id="rom-file-input" name="source" type="file">
 
-            <div class="checksum-container hidden">
-                <div class="checksum-title">SHA1-Prüfsumme:</div>
-                <div class="checksum-value" id="file-checksum"></div>
-            </div>
-        </div>
+            <div class="drop-instructions" aria-hidden="true">Datei hier ablegen</div>
 
-        <div class="drop-instructions">Datei hier ablegen</div>
+            <button class="patch-button" onclick="patch(this);" aria-describedby="patch-instructions">ROM patchen</button>
+            <div id="patch-instructions" class="sr-only">Startet den Patch-Prozess für die ausgewählte ROM-Datei</div>
+        </section>
 
-        <button class="patch-button" onclick="patch(this);">ROM patchen</button>
-    </div>
+        <section id="result" aria-live="polite" aria-label="Patch-Status und Ergebnis">Lade Patch-Datei aus dem GitHub-Repository...</section>
 
-    <div id="result">Lade Patch-Datei aus dem GitHub-Repository...</div>
-
-    <div class="hidden" id="messages"></div>
+        <div class="hidden" id="messages" aria-live="assertive" aria-label="Statusmeldungen"></div>
+    </main>
 </div>
 
 <!-- Verstecktes Patch-Datei-Input-Feld -->
-<input id="bsp" name="bsp" style="display:none" type="file">
+<input id="bsp" name="bsp" style="display:none" type="file" aria-hidden="true">
 
 <script src="bsp-patcher.js"></script>
 <script src="interface.js"></script>
-</body>
 
-<footer class="disclaimer-footer">
+<footer class="disclaimer-footer" role="contentinfo">
     <div class="disclaimer-container">
         <p>
             This patcher is based on the BSP-Patcher by RainbowDevs.<br>
@@ -108,15 +110,16 @@
         </p>
         <p>
             Find the original patcher at:
-            <a href="https://rainbowdevs.com/patcher_unified.htm" rel="noopener noreferrer" target="_blank">
+            <a href="https://rainbowdevs.com/patcher_unified.htm" rel="noopener noreferrer" target="_blank" aria-label="RainbowDevs BSP Patcher (öffnet in neuem Tab)">
                 RainbowDevs BSP Patcher
             </a>
         </p>
         <p>
-            <a href="https://www.vecteezy.com/free-png/crystal" style="text-decoration: none;">
+            <a href="https://www.vecteezy.com/free-png/crystal" style="text-decoration: none;" rel="noopener noreferrer" target="_blank" aria-label="Crystal PNGs by Vecteezy (öffnet in neuem Tab)">
                 Crystal PNGs by Vecteezy
             </a>
         </p>
     </div>
 </footer>
+</body>
 </html>

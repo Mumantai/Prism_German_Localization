@@ -321,7 +321,7 @@ function begin_patch(bsp, input, filename, button) {
             if (!asset) throw new Error('Keine .bsp-Datei im neuesten Release gefunden');
 
             return {
-                url: asset.browser_download_url,
+                url: asset.url,  // Verwende die API-URL statt browser_download_url
                 filename: asset.name,
                 version: version,
                 date: formattedDate
@@ -334,55 +334,37 @@ function begin_patch(bsp, input, filename, button) {
     /**
      * Lädt die Patch-Datei von GitHub herunter
      * 
-     * GitHub's browser_download_url leitet oft zu AWS S3 oder ähnlichen Services um,
-     * was zu CORS-Problemen führen kann. Diese Funktion implementiert eine Fallback-Strategie:
-     * 1. Versucht zuerst einen direkten Download
-     * 2. Verwendet bei Fehlschlag CORS-Proxies als Alternative
+     * Verwendet die GitHub API direkt, um CORS-Probleme zu vermeiden.
+     * Die GitHub API erlaubt den Download von Release-Assets durch Setzen des
+     * Accept-Headers auf 'application/octet-stream'.
      * 
-     * @param {string} url - Die browser_download_url von der GitHub API
+     * @param {string} url - Die API-URL des Assets (asset.url, nicht browser_download_url)
      * @returns {Promise<File>} Die heruntergeladene Patch-Datei
      */
-async function downloadReleaseAsset(url) {
-    setStatus(`Lade Patch-Datei...`, true);
+    async function downloadReleaseAsset(url) {
+        setStatus(`Lade Patch-Datei...`, true);
 
-    // Liste von CORS-Proxies als Fallback
-    // Diese Proxies leiten die Anfrage weiter und fügen die nötigen CORS-Header hinzu
-    const corsProxies = [
-        'https://corsproxy.io/?',
-        'https://api.allorigins.win/raw?url=',
-    ];
+        try {
+            // Verwende die GitHub API mit dem korrekten Accept-Header
+            // Dies vermeidet CORS-Probleme, da die Anfrage direkt an die GitHub API geht
+            const response = await fetch(url, {
+                headers: {
+                    'Accept': 'application/octet-stream'
+                }
+            });
 
-    // Erst direkten Download versuchen
-    try {
-        const response = await fetch(url);
-        if (response.ok) {
+            if (!response.ok) {
+                throw new Error(`GitHub API Fehler: ${response.status} ${response.statusText}`);
+            }
+
             const blob = await response.blob();
             const filename = url.split('/').pop() || FALLBACK_FILENAME;
-            return new File([blob], filename, {type: 'application/octet-stream'});
-        }
-    } catch (e) {
-        console.log('Direkter Download fehlgeschlagen, versuche CORS-Proxy:', e.message);
-    }
+            return new File([blob], filename, { type: 'application/octet-stream' });
 
-    // Falls direkter Download fehlschlägt, CORS-Proxies durchprobieren
-    for (const proxy of corsProxies) {
-        try {
-            const proxiedUrl = proxy + encodeURIComponent(url);
-            const response = await fetch(proxiedUrl);
-            
-            if (response.ok) {
-                const blob = await response.blob();
-                const filename = url.split('/').pop() || FALLBACK_FILENAME;
-                return new File([blob], filename, {type: 'application/octet-stream'});
-            }
-        } catch (e) {
-            console.log(`CORS-Proxy ${proxy} fehlgeschlagen:`, e.message);
-            continue;
+        } catch (error) {
+            throw new Error(`Download fehlgeschlagen: ${error.message}`);
         }
     }
-
-    throw new Error('Download fehlgeschlagen: Alle Downloadversuche (direkt und über CORS-Proxies) sind fehlgeschlagen');
-}
 
     // Die Datei in das Formular einfügen
     function setFileInput(file) {

@@ -272,7 +272,7 @@ function begin_patch(bsp, input, filename, button) {
 }
 
 //   Neue Funktionen, um automatisch die Patch-Datei aus dem Repository zu beziehen
-// Auto-Loader für die Patch-Datei aus GitHub Releases mit CORS-Proxy
+// Auto-Loader für die Patch-Datei aus GitHub Releases (direkt, ohne CORS-Proxy)
 (() => {
     const OWNER = 'Mumantai';
     const REPO = 'Prism_German_Localization';
@@ -331,31 +331,16 @@ function begin_patch(bsp, input, filename, button) {
         }
     }
 
-    // Die Datei über einen CORS-Proxy herunterladen
+    // Die Datei direkt von GitHub herunterladen (CORS wird von GitHub unterstützt)
 async function downloadReleaseAsset(url) {
     setStatus(`Lade Patch-Datei...`, true);
 
     try {
-        // Liste von CORS-Proxies
-        const proxies = [
-            `https://corsproxy.io/?${encodeURIComponent(url)}`,
-            `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`,
-            `https://crossorigin.me/${url}`
-        ];
-
-        let response;
-        let proxyIndex = 0;
-
-        while (!response && proxyIndex < proxies.length) {
-            try {
-                response = await fetch(proxies[proxyIndex], {timeout: 5000});
-                if (!response.ok) throw new Error();
-            } catch (e) {
-                proxyIndex++;
-                if (proxyIndex >= proxies.length) {
-                    throw new Error(`Alle verfügbaren Proxies fehlgeschlagen`);
-                }
-            }
+        // GitHub Release-Assets werden mit CORS-Headern ausgeliefert, daher kein Proxy nötig
+        const response = await fetch(url);
+        
+        if (!response.ok) {
+            throw new Error(`HTTP-Fehler ${response.status}: ${response.statusText}`);
         }
 
         const blob = await response.blob();

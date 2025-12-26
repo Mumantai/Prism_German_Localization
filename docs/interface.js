@@ -331,40 +331,57 @@ function begin_patch(bsp, input, filename, button) {
         }
     }
 
-    // Die Datei über einen CORS-Proxy herunterladen
+    /**
+     * Lädt die Patch-Datei von GitHub herunter
+     * 
+     * GitHub's browser_download_url leitet oft zu AWS S3 oder ähnlichen Services um,
+     * was zu CORS-Problemen führen kann. Diese Funktion implementiert eine Fallback-Strategie:
+     * 1. Versucht zuerst einen direkten Download
+     * 2. Verwendet bei Fehlschlag CORS-Proxies als Alternative
+     * 
+     * @param {string} url - Die browser_download_url von der GitHub API
+     * @returns {Promise<File>} Die heruntergeladene Patch-Datei
+     */
 async function downloadReleaseAsset(url) {
     setStatus(`Lade Patch-Datei...`, true);
 
+    // Liste von CORS-Proxies als Fallback
+    // Diese Proxies leiten die Anfrage weiter und fügen die nötigen CORS-Header hinzu
+    const corsProxies = [
+        'https://corsproxy.io/?',
+        'https://api.allorigins.win/raw?url=',
+    ];
+
+    // Erst direkten Download versuchen
     try {
-        // Liste von CORS-Proxies
-        const proxies = [
-            `https://corsproxy.io/?${encodeURIComponent(url)}`,
-            `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`,
-            `https://crossorigin.me/${url}`
-        ];
-
-        let response;
-        let proxyIndex = 0;
-
-        while (!response && proxyIndex < proxies.length) {
-            try {
-                response = await fetch(proxies[proxyIndex], {timeout: 5000});
-                if (!response.ok) throw new Error();
-            } catch (e) {
-                proxyIndex++;
-                if (proxyIndex >= proxies.length) {
-                    throw new Error(`Alle verfügbaren Proxies fehlgeschlagen`);
-                }
-            }
+        const response = await fetch(url);
+        if (response.ok) {
+            const blob = await response.blob();
+            const filename = url.split('/').pop() || FALLBACK_FILENAME;
+            return new File([blob], filename, {type: 'application/octet-stream'});
         }
-
-        const blob = await response.blob();
-        const filename = url.split('/').pop() || FALLBACK_FILENAME;
-
-        return new File([blob], filename, {type: 'application/octet-stream'});
     } catch (e) {
-        throw new Error(`Download fehlgeschlagen: ${e.message}`);
+        console.log('Direkter Download fehlgeschlagen, versuche CORS-Proxy:', e.message);
     }
+
+    // Falls direkter Download fehlschlägt, CORS-Proxies durchprobieren
+    for (const proxy of corsProxies) {
+        try {
+            const proxiedUrl = proxy + encodeURIComponent(url);
+            const response = await fetch(proxiedUrl);
+            
+            if (response.ok) {
+                const blob = await response.blob();
+                const filename = url.split('/').pop() || FALLBACK_FILENAME;
+                return new File([blob], filename, {type: 'application/octet-stream'});
+            }
+        } catch (e) {
+            console.log(`CORS-Proxy ${proxy} fehlgeschlagen:`, e.message);
+            continue;
+        }
+    }
+
+    throw new Error('Download fehlgeschlagen: Alle Downloadversuche (direkt und über CORS-Proxies) sind fehlgeschlagen');
 }
 
     // Die Datei in das Formular einfügen

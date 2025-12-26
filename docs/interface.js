@@ -337,11 +337,12 @@ function begin_patch(bsp, input, filename, button) {
         try {
             // Liste von CORS-Proxies
             const proxies = [
-                // `https://corsproxy.io/?key=ac30d98e&url=${url}`,
-                `https://api.cors.lol/?url=${encodeURIComponent(url)}`//,
-                // `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`,
-                // `https://crossorigin.me/${url}`,
-                // `https://api.thebugging.com/cors-proxy?url=${encodeURIComponent(url)}`
+                // `https://corsproxy.io/?key=ac30d98e&url=${encodeURIComponent(url)}`,
+                `https://api.cors.lol/?url=${encodeURIComponent(url)}`,
+                `https://cors-proxy.htmldriven.com/?url=${encodeURIComponent(url)}`,
+                `https://thingproxy.freeboard.io/fetch/${encodeURIComponent(url)}`,
+                `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`,
+                `https://alloworigin.com/get?url=${encodeURIComponent(url)}`
             ];
 
             let response;

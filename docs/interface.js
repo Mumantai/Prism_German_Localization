@@ -10,7 +10,7 @@ function patch(button) {
 
     const filename = fileInput.files[0].name;
     button.disabled = true;
-    
+
     // Hide the result container when patching starts
     const resultContainer = document.getElementById("result");
     resultContainer.classList.add("hidden");
@@ -18,7 +18,7 @@ function patch(button) {
     let bsp_data, input_data;
 
     const bsp_file_reader = new FileReader();
-    bsp_file_reader.onload = function() {
+    bsp_file_reader.onload = function () {
         bsp_data = bsp_file_reader.result;
         if (input_data !== undefined) {
             begin_patch(bsp_data, input_data, filename, button);
@@ -27,7 +27,7 @@ function patch(button) {
     };
 
     const input_file_reader = new FileReader();
-    input_file_reader.onload = function() {
+    input_file_reader.onload = function () {
         input_data = input_file_reader.result;
         if (bsp_data !== undefined) {
             begin_patch(bsp_data, input_data, filename, button);
@@ -58,18 +58,18 @@ function create_message(message) {
 
 function create_menu(options, callback) {
     const messages = document.getElementById("messages");
-    
+
     // Container anzeigen, wenn er bisher versteckt war
     if (messages.classList.contains("hidden")) {
         messages.classList.remove("hidden");
     }
-    
+
     const div = document.createElement("div");
     div.style.display = "flex";
     div.style.flexWrap = "wrap";
     div.style.gap = "10px";
     div.style.marginBottom = "15px";
-    
+
     for (let n = 0; n < options.length; n++) {
         const option = document.createElement("input");
         option.type = "button";
@@ -81,14 +81,14 @@ function create_menu(options, callback) {
         option.style.borderRadius = "4px";
         option.style.cursor = "pointer";
         option.style.transition = "background-color 0.2s";
-        
-        option.onmouseover = function() {
+
+        option.onmouseover = function () {
             option.style.backgroundColor = "var(--primary-color-dark)";
         };
-        option.onmouseout = function() {
+        option.onmouseout = function () {
             option.style.backgroundColor = "var(--primary-color)";
         };
-        
+
         option.onclick = (function (num) {
             const p = document.createElement("p");
             p.style.fontStyle = "italic";
@@ -99,7 +99,7 @@ function create_menu(options, callback) {
         }).bind(null, n);
         div.appendChild(option);
     }
-    
+
     if (messages.firstChild) {
         messages.firstChild.style.color = "#666666";
         messages.insertBefore(div, messages.firstChild);
@@ -150,7 +150,7 @@ function begin_patch(bsp, input, filename, button) {
 
         patcher.menu = function (options) {
             const messages = document.getElementById("messages");
-            
+
             // Container anzeigen, wenn er bisher versteckt war
             if (messages.classList.contains("hidden")) {
                 messages.classList.remove("hidden");
@@ -179,31 +179,31 @@ function begin_patch(bsp, input, filename, button) {
                 button.style.borderRadius = "4px";
                 button.style.cursor = "pointer";
                 button.style.transition = "background-color 0.2s";
-                
-                button.onmouseover = function() {
+
+                button.onmouseover = function () {
                     button.style.backgroundColor = "var(--primary-color-dark)";
                 };
-                button.onmouseout = function() {
+                button.onmouseout = function () {
                     button.style.backgroundColor = "var(--primary-color)";
                 };
-                
+
                 button.onclick = function () {
                     // Entferne das Menu aus den Nachrichten
                     const menuElements = messages.querySelectorAll('.menu-options, p[style*="font-weight: bold"]');
                     menuElements.forEach(el => el.remove());
-                    
+
                     // Füge Auswahl-Nachricht hinzu
                     const selectionMessage = document.createElement("p");
                     selectionMessage.textContent = "Ausgewählt: " + option;
                     selectionMessage.style.fontStyle = "italic";
                     selectionMessage.style.color = "var(--text-muted)";
-                    
+
                     if (messages.firstChild) {
                         messages.insertBefore(selectionMessage, messages.firstChild);
                     } else {
                         messages.appendChild(selectionMessage);
                     }
-                    
+
                     patch_result.innerHTML = "";
                     patcher.run(index);
                 };
@@ -218,7 +218,7 @@ function begin_patch(bsp, input, filename, button) {
                 messages.appendChild(menuTitle);
                 messages.appendChild(menuList);
             }
-            
+
             patch_result.innerHTML = "";
         };
 
@@ -229,9 +229,9 @@ function begin_patch(bsp, input, filename, button) {
             // Transform patch button into download button
             button.textContent = "Gepatchte Datei herunterladen";
             button.disabled = false;
-            
+
             // Create download functionality for the button
-            button.onclick = function() {
+            button.onclick = function () {
                 var downloadElement = document.createElement("a");
                 downloadElement.href = URL.createObjectURL(new Blob([result]));
                 downloadElement.download = outputFilename;
@@ -259,8 +259,7 @@ function begin_patch(bsp, input, filename, button) {
         };
 
         patcher.run();
-    }
-    catch (error) {
+    } catch (error) {
         console.error("Patch-Fehler:", error);
         // Show result container again for error display
         const resultContainer = document.getElementById("result");
@@ -332,40 +331,40 @@ function begin_patch(bsp, input, filename, button) {
     }
 
     // Die Datei über einen CORS-Proxy herunterladen
-async function downloadReleaseAsset(url) {
-    setStatus(`Lade Patch-Datei...`, true);
+    async function downloadReleaseAsset(url) {
+        setStatus(`Lade Patch-Datei...`, true);
 
-    try {
-        // Liste von CORS-Proxies
-        const proxies = [
-            `https://corsproxy.io/?${encodeURIComponent(url)}`,
-            `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`,
-            `https://crossorigin.me/${url}`
-        ];
+        try {
+            // Liste von CORS-Proxies
+            const proxies = [
+                `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`,
+                `https://crossorigin.me/${url}`,
+                `https://api.thebugging.com/cors-proxy?url=${encodeURIComponent(url)}`
+            ];
 
-        let response;
-        let proxyIndex = 0;
+            let response;
+            let proxyIndex = 0;
 
-        while (!response && proxyIndex < proxies.length) {
-            try {
-                response = await fetch(proxies[proxyIndex], {timeout: 5000});
-                if (!response.ok) throw new Error();
-            } catch (e) {
-                proxyIndex++;
-                if (proxyIndex >= proxies.length) {
-                    throw new Error(`Alle verfügbaren Proxies fehlgeschlagen`);
+            while (!response && proxyIndex < proxies.length) {
+                try {
+                    response = await fetch(proxies[proxyIndex], {timeout: 5000});
+                    if (!response.ok) throw new Error();
+                } catch (e) {
+                    proxyIndex++;
+                    if (proxyIndex >= proxies.length) {
+                        throw new Error(`Alle verfügbaren Proxies fehlgeschlagen`);
+                    }
                 }
             }
+
+            const blob = await response.blob();
+            const filename = url.split('/').pop() || FALLBACK_FILENAME;
+
+            return new File([blob], filename, {type: 'application/octet-stream'});
+        } catch (e) {
+            throw new Error(`Download fehlgeschlagen: ${e.message}`);
         }
-
-        const blob = await response.blob();
-        const filename = url.split('/').pop() || FALLBACK_FILENAME;
-
-        return new File([blob], filename, {type: 'application/octet-stream'});
-    } catch (e) {
-        throw new Error(`Download fehlgeschlagen: ${e.message}`);
     }
-}
 
     // Die Datei in das Formular einfügen
     function setFileInput(file) {
@@ -479,7 +478,6 @@ async function downloadReleaseAsset(url) {
     });
 
 
-
     // Hauptfunktion
     async function autoLoadPatch() {
         try {
@@ -506,11 +504,11 @@ async function downloadReleaseAsset(url) {
     function initThemeToggle() {
         const themeToggle = document.getElementById('theme-toggle');
         const iconPath = document.getElementById('icon-path');
-        
+
         // SVG paths for moon and sun icons
         const moonPath = "M21.64,13a1,1,0,0,0-1.05-.14,8.05,8.05,0,0,1-3.37.73A8.15,8.15,0,0,1,9.08,5.49a8.59,8.59,0,0,1,.25-2A1,1,0,0,0,8,2.36,10.14,10.14,0,1,0,22,14.05,1,1,0,0,0,21.64,13Zm-9.5,6.69A8.14,8.14,0,0,1,7.08,5.22v.27A10.15,10.15,0,0,0,17.22,15.63a9.79,9.79,0,0,0,2.1-.22A8.11,8.11,0,0,1,12.14,19.73Z";
         const sunPath = "M5.64,17l-.71.71a1,1,0,0,0,0,1.41,1,1,0,0,0,1.41,0l.71-.71A1,1,0,0,0,5.64,17ZM5,12a1,1,0,0,0-1-1H3a1,1,0,0,0,0,2H4A1,1,0,0,0,5,12Zm7-7a1,1,0,0,0,1-1V3a1,1,0,0,0-2,0V4A1,1,0,0,0,12,5ZM5.64,7.05a1,1,0,0,0,.7.29,1,1,0,0,0,.71-.29,1,1,0,0,0,0-1.41l-.71-.71A1,1,0,0,0,4.93,6.34Zm12,.29a1,1,0,0,0,.7-.29l.71-.71a1,1,0,1,0-1.41-1.41L17,5.64a1,1,0,0,0,0,1.41A1,1,0,0,0,17.66,7.34ZM21,11H20a1,1,0,0,0,0,2h1a1,1,0,0,0,0-2Zm-9,8a1,1,0,0,0-1,1v1a1,1,0,0,0,2,0V20A1,1,0,0,0,12,19ZM18.36,17A1,1,0,0,0,17,18.36l.71.71a1,1,0,0,0,1.41,0,1,1,0,0,0,0-1.41ZM12,6.5A5.5,5.5,0,1,0,17.5,12,5.51,5.51,0,0,0,12,6.5Zm0,9A3.5,3.5,0,1,1,15.5,12,3.5,3.5,0,0,1,12,15.5Z";
-        
+
         // Get user's saved theme preference or detect system preference
         function getPreferredTheme() {
             const savedTheme = localStorage.getItem('theme');
@@ -519,7 +517,7 @@ async function downloadReleaseAsset(url) {
             }
             return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
         }
-        
+
         // Apply theme to body and update icon
         function applyTheme(theme) {
             document.body.className = theme + '-theme';
@@ -528,20 +526,20 @@ async function downloadReleaseAsset(url) {
             }
             localStorage.setItem('theme', theme);
         }
-        
+
         // Toggle between light and dark themes
         function toggleTheme() {
             const currentTheme = document.body.classList.contains('dark-theme') ? 'dark' : 'light';
             const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
             applyTheme(newTheme);
         }
-        
+
         // Initialize theme on page load
         applyTheme(getPreferredTheme());
-        
+
         // Add click event listener
         themeToggle.addEventListener('click', toggleTheme);
-        
+
         // Listen for system theme changes when no manual preference is set
         window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
             if (!localStorage.getItem('theme')) {

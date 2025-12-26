@@ -359,9 +359,11 @@ async function downloadReleaseAsset(url) {
             const blob = await response.blob();
             const filename = url.split('/').pop() || FALLBACK_FILENAME;
             return new File([blob], filename, {type: 'application/octet-stream'});
+        } else {
+            console.log(`Direkter Download fehlgeschlagen (HTTP ${response.status}), versuche CORS-Proxy`);
         }
     } catch (e) {
-        console.log('Direkter Download fehlgeschlagen, versuche CORS-Proxy:', e.message);
+        console.log('Direkter Download fehlgeschlagen:', e.message);
     }
 
     // Falls direkter Download fehlschlägt, CORS-Proxies durchprobieren
@@ -374,10 +376,11 @@ async function downloadReleaseAsset(url) {
                 const blob = await response.blob();
                 const filename = url.split('/').pop() || FALLBACK_FILENAME;
                 return new File([blob], filename, {type: 'application/octet-stream'});
+            } else {
+                console.log(`CORS-Proxy ${proxy} fehlgeschlagen (HTTP ${response.status})`);
             }
         } catch (e) {
-            console.log(`CORS-Proxy ${proxy} fehlgeschlagen:`, e.message);
-            continue;
+            console.log(`CORS-Proxy ${proxy} Fehler:`, e.message);
         }
     }
 

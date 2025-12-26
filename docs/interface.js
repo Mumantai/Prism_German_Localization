@@ -331,43 +331,25 @@ function begin_patch(bsp, input, filename, button) {
     }
 
     // Die Datei über einen CORS-Proxy herunterladen
-    async function downloadReleaseAsset(url) {
-        setStatus(`Lade Patch-Datei...`, true);
+    async function downloadReleaseAsset() {
+        setStatus('Lade Patch-Datei...', true);
 
         try {
-            // Liste von CORS-Proxies
-            const proxies = [
-                // `https://corsproxy.io/?key=ac30d98e&url=${encodeURIComponent(url)}`,
-                `https://api.cors.lol/?url=${encodeURIComponent(url)}`,
-                `https://cors-proxy.htmldriven.com/?url=${encodeURIComponent(url)}`,
-                `https://thingproxy.freeboard.io/fetch/${encodeURIComponent(url)}`,
-                `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`,
-                `https://alloworigin.com/get?url=${encodeURIComponent(url)}`
-            ];
-
-            let response;
-            let proxyIndex = 0;
-
-            while (!response && proxyIndex < proxies.length) {
-                try {
-                    response = await fetch(proxies[proxyIndex], {timeout: 5000});
-                    if (!response.ok) throw new Error();
-                } catch (e) {
-                    proxyIndex++;
-                    if (proxyIndex >= proxies.length) {
-                        throw new Error(`Alle verfügbaren Proxies fehlgeschlagen`);
-                    }
-                }
+            const githubPagesUrl = 'https://mumantai.github.io/Prism_German_Localization/pokeprism.bsp';
+            const response = await fetch(githubPagesUrl);
+            if (!response.ok) {
+                throw new Error(`HTTP-Fehler: ${response.status}`);
             }
 
             const blob = await response.blob();
-            const filename = url.split('/').pop() || FALLBACK_FILENAME;
+            const filename = githubPagesUrl.split('/').pop();
 
-            return new File([blob], filename, {type: 'application/octet-stream'});
+            return new File([blob], filename, { type: 'application/octet-stream' });
         } catch (e) {
             throw new Error(`Download fehlgeschlagen: ${e.message}`);
         }
     }
+
 
     // Die Datei in das Formular einfügen
     function setFileInput(file) {

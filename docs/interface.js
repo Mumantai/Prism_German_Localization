@@ -331,11 +331,22 @@ function begin_patch(bsp, input, filename, button) {
         }
     }
 
-    // Die Datei von GitHub herunterladen (mit CORS-Proxy, da browser_download_url oft zu Redirects führt)
+    /**
+     * Lädt die Patch-Datei von GitHub herunter
+     * 
+     * GitHub's browser_download_url leitet oft zu AWS S3 oder ähnlichen Services um,
+     * was zu CORS-Problemen führen kann. Diese Funktion implementiert eine Fallback-Strategie:
+     * 1. Versucht zuerst einen direkten Download
+     * 2. Verwendet bei Fehlschlag CORS-Proxies als Alternative
+     * 
+     * @param {string} url - Die browser_download_url von der GitHub API
+     * @returns {Promise<File>} Die heruntergeladene Patch-Datei
+     */
 async function downloadReleaseAsset(url) {
     setStatus(`Lade Patch-Datei...`, true);
 
     // Liste von CORS-Proxies als Fallback
+    // Diese Proxies leiten die Anfrage weiter und fügen die nötigen CORS-Header hinzu
     const corsProxies = [
         'https://corsproxy.io/?',
         'https://api.allorigins.win/raw?url=',

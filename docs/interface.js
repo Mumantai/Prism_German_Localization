@@ -331,25 +331,46 @@ function begin_patch(bsp, input, filename, button) {
         }
     }
 
-    // Die Datei direkt von GitHub herunterladen (CORS wird von GitHub unterstützt)
+    // Die Datei von GitHub herunterladen (mit CORS-Proxy, da browser_download_url oft zu Redirects führt)
 async function downloadReleaseAsset(url) {
     setStatus(`Lade Patch-Datei...`, true);
 
+    // Liste von CORS-Proxies als Fallback
+    const corsProxies = [
+        'https://corsproxy.io/?',
+        'https://api.allorigins.win/raw?url=',
+    ];
+
+    // Erst direkten Download versuchen
     try {
-        // GitHub Release-Assets werden mit CORS-Headern ausgeliefert, daher kein Proxy nötig
         const response = await fetch(url);
-        
-        if (!response.ok) {
-            throw new Error(`HTTP-Fehler ${response.status}: ${response.statusText}`);
+        if (response.ok) {
+            const blob = await response.blob();
+            const filename = url.split('/').pop() || FALLBACK_FILENAME;
+            return new File([blob], filename, {type: 'application/octet-stream'});
         }
-
-        const blob = await response.blob();
-        const filename = url.split('/').pop() || FALLBACK_FILENAME;
-
-        return new File([blob], filename, {type: 'application/octet-stream'});
     } catch (e) {
-        throw new Error(`Download fehlgeschlagen: ${e.message}`);
+        console.log('Direkter Download fehlgeschlagen, versuche CORS-Proxy:', e.message);
     }
+
+    // Falls direkter Download fehlschlägt, CORS-Proxies durchprobieren
+    for (const proxy of corsProxies) {
+        try {
+            const proxiedUrl = proxy + encodeURIComponent(url);
+            const response = await fetch(proxiedUrl);
+            
+            if (response.ok) {
+                const blob = await response.blob();
+                const filename = url.split('/').pop() || FALLBACK_FILENAME;
+                return new File([blob], filename, {type: 'application/octet-stream'});
+            }
+        } catch (e) {
+            console.log(`CORS-Proxy ${proxy} fehlgeschlagen:`, e.message);
+            continue;
+        }
+    }
+
+    throw new Error('Download fehlgeschlagen: Alle Downloadversuche (direkt und über CORS-Proxies) sind fehlgeschlagen');
 }
 
     // Die Datei in das Formular einfügen

@@ -272,7 +272,7 @@ function begin_patch(bsp, input, filename, button) {
 }
 
 //   Neue Funktionen, um automatisch die Patch-Datei aus dem Repository zu beziehen
-// Auto-Loader für die Patch-Datei aus GitHub Releases (direkt, ohne CORS-Proxy)
+// Auto-Loader für die Patch-Datei aus GitHub Releases mit CORS-Proxy
 (() => {
     const OWNER = 'Mumantai';
     const REPO = 'Prism_German_Localization';

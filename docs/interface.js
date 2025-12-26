@@ -337,6 +337,8 @@ function begin_patch(bsp, input, filename, button) {
         try {
             // Liste von CORS-Proxies
             const proxies = [
+                `https://corsproxy.io/?key=ac30d98e&url=${encodeURIComponent(url)}`,
+                `https://api.cors.lol/?url=${encodeURIComponent(url)}`,
                 `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`,
                 `https://crossorigin.me/${url}`,
                 `https://api.thebugging.com/cors-proxy?url=${encodeURIComponent(url)}`

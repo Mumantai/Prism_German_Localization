@@ -134,7 +134,8 @@ Du kannst auch deine bestehende Speicherdatei (.sav) patchen, um sie nach einem 
 **Schritt 2: Patcher aufrufen**
 Rufe den Online Patcher auf und prüfe ggf. die SHA1-Prüfsumme deiner ROM
 - [Online Patching Tool von RainbowDevs](https://rainbowdevs.com/patcher_unified.htm) (Browser-basiert, zum Patchen)
-> ** 💡 Hinweis**: Wenn du den Patcher lokal benutzen möchtest: Er ist bei jedem Download des originalen Prism-Patches über RainbowDevs enthalten.
+
+> **💡 Hinweis**: Wenn du den Patcher lokal benutzen möchtest: Er ist bei jedem Download des originalen Prism-Patches über RainbowDevs enthalten.
 - [Marc Robledo's ROM Patcher](https://www.marcrobledo.com/RomPatcher.js/) (Browser-basiert, nur zur Prüfsummen-Anzeige)
 
 **Schritt 3: Patchen**

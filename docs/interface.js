@@ -241,7 +241,7 @@ function begin_patch(bsp, input, filename, button) {
                 document.body.appendChild(downloadElement);
                 downloadElement.click();
                 document.body.removeChild(downloadElement);
-                setTimeout(function () { URL.revokeObjectURL(url); }, 30000);
+                setTimeout(function () { URL.revokeObjectURL(url); }, 1000);
             };
         };
 

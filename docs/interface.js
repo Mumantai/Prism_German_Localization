@@ -232,13 +232,16 @@ function begin_patch(bsp, input, filename, button) {
 
             // Create download functionality for the button
             button.onclick = function () {
+                var blob = new Blob([result], { type: "application/octet-stream" });
+                var url = URL.createObjectURL(blob);
                 var downloadElement = document.createElement("a");
-                downloadElement.href = URL.createObjectURL(new Blob([result]));
+                downloadElement.href = url;
                 downloadElement.download = outputFilename;
                 downloadElement.style.display = "none";
                 document.body.appendChild(downloadElement);
                 downloadElement.click();
                 document.body.removeChild(downloadElement);
+                setTimeout(function () { URL.revokeObjectURL(url); }, 1000);
             };
         };
 
